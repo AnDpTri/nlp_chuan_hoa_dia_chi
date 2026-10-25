@@ -6,3 +6,9 @@ __pycache__/
 
 # log khi chạy agy
 data/agy_*log*.txt
+
+# Large source extracts and transient model logs for held-out evaluation data
+data/test/goc/*.pbf
+data/test/goc/*.part
+data/test/agy/logs/
+data/test/goc/osm_public_candidates.jsonl

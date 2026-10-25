@@ -1,0 +1,167 @@
+[
+  {
+    "id": "VNTEST0386",
+    "so_nha": "2/5",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Phạm Ngọc Thạch",
+    "ten_xa": "Trần Phú",
+    "ten_huyen": "Quy Nhơn",
+    "ten_tinh": "Bình Định",
+    "ghi_chu": "so_nha_co_dau_gach_cheo_can_duyet"
+  },
+  {
+    "id": "VNTEST0387",
+    "so_nha": "31E",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Biệt Thự",
+    "ten_xa": "Lộc Thọ",
+    "ten_huyen": "Nha Trang",
+    "ten_tinh": "Khánh Hòa",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0388",
+    "so_nha": "",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Trần Quý Cáp",
+    "ten_xa": "Mỹ Đông",
+    "ten_huyen": "Phan Rang - Tháp Chàm",
+    "ten_tinh": "Ninh Thuận",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0389",
+    "so_nha": "GW5W+JW6",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "P. Đi Bộ Roman",
+    "ten_xa": "Tam Thanh",
+    "ten_huyen": "Phú Quý",
+    "ten_tinh": "Bình Thuận",
+    "ghi_chu": "so_nha_la_plus_code"
+  },
+  {
+    "id": "VNTEST0390",
+    "so_nha": "250",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Trần Văn Hai",
+    "ten_xa": "Trường Chinh",
+    "ten_huyen": "Kon Tum",
+    "ten_tinh": "",
+    "ghi_chu": "kon_tum_co_the_la_tp_hoac_tinh"
+  },
+  {
+    "id": "VNTEST0391",
+    "so_nha": "",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Đường Cách Mạng",
+    "ten_xa": "Xã Bờ Ngoong",
+    "ten_huyen": "",
+    "ten_tinh": "Gia Lai",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0392",
+    "so_nha": "88",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Nguyễn Tất Thành",
+    "ten_xa": "Thị trấn Ea Kar",
+    "ten_huyen": "Ea Kar",
+    "ten_tinh": "Đắk Lắk",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0393",
+    "so_nha": "",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Tân Phú",
+    "ten_xa": "Đắk Ru",
+    "ten_huyen": "Đắk R'Lấp",
+    "ten_tinh": "Đắk Nông",
+    "ghi_chu": "tan_phu_co_the_la_thon_hoac_duong"
+  },
+  {
+    "id": "VNTEST0394",
+    "so_nha": "F12khu quy hoạch",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Hoàng Diệu",
+    "ten_xa": "Phường 5",
+    "ten_huyen": "Da Lat",
+    "ten_tinh": "Lâm Đồng",
+    "ghi_chu": "so_nha_kem_khu_quy_hoach"
+  },
+  {
+    "id": "VNTEST0395",
+    "so_nha": "",
+    "ngo_ngach_hem": "",
+    "thon_xom": "Thôn Khắc Khoan",
+    "duong": "ĐT741",
+    "ten_xa": "Xã Phú Nghĩa",
+    "ten_huyen": "Huyện Bù Gia Mập",
+    "ten_tinh": "Bình Phước",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0396",
+    "so_nha": "843M+8JC",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "",
+    "ten_xa": "",
+    "ten_huyen": "Hòa Thành District",
+    "ten_tinh": "Tây Ninh",
+    "ghi_chu": "so_nha_la_plus_code"
+  },
+  {
+    "id": "VNTEST0397",
+    "so_nha": "",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Đường Đồng Khởi",
+    "ten_xa": "Phường Tân Phong",
+    "ten_huyen": "Thành phố Biên Hòa",
+    "ten_tinh": "Tỉnh Đồng Nai",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0398",
+    "so_nha": "34",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Trần Hưng Đạo",
+    "ten_xa": "1",
+    "ten_huyen": "Vũng Tàu",
+    "ten_tinh": "Bà Rịa - Vũng Tàu",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0399",
+    "so_nha": "",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "ĐT. 826B",
+    "ten_xa": "Long Hựu Đông",
+    "ten_huyen": "Cần Đước",
+    "ten_tinh": "Long An",
+    "ghi_chu": ""
+  },
+  {
+    "id": "VNTEST0400",
+    "so_nha": "5454",
+    "ngo_ngach_hem": "",
+    "thon_xom": "",
+    "duong": "Lê Văn Phẩm",
+    "ten_xa": "5",
+    "ten_huyen": "Mỹ Tho",
+    "ten_tinh": "Tiền Giang",
+    "ghi_chu": ""
+  }
+]
