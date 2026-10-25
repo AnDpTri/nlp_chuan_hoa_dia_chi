@@ -1,0 +1,24 @@
+Nhiệm vụ: sửa lỗi đặt dấu thanh trong bước làm sạch dữ liệu hành chính. Không cần truy cập mạng.
+
+Script làm sạch: D:\nlp_chuan_hoa_dia_chi\data\clean\scripts\clean_and_validate.py
+Dữ liệu gốc (chỉ đọc, KHÔNG sửa): D:\nlp_chuan_hoa_dia_chi\data\raw
+Dữ liệu sạch (do script sinh ra): D:\nlp_chuan_hoa_dia_chi\data\clean
+
+LỖI: bước chuẩn hóa dấu thanh kiểu mới đang thay chuỗi một cách máy móc, nên làm hỏng các âm tiết có phụ âm cuối. Ví dụ: Hoàng thành Hòang, Hoàn Kiếm thành Hòan Kiếm, Hoàng Mai thành Hòang Mai. Bản trong data\raw không có lỗi này, lỗi do script tạo ra. Hiện có khoảng 340 ô bị lỗi trong moi_tinh_xa.csv, cu_huyen.csv, cu_tinh_huyen_xa.csv, doi_chieu_xa_cu_moi.csv.
+
+QUY TẮC ĐÚNG (dấu thanh kiểu mới):
+- Chỉ áp dụng cho các vần oa, oe, uy khi vần đó đứng CUỐI âm tiết (không có phụ âm cuối hay nguyên âm nào theo sau). Khi đó dấu đặt trên nguyên âm thứ hai: hoà thành hòa, khoẻ thành khỏe, thuỵ thành thụy, hoá thành hóa.
+- Nếu sau vần có phụ âm cuối (n, ng, nh, c, ch, m, p, t) thì dấu luôn nằm trên nguyên âm thứ hai và KHÔNG được đổi: Hoàng, Hoàn, Khoát, Thuyết, Toàn giữ nguyên.
+- Làm theo từng âm tiết (tách theo khoảng trắng và dấu gạch ngang), không thay chuỗi trên cả tên.
+- Ngoài phép đổi trên, không được thay đổi chữ nào khác trong tên.
+
+YÊU CẦU:
+1. Sửa hàm chuẩn hóa dấu trong script theo quy tắc trên.
+2. Chạy lại script bằng py -3.12 để sinh lại toàn bộ data\clean.
+3. Thêm vào phần tự kiểm tra của script:
+   - Không còn âm tiết nào có dạng o hoặc u mang dấu thanh rồi tới a, e, y và sau đó là phụ âm cuối (ví dụ Hòang, Hòan, Thúyết). Nếu còn thì báo lỗi.
+   - So với data\raw: sau khi bỏ hết dấu và viết thường, mọi tên trong data\clean phải giống hệt tên tương ứng trong data\raw (cùng mã). Như vậy đảm bảo chỉ đổi vị trí dấu, không đổi chữ. Ngoại lệ chỉ được phép với các dòng đã ghi trong sua_doi.csv.
+   - Trong doi_chieu_xa_cu_moi.csv, tên xã cũ và xã mới phải khớp đúng tên trong danh mục cũ và danh mục mới theo mã (sau khi bỏ phần loại Xã, Phường, Thị trấn, Đặc khu ở đầu). Hiện có khoảng 92 dòng tên xã cũ không khớp, hãy tìm nguyên nhân và sửa; nếu không có căn cứ trong file gốc thì ghi vào can_xem_lai.csv chứ không tự sửa.
+4. Cập nhật validation.json và BAO_CAO_CHUAN_HOA.md: ghi rõ lỗi đặt dấu đã sửa, số ô đã sửa, kết quả các kiểm tra mới.
+
+Không sửa file nào trong data\raw. Không chạy chương trình nào tải từ mạng.

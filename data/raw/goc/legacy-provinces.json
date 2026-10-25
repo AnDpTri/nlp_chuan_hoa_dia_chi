@@ -1,0 +1,506 @@
+[
+  {
+    "code": "01",
+    "name": "Hà Nội",
+    "type": "city",
+    "nameWithType": "Thành phố Hà Nội",
+    "slug": "ha-noi",
+    "normalizedName": "ha noi"
+  },
+  {
+    "code": "04",
+    "name": "Cao Bằng",
+    "type": "province",
+    "nameWithType": "Tỉnh Cao Bằng",
+    "slug": "cao-bang",
+    "normalizedName": "cao bang"
+  },
+  {
+    "code": "02",
+    "name": "Hà Giang",
+    "type": "province",
+    "nameWithType": "Tỉnh Hà Giang",
+    "slug": "ha-giang",
+    "normalizedName": "ha giang"
+  },
+  {
+    "code": "08",
+    "name": "Tuyên Quang",
+    "type": "province",
+    "nameWithType": "Tỉnh Tuyên Quang",
+    "slug": "tuyen-quang",
+    "normalizedName": "tuyen quang"
+  },
+  {
+    "code": "11",
+    "name": "Điện Biên",
+    "type": "province",
+    "nameWithType": "Tỉnh Điện Biên",
+    "slug": "dien-bien",
+    "normalizedName": "dien bien"
+  },
+  {
+    "code": "12",
+    "name": "Lai Châu",
+    "type": "province",
+    "nameWithType": "Tỉnh Lai Châu",
+    "slug": "lai-chau",
+    "normalizedName": "lai chau"
+  },
+  {
+    "code": "14",
+    "name": "Sơn La",
+    "type": "province",
+    "nameWithType": "Tỉnh Sơn La",
+    "slug": "son-la",
+    "normalizedName": "son la"
+  },
+  {
+    "code": "10",
+    "name": "Lào Cai",
+    "type": "province",
+    "nameWithType": "Tỉnh Lào Cai",
+    "slug": "lao-cai",
+    "normalizedName": "lao cai"
+  },
+  {
+    "code": "15",
+    "name": "Yên Bái",
+    "type": "province",
+    "nameWithType": "Tỉnh Yên Bái",
+    "slug": "yen-bai",
+    "normalizedName": "yen bai"
+  },
+  {
+    "code": "06",
+    "name": "Bắc Kạn",
+    "type": "province",
+    "nameWithType": "Tỉnh Bắc Kạn",
+    "slug": "bac-kan",
+    "normalizedName": "bac kan"
+  },
+  {
+    "code": "19",
+    "name": "Thái Nguyên",
+    "type": "province",
+    "nameWithType": "Tỉnh Thái Nguyên",
+    "slug": "thai-nguyen",
+    "normalizedName": "thai nguyen"
+  },
+  {
+    "code": "20",
+    "name": "Lạng Sơn",
+    "type": "province",
+    "nameWithType": "Tỉnh Lạng Sơn",
+    "slug": "lang-son",
+    "normalizedName": "lang son"
+  },
+  {
+    "code": "22",
+    "name": "Quảng Ninh",
+    "type": "province",
+    "nameWithType": "Tỉnh Quảng Ninh",
+    "slug": "quang-ninh",
+    "normalizedName": "quang ninh"
+  },
+  {
+    "code": "24",
+    "name": "Bắc Giang",
+    "type": "province",
+    "nameWithType": "Tỉnh Bắc Giang",
+    "slug": "bac-giang",
+    "normalizedName": "bac giang"
+  },
+  {
+    "code": "27",
+    "name": "Bắc Ninh",
+    "type": "province",
+    "nameWithType": "Tỉnh Bắc Ninh",
+    "slug": "bac-ninh",
+    "normalizedName": "bac ninh"
+  },
+  {
+    "code": "17",
+    "name": "Hoà Bình",
+    "type": "province",
+    "nameWithType": "Tỉnh Hoà Bình",
+    "slug": "hoa-binh",
+    "normalizedName": "hoa binh"
+  },
+  {
+    "code": "25",
+    "name": "Phú Thọ",
+    "type": "province",
+    "nameWithType": "Tỉnh Phú Thọ",
+    "slug": "phu-tho",
+    "normalizedName": "phu tho"
+  },
+  {
+    "code": "26",
+    "name": "Vĩnh Phúc",
+    "type": "province",
+    "nameWithType": "Tỉnh Vĩnh Phúc",
+    "slug": "vinh-phuc",
+    "normalizedName": "vinh phuc"
+  },
+  {
+    "code": "30",
+    "name": "Hải Dương",
+    "type": "province",
+    "nameWithType": "Tỉnh Hải Dương",
+    "slug": "hai-duong",
+    "normalizedName": "hai duong"
+  },
+  {
+    "code": "31",
+    "name": "Hải Phòng",
+    "type": "city",
+    "nameWithType": "Thành phố Hải Phòng",
+    "slug": "hai-phong",
+    "normalizedName": "hai phong"
+  },
+  {
+    "code": "33",
+    "name": "Hưng Yên",
+    "type": "province",
+    "nameWithType": "Tỉnh Hưng Yên",
+    "slug": "hung-yen",
+    "normalizedName": "hung yen"
+  },
+  {
+    "code": "34",
+    "name": "Thái Bình",
+    "type": "province",
+    "nameWithType": "Tỉnh Thái Bình",
+    "slug": "thai-binh",
+    "normalizedName": "thai binh"
+  },
+  {
+    "code": "35",
+    "name": "Hà Nam",
+    "type": "province",
+    "nameWithType": "Tỉnh Hà Nam",
+    "slug": "ha-nam",
+    "normalizedName": "ha nam"
+  },
+  {
+    "code": "36",
+    "name": "Nam Định",
+    "type": "province",
+    "nameWithType": "Tỉnh Nam Định",
+    "slug": "nam-dinh",
+    "normalizedName": "nam dinh"
+  },
+  {
+    "code": "37",
+    "name": "Ninh Bình",
+    "type": "province",
+    "nameWithType": "Tỉnh Ninh Bình",
+    "slug": "ninh-binh",
+    "normalizedName": "ninh binh"
+  },
+  {
+    "code": "38",
+    "name": "Thanh Hóa",
+    "type": "province",
+    "nameWithType": "Tỉnh Thanh Hóa",
+    "slug": "thanh-hoa",
+    "normalizedName": "thanh hoa"
+  },
+  {
+    "code": "40",
+    "name": "Nghệ An",
+    "type": "province",
+    "nameWithType": "Tỉnh Nghệ An",
+    "slug": "nghe-an",
+    "normalizedName": "nghe an"
+  },
+  {
+    "code": "42",
+    "name": "Hà Tĩnh",
+    "type": "province",
+    "nameWithType": "Tỉnh Hà Tĩnh",
+    "slug": "ha-tinh",
+    "normalizedName": "ha tinh"
+  },
+  {
+    "code": "44",
+    "name": "Quảng Bình",
+    "type": "province",
+    "nameWithType": "Tỉnh Quảng Bình",
+    "slug": "quang-binh",
+    "normalizedName": "quang binh"
+  },
+  {
+    "code": "45",
+    "name": "Quảng Trị",
+    "type": "province",
+    "nameWithType": "Tỉnh Quảng Trị",
+    "slug": "quang-tri",
+    "normalizedName": "quang tri"
+  },
+  {
+    "code": "46",
+    "name": "Huế",
+    "type": "city",
+    "nameWithType": "Thành phố Huế",
+    "slug": "hue",
+    "normalizedName": "hue"
+  },
+  {
+    "code": "48",
+    "name": "Đà Nẵng",
+    "type": "city",
+    "nameWithType": "Thành phố Đà Nẵng",
+    "slug": "da-nang",
+    "normalizedName": "da nang"
+  },
+  {
+    "code": "49",
+    "name": "Quảng Nam",
+    "type": "province",
+    "nameWithType": "Tỉnh Quảng Nam",
+    "slug": "quang-nam",
+    "normalizedName": "quang nam"
+  },
+  {
+    "code": "51",
+    "name": "Quảng Ngãi",
+    "type": "province",
+    "nameWithType": "Tỉnh Quảng Ngãi",
+    "slug": "quang-ngai",
+    "normalizedName": "quang ngai"
+  },
+  {
+    "code": "62",
+    "name": "Kon Tum",
+    "type": "province",
+    "nameWithType": "Tỉnh Kon Tum",
+    "slug": "kon-tum",
+    "normalizedName": "kon tum"
+  },
+  {
+    "code": "52",
+    "name": "Bình Định",
+    "type": "province",
+    "nameWithType": "Tỉnh Bình Định",
+    "slug": "binh-dinh",
+    "normalizedName": "binh dinh"
+  },
+  {
+    "code": "64",
+    "name": "Gia Lai",
+    "type": "province",
+    "nameWithType": "Tỉnh Gia Lai",
+    "slug": "gia-lai",
+    "normalizedName": "gia lai"
+  },
+  {
+    "code": "56",
+    "name": "Khánh Hòa",
+    "type": "province",
+    "nameWithType": "Tỉnh Khánh Hòa",
+    "slug": "khanh-hoa",
+    "normalizedName": "khanh hoa"
+  },
+  {
+    "code": "58",
+    "name": "Ninh Thuận",
+    "type": "province",
+    "nameWithType": "Tỉnh Ninh Thuận",
+    "slug": "ninh-thuan",
+    "normalizedName": "ninh thuan"
+  },
+  {
+    "code": "54",
+    "name": "Phú Yên",
+    "type": "province",
+    "nameWithType": "Tỉnh Phú Yên",
+    "slug": "phu-yen",
+    "normalizedName": "phu yen"
+  },
+  {
+    "code": "66",
+    "name": "Đắk Lắk",
+    "type": "province",
+    "nameWithType": "Tỉnh Đắk Lắk",
+    "slug": "dak-lak",
+    "normalizedName": "dak lak"
+  },
+  {
+    "code": "60",
+    "name": "Bình Thuận",
+    "type": "province",
+    "nameWithType": "Tỉnh Bình Thuận",
+    "slug": "binh-thuan",
+    "normalizedName": "binh thuan"
+  },
+  {
+    "code": "67",
+    "name": "Đắk Nông",
+    "type": "province",
+    "nameWithType": "Tỉnh Đắk Nông",
+    "slug": "dak-nong",
+    "normalizedName": "dak nong"
+  },
+  {
+    "code": "68",
+    "name": "Lâm Đồng",
+    "type": "province",
+    "nameWithType": "Tỉnh Lâm Đồng",
+    "slug": "lam-dong",
+    "normalizedName": "lam dong"
+  },
+  {
+    "code": "70",
+    "name": "Bình Phước",
+    "type": "province",
+    "nameWithType": "Tỉnh Bình Phước",
+    "slug": "binh-phuoc",
+    "normalizedName": "binh phuoc"
+  },
+  {
+    "code": "75",
+    "name": "Đồng Nai",
+    "type": "province",
+    "nameWithType": "Tỉnh Đồng Nai",
+    "slug": "dong-nai",
+    "normalizedName": "dong nai"
+  },
+  {
+    "code": "74",
+    "name": "Bình Dương",
+    "type": "province",
+    "nameWithType": "Tỉnh Bình Dương",
+    "slug": "binh-duong",
+    "normalizedName": "binh duong"
+  },
+  {
+    "code": "77",
+    "name": "Bà Rịa - Vũng Tàu",
+    "type": "province",
+    "nameWithType": "Tỉnh Bà Rịa - Vũng Tàu",
+    "slug": "ba-ria-vung-tau",
+    "normalizedName": "ba ria - vung tau"
+  },
+  {
+    "code": "79",
+    "name": "Hồ Chí Minh",
+    "type": "city",
+    "nameWithType": "Thành phố Hồ Chí Minh",
+    "slug": "ho-chi-minh",
+    "normalizedName": "ho chi minh"
+  },
+  {
+    "code": "72",
+    "name": "Tây Ninh",
+    "type": "province",
+    "nameWithType": "Tỉnh Tây Ninh",
+    "slug": "tay-ninh",
+    "normalizedName": "tay ninh"
+  },
+  {
+    "code": "80",
+    "name": "Long An",
+    "type": "province",
+    "nameWithType": "Tỉnh Long An",
+    "slug": "long-an",
+    "normalizedName": "long an"
+  },
+  {
+    "code": "82",
+    "name": "Tiền Giang",
+    "type": "province",
+    "nameWithType": "Tỉnh Tiền Giang",
+    "slug": "tien-giang",
+    "normalizedName": "tien giang"
+  },
+  {
+    "code": "87",
+    "name": "Đồng Tháp",
+    "type": "province",
+    "nameWithType": "Tỉnh Đồng Tháp",
+    "slug": "dong-thap",
+    "normalizedName": "dong thap"
+  },
+  {
+    "code": "83",
+    "name": "Bến Tre",
+    "type": "province",
+    "nameWithType": "Tỉnh Bến Tre",
+    "slug": "ben-tre",
+    "normalizedName": "ben tre"
+  },
+  {
+    "code": "84",
+    "name": "Trà Vinh",
+    "type": "province",
+    "nameWithType": "Tỉnh Trà Vinh",
+    "slug": "tra-vinh",
+    "normalizedName": "tra vinh"
+  },
+  {
+    "code": "86",
+    "name": "Vĩnh Long",
+    "type": "province",
+    "nameWithType": "Tỉnh Vĩnh Long",
+    "slug": "vinh-long",
+    "normalizedName": "vinh long"
+  },
+  {
+    "code": "89",
+    "name": "An Giang",
+    "type": "province",
+    "nameWithType": "Tỉnh An Giang",
+    "slug": "an-giang",
+    "normalizedName": "an giang"
+  },
+  {
+    "code": "91",
+    "name": "Kiên Giang",
+    "type": "province",
+    "nameWithType": "Tỉnh Kiên Giang",
+    "slug": "kien-giang",
+    "normalizedName": "kien giang"
+  },
+  {
+    "code": "92",
+    "name": "Cần Thơ",
+    "type": "city",
+    "nameWithType": "Thành phố Cần Thơ",
+    "slug": "can-tho",
+    "normalizedName": "can tho"
+  },
+  {
+    "code": "93",
+    "name": "Hậu Giang",
+    "type": "province",
+    "nameWithType": "Tỉnh Hậu Giang",
+    "slug": "hau-giang",
+    "normalizedName": "hau giang"
+  },
+  {
+    "code": "94",
+    "name": "Sóc Trăng",
+    "type": "province",
+    "nameWithType": "Tỉnh Sóc Trăng",
+    "slug": "soc-trang",
+    "normalizedName": "soc trang"
+  },
+  {
+    "code": "95",
+    "name": "Bạc Liêu",
+    "type": "province",
+    "nameWithType": "Tỉnh Bạc Liêu",
+    "slug": "bac-lieu",
+    "normalizedName": "bac lieu"
+  },
+  {
+    "code": "96",
+    "name": "Cà Mau",
+    "type": "province",
+    "nameWithType": "Tỉnh Cà Mau",
+    "slug": "ca-mau",
+    "normalizedName": "ca mau"
+  }
+]

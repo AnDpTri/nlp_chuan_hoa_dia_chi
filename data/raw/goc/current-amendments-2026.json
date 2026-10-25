@@ -1,0 +1,33 @@
+{
+  "asOf": "2026-09-25",
+  "source": "https://danhmuchanhchinh.nso.gov.vn/Doi_Chieu_Moi.aspx",
+  "provinceAmendments": [
+    { "code": "75", "name": "Đồng Nai", "effectiveDate": "2026-04-30", "resolution": "30/2026/QH16" },
+    { "code": "22", "name": "Quảng Ninh", "effectiveDate": "2026-09-01", "resolution": "36/2026/QH16" },
+    { "code": "24", "name": "Bắc Ninh", "effectiveDate": "2026-09-20", "resolution": "39/2026/QH16" }
+  ],
+  "wardAmendments": [
+    { "code": "07294", "provinceCode": "24", "name": "Bố Hạ", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "07375", "provinceCode": "24", "name": "Lạng Giang", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "07399", "provinceCode": "24", "name": "Kép", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "07444", "provinceCode": "24", "name": "Lục Nam", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "07840", "provinceCode": "24", "name": "Hiệp Hoà", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09193", "provinceCode": "24", "name": "Yên Phong", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09292", "provinceCode": "24", "name": "Phù Lãng", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09313", "provinceCode": "24", "name": "Chi Lăng", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09319", "provinceCode": "24", "name": "Tiên Du", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09454", "provinceCode": "24", "name": "Gia Bình", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09475", "provinceCode": "24", "name": "Nhân Thắng", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "09496", "provinceCode": "24", "name": "Lương Tài", "effectiveDate": "2026-09-20", "resolution": "388/NQ-UBTVQH16" },
+    { "code": "25270", "provinceCode": "75", "name": "Lộc Ninh", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "25357", "provinceCode": "75", "name": "Tân Khai", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "25363", "provinceCode": "75", "name": "Đồng Phú", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26116", "provinceCode": "75", "name": "Tân Phú", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26170", "provinceCode": "75", "name": "Trị An", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26248", "provinceCode": "75", "name": "Trảng Bom", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26326", "provinceCode": "75", "name": "Dầu Giây", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26368", "provinceCode": "75", "name": "Long Thành", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26425", "provinceCode": "75", "name": "Xuân Lộc", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" },
+    { "code": "26485", "provinceCode": "75", "name": "Nhơn Trạch", "effectiveDate": "2026-04-30", "resolution": "237/NQ-UBTVQH16" }
+  ]
+}

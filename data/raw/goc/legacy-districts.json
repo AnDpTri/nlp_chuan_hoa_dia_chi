@@ -1,0 +1,6284 @@
+[
+  {
+    "code": "001",
+    "name": "Ba Đình",
+    "type": "urban_district",
+    "nameWithType": "Quận Ba Đình",
+    "provinceCode": "01",
+    "slug": "ba-dinh",
+    "normalizedName": "ba dinh"
+  },
+  {
+    "code": "003",
+    "name": "Tây Hồ",
+    "type": "urban_district",
+    "nameWithType": "Quận Tây Hồ",
+    "provinceCode": "01",
+    "slug": "tay-ho",
+    "normalizedName": "tay ho"
+  },
+  {
+    "code": "002",
+    "name": "Hoàn Kiếm",
+    "type": "urban_district",
+    "nameWithType": "Quận Hoàn Kiếm",
+    "provinceCode": "01",
+    "slug": "hoan-kiem",
+    "normalizedName": "hoan kiem"
+  },
+  {
+    "code": "005",
+    "name": "Cầu Giấy",
+    "type": "urban_district",
+    "nameWithType": "Quận Cầu Giấy",
+    "provinceCode": "01",
+    "slug": "cau-giay",
+    "normalizedName": "cau giay"
+  },
+  {
+    "code": "006",
+    "name": "Đống Đa",
+    "type": "urban_district",
+    "nameWithType": "Quận Đống Đa",
+    "provinceCode": "01",
+    "slug": "dong-da",
+    "normalizedName": "dong da"
+  },
+  {
+    "code": "007",
+    "name": "Hai Bà Trưng",
+    "type": "urban_district",
+    "nameWithType": "Quận Hai Bà Trưng",
+    "provinceCode": "01",
+    "slug": "hai-ba-trung",
+    "normalizedName": "hai ba trung"
+  },
+  {
+    "code": "021",
+    "name": "Bắc Từ Liêm",
+    "type": "urban_district",
+    "nameWithType": "Quận Bắc Từ Liêm",
+    "provinceCode": "01",
+    "slug": "bac-tu-liem",
+    "normalizedName": "bac tu liem"
+  },
+  {
+    "code": "004",
+    "name": "Long Biên",
+    "type": "urban_district",
+    "nameWithType": "Quận Long Biên",
+    "provinceCode": "01",
+    "slug": "long-bien",
+    "normalizedName": "long bien"
+  },
+  {
+    "code": "018",
+    "name": "Gia Lâm",
+    "type": "district",
+    "nameWithType": "Huyện Gia Lâm",
+    "provinceCode": "01",
+    "slug": "gia-lam",
+    "normalizedName": "gia lam"
+  },
+  {
+    "code": "019",
+    "name": "Nam Từ Liêm",
+    "type": "urban_district",
+    "nameWithType": "Quận Nam Từ Liêm",
+    "provinceCode": "01",
+    "slug": "nam-tu-liem",
+    "normalizedName": "nam tu liem"
+  },
+  {
+    "code": "009",
+    "name": "Thanh Xuân",
+    "type": "urban_district",
+    "nameWithType": "Quận Thanh Xuân",
+    "provinceCode": "01",
+    "slug": "thanh-xuan",
+    "normalizedName": "thanh xuan"
+  },
+  {
+    "code": "008",
+    "name": "Hoàng Mai",
+    "type": "urban_district",
+    "nameWithType": "Quận Hoàng Mai",
+    "provinceCode": "01",
+    "slug": "hoang-mai",
+    "normalizedName": "hoang mai"
+  },
+  {
+    "code": "020",
+    "name": "Thanh Trì",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Trì",
+    "provinceCode": "01",
+    "slug": "thanh-tri",
+    "normalizedName": "thanh tri"
+  },
+  {
+    "code": "274",
+    "name": "Hoài Đức",
+    "type": "district",
+    "nameWithType": "Huyện Hoài Đức",
+    "provinceCode": "01",
+    "slug": "hoai-duc",
+    "normalizedName": "hoai duc"
+  },
+  {
+    "code": "268",
+    "name": "Hà Đông",
+    "type": "urban_district",
+    "nameWithType": "Quận Hà Đông",
+    "provinceCode": "01",
+    "slug": "ha-dong",
+    "normalizedName": "ha dong"
+  },
+  {
+    "code": "278",
+    "name": "Thanh Oai",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Oai",
+    "provinceCode": "01",
+    "slug": "thanh-oai",
+    "normalizedName": "thanh oai"
+  },
+  {
+    "code": "269",
+    "name": "Sơn Tây",
+    "type": "town",
+    "nameWithType": "Thị xã Sơn Tây",
+    "provinceCode": "01",
+    "slug": "son-tay",
+    "normalizedName": "son tay"
+  },
+  {
+    "code": "277",
+    "name": "Chương Mỹ",
+    "type": "district",
+    "nameWithType": "Huyện Chương Mỹ",
+    "provinceCode": "01",
+    "slug": "chuong-my",
+    "normalizedName": "chuong my"
+  },
+  {
+    "code": "016",
+    "name": "Sóc Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Sóc Sơn",
+    "provinceCode": "01",
+    "slug": "soc-son",
+    "normalizedName": "soc son"
+  },
+  {
+    "code": "017",
+    "name": "Đông Anh",
+    "type": "district",
+    "nameWithType": "Huyện Đông Anh",
+    "provinceCode": "01",
+    "slug": "dong-anh",
+    "normalizedName": "dong anh"
+  },
+  {
+    "code": "250",
+    "name": "Mê Linh",
+    "type": "district",
+    "nameWithType": "Huyện Mê Linh",
+    "provinceCode": "01",
+    "slug": "me-linh",
+    "normalizedName": "me linh"
+  },
+  {
+    "code": "279",
+    "name": "Thường Tín",
+    "type": "district",
+    "nameWithType": "Huyện Thường Tín",
+    "provinceCode": "01",
+    "slug": "thuong-tin",
+    "normalizedName": "thuong tin"
+  },
+  {
+    "code": "275",
+    "name": "Quốc Oai",
+    "type": "district",
+    "nameWithType": "Huyện Quốc Oai",
+    "provinceCode": "01",
+    "slug": "quoc-oai",
+    "normalizedName": "quoc oai"
+  },
+  {
+    "code": "276",
+    "name": "Thạch Thất",
+    "type": "district",
+    "nameWithType": "Huyện Thạch Thất",
+    "provinceCode": "01",
+    "slug": "thach-that",
+    "normalizedName": "thach that"
+  },
+  {
+    "code": "273",
+    "name": "Đan Phượng",
+    "type": "district",
+    "nameWithType": "Huyện Đan Phượng",
+    "provinceCode": "01",
+    "slug": "dan-phuong",
+    "normalizedName": "dan phuong"
+  },
+  {
+    "code": "271",
+    "name": "Ba Vì",
+    "type": "district",
+    "nameWithType": "Huyện Ba Vì",
+    "provinceCode": "01",
+    "slug": "ba-vi",
+    "normalizedName": "ba vi"
+  },
+  {
+    "code": "272",
+    "name": "Phúc Thọ",
+    "type": "district",
+    "nameWithType": "Huyện Phúc Thọ",
+    "provinceCode": "01",
+    "slug": "phuc-tho",
+    "normalizedName": "phuc tho"
+  },
+  {
+    "code": "282",
+    "name": "Mỹ Đức",
+    "type": "district",
+    "nameWithType": "Huyện Mỹ Đức",
+    "provinceCode": "01",
+    "slug": "my-duc",
+    "normalizedName": "my duc"
+  },
+  {
+    "code": "280",
+    "name": "Phú Xuyên",
+    "type": "district",
+    "nameWithType": "Huyện Phú Xuyên",
+    "provinceCode": "01",
+    "slug": "phu-xuyen",
+    "normalizedName": "phu xuyen"
+  },
+  {
+    "code": "281",
+    "name": "Ứng Hòa",
+    "type": "district",
+    "nameWithType": "Huyện Ứng Hòa",
+    "provinceCode": "01",
+    "slug": "ung-hoa",
+    "normalizedName": "ung hoa"
+  },
+  {
+    "code": "040",
+    "name": "Cao Bằng",
+    "type": "city",
+    "nameWithType": "Thành phố Cao Bằng",
+    "provinceCode": "04",
+    "slug": "cao-bang",
+    "normalizedName": "cao bang"
+  },
+  {
+    "code": "051",
+    "name": "Hoà An",
+    "type": "district",
+    "nameWithType": "Huyện Hoà An",
+    "provinceCode": "04",
+    "slug": "hoa-an",
+    "normalizedName": "hoa an"
+  },
+  {
+    "code": "042",
+    "name": "Bảo Lâm",
+    "type": "district",
+    "nameWithType": "Huyện Bảo Lâm",
+    "provinceCode": "04",
+    "slug": "bao-lam",
+    "normalizedName": "bao lam"
+  },
+  {
+    "code": "043",
+    "name": "Bảo Lạc",
+    "type": "district",
+    "nameWithType": "Huyện Bảo Lạc",
+    "provinceCode": "04",
+    "slug": "bao-lac",
+    "normalizedName": "bao lac"
+  },
+  {
+    "code": "045",
+    "name": "Hà Quảng",
+    "type": "district",
+    "nameWithType": "Huyện Hà Quảng",
+    "provinceCode": "04",
+    "slug": "ha-quang",
+    "normalizedName": "ha quang"
+  },
+  {
+    "code": "047",
+    "name": "Trùng Khánh",
+    "type": "district",
+    "nameWithType": "Huyện Trùng Khánh",
+    "provinceCode": "04",
+    "slug": "trung-khanh",
+    "normalizedName": "trung khanh"
+  },
+  {
+    "code": "049",
+    "name": "Quảng Hòa",
+    "type": "district",
+    "nameWithType": "Huyện Quảng Hòa",
+    "provinceCode": "04",
+    "slug": "quang-hoa",
+    "normalizedName": "quang hoa"
+  },
+  {
+    "code": "048",
+    "name": "Hạ Lang",
+    "type": "district",
+    "nameWithType": "Huyện Hạ Lang",
+    "provinceCode": "04",
+    "slug": "ha-lang",
+    "normalizedName": "ha lang"
+  },
+  {
+    "code": "052",
+    "name": "Nguyên Bình",
+    "type": "district",
+    "nameWithType": "Huyện Nguyên Bình",
+    "provinceCode": "04",
+    "slug": "nguyen-binh",
+    "normalizedName": "nguyen binh"
+  },
+  {
+    "code": "053",
+    "name": "Thạch An",
+    "type": "district",
+    "nameWithType": "Huyện Thạch An",
+    "provinceCode": "04",
+    "slug": "thach-an",
+    "normalizedName": "thach an"
+  },
+  {
+    "code": "024",
+    "name": "Hà Giang",
+    "type": "city",
+    "nameWithType": "Thành phố Hà Giang",
+    "provinceCode": "02",
+    "slug": "ha-giang",
+    "normalizedName": "ha giang"
+  },
+  {
+    "code": "030",
+    "name": "Vị Xuyên",
+    "type": "district",
+    "nameWithType": "Huyện Vị Xuyên",
+    "provinceCode": "02",
+    "slug": "vi-xuyen",
+    "normalizedName": "vi xuyen"
+  },
+  {
+    "code": "070",
+    "name": "Tuyên Quang",
+    "type": "city",
+    "nameWithType": "Thành phố Tuyên Quang",
+    "provinceCode": "08",
+    "slug": "tuyen-quang",
+    "normalizedName": "tuyen quang"
+  },
+  {
+    "code": "075",
+    "name": "Yên Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Yên Sơn",
+    "provinceCode": "08",
+    "slug": "yen-son",
+    "normalizedName": "yen son"
+  },
+  {
+    "code": "031",
+    "name": "Bắc Mê",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Mê",
+    "provinceCode": "02",
+    "slug": "bac-me",
+    "normalizedName": "bac me"
+  },
+  {
+    "code": "026",
+    "name": "Đồng Văn",
+    "type": "district",
+    "nameWithType": "Huyện Đồng Văn",
+    "provinceCode": "02",
+    "slug": "dong-van",
+    "normalizedName": "dong van"
+  },
+  {
+    "code": "027",
+    "name": "Mèo Vạc",
+    "type": "district",
+    "nameWithType": "Huyện Mèo Vạc",
+    "provinceCode": "02",
+    "slug": "meo-vac",
+    "normalizedName": "meo vac"
+  },
+  {
+    "code": "028",
+    "name": "Yên Minh",
+    "type": "district",
+    "nameWithType": "Huyện Yên Minh",
+    "provinceCode": "02",
+    "slug": "yen-minh",
+    "normalizedName": "yen minh"
+  },
+  {
+    "code": "029",
+    "name": "Quản Bạ",
+    "type": "district",
+    "nameWithType": "Huyện Quản Bạ",
+    "provinceCode": "02",
+    "slug": "quan-ba",
+    "normalizedName": "quan ba"
+  },
+  {
+    "code": "032",
+    "name": "Hoàng Su Phì",
+    "type": "district",
+    "nameWithType": "Huyện Hoàng Su Phì",
+    "provinceCode": "02",
+    "slug": "hoang-su-phi",
+    "normalizedName": "hoang su phi"
+  },
+  {
+    "code": "035",
+    "name": "Quang Bình",
+    "type": "district",
+    "nameWithType": "Huyện Quang Bình",
+    "provinceCode": "02",
+    "slug": "quang-binh",
+    "normalizedName": "quang binh"
+  },
+  {
+    "code": "033",
+    "name": "Xín Mần",
+    "type": "district",
+    "nameWithType": "Huyện Xín Mần",
+    "provinceCode": "02",
+    "slug": "xin-man",
+    "normalizedName": "xin man"
+  },
+  {
+    "code": "034",
+    "name": "Bắc Quang",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Quang",
+    "provinceCode": "02",
+    "slug": "bac-quang",
+    "normalizedName": "bac quang"
+  },
+  {
+    "code": "072",
+    "name": "Na Hang",
+    "type": "district",
+    "nameWithType": "Huyện Na Hang",
+    "provinceCode": "08",
+    "slug": "na-hang",
+    "normalizedName": "na hang"
+  },
+  {
+    "code": "071",
+    "name": "Lâm Bình",
+    "type": "district",
+    "nameWithType": "Huyện Lâm Bình",
+    "provinceCode": "08",
+    "slug": "lam-binh",
+    "normalizedName": "lam binh"
+  },
+  {
+    "code": "073",
+    "name": "Chiêm Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Chiêm Hóa",
+    "provinceCode": "08",
+    "slug": "chiem-hoa",
+    "normalizedName": "chiem hoa"
+  },
+  {
+    "code": "074",
+    "name": "Hàm Yên",
+    "type": "district",
+    "nameWithType": "Huyện Hàm Yên",
+    "provinceCode": "08",
+    "slug": "ham-yen",
+    "normalizedName": "ham yen"
+  },
+  {
+    "code": "076",
+    "name": "Sơn Dương",
+    "type": "district",
+    "nameWithType": "Huyện Sơn Dương",
+    "provinceCode": "08",
+    "slug": "son-duong",
+    "normalizedName": "son duong"
+  },
+  {
+    "code": "094",
+    "name": "Điện Biên Phủ",
+    "type": "city",
+    "nameWithType": "Thành phố Điện Biên Phủ",
+    "provinceCode": "11",
+    "slug": "dien-bien-phu",
+    "normalizedName": "dien bien phu"
+  },
+  {
+    "code": "095",
+    "name": "Mường Lay",
+    "type": "town",
+    "nameWithType": "Thị xã Mường Lay",
+    "provinceCode": "11",
+    "slug": "muong-lay",
+    "normalizedName": "muong lay"
+  },
+  {
+    "code": "097",
+    "name": "Mường Chà",
+    "type": "district",
+    "nameWithType": "Huyện Mường Chà",
+    "provinceCode": "11",
+    "slug": "muong-cha",
+    "normalizedName": "muong cha"
+  },
+  {
+    "code": "100",
+    "name": "Điện Biên",
+    "type": "district",
+    "nameWithType": "Huyện Điện Biên",
+    "provinceCode": "11",
+    "slug": "dien-bien",
+    "normalizedName": "dien bien"
+  },
+  {
+    "code": "096",
+    "name": "Mường Nhé",
+    "type": "district",
+    "nameWithType": "Huyện Mường Nhé",
+    "provinceCode": "11",
+    "slug": "muong-nhe",
+    "normalizedName": "muong nhe"
+  },
+  {
+    "code": "103",
+    "name": "Nậm Pồ",
+    "type": "district",
+    "nameWithType": "Huyện Nậm Pồ",
+    "provinceCode": "11",
+    "slug": "nam-po",
+    "normalizedName": "nam po"
+  },
+  {
+    "code": "101",
+    "name": "Điện Biên Đông",
+    "type": "district",
+    "nameWithType": "Huyện Điện Biên Đông",
+    "provinceCode": "11",
+    "slug": "dien-bien-dong",
+    "normalizedName": "dien bien dong"
+  },
+  {
+    "code": "098",
+    "name": "Tủa Chùa",
+    "type": "district",
+    "nameWithType": "Huyện Tủa Chùa",
+    "provinceCode": "11",
+    "slug": "tua-chua",
+    "normalizedName": "tua chua"
+  },
+  {
+    "code": "099",
+    "name": "Tuần Giáo",
+    "type": "district",
+    "nameWithType": "Huyện Tuần Giáo",
+    "provinceCode": "11",
+    "slug": "tuan-giao",
+    "normalizedName": "tuan giao"
+  },
+  {
+    "code": "102",
+    "name": "Mường Ảng",
+    "type": "district",
+    "nameWithType": "Huyện Mường Ảng",
+    "provinceCode": "11",
+    "slug": "muong-ang",
+    "normalizedName": "muong ang"
+  },
+  {
+    "code": "109",
+    "name": "Phong Thổ",
+    "type": "district",
+    "nameWithType": "Huyện Phong Thổ",
+    "provinceCode": "12",
+    "slug": "phong-tho",
+    "normalizedName": "phong tho"
+  },
+  {
+    "code": "105",
+    "name": "Lai Châu",
+    "type": "city",
+    "nameWithType": "Thành phố Lai Châu",
+    "provinceCode": "12",
+    "slug": "lai-chau",
+    "normalizedName": "lai chau"
+  },
+  {
+    "code": "106",
+    "name": "Tam Đường",
+    "type": "district",
+    "nameWithType": "Huyện Tam Đường",
+    "provinceCode": "12",
+    "slug": "tam-duong",
+    "normalizedName": "tam duong"
+  },
+  {
+    "code": "107",
+    "name": "Mường Tè",
+    "type": "district",
+    "nameWithType": "Huyện Mường Tè",
+    "provinceCode": "12",
+    "slug": "muong-te",
+    "normalizedName": "muong te"
+  },
+  {
+    "code": "112",
+    "name": "Nậm Nhùn",
+    "type": "district",
+    "nameWithType": "Huyện Nậm Nhùn",
+    "provinceCode": "12",
+    "slug": "nam-nhun",
+    "normalizedName": "nam nhun"
+  },
+  {
+    "code": "108",
+    "name": "Sìn Hồ",
+    "type": "district",
+    "nameWithType": "Huyện Sìn Hồ",
+    "provinceCode": "12",
+    "slug": "sin-ho",
+    "normalizedName": "sin ho"
+  },
+  {
+    "code": "110",
+    "name": "Than Uyên",
+    "type": "district",
+    "nameWithType": "Huyện Than Uyên",
+    "provinceCode": "12",
+    "slug": "than-uyen",
+    "normalizedName": "than uyen"
+  },
+  {
+    "code": "111",
+    "name": "Tân Uyên",
+    "type": "district",
+    "nameWithType": "Huyện Tân Uyên",
+    "provinceCode": "12",
+    "slug": "tan-uyen",
+    "normalizedName": "tan uyen"
+  },
+  {
+    "code": "116",
+    "name": "Sơn La",
+    "type": "city",
+    "nameWithType": "Thành phố Sơn La",
+    "provinceCode": "14",
+    "slug": "son-la",
+    "normalizedName": "son la"
+  },
+  {
+    "code": "123",
+    "name": "Mộc Châu",
+    "type": "town",
+    "nameWithType": "Thị xã Mộc Châu",
+    "provinceCode": "14",
+    "slug": "moc-chau",
+    "normalizedName": "moc chau"
+  },
+  {
+    "code": "118",
+    "name": "Quỳnh Nhai",
+    "type": "district",
+    "nameWithType": "Huyện Quỳnh Nhai",
+    "provinceCode": "14",
+    "slug": "quynh-nhai",
+    "normalizedName": "quynh nhai"
+  },
+  {
+    "code": "119",
+    "name": "Thuận Châu",
+    "type": "district",
+    "nameWithType": "Huyện Thuận Châu",
+    "provinceCode": "14",
+    "slug": "thuan-chau",
+    "normalizedName": "thuan chau"
+  },
+  {
+    "code": "120",
+    "name": "Mường La",
+    "type": "district",
+    "nameWithType": "Huyện Mường La",
+    "provinceCode": "14",
+    "slug": "muong-la",
+    "normalizedName": "muong la"
+  },
+  {
+    "code": "121",
+    "name": "Bắc Yên",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Yên",
+    "provinceCode": "14",
+    "slug": "bac-yen",
+    "normalizedName": "bac yen"
+  },
+  {
+    "code": "122",
+    "name": "Phù Yên",
+    "type": "district",
+    "nameWithType": "Huyện Phù Yên",
+    "provinceCode": "14",
+    "slug": "phu-yen",
+    "normalizedName": "phu yen"
+  },
+  {
+    "code": "128",
+    "name": "Vân Hồ",
+    "type": "district",
+    "nameWithType": "Huyện Vân Hồ",
+    "provinceCode": "14",
+    "slug": "van-ho",
+    "normalizedName": "van ho"
+  },
+  {
+    "code": "124",
+    "name": "Yên Châu",
+    "type": "district",
+    "nameWithType": "Huyện Yên Châu",
+    "provinceCode": "14",
+    "slug": "yen-chau",
+    "normalizedName": "yen chau"
+  },
+  {
+    "code": "125",
+    "name": "Mai Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Mai Sơn",
+    "provinceCode": "14",
+    "slug": "mai-son",
+    "normalizedName": "mai son"
+  },
+  {
+    "code": "126",
+    "name": "Sông Mã",
+    "type": "district",
+    "nameWithType": "Huyện Sông Mã",
+    "provinceCode": "14",
+    "slug": "song-ma",
+    "normalizedName": "song ma"
+  },
+  {
+    "code": "127",
+    "name": "Sốp Cộp",
+    "type": "district",
+    "nameWithType": "Huyện Sốp Cộp",
+    "provinceCode": "14",
+    "slug": "sop-cop",
+    "normalizedName": "sop cop"
+  },
+  {
+    "code": "080",
+    "name": "Lào Cai",
+    "type": "city",
+    "nameWithType": "Thành phố Lào Cai",
+    "provinceCode": "10",
+    "slug": "lao-cai",
+    "normalizedName": "lao cai"
+  },
+  {
+    "code": "086",
+    "name": "Bảo Thắng",
+    "type": "district",
+    "nameWithType": "Huyện Bảo Thắng",
+    "provinceCode": "10",
+    "slug": "bao-thang",
+    "normalizedName": "bao thang"
+  },
+  {
+    "code": "088",
+    "name": "Sa Pa",
+    "type": "town",
+    "nameWithType": "Thị xã Sa Pa",
+    "provinceCode": "10",
+    "slug": "sa-pa",
+    "normalizedName": "sa pa"
+  },
+  {
+    "code": "132",
+    "name": "Yên Bái",
+    "type": "city",
+    "nameWithType": "Thành phố Yên Bái",
+    "provinceCode": "15",
+    "slug": "yen-bai",
+    "normalizedName": "yen bai"
+  },
+  {
+    "code": "138",
+    "name": "Trấn Yên",
+    "type": "district",
+    "nameWithType": "Huyện Trấn Yên",
+    "provinceCode": "15",
+    "slug": "tran-yen",
+    "normalizedName": "tran yen"
+  },
+  {
+    "code": "141",
+    "name": "Yên Bình",
+    "type": "district",
+    "nameWithType": "Huyện Yên Bình",
+    "provinceCode": "15",
+    "slug": "yen-binh",
+    "normalizedName": "yen binh"
+  },
+  {
+    "code": "133",
+    "name": "Nghĩa Lộ",
+    "type": "town",
+    "nameWithType": "Thị xã Nghĩa Lộ",
+    "provinceCode": "15",
+    "slug": "nghia-lo",
+    "normalizedName": "nghia lo"
+  },
+  {
+    "code": "140",
+    "name": "Văn Chấn",
+    "type": "district",
+    "nameWithType": "Huyện Văn Chấn",
+    "provinceCode": "15",
+    "slug": "van-chan",
+    "normalizedName": "van chan"
+  },
+  {
+    "code": "082",
+    "name": "Bát Xát",
+    "type": "district",
+    "nameWithType": "Huyện Bát Xát",
+    "provinceCode": "10",
+    "slug": "bat-xat",
+    "normalizedName": "bat xat"
+  },
+  {
+    "code": "083",
+    "name": "Mường Khương",
+    "type": "district",
+    "nameWithType": "Huyện Mường Khương",
+    "provinceCode": "10",
+    "slug": "muong-khuong",
+    "normalizedName": "muong khuong"
+  },
+  {
+    "code": "084",
+    "name": "Si Ma Cai",
+    "type": "district",
+    "nameWithType": "Huyện Si Ma Cai",
+    "provinceCode": "10",
+    "slug": "si-ma-cai",
+    "normalizedName": "si ma cai"
+  },
+  {
+    "code": "085",
+    "name": "Bắc Hà",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Hà",
+    "provinceCode": "10",
+    "slug": "bac-ha",
+    "normalizedName": "bac ha"
+  },
+  {
+    "code": "087",
+    "name": "Bảo Yên",
+    "type": "district",
+    "nameWithType": "Huyện Bảo Yên",
+    "provinceCode": "10",
+    "slug": "bao-yen",
+    "normalizedName": "bao yen"
+  },
+  {
+    "code": "089",
+    "name": "Văn Bàn",
+    "type": "district",
+    "nameWithType": "Huyện Văn Bàn",
+    "provinceCode": "10",
+    "slug": "van-ban",
+    "normalizedName": "van ban"
+  },
+  {
+    "code": "135",
+    "name": "Lục Yên",
+    "type": "district",
+    "nameWithType": "Huyện Lục Yên",
+    "provinceCode": "15",
+    "slug": "luc-yen",
+    "normalizedName": "luc yen"
+  },
+  {
+    "code": "136",
+    "name": "Văn Yên",
+    "type": "district",
+    "nameWithType": "Huyện Văn Yên",
+    "provinceCode": "15",
+    "slug": "van-yen",
+    "normalizedName": "van yen"
+  },
+  {
+    "code": "137",
+    "name": "Mù Căng Chải",
+    "type": "district",
+    "nameWithType": "Huyện Mù Căng Chải",
+    "provinceCode": "15",
+    "slug": "mu-cang-chai",
+    "normalizedName": "mu cang chai"
+  },
+  {
+    "code": "139",
+    "name": "Trạm Tấu",
+    "type": "district",
+    "nameWithType": "Huyện Trạm Tấu",
+    "provinceCode": "15",
+    "slug": "tram-tau",
+    "normalizedName": "tram tau"
+  },
+  {
+    "code": "058",
+    "name": "Bắc Kạn",
+    "type": "city",
+    "nameWithType": "Thành phố Bắc Kạn",
+    "provinceCode": "06",
+    "slug": "bac-kan",
+    "normalizedName": "bac kan"
+  },
+  {
+    "code": "164",
+    "name": "Thái Nguyên",
+    "type": "city",
+    "nameWithType": "Thành phố Thái Nguyên",
+    "provinceCode": "19",
+    "slug": "thai-nguyen",
+    "normalizedName": "thai nguyen"
+  },
+  {
+    "code": "165",
+    "name": "Sông Công",
+    "type": "city",
+    "nameWithType": "Thành phố Sông Công",
+    "provinceCode": "19",
+    "slug": "song-cong",
+    "normalizedName": "song cong"
+  },
+  {
+    "code": "172",
+    "name": "Phổ Yên",
+    "type": "city",
+    "nameWithType": "Thành phố Phổ Yên",
+    "provinceCode": "19",
+    "slug": "pho-yen",
+    "normalizedName": "pho yen"
+  },
+  {
+    "code": "063",
+    "name": "Bạch Thông",
+    "type": "district",
+    "nameWithType": "Huyện Bạch Thông",
+    "provinceCode": "06",
+    "slug": "bach-thong",
+    "normalizedName": "bach thong"
+  },
+  {
+    "code": "060",
+    "name": "Pác Nặm",
+    "type": "district",
+    "nameWithType": "Huyện Pác Nặm",
+    "provinceCode": "06",
+    "slug": "pac-nam",
+    "normalizedName": "pac nam"
+  },
+  {
+    "code": "061",
+    "name": "Ba Bể",
+    "type": "district",
+    "nameWithType": "Huyện Ba Bể",
+    "provinceCode": "06",
+    "slug": "ba-be",
+    "normalizedName": "ba be"
+  },
+  {
+    "code": "064",
+    "name": "Chợ Đồn",
+    "type": "district",
+    "nameWithType": "Huyện Chợ Đồn",
+    "provinceCode": "06",
+    "slug": "cho-don",
+    "normalizedName": "cho don"
+  },
+  {
+    "code": "062",
+    "name": "Ngân Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Ngân Sơn",
+    "provinceCode": "06",
+    "slug": "ngan-son",
+    "normalizedName": "ngan son"
+  },
+  {
+    "code": "065",
+    "name": "Chợ Mới",
+    "type": "district",
+    "nameWithType": "Huyện Chợ Mới",
+    "provinceCode": "06",
+    "slug": "cho-moi",
+    "normalizedName": "cho moi"
+  },
+  {
+    "code": "066",
+    "name": "Na Rì",
+    "type": "district",
+    "nameWithType": "Huyện Na Rì",
+    "provinceCode": "06",
+    "slug": "na-ri",
+    "normalizedName": "na ri"
+  },
+  {
+    "code": "171",
+    "name": "Đại Từ",
+    "type": "district",
+    "nameWithType": "Huyện Đại Từ",
+    "provinceCode": "19",
+    "slug": "dai-tu",
+    "normalizedName": "dai tu"
+  },
+  {
+    "code": "167",
+    "name": "Định Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Định Hóa",
+    "provinceCode": "19",
+    "slug": "dinh-hoa",
+    "normalizedName": "dinh hoa"
+  },
+  {
+    "code": "168",
+    "name": "Phú Lương",
+    "type": "district",
+    "nameWithType": "Huyện Phú Lương",
+    "provinceCode": "19",
+    "slug": "phu-luong",
+    "normalizedName": "phu luong"
+  },
+  {
+    "code": "169",
+    "name": "Đồng Hỷ",
+    "type": "district",
+    "nameWithType": "Huyện Đồng Hỷ",
+    "provinceCode": "19",
+    "slug": "dong-hy",
+    "normalizedName": "dong hy"
+  },
+  {
+    "code": "170",
+    "name": "Võ Nhai",
+    "type": "district",
+    "nameWithType": "Huyện Võ Nhai",
+    "provinceCode": "19",
+    "slug": "vo-nhai",
+    "normalizedName": "vo nhai"
+  },
+  {
+    "code": "173",
+    "name": "Phú Bình",
+    "type": "district",
+    "nameWithType": "Huyện Phú Bình",
+    "provinceCode": "19",
+    "slug": "phu-binh",
+    "normalizedName": "phu binh"
+  },
+  {
+    "code": "178",
+    "name": "Lạng Sơn",
+    "type": "city",
+    "nameWithType": "Thành phố Lạng Sơn",
+    "provinceCode": "20",
+    "slug": "lang-son",
+    "normalizedName": "lang son"
+  },
+  {
+    "code": "183",
+    "name": "Cao Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Cao Lộc",
+    "provinceCode": "20",
+    "slug": "cao-loc",
+    "normalizedName": "cao loc"
+  },
+  {
+    "code": "180",
+    "name": "Tràng Định",
+    "type": "district",
+    "nameWithType": "Huyện Tràng Định",
+    "provinceCode": "20",
+    "slug": "trang-dinh",
+    "normalizedName": "trang dinh"
+  },
+  {
+    "code": "181",
+    "name": "Bình Gia",
+    "type": "district",
+    "nameWithType": "Huyện Bình Gia",
+    "provinceCode": "20",
+    "slug": "binh-gia",
+    "normalizedName": "binh gia"
+  },
+  {
+    "code": "182",
+    "name": "Văn Lãng",
+    "type": "district",
+    "nameWithType": "Huyện Văn Lãng",
+    "provinceCode": "20",
+    "slug": "van-lang",
+    "normalizedName": "van lang"
+  },
+  {
+    "code": "184",
+    "name": "Văn Quan",
+    "type": "district",
+    "nameWithType": "Huyện Văn Quan",
+    "provinceCode": "20",
+    "slug": "van-quan",
+    "normalizedName": "van quan"
+  },
+  {
+    "code": "185",
+    "name": "Bắc Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Sơn",
+    "provinceCode": "20",
+    "slug": "bac-son",
+    "normalizedName": "bac son"
+  },
+  {
+    "code": "186",
+    "name": "Hữu Lũng",
+    "type": "district",
+    "nameWithType": "Huyện Hữu Lũng",
+    "provinceCode": "20",
+    "slug": "huu-lung",
+    "normalizedName": "huu lung"
+  },
+  {
+    "code": "187",
+    "name": "Chi Lăng",
+    "type": "district",
+    "nameWithType": "Huyện Chi Lăng",
+    "provinceCode": "20",
+    "slug": "chi-lang",
+    "normalizedName": "chi lang"
+  },
+  {
+    "code": "188",
+    "name": "Lộc Bình",
+    "type": "district",
+    "nameWithType": "Huyện Lộc Bình",
+    "provinceCode": "20",
+    "slug": "loc-binh",
+    "normalizedName": "loc binh"
+  },
+  {
+    "code": "189",
+    "name": "Đình Lập",
+    "type": "district",
+    "nameWithType": "Huyện Đình Lập",
+    "provinceCode": "20",
+    "slug": "dinh-lap",
+    "normalizedName": "dinh lap"
+  },
+  {
+    "code": "193",
+    "name": "Hạ Long",
+    "type": "city",
+    "nameWithType": "Thành phố Hạ Long",
+    "provinceCode": "22",
+    "slug": "ha-long",
+    "normalizedName": "ha long"
+  },
+  {
+    "code": "194",
+    "name": "Móng Cái",
+    "type": "city",
+    "nameWithType": "Thành phố Móng Cái",
+    "provinceCode": "22",
+    "slug": "mong-cai",
+    "normalizedName": "mong cai"
+  },
+  {
+    "code": "195",
+    "name": "Cẩm Phả",
+    "type": "city",
+    "nameWithType": "Thành phố Cẩm Phả",
+    "provinceCode": "22",
+    "slug": "cam-pha",
+    "normalizedName": "cam pha"
+  },
+  {
+    "code": "196",
+    "name": "Uông Bí",
+    "type": "city",
+    "nameWithType": "Thành phố Uông Bí",
+    "provinceCode": "22",
+    "slug": "uong-bi",
+    "normalizedName": "uong bi"
+  },
+  {
+    "code": "205",
+    "name": "Đông Triều",
+    "type": "city",
+    "nameWithType": "Thành phố Đông Triều",
+    "provinceCode": "22",
+    "slug": "dong-trieu",
+    "normalizedName": "dong trieu"
+  },
+  {
+    "code": "206",
+    "name": "Quảng Yên",
+    "type": "town",
+    "nameWithType": "Thị xã Quảng Yên",
+    "provinceCode": "22",
+    "slug": "quang-yen",
+    "normalizedName": "quang yen"
+  },
+  {
+    "code": "199",
+    "name": "Tiên Yên",
+    "type": "district",
+    "nameWithType": "Huyện Tiên Yên",
+    "provinceCode": "22",
+    "slug": "tien-yen",
+    "normalizedName": "tien yen"
+  },
+  {
+    "code": "198",
+    "name": "Bình Liêu",
+    "type": "district",
+    "nameWithType": "Huyện Bình Liêu",
+    "provinceCode": "22",
+    "slug": "binh-lieu",
+    "normalizedName": "binh lieu"
+  },
+  {
+    "code": "200",
+    "name": "Đầm Hà",
+    "type": "district",
+    "nameWithType": "Huyện Đầm Hà",
+    "provinceCode": "22",
+    "slug": "dam-ha",
+    "normalizedName": "dam ha"
+  },
+  {
+    "code": "201",
+    "name": "Hải Hà",
+    "type": "district",
+    "nameWithType": "Huyện Hải Hà",
+    "provinceCode": "22",
+    "slug": "hai-ha",
+    "normalizedName": "hai ha"
+  },
+  {
+    "code": "202",
+    "name": "Ba Chẽ",
+    "type": "district",
+    "nameWithType": "Huyện Ba Chẽ",
+    "provinceCode": "22",
+    "slug": "ba-che",
+    "normalizedName": "ba che"
+  },
+  {
+    "code": "203",
+    "name": "Vân Đồn",
+    "type": "district",
+    "nameWithType": "Huyện Vân Đồn",
+    "provinceCode": "22",
+    "slug": "van-don",
+    "normalizedName": "van don"
+  },
+  {
+    "code": "207",
+    "name": "Cô Tô",
+    "type": "district",
+    "nameWithType": "Huyện Cô Tô",
+    "provinceCode": "22",
+    "slug": "co-to",
+    "normalizedName": "co to"
+  },
+  {
+    "code": "213",
+    "name": "Bắc Giang",
+    "type": "city",
+    "nameWithType": "Thành phố Bắc Giang",
+    "provinceCode": "24",
+    "slug": "bac-giang",
+    "normalizedName": "bac giang"
+  },
+  {
+    "code": "216",
+    "name": "Tân Yên",
+    "type": "district",
+    "nameWithType": "Huyện Tân Yên",
+    "provinceCode": "24",
+    "slug": "tan-yen",
+    "normalizedName": "tan yen"
+  },
+  {
+    "code": "224",
+    "name": "Chũ",
+    "type": "town",
+    "nameWithType": "Thị xã Chũ",
+    "provinceCode": "24",
+    "slug": "chu",
+    "normalizedName": "chu"
+  },
+  {
+    "code": "222",
+    "name": "Việt Yên",
+    "type": "town",
+    "nameWithType": "Thị xã Việt Yên",
+    "provinceCode": "24",
+    "slug": "viet-yen",
+    "normalizedName": "viet yen"
+  },
+  {
+    "code": "256",
+    "name": "Bắc Ninh",
+    "type": "city",
+    "nameWithType": "Thành phố Bắc Ninh",
+    "provinceCode": "27",
+    "slug": "bac-ninh",
+    "normalizedName": "bac ninh"
+  },
+  {
+    "code": "259",
+    "name": "Quế Võ",
+    "type": "town",
+    "nameWithType": "Thị xã Quế Võ",
+    "provinceCode": "27",
+    "slug": "que-vo",
+    "normalizedName": "que vo"
+  },
+  {
+    "code": "261",
+    "name": "Từ Sơn",
+    "type": "city",
+    "nameWithType": "Thành phố Từ Sơn",
+    "provinceCode": "27",
+    "slug": "tu-son",
+    "normalizedName": "tu son"
+  },
+  {
+    "code": "262",
+    "name": "Thuận Thành",
+    "type": "town",
+    "nameWithType": "Thị xã Thuận Thành",
+    "provinceCode": "27",
+    "slug": "thuan-thanh",
+    "normalizedName": "thuan thanh"
+  },
+  {
+    "code": "215",
+    "name": "Yên Thế",
+    "type": "district",
+    "nameWithType": "Huyện Yên Thế",
+    "provinceCode": "24",
+    "slug": "yen-the",
+    "normalizedName": "yen the"
+  },
+  {
+    "code": "217",
+    "name": "Lạng Giang",
+    "type": "district",
+    "nameWithType": "Huyện Lạng Giang",
+    "provinceCode": "24",
+    "slug": "lang-giang",
+    "normalizedName": "lang giang"
+  },
+  {
+    "code": "218",
+    "name": "Lục Nam",
+    "type": "district",
+    "nameWithType": "Huyện Lục Nam",
+    "provinceCode": "24",
+    "slug": "luc-nam",
+    "normalizedName": "luc nam"
+  },
+  {
+    "code": "219",
+    "name": "Lục Ngạn",
+    "type": "district",
+    "nameWithType": "Huyện Lục Ngạn",
+    "provinceCode": "24",
+    "slug": "luc-ngan",
+    "normalizedName": "luc ngan"
+  },
+  {
+    "code": "220",
+    "name": "Sơn Động",
+    "type": "district",
+    "nameWithType": "Huyện Sơn Động",
+    "provinceCode": "24",
+    "slug": "son-dong",
+    "normalizedName": "son dong"
+  },
+  {
+    "code": "223",
+    "name": "Hiệp Hòa",
+    "type": "district",
+    "nameWithType": "Huyện Hiệp Hòa",
+    "provinceCode": "24",
+    "slug": "hiep-hoa",
+    "normalizedName": "hiep hoa"
+  },
+  {
+    "code": "258",
+    "name": "Yên Phong",
+    "type": "district",
+    "nameWithType": "Huyện Yên Phong",
+    "provinceCode": "27",
+    "slug": "yen-phong",
+    "normalizedName": "yen phong"
+  },
+  {
+    "code": "260",
+    "name": "Tiên Du",
+    "type": "district",
+    "nameWithType": "Huyện Tiên Du",
+    "provinceCode": "27",
+    "slug": "tien-du",
+    "normalizedName": "tien du"
+  },
+  {
+    "code": "263",
+    "name": "Gia Bình",
+    "type": "district",
+    "nameWithType": "Huyện Gia Bình",
+    "provinceCode": "27",
+    "slug": "gia-binh",
+    "normalizedName": "gia binh"
+  },
+  {
+    "code": "264",
+    "name": "Lương Tài",
+    "type": "district",
+    "nameWithType": "Huyện Lương Tài",
+    "provinceCode": "27",
+    "slug": "luong-tai",
+    "normalizedName": "luong tai"
+  },
+  {
+    "code": "148",
+    "name": "Hòa Bình",
+    "type": "city",
+    "nameWithType": "Thành phố Hòa Bình",
+    "provinceCode": "17",
+    "slug": "hoa-binh",
+    "normalizedName": "hoa binh"
+  },
+  {
+    "code": "150",
+    "name": "Đà Bắc",
+    "type": "district",
+    "nameWithType": "Huyện Đà Bắc",
+    "provinceCode": "17",
+    "slug": "da-bac",
+    "normalizedName": "da bac"
+  },
+  {
+    "code": "227",
+    "name": "Việt Trì",
+    "type": "city",
+    "nameWithType": "Thành phố Việt Trì",
+    "provinceCode": "25",
+    "slug": "viet-tri",
+    "normalizedName": "viet tri"
+  },
+  {
+    "code": "228",
+    "name": "Phú Thọ",
+    "type": "town",
+    "nameWithType": "Thị xã Phú Thọ",
+    "provinceCode": "25",
+    "slug": "phu-tho",
+    "normalizedName": "phu tho"
+  },
+  {
+    "code": "243",
+    "name": "Vĩnh Yên",
+    "type": "city",
+    "nameWithType": "Thành phố Vĩnh Yên",
+    "provinceCode": "26",
+    "slug": "vinh-yen",
+    "normalizedName": "vinh yen"
+  },
+  {
+    "code": "244",
+    "name": "Phúc Yên",
+    "type": "city",
+    "nameWithType": "Thành phố Phúc Yên",
+    "provinceCode": "26",
+    "slug": "phuc-yen",
+    "normalizedName": "phuc yen"
+  },
+  {
+    "code": "152",
+    "name": "Lương Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Lương Sơn",
+    "provinceCode": "17",
+    "slug": "luong-son",
+    "normalizedName": "luong son"
+  },
+  {
+    "code": "153",
+    "name": "Kim Bôi",
+    "type": "district",
+    "nameWithType": "Huyện Kim Bôi",
+    "provinceCode": "17",
+    "slug": "kim-boi",
+    "normalizedName": "kim boi"
+  },
+  {
+    "code": "154",
+    "name": "Cao Phong",
+    "type": "district",
+    "nameWithType": "Huyện Cao Phong",
+    "provinceCode": "17",
+    "slug": "cao-phong",
+    "normalizedName": "cao phong"
+  },
+  {
+    "code": "155",
+    "name": "Tân Lạc",
+    "type": "district",
+    "nameWithType": "Huyện Tân Lạc",
+    "provinceCode": "17",
+    "slug": "tan-lac",
+    "normalizedName": "tan lac"
+  },
+  {
+    "code": "156",
+    "name": "Mai Châu",
+    "type": "district",
+    "nameWithType": "Huyện Mai Châu",
+    "provinceCode": "17",
+    "slug": "mai-chau",
+    "normalizedName": "mai chau"
+  },
+  {
+    "code": "157",
+    "name": "Lạc Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Lạc Sơn",
+    "provinceCode": "17",
+    "slug": "lac-son",
+    "normalizedName": "lac son"
+  },
+  {
+    "code": "158",
+    "name": "Yên Thủy",
+    "type": "district",
+    "nameWithType": "Huyện Yên Thủy",
+    "provinceCode": "17",
+    "slug": "yen-thuy",
+    "normalizedName": "yen thuy"
+  },
+  {
+    "code": "159",
+    "name": "Lạc Thủy",
+    "type": "district",
+    "nameWithType": "Huyện Lạc Thủy",
+    "provinceCode": "17",
+    "slug": "lac-thuy",
+    "normalizedName": "lac thuy"
+  },
+  {
+    "code": "230",
+    "name": "Đoan Hùng",
+    "type": "district",
+    "nameWithType": "Huyện Đoan Hùng",
+    "provinceCode": "25",
+    "slug": "doan-hung",
+    "normalizedName": "doan hung"
+  },
+  {
+    "code": "231",
+    "name": "Hạ Hoà",
+    "type": "district",
+    "nameWithType": "Huyện Hạ Hoà",
+    "provinceCode": "25",
+    "slug": "ha-hoa",
+    "normalizedName": "ha hoa"
+  },
+  {
+    "code": "232",
+    "name": "Thanh Ba",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Ba",
+    "provinceCode": "25",
+    "slug": "thanh-ba",
+    "normalizedName": "thanh ba"
+  },
+  {
+    "code": "233",
+    "name": "Phù Ninh",
+    "type": "district",
+    "nameWithType": "Huyện Phù Ninh",
+    "provinceCode": "25",
+    "slug": "phu-ninh",
+    "normalizedName": "phu ninh"
+  },
+  {
+    "code": "234",
+    "name": "Yên Lập",
+    "type": "district",
+    "nameWithType": "Huyện Yên Lập",
+    "provinceCode": "25",
+    "slug": "yen-lap",
+    "normalizedName": "yen lap"
+  },
+  {
+    "code": "235",
+    "name": "Cẩm Khê",
+    "type": "district",
+    "nameWithType": "Huyện Cẩm Khê",
+    "provinceCode": "25",
+    "slug": "cam-khe",
+    "normalizedName": "cam khe"
+  },
+  {
+    "code": "236",
+    "name": "Tam Nông",
+    "type": "district",
+    "nameWithType": "Huyện Tam Nông",
+    "provinceCode": "25",
+    "slug": "tam-nong",
+    "normalizedName": "tam nong"
+  },
+  {
+    "code": "237",
+    "name": "Lâm Thao",
+    "type": "district",
+    "nameWithType": "Huyện Lâm Thao",
+    "provinceCode": "25",
+    "slug": "lam-thao",
+    "normalizedName": "lam thao"
+  },
+  {
+    "code": "238",
+    "name": "Thanh Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Sơn",
+    "provinceCode": "25",
+    "slug": "thanh-son",
+    "normalizedName": "thanh son"
+  },
+  {
+    "code": "240",
+    "name": "Tân Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Tân Sơn",
+    "provinceCode": "25",
+    "slug": "tan-son",
+    "normalizedName": "tan son"
+  },
+  {
+    "code": "239",
+    "name": "Thanh Thuỷ",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Thuỷ",
+    "provinceCode": "25",
+    "slug": "thanh-thuy",
+    "normalizedName": "thanh thuy"
+  },
+  {
+    "code": "246",
+    "name": "Lập Thạch",
+    "type": "district",
+    "nameWithType": "Huyện Lập Thạch",
+    "provinceCode": "26",
+    "slug": "lap-thach",
+    "normalizedName": "lap thach"
+  },
+  {
+    "code": "253",
+    "name": "Sông Lô",
+    "type": "district",
+    "nameWithType": "Huyện Sông Lô",
+    "provinceCode": "26",
+    "slug": "song-lo",
+    "normalizedName": "song lo"
+  },
+  {
+    "code": "247",
+    "name": "Tam Dương",
+    "type": "district",
+    "nameWithType": "Huyện Tam Dương",
+    "provinceCode": "26",
+    "slug": "tam-duong",
+    "normalizedName": "tam duong"
+  },
+  {
+    "code": "248",
+    "name": "Tam Đảo",
+    "type": "district",
+    "nameWithType": "Huyện Tam Đảo",
+    "provinceCode": "26",
+    "slug": "tam-dao",
+    "normalizedName": "tam dao"
+  },
+  {
+    "code": "249",
+    "name": "Bình Xuyên",
+    "type": "district",
+    "nameWithType": "Huyện Bình Xuyên",
+    "provinceCode": "26",
+    "slug": "binh-xuyen",
+    "normalizedName": "binh xuyen"
+  },
+  {
+    "code": "251",
+    "name": "Yên Lạc",
+    "type": "district",
+    "nameWithType": "Huyện Yên Lạc",
+    "provinceCode": "26",
+    "slug": "yen-lac",
+    "normalizedName": "yen lac"
+  },
+  {
+    "code": "252",
+    "name": "Vĩnh Tường",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Tường",
+    "provinceCode": "26",
+    "slug": "vinh-tuong",
+    "normalizedName": "vinh tuong"
+  },
+  {
+    "code": "288",
+    "name": "Hải Dương",
+    "type": "city",
+    "nameWithType": "Thành phố Hải Dương",
+    "provinceCode": "30",
+    "slug": "hai-duong",
+    "normalizedName": "hai duong"
+  },
+  {
+    "code": "295",
+    "name": "Cẩm Giàng",
+    "type": "district",
+    "nameWithType": "Huyện Cẩm Giàng",
+    "provinceCode": "30",
+    "slug": "cam-giang",
+    "normalizedName": "cam giang"
+  },
+  {
+    "code": "290",
+    "name": "Chí Linh",
+    "type": "city",
+    "nameWithType": "Thành phố Chí Linh",
+    "provinceCode": "30",
+    "slug": "chi-linh",
+    "normalizedName": "chi linh"
+  },
+  {
+    "code": "294",
+    "name": "Thanh Hà",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Hà",
+    "provinceCode": "30",
+    "slug": "thanh-ha",
+    "normalizedName": "thanh ha"
+  },
+  {
+    "code": "292",
+    "name": "Kinh Môn",
+    "type": "town",
+    "nameWithType": "Thị xã Kinh Môn",
+    "provinceCode": "30",
+    "slug": "kinh-mon",
+    "normalizedName": "kinh mon"
+  },
+  {
+    "code": "297",
+    "name": "Gia Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Gia Lộc",
+    "provinceCode": "30",
+    "slug": "gia-loc",
+    "normalizedName": "gia loc"
+  },
+  {
+    "code": "303",
+    "name": "Hồng Bàng",
+    "type": "urban_district",
+    "nameWithType": "Quận Hồng Bàng",
+    "provinceCode": "31",
+    "slug": "hong-bang",
+    "normalizedName": "hong bang"
+  },
+  {
+    "code": "304",
+    "name": "Ngô Quyền",
+    "type": "urban_district",
+    "nameWithType": "Quận Ngô Quyền",
+    "provinceCode": "31",
+    "slug": "ngo-quyen",
+    "normalizedName": "ngo quyen"
+  },
+  {
+    "code": "305",
+    "name": "Lê Chân",
+    "type": "urban_district",
+    "nameWithType": "Quận Lê Chân",
+    "provinceCode": "31",
+    "slug": "le-chan",
+    "normalizedName": "le chan"
+  },
+  {
+    "code": "306",
+    "name": "Hải An",
+    "type": "urban_district",
+    "nameWithType": "Quận Hải An",
+    "provinceCode": "31",
+    "slug": "hai-an",
+    "normalizedName": "hai an"
+  },
+  {
+    "code": "307",
+    "name": "Kiến An",
+    "type": "urban_district",
+    "nameWithType": "Quận Kiến An",
+    "provinceCode": "31",
+    "slug": "kien-an",
+    "normalizedName": "kien an"
+  },
+  {
+    "code": "313",
+    "name": "An Lão",
+    "type": "district",
+    "nameWithType": "Huyện An Lão",
+    "provinceCode": "31",
+    "slug": "an-lao",
+    "normalizedName": "an lao"
+  },
+  {
+    "code": "308",
+    "name": "Đồ Sơn",
+    "type": "urban_district",
+    "nameWithType": "Quận Đồ Sơn",
+    "provinceCode": "31",
+    "slug": "do-son",
+    "normalizedName": "do son"
+  },
+  {
+    "code": "309",
+    "name": "Dương Kinh",
+    "type": "urban_district",
+    "nameWithType": "Quận Dương Kinh",
+    "provinceCode": "31",
+    "slug": "duong-kinh",
+    "normalizedName": "duong kinh"
+  },
+  {
+    "code": "311",
+    "name": "Thuỷ Nguyên",
+    "type": "city",
+    "nameWithType": "Thành phố Thuỷ Nguyên",
+    "provinceCode": "31",
+    "slug": "thuy-nguyen",
+    "normalizedName": "thuy nguyen"
+  },
+  {
+    "code": "312",
+    "name": "An Dương",
+    "type": "urban_district",
+    "nameWithType": "Quận An Dương",
+    "provinceCode": "31",
+    "slug": "an-duong",
+    "normalizedName": "an duong"
+  },
+  {
+    "code": "291",
+    "name": "Nam Sách",
+    "type": "district",
+    "nameWithType": "Huyện Nam Sách",
+    "provinceCode": "30",
+    "slug": "nam-sach",
+    "normalizedName": "nam sach"
+  },
+  {
+    "code": "293",
+    "name": "Kim Thành",
+    "type": "district",
+    "nameWithType": "Huyện Kim Thành",
+    "provinceCode": "30",
+    "slug": "kim-thanh",
+    "normalizedName": "kim thanh"
+  },
+  {
+    "code": "296",
+    "name": "Bình Giang",
+    "type": "district",
+    "nameWithType": "Huyện Bình Giang",
+    "provinceCode": "30",
+    "slug": "binh-giang",
+    "normalizedName": "binh giang"
+  },
+  {
+    "code": "300",
+    "name": "Thanh Miện",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Miện",
+    "provinceCode": "30",
+    "slug": "thanh-mien",
+    "normalizedName": "thanh mien"
+  },
+  {
+    "code": "298",
+    "name": "Tứ Kỳ",
+    "type": "district",
+    "nameWithType": "Huyện Tứ Kỳ",
+    "provinceCode": "30",
+    "slug": "tu-ky",
+    "normalizedName": "tu ky"
+  },
+  {
+    "code": "299",
+    "name": "Ninh Giang",
+    "type": "district",
+    "nameWithType": "Huyện Ninh Giang",
+    "provinceCode": "30",
+    "slug": "ninh-giang",
+    "normalizedName": "ninh giang"
+  },
+  {
+    "code": "314",
+    "name": "Kiến Thuỵ",
+    "type": "district",
+    "nameWithType": "Huyện Kiến Thuỵ",
+    "provinceCode": "31",
+    "slug": "kien-thuy",
+    "normalizedName": "kien thuy"
+  },
+  {
+    "code": "315",
+    "name": "Tiên Lãng",
+    "type": "district",
+    "nameWithType": "Huyện Tiên Lãng",
+    "provinceCode": "31",
+    "slug": "tien-lang",
+    "normalizedName": "tien lang"
+  },
+  {
+    "code": "316",
+    "name": "Vĩnh Bảo",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Bảo",
+    "provinceCode": "31",
+    "slug": "vinh-bao",
+    "normalizedName": "vinh bao"
+  },
+  {
+    "code": "317",
+    "name": "Cát Hải",
+    "type": "district",
+    "nameWithType": "Huyện Cát Hải",
+    "provinceCode": "31",
+    "slug": "cat-hai",
+    "normalizedName": "cat hai"
+  },
+  {
+    "code": "318",
+    "name": "Bạch Long Vĩ",
+    "type": "district",
+    "nameWithType": "Huyện Bạch Long Vĩ",
+    "provinceCode": "31",
+    "slug": "bach-long-vi",
+    "normalizedName": "bach long vi"
+  },
+  {
+    "code": "323",
+    "name": "Hưng Yên",
+    "type": "city",
+    "nameWithType": "Thành phố Hưng Yên",
+    "provinceCode": "33",
+    "slug": "hung-yen",
+    "normalizedName": "hung yen"
+  },
+  {
+    "code": "331",
+    "name": "Kim Động",
+    "type": "district",
+    "nameWithType": "Huyện Kim Động",
+    "provinceCode": "33",
+    "slug": "kim-dong",
+    "normalizedName": "kim dong"
+  },
+  {
+    "code": "328",
+    "name": "Mỹ Hào",
+    "type": "town",
+    "nameWithType": "Thị xã Mỹ Hào",
+    "provinceCode": "33",
+    "slug": "my-hao",
+    "normalizedName": "my hao"
+  },
+  {
+    "code": "336",
+    "name": "Thái Bình",
+    "type": "city",
+    "nameWithType": "Thành phố Thái Bình",
+    "provinceCode": "34",
+    "slug": "thai-binh",
+    "normalizedName": "thai binh"
+  },
+  {
+    "code": "343",
+    "name": "Kiến Xương",
+    "type": "district",
+    "nameWithType": "Huyện Kiến Xương",
+    "provinceCode": "34",
+    "slug": "kien-xuong",
+    "normalizedName": "kien xuong"
+  },
+  {
+    "code": "344",
+    "name": "Vũ Thư",
+    "type": "district",
+    "nameWithType": "Huyện Vũ Thư",
+    "provinceCode": "34",
+    "slug": "vu-thu",
+    "normalizedName": "vu thu"
+  },
+  {
+    "code": "340",
+    "name": "Đông Hưng",
+    "type": "district",
+    "nameWithType": "Huyện Đông Hưng",
+    "provinceCode": "34",
+    "slug": "dong-hung",
+    "normalizedName": "dong hung"
+  },
+  {
+    "code": "332",
+    "name": "Tiên Lữ",
+    "type": "district",
+    "nameWithType": "Huyện Tiên Lữ",
+    "provinceCode": "33",
+    "slug": "tien-lu",
+    "normalizedName": "tien lu"
+  },
+  {
+    "code": "325",
+    "name": "Văn Lâm",
+    "type": "district",
+    "nameWithType": "Huyện Văn Lâm",
+    "provinceCode": "33",
+    "slug": "van-lam",
+    "normalizedName": "van lam"
+  },
+  {
+    "code": "326",
+    "name": "Văn Giang",
+    "type": "district",
+    "nameWithType": "Huyện Văn Giang",
+    "provinceCode": "33",
+    "slug": "van-giang",
+    "normalizedName": "van giang"
+  },
+  {
+    "code": "330",
+    "name": "Khoái Châu",
+    "type": "district",
+    "nameWithType": "Huyện Khoái Châu",
+    "provinceCode": "33",
+    "slug": "khoai-chau",
+    "normalizedName": "khoai chau"
+  },
+  {
+    "code": "327",
+    "name": "Yên Mỹ",
+    "type": "district",
+    "nameWithType": "Huyện Yên Mỹ",
+    "provinceCode": "33",
+    "slug": "yen-my",
+    "normalizedName": "yen my"
+  },
+  {
+    "code": "329",
+    "name": "Ân Thi",
+    "type": "district",
+    "nameWithType": "Huyện Ân Thi",
+    "provinceCode": "33",
+    "slug": "an-thi",
+    "normalizedName": "an thi"
+  },
+  {
+    "code": "333",
+    "name": "Phù Cừ",
+    "type": "district",
+    "nameWithType": "Huyện Phù Cừ",
+    "provinceCode": "33",
+    "slug": "phu-cu",
+    "normalizedName": "phu cu"
+  },
+  {
+    "code": "338",
+    "name": "Quỳnh Phụ",
+    "type": "district",
+    "nameWithType": "Huyện Quỳnh Phụ",
+    "provinceCode": "34",
+    "slug": "quynh-phu",
+    "normalizedName": "quynh phu"
+  },
+  {
+    "code": "339",
+    "name": "Hưng Hà",
+    "type": "district",
+    "nameWithType": "Huyện Hưng Hà",
+    "provinceCode": "34",
+    "slug": "hung-ha",
+    "normalizedName": "hung ha"
+  },
+  {
+    "code": "341",
+    "name": "Thái Thụy",
+    "type": "district",
+    "nameWithType": "Huyện Thái Thụy",
+    "provinceCode": "34",
+    "slug": "thai-thuy",
+    "normalizedName": "thai thuy"
+  },
+  {
+    "code": "342",
+    "name": "Tiền Hải",
+    "type": "district",
+    "nameWithType": "Huyện Tiền Hải",
+    "provinceCode": "34",
+    "slug": "tien-hai",
+    "normalizedName": "tien hai"
+  },
+  {
+    "code": "347",
+    "name": "Phủ Lý",
+    "type": "city",
+    "nameWithType": "Thành phố Phủ Lý",
+    "provinceCode": "35",
+    "slug": "phu-ly",
+    "normalizedName": "phu ly"
+  },
+  {
+    "code": "351",
+    "name": "Thanh Liêm",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Liêm",
+    "provinceCode": "35",
+    "slug": "thanh-liem",
+    "normalizedName": "thanh liem"
+  },
+  {
+    "code": "349",
+    "name": "Duy Tiên",
+    "type": "town",
+    "nameWithType": "Thị xã Duy Tiên",
+    "provinceCode": "35",
+    "slug": "duy-tien",
+    "normalizedName": "duy tien"
+  },
+  {
+    "code": "350",
+    "name": "Kim Bảng",
+    "type": "town",
+    "nameWithType": "Thị xã Kim Bảng",
+    "provinceCode": "35",
+    "slug": "kim-bang",
+    "normalizedName": "kim bang"
+  },
+  {
+    "code": "356",
+    "name": "Nam Định",
+    "type": "city",
+    "nameWithType": "Thành phố Nam Định",
+    "provinceCode": "36",
+    "slug": "nam-dinh",
+    "normalizedName": "nam dinh"
+  },
+  {
+    "code": "359",
+    "name": "Vụ Bản",
+    "type": "district",
+    "nameWithType": "Huyện Vụ Bản",
+    "provinceCode": "36",
+    "slug": "vu-ban",
+    "normalizedName": "vu ban"
+  },
+  {
+    "code": "362",
+    "name": "Nam Trực",
+    "type": "district",
+    "nameWithType": "Huyện Nam Trực",
+    "provinceCode": "36",
+    "slug": "nam-truc",
+    "normalizedName": "nam truc"
+  },
+  {
+    "code": "374",
+    "name": "Hoa Lư",
+    "type": "city",
+    "nameWithType": "Thành phố Hoa Lư",
+    "provinceCode": "37",
+    "slug": "hoa-lu",
+    "normalizedName": "hoa lu"
+  },
+  {
+    "code": "370",
+    "name": "Tam Điệp",
+    "type": "city",
+    "nameWithType": "Thành phố Tam Điệp",
+    "provinceCode": "37",
+    "slug": "tam-diep",
+    "normalizedName": "tam diep"
+  },
+  {
+    "code": "372",
+    "name": "Nho Quan",
+    "type": "district",
+    "nameWithType": "Huyện Nho Quan",
+    "provinceCode": "37",
+    "slug": "nho-quan",
+    "normalizedName": "nho quan"
+  },
+  {
+    "code": "373",
+    "name": "Gia Viễn",
+    "type": "district",
+    "nameWithType": "Huyện Gia Viễn",
+    "provinceCode": "37",
+    "slug": "gia-vien",
+    "normalizedName": "gia vien"
+  },
+  {
+    "code": "375",
+    "name": "Yên Khánh",
+    "type": "district",
+    "nameWithType": "Huyện Yên Khánh",
+    "provinceCode": "37",
+    "slug": "yen-khanh",
+    "normalizedName": "yen khanh"
+  },
+  {
+    "code": "377",
+    "name": "Yên Mô",
+    "type": "district",
+    "nameWithType": "Huyện Yên Mô",
+    "provinceCode": "37",
+    "slug": "yen-mo",
+    "normalizedName": "yen mo"
+  },
+  {
+    "code": "352",
+    "name": "Bình Lục",
+    "type": "district",
+    "nameWithType": "Huyện Bình Lục",
+    "provinceCode": "35",
+    "slug": "binh-luc",
+    "normalizedName": "binh luc"
+  },
+  {
+    "code": "353",
+    "name": "Lý Nhân",
+    "type": "district",
+    "nameWithType": "Huyện Lý Nhân",
+    "provinceCode": "35",
+    "slug": "ly-nhan",
+    "normalizedName": "ly nhan"
+  },
+  {
+    "code": "360",
+    "name": "Ý Yên",
+    "type": "district",
+    "nameWithType": "Huyện Ý Yên",
+    "provinceCode": "36",
+    "slug": "y-yen",
+    "normalizedName": "y yen"
+  },
+  {
+    "code": "361",
+    "name": "Nghĩa Hưng",
+    "type": "district",
+    "nameWithType": "Huyện Nghĩa Hưng",
+    "provinceCode": "36",
+    "slug": "nghia-hung",
+    "normalizedName": "nghia hung"
+  },
+  {
+    "code": "363",
+    "name": "Trực Ninh",
+    "type": "district",
+    "nameWithType": "Huyện Trực Ninh",
+    "provinceCode": "36",
+    "slug": "truc-ninh",
+    "normalizedName": "truc ninh"
+  },
+  {
+    "code": "364",
+    "name": "Xuân Trường",
+    "type": "district",
+    "nameWithType": "Huyện Xuân Trường",
+    "provinceCode": "36",
+    "slug": "xuan-truong",
+    "normalizedName": "xuan truong"
+  },
+  {
+    "code": "365",
+    "name": "Giao Thủy",
+    "type": "district",
+    "nameWithType": "Huyện Giao Thủy",
+    "provinceCode": "36",
+    "slug": "giao-thuy",
+    "normalizedName": "giao thuy"
+  },
+  {
+    "code": "366",
+    "name": "Hải Hậu",
+    "type": "district",
+    "nameWithType": "Huyện Hải Hậu",
+    "provinceCode": "36",
+    "slug": "hai-hau",
+    "normalizedName": "hai hau"
+  },
+  {
+    "code": "376",
+    "name": "Kim Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Kim Sơn",
+    "provinceCode": "37",
+    "slug": "kim-son",
+    "normalizedName": "kim son"
+  },
+  {
+    "code": "380",
+    "name": "Thanh Hóa",
+    "type": "city",
+    "nameWithType": "Thành phố Thanh Hóa",
+    "provinceCode": "38",
+    "slug": "thanh-hoa",
+    "normalizedName": "thanh hoa"
+  },
+  {
+    "code": "381",
+    "name": "Bỉm Sơn",
+    "type": "town",
+    "nameWithType": "Thị xã Bỉm Sơn",
+    "provinceCode": "38",
+    "slug": "bim-son",
+    "normalizedName": "bim son"
+  },
+  {
+    "code": "392",
+    "name": "Hà Trung",
+    "type": "district",
+    "nameWithType": "Huyện Hà Trung",
+    "provinceCode": "38",
+    "slug": "ha-trung",
+    "normalizedName": "ha trung"
+  },
+  {
+    "code": "398",
+    "name": "Thiệu Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Thiệu Hóa",
+    "provinceCode": "38",
+    "slug": "thieu-hoa",
+    "normalizedName": "thieu hoa"
+  },
+  {
+    "code": "382",
+    "name": "Sầm Sơn",
+    "type": "city",
+    "nameWithType": "Thành phố Sầm Sơn",
+    "provinceCode": "38",
+    "slug": "sam-son",
+    "normalizedName": "sam son"
+  },
+  {
+    "code": "406",
+    "name": "Quảng Xương",
+    "type": "district",
+    "nameWithType": "Huyện Quảng Xương",
+    "provinceCode": "38",
+    "slug": "quang-xuong",
+    "normalizedName": "quang xuong"
+  },
+  {
+    "code": "407",
+    "name": "Nghi Sơn",
+    "type": "town",
+    "nameWithType": "Thị xã Nghi Sơn",
+    "provinceCode": "38",
+    "slug": "nghi-son",
+    "normalizedName": "nghi son"
+  },
+  {
+    "code": "384",
+    "name": "Mường Lát",
+    "type": "district",
+    "nameWithType": "Huyện Mường Lát",
+    "provinceCode": "38",
+    "slug": "muong-lat",
+    "normalizedName": "muong lat"
+  },
+  {
+    "code": "385",
+    "name": "Quan Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Quan Hóa",
+    "provinceCode": "38",
+    "slug": "quan-hoa",
+    "normalizedName": "quan hoa"
+  },
+  {
+    "code": "386",
+    "name": "Bá Thước",
+    "type": "district",
+    "nameWithType": "Huyện Bá Thước",
+    "provinceCode": "38",
+    "slug": "ba-thuoc",
+    "normalizedName": "ba thuoc"
+  },
+  {
+    "code": "387",
+    "name": "Quan Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Quan Sơn",
+    "provinceCode": "38",
+    "slug": "quan-son",
+    "normalizedName": "quan son"
+  },
+  {
+    "code": "388",
+    "name": "Lang Chánh",
+    "type": "district",
+    "nameWithType": "Huyện Lang Chánh",
+    "provinceCode": "38",
+    "slug": "lang-chanh",
+    "normalizedName": "lang chanh"
+  },
+  {
+    "code": "389",
+    "name": "Ngọc Lặc",
+    "type": "district",
+    "nameWithType": "Huyện Ngọc Lặc",
+    "provinceCode": "38",
+    "slug": "ngoc-lac",
+    "normalizedName": "ngoc lac"
+  },
+  {
+    "code": "390",
+    "name": "Cẩm Thủy",
+    "type": "district",
+    "nameWithType": "Huyện Cẩm Thủy",
+    "provinceCode": "38",
+    "slug": "cam-thuy",
+    "normalizedName": "cam thuy"
+  },
+  {
+    "code": "391",
+    "name": "Thạch Thành",
+    "type": "district",
+    "nameWithType": "Huyện Thạch Thành",
+    "provinceCode": "38",
+    "slug": "thach-thanh",
+    "normalizedName": "thach thanh"
+  },
+  {
+    "code": "393",
+    "name": "Vĩnh Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Lộc",
+    "provinceCode": "38",
+    "slug": "vinh-loc",
+    "normalizedName": "vinh loc"
+  },
+  {
+    "code": "394",
+    "name": "Yên Định",
+    "type": "district",
+    "nameWithType": "Huyện Yên Định",
+    "provinceCode": "38",
+    "slug": "yen-dinh",
+    "normalizedName": "yen dinh"
+  },
+  {
+    "code": "395",
+    "name": "Thọ Xuân",
+    "type": "district",
+    "nameWithType": "Huyện Thọ Xuân",
+    "provinceCode": "38",
+    "slug": "tho-xuan",
+    "normalizedName": "tho xuan"
+  },
+  {
+    "code": "396",
+    "name": "Thường Xuân",
+    "type": "district",
+    "nameWithType": "Huyện Thường Xuân",
+    "provinceCode": "38",
+    "slug": "thuong-xuan",
+    "normalizedName": "thuong xuan"
+  },
+  {
+    "code": "397",
+    "name": "Triệu Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Triệu Sơn",
+    "provinceCode": "38",
+    "slug": "trieu-son",
+    "normalizedName": "trieu son"
+  },
+  {
+    "code": "399",
+    "name": "Hoằng Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Hoằng Hóa",
+    "provinceCode": "38",
+    "slug": "hoang-hoa",
+    "normalizedName": "hoang hoa"
+  },
+  {
+    "code": "400",
+    "name": "Hậu Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Hậu Lộc",
+    "provinceCode": "38",
+    "slug": "hau-loc",
+    "normalizedName": "hau loc"
+  },
+  {
+    "code": "401",
+    "name": "Nga Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Nga Sơn",
+    "provinceCode": "38",
+    "slug": "nga-son",
+    "normalizedName": "nga son"
+  },
+  {
+    "code": "402",
+    "name": "Như Xuân",
+    "type": "district",
+    "nameWithType": "Huyện Như Xuân",
+    "provinceCode": "38",
+    "slug": "nhu-xuan",
+    "normalizedName": "nhu xuan"
+  },
+  {
+    "code": "403",
+    "name": "Như Thanh",
+    "type": "district",
+    "nameWithType": "Huyện Như Thanh",
+    "provinceCode": "38",
+    "slug": "nhu-thanh",
+    "normalizedName": "nhu thanh"
+  },
+  {
+    "code": "404",
+    "name": "Nông Cống",
+    "type": "district",
+    "nameWithType": "Huyện Nông Cống",
+    "provinceCode": "38",
+    "slug": "nong-cong",
+    "normalizedName": "nong cong"
+  },
+  {
+    "code": "412",
+    "name": "Vinh",
+    "type": "city",
+    "nameWithType": "Thành phố Vinh",
+    "provinceCode": "40",
+    "slug": "vinh",
+    "normalizedName": "vinh"
+  },
+  {
+    "code": "414",
+    "name": "Thái Hoà",
+    "type": "town",
+    "nameWithType": "Thị xã Thái Hoà",
+    "provinceCode": "40",
+    "slug": "thai-hoa",
+    "normalizedName": "thai hoa"
+  },
+  {
+    "code": "432",
+    "name": "Hoàng Mai",
+    "type": "town",
+    "nameWithType": "Thị xã Hoàng Mai",
+    "provinceCode": "40",
+    "slug": "hoang-mai",
+    "normalizedName": "hoang mai"
+  },
+  {
+    "code": "415",
+    "name": "Quế Phong",
+    "type": "district",
+    "nameWithType": "Huyện Quế Phong",
+    "provinceCode": "40",
+    "slug": "que-phong",
+    "normalizedName": "que phong"
+  },
+  {
+    "code": "416",
+    "name": "Quỳ Châu",
+    "type": "district",
+    "nameWithType": "Huyện Quỳ Châu",
+    "provinceCode": "40",
+    "slug": "quy-chau",
+    "normalizedName": "quy chau"
+  },
+  {
+    "code": "417",
+    "name": "Kỳ Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Kỳ Sơn",
+    "provinceCode": "40",
+    "slug": "ky-son",
+    "normalizedName": "ky son"
+  },
+  {
+    "code": "418",
+    "name": "Tương Dương",
+    "type": "district",
+    "nameWithType": "Huyện Tương Dương",
+    "provinceCode": "40",
+    "slug": "tuong-duong",
+    "normalizedName": "tuong duong"
+  },
+  {
+    "code": "419",
+    "name": "Nghĩa Đàn",
+    "type": "district",
+    "nameWithType": "Huyện Nghĩa Đàn",
+    "provinceCode": "40",
+    "slug": "nghia-dan",
+    "normalizedName": "nghia dan"
+  },
+  {
+    "code": "420",
+    "name": "Quỳ Hợp",
+    "type": "district",
+    "nameWithType": "Huyện Quỳ Hợp",
+    "provinceCode": "40",
+    "slug": "quy-hop",
+    "normalizedName": "quy hop"
+  },
+  {
+    "code": "421",
+    "name": "Quỳnh Lưu",
+    "type": "district",
+    "nameWithType": "Huyện Quỳnh Lưu",
+    "provinceCode": "40",
+    "slug": "quynh-luu",
+    "normalizedName": "quynh luu"
+  },
+  {
+    "code": "422",
+    "name": "Con Cuông",
+    "type": "district",
+    "nameWithType": "Huyện Con Cuông",
+    "provinceCode": "40",
+    "slug": "con-cuong",
+    "normalizedName": "con cuong"
+  },
+  {
+    "code": "423",
+    "name": "Tân Kỳ",
+    "type": "district",
+    "nameWithType": "Huyện Tân Kỳ",
+    "provinceCode": "40",
+    "slug": "tan-ky",
+    "normalizedName": "tan ky"
+  },
+  {
+    "code": "424",
+    "name": "Anh Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Anh Sơn",
+    "provinceCode": "40",
+    "slug": "anh-son",
+    "normalizedName": "anh son"
+  },
+  {
+    "code": "425",
+    "name": "Diễn Châu",
+    "type": "district",
+    "nameWithType": "Huyện Diễn Châu",
+    "provinceCode": "40",
+    "slug": "dien-chau",
+    "normalizedName": "dien chau"
+  },
+  {
+    "code": "426",
+    "name": "Yên Thành",
+    "type": "district",
+    "nameWithType": "Huyện Yên Thành",
+    "provinceCode": "40",
+    "slug": "yen-thanh",
+    "normalizedName": "yen thanh"
+  },
+  {
+    "code": "427",
+    "name": "Đô Lương",
+    "type": "district",
+    "nameWithType": "Huyện Đô Lương",
+    "provinceCode": "40",
+    "slug": "do-luong",
+    "normalizedName": "do luong"
+  },
+  {
+    "code": "428",
+    "name": "Thanh Chương",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Chương",
+    "provinceCode": "40",
+    "slug": "thanh-chuong",
+    "normalizedName": "thanh chuong"
+  },
+  {
+    "code": "429",
+    "name": "Nghi Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Nghi Lộc",
+    "provinceCode": "40",
+    "slug": "nghi-loc",
+    "normalizedName": "nghi loc"
+  },
+  {
+    "code": "430",
+    "name": "Nam Đàn",
+    "type": "district",
+    "nameWithType": "Huyện Nam Đàn",
+    "provinceCode": "40",
+    "slug": "nam-dan",
+    "normalizedName": "nam dan"
+  },
+  {
+    "code": "431",
+    "name": "Hưng Nguyên",
+    "type": "district",
+    "nameWithType": "Huyện Hưng Nguyên",
+    "provinceCode": "40",
+    "slug": "hung-nguyen",
+    "normalizedName": "hung nguyen"
+  },
+  {
+    "code": "436",
+    "name": "Hà Tĩnh",
+    "type": "city",
+    "nameWithType": "Thành phố Hà Tĩnh",
+    "provinceCode": "42",
+    "slug": "ha-tinh",
+    "normalizedName": "ha tinh"
+  },
+  {
+    "code": "437",
+    "name": "Hồng Lĩnh",
+    "type": "town",
+    "nameWithType": "Thị xã Hồng Lĩnh",
+    "provinceCode": "42",
+    "slug": "hong-linh",
+    "normalizedName": "hong linh"
+  },
+  {
+    "code": "442",
+    "name": "Nghi Xuân",
+    "type": "district",
+    "nameWithType": "Huyện Nghi Xuân",
+    "provinceCode": "42",
+    "slug": "nghi-xuan",
+    "normalizedName": "nghi xuan"
+  },
+  {
+    "code": "449",
+    "name": "Kỳ Anh",
+    "type": "town",
+    "nameWithType": "Thị xã Kỳ Anh",
+    "provinceCode": "42",
+    "slug": "ky-anh",
+    "normalizedName": "ky anh"
+  },
+  {
+    "code": "447",
+    "name": "Kỳ Anh",
+    "type": "district",
+    "nameWithType": "Huyện Kỳ Anh",
+    "provinceCode": "42",
+    "slug": "ky-anh",
+    "normalizedName": "ky anh"
+  },
+  {
+    "code": "439",
+    "name": "Hương Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Hương Sơn",
+    "provinceCode": "42",
+    "slug": "huong-son",
+    "normalizedName": "huong son"
+  },
+  {
+    "code": "440",
+    "name": "Đức Thọ",
+    "type": "district",
+    "nameWithType": "Huyện Đức Thọ",
+    "provinceCode": "42",
+    "slug": "duc-tho",
+    "normalizedName": "duc tho"
+  },
+  {
+    "code": "441",
+    "name": "Vũ Quang",
+    "type": "district",
+    "nameWithType": "Huyện Vũ Quang",
+    "provinceCode": "42",
+    "slug": "vu-quang",
+    "normalizedName": "vu quang"
+  },
+  {
+    "code": "443",
+    "name": "Can Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Can Lộc",
+    "provinceCode": "42",
+    "slug": "can-loc",
+    "normalizedName": "can loc"
+  },
+  {
+    "code": "445",
+    "name": "Thạch Hà",
+    "type": "district",
+    "nameWithType": "Huyện Thạch Hà",
+    "provinceCode": "42",
+    "slug": "thach-ha",
+    "normalizedName": "thach ha"
+  },
+  {
+    "code": "444",
+    "name": "Hương Khê",
+    "type": "district",
+    "nameWithType": "Huyện Hương Khê",
+    "provinceCode": "42",
+    "slug": "huong-khe",
+    "normalizedName": "huong khe"
+  },
+  {
+    "code": "446",
+    "name": "Cẩm Xuyên",
+    "type": "district",
+    "nameWithType": "Huyện Cẩm Xuyên",
+    "provinceCode": "42",
+    "slug": "cam-xuyen",
+    "normalizedName": "cam xuyen"
+  },
+  {
+    "code": "450",
+    "name": "Đồng Hới",
+    "type": "city",
+    "nameWithType": "Thành phố Đồng Hới",
+    "provinceCode": "44",
+    "slug": "dong-hoi",
+    "normalizedName": "dong hoi"
+  },
+  {
+    "code": "458",
+    "name": "Ba Đồn",
+    "type": "town",
+    "nameWithType": "Thị xã Ba Đồn",
+    "provinceCode": "44",
+    "slug": "ba-don",
+    "normalizedName": "ba don"
+  },
+  {
+    "code": "461",
+    "name": "Đông Hà",
+    "type": "city",
+    "nameWithType": "Thành phố Đông Hà",
+    "provinceCode": "45",
+    "slug": "dong-ha",
+    "normalizedName": "dong ha"
+  },
+  {
+    "code": "462",
+    "name": "Quảng Trị",
+    "type": "town",
+    "nameWithType": "Thị xã Quảng Trị",
+    "provinceCode": "45",
+    "slug": "quang-tri",
+    "normalizedName": "quang tri"
+  },
+  {
+    "code": "452",
+    "name": "Minh Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Minh Hóa",
+    "provinceCode": "44",
+    "slug": "minh-hoa",
+    "normalizedName": "minh hoa"
+  },
+  {
+    "code": "453",
+    "name": "Tuyên Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Tuyên Hóa",
+    "provinceCode": "44",
+    "slug": "tuyen-hoa",
+    "normalizedName": "tuyen hoa"
+  },
+  {
+    "code": "454",
+    "name": "Quảng Trạch",
+    "type": "district",
+    "nameWithType": "Huyện Quảng Trạch",
+    "provinceCode": "44",
+    "slug": "quang-trach",
+    "normalizedName": "quang trach"
+  },
+  {
+    "code": "455",
+    "name": "Bố Trạch",
+    "type": "district",
+    "nameWithType": "Huyện Bố Trạch",
+    "provinceCode": "44",
+    "slug": "bo-trach",
+    "normalizedName": "bo trach"
+  },
+  {
+    "code": "456",
+    "name": "Quảng Ninh",
+    "type": "district",
+    "nameWithType": "Huyện Quảng Ninh",
+    "provinceCode": "44",
+    "slug": "quang-ninh",
+    "normalizedName": "quang ninh"
+  },
+  {
+    "code": "457",
+    "name": "Lệ Thủy",
+    "type": "district",
+    "nameWithType": "Huyện Lệ Thủy",
+    "provinceCode": "44",
+    "slug": "le-thuy",
+    "normalizedName": "le thuy"
+  },
+  {
+    "code": "464",
+    "name": "Vĩnh Linh",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Linh",
+    "provinceCode": "45",
+    "slug": "vinh-linh",
+    "normalizedName": "vinh linh"
+  },
+  {
+    "code": "465",
+    "name": "Hướng Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Hướng Hóa",
+    "provinceCode": "45",
+    "slug": "huong-hoa",
+    "normalizedName": "huong hoa"
+  },
+  {
+    "code": "466",
+    "name": "Gio Linh",
+    "type": "district",
+    "nameWithType": "Huyện Gio Linh",
+    "provinceCode": "45",
+    "slug": "gio-linh",
+    "normalizedName": "gio linh"
+  },
+  {
+    "code": "467",
+    "name": "Đa Krông",
+    "type": "district",
+    "nameWithType": "Huyện Đa Krông",
+    "provinceCode": "45",
+    "slug": "da-krong",
+    "normalizedName": "da krong"
+  },
+  {
+    "code": "468",
+    "name": "Cam Lộ",
+    "type": "district",
+    "nameWithType": "Huyện Cam Lộ",
+    "provinceCode": "45",
+    "slug": "cam-lo",
+    "normalizedName": "cam lo"
+  },
+  {
+    "code": "469",
+    "name": "Triệu Phong",
+    "type": "district",
+    "nameWithType": "Huyện Triệu Phong",
+    "provinceCode": "45",
+    "slug": "trieu-phong",
+    "normalizedName": "trieu phong"
+  },
+  {
+    "code": "470",
+    "name": "Hải Lăng",
+    "type": "district",
+    "nameWithType": "Huyện Hải Lăng",
+    "provinceCode": "45",
+    "slug": "hai-lang",
+    "normalizedName": "hai lang"
+  },
+  {
+    "code": "471",
+    "name": "Cồn Cỏ",
+    "type": "district",
+    "nameWithType": "Huyện Cồn Cỏ",
+    "provinceCode": "44",
+    "slug": "con-co",
+    "normalizedName": "con co"
+  },
+  {
+    "code": "475",
+    "name": "Phú Xuân",
+    "type": "urban_district",
+    "nameWithType": "Quận Phú Xuân",
+    "provinceCode": "46",
+    "slug": "phu-xuan",
+    "normalizedName": "phu xuan"
+  },
+  {
+    "code": "474",
+    "name": "Thuận Hóa",
+    "type": "urban_district",
+    "nameWithType": "Quận Thuận Hóa",
+    "provinceCode": "46",
+    "slug": "thuan-hoa",
+    "normalizedName": "thuan hoa"
+  },
+  {
+    "code": "476",
+    "name": "Phong Điền",
+    "type": "town",
+    "nameWithType": "Thị xã Phong Điền",
+    "provinceCode": "46",
+    "slug": "phong-dien",
+    "normalizedName": "phong dien"
+  },
+  {
+    "code": "477",
+    "name": "Quảng Điền",
+    "type": "district",
+    "nameWithType": "Huyện Quảng Điền",
+    "provinceCode": "46",
+    "slug": "quang-dien",
+    "normalizedName": "quang dien"
+  },
+  {
+    "code": "478",
+    "name": "Phú Vang",
+    "type": "district",
+    "nameWithType": "Huyện Phú Vang",
+    "provinceCode": "46",
+    "slug": "phu-vang",
+    "normalizedName": "phu vang"
+  },
+  {
+    "code": "479",
+    "name": "Hương Thủy",
+    "type": "town",
+    "nameWithType": "Thị xã Hương Thủy",
+    "provinceCode": "46",
+    "slug": "huong-thuy",
+    "normalizedName": "huong thuy"
+  },
+  {
+    "code": "480",
+    "name": "Hương Trà",
+    "type": "town",
+    "nameWithType": "Thị xã Hương Trà",
+    "provinceCode": "46",
+    "slug": "huong-tra",
+    "normalizedName": "huong tra"
+  },
+  {
+    "code": "481",
+    "name": "A Lưới",
+    "type": "district",
+    "nameWithType": "Huyện A Lưới",
+    "provinceCode": "46",
+    "slug": "a-luoi",
+    "normalizedName": "a luoi"
+  },
+  {
+    "code": "482",
+    "name": "Phú Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Phú Lộc",
+    "provinceCode": "46",
+    "slug": "phu-loc",
+    "normalizedName": "phu loc"
+  },
+  {
+    "code": "490",
+    "name": "Liên Chiểu",
+    "type": "urban_district",
+    "nameWithType": "Quận Liên Chiểu",
+    "provinceCode": "48",
+    "slug": "lien-chieu",
+    "normalizedName": "lien chieu"
+  },
+  {
+    "code": "497",
+    "name": "Hòa Vang",
+    "type": "district",
+    "nameWithType": "Huyện Hòa Vang",
+    "provinceCode": "48",
+    "slug": "hoa-vang",
+    "normalizedName": "hoa vang"
+  },
+  {
+    "code": "491",
+    "name": "Thanh Khê",
+    "type": "urban_district",
+    "nameWithType": "Quận Thanh Khê",
+    "provinceCode": "48",
+    "slug": "thanh-khe",
+    "normalizedName": "thanh khe"
+  },
+  {
+    "code": "492",
+    "name": "Hải Châu",
+    "type": "urban_district",
+    "nameWithType": "Quận Hải Châu",
+    "provinceCode": "48",
+    "slug": "hai-chau",
+    "normalizedName": "hai chau"
+  },
+  {
+    "code": "495",
+    "name": "Cẩm Lệ",
+    "type": "urban_district",
+    "nameWithType": "Quận Cẩm Lệ",
+    "provinceCode": "48",
+    "slug": "cam-le",
+    "normalizedName": "cam le"
+  },
+  {
+    "code": "493",
+    "name": "Sơn Trà",
+    "type": "urban_district",
+    "nameWithType": "Quận Sơn Trà",
+    "provinceCode": "48",
+    "slug": "son-tra",
+    "normalizedName": "son tra"
+  },
+  {
+    "code": "494",
+    "name": "Ngũ Hành Sơn",
+    "type": "urban_district",
+    "nameWithType": "Quận Ngũ Hành Sơn",
+    "provinceCode": "48",
+    "slug": "ngu-hanh-son",
+    "normalizedName": "ngu hanh son"
+  },
+  {
+    "code": "502",
+    "name": "Tam Kỳ",
+    "type": "city",
+    "nameWithType": "Thành phố Tam Kỳ",
+    "provinceCode": "49",
+    "slug": "tam-ky",
+    "normalizedName": "tam ky"
+  },
+  {
+    "code": "503",
+    "name": "Hội An",
+    "type": "city",
+    "nameWithType": "Thành phố Hội An",
+    "provinceCode": "49",
+    "slug": "hoi-an",
+    "normalizedName": "hoi an"
+  },
+  {
+    "code": "507",
+    "name": "Điện Bàn",
+    "type": "town",
+    "nameWithType": "Thị xã Điện Bàn",
+    "provinceCode": "49",
+    "slug": "dien-ban",
+    "normalizedName": "dien ban"
+  },
+  {
+    "code": "518",
+    "name": "Phú Ninh",
+    "type": "district",
+    "nameWithType": "Huyện Phú Ninh",
+    "provinceCode": "49",
+    "slug": "phu-ninh",
+    "normalizedName": "phu ninh"
+  },
+  {
+    "code": "504",
+    "name": "Tây Giang",
+    "type": "district",
+    "nameWithType": "Huyện Tây Giang",
+    "provinceCode": "49",
+    "slug": "tay-giang",
+    "normalizedName": "tay giang"
+  },
+  {
+    "code": "505",
+    "name": "Đông Giang",
+    "type": "district",
+    "nameWithType": "Huyện Đông Giang",
+    "provinceCode": "49",
+    "slug": "dong-giang",
+    "normalizedName": "dong giang"
+  },
+  {
+    "code": "506",
+    "name": "Đại Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Đại Lộc",
+    "provinceCode": "49",
+    "slug": "dai-loc",
+    "normalizedName": "dai loc"
+  },
+  {
+    "code": "508",
+    "name": "Duy Xuyên",
+    "type": "district",
+    "nameWithType": "Huyện Duy Xuyên",
+    "provinceCode": "49",
+    "slug": "duy-xuyen",
+    "normalizedName": "duy xuyen"
+  },
+  {
+    "code": "509",
+    "name": "Quế Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Quế Sơn",
+    "provinceCode": "49",
+    "slug": "que-son",
+    "normalizedName": "que son"
+  },
+  {
+    "code": "510",
+    "name": "Nam Giang",
+    "type": "district",
+    "nameWithType": "Huyện Nam Giang",
+    "provinceCode": "49",
+    "slug": "nam-giang",
+    "normalizedName": "nam giang"
+  },
+  {
+    "code": "511",
+    "name": "Phước Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Phước Sơn",
+    "provinceCode": "49",
+    "slug": "phuoc-son",
+    "normalizedName": "phuoc son"
+  },
+  {
+    "code": "512",
+    "name": "Hiệp Đức",
+    "type": "district",
+    "nameWithType": "Huyện Hiệp Đức",
+    "provinceCode": "49",
+    "slug": "hiep-duc",
+    "normalizedName": "hiep duc"
+  },
+  {
+    "code": "513",
+    "name": "Thăng Bình",
+    "type": "district",
+    "nameWithType": "Huyện Thăng Bình",
+    "provinceCode": "49",
+    "slug": "thang-binh",
+    "normalizedName": "thang binh"
+  },
+  {
+    "code": "514",
+    "name": "Tiên Phước",
+    "type": "district",
+    "nameWithType": "Huyện Tiên Phước",
+    "provinceCode": "49",
+    "slug": "tien-phuoc",
+    "normalizedName": "tien phuoc"
+  },
+  {
+    "code": "515",
+    "name": "Bắc Trà My",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Trà My",
+    "provinceCode": "49",
+    "slug": "bac-tra-my",
+    "normalizedName": "bac tra my"
+  },
+  {
+    "code": "516",
+    "name": "Nam Trà My",
+    "type": "district",
+    "nameWithType": "Huyện Nam Trà My",
+    "provinceCode": "49",
+    "slug": "nam-tra-my",
+    "normalizedName": "nam tra my"
+  },
+  {
+    "code": "517",
+    "name": "Núi Thành",
+    "type": "district",
+    "nameWithType": "Huyện Núi Thành",
+    "provinceCode": "49",
+    "slug": "nui-thanh",
+    "normalizedName": "nui thanh"
+  },
+  {
+    "code": "498",
+    "name": "Hoàng Sa",
+    "type": "district",
+    "nameWithType": "Huyện Hoàng Sa",
+    "provinceCode": "48",
+    "slug": "hoang-sa",
+    "normalizedName": "hoang sa"
+  },
+  {
+    "code": "522",
+    "name": "Quảng Ngãi",
+    "type": "city",
+    "nameWithType": "Thành phố Quảng Ngãi",
+    "provinceCode": "51",
+    "slug": "quang-ngai",
+    "normalizedName": "quang ngai"
+  },
+  {
+    "code": "534",
+    "name": "Đức Phổ",
+    "type": "town",
+    "nameWithType": "Thị xã Đức Phổ",
+    "provinceCode": "51",
+    "slug": "duc-pho",
+    "normalizedName": "duc pho"
+  },
+  {
+    "code": "608",
+    "name": "Kon Tum",
+    "type": "city",
+    "nameWithType": "Thành phố Kon Tum",
+    "provinceCode": "62",
+    "slug": "kon-tum",
+    "normalizedName": "kon tum"
+  },
+  {
+    "code": "524",
+    "name": "Bình Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Bình Sơn",
+    "provinceCode": "51",
+    "slug": "binh-son",
+    "normalizedName": "binh son"
+  },
+  {
+    "code": "525",
+    "name": "Trà Bồng",
+    "type": "district",
+    "nameWithType": "Huyện Trà Bồng",
+    "provinceCode": "51",
+    "slug": "tra-bong",
+    "normalizedName": "tra bong"
+  },
+  {
+    "code": "527",
+    "name": "Sơn Tịnh",
+    "type": "district",
+    "nameWithType": "Huyện Sơn Tịnh",
+    "provinceCode": "51",
+    "slug": "son-tinh",
+    "normalizedName": "son tinh"
+  },
+  {
+    "code": "528",
+    "name": "Tư Nghĩa",
+    "type": "district",
+    "nameWithType": "Huyện Tư Nghĩa",
+    "provinceCode": "51",
+    "slug": "tu-nghia",
+    "normalizedName": "tu nghia"
+  },
+  {
+    "code": "529",
+    "name": "Sơn Hà",
+    "type": "district",
+    "nameWithType": "Huyện Sơn Hà",
+    "provinceCode": "51",
+    "slug": "son-ha",
+    "normalizedName": "son ha"
+  },
+  {
+    "code": "530",
+    "name": "Sơn Tây",
+    "type": "district",
+    "nameWithType": "Huyện Sơn Tây",
+    "provinceCode": "51",
+    "slug": "son-tay",
+    "normalizedName": "son tay"
+  },
+  {
+    "code": "531",
+    "name": "Minh Long",
+    "type": "district",
+    "nameWithType": "Huyện Minh Long",
+    "provinceCode": "51",
+    "slug": "minh-long",
+    "normalizedName": "minh long"
+  },
+  {
+    "code": "532",
+    "name": "Nghĩa Hành",
+    "type": "district",
+    "nameWithType": "Huyện Nghĩa Hành",
+    "provinceCode": "51",
+    "slug": "nghia-hanh",
+    "normalizedName": "nghia hanh"
+  },
+  {
+    "code": "533",
+    "name": "Mộ Đức",
+    "type": "district",
+    "nameWithType": "Huyện Mộ Đức",
+    "provinceCode": "51",
+    "slug": "mo-duc",
+    "normalizedName": "mo duc"
+  },
+  {
+    "code": "535",
+    "name": "Ba Tơ",
+    "type": "district",
+    "nameWithType": "Huyện Ba Tơ",
+    "provinceCode": "51",
+    "slug": "ba-to",
+    "normalizedName": "ba to"
+  },
+  {
+    "code": "610",
+    "name": "Đắk Glei",
+    "type": "district",
+    "nameWithType": "Huyện Đắk Glei",
+    "provinceCode": "62",
+    "slug": "dak-glei",
+    "normalizedName": "dak glei"
+  },
+  {
+    "code": "611",
+    "name": "Ngọc Hồi",
+    "type": "district",
+    "nameWithType": "Huyện Ngọc Hồi",
+    "provinceCode": "62",
+    "slug": "ngoc-hoi",
+    "normalizedName": "ngoc hoi"
+  },
+  {
+    "code": "612",
+    "name": "Đắk Tô",
+    "type": "district",
+    "nameWithType": "Huyện Đắk Tô",
+    "provinceCode": "62",
+    "slug": "dak-to",
+    "normalizedName": "dak to"
+  },
+  {
+    "code": "617",
+    "name": "Tu Mơ Rông",
+    "type": "district",
+    "nameWithType": "Huyện Tu Mơ Rông",
+    "provinceCode": "62",
+    "slug": "tu-mo-rong",
+    "normalizedName": "tu mo rong"
+  },
+  {
+    "code": "613",
+    "name": "Kon Plông",
+    "type": "district",
+    "nameWithType": "Huyện Kon Plông",
+    "provinceCode": "62",
+    "slug": "kon-plong",
+    "normalizedName": "kon plong"
+  },
+  {
+    "code": "614",
+    "name": "Kon Rẫy",
+    "type": "district",
+    "nameWithType": "Huyện Kon Rẫy",
+    "provinceCode": "62",
+    "slug": "kon-ray",
+    "normalizedName": "kon ray"
+  },
+  {
+    "code": "615",
+    "name": "Đắk Hà",
+    "type": "district",
+    "nameWithType": "Huyện Đắk Hà",
+    "provinceCode": "62",
+    "slug": "dak-ha",
+    "normalizedName": "dak ha"
+  },
+  {
+    "code": "616",
+    "name": "Sa Thầy",
+    "type": "district",
+    "nameWithType": "Huyện Sa Thầy",
+    "provinceCode": "62",
+    "slug": "sa-thay",
+    "normalizedName": "sa thay"
+  },
+  {
+    "code": "618",
+    "name": "Ia H' Drai",
+    "type": "district",
+    "nameWithType": "Huyện Ia H' Drai",
+    "provinceCode": "62",
+    "slug": "ia-h-drai",
+    "normalizedName": "ia h' drai"
+  },
+  {
+    "code": "536",
+    "name": "Lý Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Lý Sơn",
+    "provinceCode": "51",
+    "slug": "ly-son",
+    "normalizedName": "ly son"
+  },
+  {
+    "code": "540",
+    "name": "Quy Nhơn",
+    "type": "city",
+    "nameWithType": "Thành phố Quy Nhơn",
+    "provinceCode": "52",
+    "slug": "quy-nhon",
+    "normalizedName": "quy nhon"
+  },
+  {
+    "code": "543",
+    "name": "Hoài Nhơn",
+    "type": "town",
+    "nameWithType": "Thị xã Hoài Nhơn",
+    "provinceCode": "52",
+    "slug": "hoai-nhon",
+    "normalizedName": "hoai nhon"
+  },
+  {
+    "code": "549",
+    "name": "An Nhơn",
+    "type": "town",
+    "nameWithType": "Thị xã An Nhơn",
+    "provinceCode": "52",
+    "slug": "an-nhon",
+    "normalizedName": "an nhon"
+  },
+  {
+    "code": "622",
+    "name": "Pleiku",
+    "type": "city",
+    "nameWithType": "Thành phố Pleiku",
+    "provinceCode": "64",
+    "slug": "pleiku",
+    "normalizedName": "pleiku"
+  },
+  {
+    "code": "623",
+    "name": "An Khê",
+    "type": "town",
+    "nameWithType": "Thị xã An Khê",
+    "provinceCode": "64",
+    "slug": "an-khe",
+    "normalizedName": "an khe"
+  },
+  {
+    "code": "634",
+    "name": "Đăk Pơ",
+    "type": "district",
+    "nameWithType": "Huyện Đăk Pơ",
+    "provinceCode": "64",
+    "slug": "dak-po",
+    "normalizedName": "dak po"
+  },
+  {
+    "code": "624",
+    "name": "Ayun Pa",
+    "type": "town",
+    "nameWithType": "Thị xã Ayun Pa",
+    "provinceCode": "64",
+    "slug": "ayun-pa",
+    "normalizedName": "ayun pa"
+  },
+  {
+    "code": "542",
+    "name": "An Lão",
+    "type": "district",
+    "nameWithType": "Huyện An Lão",
+    "provinceCode": "52",
+    "slug": "an-lao",
+    "normalizedName": "an lao"
+  },
+  {
+    "code": "544",
+    "name": "Hoài Ân",
+    "type": "district",
+    "nameWithType": "Huyện Hoài Ân",
+    "provinceCode": "52",
+    "slug": "hoai-an",
+    "normalizedName": "hoai an"
+  },
+  {
+    "code": "545",
+    "name": "Phù Mỹ",
+    "type": "district",
+    "nameWithType": "Huyện Phù Mỹ",
+    "provinceCode": "52",
+    "slug": "phu-my",
+    "normalizedName": "phu my"
+  },
+  {
+    "code": "546",
+    "name": "Vĩnh Thạnh",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Thạnh",
+    "provinceCode": "52",
+    "slug": "vinh-thanh",
+    "normalizedName": "vinh thanh"
+  },
+  {
+    "code": "547",
+    "name": "Tây Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Tây Sơn",
+    "provinceCode": "52",
+    "slug": "tay-son",
+    "normalizedName": "tay son"
+  },
+  {
+    "code": "548",
+    "name": "Phù Cát",
+    "type": "district",
+    "nameWithType": "Huyện Phù Cát",
+    "provinceCode": "52",
+    "slug": "phu-cat",
+    "normalizedName": "phu cat"
+  },
+  {
+    "code": "550",
+    "name": "Tuy Phước",
+    "type": "district",
+    "nameWithType": "Huyện Tuy Phước",
+    "provinceCode": "52",
+    "slug": "tuy-phuoc",
+    "normalizedName": "tuy phuoc"
+  },
+  {
+    "code": "551",
+    "name": "Vân Canh",
+    "type": "district",
+    "nameWithType": "Huyện Vân Canh",
+    "provinceCode": "52",
+    "slug": "van-canh",
+    "normalizedName": "van canh"
+  },
+  {
+    "code": "626",
+    "name": "Đăk Đoa",
+    "type": "district",
+    "nameWithType": "Huyện Đăk Đoa",
+    "provinceCode": "64",
+    "slug": "dak-doa",
+    "normalizedName": "dak doa"
+  },
+  {
+    "code": "627",
+    "name": "Chư Păh",
+    "type": "district",
+    "nameWithType": "Huyện Chư Păh",
+    "provinceCode": "64",
+    "slug": "chu-pah",
+    "normalizedName": "chu pah"
+  },
+  {
+    "code": "628",
+    "name": "Ia Grai",
+    "type": "district",
+    "nameWithType": "Huyện Ia Grai",
+    "provinceCode": "64",
+    "slug": "ia-grai",
+    "normalizedName": "ia grai"
+  },
+  {
+    "code": "625",
+    "name": "KBang",
+    "type": "district",
+    "nameWithType": "Huyện KBang",
+    "provinceCode": "64",
+    "slug": "kbang",
+    "normalizedName": "kbang"
+  },
+  {
+    "code": "629",
+    "name": "Mang Yang",
+    "type": "district",
+    "nameWithType": "Huyện Mang Yang",
+    "provinceCode": "64",
+    "slug": "mang-yang",
+    "normalizedName": "mang yang"
+  },
+  {
+    "code": "630",
+    "name": "Kông Chro",
+    "type": "district",
+    "nameWithType": "Huyện Kông Chro",
+    "provinceCode": "64",
+    "slug": "kong-chro",
+    "normalizedName": "kong chro"
+  },
+  {
+    "code": "631",
+    "name": "Đức Cơ",
+    "type": "district",
+    "nameWithType": "Huyện Đức Cơ",
+    "provinceCode": "64",
+    "slug": "duc-co",
+    "normalizedName": "duc co"
+  },
+  {
+    "code": "632",
+    "name": "Chư Prông",
+    "type": "district",
+    "nameWithType": "Huyện Chư Prông",
+    "provinceCode": "64",
+    "slug": "chu-prong",
+    "normalizedName": "chu prong"
+  },
+  {
+    "code": "633",
+    "name": "Chư Sê",
+    "type": "district",
+    "nameWithType": "Huyện Chư Sê",
+    "provinceCode": "64",
+    "slug": "chu-se",
+    "normalizedName": "chu se"
+  },
+  {
+    "code": "639",
+    "name": "Chư Pưh",
+    "type": "district",
+    "nameWithType": "Huyện Chư Pưh",
+    "provinceCode": "64",
+    "slug": "chu-puh",
+    "normalizedName": "chu puh"
+  },
+  {
+    "code": "635",
+    "name": "Ia Pa",
+    "type": "district",
+    "nameWithType": "Huyện Ia Pa",
+    "provinceCode": "64",
+    "slug": "ia-pa",
+    "normalizedName": "ia pa"
+  },
+  {
+    "code": "638",
+    "name": "Phú Thiện",
+    "type": "district",
+    "nameWithType": "Huyện Phú Thiện",
+    "provinceCode": "64",
+    "slug": "phu-thien",
+    "normalizedName": "phu thien"
+  },
+  {
+    "code": "637",
+    "name": "Krông Pa",
+    "type": "district",
+    "nameWithType": "Huyện Krông Pa",
+    "provinceCode": "64",
+    "slug": "krong-pa",
+    "normalizedName": "krong pa"
+  },
+  {
+    "code": "568",
+    "name": "Nha Trang",
+    "type": "city",
+    "nameWithType": "Thành phố Nha Trang",
+    "provinceCode": "56",
+    "slug": "nha-trang",
+    "normalizedName": "nha trang"
+  },
+  {
+    "code": "569",
+    "name": "Cam Ranh",
+    "type": "city",
+    "nameWithType": "Thành phố Cam Ranh",
+    "provinceCode": "56",
+    "slug": "cam-ranh",
+    "normalizedName": "cam ranh"
+  },
+  {
+    "code": "572",
+    "name": "Ninh Hòa",
+    "type": "town",
+    "nameWithType": "Thị xã Ninh Hòa",
+    "provinceCode": "56",
+    "slug": "ninh-hoa",
+    "normalizedName": "ninh hoa"
+  },
+  {
+    "code": "582",
+    "name": "Phan Rang-Tháp Chàm",
+    "type": "city",
+    "nameWithType": "Thành phố Phan Rang-Tháp Chàm",
+    "provinceCode": "58",
+    "slug": "phan-rang-thap-cham",
+    "normalizedName": "phan rang-thap cham"
+  },
+  {
+    "code": "585",
+    "name": "Ninh Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Ninh Sơn",
+    "provinceCode": "58",
+    "slug": "ninh-son",
+    "normalizedName": "ninh son"
+  },
+  {
+    "code": "586",
+    "name": "Ninh Hải",
+    "type": "district",
+    "nameWithType": "Huyện Ninh Hải",
+    "provinceCode": "58",
+    "slug": "ninh-hai",
+    "normalizedName": "ninh hai"
+  },
+  {
+    "code": "570",
+    "name": "Cam Lâm",
+    "type": "district",
+    "nameWithType": "Huyện Cam Lâm",
+    "provinceCode": "56",
+    "slug": "cam-lam",
+    "normalizedName": "cam lam"
+  },
+  {
+    "code": "571",
+    "name": "Vạn Ninh",
+    "type": "district",
+    "nameWithType": "Huyện Vạn Ninh",
+    "provinceCode": "56",
+    "slug": "van-ninh",
+    "normalizedName": "van ninh"
+  },
+  {
+    "code": "573",
+    "name": "Khánh Vĩnh",
+    "type": "district",
+    "nameWithType": "Huyện Khánh Vĩnh",
+    "provinceCode": "56",
+    "slug": "khanh-vinh",
+    "normalizedName": "khanh vinh"
+  },
+  {
+    "code": "574",
+    "name": "Diên Khánh",
+    "type": "district",
+    "nameWithType": "Huyện Diên Khánh",
+    "provinceCode": "56",
+    "slug": "dien-khanh",
+    "normalizedName": "dien khanh"
+  },
+  {
+    "code": "575",
+    "name": "Khánh Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Khánh Sơn",
+    "provinceCode": "56",
+    "slug": "khanh-son",
+    "normalizedName": "khanh son"
+  },
+  {
+    "code": "584",
+    "name": "Bác Ái",
+    "type": "district",
+    "nameWithType": "Huyện Bác Ái",
+    "provinceCode": "58",
+    "slug": "bac-ai",
+    "normalizedName": "bac ai"
+  },
+  {
+    "code": "588",
+    "name": "Thuận Bắc",
+    "type": "district",
+    "nameWithType": "Huyện Thuận Bắc",
+    "provinceCode": "58",
+    "slug": "thuan-bac",
+    "normalizedName": "thuan bac"
+  },
+  {
+    "code": "587",
+    "name": "Ninh Phước",
+    "type": "district",
+    "nameWithType": "Huyện Ninh Phước",
+    "provinceCode": "58",
+    "slug": "ninh-phuoc",
+    "normalizedName": "ninh phuoc"
+  },
+  {
+    "code": "589",
+    "name": "Thuận Nam",
+    "type": "district",
+    "nameWithType": "Huyện Thuận Nam",
+    "provinceCode": "58",
+    "slug": "thuan-nam",
+    "normalizedName": "thuan nam"
+  },
+  {
+    "code": "576",
+    "name": "Trường Sa",
+    "type": "district",
+    "nameWithType": "Huyện Trường Sa",
+    "provinceCode": "56",
+    "slug": "truong-sa",
+    "normalizedName": "truong sa"
+  },
+  {
+    "code": "555",
+    "name": "Tuy Hoà",
+    "type": "city",
+    "nameWithType": "Thành phố Tuy Hoà",
+    "provinceCode": "54",
+    "slug": "tuy-hoa",
+    "normalizedName": "tuy hoa"
+  },
+  {
+    "code": "563",
+    "name": "Phú Hoà",
+    "type": "district",
+    "nameWithType": "Huyện Phú Hoà",
+    "provinceCode": "54",
+    "slug": "phu-hoa",
+    "normalizedName": "phu hoa"
+  },
+  {
+    "code": "557",
+    "name": "Sông Cầu",
+    "type": "town",
+    "nameWithType": "Thị xã Sông Cầu",
+    "provinceCode": "54",
+    "slug": "song-cau",
+    "normalizedName": "song cau"
+  },
+  {
+    "code": "564",
+    "name": "Đông Hòa",
+    "type": "town",
+    "nameWithType": "Thị xã Đông Hòa",
+    "provinceCode": "54",
+    "slug": "dong-hoa",
+    "normalizedName": "dong hoa"
+  },
+  {
+    "code": "562",
+    "name": "Tây Hoà",
+    "type": "district",
+    "nameWithType": "Huyện Tây Hoà",
+    "provinceCode": "54",
+    "slug": "tay-hoa",
+    "normalizedName": "tay hoa"
+  },
+  {
+    "code": "643",
+    "name": "Buôn Ma Thuột",
+    "type": "city",
+    "nameWithType": "Thành phố Buôn Ma Thuột",
+    "provinceCode": "66",
+    "slug": "buon-ma-thuot",
+    "normalizedName": "buon ma thuot"
+  },
+  {
+    "code": "644",
+    "name": "Buôn Hồ",
+    "type": "town",
+    "nameWithType": "Thị xã Buôn Hồ",
+    "provinceCode": "66",
+    "slug": "buon-ho",
+    "normalizedName": "buon ho"
+  },
+  {
+    "code": "558",
+    "name": "Đồng Xuân",
+    "type": "district",
+    "nameWithType": "Huyện Đồng Xuân",
+    "provinceCode": "54",
+    "slug": "dong-xuan",
+    "normalizedName": "dong xuan"
+  },
+  {
+    "code": "559",
+    "name": "Tuy An",
+    "type": "district",
+    "nameWithType": "Huyện Tuy An",
+    "provinceCode": "54",
+    "slug": "tuy-an",
+    "normalizedName": "tuy an"
+  },
+  {
+    "code": "560",
+    "name": "Sơn Hòa",
+    "type": "district",
+    "nameWithType": "Huyện Sơn Hòa",
+    "provinceCode": "54",
+    "slug": "son-hoa",
+    "normalizedName": "son hoa"
+  },
+  {
+    "code": "561",
+    "name": "Sông Hinh",
+    "type": "district",
+    "nameWithType": "Huyện Sông Hinh",
+    "provinceCode": "54",
+    "slug": "song-hinh",
+    "normalizedName": "song hinh"
+  },
+  {
+    "code": "645",
+    "name": "Ea H'leo",
+    "type": "district",
+    "nameWithType": "Huyện Ea H'leo",
+    "provinceCode": "66",
+    "slug": "ea-h-leo",
+    "normalizedName": "ea h'leo"
+  },
+  {
+    "code": "646",
+    "name": "Ea Súp",
+    "type": "district",
+    "nameWithType": "Huyện Ea Súp",
+    "provinceCode": "66",
+    "slug": "ea-sup",
+    "normalizedName": "ea sup"
+  },
+  {
+    "code": "647",
+    "name": "Buôn Đôn",
+    "type": "district",
+    "nameWithType": "Huyện Buôn Đôn",
+    "provinceCode": "66",
+    "slug": "buon-don",
+    "normalizedName": "buon don"
+  },
+  {
+    "code": "648",
+    "name": "Cư M'gar",
+    "type": "district",
+    "nameWithType": "Huyện Cư M'gar",
+    "provinceCode": "66",
+    "slug": "cu-m-gar",
+    "normalizedName": "cu m'gar"
+  },
+  {
+    "code": "649",
+    "name": "Krông Búk",
+    "type": "district",
+    "nameWithType": "Huyện Krông Búk",
+    "provinceCode": "66",
+    "slug": "krong-buk",
+    "normalizedName": "krong buk"
+  },
+  {
+    "code": "650",
+    "name": "Krông Năng",
+    "type": "district",
+    "nameWithType": "Huyện Krông Năng",
+    "provinceCode": "66",
+    "slug": "krong-nang",
+    "normalizedName": "krong nang"
+  },
+  {
+    "code": "651",
+    "name": "Ea Kar",
+    "type": "district",
+    "nameWithType": "Huyện Ea Kar",
+    "provinceCode": "66",
+    "slug": "ea-kar",
+    "normalizedName": "ea kar"
+  },
+  {
+    "code": "652",
+    "name": "M'Đrắk",
+    "type": "district",
+    "nameWithType": "Huyện M'Đrắk",
+    "provinceCode": "66",
+    "slug": "m-drak",
+    "normalizedName": "m'drak"
+  },
+  {
+    "code": "653",
+    "name": "Krông Bông",
+    "type": "district",
+    "nameWithType": "Huyện Krông Bông",
+    "provinceCode": "66",
+    "slug": "krong-bong",
+    "normalizedName": "krong bong"
+  },
+  {
+    "code": "654",
+    "name": "Krông Pắc",
+    "type": "district",
+    "nameWithType": "Huyện Krông Pắc",
+    "provinceCode": "66",
+    "slug": "krong-pac",
+    "normalizedName": "krong pac"
+  },
+  {
+    "code": "655",
+    "name": "Krông A Na",
+    "type": "district",
+    "nameWithType": "Huyện Krông A Na",
+    "provinceCode": "66",
+    "slug": "krong-a-na",
+    "normalizedName": "krong a na"
+  },
+  {
+    "code": "657",
+    "name": "Cư Kuin",
+    "type": "district",
+    "nameWithType": "Huyện Cư Kuin",
+    "provinceCode": "66",
+    "slug": "cu-kuin",
+    "normalizedName": "cu kuin"
+  },
+  {
+    "code": "656",
+    "name": "Lắk",
+    "type": "district",
+    "nameWithType": "Huyện Lắk",
+    "provinceCode": "66",
+    "slug": "lak",
+    "normalizedName": "lak"
+  },
+  {
+    "code": "593",
+    "name": "Phan Thiết",
+    "type": "city",
+    "nameWithType": "Thành phố Phan Thiết",
+    "provinceCode": "60",
+    "slug": "phan-thiet",
+    "normalizedName": "phan thiet"
+  },
+  {
+    "code": "597",
+    "name": "Hàm Thuận Bắc",
+    "type": "district",
+    "nameWithType": "Huyện Hàm Thuận Bắc",
+    "provinceCode": "60",
+    "slug": "ham-thuan-bac",
+    "normalizedName": "ham thuan bac"
+  },
+  {
+    "code": "594",
+    "name": "La Gi",
+    "type": "town",
+    "nameWithType": "Thị xã La Gi",
+    "provinceCode": "60",
+    "slug": "la-gi",
+    "normalizedName": "la gi"
+  },
+  {
+    "code": "660",
+    "name": "Gia Nghĩa",
+    "type": "city",
+    "nameWithType": "Thành phố Gia Nghĩa",
+    "provinceCode": "67",
+    "slug": "gia-nghia",
+    "normalizedName": "gia nghia"
+  },
+  {
+    "code": "661",
+    "name": "Đăk Glong",
+    "type": "district",
+    "nameWithType": "Huyện Đăk Glong",
+    "provinceCode": "67",
+    "slug": "dak-glong",
+    "normalizedName": "dak glong"
+  },
+  {
+    "code": "672",
+    "name": "Đà Lạt",
+    "type": "city",
+    "nameWithType": "Thành phố Đà Lạt",
+    "provinceCode": "68",
+    "slug": "da-lat",
+    "normalizedName": "da lat"
+  },
+  {
+    "code": "673",
+    "name": "Bảo Lộc",
+    "type": "city",
+    "nameWithType": "Thành phố Bảo Lộc",
+    "provinceCode": "68",
+    "slug": "bao-loc",
+    "normalizedName": "bao loc"
+  },
+  {
+    "code": "680",
+    "name": "Bảo Lâm",
+    "type": "district",
+    "nameWithType": "Huyện Bảo Lâm",
+    "provinceCode": "68",
+    "slug": "bao-lam",
+    "normalizedName": "bao lam"
+  },
+  {
+    "code": "675",
+    "name": "Lạc Dương",
+    "type": "district",
+    "nameWithType": "Huyện Lạc Dương",
+    "provinceCode": "68",
+    "slug": "lac-duong",
+    "normalizedName": "lac duong"
+  },
+  {
+    "code": "598",
+    "name": "Hàm Thuận Nam",
+    "type": "district",
+    "nameWithType": "Huyện Hàm Thuận Nam",
+    "provinceCode": "60",
+    "slug": "ham-thuan-nam",
+    "normalizedName": "ham thuan nam"
+  },
+  {
+    "code": "595",
+    "name": "Tuy Phong",
+    "type": "district",
+    "nameWithType": "Huyện Tuy Phong",
+    "provinceCode": "60",
+    "slug": "tuy-phong",
+    "normalizedName": "tuy phong"
+  },
+  {
+    "code": "596",
+    "name": "Bắc Bình",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Bình",
+    "provinceCode": "60",
+    "slug": "bac-binh",
+    "normalizedName": "bac binh"
+  },
+  {
+    "code": "601",
+    "name": "Hàm Tân",
+    "type": "district",
+    "nameWithType": "Huyện Hàm Tân",
+    "provinceCode": "60",
+    "slug": "ham-tan",
+    "normalizedName": "ham tan"
+  },
+  {
+    "code": "599",
+    "name": "Tánh Linh",
+    "type": "district",
+    "nameWithType": "Huyện Tánh Linh",
+    "provinceCode": "60",
+    "slug": "tanh-linh",
+    "normalizedName": "tanh linh"
+  },
+  {
+    "code": "600",
+    "name": "Đức Linh",
+    "type": "district",
+    "nameWithType": "Huyện Đức Linh",
+    "provinceCode": "60",
+    "slug": "duc-linh",
+    "normalizedName": "duc linh"
+  },
+  {
+    "code": "662",
+    "name": "Cư Jút",
+    "type": "district",
+    "nameWithType": "Huyện Cư Jút",
+    "provinceCode": "67",
+    "slug": "cu-jut",
+    "normalizedName": "cu jut"
+  },
+  {
+    "code": "663",
+    "name": "Đắk Mil",
+    "type": "district",
+    "nameWithType": "Huyện Đắk Mil",
+    "provinceCode": "67",
+    "slug": "dak-mil",
+    "normalizedName": "dak mil"
+  },
+  {
+    "code": "664",
+    "name": "Krông Nô",
+    "type": "district",
+    "nameWithType": "Huyện Krông Nô",
+    "provinceCode": "67",
+    "slug": "krong-no",
+    "normalizedName": "krong no"
+  },
+  {
+    "code": "665",
+    "name": "Đắk Song",
+    "type": "district",
+    "nameWithType": "Huyện Đắk Song",
+    "provinceCode": "67",
+    "slug": "dak-song",
+    "normalizedName": "dak song"
+  },
+  {
+    "code": "666",
+    "name": "Đắk R'Lấp",
+    "type": "district",
+    "nameWithType": "Huyện Đắk R'Lấp",
+    "provinceCode": "67",
+    "slug": "dak-r-lap",
+    "normalizedName": "dak r'lap"
+  },
+  {
+    "code": "667",
+    "name": "Tuy Đức",
+    "type": "district",
+    "nameWithType": "Huyện Tuy Đức",
+    "provinceCode": "67",
+    "slug": "tuy-duc",
+    "normalizedName": "tuy duc"
+  },
+  {
+    "code": "674",
+    "name": "Đam Rông",
+    "type": "district",
+    "nameWithType": "Huyện Đam Rông",
+    "provinceCode": "68",
+    "slug": "dam-rong",
+    "normalizedName": "dam rong"
+  },
+  {
+    "code": "676",
+    "name": "Lâm Hà",
+    "type": "district",
+    "nameWithType": "Huyện Lâm Hà",
+    "provinceCode": "68",
+    "slug": "lam-ha",
+    "normalizedName": "lam ha"
+  },
+  {
+    "code": "678",
+    "name": "Đức Trọng",
+    "type": "district",
+    "nameWithType": "Huyện Đức Trọng",
+    "provinceCode": "68",
+    "slug": "duc-trong",
+    "normalizedName": "duc trong"
+  },
+  {
+    "code": "677",
+    "name": "Đơn Dương",
+    "type": "district",
+    "nameWithType": "Huyện Đơn Dương",
+    "provinceCode": "68",
+    "slug": "don-duong",
+    "normalizedName": "don duong"
+  },
+  {
+    "code": "679",
+    "name": "Di Linh",
+    "type": "district",
+    "nameWithType": "Huyện Di Linh",
+    "provinceCode": "68",
+    "slug": "di-linh",
+    "normalizedName": "di linh"
+  },
+  {
+    "code": "682",
+    "name": "Đạ Huoai",
+    "type": "district",
+    "nameWithType": "Huyện Đạ Huoai",
+    "provinceCode": "68",
+    "slug": "da-huoai",
+    "normalizedName": "da huoai"
+  },
+  {
+    "code": "602",
+    "name": "Phú Quý",
+    "type": "district",
+    "nameWithType": "Huyện Phú Quý",
+    "provinceCode": "60",
+    "slug": "phu-quy",
+    "normalizedName": "phu quy"
+  },
+  {
+    "code": "689",
+    "name": "Đồng Xoài",
+    "type": "city",
+    "nameWithType": "Thành phố Đồng Xoài",
+    "provinceCode": "70",
+    "slug": "dong-xoai",
+    "normalizedName": "dong xoai"
+  },
+  {
+    "code": "688",
+    "name": "Phước Long",
+    "type": "town",
+    "nameWithType": "Thị xã Phước Long",
+    "provinceCode": "70",
+    "slug": "phuoc-long",
+    "normalizedName": "phuoc long"
+  },
+  {
+    "code": "698",
+    "name": "Phú Riềng",
+    "type": "district",
+    "nameWithType": "Huyện Phú Riềng",
+    "provinceCode": "70",
+    "slug": "phu-rieng",
+    "normalizedName": "phu rieng"
+  },
+  {
+    "code": "690",
+    "name": "Bình Long",
+    "type": "town",
+    "nameWithType": "Thị xã Bình Long",
+    "provinceCode": "70",
+    "slug": "binh-long",
+    "normalizedName": "binh long"
+  },
+  {
+    "code": "694",
+    "name": "Hớn Quản",
+    "type": "district",
+    "nameWithType": "Huyện Hớn Quản",
+    "provinceCode": "70",
+    "slug": "hon-quan",
+    "normalizedName": "hon quan"
+  },
+  {
+    "code": "697",
+    "name": "Chơn Thành",
+    "type": "town",
+    "nameWithType": "Thị xã Chơn Thành",
+    "provinceCode": "70",
+    "slug": "chon-thanh",
+    "normalizedName": "chon thanh"
+  },
+  {
+    "code": "731",
+    "name": "Biên Hòa",
+    "type": "city",
+    "nameWithType": "Thành phố Biên Hòa",
+    "provinceCode": "75",
+    "slug": "bien-hoa",
+    "normalizedName": "bien hoa"
+  },
+  {
+    "code": "735",
+    "name": "Vĩnh Cửu",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Cửu",
+    "provinceCode": "75",
+    "slug": "vinh-cuu",
+    "normalizedName": "vinh cuu"
+  },
+  {
+    "code": "737",
+    "name": "Trảng Bom",
+    "type": "district",
+    "nameWithType": "Huyện Trảng Bom",
+    "provinceCode": "75",
+    "slug": "trang-bom",
+    "normalizedName": "trang bom"
+  },
+  {
+    "code": "732",
+    "name": "Long Khánh",
+    "type": "city",
+    "nameWithType": "Thành phố Long Khánh",
+    "provinceCode": "75",
+    "slug": "long-khanh",
+    "normalizedName": "long khanh"
+  },
+  {
+    "code": "738",
+    "name": "Thống Nhất",
+    "type": "district",
+    "nameWithType": "Huyện Thống Nhất",
+    "provinceCode": "75",
+    "slug": "thong-nhat",
+    "normalizedName": "thong nhat"
+  },
+  {
+    "code": "691",
+    "name": "Bù Gia Mập",
+    "type": "district",
+    "nameWithType": "Huyện Bù Gia Mập",
+    "provinceCode": "70",
+    "slug": "bu-gia-map",
+    "normalizedName": "bu gia map"
+  },
+  {
+    "code": "692",
+    "name": "Lộc Ninh",
+    "type": "district",
+    "nameWithType": "Huyện Lộc Ninh",
+    "provinceCode": "70",
+    "slug": "loc-ninh",
+    "normalizedName": "loc ninh"
+  },
+  {
+    "code": "693",
+    "name": "Bù Đốp",
+    "type": "district",
+    "nameWithType": "Huyện Bù Đốp",
+    "provinceCode": "70",
+    "slug": "bu-dop",
+    "normalizedName": "bu dop"
+  },
+  {
+    "code": "695",
+    "name": "Đồng Phú",
+    "type": "district",
+    "nameWithType": "Huyện Đồng Phú",
+    "provinceCode": "70",
+    "slug": "dong-phu",
+    "normalizedName": "dong phu"
+  },
+  {
+    "code": "696",
+    "name": "Bù Đăng",
+    "type": "district",
+    "nameWithType": "Huyện Bù Đăng",
+    "provinceCode": "70",
+    "slug": "bu-dang",
+    "normalizedName": "bu dang"
+  },
+  {
+    "code": "734",
+    "name": "Tân Phú",
+    "type": "district",
+    "nameWithType": "Huyện Tân Phú",
+    "provinceCode": "75",
+    "slug": "tan-phu",
+    "normalizedName": "tan phu"
+  },
+  {
+    "code": "736",
+    "name": "Định Quán",
+    "type": "district",
+    "nameWithType": "Huyện Định Quán",
+    "provinceCode": "75",
+    "slug": "dinh-quan",
+    "normalizedName": "dinh quan"
+  },
+  {
+    "code": "739",
+    "name": "Cẩm Mỹ",
+    "type": "district",
+    "nameWithType": "Huyện Cẩm Mỹ",
+    "provinceCode": "75",
+    "slug": "cam-my",
+    "normalizedName": "cam my"
+  },
+  {
+    "code": "740",
+    "name": "Long Thành",
+    "type": "district",
+    "nameWithType": "Huyện Long Thành",
+    "provinceCode": "75",
+    "slug": "long-thanh",
+    "normalizedName": "long thanh"
+  },
+  {
+    "code": "741",
+    "name": "Xuân Lộc",
+    "type": "district",
+    "nameWithType": "Huyện Xuân Lộc",
+    "provinceCode": "75",
+    "slug": "xuan-loc",
+    "normalizedName": "xuan loc"
+  },
+  {
+    "code": "742",
+    "name": "Nhơn Trạch",
+    "type": "district",
+    "nameWithType": "Huyện Nhơn Trạch",
+    "provinceCode": "75",
+    "slug": "nhon-trach",
+    "normalizedName": "nhon trach"
+  },
+  {
+    "code": "718",
+    "name": "Thủ Dầu Một",
+    "type": "city",
+    "nameWithType": "Thành phố Thủ Dầu Một",
+    "provinceCode": "74",
+    "slug": "thu-dau-mot",
+    "normalizedName": "thu dau mot"
+  },
+  {
+    "code": "723",
+    "name": "Tân Uyên",
+    "type": "city",
+    "nameWithType": "Thành phố Tân Uyên",
+    "provinceCode": "74",
+    "slug": "tan-uyen",
+    "normalizedName": "tan uyen"
+  },
+  {
+    "code": "721",
+    "name": "Bến Cát",
+    "type": "city",
+    "nameWithType": "Thành phố Bến Cát",
+    "provinceCode": "74",
+    "slug": "ben-cat",
+    "normalizedName": "ben cat"
+  },
+  {
+    "code": "719",
+    "name": "Bàu Bàng",
+    "type": "district",
+    "nameWithType": "Huyện Bàu Bàng",
+    "provinceCode": "74",
+    "slug": "bau-bang",
+    "normalizedName": "bau bang"
+  },
+  {
+    "code": "720",
+    "name": "Dầu Tiếng",
+    "type": "district",
+    "nameWithType": "Huyện Dầu Tiếng",
+    "provinceCode": "74",
+    "slug": "dau-tieng",
+    "normalizedName": "dau tieng"
+  },
+  {
+    "code": "726",
+    "name": "Bắc Tân Uyên",
+    "type": "district",
+    "nameWithType": "Huyện Bắc Tân Uyên",
+    "provinceCode": "74",
+    "slug": "bac-tan-uyen",
+    "normalizedName": "bac tan uyen"
+  },
+  {
+    "code": "724",
+    "name": "Dĩ An",
+    "type": "city",
+    "nameWithType": "Thành phố Dĩ An",
+    "provinceCode": "74",
+    "slug": "di-an",
+    "normalizedName": "di an"
+  },
+  {
+    "code": "725",
+    "name": "Thuận An",
+    "type": "city",
+    "nameWithType": "Thành phố Thuận An",
+    "provinceCode": "74",
+    "slug": "thuan-an",
+    "normalizedName": "thuan an"
+  },
+  {
+    "code": "747",
+    "name": "Vũng Tàu",
+    "type": "city",
+    "nameWithType": "Thành phố Vũng Tàu",
+    "provinceCode": "77",
+    "slug": "vung-tau",
+    "normalizedName": "vung tau"
+  },
+  {
+    "code": "748",
+    "name": "Bà Rịa",
+    "type": "city",
+    "nameWithType": "Thành phố Bà Rịa",
+    "provinceCode": "77",
+    "slug": "ba-ria",
+    "normalizedName": "ba ria"
+  },
+  {
+    "code": "754",
+    "name": "Phú Mỹ",
+    "type": "city",
+    "nameWithType": "Thành phố Phú Mỹ",
+    "provinceCode": "77",
+    "slug": "phu-my",
+    "normalizedName": "phu my"
+  },
+  {
+    "code": "760",
+    "name": "Quận 1",
+    "type": "urban_district",
+    "nameWithType": "Quận 1",
+    "provinceCode": "79",
+    "slug": "quan-1",
+    "normalizedName": "quan 1"
+  },
+  {
+    "code": "761",
+    "name": "Quận 12",
+    "type": "urban_district",
+    "nameWithType": "Quận 12",
+    "provinceCode": "79",
+    "slug": "quan-12",
+    "normalizedName": "quan 12"
+  },
+  {
+    "code": "769",
+    "name": "Thủ Đức",
+    "type": "city",
+    "nameWithType": "Thành phố Thủ Đức",
+    "provinceCode": "79",
+    "slug": "thu-duc",
+    "normalizedName": "thu duc"
+  },
+  {
+    "code": "764",
+    "name": "Gò Vấp",
+    "type": "urban_district",
+    "nameWithType": "Quận Gò Vấp",
+    "provinceCode": "79",
+    "slug": "go-vap",
+    "normalizedName": "go vap"
+  },
+  {
+    "code": "765",
+    "name": "Bình Thạnh",
+    "type": "urban_district",
+    "nameWithType": "Quận Bình Thạnh",
+    "provinceCode": "79",
+    "slug": "binh-thanh",
+    "normalizedName": "binh thanh"
+  },
+  {
+    "code": "766",
+    "name": "Tân Bình",
+    "type": "urban_district",
+    "nameWithType": "Quận Tân Bình",
+    "provinceCode": "79",
+    "slug": "tan-binh",
+    "normalizedName": "tan binh"
+  },
+  {
+    "code": "767",
+    "name": "Tân Phú",
+    "type": "urban_district",
+    "nameWithType": "Quận Tân Phú",
+    "provinceCode": "79",
+    "slug": "tan-phu",
+    "normalizedName": "tan phu"
+  },
+  {
+    "code": "768",
+    "name": "Phú Nhuận",
+    "type": "urban_district",
+    "nameWithType": "Quận Phú Nhuận",
+    "provinceCode": "79",
+    "slug": "phu-nhuan",
+    "normalizedName": "phu nhuan"
+  },
+  {
+    "code": "770",
+    "name": "Quận 3",
+    "type": "urban_district",
+    "nameWithType": "Quận 3",
+    "provinceCode": "79",
+    "slug": "quan-3",
+    "normalizedName": "quan 3"
+  },
+  {
+    "code": "771",
+    "name": "Quận 10",
+    "type": "urban_district",
+    "nameWithType": "Quận 10",
+    "provinceCode": "79",
+    "slug": "quan-10",
+    "normalizedName": "quan 10"
+  },
+  {
+    "code": "772",
+    "name": "Quận 11",
+    "type": "urban_district",
+    "nameWithType": "Quận 11",
+    "provinceCode": "79",
+    "slug": "quan-11",
+    "normalizedName": "quan 11"
+  },
+  {
+    "code": "773",
+    "name": "Quận 4",
+    "type": "urban_district",
+    "nameWithType": "Quận 4",
+    "provinceCode": "79",
+    "slug": "quan-4",
+    "normalizedName": "quan 4"
+  },
+  {
+    "code": "774",
+    "name": "Quận 5",
+    "type": "urban_district",
+    "nameWithType": "Quận 5",
+    "provinceCode": "79",
+    "slug": "quan-5",
+    "normalizedName": "quan 5"
+  },
+  {
+    "code": "775",
+    "name": "Quận 6",
+    "type": "urban_district",
+    "nameWithType": "Quận 6",
+    "provinceCode": "79",
+    "slug": "quan-6",
+    "normalizedName": "quan 6"
+  },
+  {
+    "code": "776",
+    "name": "Quận 8",
+    "type": "urban_district",
+    "nameWithType": "Quận 8",
+    "provinceCode": "79",
+    "slug": "quan-8",
+    "normalizedName": "quan 8"
+  },
+  {
+    "code": "785",
+    "name": "Bình Chánh",
+    "type": "district",
+    "nameWithType": "Huyện Bình Chánh",
+    "provinceCode": "79",
+    "slug": "binh-chanh",
+    "normalizedName": "binh chanh"
+  },
+  {
+    "code": "777",
+    "name": "Bình Tân",
+    "type": "urban_district",
+    "nameWithType": "Quận Bình Tân",
+    "provinceCode": "79",
+    "slug": "binh-tan",
+    "normalizedName": "binh tan"
+  },
+  {
+    "code": "778",
+    "name": "Quận 7",
+    "type": "urban_district",
+    "nameWithType": "Quận 7",
+    "provinceCode": "79",
+    "slug": "quan-7",
+    "normalizedName": "quan 7"
+  },
+  {
+    "code": "722",
+    "name": "Phú Giáo",
+    "type": "district",
+    "nameWithType": "Huyện Phú Giáo",
+    "provinceCode": "74",
+    "slug": "phu-giao",
+    "normalizedName": "phu giao"
+  },
+  {
+    "code": "750",
+    "name": "Châu Đức",
+    "type": "district",
+    "nameWithType": "Huyện Châu Đức",
+    "provinceCode": "77",
+    "slug": "chau-duc",
+    "normalizedName": "chau duc"
+  },
+  {
+    "code": "751",
+    "name": "Xuyên Mộc",
+    "type": "district",
+    "nameWithType": "Huyện Xuyên Mộc",
+    "provinceCode": "77",
+    "slug": "xuyen-moc",
+    "normalizedName": "xuyen moc"
+  },
+  {
+    "code": "753",
+    "name": "Long Đất",
+    "type": "district",
+    "nameWithType": "Huyện Long Đất",
+    "provinceCode": "77",
+    "slug": "long-dat",
+    "normalizedName": "long dat"
+  },
+  {
+    "code": "783",
+    "name": "Củ Chi",
+    "type": "district",
+    "nameWithType": "Huyện Củ Chi",
+    "provinceCode": "79",
+    "slug": "cu-chi",
+    "normalizedName": "cu chi"
+  },
+  {
+    "code": "784",
+    "name": "Hóc Môn",
+    "type": "district",
+    "nameWithType": "Huyện Hóc Môn",
+    "provinceCode": "79",
+    "slug": "hoc-mon",
+    "normalizedName": "hoc mon"
+  },
+  {
+    "code": "786",
+    "name": "Nhà Bè",
+    "type": "district",
+    "nameWithType": "Huyện Nhà Bè",
+    "provinceCode": "79",
+    "slug": "nha-be",
+    "normalizedName": "nha be"
+  },
+  {
+    "code": "787",
+    "name": "Cần Giờ",
+    "type": "district",
+    "nameWithType": "Huyện Cần Giờ",
+    "provinceCode": "79",
+    "slug": "can-gio",
+    "normalizedName": "can gio"
+  },
+  {
+    "code": "755",
+    "name": "Côn Đảo",
+    "type": "district",
+    "nameWithType": "Huyện Côn Đảo",
+    "provinceCode": "77",
+    "slug": "con-dao",
+    "normalizedName": "con dao"
+  },
+  {
+    "code": "703",
+    "name": "Tây Ninh",
+    "type": "city",
+    "nameWithType": "Thành phố Tây Ninh",
+    "provinceCode": "72",
+    "slug": "tay-ninh",
+    "normalizedName": "tay ninh"
+  },
+  {
+    "code": "708",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "72",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "707",
+    "name": "Dương Minh Châu",
+    "type": "district",
+    "nameWithType": "Huyện Dương Minh Châu",
+    "provinceCode": "72",
+    "slug": "duong-minh-chau",
+    "normalizedName": "duong minh chau"
+  },
+  {
+    "code": "709",
+    "name": "Hòa Thành",
+    "type": "town",
+    "nameWithType": "Thị xã Hòa Thành",
+    "provinceCode": "72",
+    "slug": "hoa-thanh",
+    "normalizedName": "hoa thanh"
+  },
+  {
+    "code": "710",
+    "name": "Gò Dầu",
+    "type": "district",
+    "nameWithType": "Huyện Gò Dầu",
+    "provinceCode": "72",
+    "slug": "go-dau",
+    "normalizedName": "go dau"
+  },
+  {
+    "code": "712",
+    "name": "Trảng Bàng",
+    "type": "town",
+    "nameWithType": "Thị xã Trảng Bàng",
+    "provinceCode": "72",
+    "slug": "trang-bang",
+    "normalizedName": "trang bang"
+  },
+  {
+    "code": "794",
+    "name": "Tân An",
+    "type": "city",
+    "nameWithType": "Thành phố Tân An",
+    "provinceCode": "80",
+    "slug": "tan-an",
+    "normalizedName": "tan an"
+  },
+  {
+    "code": "794",
+    "name": "Tân An",
+    "type": "city",
+    "nameWithType": "Thành phố Tân An",
+    "provinceCode": "82",
+    "slug": "tan-an",
+    "normalizedName": "tan an"
+  },
+  {
+    "code": "804",
+    "name": "Thủ Thừa",
+    "type": "district",
+    "nameWithType": "Huyện Thủ Thừa",
+    "provinceCode": "80",
+    "slug": "thu-thua",
+    "normalizedName": "thu thua"
+  },
+  {
+    "code": "795",
+    "name": "Kiến Tường",
+    "type": "town",
+    "nameWithType": "Thị xã Kiến Tường",
+    "provinceCode": "80",
+    "slug": "kien-tuong",
+    "normalizedName": "kien tuong"
+  },
+  {
+    "code": "705",
+    "name": "Tân Biên",
+    "type": "district",
+    "nameWithType": "Huyện Tân Biên",
+    "provinceCode": "72",
+    "slug": "tan-bien",
+    "normalizedName": "tan bien"
+  },
+  {
+    "code": "706",
+    "name": "Tân Châu",
+    "type": "district",
+    "nameWithType": "Huyện Tân Châu",
+    "provinceCode": "72",
+    "slug": "tan-chau",
+    "normalizedName": "tan chau"
+  },
+  {
+    "code": "711",
+    "name": "Bến Cầu",
+    "type": "district",
+    "nameWithType": "Huyện Bến Cầu",
+    "provinceCode": "72",
+    "slug": "ben-cau",
+    "normalizedName": "ben cau"
+  },
+  {
+    "code": "796",
+    "name": "Tân Hưng",
+    "type": "district",
+    "nameWithType": "Huyện Tân Hưng",
+    "provinceCode": "80",
+    "slug": "tan-hung",
+    "normalizedName": "tan hung"
+  },
+  {
+    "code": "797",
+    "name": "Vĩnh Hưng",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Hưng",
+    "provinceCode": "80",
+    "slug": "vinh-hung",
+    "normalizedName": "vinh hung"
+  },
+  {
+    "code": "798",
+    "name": "Mộc Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Mộc Hóa",
+    "provinceCode": "80",
+    "slug": "moc-hoa",
+    "normalizedName": "moc hoa"
+  },
+  {
+    "code": "799",
+    "name": "Tân Thạnh",
+    "type": "district",
+    "nameWithType": "Huyện Tân Thạnh",
+    "provinceCode": "80",
+    "slug": "tan-thanh",
+    "normalizedName": "tan thanh"
+  },
+  {
+    "code": "800",
+    "name": "Thạnh Hóa",
+    "type": "district",
+    "nameWithType": "Huyện Thạnh Hóa",
+    "provinceCode": "80",
+    "slug": "thanh-hoa",
+    "normalizedName": "thanh hoa"
+  },
+  {
+    "code": "801",
+    "name": "Đức Huệ",
+    "type": "district",
+    "nameWithType": "Huyện Đức Huệ",
+    "provinceCode": "80",
+    "slug": "duc-hue",
+    "normalizedName": "duc hue"
+  },
+  {
+    "code": "802",
+    "name": "Đức Hòa",
+    "type": "district",
+    "nameWithType": "Huyện Đức Hòa",
+    "provinceCode": "80",
+    "slug": "duc-hoa",
+    "normalizedName": "duc hoa"
+  },
+  {
+    "code": "803",
+    "name": "Bến Lức",
+    "type": "district",
+    "nameWithType": "Huyện Bến Lức",
+    "provinceCode": "80",
+    "slug": "ben-luc",
+    "normalizedName": "ben luc"
+  },
+  {
+    "code": "805",
+    "name": "Tân Trụ",
+    "type": "district",
+    "nameWithType": "Huyện Tân Trụ",
+    "provinceCode": "80",
+    "slug": "tan-tru",
+    "normalizedName": "tan tru"
+  },
+  {
+    "code": "806",
+    "name": "Cần Đước",
+    "type": "district",
+    "nameWithType": "Huyện Cần Đước",
+    "provinceCode": "80",
+    "slug": "can-duoc",
+    "normalizedName": "can duoc"
+  },
+  {
+    "code": "807",
+    "name": "Cần Giuộc",
+    "type": "district",
+    "nameWithType": "Huyện Cần Giuộc",
+    "provinceCode": "80",
+    "slug": "can-giuoc",
+    "normalizedName": "can giuoc"
+  },
+  {
+    "code": "808",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "80",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "815",
+    "name": "Mỹ Tho",
+    "type": "city",
+    "nameWithType": "Thành phố Mỹ Tho",
+    "provinceCode": "82",
+    "slug": "my-tho",
+    "normalizedName": "my tho"
+  },
+  {
+    "code": "816",
+    "name": "Gò Công",
+    "type": "city",
+    "nameWithType": "Thành phố Gò Công",
+    "provinceCode": "82",
+    "slug": "go-cong",
+    "normalizedName": "go cong"
+  },
+  {
+    "code": "817",
+    "name": "Cai Lậy",
+    "type": "town",
+    "nameWithType": "Thị xã Cai Lậy",
+    "provinceCode": "82",
+    "slug": "cai-lay",
+    "normalizedName": "cai lay"
+  },
+  {
+    "code": "866",
+    "name": "Cao Lãnh",
+    "type": "city",
+    "nameWithType": "Thành phố Cao Lãnh",
+    "provinceCode": "87",
+    "slug": "cao-lanh",
+    "normalizedName": "cao lanh"
+  },
+  {
+    "code": "873",
+    "name": "Cao Lãnh",
+    "type": "district",
+    "nameWithType": "Huyện Cao Lãnh",
+    "provinceCode": "87",
+    "slug": "cao-lanh",
+    "normalizedName": "cao lanh"
+  },
+  {
+    "code": "867",
+    "name": "Sa Đéc",
+    "type": "city",
+    "nameWithType": "Thành phố Sa Đéc",
+    "provinceCode": "87",
+    "slug": "sa-dec",
+    "normalizedName": "sa dec"
+  },
+  {
+    "code": "868",
+    "name": "Hồng Ngự",
+    "type": "city",
+    "nameWithType": "Thành phố Hồng Ngự",
+    "provinceCode": "87",
+    "slug": "hong-ngu",
+    "normalizedName": "hong ngu"
+  },
+  {
+    "code": "870",
+    "name": "Hồng Ngự",
+    "type": "district",
+    "nameWithType": "Huyện Hồng Ngự",
+    "provinceCode": "87",
+    "slug": "hong-ngu",
+    "normalizedName": "hong ngu"
+  },
+  {
+    "code": "818",
+    "name": "Tân Phước",
+    "type": "district",
+    "nameWithType": "Huyện Tân Phước",
+    "provinceCode": "82",
+    "slug": "tan-phuoc",
+    "normalizedName": "tan phuoc"
+  },
+  {
+    "code": "819",
+    "name": "Cái Bè",
+    "type": "district",
+    "nameWithType": "Huyện Cái Bè",
+    "provinceCode": "82",
+    "slug": "cai-be",
+    "normalizedName": "cai be"
+  },
+  {
+    "code": "820",
+    "name": "Cai Lậy",
+    "type": "district",
+    "nameWithType": "Huyện Cai Lậy",
+    "provinceCode": "82",
+    "slug": "cai-lay",
+    "normalizedName": "cai lay"
+  },
+  {
+    "code": "821",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "82",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "822",
+    "name": "Chợ Gạo",
+    "type": "district",
+    "nameWithType": "Huyện Chợ Gạo",
+    "provinceCode": "82",
+    "slug": "cho-gao",
+    "normalizedName": "cho gao"
+  },
+  {
+    "code": "823",
+    "name": "Gò Công Tây",
+    "type": "district",
+    "nameWithType": "Huyện Gò Công Tây",
+    "provinceCode": "82",
+    "slug": "go-cong-tay",
+    "normalizedName": "go cong tay"
+  },
+  {
+    "code": "825",
+    "name": "Tân Phú Đông",
+    "type": "district",
+    "nameWithType": "Huyện Tân Phú Đông",
+    "provinceCode": "82",
+    "slug": "tan-phu-dong",
+    "normalizedName": "tan phu dong"
+  },
+  {
+    "code": "824",
+    "name": "Gò Công Đông",
+    "type": "district",
+    "nameWithType": "Huyện Gò Công Đông",
+    "provinceCode": "82",
+    "slug": "go-cong-dong",
+    "normalizedName": "go cong dong"
+  },
+  {
+    "code": "869",
+    "name": "Tân Hồng",
+    "type": "district",
+    "nameWithType": "Huyện Tân Hồng",
+    "provinceCode": "87",
+    "slug": "tan-hong",
+    "normalizedName": "tan hong"
+  },
+  {
+    "code": "871",
+    "name": "Tam Nông",
+    "type": "district",
+    "nameWithType": "Huyện Tam Nông",
+    "provinceCode": "87",
+    "slug": "tam-nong",
+    "normalizedName": "tam nong"
+  },
+  {
+    "code": "874",
+    "name": "Thanh Bình",
+    "type": "district",
+    "nameWithType": "Huyện Thanh Bình",
+    "provinceCode": "87",
+    "slug": "thanh-binh",
+    "normalizedName": "thanh binh"
+  },
+  {
+    "code": "872",
+    "name": "Tháp Mười",
+    "type": "district",
+    "nameWithType": "Huyện Tháp Mười",
+    "provinceCode": "87",
+    "slug": "thap-muoi",
+    "normalizedName": "thap muoi"
+  },
+  {
+    "code": "875",
+    "name": "Lấp Vò",
+    "type": "district",
+    "nameWithType": "Huyện Lấp Vò",
+    "provinceCode": "87",
+    "slug": "lap-vo",
+    "normalizedName": "lap vo"
+  },
+  {
+    "code": "876",
+    "name": "Lai Vung",
+    "type": "district",
+    "nameWithType": "Huyện Lai Vung",
+    "provinceCode": "87",
+    "slug": "lai-vung",
+    "normalizedName": "lai vung"
+  },
+  {
+    "code": "877",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "87",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "829",
+    "name": "Bến Tre",
+    "type": "city",
+    "nameWithType": "Thành phố Bến Tre",
+    "provinceCode": "83",
+    "slug": "ben-tre",
+    "normalizedName": "ben tre"
+  },
+  {
+    "code": "834",
+    "name": "Giồng Trôm",
+    "type": "district",
+    "nameWithType": "Huyện Giồng Trôm",
+    "provinceCode": "83",
+    "slug": "giong-trom",
+    "normalizedName": "giong trom"
+  },
+  {
+    "code": "831",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "83",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "838",
+    "name": "Mỏ Cày Bắc",
+    "type": "district",
+    "nameWithType": "Huyện Mỏ Cày Bắc",
+    "provinceCode": "83",
+    "slug": "mo-cay-bac",
+    "normalizedName": "mo cay bac"
+  },
+  {
+    "code": "842",
+    "name": "Trà Vinh",
+    "type": "city",
+    "nameWithType": "Thành phố Trà Vinh",
+    "provinceCode": "84",
+    "slug": "tra-vinh",
+    "normalizedName": "tra vinh"
+  },
+  {
+    "code": "847",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "84",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "851",
+    "name": "Duyên Hải",
+    "type": "town",
+    "nameWithType": "Thị xã Duyên Hải",
+    "provinceCode": "84",
+    "slug": "duyen-hai",
+    "normalizedName": "duyen hai"
+  },
+  {
+    "code": "855",
+    "name": "Vĩnh Long",
+    "type": "city",
+    "nameWithType": "Thành phố Vĩnh Long",
+    "provinceCode": "86",
+    "slug": "vinh-long",
+    "normalizedName": "vinh long"
+  },
+  {
+    "code": "857",
+    "name": "Long Hồ",
+    "type": "district",
+    "nameWithType": "Huyện Long Hồ",
+    "provinceCode": "86",
+    "slug": "long-ho",
+    "normalizedName": "long ho"
+  },
+  {
+    "code": "860",
+    "name": "Tam Bình",
+    "type": "district",
+    "nameWithType": "Huyện Tam Bình",
+    "provinceCode": "86",
+    "slug": "tam-binh",
+    "normalizedName": "tam binh"
+  },
+  {
+    "code": "861",
+    "name": "Bình Minh",
+    "type": "town",
+    "nameWithType": "Thị xã Bình Minh",
+    "provinceCode": "86",
+    "slug": "binh-minh",
+    "normalizedName": "binh minh"
+  },
+  {
+    "code": "832",
+    "name": "Chợ Lách",
+    "type": "district",
+    "nameWithType": "Huyện Chợ Lách",
+    "provinceCode": "83",
+    "slug": "cho-lach",
+    "normalizedName": "cho lach"
+  },
+  {
+    "code": "833",
+    "name": "Mỏ Cày Nam",
+    "type": "district",
+    "nameWithType": "Huyện Mỏ Cày Nam",
+    "provinceCode": "83",
+    "slug": "mo-cay-nam",
+    "normalizedName": "mo cay nam"
+  },
+  {
+    "code": "835",
+    "name": "Bình Đại",
+    "type": "district",
+    "nameWithType": "Huyện Bình Đại",
+    "provinceCode": "83",
+    "slug": "binh-dai",
+    "normalizedName": "binh dai"
+  },
+  {
+    "code": "836",
+    "name": "Ba Tri",
+    "type": "district",
+    "nameWithType": "Huyện Ba Tri",
+    "provinceCode": "83",
+    "slug": "ba-tri",
+    "normalizedName": "ba tri"
+  },
+  {
+    "code": "837",
+    "name": "Thạnh Phú",
+    "type": "district",
+    "nameWithType": "Huyện Thạnh Phú",
+    "provinceCode": "83",
+    "slug": "thanh-phu",
+    "normalizedName": "thanh phu"
+  },
+  {
+    "code": "844",
+    "name": "Càng Long",
+    "type": "district",
+    "nameWithType": "Huyện Càng Long",
+    "provinceCode": "84",
+    "slug": "cang-long",
+    "normalizedName": "cang long"
+  },
+  {
+    "code": "845",
+    "name": "Cầu Kè",
+    "type": "district",
+    "nameWithType": "Huyện Cầu Kè",
+    "provinceCode": "84",
+    "slug": "cau-ke",
+    "normalizedName": "cau ke"
+  },
+  {
+    "code": "846",
+    "name": "Tiểu Cần",
+    "type": "district",
+    "nameWithType": "Huyện Tiểu Cần",
+    "provinceCode": "84",
+    "slug": "tieu-can",
+    "normalizedName": "tieu can"
+  },
+  {
+    "code": "848",
+    "name": "Cầu Ngang",
+    "type": "district",
+    "nameWithType": "Huyện Cầu Ngang",
+    "provinceCode": "84",
+    "slug": "cau-ngang",
+    "normalizedName": "cau ngang"
+  },
+  {
+    "code": "849",
+    "name": "Trà Cú",
+    "type": "district",
+    "nameWithType": "Huyện Trà Cú",
+    "provinceCode": "84",
+    "slug": "tra-cu",
+    "normalizedName": "tra cu"
+  },
+  {
+    "code": "850",
+    "name": "Duyên Hải",
+    "type": "district",
+    "nameWithType": "Huyện Duyên Hải",
+    "provinceCode": "84",
+    "slug": "duyen-hai",
+    "normalizedName": "duyen hai"
+  },
+  {
+    "code": "858",
+    "name": "Mang Thít",
+    "type": "district",
+    "nameWithType": "Huyện Mang Thít",
+    "provinceCode": "86",
+    "slug": "mang-thit",
+    "normalizedName": "mang thit"
+  },
+  {
+    "code": "859",
+    "name": "Vũng Liêm",
+    "type": "district",
+    "nameWithType": "Huyện Vũng Liêm",
+    "provinceCode": "86",
+    "slug": "vung-liem",
+    "normalizedName": "vung liem"
+  },
+  {
+    "code": "862",
+    "name": "Trà Ôn",
+    "type": "district",
+    "nameWithType": "Huyện Trà Ôn",
+    "provinceCode": "86",
+    "slug": "tra-on",
+    "normalizedName": "tra on"
+  },
+  {
+    "code": "863",
+    "name": "Bình Tân",
+    "type": "district",
+    "nameWithType": "Huyện Bình Tân",
+    "provinceCode": "86",
+    "slug": "binh-tan",
+    "normalizedName": "binh tan"
+  },
+  {
+    "code": "883",
+    "name": "Long Xuyên",
+    "type": "city",
+    "nameWithType": "Thành phố Long Xuyên",
+    "provinceCode": "89",
+    "slug": "long-xuyen",
+    "normalizedName": "long xuyen"
+  },
+  {
+    "code": "884",
+    "name": "Châu Đốc",
+    "type": "city",
+    "nameWithType": "Thành phố Châu Đốc",
+    "provinceCode": "89",
+    "slug": "chau-doc",
+    "normalizedName": "chau doc"
+  },
+  {
+    "code": "887",
+    "name": "Tân Châu",
+    "type": "town",
+    "nameWithType": "Thị xã Tân Châu",
+    "provinceCode": "89",
+    "slug": "tan-chau",
+    "normalizedName": "tan chau"
+  },
+  {
+    "code": "890",
+    "name": "Tịnh Biên",
+    "type": "town",
+    "nameWithType": "Thị xã Tịnh Biên",
+    "provinceCode": "89",
+    "slug": "tinh-bien",
+    "normalizedName": "tinh bien"
+  },
+  {
+    "code": "899",
+    "name": "Rạch Giá",
+    "type": "city",
+    "nameWithType": "Thành phố Rạch Giá",
+    "provinceCode": "91",
+    "slug": "rach-gia",
+    "normalizedName": "rach gia"
+  },
+  {
+    "code": "903",
+    "name": "Hòn Đất",
+    "type": "district",
+    "nameWithType": "Huyện Hòn Đất",
+    "provinceCode": "91",
+    "slug": "hon-dat",
+    "normalizedName": "hon dat"
+  },
+  {
+    "code": "900",
+    "name": "Hà Tiên",
+    "type": "city",
+    "nameWithType": "Thành phố Hà Tiên",
+    "provinceCode": "91",
+    "slug": "ha-tien",
+    "normalizedName": "ha tien"
+  },
+  {
+    "code": "902",
+    "name": "Kiên Lương",
+    "type": "district",
+    "nameWithType": "Huyện Kiên Lương",
+    "provinceCode": "91",
+    "slug": "kien-luong",
+    "normalizedName": "kien luong"
+  },
+  {
+    "code": "886",
+    "name": "An Phú",
+    "type": "district",
+    "nameWithType": "Huyện An Phú",
+    "provinceCode": "89",
+    "slug": "an-phu",
+    "normalizedName": "an phu"
+  },
+  {
+    "code": "888",
+    "name": "Phú Tân",
+    "type": "district",
+    "nameWithType": "Huyện Phú Tân",
+    "provinceCode": "89",
+    "slug": "phu-tan",
+    "normalizedName": "phu tan"
+  },
+  {
+    "code": "889",
+    "name": "Châu Phú",
+    "type": "district",
+    "nameWithType": "Huyện Châu Phú",
+    "provinceCode": "89",
+    "slug": "chau-phu",
+    "normalizedName": "chau phu"
+  },
+  {
+    "code": "891",
+    "name": "Tri Tôn",
+    "type": "district",
+    "nameWithType": "Huyện Tri Tôn",
+    "provinceCode": "89",
+    "slug": "tri-ton",
+    "normalizedName": "tri ton"
+  },
+  {
+    "code": "892",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "89",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "893",
+    "name": "Chợ Mới",
+    "type": "district",
+    "nameWithType": "Huyện Chợ Mới",
+    "provinceCode": "89",
+    "slug": "cho-moi",
+    "normalizedName": "cho moi"
+  },
+  {
+    "code": "894",
+    "name": "Thoại Sơn",
+    "type": "district",
+    "nameWithType": "Huyện Thoại Sơn",
+    "provinceCode": "89",
+    "slug": "thoai-son",
+    "normalizedName": "thoai son"
+  },
+  {
+    "code": "900",
+    "name": "Hà Tiên",
+    "type": "city",
+    "nameWithType": "Thành phố Hà Tiên",
+    "provinceCode": "89",
+    "slug": "ha-tien",
+    "normalizedName": "ha tien"
+  },
+  {
+    "code": "914",
+    "name": "Giang Thành",
+    "type": "district",
+    "nameWithType": "Huyện Giang Thành",
+    "provinceCode": "91",
+    "slug": "giang-thanh",
+    "normalizedName": "giang thanh"
+  },
+  {
+    "code": "904",
+    "name": "Tân Hiệp",
+    "type": "district",
+    "nameWithType": "Huyện Tân Hiệp",
+    "provinceCode": "91",
+    "slug": "tan-hiep",
+    "normalizedName": "tan hiep"
+  },
+  {
+    "code": "905",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "91",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "906",
+    "name": "Giồng Riềng",
+    "type": "district",
+    "nameWithType": "Huyện Giồng Riềng",
+    "provinceCode": "91",
+    "slug": "giong-rieng",
+    "normalizedName": "giong rieng"
+  },
+  {
+    "code": "907",
+    "name": "Gò Quao",
+    "type": "district",
+    "nameWithType": "Huyện Gò Quao",
+    "provinceCode": "91",
+    "slug": "go-quao",
+    "normalizedName": "go quao"
+  },
+  {
+    "code": "908",
+    "name": "An Biên",
+    "type": "district",
+    "nameWithType": "Huyện An Biên",
+    "provinceCode": "91",
+    "slug": "an-bien",
+    "normalizedName": "an bien"
+  },
+  {
+    "code": "913",
+    "name": "U Minh Thượng",
+    "type": "district",
+    "nameWithType": "Huyện U Minh Thượng",
+    "provinceCode": "91",
+    "slug": "u-minh-thuong",
+    "normalizedName": "u minh thuong"
+  },
+  {
+    "code": "909",
+    "name": "An Minh",
+    "type": "district",
+    "nameWithType": "Huyện An Minh",
+    "provinceCode": "91",
+    "slug": "an-minh",
+    "normalizedName": "an minh"
+  },
+  {
+    "code": "910",
+    "name": "Vĩnh Thuận",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Thuận",
+    "provinceCode": "91",
+    "slug": "vinh-thuan",
+    "normalizedName": "vinh thuan"
+  },
+  {
+    "code": "911",
+    "name": "Phú Quốc",
+    "type": "city",
+    "nameWithType": "Thành phố Phú Quốc",
+    "provinceCode": "91",
+    "slug": "phu-quoc",
+    "normalizedName": "phu quoc"
+  },
+  {
+    "code": "912",
+    "name": "Kiên Hải",
+    "type": "district",
+    "nameWithType": "Huyện Kiên Hải",
+    "provinceCode": "91",
+    "slug": "kien-hai",
+    "normalizedName": "kien hai"
+  },
+  {
+    "code": "916",
+    "name": "Ninh Kiều",
+    "type": "urban_district",
+    "nameWithType": "Quận Ninh Kiều",
+    "provinceCode": "92",
+    "slug": "ninh-kieu",
+    "normalizedName": "ninh kieu"
+  },
+  {
+    "code": "918",
+    "name": "Bình Thuỷ",
+    "type": "urban_district",
+    "nameWithType": "Quận Bình Thuỷ",
+    "provinceCode": "92",
+    "slug": "binh-thuy",
+    "normalizedName": "binh thuy"
+  },
+  {
+    "code": "926",
+    "name": "Phong Điền",
+    "type": "district",
+    "nameWithType": "Huyện Phong Điền",
+    "provinceCode": "92",
+    "slug": "phong-dien",
+    "normalizedName": "phong dien"
+  },
+  {
+    "code": "917",
+    "name": "Ô Môn",
+    "type": "urban_district",
+    "nameWithType": "Quận Ô Môn",
+    "provinceCode": "92",
+    "slug": "o-mon",
+    "normalizedName": "o mon"
+  },
+  {
+    "code": "927",
+    "name": "Thới Lai",
+    "type": "district",
+    "nameWithType": "Huyện Thới Lai",
+    "provinceCode": "92",
+    "slug": "thoi-lai",
+    "normalizedName": "thoi lai"
+  },
+  {
+    "code": "923",
+    "name": "Thốt Nốt",
+    "type": "urban_district",
+    "nameWithType": "Quận Thốt Nốt",
+    "provinceCode": "92",
+    "slug": "thot-not",
+    "normalizedName": "thot not"
+  },
+  {
+    "code": "919",
+    "name": "Cái Răng",
+    "type": "urban_district",
+    "nameWithType": "Quận Cái Răng",
+    "provinceCode": "92",
+    "slug": "cai-rang",
+    "normalizedName": "cai rang"
+  },
+  {
+    "code": "925",
+    "name": "Cờ Đỏ",
+    "type": "district",
+    "nameWithType": "Huyện Cờ Đỏ",
+    "provinceCode": "92",
+    "slug": "co-do",
+    "normalizedName": "co do"
+  },
+  {
+    "code": "930",
+    "name": "Vị Thanh",
+    "type": "city",
+    "nameWithType": "Thành phố Vị Thanh",
+    "provinceCode": "93",
+    "slug": "vi-thanh",
+    "normalizedName": "vi thanh"
+  },
+  {
+    "code": "931",
+    "name": "Ngã Bảy",
+    "type": "city",
+    "nameWithType": "Thành phố Ngã Bảy",
+    "provinceCode": "93",
+    "slug": "nga-bay",
+    "normalizedName": "nga bay"
+  },
+  {
+    "code": "937",
+    "name": "Long Mỹ",
+    "type": "town",
+    "nameWithType": "Thị xã Long Mỹ",
+    "provinceCode": "93",
+    "slug": "long-my",
+    "normalizedName": "long my"
+  },
+  {
+    "code": "941",
+    "name": "Sóc Trăng",
+    "type": "city",
+    "nameWithType": "Thành phố Sóc Trăng",
+    "provinceCode": "94",
+    "slug": "soc-trang",
+    "normalizedName": "soc trang"
+  },
+  {
+    "code": "947",
+    "name": "Mỹ Xuyên",
+    "type": "district",
+    "nameWithType": "Huyện Mỹ Xuyên",
+    "provinceCode": "94",
+    "slug": "my-xuyen",
+    "normalizedName": "my xuyen"
+  },
+  {
+    "code": "948",
+    "name": "Ngã Năm",
+    "type": "town",
+    "nameWithType": "Thị xã Ngã Năm",
+    "provinceCode": "94",
+    "slug": "nga-nam",
+    "normalizedName": "nga nam"
+  },
+  {
+    "code": "950",
+    "name": "Vĩnh Châu",
+    "type": "town",
+    "nameWithType": "Thị xã Vĩnh Châu",
+    "provinceCode": "94",
+    "slug": "vinh-chau",
+    "normalizedName": "vinh chau"
+  },
+  {
+    "code": "924",
+    "name": "Vĩnh Thạnh",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Thạnh",
+    "provinceCode": "92",
+    "slug": "vinh-thanh",
+    "normalizedName": "vinh thanh"
+  },
+  {
+    "code": "932",
+    "name": "Châu Thành A",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành A",
+    "provinceCode": "93",
+    "slug": "chau-thanh-a",
+    "normalizedName": "chau thanh a"
+  },
+  {
+    "code": "933",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "93",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "934",
+    "name": "Phụng Hiệp",
+    "type": "district",
+    "nameWithType": "Huyện Phụng Hiệp",
+    "provinceCode": "93",
+    "slug": "phung-hiep",
+    "normalizedName": "phung hiep"
+  },
+  {
+    "code": "935",
+    "name": "Vị Thuỷ",
+    "type": "district",
+    "nameWithType": "Huyện Vị Thuỷ",
+    "provinceCode": "93",
+    "slug": "vi-thuy",
+    "normalizedName": "vi thuy"
+  },
+  {
+    "code": "936",
+    "name": "Long Mỹ",
+    "type": "district",
+    "nameWithType": "Huyện Long Mỹ",
+    "provinceCode": "93",
+    "slug": "long-my",
+    "normalizedName": "long my"
+  },
+  {
+    "code": "943",
+    "name": "Kế Sách",
+    "type": "district",
+    "nameWithType": "Huyện Kế Sách",
+    "provinceCode": "94",
+    "slug": "ke-sach",
+    "normalizedName": "ke sach"
+  },
+  {
+    "code": "946",
+    "name": "Long Phú",
+    "type": "district",
+    "nameWithType": "Huyện Long Phú",
+    "provinceCode": "94",
+    "slug": "long-phu",
+    "normalizedName": "long phu"
+  },
+  {
+    "code": "944",
+    "name": "Mỹ Tú",
+    "type": "district",
+    "nameWithType": "Huyện Mỹ Tú",
+    "provinceCode": "94",
+    "slug": "my-tu",
+    "normalizedName": "my tu"
+  },
+  {
+    "code": "942",
+    "name": "Châu Thành",
+    "type": "district",
+    "nameWithType": "Huyện Châu Thành",
+    "provinceCode": "94",
+    "slug": "chau-thanh",
+    "normalizedName": "chau thanh"
+  },
+  {
+    "code": "945",
+    "name": "Cù Lao Dung",
+    "type": "district",
+    "nameWithType": "Huyện Cù Lao Dung",
+    "provinceCode": "94",
+    "slug": "cu-lao-dung",
+    "normalizedName": "cu lao dung"
+  },
+  {
+    "code": "951",
+    "name": "Trần Đề",
+    "type": "district",
+    "nameWithType": "Huyện Trần Đề",
+    "provinceCode": "94",
+    "slug": "tran-de",
+    "normalizedName": "tran de"
+  },
+  {
+    "code": "949",
+    "name": "Thạnh Trị",
+    "type": "district",
+    "nameWithType": "Huyện Thạnh Trị",
+    "provinceCode": "94",
+    "slug": "thanh-tri",
+    "normalizedName": "thanh tri"
+  },
+  {
+    "code": "954",
+    "name": "Bạc Liêu",
+    "type": "city",
+    "nameWithType": "Thành phố Bạc Liêu",
+    "provinceCode": "95",
+    "slug": "bac-lieu",
+    "normalizedName": "bac lieu"
+  },
+  {
+    "code": "959",
+    "name": "Giá Rai",
+    "type": "town",
+    "nameWithType": "Thị xã Giá Rai",
+    "provinceCode": "95",
+    "slug": "gia-rai",
+    "normalizedName": "gia rai"
+  },
+  {
+    "code": "964",
+    "name": "Cà Mau",
+    "type": "city",
+    "nameWithType": "Thành phố Cà Mau",
+    "provinceCode": "96",
+    "slug": "ca-mau",
+    "normalizedName": "ca mau"
+  },
+  {
+    "code": "968",
+    "name": "Trần Văn Thời",
+    "type": "district",
+    "nameWithType": "Huyện Trần Văn Thời",
+    "provinceCode": "96",
+    "slug": "tran-van-thoi",
+    "normalizedName": "tran van thoi"
+  },
+  {
+    "code": "956",
+    "name": "Hồng Dân",
+    "type": "district",
+    "nameWithType": "Huyện Hồng Dân",
+    "provinceCode": "95",
+    "slug": "hong-dan",
+    "normalizedName": "hong dan"
+  },
+  {
+    "code": "957",
+    "name": "Phước Long",
+    "type": "district",
+    "nameWithType": "Huyện Phước Long",
+    "provinceCode": "95",
+    "slug": "phuoc-long",
+    "normalizedName": "phuoc long"
+  },
+  {
+    "code": "958",
+    "name": "Vĩnh Lợi",
+    "type": "district",
+    "nameWithType": "Huyện Vĩnh Lợi",
+    "provinceCode": "95",
+    "slug": "vinh-loi",
+    "normalizedName": "vinh loi"
+  },
+  {
+    "code": "961",
+    "name": "Hoà Bình",
+    "type": "district",
+    "nameWithType": "Huyện Hoà Bình",
+    "provinceCode": "95",
+    "slug": "hoa-binh",
+    "normalizedName": "hoa binh"
+  },
+  {
+    "code": "960",
+    "name": "Đông Hải",
+    "type": "district",
+    "nameWithType": "Huyện Đông Hải",
+    "provinceCode": "95",
+    "slug": "dong-hai",
+    "normalizedName": "dong hai"
+  },
+  {
+    "code": "966",
+    "name": "U Minh",
+    "type": "district",
+    "nameWithType": "Huyện U Minh",
+    "provinceCode": "96",
+    "slug": "u-minh",
+    "normalizedName": "u minh"
+  },
+  {
+    "code": "967",
+    "name": "Thới Bình",
+    "type": "district",
+    "nameWithType": "Huyện Thới Bình",
+    "provinceCode": "96",
+    "slug": "thoi-binh",
+    "normalizedName": "thoi binh"
+  },
+  {
+    "code": "969",
+    "name": "Cái Nước",
+    "type": "district",
+    "nameWithType": "Huyện Cái Nước",
+    "provinceCode": "96",
+    "slug": "cai-nuoc",
+    "normalizedName": "cai nuoc"
+  },
+  {
+    "code": "970",
+    "name": "Đầm Dơi",
+    "type": "district",
+    "nameWithType": "Huyện Đầm Dơi",
+    "provinceCode": "96",
+    "slug": "dam-doi",
+    "normalizedName": "dam doi"
+  },
+  {
+    "code": "971",
+    "name": "Năm Căn",
+    "type": "district",
+    "nameWithType": "Huyện Năm Căn",
+    "provinceCode": "96",
+    "slug": "nam-can",
+    "normalizedName": "nam can"
+  },
+  {
+    "code": "973",
+    "name": "Ngọc Hiển",
+    "type": "district",
+    "nameWithType": "Huyện Ngọc Hiển",
+    "provinceCode": "96",
+    "slug": "ngoc-hien",
+    "normalizedName": "ngoc hien"
+  },
+  {
+    "code": "972",
+    "name": "Phú Tân",
+    "type": "district",
+    "nameWithType": "Huyện Phú Tân",
+    "provinceCode": "96",
+    "slug": "phu-tan",
+    "normalizedName": "phu tan"
+  }
+]

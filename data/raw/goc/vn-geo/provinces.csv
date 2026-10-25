@@ -1,0 +1,35 @@
+code,name,fullName,slug,type,isCentral
+01,Hà Nội,Thành phố Hà Nội,ha-noi,city,true
+02,Hưng Yên,Tỉnh Hưng Yên,hung-yen,province,false
+03,Quảng Trị,Tỉnh Quảng Trị,quang-tri,province,false
+04,Huế,Thành phố Huế,hue,city,true
+05,Hải Phòng,Thành phố Hải Phòng,hai-phong,city,true
+06,Phú Thọ,Tỉnh Phú Thọ,phu-tho,province,false
+07,Thanh Hoá,Tỉnh Thanh Hoá,thanh-hoa,province,false
+08,Quảng Ninh,Tỉnh Quảng Ninh,quang-ninh,province,false
+09,Lào Cai,Tỉnh Lào Cai,lao-cai,province,false
+10,Bắc Ninh,Tỉnh Bắc Ninh,bac-ninh,province,false
+11,Nghệ An,Tỉnh Nghệ An,nghe-an,province,false
+12,Đà Nẵng,Thành phố Đà Nẵng,da-nang,city,true
+13,Ninh Bình,Tỉnh Ninh Bình,ninh-binh,province,false
+14,Khánh Hòa,Tỉnh Khánh Hòa,khanh-hoa,province,false
+15,Tây Ninh,Tỉnh Tây Ninh,tay-ninh,province,false
+16,Đồng Tháp,Tỉnh Đồng Tháp,dong-thap,province,false
+17,Hà Tĩnh,Tỉnh Hà Tĩnh,ha-tinh,province,false
+18,An Giang,Tỉnh An Giang,an-giang,province,false
+19,Thái Nguyên,Tỉnh Thái Nguyên,thai-nguyen,province,false
+20,Lạng Sơn,Tỉnh Lạng Sơn,lang-son,province,false
+21,Điện Biên,Tỉnh Điện Biên,dien-bien,province,false
+22,Đồng Nai,Tỉnh Đồng Nai,dong-nai,province,false
+23,Quảng Ngãi,Tỉnh Quảng Ngãi,quang-ngai,province,false
+24,Vĩnh Long,Tỉnh Vĩnh Long,vinh-long,province,false
+25,Cao Bằng,Tỉnh Cao Bằng,cao-bang,province,false
+26,Lai Châu,Tỉnh Lai Châu,lai-chau,province,false
+27,Đắk Lắk,Tỉnh Đắk Lắk,dak-lak,province,false
+28,Gia Lai,Tỉnh Gia Lai,gia-lai,province,false
+29,Lâm Đồng,Tỉnh Lâm Đồng,lam-dong,province,false
+30,Hồ Chí Minh,Thành phố Hồ Chí Minh,ho-chi-minh,city,true
+31,Sơn La,Tỉnh Sơn La,son-la,province,false
+32,Cần Thơ,Thành phố Cần Thơ,can-tho,city,true
+33,Cà Mau,Tỉnh Cà Mau,ca-mau,province,false
+34,Tuyên Quang,Tỉnh Tuyên Quang,tuyen-quang,province,false
