@@ -1,0 +1,16 @@
+{
+  "status": "awaiting_manual_review",
+  "gold_rows": 400,
+  "reviewed_rows": 0,
+  "excluded_unreviewed_rows": 400,
+  "prediction_rows": 400,
+  "extra_prediction_ids": 0,
+  "missing_reviewed_predictions": 0,
+  "field_accuracy": null,
+  "nonempty_field_accuracy": null,
+  "exact_match": null,
+  "canonical_string_accuracy": null,
+  "flag_rate": null,
+  "old_address_conversion": null,
+  "split_ward_handling": null
+}

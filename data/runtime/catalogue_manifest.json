@@ -1,0 +1,25 @@
+{
+  "as_of": "2025-07-01",
+  "source": "data/raw/goc/conversion-table.xlsx",
+  "source_sha256": "213966723785859dedd7c88965d6f12f8c3c508c91796e003804cf60a1054fc2",
+  "province_count": 34,
+  "ward_count": 3321,
+  "type_overrides": [
+    {
+      "ma_tinh": "22",
+      "loai_clean": "Thành phố",
+      "loai_runtime": "Tỉnh"
+    },
+    {
+      "ma_tinh": "24",
+      "loai_clean": "Thành phố",
+      "loai_runtime": "Tỉnh"
+    },
+    {
+      "ma_tinh": "75",
+      "loai_clean": "Thành phố",
+      "loai_runtime": "Tỉnh"
+    }
+  ],
+  "policy": "Raw/clean/test không sửa; lớp runtime chỉ đổi loại tỉnh theo workbook đã có."
+}

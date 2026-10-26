@@ -1,0 +1,4322 @@
+[
+  {
+    "id": "moi-26377-canonical",
+    "dau_vao": "Phường Phước Tân, Tỉnh Đồng Nai",
+    "ma_xa": "26377",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-26377-accentless",
+    "dau_vao": "phuong phuoc tan, tinh dong nai",
+    "ma_xa": "26377",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-26377-reordered",
+    "dau_vao": "Tỉnh Đồng Nai, Phường Phước Tân",
+    "ma_xa": "26377",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-26377-one_typo",
+    "dau_vao": "Phường Phướ Tân, Tỉnh Đồng Nai",
+    "ma_xa": "26377",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-04048-canonical",
+    "dau_vao": "Xã Vân Hồ, Tỉnh Sơn La",
+    "ma_xa": "04048",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-04048-accentless",
+    "dau_vao": "xa van ho, tinh son la",
+    "ma_xa": "04048",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-04048-reordered",
+    "dau_vao": "Tỉnh Sơn La, Xã Vân Hồ",
+    "ma_xa": "04048",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-04048-one_typo",
+    "dau_vao": "Xã Vânx Hồ, Tỉnh Sơn La",
+    "ma_xa": "04048",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-00994-canonical",
+    "dau_vao": "Xã Minh Ngọc, Tỉnh Tuyên Quang",
+    "ma_xa": "00994",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-00994-accentless",
+    "dau_vao": "xa minh ngoc, tinh tuyen quang",
+    "ma_xa": "00994",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-00994-reordered",
+    "dau_vao": "Tỉnh Tuyên Quang, Xã Minh Ngọc",
+    "ma_xa": "00994",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-00994-one_typo",
+    "dau_vao": "Xã Min Ngọc, Tỉnh Tuyên Quang",
+    "ma_xa": "00994",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-30118-canonical",
+    "dau_vao": "Xã Bình Hàng Trung, Tỉnh Đồng Tháp",
+    "ma_xa": "30118",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-30118-accentless",
+    "dau_vao": "xa binh hang trung, tinh dong thap",
+    "ma_xa": "30118",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-30118-reordered",
+    "dau_vao": "Tỉnh Đồng Tháp, Xã Bình Hàng Trung",
+    "ma_xa": "30118",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-30118-one_typo",
+    "dau_vao": "Xã Bình Hàng Trun, Tỉnh Đồng Tháp",
+    "ma_xa": "30118",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-11824-canonical",
+    "dau_vao": "Xã Vĩnh Bảo, Thành phố Hải Phòng",
+    "ma_xa": "11824",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-11824-accentless",
+    "dau_vao": "xa vinh bao, thanh pho hai phong",
+    "ma_xa": "11824",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-11824-reordered",
+    "dau_vao": "Thành phố Hải Phòng, Xã Vĩnh Bảo",
+    "ma_xa": "11824",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-11824-one_typo",
+    "dau_vao": "Xã Vĩn Bảo, Thành phố Hải Phòng",
+    "ma_xa": "11824",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-10144-canonical",
+    "dau_vao": "Xã Tam Hưng, Thành phố Hà Nội",
+    "ma_xa": "10144",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-10144-accentless",
+    "dau_vao": "xa tam hung, thanh pho ha noi",
+    "ma_xa": "10144",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-10144-reordered",
+    "dau_vao": "Thành phố Hà Nội, Xã Tam Hưng",
+    "ma_xa": "10144",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-10144-one_typo",
+    "dau_vao": "Xã Tam Hưn, Thành phố Hà Nội",
+    "ma_xa": "10144",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-09076-canonical",
+    "dau_vao": "Xã Vĩnh Tường, Tỉnh Phú Thọ",
+    "ma_xa": "09076",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-09076-accentless",
+    "dau_vao": "xa vinh tuong, tinh phu tho",
+    "ma_xa": "09076",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-09076-reordered",
+    "dau_vao": "Tỉnh Phú Thọ, Xã Vĩnh Tường",
+    "ma_xa": "09076",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-09076-one_typo",
+    "dau_vao": "Xã Vĩnh Tườn, Tỉnh Phú Thọ",
+    "ma_xa": "09076",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-05293-canonical",
+    "dau_vao": "Xã Thượng Cốc, Tỉnh Phú Thọ",
+    "ma_xa": "05293",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-05293-accentless",
+    "dau_vao": "xa thuong coc, tinh phu tho",
+    "ma_xa": "05293",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-05293-reordered",
+    "dau_vao": "Tỉnh Phú Thọ, Xã Thượng Cốc",
+    "ma_xa": "05293",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-05293-one_typo",
+    "dau_vao": "Xã Thượn Cốc, Tỉnh Phú Thọ",
+    "ma_xa": "05293",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-29955-canonical",
+    "dau_vao": "Phường Hồng Ngự, Tỉnh Đồng Tháp",
+    "ma_xa": "29955",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-29955-accentless",
+    "dau_vao": "phuong hong ngu, tinh dong thap",
+    "ma_xa": "29955",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-29955-reordered",
+    "dau_vao": "Tỉnh Đồng Tháp, Phường Hồng Ngự",
+    "ma_xa": "29955",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-29955-one_typo",
+    "dau_vao": "Phường Hồn Ngự, Tỉnh Đồng Tháp",
+    "ma_xa": "29955",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03727-canonical",
+    "dau_vao": "Xã Mường É, Tỉnh Sơn La",
+    "ma_xa": "03727",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03727-accentless",
+    "dau_vao": "xa muong e, tinh son la",
+    "ma_xa": "03727",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03727-reordered",
+    "dau_vao": "Tỉnh Sơn La, Xã Mường É",
+    "ma_xa": "03727",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03727-one_typo",
+    "dau_vao": "Xã Mườn É, Tỉnh Sơn La",
+    "ma_xa": "03727",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-27736-canonical",
+    "dau_vao": "Xã Vĩnh Thạnh, Tỉnh Tây Ninh",
+    "ma_xa": "27736",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-27736-accentless",
+    "dau_vao": "xa vinh thanh, tinh tay ninh",
+    "ma_xa": "27736",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-27736-reordered",
+    "dau_vao": "Tỉnh Tây Ninh, Xã Vĩnh Thạnh",
+    "ma_xa": "27736",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-27736-one_typo",
+    "dau_vao": "Xã Vĩnh Thạn, Tỉnh Tây Ninh",
+    "ma_xa": "27736",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-30076-canonical",
+    "dau_vao": "Xã Mỹ Thọ, Tỉnh Đồng Tháp",
+    "ma_xa": "30076",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-30076-accentless",
+    "dau_vao": "xa my tho, tinh dong thap",
+    "ma_xa": "30076",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-30076-reordered",
+    "dau_vao": "Tỉnh Đồng Tháp, Xã Mỹ Thọ",
+    "ma_xa": "30076",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-30076-one_typo",
+    "dau_vao": "Xã Mỹ Thọx, Tỉnh Đồng Tháp",
+    "ma_xa": "30076",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-23510-canonical",
+    "dau_vao": "Xã Đăk Ui, Tỉnh Quảng Ngãi",
+    "ma_xa": "23510",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-23510-accentless",
+    "dau_vao": "xa dak ui, tinh quang ngai",
+    "ma_xa": "23510",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-23510-reordered",
+    "dau_vao": "Tỉnh Quảng Ngãi, Xã Đăk Ui",
+    "ma_xa": "23510",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-23510-one_typo",
+    "dau_vao": "Xã Đăkx Ui, Tỉnh Quảng Ngãi",
+    "ma_xa": "23510",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03295-canonical",
+    "dau_vao": "Xã Quài Tở, Tỉnh Điện Biên",
+    "ma_xa": "03295",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03295-accentless",
+    "dau_vao": "xa quai to, tinh dien bien",
+    "ma_xa": "03295",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03295-reordered",
+    "dau_vao": "Tỉnh Điện Biên, Xã Quài Tở",
+    "ma_xa": "03295",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03295-one_typo",
+    "dau_vao": "Xã Quà Tở, Tỉnh Điện Biên",
+    "ma_xa": "03295",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-24787-canonical",
+    "dau_vao": "Phường Cam Ly - Đà Lạt, Tỉnh Lâm Đồng",
+    "ma_xa": "24787",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-24787-accentless",
+    "dau_vao": "phuong cam ly - da lat, tinh lam dong",
+    "ma_xa": "24787",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-24787-reordered",
+    "dau_vao": "Tỉnh Lâm Đồng, Phường Cam Ly - Đà Lạt",
+    "ma_xa": "24787",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-24787-one_typo",
+    "dau_vao": "Phường Camx Ly - Đà Lạt, Tỉnh Lâm Đồng",
+    "ma_xa": "24787",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-18814-canonical",
+    "dau_vao": "Xã Kỳ Hoa, Tỉnh Hà Tĩnh",
+    "ma_xa": "18814",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-18814-accentless",
+    "dau_vao": "xa ky hoa, tinh ha tinh",
+    "ma_xa": "18814",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-18814-reordered",
+    "dau_vao": "Tỉnh Hà Tĩnh, Xã Kỳ Hoa",
+    "ma_xa": "18814",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-18814-one_typo",
+    "dau_vao": "Xã Kỳ Hoax, Tỉnh Hà Tĩnh",
+    "ma_xa": "18814",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-01243-canonical",
+    "dau_vao": "Xã Tân Trịnh, Tỉnh Tuyên Quang",
+    "ma_xa": "01243",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-01243-accentless",
+    "dau_vao": "xa tan trinh, tinh tuyen quang",
+    "ma_xa": "01243",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-01243-reordered",
+    "dau_vao": "Tỉnh Tuyên Quang, Xã Tân Trịnh",
+    "ma_xa": "01243",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-01243-one_typo",
+    "dau_vao": "Xã Tân Trịn, Tỉnh Tuyên Quang",
+    "ma_xa": "01243",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-01171-canonical",
+    "dau_vao": "Xã Tân Quang, Tỉnh Tuyên Quang",
+    "ma_xa": "01171",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-01171-accentless",
+    "dau_vao": "xa tan quang, tinh tuyen quang",
+    "ma_xa": "01171",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-01171-reordered",
+    "dau_vao": "Tỉnh Tuyên Quang, Xã Tân Quang",
+    "ma_xa": "01171",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-01171-one_typo",
+    "dau_vao": "Xã Tân Quan, Tỉnh Tuyên Quang",
+    "ma_xa": "01171",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03451-canonical",
+    "dau_vao": "Xã Mù Cả, Tỉnh Lai Châu",
+    "ma_xa": "03451",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03451-accentless",
+    "dau_vao": "xa mu ca, tinh lai chau",
+    "ma_xa": "03451",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03451-reordered",
+    "dau_vao": "Tỉnh Lai Châu, Xã Mù Cả",
+    "ma_xa": "03451",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03451-one_typo",
+    "dau_vao": "Xã Mùx Cả, Tỉnh Lai Châu",
+    "ma_xa": "03451",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-08872-canonical",
+    "dau_vao": "Xã Tam Dương Bắc, Tỉnh Phú Thọ",
+    "ma_xa": "08872",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-08872-accentless",
+    "dau_vao": "xa tam duong bac, tinh phu tho",
+    "ma_xa": "08872",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-08872-reordered",
+    "dau_vao": "Tỉnh Phú Thọ, Xã Tam Dương Bắc",
+    "ma_xa": "08872",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-08872-one_typo",
+    "dau_vao": "Xã Tam Dươn Bắc, Tỉnh Phú Thọ",
+    "ma_xa": "08872",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-09454-canonical",
+    "dau_vao": "Xã Gia Bình, Tỉnh Bắc Ninh",
+    "ma_xa": "09454",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-09454-accentless",
+    "dau_vao": "xa gia binh, tinh bac ninh",
+    "ma_xa": "09454",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-09454-reordered",
+    "dau_vao": "Tỉnh Bắc Ninh, Xã Gia Bình",
+    "ma_xa": "09454",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-09454-one_typo",
+    "dau_vao": "Xã Gia Bìn, Tỉnh Bắc Ninh",
+    "ma_xa": "09454",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-22111-canonical",
+    "dau_vao": "Xã Xuân Phước, Tỉnh Đắk Lắk",
+    "ma_xa": "22111",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-22111-accentless",
+    "dau_vao": "xa xuan phuoc, tinh dak lak",
+    "ma_xa": "22111",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-22111-reordered",
+    "dau_vao": "Tỉnh Đắk Lắk, Xã Xuân Phước",
+    "ma_xa": "22111",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-22111-one_typo",
+    "dau_vao": "Xã Xuân Phướ, Tỉnh Đắk Lắk",
+    "ma_xa": "22111",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-25162-canonical",
+    "dau_vao": "Xã Cát Tiên 3, Tỉnh Lâm Đồng",
+    "ma_xa": "25162",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-25162-accentless",
+    "dau_vao": "xa cat tien 3, tinh lam dong",
+    "ma_xa": "25162",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-25162-reordered",
+    "dau_vao": "Tỉnh Lâm Đồng, Xã Cát Tiên 3",
+    "ma_xa": "25162",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-25162-one_typo",
+    "dau_vao": "Xã Cát Tiê 3, Tỉnh Lâm Đồng",
+    "ma_xa": "25162",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-01051-canonical",
+    "dau_vao": "Xã Tân Tiến, Tỉnh Tuyên Quang",
+    "ma_xa": "01051",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-01051-accentless",
+    "dau_vao": "xa tan tien, tinh tuyen quang",
+    "ma_xa": "01051",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-01051-reordered",
+    "dau_vao": "Tỉnh Tuyên Quang, Xã Tân Tiến",
+    "ma_xa": "01051",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-01051-one_typo",
+    "dau_vao": "Xã Tân Tiế, Tỉnh Tuyên Quang",
+    "ma_xa": "01051",
+    "ma_tinh": "08",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-23941-canonical",
+    "dau_vao": "Xã Chư Sê, Tỉnh Gia Lai",
+    "ma_xa": "23941",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-23941-accentless",
+    "dau_vao": "xa chu se, tinh gia lai",
+    "ma_xa": "23941",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-23941-reordered",
+    "dau_vao": "Tỉnh Gia Lai, Xã Chư Sê",
+    "ma_xa": "23941",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-23941-one_typo",
+    "dau_vao": "Xã Chưx Sê, Tỉnh Gia Lai",
+    "ma_xa": "23941",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-07894-canonical",
+    "dau_vao": "Phường Nông Trang, Tỉnh Phú Thọ",
+    "ma_xa": "07894",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-07894-accentless",
+    "dau_vao": "phuong nong trang, tinh phu tho",
+    "ma_xa": "07894",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-07894-reordered",
+    "dau_vao": "Tỉnh Phú Thọ, Phường Nông Trang",
+    "ma_xa": "07894",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-07894-one_typo",
+    "dau_vao": "Phường Nông Tran, Tỉnh Phú Thọ",
+    "ma_xa": "07894",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-29254-canonical",
+    "dau_vao": "Phường Nguyệt Hóa, Tỉnh Vĩnh Long",
+    "ma_xa": "29254",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-29254-accentless",
+    "dau_vao": "phuong nguyet hoa, tinh vinh long",
+    "ma_xa": "29254",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-29254-reordered",
+    "dau_vao": "Tỉnh Vĩnh Long, Phường Nguyệt Hóa",
+    "ma_xa": "29254",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-29254-one_typo",
+    "dau_vao": "Phường Nguyệ Hóa, Tỉnh Vĩnh Long",
+    "ma_xa": "29254",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-26725-canonical",
+    "dau_vao": "Phường Tân Thành, Thành phố Hồ Chí Minh",
+    "ma_xa": "26725",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-26725-accentless",
+    "dau_vao": "phuong tan thanh, thanh pho ho chi minh",
+    "ma_xa": "26725",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-26725-reordered",
+    "dau_vao": "Thành phố Hồ Chí Minh, Phường Tân Thành",
+    "ma_xa": "26725",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-26725-one_typo",
+    "dau_vao": "Phường Tân Thàn, Thành phố Hồ Chí Minh",
+    "ma_xa": "26725",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-28663-canonical",
+    "dau_vao": "Xã Phú Thành, Tỉnh Đồng Tháp",
+    "ma_xa": "28663",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-28663-accentless",
+    "dau_vao": "xa phu thanh, tinh dong thap",
+    "ma_xa": "28663",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-28663-reordered",
+    "dau_vao": "Tỉnh Đồng Tháp, Xã Phú Thành",
+    "ma_xa": "28663",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-28663-one_typo",
+    "dau_vao": "Xã Phú Thàn, Tỉnh Đồng Tháp",
+    "ma_xa": "28663",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-23504-canonical",
+    "dau_vao": "Xã Đăk Pxi, Tỉnh Quảng Ngãi",
+    "ma_xa": "23504",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-23504-accentless",
+    "dau_vao": "xa dak pxi, tinh quang ngai",
+    "ma_xa": "23504",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-23504-reordered",
+    "dau_vao": "Tỉnh Quảng Ngãi, Xã Đăk Pxi",
+    "ma_xa": "23504",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-23504-one_typo",
+    "dau_vao": "Xã Đăkx Pxi, Tỉnh Quảng Ngãi",
+    "ma_xa": "23504",
+    "ma_tinh": "51",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-18736-canonical",
+    "dau_vao": "Xã Cẩm Hưng, Tỉnh Hà Tĩnh",
+    "ma_xa": "18736",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-18736-accentless",
+    "dau_vao": "xa cam hung, tinh ha tinh",
+    "ma_xa": "18736",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-18736-reordered",
+    "dau_vao": "Tỉnh Hà Tĩnh, Xã Cẩm Hưng",
+    "ma_xa": "18736",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-18736-one_typo",
+    "dau_vao": "Xã Cẩm Hưn, Tỉnh Hà Tĩnh",
+    "ma_xa": "18736",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-08944-canonical",
+    "dau_vao": "Xã Bình Tuyền, Tỉnh Phú Thọ",
+    "ma_xa": "08944",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-08944-accentless",
+    "dau_vao": "xa binh tuyen, tinh phu tho",
+    "ma_xa": "08944",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-08944-reordered",
+    "dau_vao": "Tỉnh Phú Thọ, Xã Bình Tuyền",
+    "ma_xa": "08944",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-08944-one_typo",
+    "dau_vao": "Xã Bình Tuyề, Tỉnh Phú Thọ",
+    "ma_xa": "08944",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-20050-canonical",
+    "dau_vao": "Xã A Lưới 5, Thành phố Huế",
+    "ma_xa": "20050",
+    "ma_tinh": "46",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-20050-accentless",
+    "dau_vao": "xa a luoi 5, thanh pho hue",
+    "ma_xa": "20050",
+    "ma_tinh": "46",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-20050-reordered",
+    "dau_vao": "Thành phố Huế, Xã A Lưới 5",
+    "ma_xa": "20050",
+    "ma_tinh": "46",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-20050-one_typo",
+    "dau_vao": "Xã A Lướ 5, Thành phố Huế",
+    "ma_xa": "20050",
+    "ma_tinh": "46",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-24748-canonical",
+    "dau_vao": "Xã Quảng Tân, Tỉnh Lâm Đồng",
+    "ma_xa": "24748",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-24748-accentless",
+    "dau_vao": "xa quang tan, tinh lam dong",
+    "ma_xa": "24748",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-24748-reordered",
+    "dau_vao": "Tỉnh Lâm Đồng, Xã Quảng Tân",
+    "ma_xa": "24748",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-24748-one_typo",
+    "dau_vao": "Xã Quản Tân, Tỉnh Lâm Đồng",
+    "ma_xa": "24748",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-11992-canonical",
+    "dau_vao": "Xã Lạc Đạo, Tỉnh Hưng Yên",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-11992-accentless",
+    "dau_vao": "xa lac dao, tinh hung yen",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-11992-reordered",
+    "dau_vao": "Tỉnh Hưng Yên, Xã Lạc Đạo",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-11992-one_typo",
+    "dau_vao": "Xã Lạcx Đạo, Tỉnh Hưng Yên",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-32214-canonical",
+    "dau_vao": "Xã Phú Mỹ, Tỉnh Cà Mau",
+    "ma_xa": "32214",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-32214-accentless",
+    "dau_vao": "xa phu my, tinh ca mau",
+    "ma_xa": "32214",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-32214-reordered",
+    "dau_vao": "Tỉnh Cà Mau, Xã Phú Mỹ",
+    "ma_xa": "32214",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-32214-one_typo",
+    "dau_vao": "Xã Phúx Mỹ, Tỉnh Cà Mau",
+    "ma_xa": "32214",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-00328-canonical",
+    "dau_vao": "Phường Lĩnh Nam, Thành phố Hà Nội",
+    "ma_xa": "00328",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-00328-accentless",
+    "dau_vao": "phuong linh nam, thanh pho ha noi",
+    "ma_xa": "00328",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-00328-reordered",
+    "dau_vao": "Thành phố Hà Nội, Phường Lĩnh Nam",
+    "ma_xa": "00328",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-00328-one_typo",
+    "dau_vao": "Phường Lĩn Nam, Thành phố Hà Nội",
+    "ma_xa": "00328",
+    "ma_tinh": "01",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-30766-canonical",
+    "dau_vao": "Phường Tô Châu, Tỉnh An Giang",
+    "ma_xa": "30766",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-30766-accentless",
+    "dau_vao": "phuong to chau, tinh an giang",
+    "ma_xa": "30766",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-30766-reordered",
+    "dau_vao": "Tỉnh An Giang, Phường Tô Châu",
+    "ma_xa": "30766",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-30766-one_typo",
+    "dau_vao": "Phường Tô Châ, Tỉnh An Giang",
+    "ma_xa": "30766",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-32128-canonical",
+    "dau_vao": "Xã Cái Nước, Tỉnh Cà Mau",
+    "ma_xa": "32128",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-32128-accentless",
+    "dau_vao": "xa cai nuoc, tinh ca mau",
+    "ma_xa": "32128",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-32128-reordered",
+    "dau_vao": "Tỉnh Cà Mau, Xã Cái Nước",
+    "ma_xa": "32128",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-32128-one_typo",
+    "dau_vao": "Xã Cái Nướ, Tỉnh Cà Mau",
+    "ma_xa": "32128",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-06112-canonical",
+    "dau_vao": "Xã Bình Gia, Tỉnh Lạng Sơn",
+    "ma_xa": "06112",
+    "ma_tinh": "20",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-06112-accentless",
+    "dau_vao": "xa binh gia, tinh lang son",
+    "ma_xa": "06112",
+    "ma_tinh": "20",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-06112-reordered",
+    "dau_vao": "Tỉnh Lạng Sơn, Xã Bình Gia",
+    "ma_xa": "06112",
+    "ma_tinh": "20",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-06112-one_typo",
+    "dau_vao": "Xã Bìn Gia, Tỉnh Lạng Sơn",
+    "ma_xa": "06112",
+    "ma_tinh": "20",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-28537-canonical",
+    "dau_vao": "Xã Long Hưng, Tỉnh Đồng Tháp",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-28537-accentless",
+    "dau_vao": "xa long hung, tinh dong thap",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-28537-reordered",
+    "dau_vao": "Tỉnh Đồng Tháp, Xã Long Hưng",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-28537-one_typo",
+    "dau_vao": "Xã Lon Hưng, Tỉnh Đồng Tháp",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-18838-canonical",
+    "dau_vao": "Xã Kỳ Lạc, Tỉnh Hà Tĩnh",
+    "ma_xa": "18838",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-18838-accentless",
+    "dau_vao": "xa ky lac, tinh ha tinh",
+    "ma_xa": "18838",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-18838-reordered",
+    "dau_vao": "Tỉnh Hà Tĩnh, Xã Kỳ Lạc",
+    "ma_xa": "18838",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-18838-one_typo",
+    "dau_vao": "Xã Kỳ Lạcx, Tỉnh Hà Tĩnh",
+    "ma_xa": "18838",
+    "ma_tinh": "42",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-14959-canonical",
+    "dau_vao": "Xã Cổ Lũng, Tỉnh Thanh Hóa",
+    "ma_xa": "14959",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-14959-accentless",
+    "dau_vao": "xa co lung, tinh thanh hoa",
+    "ma_xa": "14959",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-14959-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Xã Cổ Lũng",
+    "ma_xa": "14959",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-14959-one_typo",
+    "dau_vao": "Xã Cổ Lũn, Tỉnh Thanh Hóa",
+    "ma_xa": "14959",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-11983-canonical",
+    "dau_vao": "Phường Sơn Nam, Tỉnh Hưng Yên",
+    "ma_xa": "11983",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-11983-accentless",
+    "dau_vao": "phuong son nam, tinh hung yen",
+    "ma_xa": "11983",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-11983-reordered",
+    "dau_vao": "Tỉnh Hưng Yên, Phường Sơn Nam",
+    "ma_xa": "11983",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-11983-one_typo",
+    "dau_vao": "Phường Sơnx Nam, Tỉnh Hưng Yên",
+    "ma_xa": "11983",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-05953-canonical",
+    "dau_vao": "Xã Kha Sơn, Tỉnh Thái Nguyên",
+    "ma_xa": "05953",
+    "ma_tinh": "19",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-05953-accentless",
+    "dau_vao": "xa kha son, tinh thai nguyen",
+    "ma_xa": "05953",
+    "ma_tinh": "19",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-05953-reordered",
+    "dau_vao": "Tỉnh Thái Nguyên, Xã Kha Sơn",
+    "ma_xa": "05953",
+    "ma_tinh": "19",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-05953-one_typo",
+    "dau_vao": "Xã Khax Sơn, Tỉnh Thái Nguyên",
+    "ma_xa": "05953",
+    "ma_tinh": "19",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-08716-canonical",
+    "dau_vao": "Phường Vĩnh Phúc, Tỉnh Phú Thọ",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-08716-accentless",
+    "dau_vao": "phuong vinh phuc, tinh phu tho",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-08716-reordered",
+    "dau_vao": "Tỉnh Phú Thọ, Phường Vĩnh Phúc",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-08716-one_typo",
+    "dau_vao": "Phường Vĩn Phúc, Tỉnh Phú Thọ",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-30898-canonical",
+    "dau_vao": "Xã Bình An, Tỉnh An Giang",
+    "ma_xa": "30898",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-30898-accentless",
+    "dau_vao": "xa binh an, tinh an giang",
+    "ma_xa": "30898",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-30898-reordered",
+    "dau_vao": "Tỉnh An Giang, Xã Bình An",
+    "ma_xa": "30898",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-30898-one_typo",
+    "dau_vao": "Xã Bìn An, Tỉnh An Giang",
+    "ma_xa": "30898",
+    "ma_tinh": "91",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-14864-canonical",
+    "dau_vao": "Xã Nhi Sơn, Tỉnh Thanh Hóa",
+    "ma_xa": "14864",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-14864-accentless",
+    "dau_vao": "xa nhi son, tinh thanh hoa",
+    "ma_xa": "14864",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-14864-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Xã Nhi Sơn",
+    "ma_xa": "14864",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-14864-one_typo",
+    "dau_vao": "Xã Nhix Sơn, Tỉnh Thanh Hóa",
+    "ma_xa": "14864",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03724-canonical",
+    "dau_vao": "Xã Bình Thuận, Tỉnh Sơn La",
+    "ma_xa": "03724",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03724-accentless",
+    "dau_vao": "xa binh thuan, tinh son la",
+    "ma_xa": "03724",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03724-reordered",
+    "dau_vao": "Tỉnh Sơn La, Xã Bình Thuận",
+    "ma_xa": "03724",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03724-one_typo",
+    "dau_vao": "Xã Bình Thuậ, Tỉnh Sơn La",
+    "ma_xa": "03724",
+    "ma_tinh": "14",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03434-canonical",
+    "dau_vao": "Xã Nậm Hàng, Tỉnh Lai Châu",
+    "ma_xa": "03434",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03434-accentless",
+    "dau_vao": "xa nam hang, tinh lai chau",
+    "ma_xa": "03434",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03434-reordered",
+    "dau_vao": "Tỉnh Lai Châu, Xã Nậm Hàng",
+    "ma_xa": "03434",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03434-one_typo",
+    "dau_vao": "Xã Nậm Hàn, Tỉnh Lai Châu",
+    "ma_xa": "03434",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-16849-canonical",
+    "dau_vao": "Xã Hữu Kiệm, Tỉnh Nghệ An",
+    "ma_xa": "16849",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-16849-accentless",
+    "dau_vao": "xa huu kiem, tinh nghe an",
+    "ma_xa": "16849",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-16849-reordered",
+    "dau_vao": "Tỉnh Nghệ An, Xã Hữu Kiệm",
+    "ma_xa": "16849",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-16849-one_typo",
+    "dau_vao": "Xã Hữu Kiệ, Tỉnh Nghệ An",
+    "ma_xa": "16849",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03544-canonical",
+    "dau_vao": "Xã Nậm Cuổi, Tỉnh Lai Châu",
+    "ma_xa": "03544",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03544-accentless",
+    "dau_vao": "xa nam cuoi, tinh lai chau",
+    "ma_xa": "03544",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03544-reordered",
+    "dau_vao": "Tỉnh Lai Châu, Xã Nậm Cuổi",
+    "ma_xa": "03544",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03544-one_typo",
+    "dau_vao": "Xã Nậm Cuổ, Tỉnh Lai Châu",
+    "ma_xa": "03544",
+    "ma_tinh": "12",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-15820-canonical",
+    "dau_vao": "Xã Thiệu Toán, Tỉnh Thanh Hóa",
+    "ma_xa": "15820",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-15820-accentless",
+    "dau_vao": "xa thieu toan, tinh thanh hoa",
+    "ma_xa": "15820",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-15820-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Xã Thiệu Toán",
+    "ma_xa": "15820",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-15820-one_typo",
+    "dau_vao": "Xã Thiệ Toán, Tỉnh Thanh Hóa",
+    "ma_xa": "15820",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-15055-canonical",
+    "dau_vao": "Xã Linh Sơn, Tỉnh Thanh Hóa",
+    "ma_xa": "15055",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-15055-accentless",
+    "dau_vao": "xa linh son, tinh thanh hoa",
+    "ma_xa": "15055",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-15055-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Xã Linh Sơn",
+    "ma_xa": "15055",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-15055-one_typo",
+    "dau_vao": "Xã Lin Sơn, Tỉnh Thanh Hóa",
+    "ma_xa": "15055",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-25225-canonical",
+    "dau_vao": "Xã Đăk Ơ, Tỉnh Đồng Nai",
+    "ma_xa": "25225",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-25225-accentless",
+    "dau_vao": "xa dak o, tinh dong nai",
+    "ma_xa": "25225",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-25225-reordered",
+    "dau_vao": "Tỉnh Đồng Nai, Xã Đăk Ơ",
+    "ma_xa": "25225",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-25225-one_typo",
+    "dau_vao": "Xã Đăkx Ơ, Tỉnh Đồng Nai",
+    "ma_xa": "25225",
+    "ma_tinh": "75",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-11257-canonical",
+    "dau_vao": "Xã Hải Hưng, Thành phố Hải Phòng",
+    "ma_xa": "11257",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-11257-accentless",
+    "dau_vao": "xa hai hung, thanh pho hai phong",
+    "ma_xa": "11257",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-11257-reordered",
+    "dau_vao": "Thành phố Hải Phòng, Xã Hải Hưng",
+    "ma_xa": "11257",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-11257-one_typo",
+    "dau_vao": "Xã Hải Hưn, Thành phố Hải Phòng",
+    "ma_xa": "11257",
+    "ma_tinh": "31",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-32155-canonical",
+    "dau_vao": "Xã Tạ An Khương, Tỉnh Cà Mau",
+    "ma_xa": "32155",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-32155-accentless",
+    "dau_vao": "xa ta an khuong, tinh ca mau",
+    "ma_xa": "32155",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-32155-reordered",
+    "dau_vao": "Tỉnh Cà Mau, Xã Tạ An Khương",
+    "ma_xa": "32155",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-32155-one_typo",
+    "dau_vao": "Xã Tạ An Khươn, Tỉnh Cà Mau",
+    "ma_xa": "32155",
+    "ma_tinh": "96",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-01726-canonical",
+    "dau_vao": "Xã Nguyên Bình, Tỉnh Cao Bằng",
+    "ma_xa": "01726",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-01726-accentless",
+    "dau_vao": "xa nguyen binh, tinh cao bang",
+    "ma_xa": "01726",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-01726-reordered",
+    "dau_vao": "Tỉnh Cao Bằng, Xã Nguyên Bình",
+    "ma_xa": "01726",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-01726-one_typo",
+    "dau_vao": "Xã Nguyê Bình, Tỉnh Cao Bằng",
+    "ma_xa": "01726",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-29698-canonical",
+    "dau_vao": "Xã Trung Ngãi, Tỉnh Vĩnh Long",
+    "ma_xa": "29698",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-29698-accentless",
+    "dau_vao": "xa trung ngai, tinh vinh long",
+    "ma_xa": "29698",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-29698-reordered",
+    "dau_vao": "Tỉnh Vĩnh Long, Xã Trung Ngãi",
+    "ma_xa": "29698",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-29698-one_typo",
+    "dau_vao": "Xã Trun Ngãi, Tỉnh Vĩnh Long",
+    "ma_xa": "29698",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-20467-canonical",
+    "dau_vao": "Xã Đông Giang, Thành phố Đà Nẵng",
+    "ma_xa": "20467",
+    "ma_tinh": "48",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-20467-accentless",
+    "dau_vao": "xa dong giang, thanh pho da nang",
+    "ma_xa": "20467",
+    "ma_tinh": "48",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-20467-reordered",
+    "dau_vao": "Thành phố Đà Nẵng, Xã Đông Giang",
+    "ma_xa": "20467",
+    "ma_tinh": "48",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-20467-one_typo",
+    "dau_vao": "Xã Đông Gian, Thành phố Đà Nẵng",
+    "ma_xa": "20467",
+    "ma_tinh": "48",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-23230-canonical",
+    "dau_vao": "Xã Tân Minh, Tỉnh Lâm Đồng",
+    "ma_xa": "23230",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-23230-accentless",
+    "dau_vao": "xa tan minh, tinh lam dong",
+    "ma_xa": "23230",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-23230-reordered",
+    "dau_vao": "Tỉnh Lâm Đồng, Xã Tân Minh",
+    "ma_xa": "23230",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-23230-one_typo",
+    "dau_vao": "Xã Tân Min, Tỉnh Lâm Đồng",
+    "ma_xa": "23230",
+    "ma_tinh": "68",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-04537-canonical",
+    "dau_vao": "Xã Lương Thịnh, Tỉnh Lào Cai",
+    "ma_xa": "04537",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-04537-accentless",
+    "dau_vao": "xa luong thinh, tinh lao cai",
+    "ma_xa": "04537",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-04537-reordered",
+    "dau_vao": "Tỉnh Lào Cai, Xã Lương Thịnh",
+    "ma_xa": "04537",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-04537-one_typo",
+    "dau_vao": "Xã Lươn Thịnh, Tỉnh Lào Cai",
+    "ma_xa": "04537",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-16819-canonical",
+    "dau_vao": "Xã Bắc Lý, Tỉnh Nghệ An",
+    "ma_xa": "16819",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-16819-accentless",
+    "dau_vao": "xa bac ly, tinh nghe an",
+    "ma_xa": "16819",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-16819-reordered",
+    "dau_vao": "Tỉnh Nghệ An, Xã Bắc Lý",
+    "ma_xa": "16819",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-16819-one_typo",
+    "dau_vao": "Xã Bắcx Lý, Tỉnh Nghệ An",
+    "ma_xa": "16819",
+    "ma_tinh": "40",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03091-canonical",
+    "dau_vao": "Xã Chiềng Ken, Tỉnh Lào Cai",
+    "ma_xa": "03091",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03091-accentless",
+    "dau_vao": "xa chieng ken, tinh lao cai",
+    "ma_xa": "03091",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03091-reordered",
+    "dau_vao": "Tỉnh Lào Cai, Xã Chiềng Ken",
+    "ma_xa": "03091",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03091-one_typo",
+    "dau_vao": "Xã Chiền Ken, Tỉnh Lào Cai",
+    "ma_xa": "03091",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-23701-canonical",
+    "dau_vao": "Xã Kon Gang, Tỉnh Gia Lai",
+    "ma_xa": "23701",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-23701-accentless",
+    "dau_vao": "xa kon gang, tinh gia lai",
+    "ma_xa": "23701",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-23701-reordered",
+    "dau_vao": "Tỉnh Gia Lai, Xã Kon Gang",
+    "ma_xa": "23701",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-23701-one_typo",
+    "dau_vao": "Xã Kon Gan, Tỉnh Gia Lai",
+    "ma_xa": "23701",
+    "ma_tinh": "52",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-12763-canonical",
+    "dau_vao": "Xã Nam Tiên Hưng, Tỉnh Hưng Yên",
+    "ma_xa": "12763",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-12763-accentless",
+    "dau_vao": "xa nam tien hung, tinh hung yen",
+    "ma_xa": "12763",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-12763-reordered",
+    "dau_vao": "Tỉnh Hưng Yên, Xã Nam Tiên Hưng",
+    "ma_xa": "12763",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-12763-one_typo",
+    "dau_vao": "Xã Nam Tiê Hưng, Tỉnh Hưng Yên",
+    "ma_xa": "12763",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-25966-canonical",
+    "dau_vao": "Phường Lái Thiêu, Thành phố Hồ Chí Minh",
+    "ma_xa": "25966",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-25966-accentless",
+    "dau_vao": "phuong lai thieu, thanh pho ho chi minh",
+    "ma_xa": "25966",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-25966-reordered",
+    "dau_vao": "Thành phố Hồ Chí Minh, Phường Lái Thiêu",
+    "ma_xa": "25966",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-25966-one_typo",
+    "dau_vao": "Phường Lái Thiê, Thành phố Hồ Chí Minh",
+    "ma_xa": "25966",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-25663-canonical",
+    "dau_vao": "Xã Phước Thạnh, Tỉnh Tây Ninh",
+    "ma_xa": "25663",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-25663-accentless",
+    "dau_vao": "xa phuoc thanh, tinh tay ninh",
+    "ma_xa": "25663",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-25663-reordered",
+    "dau_vao": "Tỉnh Tây Ninh, Xã Phước Thạnh",
+    "ma_xa": "25663",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-25663-one_typo",
+    "dau_vao": "Xã Phướ Thạnh, Tỉnh Tây Ninh",
+    "ma_xa": "25663",
+    "ma_tinh": "80",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-16000-canonical",
+    "dau_vao": "Xã Hoằng Thanh, Tỉnh Thanh Hóa",
+    "ma_xa": "16000",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-16000-accentless",
+    "dau_vao": "xa hoang thanh, tinh thanh hoa",
+    "ma_xa": "16000",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-16000-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Xã Hoằng Thanh",
+    "ma_xa": "16000",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-16000-one_typo",
+    "dau_vao": "Xã Hoằn Thanh, Tỉnh Thanh Hóa",
+    "ma_xa": "16000",
+    "ma_tinh": "38",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-24444-canonical",
+    "dau_vao": "Xã Krông Á, Tỉnh Đắk Lắk",
+    "ma_xa": "24444",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-24444-accentless",
+    "dau_vao": "xa krong a, tinh dak lak",
+    "ma_xa": "24444",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-24444-reordered",
+    "dau_vao": "Tỉnh Đắk Lắk, Xã Krông Á",
+    "ma_xa": "24444",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-24444-one_typo",
+    "dau_vao": "Xã Krôn Á, Tỉnh Đắk Lắk",
+    "ma_xa": "24444",
+    "ma_tinh": "66",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-07573-canonical",
+    "dau_vao": "Xã Biển Động, Tỉnh Bắc Ninh",
+    "ma_xa": "07573",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-07573-accentless",
+    "dau_vao": "xa bien dong, tinh bac ninh",
+    "ma_xa": "07573",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-07573-reordered",
+    "dau_vao": "Tỉnh Bắc Ninh, Xã Biển Động",
+    "ma_xa": "07573",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-07573-one_typo",
+    "dau_vao": "Xã Biể Động, Tỉnh Bắc Ninh",
+    "ma_xa": "07573",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-28783-canonical",
+    "dau_vao": "Phường Sơn Đông, Tỉnh Vĩnh Long",
+    "ma_xa": "28783",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-28783-accentless",
+    "dau_vao": "phuong son dong, tinh vinh long",
+    "ma_xa": "28783",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-28783-reordered",
+    "dau_vao": "Tỉnh Vĩnh Long, Phường Sơn Đông",
+    "ma_xa": "28783",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-28783-one_typo",
+    "dau_vao": "Phường Sơn Đôn, Tỉnh Vĩnh Long",
+    "ma_xa": "28783",
+    "ma_tinh": "86",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-02701-canonical",
+    "dau_vao": "Xã Y Tý, Tỉnh Lào Cai",
+    "ma_xa": "02701",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-02701-accentless",
+    "dau_vao": "xa y ty, tinh lao cai",
+    "ma_xa": "02701",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-02701-reordered",
+    "dau_vao": "Tỉnh Lào Cai, Xã Y Tý",
+    "ma_xa": "02701",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-02701-one_typo",
+    "dau_vao": "Xã Y Týx, Tỉnh Lào Cai",
+    "ma_xa": "02701",
+    "ma_tinh": "15",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-01795-canonical",
+    "dau_vao": "Xã Minh Khai, Tỉnh Cao Bằng",
+    "ma_xa": "01795",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-01795-accentless",
+    "dau_vao": "xa minh khai, tinh cao bang",
+    "ma_xa": "01795",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-01795-reordered",
+    "dau_vao": "Tỉnh Cao Bằng, Xã Minh Khai",
+    "ma_xa": "01795",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-01795-one_typo",
+    "dau_vao": "Xã Min Khai, Tỉnh Cao Bằng",
+    "ma_xa": "01795",
+    "ma_tinh": "04",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-27097-canonical",
+    "dau_vao": "Phường Bình Trưng, Thành phố Hồ Chí Minh",
+    "ma_xa": "27097",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-27097-accentless",
+    "dau_vao": "phuong binh trung, thanh pho ho chi minh",
+    "ma_xa": "27097",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-27097-reordered",
+    "dau_vao": "Thành phố Hồ Chí Minh, Phường Bình Trưng",
+    "ma_xa": "27097",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-27097-one_typo",
+    "dau_vao": "Phường Bình Trưn, Thành phố Hồ Chí Minh",
+    "ma_xa": "27097",
+    "ma_tinh": "79",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-09295-canonical",
+    "dau_vao": "Phường Bồng Lai, Tỉnh Bắc Ninh",
+    "ma_xa": "09295",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-09295-accentless",
+    "dau_vao": "phuong bong lai, tinh bac ninh",
+    "ma_xa": "09295",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-09295-reordered",
+    "dau_vao": "Tỉnh Bắc Ninh, Phường Bồng Lai",
+    "ma_xa": "09295",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-09295-one_typo",
+    "dau_vao": "Phường Bồn Lai, Tỉnh Bắc Ninh",
+    "ma_xa": "09295",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-31207-canonical",
+    "dau_vao": "Phường Thốt Nốt, Thành phố Cần Thơ",
+    "ma_xa": "31207",
+    "ma_tinh": "92",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-31207-accentless",
+    "dau_vao": "phuong thot not, thanh pho can tho",
+    "ma_xa": "31207",
+    "ma_tinh": "92",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-31207-reordered",
+    "dau_vao": "Thành phố Cần Thơ, Phường Thốt Nốt",
+    "ma_xa": "31207",
+    "ma_tinh": "92",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-31207-one_typo",
+    "dau_vao": "Phường Thố Nốt, Thành phố Cần Thơ",
+    "ma_xa": "31207",
+    "ma_tinh": "92",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-12583-canonical",
+    "dau_vao": "Xã Tân Tiến, Tỉnh Hưng Yên",
+    "ma_xa": "12583",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-12583-accentless",
+    "dau_vao": "xa tan tien, tinh hung yen",
+    "ma_xa": "12583",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-12583-reordered",
+    "dau_vao": "Tỉnh Hưng Yên, Xã Tân Tiến",
+    "ma_xa": "12583",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-12583-one_typo",
+    "dau_vao": "Xã Tân Tiế, Tỉnh Hưng Yên",
+    "ma_xa": "12583",
+    "ma_tinh": "33",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-03127-canonical",
+    "dau_vao": "Phường Điện Biên Phủ, Tỉnh Điện Biên",
+    "ma_xa": "03127",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-03127-accentless",
+    "dau_vao": "phuong dien bien phu, tinh dien bien",
+    "ma_xa": "03127",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-03127-reordered",
+    "dau_vao": "Tỉnh Điện Biên, Phường Điện Biên Phủ",
+    "ma_xa": "03127",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-03127-one_typo",
+    "dau_vao": "Phường Điệ Biên Phủ, Tỉnh Điện Biên",
+    "ma_xa": "03127",
+    "ma_tinh": "11",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "moi-09466-canonical",
+    "dau_vao": "Xã Cao Đức, Tỉnh Bắc Ninh",
+    "ma_xa": "09466",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "moi-09466-accentless",
+    "dau_vao": "xa cao duc, tinh bac ninh",
+    "ma_xa": "09466",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "moi-09466-reordered",
+    "dau_vao": "Tỉnh Bắc Ninh, Xã Cao Đức",
+    "ma_xa": "09466",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "moi-09466-one_typo",
+    "dau_vao": "Xã Caox Đức, Tỉnh Bắc Ninh",
+    "ma_xa": "09466",
+    "ma_tinh": "24",
+    "source_tree": "moi",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-05137-canonical",
+    "dau_vao": "Xã Phú Vinh, Huyện Tân Lạc, Tỉnh Hòa Bình",
+    "ma_xa": "05134",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-05137-accentless",
+    "dau_vao": "xa phu vinh, huyen tan lac, tinh hoa binh",
+    "ma_xa": "05134",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-05137-reordered",
+    "dau_vao": "Tỉnh Hòa Bình, Huyện Tân Lạc, Xã Phú Vinh",
+    "ma_xa": "05134",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-05137-one_typo",
+    "dau_vao": "Xã Phú Vin, Huyện Tân Lạc, Tỉnh Hòa Bình",
+    "ma_xa": "05134",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-21082-canonical",
+    "dau_vao": "Xã Bình Trung, Huyện Bình Sơn, Tỉnh Quảng Ngãi",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-21082-accentless",
+    "dau_vao": "xa binh trung, huyen binh son, tinh quang ngai",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-21082-reordered",
+    "dau_vao": "Tỉnh Quảng Ngãi, Huyện Bình Sơn, Xã Bình Trung",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-21082-one_typo",
+    "dau_vao": "Xã Bình Trun, Huyện Bình Sơn, Tỉnh Quảng Ngãi",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-15418-canonical",
+    "dau_vao": "Xã Yên Trung, Huyện Yên Định, Tỉnh Thanh Hóa",
+    "ma_xa": "15421",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-15418-accentless",
+    "dau_vao": "xa yen trung, huyen yen dinh, tinh thanh hoa",
+    "ma_xa": "15421",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-15418-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Huyện Yên Định, Xã Yên Trung",
+    "ma_xa": "15421",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-15418-one_typo",
+    "dau_vao": "Xã Yên Trun, Huyện Yên Định, Tỉnh Thanh Hóa",
+    "ma_xa": "15421",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-24550-canonical",
+    "dau_vao": "Xã Ea Bhốk, Huyện Cư Kuin, Tỉnh Đắk Lắk",
+    "ma_xa": "",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": true
+  },
+  {
+    "id": "cu-24550-accentless",
+    "dau_vao": "xa ea bhok, huyen cu kuin, tinh dak lak",
+    "ma_xa": "",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": true
+  },
+  {
+    "id": "cu-24550-reordered",
+    "dau_vao": "Tỉnh Đắk Lắk, Huyện Cư Kuin, Xã Ea Bhốk",
+    "ma_xa": "",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": true
+  },
+  {
+    "id": "cu-24550-one_typo",
+    "dau_vao": "Xã Ea Bhố, Huyện Cư Kuin, Tỉnh Đắk Lắk",
+    "ma_xa": "",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": true
+  },
+  {
+    "id": "cu-20356-canonical",
+    "dau_vao": "Phường An Phú, Thành phố Tam Kỳ, Tỉnh Quảng Nam",
+    "ma_xa": "20356",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-20356-accentless",
+    "dau_vao": "phuong an phu, thanh pho tam ky, tinh quang nam",
+    "ma_xa": "20356",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-20356-reordered",
+    "dau_vao": "Tỉnh Quảng Nam, Thành phố Tam Kỳ, Phường An Phú",
+    "ma_xa": "20356",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-20356-one_typo",
+    "dau_vao": "Phường An Phúx, Thành phố Tam Kỳ, Tỉnh Quảng Nam",
+    "ma_xa": "20356",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-08710-canonical",
+    "dau_vao": "Phường Liên Bảo, Thành phố Vĩnh Yên, Tỉnh Vĩnh Phúc",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-08710-accentless",
+    "dau_vao": "phuong lien bao, thanh pho vinh yen, tinh vinh phuc",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-08710-reordered",
+    "dau_vao": "Tỉnh Vĩnh Phúc, Thành phố Vĩnh Yên, Phường Liên Bảo",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-08710-one_typo",
+    "dau_vao": "Phường Liê Bảo, Thành phố Vĩnh Yên, Tỉnh Vĩnh Phúc",
+    "ma_xa": "08716",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-20599-canonical",
+    "dau_vao": "Thị trấn Nam Phước, Huyện Duy Xuyên, Tỉnh Quảng Nam",
+    "ma_xa": "20599",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-20599-accentless",
+    "dau_vao": "thi tran nam phuoc, huyen duy xuyen, tinh quang nam",
+    "ma_xa": "20599",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-20599-reordered",
+    "dau_vao": "Tỉnh Quảng Nam, Huyện Duy Xuyên, Thị trấn Nam Phước",
+    "ma_xa": "20599",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-20599-one_typo",
+    "dau_vao": "Thị trấn Nam Phướ, Huyện Duy Xuyên, Tỉnh Quảng Nam",
+    "ma_xa": "20599",
+    "ma_tinh": "48",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-19846-canonical",
+    "dau_vao": "Phường Phong Hòa, Thị xã Phong Điền, Tỉnh Huế",
+    "ma_xa": "19831",
+    "ma_tinh": "46",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-19846-accentless",
+    "dau_vao": "phuong phong hoa, thi xa phong dien, tinh hue",
+    "ma_xa": "19831",
+    "ma_tinh": "46",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-19846-reordered",
+    "dau_vao": "Tỉnh Huế, Thị xã Phong Điền, Phường Phong Hòa",
+    "ma_xa": "19831",
+    "ma_tinh": "46",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-19846-one_typo",
+    "dau_vao": "Phường Phon Hòa, Thị xã Phong Điền, Tỉnh Huế",
+    "ma_xa": "19831",
+    "ma_tinh": "46",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-11404-canonical",
+    "dau_vao": "Phường Dư Hàng Kênh, Quận Lê Chân, Thành phố Hải Phòng",
+    "ma_xa": "11383",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-11404-accentless",
+    "dau_vao": "phuong du hang kenh, quan le chan, thanh pho hai phong",
+    "ma_xa": "11383",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-11404-reordered",
+    "dau_vao": "Thành phố Hải Phòng, Quận Lê Chân, Phường Dư Hàng Kênh",
+    "ma_xa": "11383",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-11404-one_typo",
+    "dau_vao": "Phường Dư Hàn Kênh, Quận Lê Chân, Thành phố Hải Phòng",
+    "ma_xa": "11383",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-14803-canonical",
+    "dau_vao": "Phường Quảng Thắng, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",
+    "ma_xa": "16417",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-14803-accentless",
+    "dau_vao": "phuong quang thang, thanh pho thanh hoa, tinh thanh hoa",
+    "ma_xa": "16417",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-14803-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Thành phố Thanh Hóa, Phường Quảng Thắng",
+    "ma_xa": "16417",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-14803-one_typo",
+    "dau_vao": "Phường Quản Thắng, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",
+    "ma_xa": "16417",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-03553-canonical",
+    "dau_vao": "Xã Mồ Sì San, Huyện Phong Thổ, Tỉnh Lai Châu",
+    "ma_xa": "03562",
+    "ma_tinh": "12",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-03553-accentless",
+    "dau_vao": "xa mo si san, huyen phong tho, tinh lai chau",
+    "ma_xa": "03562",
+    "ma_tinh": "12",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-03553-reordered",
+    "dau_vao": "Tỉnh Lai Châu, Huyện Phong Thổ, Xã Mồ Sì San",
+    "ma_xa": "03562",
+    "ma_tinh": "12",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-03553-one_typo",
+    "dau_vao": "Xã Mồ Sì Sanx, Huyện Phong Thổ, Tỉnh Lai Châu",
+    "ma_xa": "03562",
+    "ma_tinh": "12",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-32124-canonical",
+    "dau_vao": "Xã Phong Điền, Huyện Trần Văn Thời, Tỉnh Cà Mau",
+    "ma_xa": "",
+    "ma_tinh": "96",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": true
+  },
+  {
+    "id": "cu-32124-accentless",
+    "dau_vao": "xa phong dien, huyen tran van thoi, tinh ca mau",
+    "ma_xa": "",
+    "ma_tinh": "96",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": true
+  },
+  {
+    "id": "cu-32124-reordered",
+    "dau_vao": "Tỉnh Cà Mau, Huyện Trần Văn Thời, Xã Phong Điền",
+    "ma_xa": "",
+    "ma_tinh": "96",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": true
+  },
+  {
+    "id": "cu-32124-one_typo",
+    "dau_vao": "Xã Phon Điền, Huyện Trần Văn Thời, Tỉnh Cà Mau",
+    "ma_xa": "",
+    "ma_tinh": "96",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": true
+  },
+  {
+    "id": "cu-09169-canonical",
+    "dau_vao": "Phường Thị Cầu, Thành phố Bắc Ninh, Tỉnh Bắc Ninh",
+    "ma_xa": "09169",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-09169-accentless",
+    "dau_vao": "phuong thi cau, thanh pho bac ninh, tinh bac ninh",
+    "ma_xa": "09169",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-09169-reordered",
+    "dau_vao": "Tỉnh Bắc Ninh, Thành phố Bắc Ninh, Phường Thị Cầu",
+    "ma_xa": "09169",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-09169-one_typo",
+    "dau_vao": "Phường Thịx Cầu, Thành phố Bắc Ninh, Tỉnh Bắc Ninh",
+    "ma_xa": "09169",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-28570-canonical",
+    "dau_vao": "Xã Thạnh Phú, Huyện Châu Thành, Tỉnh Tiền Giang",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-28570-accentless",
+    "dau_vao": "xa thanh phu, huyen chau thanh, tinh tien giang",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-28570-reordered",
+    "dau_vao": "Tỉnh Tiền Giang, Huyện Châu Thành, Xã Thạnh Phú",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-28570-one_typo",
+    "dau_vao": "Xã Thạn Phú, Huyện Châu Thành, Tỉnh Tiền Giang",
+    "ma_xa": "28537",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-13468-canonical",
+    "dau_vao": "Xã Thanh Thủy, Huyện Thanh Liêm, Tỉnh Hà Nam",
+    "ma_xa": "13474",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-13468-accentless",
+    "dau_vao": "xa thanh thuy, huyen thanh liem, tinh ha nam",
+    "ma_xa": "13474",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-13468-reordered",
+    "dau_vao": "Tỉnh Hà Nam, Huyện Thanh Liêm, Xã Thanh Thủy",
+    "ma_xa": "13474",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-13468-one_typo",
+    "dau_vao": "Xã Than Thủy, Huyện Thanh Liêm, Tỉnh Hà Nam",
+    "ma_xa": "13474",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-08749-canonical",
+    "dau_vao": "Xã Ngọc Thanh, Thành phố Phúc Yên, Tỉnh Vĩnh Phúc",
+    "ma_xa": "08746",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-08749-accentless",
+    "dau_vao": "xa ngoc thanh, thanh pho phuc yen, tinh vinh phuc",
+    "ma_xa": "08746",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-08749-reordered",
+    "dau_vao": "Tỉnh Vĩnh Phúc, Thành phố Phúc Yên, Xã Ngọc Thanh",
+    "ma_xa": "08746",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-08749-one_typo",
+    "dau_vao": "Xã Ngọc Than, Thành phố Phúc Yên, Tỉnh Vĩnh Phúc",
+    "ma_xa": "08746",
+    "ma_tinh": "25",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-24913-canonical",
+    "dau_vao": "Xã Hoài Đức, Huyện Lâm Hà, Tỉnh Lâm Đồng",
+    "ma_xa": "24916",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-24913-accentless",
+    "dau_vao": "xa hoai duc, huyen lam ha, tinh lam dong",
+    "ma_xa": "24916",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-24913-reordered",
+    "dau_vao": "Tỉnh Lâm Đồng, Huyện Lâm Hà, Xã Hoài Đức",
+    "ma_xa": "24916",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-24913-one_typo",
+    "dau_vao": "Xã Hoà Đức, Huyện Lâm Hà, Tỉnh Lâm Đồng",
+    "ma_xa": "24916",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-21046-canonical",
+    "dau_vao": "Xã Bình Thạnh, Huyện Bình Sơn, Tỉnh Quảng Ngãi",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-21046-accentless",
+    "dau_vao": "xa binh thanh, huyen binh son, tinh quang ngai",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-21046-reordered",
+    "dau_vao": "Tỉnh Quảng Ngãi, Huyện Bình Sơn, Xã Bình Thạnh",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-21046-one_typo",
+    "dau_vao": "Xã Bình Thạn, Huyện Bình Sơn, Tỉnh Quảng Ngãi",
+    "ma_xa": "21040",
+    "ma_tinh": "51",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-14956-canonical",
+    "dau_vao": "Xã Lũng Niêm, Huyện Bá Thước, Tỉnh Thanh Hóa",
+    "ma_xa": "14956",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-14956-accentless",
+    "dau_vao": "xa lung niem, huyen ba thuoc, tinh thanh hoa",
+    "ma_xa": "14956",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-14956-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Huyện Bá Thước, Xã Lũng Niêm",
+    "ma_xa": "14956",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-14956-one_typo",
+    "dau_vao": "Xã Lũn Niêm, Huyện Bá Thước, Tỉnh Thanh Hóa",
+    "ma_xa": "14956",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-29731-canonical",
+    "dau_vao": "Xã Hòa Thạnh, Huyện Tam Bình, Tỉnh Vĩnh Long",
+    "ma_xa": "29734",
+    "ma_tinh": "86",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-29731-accentless",
+    "dau_vao": "xa hoa thanh, huyen tam binh, tinh vinh long",
+    "ma_xa": "29734",
+    "ma_tinh": "86",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-29731-reordered",
+    "dau_vao": "Tỉnh Vĩnh Long, Huyện Tam Bình, Xã Hòa Thạnh",
+    "ma_xa": "29734",
+    "ma_tinh": "86",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-29731-one_typo",
+    "dau_vao": "Xã Hòa Thạn, Huyện Tam Bình, Tỉnh Vĩnh Long",
+    "ma_xa": "29734",
+    "ma_tinh": "86",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-12007-canonical",
+    "dau_vao": "Xã Minh Hải, Huyện Văn Lâm, Tỉnh Hưng Yên",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-12007-accentless",
+    "dau_vao": "xa minh hai, huyen van lam, tinh hung yen",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-12007-reordered",
+    "dau_vao": "Tỉnh Hưng Yên, Huyện Văn Lâm, Xã Minh Hải",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-12007-one_typo",
+    "dau_vao": "Xã Min Hải, Huyện Văn Lâm, Tỉnh Hưng Yên",
+    "ma_xa": "11992",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-18040-canonical",
+    "dau_vao": "Xã Phúc Lợi, Huyện Hưng Nguyên, Tỉnh Nghệ An",
+    "ma_xa": "18040",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-18040-accentless",
+    "dau_vao": "xa phuc loi, huyen hung nguyen, tinh nghe an",
+    "ma_xa": "18040",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-18040-reordered",
+    "dau_vao": "Tỉnh Nghệ An, Huyện Hưng Nguyên, Xã Phúc Lợi",
+    "ma_xa": "18040",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-18040-one_typo",
+    "dau_vao": "Xã Phú Lợi, Huyện Hưng Nguyên, Tỉnh Nghệ An",
+    "ma_xa": "18040",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-02953-canonical",
+    "dau_vao": "Xã Nghĩa Đô, Huyện Bảo Yên, Tỉnh Lào Cai",
+    "ma_xa": "02953",
+    "ma_tinh": "15",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-02953-accentless",
+    "dau_vao": "xa nghia do, huyen bao yen, tinh lao cai",
+    "ma_xa": "02953",
+    "ma_tinh": "15",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-02953-reordered",
+    "dau_vao": "Tỉnh Lào Cai, Huyện Bảo Yên, Xã Nghĩa Đô",
+    "ma_xa": "02953",
+    "ma_tinh": "15",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-02953-one_typo",
+    "dau_vao": "Xã Nghĩ Đô, Huyện Bảo Yên, Tỉnh Lào Cai",
+    "ma_xa": "02953",
+    "ma_tinh": "15",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-12529-canonical",
+    "dau_vao": "Xã Quỳnh Hội, Huyện Quỳnh Phụ, Tỉnh Thái Bình",
+    "ma_xa": "12472",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-12529-accentless",
+    "dau_vao": "xa quynh hoi, huyen quynh phu, tinh thai binh",
+    "ma_xa": "12472",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-12529-reordered",
+    "dau_vao": "Tỉnh Thái Bình, Huyện Quỳnh Phụ, Xã Quỳnh Hội",
+    "ma_xa": "12472",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-12529-one_typo",
+    "dau_vao": "Xã Quỳn Hội, Huyện Quỳnh Phụ, Tỉnh Thái Bình",
+    "ma_xa": "12472",
+    "ma_tinh": "33",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-01654-canonical",
+    "dau_vao": "Thị trấn Nước Hai, Huyện Hòa An, Tỉnh Cao Bằng",
+    "ma_xa": "01654",
+    "ma_tinh": "04",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-01654-accentless",
+    "dau_vao": "thi tran nuoc hai, huyen hoa an, tinh cao bang",
+    "ma_xa": "01654",
+    "ma_tinh": "04",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-01654-reordered",
+    "dau_vao": "Tỉnh Cao Bằng, Huyện Hòa An, Thị trấn Nước Hai",
+    "ma_xa": "01654",
+    "ma_tinh": "04",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-01654-one_typo",
+    "dau_vao": "Thị trấ Nước Hai, Huyện Hòa An, Tỉnh Cao Bằng",
+    "ma_xa": "01654",
+    "ma_tinh": "04",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-17524-canonical",
+    "dau_vao": "Xã Hậu Thành, Huyện Yên Thành, Tỉnh Nghệ An",
+    "ma_xa": "17524",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-17524-accentless",
+    "dau_vao": "xa hau thanh, huyen yen thanh, tinh nghe an",
+    "ma_xa": "17524",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-17524-reordered",
+    "dau_vao": "Tỉnh Nghệ An, Huyện Yên Thành, Xã Hậu Thành",
+    "ma_xa": "17524",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-17524-one_typo",
+    "dau_vao": "Xã Hậu Thàn, Huyện Yên Thành, Tỉnh Nghệ An",
+    "ma_xa": "17524",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-22144-canonical",
+    "dau_vao": "Xã An Lĩnh, Huyện Tuy An, Tỉnh Phú Yên",
+    "ma_xa": "22132",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-22144-accentless",
+    "dau_vao": "xa an linh, huyen tuy an, tinh phu yen",
+    "ma_xa": "22132",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-22144-reordered",
+    "dau_vao": "Tỉnh Phú Yên, Huyện Tuy An, Xã An Lĩnh",
+    "ma_xa": "22132",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-22144-one_typo",
+    "dau_vao": "Xã An Lĩn, Huyện Tuy An, Tỉnh Phú Yên",
+    "ma_xa": "22132",
+    "ma_tinh": "66",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-14839-canonical",
+    "dau_vao": "Phường Quảng Cư, Thành phố Sầm Sơn, Tỉnh Thanh Hóa",
+    "ma_xa": "16531",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-14839-accentless",
+    "dau_vao": "phuong quang cu, thanh pho sam son, tinh thanh hoa",
+    "ma_xa": "16531",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-14839-reordered",
+    "dau_vao": "Tỉnh Thanh Hóa, Thành phố Sầm Sơn, Phường Quảng Cư",
+    "ma_xa": "16531",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-14839-one_typo",
+    "dau_vao": "Phường Quản Cư, Thành phố Sầm Sơn, Tỉnh Thanh Hóa",
+    "ma_xa": "16531",
+    "ma_tinh": "38",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-03361-canonical",
+    "dau_vao": "Xã Na Ư, Huyện Điện Biên, Tỉnh Điện Biên",
+    "ma_xa": "03356",
+    "ma_tinh": "11",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-03361-accentless",
+    "dau_vao": "xa na u, huyen dien bien, tinh dien bien",
+    "ma_xa": "03356",
+    "ma_tinh": "11",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-03361-reordered",
+    "dau_vao": "Tỉnh Điện Biên, Huyện Điện Biên, Xã Na Ư",
+    "ma_xa": "03356",
+    "ma_tinh": "11",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-03361-one_typo",
+    "dau_vao": "Xã Nax Ư, Huyện Điện Biên, Tỉnh Điện Biên",
+    "ma_xa": "03356",
+    "ma_tinh": "11",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-11485-canonical",
+    "dau_vao": "Xã Liên Xuân, Thành phố Thủy Nguyên, Thành phố Hải Phòng",
+    "ma_xa": "",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": true
+  },
+  {
+    "id": "cu-11485-accentless",
+    "dau_vao": "xa lien xuan, thanh pho thuy nguyen, thanh pho hai phong",
+    "ma_xa": "",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": true
+  },
+  {
+    "id": "cu-11485-reordered",
+    "dau_vao": "Thành phố Hải Phòng, Thành phố Thủy Nguyên, Xã Liên Xuân",
+    "ma_xa": "",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": true
+  },
+  {
+    "id": "cu-11485-one_typo",
+    "dau_vao": "Xã Liê Xuân, Thành phố Thủy Nguyên, Thành phố Hải Phòng",
+    "ma_xa": "",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": true
+  },
+  {
+    "id": "cu-30232-canonical",
+    "dau_vao": "Xã Vĩnh Thới, Huyện Lai Vung, Tỉnh Đồng Tháp",
+    "ma_xa": "30235",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-30232-accentless",
+    "dau_vao": "xa vinh thoi, huyen lai vung, tinh dong thap",
+    "ma_xa": "30235",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-30232-reordered",
+    "dau_vao": "Tỉnh Đồng Tháp, Huyện Lai Vung, Xã Vĩnh Thới",
+    "ma_xa": "30235",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-30232-one_typo",
+    "dau_vao": "Xã Vĩn Thới, Huyện Lai Vung, Tỉnh Đồng Tháp",
+    "ma_xa": "30235",
+    "ma_tinh": "82",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-17488-canonical",
+    "dau_vao": "Xã Diễn Thọ, Huyện Diễn Châu, Tỉnh Nghệ An",
+    "ma_xa": "17488",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-17488-accentless",
+    "dau_vao": "xa dien tho, huyen dien chau, tinh nghe an",
+    "ma_xa": "17488",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-17488-reordered",
+    "dau_vao": "Tỉnh Nghệ An, Huyện Diễn Châu, Xã Diễn Thọ",
+    "ma_xa": "17488",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-17488-one_typo",
+    "dau_vao": "Xã Diễ Thọ, Huyện Diễn Châu, Tỉnh Nghệ An",
+    "ma_xa": "17488",
+    "ma_tinh": "40",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-11602-canonical",
+    "dau_vao": "Phường An Hồng, Quận Hồng Bàng, Thành phố Hải Phòng",
+    "ma_xa": "11602",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-11602-accentless",
+    "dau_vao": "phuong an hong, quan hong bang, thanh pho hai phong",
+    "ma_xa": "11602",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-11602-reordered",
+    "dau_vao": "Thành phố Hải Phòng, Quận Hồng Bàng, Phường An Hồng",
+    "ma_xa": "11602",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-11602-one_typo",
+    "dau_vao": "Phường An Hồn, Quận Hồng Bàng, Thành phố Hải Phòng",
+    "ma_xa": "11602",
+    "ma_tinh": "31",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-26698-canonical",
+    "dau_vao": "Xã Láng Dài, Huyện Long Đất, Tỉnh Bà Rịa - Vũng Tàu",
+    "ma_xa": "26680",
+    "ma_tinh": "79",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-26698-accentless",
+    "dau_vao": "xa lang dai, huyen long dat, tinh ba ria - vung tau",
+    "ma_xa": "26680",
+    "ma_tinh": "79",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-26698-reordered",
+    "dau_vao": "Tỉnh Bà Rịa - Vũng Tàu, Huyện Long Đất, Xã Láng Dài",
+    "ma_xa": "26680",
+    "ma_tinh": "79",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-26698-one_typo",
+    "dau_vao": "Xã Lán Dài, Huyện Long Đất, Tỉnh Bà Rịa - Vũng Tàu",
+    "ma_xa": "26680",
+    "ma_tinh": "79",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-21874-canonical",
+    "dau_vao": "Xã Cát Thành, Huyện Phù Cát, Tỉnh Bình Định",
+    "ma_xa": "21880",
+    "ma_tinh": "52",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-21874-accentless",
+    "dau_vao": "xa cat thanh, huyen phu cat, tinh binh dinh",
+    "ma_xa": "21880",
+    "ma_tinh": "52",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-21874-reordered",
+    "dau_vao": "Tỉnh Bình Định, Huyện Phù Cát, Xã Cát Thành",
+    "ma_xa": "21880",
+    "ma_tinh": "52",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-21874-one_typo",
+    "dau_vao": "Xã Cát Thàn, Huyện Phù Cát, Tỉnh Bình Định",
+    "ma_xa": "21880",
+    "ma_tinh": "52",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-24760-canonical",
+    "dau_vao": "Xã Đắk Sin, Huyện Đắk R'Lấp, Tỉnh Đắk Nông",
+    "ma_xa": "24760",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-24760-accentless",
+    "dau_vao": "xa dak sin, huyen dak r'lap, tinh dak nong",
+    "ma_xa": "24760",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-24760-reordered",
+    "dau_vao": "Tỉnh Đắk Nông, Huyện Đắk R'Lấp, Xã Đắk Sin",
+    "ma_xa": "24760",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-24760-one_typo",
+    "dau_vao": "Xã Đắkx Sin, Huyện Đắk R'Lấp, Tỉnh Đắk Nông",
+    "ma_xa": "24760",
+    "ma_tinh": "68",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-07483-canonical",
+    "dau_vao": "Xã Cương Sơn, Huyện Lục Nam, Tỉnh Bắc Giang",
+    "ma_xa": "07444",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-07483-accentless",
+    "dau_vao": "xa cuong son, huyen luc nam, tinh bac giang",
+    "ma_xa": "07444",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-07483-reordered",
+    "dau_vao": "Tỉnh Bắc Giang, Huyện Lục Nam, Xã Cương Sơn",
+    "ma_xa": "07444",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-07483-one_typo",
+    "dau_vao": "Xã Cươn Sơn, Huyện Lục Nam, Tỉnh Bắc Giang",
+    "ma_xa": "07444",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-14680-canonical",
+    "dau_vao": "Xã Văn Hải, Huyện Kim Sơn, Tỉnh Ninh Bình",
+    "ma_xa": "14677",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-14680-accentless",
+    "dau_vao": "xa van hai, huyen kim son, tinh ninh binh",
+    "ma_xa": "14677",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-14680-reordered",
+    "dau_vao": "Tỉnh Ninh Bình, Huyện Kim Sơn, Xã Văn Hải",
+    "ma_xa": "14677",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-14680-one_typo",
+    "dau_vao": "Xã Vănx Hải, Huyện Kim Sơn, Tỉnh Ninh Bình",
+    "ma_xa": "14677",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-07288-canonical",
+    "dau_vao": "Thị trấn Phồn Xương, Huyện Yên Thế, Tỉnh Bắc Giang",
+    "ma_xa": "07288",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-07288-accentless",
+    "dau_vao": "thi tran phon xuong, huyen yen the, tinh bac giang",
+    "ma_xa": "07288",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-07288-reordered",
+    "dau_vao": "Tỉnh Bắc Giang, Huyện Yên Thế, Thị trấn Phồn Xương",
+    "ma_xa": "07288",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-07288-one_typo",
+    "dau_vao": "Thị trấn Phồn Xươn, Huyện Yên Thế, Tỉnh Bắc Giang",
+    "ma_xa": "07288",
+    "ma_tinh": "24",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  },
+  {
+    "id": "cu-13573-canonical",
+    "dau_vao": "Xã Chính Lý, Huyện Lý Nhân, Tỉnh Hà Nam",
+    "ma_xa": "13573",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "canonical",
+    "split": false
+  },
+  {
+    "id": "cu-13573-accentless",
+    "dau_vao": "xa chinh ly, huyen ly nhan, tinh ha nam",
+    "ma_xa": "13573",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "accentless",
+    "split": false
+  },
+  {
+    "id": "cu-13573-reordered",
+    "dau_vao": "Tỉnh Hà Nam, Huyện Lý Nhân, Xã Chính Lý",
+    "ma_xa": "13573",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "reordered",
+    "split": false
+  },
+  {
+    "id": "cu-13573-one_typo",
+    "dau_vao": "Xã Chín Lý, Huyện Lý Nhân, Tỉnh Hà Nam",
+    "ma_xa": "13573",
+    "ma_tinh": "37",
+    "source_tree": "cu",
+    "variant": "one_typo",
+    "split": false
+  }
+]

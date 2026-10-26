@@ -12,3 +12,11 @@ data/test/goc/*.pbf
 data/test/goc/*.part
 data/test/agy/logs/
 data/test/goc/osm_public_candidates.jsonl
+.local-review/
+*.local.log
+results/predictions/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

@@ -1,0 +1,223 @@
+{
+  "dataset": "synthetic_from_catalogue_only",
+  "seed": 42,
+  "rows": 480,
+  "claim_limit": "Không phải độ chính xác trên 400 địa chỉ thực; không thay thế duyệt nhãn thủ công.",
+  "network_blocked": true,
+  "startup_seconds_all_adapters": 29.622671100019943,
+  "versions": {
+    "vietnamadminunits": "1.0.4",
+    "vietnam-address-converter": "1.0.5"
+  },
+  "clean_sha256": {
+    "can_xem_lai.csv": "e83f8da3525e71522a9d3d2d54a393fadd64249130aa36593aa3f6e507631579",
+    "cu_huyen.csv": "0e7aa37a54ffd0ac4b87dac6f2c21ca122eef97b57e730bb0a44e572d68d0d4d",
+    "cu_tinh.csv": "32755d21d198951adb6cfb562a74e3d18fddc526548791c5f66f9fc4d7441ead",
+    "cu_tinh_huyen_xa.csv": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014",
+    "doi_chieu_xa_cu_moi.csv": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218",
+    "issues.csv": "bd3a8cc28ebb5b572e1a83384a1f281571addf550dbc2a17ec0dbd7c2e2dd39a",
+    "moi_tinh.csv": "db9ff3fc292da71a84ed39be495e0ae6d06a83249d63815963e8d62e50c24720",
+    "moi_tinh_xa.csv": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb",
+    "sua_doi.csv": "574c56c1bad8b29ebe011f7e15f9f5e1e4f873a75b8a8dd5ff7f9e6068209130",
+    "thay_doi_2026.csv": "33edc574dd4e58973c38ae30e013d858f0472ad23b5045c7bd683695c646fdd8"
+  },
+  "methods": {
+    "pipeline": {
+      "n": 480,
+      "admin_pair_accuracy_synthetic": 0.9479166666666666,
+      "p50_ms": 5.19594999786932,
+      "p95_ms": 20.462100015720353,
+      "execution_errors": 0,
+      "groups": {
+        "moi/canonical": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/accentless": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/reordered": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/one_typo": {
+          "n": 80,
+          "correct": 63,
+          "accuracy": 0.7875
+        },
+        "cu/canonical": {
+          "n": 40,
+          "correct": 40,
+          "accuracy": 1.0
+        },
+        "cu/accentless": {
+          "n": 40,
+          "correct": 40,
+          "accuracy": 1.0
+        },
+        "cu/reordered": {
+          "n": 40,
+          "correct": 40,
+          "accuracy": 1.0
+        },
+        "cu/one_typo": {
+          "n": 40,
+          "correct": 38,
+          "accuracy": 0.95
+        }
+      }
+    },
+    "ablation_no_fuzzy": {
+      "n": 480,
+      "admin_pair_accuracy_synthetic": 0.7458333333333333,
+      "p50_ms": 0.7786500063957646,
+      "p95_ms": 3.7124000082258135,
+      "execution_errors": 0,
+      "groups": {
+        "moi/canonical": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/accentless": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/reordered": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/one_typo": {
+          "n": 80,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "cu/canonical": {
+          "n": 40,
+          "correct": 40,
+          "accuracy": 1.0
+        },
+        "cu/accentless": {
+          "n": 40,
+          "correct": 40,
+          "accuracy": 1.0
+        },
+        "cu/reordered": {
+          "n": 40,
+          "correct": 40,
+          "accuracy": 1.0
+        },
+        "cu/one_typo": {
+          "n": 40,
+          "correct": 4,
+          "accuracy": 0.1
+        }
+      }
+    },
+    "vietnamadminunits_1.0.4": {
+      "n": 480,
+      "admin_pair_accuracy_synthetic": 0.7541666666666667,
+      "p50_ms": 0.7091500010574237,
+      "p95_ms": 6.068500020774081,
+      "execution_errors": 0,
+      "groups": {
+        "moi/canonical": {
+          "n": 80,
+          "correct": 80,
+          "accuracy": 1.0
+        },
+        "moi/accentless": {
+          "n": 80,
+          "correct": 80,
+          "accuracy": 1.0
+        },
+        "moi/reordered": {
+          "n": 80,
+          "correct": 77,
+          "accuracy": 0.9625
+        },
+        "moi/one_typo": {
+          "n": 80,
+          "correct": 4,
+          "accuracy": 0.05
+        },
+        "cu/canonical": {
+          "n": 40,
+          "correct": 37,
+          "accuracy": 0.925
+        },
+        "cu/accentless": {
+          "n": 40,
+          "correct": 37,
+          "accuracy": 0.925
+        },
+        "cu/reordered": {
+          "n": 40,
+          "correct": 37,
+          "accuracy": 0.925
+        },
+        "cu/one_typo": {
+          "n": 40,
+          "correct": 10,
+          "accuracy": 0.25
+        }
+      }
+    },
+    "vietnam_address_converter_1.0.5": {
+      "n": 480,
+      "admin_pair_accuracy_synthetic": 0.4979166666666667,
+      "p50_ms": 2.2216000070329756,
+      "p95_ms": 12.683099979767576,
+      "execution_errors": 0,
+      "groups": {
+        "moi/canonical": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/accentless": {
+          "n": 80,
+          "correct": 78,
+          "accuracy": 0.975
+        },
+        "moi/reordered": {
+          "n": 80,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "moi/one_typo": {
+          "n": 80,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "cu/canonical": {
+          "n": 40,
+          "correct": 37,
+          "accuracy": 0.925
+        },
+        "cu/accentless": {
+          "n": 40,
+          "correct": 37,
+          "accuracy": 0.925
+        },
+        "cu/reordered": {
+          "n": 40,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "cu/one_typo": {
+          "n": 40,
+          "correct": 9,
+          "accuracy": 0.225
+        }
+      }
+    }
+  },
+  "newline_note": "Six pinned catalogues restored byte-for-byte from original checkout; .gitattributes preserves CRLF, no content change."
+}

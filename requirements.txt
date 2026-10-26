@@ -1,0 +1,2 @@
+# Core chuẩn hóa dùng thư viện chuẩn; Excel cần openpyxl.
+openpyxl==3.1.5

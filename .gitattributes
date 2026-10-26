@@ -1,2 +1,9 @@
-# giữ nguyên byte của mọi file, không đổi xuống dòng
+# Giữ quy tắc gốc cho các tệp khác.
 * -text
+# Tập test ghim hash của CSV dạng CRLF. Giữ đúng byte khi checkout trên mọi OS.
+data/clean/moi_tinh.csv text eol=crlf
+data/clean/moi_tinh_xa.csv text eol=crlf
+data/clean/cu_tinh.csv text eol=crlf
+data/clean/cu_huyen.csv text eol=crlf
+data/clean/cu_tinh_huyen_xa.csv text eol=crlf
+data/clean/doi_chieu_xa_cu_moi.csv text eol=crlf

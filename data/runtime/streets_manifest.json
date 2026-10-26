@@ -1,0 +1,10 @@
+{
+  "source": "Geofabrik Vietnam OSM snapshot 2026-10-24",
+  "license": "ODbL-1.0",
+  "candidates_sha256": "2235e3e85fb4f569269a1ce85a2f4abea86f90d4391ea1898f0a1dce2aa44a24",
+  "reserved_sources": 400,
+  "excluded_rows": 456,
+  "used_public_rows": 30517,
+  "unambiguous_street_names": 6066,
+  "policy": "Chỉ tên đường từ tags addr:street ngoài URL/đầu vào hold-out. Không đọc nhãn đáp án."
+}

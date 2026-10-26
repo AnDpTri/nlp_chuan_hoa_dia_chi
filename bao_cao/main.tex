@@ -1,0 +1,100 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\IfFontExistsTF{TeX Gyre Termes}{\setmainfont{TeX Gyre Termes}}{\setmainfont{Times New Roman}}
+\usepackage[vietnamese]{babel}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,booktabs,array,enumitem,xurl,setspace}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue]{hyperref}
+\setstretch{1.08}\setlength{\parskip}{5pt}\setlength{\parindent}{1em}\setlist{nosep}
+\title{\textbf{CHUẨN HÓA ĐỊA CHỈ TIẾNG VIỆT}\\[6pt]\large Pipeline offline theo đơn vị hành chính tại mốc 01/07/2025}
+\author{Báo cáo triển khai và kiểm tra\\Học phần Xử lý ngôn ngữ tự nhiên}
+\date{26/10/2026}
+\begin{document}
+\maketitle
+\section{Phạm vi và kết quả đã có}
+Hệ thống nhận địa chỉ nhập tự do, gồm tiếng Việt không dấu, viết tắt, một số lỗi chính tả, thứ tự thành phần thay đổi và đơn vị hành chính cũ. Đầu ra gồm số nhà, ngõ/ngách/hẻm, thôn/xóm, đường, xã/phường và tỉnh/thành phố thuộc cây mới. Quận/huyện chỉ hỗ trợ giải nghĩa, không xuất vào địa chỉ chuẩn. Thành phần thiếu được để rỗng; đầu vào không chắc chắn có cảnh báo và dấu vết quyết định.
+
+Đã có pipeline trie, tìm gần đúng, ghép quan hệ cha con, chuyển đổi cũ sang mới, CLI cho một địa chỉ và CSV/Excel, bộ kiểm thử cùng chương trình chấm điểm. Suy luận không dùng LLM, dịch vụ API hoặc kết nối mạng. Hai thư viện ngoài chỉ phục vụ so sánh; pipeline chính không phụ thuộc chúng.
+
+\textbf{Giới hạn kết luận.} Tập 400 địa chỉ thực hiện có 0 dòng được duyệt thủ công. Vì vậy chưa có độ chính xác cuối cùng trên địa chỉ thực. Số đo trong tài liệu chỉ là kiểm tra phát triển trên dữ liệu tổng hợp từ danh mục. Không đổi nhãn máy thành nhãn đã duyệt và không dùng nhãn held-out để điều chỉnh luật.
+
+\section{Dữ liệu và phiên bản}
+Danh mục mới có 34 tỉnh/thành và 3.321 xã/phường; cây cũ và bảng đối chiếu được nạp từ sáu CSV có sẵn. Mã giữ dạng chuỗi để không mất số 0 đầu. Liên kết dựa vào mã, không dựa vào tên. Sáu hash ghim trong \path{data/test/catalogue_manifest.json}; thuộc tính Git giữ CRLF để checkout không làm sai hash byte.
+
+Ba loại tỉnh trong bản clean phản ánh thay đổi năm 2026. Lớp runtime lấy loại từ workbook gốc, giữ Quảng Ninh, Bắc Ninh và Đồng Nai là Tỉnh ở mốc 2025. Không sửa raw, clean hoặc đáp án test. Hash nguồn và ba điều chỉnh ở \path{data/runtime/catalogue_manifest.json}.
+
+Từ điển 6.066 tên đường dùng dữ liệu OpenStreetMap qua Geofabrik, theo ODbL 1.0. Đã loại 400 URL giữ lại cho đánh giá và dòng trùng đầu vào chuẩn hóa (456 dòng); không đọc nhãn đáp án. OSM chụp năm 2026 nên chưa chứng minh mọi tên đường tồn tại ở năm 2025. Mốc 2025 áp dụng cho đơn vị hành chính. Nguồn và giới hạn ở \path{data/runtime/NOTICE.md}.
+
+\section{Phương pháp}
+\subsection{Chuẩn hóa và sinh ứng viên}
+Chuỗi chuyển về Unicode NFC, viết thường, gom khoảng trắng, tách dấu câu và các tiền tố p., q., tp.; số 12/5 được giữ lại. Bản bỏ dấu dùng NFD và ánh xạ đ thành d. Dấu vết dùng vị trí token chuẩn hóa, chưa phải offset ký tự gốc.
+
+Trie lưu tên đầy đủ, tên không dấu và viết tắt xác định trước. Quét đoạn liên tiếp tối đa bảy token, không băng qua dấu phẩy. Tên phường chỉ là số phải có tiền tố để tránh nhầm số nhà. Tên sau đường/ngõ/thôn được hạn chế nhận diện thành đơn vị hành chính.
+
+Nếu không khớp chính xác, chỉ thử sửa một lỗi ở đoạn có tiền tố hành chính. Khoảng cách Levenshtein tính bằng quy hoạch động trên trie:
+\[
+D_{i,j}=\min\{D_{i-1,j}+1,\ D_{i,j-1}+1,\ D_{i-1,j-1}+[a_i\ne b_j]\}.
+\]
+Cắt nhánh khi giá trị nhỏ nhất hàng vượt một lỗi; cache tìm kiếm giảm lặp.
+
+\subsection{Ghép phân cấp}
+Với mỗi ứng viên, tìm các tổ tiên tương thích, không chồng token, trên cả cây cũ và cây mới. Điểm ưu tiên đoạn dài, tiền tố rõ và khớp chính xác; phạt lỗi sửa và viết tắt. Điểm đường đi gồm tổng điểm ứng viên, tỷ lệ token phủ và ưu tiên mức xã. Giữ 12 đường đi điểm cao để phát hiện phương án gần ngang nhau. Đây là bộ giải top-k theo luật, chưa phải ranker học máy hoặc beam search đầy đủ.
+
+Nếu nhiều phương án cùng độ sâu chênh không quá một điểm, trả cờ mơ hồ và danh sách xã ứng viên. Nếu tỉnh nhập vào trái với tỉnh cha của xã được chọn, trả cờ mâu thuẫn; không biến tên tỉnh dư thành tên đường. Điểm xếp hạng chưa được hiệu chỉnh thành xác suất.
+
+\subsection{Chuyển đổi và tách phần còn lại}
+Xã cũ có một đích được đổi trực tiếp. Xã cũ bị chia nhiều đích thì để trống xã, trả tỉnh xác định được và cờ \texttt{xa\_bi\_chia} kèm ứng viên. Chưa có bản đồ phân chia theo thôn/đường đủ chi tiết để tự chốt.
+
+Token còn lại được tách bằng luật thành số nhà, ngõ/ngách/hẻm, thôn/xóm và đường. Ví dụ đặc tả \emph{12 ngo 5 tran thai tong cau giay hn} cho Số 12, Ngõ 5, Đường Trần Thái Tông, Phường Cầu Giấy, Thành phố Hà Nội. Tên đường chỉ được khôi phục dấu khi từ điển cho một tên duy nhất; nếu không thì giữ đầu vào và gắn cờ.
+
+\newpage
+\section{Kiểm thử và đánh giá}
+11 kiểm thử kiểm tra danh mục và hash, mốc 2025, Unicode, viết tắt, một lỗi chính tả, chuyển xã cũ, xã bị chia, tỉnh mâu thuẫn, tên đường không sinh xã, địa chỉ thiếu/rỗng, CSV/Excel và chấm nhãn đã duyệt. Tất cả đạt trên Python 3.12; không thay thế đánh giá trên dữ liệu thực.
+
+\subsection{Thí nghiệm phát triển tổng hợp}
+Sinh 480 chuỗi từ 80 xã mới và 40 xã cũ, seed 42, mỗi xã có bốn dạng: chuẩn, không dấu, đảo thứ tự và một lỗi ký tự. Đáp án lấy từ cây và bảng đối chiếu; không dùng 400 địa chỉ held-out. Tên trùng và trường hợp chia xã vẫn giữ trong thí nghiệm.
+
+Mỗi phương pháp chạy cùng đầu vào. Độ đúng là đồng thời đúng mã xã và tỉnh; xã bị chia phải để trống xã đúng quy ước. P50/P95 tính từng truy vấn sau warmup, không gồm khởi tạo. Socket mạng bị chặn khi đo. Máy có tác vụ khác đồng thời, nên độ trễ chỉ mô tả lần chạy local này.
+\begin{table}[htbp]\centering\small
+\caption{480 ca tổng hợp; không phải accuracy trên địa chỉ thực.}
+\begin{tabular}{@{}p{7cm}rrr@{}}\toprule
+Phương pháp & Đúng cặp mã & P50 (ms) & P95 (ms)\\\midrule
+Pipeline đầy đủ & 94,79\% & 5,20 & 20,46\\
+Ablation tắt fuzzy & 74,58\% & 0,78 & 3,71\\
+vietnamadminunits 1.0.4 & 75,42\% & 0,71 & 6,07\\
+vietnam-address-converter 1.0.5 & 49,79\% & 2,22 & 12,68\\\bottomrule
+\end{tabular}
+\end{table}
+
+Converter dùng mã nội bộ khác mã danh mục. Adapter đổi tên đầu ra cùng tỉnh cha về mã tương ứng; không sửa quyết định theo đáp án. Adminunits thử chuyển cũ trước, nếu thiếu xã mới dùng parser cây mới. Lựa chọn adapter có thể ảnh hưởng kết quả. Danh mục sinh ca cũng là nguồn tri thức của pipeline; không suy diễn ưu thế trên dữ liệu thực từ bảng này.
+
+\subsection{400 địa chỉ thực}
+Đã chạy 400 đầu vào, xuất dự đoán riêng và không ghi đè tệp gốc. Bộ chấm ghép theo ID, từ chối ID trùng, dự đoán thiếu tính là sai, chỉ xét \texttt{da\_duyet}. Hiện 0 dòng có trạng thái này nên các metric là \texttt{null}, trạng thái \texttt{awaiting\_manual\_review}. Cần người duyệt nhãn độc lập trước khi công bố accuracy cuối.
+
+\newpage
+\section{Chạy lại}
+Cài Python 3.12 và \path{requirements.txt}; chỉ Excel cần openpyxl. Từ gốc repo:
+\begin{quote}\small\ttfamily
+python -m src.cli --text "12 ngo 5 tran thai tong cau giay hn"\\
+python -m src.cli --input INPUT.csv --output OUTPUT.xlsx\\
+python -m unittest discover -s tests -v
+\end{quote}
+CLI chặn đầu vào và đầu ra trùng đường dẫn; mã CSV/Excel giữ dạng chuỗi. JSON có thành phần, mã, cảnh báo, ứng viên và dấu vết. Địa chỉ trên 120 token bị từ chối.
+
+Cài thêm \path{requirements-baselines.txt} để chạy so sánh. Sinh lại ca và số đo bằng module \path{tools/benchmark_synthetic.py}; seed, phiên bản, hash và kết quả ở \path{results/development/metrics.json}. Chấm bằng \path{danh_gia/cham_diem.py} vào tệp mới; không đổi nhãn để tạo số đẹp.
+
+\section{Giới hạn và công việc tiếp theo}
+Hiện hệ thống dùng trie, quy hoạch động và luật phân cấp. Logistic Regression, CRF hoặc mô hình học trọng số mới là hướng nghiên cứu, chưa được huấn luyện; không gọi đây là mô hình ML đã học từ địa chỉ gán nhãn.
+
+Chưa bao phủ mọi lỗi nhiều ký tự, tên hiếm, mô tả dài hoặc tên tòa nhà. Dấu vết chưa giữ offset gốc. Quy tắc số nhà/ngõ theo dấu gạch chéo tuân theo ví dụ đặc tả, có thể khác cách ghi ở một số địa phương. Địa chỉ mơ hồ trả phương án tốt nhất kèm cờ; phải đọc cờ trước khi sử dụng.
+
+Cần duyệt 400 nhãn độc lập, giữ tập đánh giá khi điều chỉnh thuật toán, phân tích lỗi theo nhóm và đo tốc độ trong môi trường riêng. Xã bị chia chỉ được chốt khi có nguồn phân ranh chi tiết tin cậy. Không tự chuyển nhãn máy sang nhãn đã duyệt.
+
+\section*{Nguồn}
+\begin{itemize}
+\item Đặc tả và dữ liệu: \path{bai_toan.md}, \path{data/raw/NGUON.md}, \path{data/test/README.md}.
+\item Mã nguồn: \url{https://github.com/AnDpTri/nlp_chuan_hoa_dia_chi}.
+\item Thư viện mốc: \url{https://pypi.org/project/vietnamadminunits/} và \url{https://pypi.org/project/vietnam-address-converter/}.
+\item Từ điển đường: \url{https://www.openstreetmap.org/copyright}; ODbL 1.0, xem \path{data/runtime/NOTICE.md}.
+\end{itemize}
+\end{document}

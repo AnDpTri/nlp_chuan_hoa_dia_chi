@@ -54,3 +54,5 @@ class KetQua:
     ma_tinh: str = ""
     dia_chi_chuan: str = ""
     canh_bao: list[str] = field(default_factory=list)
+    ung_vien_xa: list[dict[str, str]] = field(default_factory=list)
+    dau_vet: list[dict] = field(default_factory=list)
