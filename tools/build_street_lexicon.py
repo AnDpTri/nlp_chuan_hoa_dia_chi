@@ -80,7 +80,9 @@ def build(candidates):
         "policy": "Chỉ tên đường từ tags addr:street ngoài URL/đầu vào hold-out. Không đọc nhãn đáp án.",
     }
     (out / "streets_manifest.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(manifest, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+        newline="\n",
     )
     print(json.dumps(manifest, ensure_ascii=True))
 

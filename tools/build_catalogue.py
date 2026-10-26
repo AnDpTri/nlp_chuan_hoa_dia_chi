@@ -89,6 +89,7 @@ def build():
             indent=2,
         ),
         encoding="utf-8",
+        newline="\n",
     )
     print(
         "Runtime catalogue built:",

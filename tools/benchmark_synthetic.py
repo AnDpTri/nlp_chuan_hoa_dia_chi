@@ -123,7 +123,7 @@ def main():
     d.mkdir(parents=True, exist_ok=True)
     rows = cases(DanhMuc(), a.sample)
     (d / "synthetic_cases.json").write_text(
-        json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n"
     )
     start = time.perf_counter()
     methods = adapters()
@@ -150,13 +150,15 @@ def main():
         "methods": summaries,
     }
     (d / "metrics.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n"
     )
     pred = Path("results/predictions")
     pred.mkdir(parents=True, exist_ok=True)
     for name, output in predictions.items():
         (pred / (name + ".json")).write_text(
-            json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
+            json.dumps(output, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+            newline="\n",
         )
 
 

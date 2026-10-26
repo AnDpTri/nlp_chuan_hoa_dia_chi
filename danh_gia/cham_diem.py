@@ -134,7 +134,7 @@ def main():
     result = score(read(a.gold), read(a.predictions))
     a.output.parent.mkdir(parents=True, exist_ok=True)
     a.output.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n"
     )
     print(json.dumps(result, ensure_ascii=False, indent=2))
 

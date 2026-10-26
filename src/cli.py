@@ -55,7 +55,9 @@ def write_rows(path, rows):
         book.save(path)
     elif path.suffix.lower() == ".json":
         path.write_text(
-            json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8"
+            json.dumps(rows, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+            newline="\n",
         )
     else:
         with path.open("w", encoding="utf-8-sig", newline="") as f:
