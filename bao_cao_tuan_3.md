@@ -1,67 +1,98 @@
 # Báo cáo tiến độ tuần 3
 
 **Đề tài:** Xây dựng hệ thống chuẩn hóa địa chỉ tiếng Việt theo đơn vị hành chính mới sau sáp nhập 2025
-
 **Môn:** Xử lý ngôn ngữ tự nhiên, lớp KHMT K22A
+**Mã nguồn:** https://github.com/AnDpTri/nlp_chuan_hoa_dia_chi
 
 ---
 
 ## 1. Tóm tắt
 
-Nhóm đã chốt đề tài và phạm vi, viết xong đặc tả bài toán, thu thập và làm sạch toàn bộ dữ liệu đơn vị hành chính (cũ, mới và bảng đối chiếu), và có thiết kế sơ bộ cho hệ thống. Chưa bắt đầu code hệ thống chuẩn hóa.
+| Hạng mục | Trạng thái |
+|---|---|
+| Đề tài, phạm vi, đặc tả | Xong |
+| Dữ liệu hành chính (cũ, mới, đối chiếu) | Xong, còn 1 lỗi loại tỉnh |
+| Tập test 400 địa chỉ thật | Có nhãn sơ bộ, chưa duyệt tay |
+| Thiết kế hệ thống | Sơ bộ |
+| Khung mã nguồn | Xong, chưa cài đặt |
+| Dữ liệu huấn luyện | Chưa làm |
+| Code hệ thống, chấm điểm | Chưa làm |
 
-## 2. Đã hoàn thành
+## 2. Đã làm
 
 ### 2.1. Đề tài và phạm vi
-- Đổi đề tài từ "mod trò chuyện với NPC Stardew Valley bằng LLM" sang đề tài chuẩn hóa địa chỉ, vì đề cũ khó đánh giá định lượng và phần NLP chưa rõ.
-- Viết đặc tả bài toán (`bai_toan.md`): đầu vào, đầu ra theo từng trường, quy tắc xử lý, ví dụ, phạm vi, ràng buộc, cách đánh giá.
-- Các quyết định chính:
-  - Chuẩn hóa là mục tiêu chính; phân loại theo khu vực có được sau khi chuẩn hóa.
-  - Chuyển địa chỉ cũ sang mới đến cấp sâu nhất (tỉnh và xã/phường). Cấp huyện chỉ dùng để xác định, không xuất ra.
-  - Số nhà, ngõ, thôn/xóm, tên đường không đổi theo luật, chỉ chuẩn hóa cách viết.
-  - Thiếu thông tin thì để trống, không chắc chắn thì gắn cờ cảnh báo.
-  - Chạy offline, không dùng LLM, không gọi API; tốc độ là tiêu chí quan trọng.
-- Lập board Trello cho nhóm.
+- Viết đặc tả: `bai_toan.md`.
+- Quyết định:
+  - Chuẩn hóa là mục tiêu chính. Phân loại có sẵn sau khi chuẩn hóa.
+  - Chuyển cũ sang mới đến cấp xã. Huyện chỉ dùng để xác định, không xuất ra.
+  - Số nhà, ngõ, thôn/xóm, đường không đổi theo luật, chỉ chuẩn hóa cách viết.
+  - Thiếu thì để trống, không chắc thì gắn cờ.
+  - Offline, không LLM, không API. Tốc độ quan trọng ngang độ chính xác.
 
-### 2.2. Dữ liệu đơn vị hành chính
-Thu thập từ danh mục hành chính của Tổng cục Thống kê, bảng chuyển đổi theo Quyết định 19/2025/QĐ-TTg và các nghị quyết của UBTVQH (qua bộ tổng hợp mở `vietnam-address-kit`). Nguồn và ngày truy cập ghi trong `data/raw/NGUON.md`.
+### 2.2. Dữ liệu hành chính
+Nguồn: danh mục Tổng cục Thống kê, bảng chuyển đổi theo QĐ 19/2025/QĐ-TTg, nghị quyết UBTVQH (qua bộ tổng hợp `vietnam-address-kit`). Chi tiết: `data/raw/NGUON.md`.
 
 | Bộ dữ liệu | Số lượng |
 |---|---|
-| Danh mục mới (sau 1/7/2025) | 34 tỉnh, 3.321 xã/phường/đặc khu |
-| Danh mục cũ (trước sáp nhập) | 63 tỉnh, 696 huyện, 10.033 xã/phường/thị trấn |
-| Bảng đối chiếu xã cũ sang xã mới | 10.571 dòng, trong đó 441 xã cũ bị chia ra nhiều xã mới |
+| Danh mục mới (mốc 1/7/2025) | 34 tỉnh, 3.321 xã |
+| Danh mục cũ | 63 tỉnh, 696 huyện, 10.033 xã |
+| Đối chiếu xã cũ sang mới | 10.569 dòng, 440 xã cũ bị chia |
 
-### 2.3. Làm sạch và kiểm tra dữ liệu
-- Viết script làm sạch và tự kiểm tra (`data/clean/scripts/clean_and_validate.py`). Dữ liệu gốc giữ nguyên, bản sạch sinh lại được bất cứ lúc nào.
-- Các lỗi đã phát hiện và sửa (có ghi căn cứ trong `sua_doi.csv`):
-  - Tên tỉnh cũ ghi không thống nhất (Quảng Trị), làm đếm ra 64 tỉnh.
-  - Thành phố Tân An (Long An) bị gán nhầm sang Tiền Giang.
-  - Một số xã có mã và tên không khớp giữa các bảng, tên mất dấu, sai loại đơn vị.
-  - Lỗi đặt dấu thanh phát sinh trong bước làm sạch (Hoàng thành Hòang), đã sửa và thêm phép kiểm tra để không tái diễn.
-  - Hai xã nghi vấn ở Cao Bằng và Tuyên Quang, đã xác minh theo nghị quyết sắp xếp năm 2025.
-- Kết quả kiểm tra: không trùng mã, mọi liên kết giữa các bảng đều hợp lệ, xã cũ nào cũng có đích đến, xã mới nào cũng có nguồn, mỗi tỉnh cũ ứng với đúng một tỉnh mới, bỏ dấu đi thì tên khớp hoàn toàn với dữ liệu gốc.
+### 2.3. Làm sạch dữ liệu
+Script: `data/clean/scripts/clean_and_validate.py`. Không sửa dữ liệu gốc, mọi sửa đổi ghi căn cứ trong `sua_doi.csv`.
 
-### 2.4. Khảo sát các công trình liên quan
-- Thư viện mã nguồn mở: `vietnamadminunits`, `vietnam-address-converter`, `vietnamese-address-parser`, parser địa chỉ của underthesea.
+Lỗi đã sửa:
+- Tên tỉnh Quảng Trị ghi hai kiểu, đếm ra 64 tỉnh.
+- TP Tân An (Long An) bị gán sang Tiền Giang.
+- Tên mất dấu, sai loại đơn vị, hoa thường không thống nhất.
+- Lỗi đặt dấu do chính script gây ra (Hoàng thành Hòang). Đã sửa, thêm kiểm tra.
+- 2 dòng gán nhầm mã ở Cao Bằng, Tuyên Quang. Xác minh theo NQ 1657/NQ-UBTVQH15 và 1684/NQ-UBTVQH15: xóa 2 dòng thừa, Hồng Quang và Công Đa là nhập toàn bộ.
+
+Kiểm tra đạt: không trùng mã, khóa ngoại hợp lệ, xã cũ nào cũng có đích, xã mới nào cũng có nguồn, mỗi tỉnh cũ vào đúng một tỉnh mới, bỏ dấu thì tên khớp bản gốc.
+
+### 2.4. Tập test
+Nguồn: OpenStreetMap, bản trích Geofabrik ngày 24/10/2026, giấy phép ODbL. Chỉ địa điểm công khai, không nhà dân. Chi tiết: `data/test/README.md`.
+
+| Chỉ số | Giá trị |
+|---|---|
+| Tổng | 400 |
+| Chuỗi nguyên văn (`addr:full`) | 150 |
+| Ghép từ thẻ địa chỉ | 250 |
+| Số tỉnh mới có mặt | 32/34 |
+| Ghi theo địa giới cũ | 361 |
+| Có viết tắt | 100 |
+| Thuộc xã bị chia | 33 |
+| Tự động khớp / cần duyệt | 168 / 232 |
+
+Cách gán nhãn: Gemini (qua agy) tách phần chữ, code tra danh mục để gắn mã. Gemini không gắn mã. **Nhãn là sơ bộ, phải duyệt tay trước khi chấm điểm.**
+
+### 2.5. Công trình liên quan
+- Thư viện: `vietnamadminunits`, `vietnam-address-converter`, `vietnamese-address-parser`, parser của underthesea.
 - API thương mại: TrackAsia, Vietmap.
-- Nhận xét: các công cụ hiện có chủ yếu dựa trên luật và tra từ điển, nhiều công cụ cần đầu vào khá sạch. Chưa thấy công trình học thuật nào giải bài này bằng học máy. Nhóm sẽ dùng hai thư viện đầu làm mốc so sánh.
+- Nhận xét: đều dựa trên luật và tra từ điển, nhiều cái cần đầu vào sạch. Chưa thấy công trình học thuật dùng học máy.
+- Dùng hai thư viện đầu làm mốc so sánh.
 
-### 2.5. Thiết kế sơ bộ
-- Pipeline: tiền xử lý → sinh ứng viên → ghép đường đi hợp lệ trên cây hành chính → tách số nhà, ngõ, thôn, đường → chuyển đổi cũ sang mới → sinh đầu ra.
-- Ý tưởng chính: giải cả địa chỉ cùng lúc, chọn tổ hợp thành phần tạo thành một đường đi có thật trong cây hành chính, để các thành phần hỗ trợ nhau gỡ nhập nhằng.
-- Cấu trúc dữ liệu: trie (tìm tên trong chuỗi, chịu được mất dấu, viết tắt, sai chính tả) và cây hành chính cũ, mới có cạnh đối chiếu.
-- Mô hình dự kiến (nhẹ, chạy CPU): logistic regression để chấm điểm đường đi, CRF để tách số nhà, ngõ, thôn, đường. Có thể nâng lên LightGBM nếu cần.
-- Công nghệ: Python. Làm cho chạy được trước, tối ưu sau.
+### 2.6. Thiết kế sơ bộ
+- Pipeline: tiền xử lý → sinh ứng viên → ghép đường đi hợp lệ trên cây hành chính → tách số nhà/ngõ/thôn/đường → chuyển cũ sang mới → sinh đầu ra.
+- Ý tưởng chính: giải cả địa chỉ cùng lúc, chọn tổ hợp thành phần tạo thành đường đi có thật trong cây. Ví dụ "cg" đi với "hn" thì là Cầu Giấy, Hà Nội.
+- Cấu trúc dữ liệu: trie + hai cây hành chính (cũ, mới) có cạnh đối chiếu.
+- Mô hình: logistic regression chấm điểm đường đi, CRF tách số nhà/ngõ/thôn/đường. Nâng lên LightGBM nếu cần.
+- Python. Chạy được trước, đo, rồi tối ưu.
+- Khung mã nguồn: `src/`, mỗi bước một module, đầu vào/đầu ra cố định.
 
-## 3. Vấn đề còn tồn tại
-- **Mốc dữ liệu:** dữ liệu đang theo mốc 1/7/2025. Năm 2026 có thêm thay đổi (Đồng Nai, Quảng Ninh, Bắc Ninh lên thành phố trực thuộc trung ương, 23 xã lên phường), đã lưu riêng nhưng chưa chốt có áp dụng không.
-- **Xã bị chia:** văn bản chính thức phần lớn chỉ ghi "nhập một phần", không nói rõ thôn/xóm nào về đâu. Với các xã này, hệ thống nhiều khả năng chỉ gắn cờ được.
-- **Chưa có tập test:** chưa có địa chỉ thật nào được gán nhãn.
+## 3. Vấn đề
+
+1. **Loại tỉnh lẫn mốc 2026:** `data/clean/moi_tinh.csv` ghi Quảng Ninh, Bắc Ninh, Đồng Nai là "Thành phố". Mốc 1/7/2025 phải là "Tỉnh". Cần sửa script.
+2. **Tập test chưa duyệt:** 0/400 dòng có người duyệt.
+3. **Tập test lệch:** 250 dòng ghép từ thẻ, không phải người gõ. Thiên về đô thị và cơ sở kinh doanh. Chỉ 10 dòng không dấu.
+4. **Xã bị chia:** văn bản phần lớn chỉ ghi "nhập một phần", không rõ thôn/xóm nào về đâu. Nhiều khả năng chỉ gắn cờ được.
 
 ## 4. Kế hoạch tuần 4
-1. Gom 300–500 địa chỉ thật và gán nhãn làm tập test; hai người gán nhãn độc lập một phần để kiểm tra độ thống nhất.
-2. Viết script đánh giá theo mục 9 của đặc tả.
-3. Chạy hai thư viện có sẵn trên tập test để lấy mốc so sánh.
-4. Bắt đầu làm bản đơn giản (trie, cây hành chính, điểm đặt bằng tay) chạy được từ đầu đến cuối.
-5. Chia việc cụ thể cho các thành viên trên Trello.
+
+1. Duyệt tay tập test, ưu tiên 232 dòng cần duyệt. Hai người duyệt chéo một phần.
+2. Sửa loại tỉnh về mốc 1/7/2025.
+3. Viết script chấm điểm.
+4. Chạy hai thư viện mốc trên tập test.
+5. Làm bản đơn giản chạy được từ đầu đến cuối (trie, cây, điểm đặt tay).
+6. Dữ liệu huấn luyện từ ~27 nghìn địa chỉ OSM còn lại, loại các địa chỉ đã có trong tập test.
+7. Chia việc trên Trello.
