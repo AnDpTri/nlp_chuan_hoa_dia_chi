@@ -17,6 +17,8 @@ HANH_CHINH = [
     ("tx", {"huyen"}, "thi xa"), ("tt", {"xa"}, "thi tran"),
     ("phuong", {"xa"}, "phuong"), ("phuowng", {"xa"}, "phuong"),
     ("p", {"xa"}, "phuong"), ("xa", {"xa"}, "xa"), ("x", {"xa"}, "xa"),
+    ("district", {"huyen"}, "quan"), ("ward", {"xa"}, "phuong"),
+    ("city", {"tinh", "huyen"}, "thanh pho"), ("province", {"tinh"}, "tinh"),
 ]
 CHI_TIET = [
     ("so nha", "so_nha", "Số"), ("so", "so_nha", "Số"),
@@ -28,17 +30,27 @@ CHI_TIET = [
     ("ban", "thon_xom", "Bản"), ("khu pho", "thon_xom", "Khu phố"),
     ("kp", "thon_xom", "Khu phố"), ("to dan pho", "thon_xom", "Tổ dân phố"),
     ("tdp", "thon_xom", "Tổ dân phố"), ("to", "thon_xom", "Tổ"),
+    ("khoi pho", "thon_xom", "Khối phố"), ("khoi", "thon_xom", "Khối"),
+    ("khom", "thon_xom", "Khóm"),
+    ("buon", "thon_xom", "Buôn"),
+    ("cum", "thon_xom", "Cụm"),
     ("duong", "duong", "Đường"), ("dduong", "duong", "Đường"),
     ("dduowng", "duong", "Đường"),
     ("d", "duong", "Đường"), ("pho", "duong", "Phố"),
     ("quoc lo", "duong", "Quốc lộ"), ("ql", "duong", "Quốc lộ"),
     ("tinh lo", "duong", "Tỉnh lộ"), ("tl", "duong", "Tỉnh lộ"),
+    ("dt", "duong", "ĐT"), ("hl", "duong", "HL"),
+    ("dh", "duong", "ĐH"), ("duong huyen", "duong", "ĐH"),
+    ("dl", "duong", "Đại lộ"),
+    ("xl", "duong", "Xa lộ"),
+    ("vanh dai", "duong", "Vành đai"),
+    ("cao toc", "duong", "Cao tốc"), ("ct", "duong", "Cao tốc"),
     ("xa lo", "duong", "Xa lộ"), ("dai lo", "duong", "Đại lộ"),
 ]
 
 # So khớp không dấu chỉ dùng làm dạng tra cứu; dấu đã có là bằng chứng.
 # Tô không phải Tổ, Tĩnh không phải Tỉnh, dù khóa bỏ dấu giống nhau.
-_CHU_CHUAN = "Thành phố Thị xã trấn Đặc khu Tỉnh Huyện Quận Phường Số nhà Ngõ Ngách Hẻm Kiệt Thôn Xóm Ấp Bản Khu Tổ dân Đường Quốc lộ"
+_CHU_CHUAN = "Thành phố Thị xã trấn Đặc khu Tỉnh Huyện Quận Phường Số nhà Ngõ Ngách Hẻm Kiệt Thôn Xóm Ấp Bản Khu Tổ dân Đường Quốc lộ Khóm Buôn Cụm ĐH HL Cao tốc Xa lộ Đại lộ Vành đai District Ward City Province"
 _DANG_CO_DAU = {}
 for _word in _CHU_CHUAN.split():
     _DANG_CO_DAU.setdefault(bo_dau(_word), set()).add(_word.casefold())

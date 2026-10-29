@@ -22,28 +22,59 @@ def tien_to_hien_thi(tokens, field):
     return None
 
 
-def dinh_dang_span(tokens, field):
+def ghep_so_nha(tokens):
+    if not tokens:
+        return ''
+    norm_tokens = ['-' if t in ('–', '—') else t for t in tokens]
+    no_space_chars = {'/', '\\', '-', '_', ';', '+'}
+    parts = []
+    for i, t in enumerate(norm_tokens):
+        if i == 0:
+            parts.append(t)
+            continue
+        prev = norm_tokens[i - 1]
+        if t in no_space_chars or prev in no_space_chars:
+            parts.append(t)
+        elif prev.isdigit() and len(t) == 1 and t.isalpha():
+            parts.append(t)
+        elif len(prev) == 1 and prev.isalpha() and t.isdigit():
+            parts.append(t)
+        else:
+            parts.append(' ' + t)
+    res = ''.join(parts).strip()
+    return re.sub(r'\s+([,.;:])', r'\1', res)
+
+
+def dinh_dang_span(tokens, field, tien_to_mac_dinh=True):
     marker = tien_to_hien_thi(tokens, field)
     if marker and marker[1][0] == field:
         end, (_, label) = marker
         body = tokens[end:]
     else:
         body = tokens
-        label = {'so_nha': 'Số', 'duong': 'Đường'}.get(field, '')
+        label = {'so_nha': 'Số', 'duong': 'Đường'}.get(field, '') if tien_to_mac_dinh else ''
     if not body:
         return '', False
-    if field == 'duong' and label == 'Đường':
+    if field == 'duong' and label in ('Đường', ''):
         inner = khop_tien_to(body, 0, CHI_TIET)
         # d. QL 5A là loại tuyến cụ thể. Không xóa chữ Phố/Đường trong tên riêng.
-        if inner and inner[1][0] == 'duong' and inner[1][1] in ('Quốc lộ', 'Tỉnh lộ'):
+        if inner and inner[1][0] == 'duong' and inner[1][1] in ('Quốc lộ', 'Tỉnh lộ', 'ĐT', 'HL', 'ĐH'):
             end = inner[0]
             if end < len(body) and re.fullmatch(r'\d+[A-Za-z]{0,2}', body[end]):
                 label, body = inner[1][1], body[end:]
     if field == 'so_nha':
-        value = ''.join(body).replace('–', '-').replace('—', '-')
+        clean_tokens = [t for t in body if not (t.isdigit() and len(t) in (5, 6))]
+        if not clean_tokens:
+            clean_tokens = body
+        while clean_tokens and clean_tokens[0] in {',', ';', '.'}:
+            clean_tokens.pop(0)
+        while clean_tokens and clean_tokens[-1] in {',', ';', '.'}:
+            clean_tokens.pop()
+        value = ghep_so_nha(clean_tokens)
+        if not tien_to_mac_dinh:
+            return value, False
     else:
         value = viet_ten(body)
-        if field == 'duong' and label in ('Quốc lộ', 'Tỉnh lộ'):
+        if field == 'duong' and label in ('Quốc lộ', 'Tỉnh lộ', 'ĐT', 'HL', 'ĐH'):
             value = ' '.join(t.upper() if re.fullmatch(r'\d+[A-Za-z]{1,2}', t) else t for t in value.split())
     return ' '.join(x for x in (label, value) if x), field == 'duong' and not marker
-

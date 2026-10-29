@@ -13,7 +13,7 @@ from .quy_tac import cac_tien_to, CHI_TIET, khop_tien_to
 class BoChuanHoa:
     PHIEN_BAN = "baseline_luat_v3"
     def __init__(self, danh_muc: DanhMuc | None = None, beam: int = 40, bo_tach=None, bo_xep_hang=None,
-                 tu_dien_duong=None, bao_ve_duong=False, hop_dong=False):
+                 tu_dien_duong=None, bao_ve_duong=False, hop_dong=False, tien_to_mac_dinh: bool = True):
         if bo_xep_hang is not None and not hasattr(bo_tach, 'chuan_bi_chuoi'):
             raise ValueError('Ranker thử nghiệm cần bộ nhận diện có đầu ra ký tự')
         self.danh_muc = danh_muc or DanhMuc()
@@ -25,6 +25,7 @@ class BoChuanHoa:
         self.tu_dien_duong = tu_dien_duong
         self.bao_ve_duong = bao_ve_duong
         self.hop_dong = hop_dong
+        self.tien_to_mac_dinh = tien_to_mac_dinh
         if bo_tach is not None:
             self.PHIEN_BAN = getattr(bo_tach, 'phien_ban', 'thu_nghiem_crf_v1_' + ('bao_ve' if bo_tach.bao_ve_chi_tiet else 'mo'))
         if bo_xep_hang is not None:
@@ -79,8 +80,8 @@ class BoChuanHoa:
         ranked = []
         for path in paths:
             occupied = {i for u in path.ung_vien for i in range(u.bat_dau, u.ket_thuc)}
-            detail, spans, unknown, inferred = (crf_context.tach(occupied) if crf_context is not None
-                                                else tach_co_dau_vet(tokens, occupied, prefixes))
+            detail, spans, unknown, inferred = (crf_context.tach(occupied, tien_to_mac_dinh=self.tien_to_mac_dinh) if crf_context is not None
+                                                else tach_co_dau_vet(tokens, occupied, prefixes, tien_to_mac_dinh=self.tien_to_mac_dinh))
             # Xét cả phần chi tiết trên từng giả thuyết, không nối các khoảng rời.
             score = path.diem - .12*len(unknown) + .05*sum(s["ket_thuc"]-s["bat_dau"] for s in spans)
             if crf_context is not None:
@@ -150,7 +151,7 @@ class BoChuanHoa:
         name_evidence = None
         if self.tu_dien_duong is not None and not self.hop_dong:
             detail = dict(detail)
-            detail['duong'], name_evidence = self.tu_dien_duong.chuan_hoa(detail['duong'], ma_tinh)
+            detail['duong'], name_evidence = self.tu_dien_duong.chuan_hoa(detail['duong'], ma_tinh, tien_to_mac_dinh=self.tien_to_mac_dinh)
             if name_evidence:
                 warnings.append('ten_duong_tham_chieu_train_chua_xac_minh')
         # Không phục hồi dấu tên đường/thôn khi chưa có từ điển chứng thực.
@@ -164,7 +165,23 @@ class BoChuanHoa:
                         tinh=dm.ten_day_du("moi", ma_tinh) if ma_tinh else "",
                         canh_bao=list(dict.fromkeys(warnings)),
                         phan_chua_phan_loai=detail["phan_chua_phan_loai"])
-        result.dia_chi_chuan = ", ".join(getattr(result, f) for f in (*FIELDS, "xa_phuong", "tinh") if getattr(result, f))
+        def _chuan_chuoi(res):
+            parts = []
+            if res.so_nha:
+                parts.append(res.so_nha if res.so_nha.startswith(("Số ", "Số")) else f"Số {res.so_nha}")
+            if res.ngo_ngach_hem:
+                parts.append(res.ngo_ngach_hem)
+            if res.thon_xom:
+                parts.append(res.thon_xom)
+            if res.duong:
+                road_pfx = ("Đường ", "Phố ", "Quốc lộ ", "Tỉnh lộ ", "Xa lộ ", "Đại lộ ", "ĐT ", "HL ", "Hương lộ ")
+                parts.append(res.duong if any(res.duong.startswith(p) for p in road_pfx) else f"Đường {res.duong}")
+            if res.xa_phuong:
+                parts.append(res.xa_phuong)
+            if res.tinh:
+                parts.append(res.tinh)
+            return ", ".join(parts)
+        result.dia_chi_chuan = _chuan_chuoi(result)
         if not ma_xa:
             result.xa_moi_ung_vien = [{"ma_xa": w, "ten": dm.ten_day_du("moi", w), "ma_tinh": dm.lay("moi", w).ma_cha} for w in sorted(all_wards)]
         def trace(a, b, **extra):

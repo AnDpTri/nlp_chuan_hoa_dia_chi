@@ -74,10 +74,6 @@ def tao_nhan(n, spans):
     return tags
 
 
-
-
-
-
 class NguCanhCRF:
     def __init__(self, tokens, labels, p_o):
         self.tokens, self.labels, self.p_o = tokens, labels, p_o
@@ -86,7 +82,7 @@ class NguCanhCRF:
     def diem_hanh_chinh(self, occupied):
         return sum(math.log(max(self.p_o[i], 1e-8)) for i in occupied)
 
-    def tach(self, occupied):
+    def tach(self, occupied, tien_to_mac_dinh=True):
         tags = ['O' if i in occupied else tag for i, tag in enumerate(self.labels)]
         spans, _ = bio_spans(tags)
         values = {f: [] for f in FIELDS}
@@ -98,12 +94,30 @@ class NguCanhCRF:
                 a += 1
             while b > a and not any(c.isalnum() for c in self.tokens[b-1]):
                 b -= 1
-            value, guessed = dinh_dang_span(self.tokens[a:b], f)
+            value, guessed = dinh_dang_span(self.tokens[a:b], f, tien_to_mac_dinh=tien_to_mac_dinh)
             if value and a < b:
                 values[f].append(value)
                 output_spans.append({'truong': f, 'bat_dau': a, 'ket_thuc': b, 'gia_tri': value})
                 used.update(range(a, b))
                 inferred |= guessed
+        # Rà soát phần chưa phân loại (unknown) có tiền tố chi tiết rõ ràng
+        unknown_candidates = [i for i, t in enumerate(self.tokens) if i not in used and any(c.isalnum() for c in t)]
+        for i in unknown_candidates:
+            if i in used:
+                continue
+            marker = khop_tien_to(self.tokens, i, CHI_TIET)
+            if marker:
+                end, (f, label) = marker
+                j = end
+                while j < len(self.tokens) and j not in used and self.tokens[j] not in {',', ';'}:
+                    j += 1
+                if j > i:
+                    val, g = dinh_dang_span(self.tokens[i:j], f, tien_to_mac_dinh=tien_to_mac_dinh)
+                    if val:
+                        values[f].append(val)
+                        output_spans.append({'truong': f, 'bat_dau': i, 'ket_thuc': j, 'gia_tri': val})
+                        used.update(range(i, j))
+                        inferred |= g
         unknown = [i for i, t in enumerate(self.tokens) if i not in used and any(c.isalnum() for c in t)]
         detail = {f: ', '.join(dict.fromkeys(values[f])) for f in FIELDS}
         detail['phan_chua_phan_loai'] = ' '.join(self.tokens[i] for i in unknown)

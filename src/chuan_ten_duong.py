@@ -17,14 +17,20 @@ from .tien_xu_ly import bo_dau, token_co_vi_tri
 
 def tach_ten(value):
     tokens = [t.chu for t in token_co_vi_tri(value)]
-    marker = khop_tien_to(tokens, 0, CHI_TIET) if tokens else None
-    if not marker or marker[1][0] != 'duong':
+    if not tokens:
         return None
-    end, (_, kind) = marker
-    body = tokens[end:]
+    marker = khop_tien_to(tokens, 0, CHI_TIET)
+    if marker and marker[1][0] == 'duong':
+        end, (_, kind) = marker
+        body = tokens[end:]
+        co_tien_to = True
+    else:
+        kind = 'Đường'
+        body = tokens
+        co_tien_to = False
     if not body or any(not t.isalnum() for t in body):
         return None
-    return kind, body
+    return kind, body, co_tien_to
 
 
 def khoa(words):
@@ -60,32 +66,44 @@ class TuDienDuong:
         if payload.get('format') != 1 or payload.get('source_scope') != 'train_only':
             raise ValueError('Từ điển đường phải có schema train_only phiên bản 1')
         self.index = defaultdict(dict)
+        self.index_bare = defaultdict(dict)
         for item in payload['entries']:
             parsed = tach_ten(item['canonical'])
             if not parsed or not item['province']:
                 raise ValueError('Tên/tỉnh từ điển không hợp lệ')
-            kind, words = parsed
+            kind, words, _ = parsed
             for key in cac_dang(words):
                 self.index[item['province'], kind, key][item['canonical'].casefold()] = item
+                self.index_bare[item['province'], key][item['canonical'].casefold()] = item
 
     def ung_vien(self, value, ma_tinh):
         """Trả cả va chạm và xung đột dấu; không chọn tên thay caller."""
         parsed = tach_ten(value)
         if not parsed or not ma_tinh:
             return []
-        kind, words = parsed
+        kind, words, co_tien_to = parsed
         choices = list(self.index.get((ma_tinh, kind, khoa(words)), {}).values())
+        if not choices and (kind == 'Đường' or not co_tien_to):
+            choices = list(self.index_bare.get((ma_tinh, khoa(words)), {}).values())
         out = []
         for item in sorted(choices, key=lambda x: x['canonical']):
-            _, canonical_words = tach_ten(item['canonical'])
-            out.append({'gia_tri': kind + ' ' + ' '.join(canonical_words),
+            item_parsed = tach_ten(item['canonical'])
+            if not item_parsed:
+                continue
+            canonical_kind, canonical_words, _ = item_parsed
+            out.append({'gia_tri': canonical_kind + ' ' + ' '.join(canonical_words),
+                        'canonical_kind': canonical_kind,
                         'tuong_thich_dau': tuong_thich_dau(words, canonical_words),
                         'nguon': 'tu_dien_train_chua_xac_minh', 'ma_tinh': ma_tinh,
                         'train_ids': list(item['train_ids']), 'tu_dien_sha256': self.ma_bam,
                         'xac_minh_doc_lap': False})
         return out
 
-    def chuan_hoa(self, value, ma_tinh):
+    def chuan_hoa(self, value, ma_tinh, tien_to_mac_dinh=True):
+        parsed = tach_ten(value)
+        if not parsed or not ma_tinh:
+            return value, None
+        kind, words, co_tien_to = parsed
         choices = self.ung_vien(value, ma_tinh)
         # Không chọn bằng tần suất khi cùng khóa có nhiều tên, kể cả khác dấu.
         if len(choices) != 1:
@@ -94,6 +112,10 @@ class TuDienDuong:
         if not item['tuong_thich_dau']:
             return value, None
         new = item['gia_tri']
+        c_kind = item.get('canonical_kind', kind)
+        if not co_tien_to and not tien_to_mac_dinh:
+            if new.startswith(c_kind + ' '):
+                new = new[len(c_kind) + 1:]
         if new.casefold() == value.casefold():
             return value, None
         return new, {'nguon': 'tu_dien_train_chua_xac_minh', 'ma_tinh': ma_tinh,
@@ -117,7 +139,7 @@ def tao_tu_dien(train_path, output):
         if not row.get('canonical_usable') or not parsed or not ref.get('ma_tinh'):
             rejected['thieu_ten_tinh_hoac_nhan_khong_dung_duoc'] += 1
             continue
-        _, words = parsed
+        _, words, _ = parsed
         aliases = cac_dang(words)
         observed = []
         for field, a, b in row['detail_spans_raw']:

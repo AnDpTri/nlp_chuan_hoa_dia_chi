@@ -135,7 +135,10 @@ class BoTachCharCNN:
             raise ValueError('Bản thử giới hạn 2048 ký tự; đầu vào chưa được xử lý, không cắt ngắn')
         if not text:
             return NguCanhChar(raw, text, offsets, [], torch.empty(0, len(TAGS)))
-        ids = torch.tensor([[self.vocab.get(c, 1) for c in text]], dtype=torch.long)
+        alpha = [c for c in text if c.isalpha()]
+        is_all_caps = len(alpha) > 8 and (sum(c.isupper() for c in alpha) / len(alpha) > 0.7)
+        c_source = text.title() if (is_all_caps and len(text.title()) == len(text)) else text
+        ids = torch.tensor([[self.vocab.get(c, 1) for c in c_source]], dtype=torch.long)
         with torch.inference_mode():
             logits = self.model(ids, torch.ones_like(ids, dtype=torch.bool))[0]
             tags = [TAGS[i] for i in self.model.crf.decode(logits)]

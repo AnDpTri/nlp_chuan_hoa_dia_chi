@@ -152,7 +152,10 @@ def sinh_ung_vien(tokens: list[str], trie: Trie, bao_ve_chi_tiet: bool = True) -
                 if span[-1] in {"-", "–"}:
                     continue
                 text = " ".join(span)
-                if not spec and (text.isdigit() or (len(span) == 1 and len(khoa_ten(text)) < 3 and bo_dau(text) not in {"hn", "sg"})):
+                isolated_num = (text.isdigit() and 1 <= int(text) <= 35 and
+                                start > 0 and tokens[start-1] in {",", ";"} and
+                                (end == len(tokens) or tokens[end] in {",", ";"}))
+                if not spec and not isolated_num and (text.isdigit() or (len(span) == 1 and len(khoa_ten(text)) < 3 and bo_dau(text) not in {"hn", "sg"})):
                     continue
                 hits = trie.tim(text)
                 # Bản đầu chỉ sửa một ký tự khi có tiền tố hành chính rõ ràng.
@@ -163,7 +166,7 @@ def sinh_ung_vien(tokens: list[str], trie: Trie, bao_ve_chi_tiet: bool = True) -
                     changed_kind = bool(spec and spec[1] and bo_dau(dv.loai) != spec[1])
                     if spec and dv.cap not in spec[0]:
                         continue
-                    if not spec and dv.ten.isdigit():
+                    if not spec and not isolated_num and dv.ten.isdigit():
                         continue
                     exact = chu_ten(text) == chu_ten(dv.ten)
                     accent_conflicts = so_dau_mau_thuan(text, dv.ten) if not errors else 0
