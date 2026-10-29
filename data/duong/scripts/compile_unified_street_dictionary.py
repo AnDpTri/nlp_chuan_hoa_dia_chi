@@ -286,7 +286,7 @@ def compile_dictionary(out_file: str = "tu_dien_duong_v4.json"):
         "entries": sorted_entries,
     }
 
-    out_p = ROOT / "danh_gia/ket_qua/tu_dien_duong_v4.json"
+    out_p = ROOT / "danh_gia/ket_qua" / out_file
     out_p.parent.mkdir(parents=True, exist_ok=True)
     out_p.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Saved {len(sorted_entries)} unique verified street entries to {out_p}.")
@@ -297,4 +297,4 @@ def compile_dictionary(out_file: str = "tu_dien_duong_v4.json"):
 
 
 if __name__ == "__main__":
-    compile_dictionary()
+    compile_dictionary("tu_dien_duong_v5.json")

@@ -12,7 +12,7 @@ from danh_gia.chay_ban_thu import CORE, norm
 dm = DanhMuc()
 char_model = Path("mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt")
 ranker_p = Path("mo_hinh/thu_nghiem/char_v2_01/ranker.txt")
-td_p = Path("danh_gia/ket_qua/tu_dien_duong_v2.json")
+td_p = Path("danh_gia/ket_qua/tu_dien_duong_v5.json")
 
 extractor = BoTachCharCNN(char_model)
 pipeline = BoChuanHoa(

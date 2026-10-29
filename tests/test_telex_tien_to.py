@@ -60,5 +60,33 @@ class TelexPrefixTests(unittest.TestCase):
         self.assertTrue(result)
         self.assertTrue(all(raw[refined[u.bat_dau].bat_dau:refined[u.ket_thuc-1].ket_thuc]==raw for u in result))
 
+    def test_hau_to_hanh_chinh_tieng_anh(self):
+        dm = DanhMuc()
+        trie = dung_trie(dm)
+        # Test commune postfix
+        toks = [t.chu for t in token_co_vi_tri("Thai Hoa commune")]
+        cands = sinh_ung_vien(toks, trie, False)
+        xa_cands = [u for u in cands if u.cap == 'xa' and u.co_tien_to]
+        self.assertTrue(xa_cands)
+        self.assertEqual(xa_cands[0].bat_dau, 0)
+        self.assertEqual(xa_cands[0].ket_thuc, 3)
+
+        # Test district postfix
+        toks = [t.chu for t in token_co_vi_tri("Lap Thach district")]
+        cands = sinh_ung_vien(toks, trie, False)
+        huyen_cands = [u for u in cands if u.cap == 'huyen' and u.co_tien_to]
+        self.assertTrue(huyen_cands)
+        self.assertEqual(huyen_cands[0].bat_dau, 0)
+        self.assertEqual(huyen_cands[0].ket_thuc, 3)
+
+        # Test province postfix
+        toks = [t.chu for t in token_co_vi_tri("Vinh Phuc province")]
+        cands = sinh_ung_vien(toks, trie, False)
+        tinh_cands = [u for u in cands if u.cap == 'tinh' and u.co_tien_to]
+        self.assertTrue(tinh_cands)
+        self.assertEqual(tinh_cands[0].bat_dau, 0)
+        self.assertEqual(tinh_cands[0].ket_thuc, 3)
+
+
 
 if __name__=='__main__':unittest.main()

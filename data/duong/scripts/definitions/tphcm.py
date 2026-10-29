@@ -21,6 +21,7 @@ TPHCM_STREETS = [
     ('Phùng Khắc Khoan', 'Đường', 'Quận 1', 'Từ đường Trần Cao Vân đến đường Điện Biên Phủ', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', ''),
     ('Nguyễn Đình Chiểu', 'Đường', 'Quận 1, Quận 3', 'Từ đường Hoàng Sa qua Quận 1, Quận 3 đến đường Lý Thái Tổ', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', 'Đường Phan Đình Phùng cũ'),
     ('Điện Biên Phủ', 'Đường', 'Quận 1, Quận 3, Quận 10, Bình Thạnh', 'Từ ngã bảy Lý Thái Tổ qua Quận 3, Quận 1 đến cầu Sài Gòn', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', 'Đường Phan Thanh Giản cũ'),
+    ('Cách Mạng Tháng Tám', 'Đường', 'Quận 1, Quận 3, Quận 10, Tân Bình', 'Trục huyết mạch từ ngã sáu Phù Đổng qua Quận 3, Quận 10 đến ngã tư Bảy Hiền (Tân Bình)', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', 'CMT8; Cách Mạng Tháng 8; Đường CMT8; Lê Văn Duyệt cũ'),
     ('Nguyễn Du', 'Đường', 'Quận 1', 'Từ đường Tôn Đức Thắng qua trước Bưu điện Thành phố đến đường Cách Mạng Tháng Tám', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', ''),
     ('Chu Mạnh Trinh', 'Đường', 'Quận 1', 'Từ đường Nguyễn Du đến đường Lý Tự Trọng', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', ''),
     ('Thi Sách', 'Đường', 'Quận 1', 'Từ đường Lê Thánh Tôn đến đường Công trường Mê Linh', 'QĐ số 212/2006/QĐ-UBND của UBND TP.HCM', ''),

@@ -20,6 +20,21 @@ HANH_CHINH = [
     ("district", {"huyen"}, "quan"), ("ward", {"xa"}, "phuong"),
     ("city", {"tinh", "huyen"}, "thanh pho"), ("province", {"tinh"}, "tinh"),
 ]
+
+# Hậu tố hành chính (tiếng Anh và viết tắt phổ biến trong địa chỉ)
+HAU_TO_HANH_CHINH = {
+    "province": ({"tinh"}, "tinh"),
+    "prov": ({"tinh"}, "tinh"),
+    "city": ({"tinh", "huyen"}, "thanh pho"),
+    "district": ({"huyen"}, "quan"),
+    "dist": ({"huyen"}, "quan"),
+    "commune": ({"xa"}, "xa"),
+    "comm": ({"xa"}, "xa"),
+    "ward": ({"xa"}, "phuong"),
+    "wd": ({"xa"}, "phuong"),
+    "town": ({"huyen", "xa"}, "thi xa"),
+}
+
 CHI_TIET = [
     ("so nha", "so_nha", "Số"), ("so", "so_nha", "Số"),
     ("ngo", "ngo_ngach_hem", "Ngõ"), ("ng", "ngo_ngach_hem", "Ngõ"),

@@ -10,7 +10,7 @@ from dataclasses import replace
 from .danh_muc import DanhMuc
 from .kieu_du_lieu import UngVien
 from .tien_xu_ly import bo_dau
-from .quy_tac import cac_tien_to
+from .quy_tac import cac_tien_to, HAU_TO_HANH_CHINH
 
 
 def khoa_ten(s):
@@ -161,13 +161,33 @@ def sinh_ung_vien(tokens: list[str], trie: Trie, bao_ve_chi_tiet: bool = True) -
                 # Bản đầu chỉ sửa một ký tự khi có tiền tố hành chính rõ ràng.
                 if not hits and spec and len(khoa_ten(text)) >= 5:
                     hits = trie.tim(text, 1)
+                # Kiểm tra hậu tố hành chính (postfix) khi không có tiền tố
+                postfix_match = None
+                if not spec and end < len(tokens):
+                    w = bo_dau(tokens[end]).lower()
+                    if w in HAU_TO_HANH_CHINH:
+                        post_spec = HAU_TO_HANH_CHINH[w]
+                        p_end = end + 1
+                        if p_end < len(tokens) and tokens[p_end] == ".":
+                            p_end += 1
+                        postfix_match = (p_end, post_spec)
+
                 for ma, cay, errors in hits:
                     dv = dm.lay(cay, ma)
-                    changed_kind = bool(spec and spec[1] and bo_dau(dv.loai) != spec[1])
-                    if spec and dv.cap not in spec[0]:
+                    effective_spec = spec
+                    cur_end = end
+                    has_marker = bool(spec)
+
+                    if postfix_match and dv.cap in postfix_match[1][0]:
+                        effective_spec = postfix_match[1]
+                        cur_end = postfix_match[0]
+                        has_marker = True
+                    elif spec and dv.cap not in spec[0]:
                         continue
-                    if not spec and not isolated_num and dv.ten.isdigit():
+                    elif not spec and not isolated_num and dv.ten.isdigit():
                         continue
+
+                    changed_kind = bool(effective_spec and effective_spec[1] and bo_dau(dv.loai) != effective_spec[1])
                     exact = chu_ten(text) == chu_ten(dv.ten)
                     accent_conflicts = so_dau_mau_thuan(text, dv.ten) if not errors else 0
                     kind = "sai_chinh_ta" if errors else "chinh_xac" if exact else "khong_dau"
@@ -178,9 +198,9 @@ def sinh_ung_vien(tokens: list[str], trie: Trie, bao_ve_chi_tiet: bool = True) -
                     if changed_kind and not errors:
                         kind = "khac_loai"
                     kind_penalty = (2.5 if dv.cap == "xa" else .75) if changed_kind else 0.0
-                    score = 5.0 + .35*min(len(span), 5) + (4.0 if spec else 0.0) - 2.5*errors - kind_penalty - accent_conflicts
-                    uv = UngVien(i if spec else start, end, ma, cay, kind, score, dv.cap, bool(spec))
-                    key = (uv.bat_dau, end, ma, cay)
+                    score = 5.0 + .35*min(len(span), 5) + (4.0 if has_marker else 0.0) - 2.5*errors - kind_penalty - accent_conflicts
+                    uv = UngVien(i if spec else start, cur_end, ma, cay, kind, score, dv.cap, has_marker)
+                    key = (uv.bat_dau, cur_end, ma, cay)
                     if key not in found or score > found[key].diem:
                         found[key] = uv
     # Giữ nhánh ngắn để có thể xét ngữ cảnh cha-con, nhưng giảm điểm khi
