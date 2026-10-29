@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT))
 
 from src.chuan_ten_duong import tach_ten, TuDienDuong
+from src.danh_muc import DanhMuc
 from data.duong.scripts.definitions.hanoi import HANOI_STREETS
 from data.duong.scripts.definitions.tphcm import TPHCM_STREETS
 from data.duong.scripts.definitions.mientrung import (
@@ -43,7 +44,22 @@ def clean_name(name: str) -> str:
     return name
 
 
-def compile_dictionary():
+def make_canon(prefix: str, name: str) -> str:
+    prefix = clean_name(prefix)
+    name = clean_name(name)
+    if name.casefold().startswith(prefix.casefold() + " "):
+        return name
+    return f"{prefix} {name}"
+
+
+def compile_dictionary(out_file: str = "tu_dien_duong_v4.json"):
+    dm = DanhMuc()
+    tinh_names_map = {}
+    for (cay, ma), dv in dm.don_vi.items():
+        if dv.cap == "tinh":
+            tinh_names_map.setdefault(ma, set()).add(dv.ten.casefold())
+            tinh_names_map.setdefault(ma, set()).add(dv.ten.casefold().replace("tỉnh ", "").replace("thành phố ", ""))
+
     entries_map = {}
 
     def add_entry(prov: str, canonical: str, source_id: str, observed: list[str] = None):
@@ -53,7 +69,22 @@ def compile_dictionary():
         if not parsed:
             return
         kind, words, co_tien_to = parsed
+        k_len = len(kind.split())
+        while words and " ".join(words[:k_len]).casefold() == kind.casefold():
+            words = words[k_len:]
+        while words and words[0].casefold() in ("đường", "phố"):
+            words = words[1:]
+        while words and len(words) >= 2 and " ".join(words[:2]).casefold() in ("xa lộ", "đại lộ", "quốc lộ", "vành đai"):
+            words = words[2:]
+        if not words:
+            return
         full_canonical = kind + " " + " ".join(words)
+        core_name = " ".join(words).casefold()
+
+        # Không lấy tên đường trùng với tên của chính tỉnh đó (lỗi nhãn train)
+        prov_tinh_names = tinh_names_map.get(prov, set())
+        if core_name in prov_tinh_names:
+            return
 
         key = (prov, full_canonical.casefold())
         if key not in entries_map:
@@ -69,8 +100,29 @@ def compile_dictionary():
         forms = observed or [full_canonical, " ".join(words)]
         for f in forms:
             f_clean = clean_name(f)
+            f_parsed = tach_ten(f_clean)
+            if f_parsed:
+                f_kind, f_words, _ = f_parsed
+                fk_len = len(f_kind.split())
+                while f_words and " ".join(f_words[:fk_len]).casefold() == f_kind.casefold():
+                    f_words = f_words[fk_len:]
+                while f_words and f_words[0].casefold() in ("đường", "phố"):
+                    f_words = f_words[1:]
+                while f_words and len(f_words) >= 2 and " ".join(f_words[:2]).casefold() in ("xa lộ", "đại lộ", "quốc lộ", "vành đai"):
+                    f_words = f_words[2:]
+                if f_words:
+                    f_clean = f_kind + " " + " ".join(f_words)
+            if not f_clean:
+                continue
+            if f_clean.casefold() in prov_tinh_names or f_clean.casefold().replace("đường ", "").replace("phố ", "").replace("xa lộ ", "") in prov_tinh_names:
+                continue
             if f_clean and f_clean not in item["observed_forms"]:
                 item["observed_forms"].append(f_clean)
+        bare = " ".join(words)
+        if bare.casefold() not in prov_tinh_names and bare not in item["observed_forms"]:
+            item["observed_forms"].append(bare)
+        if full_canonical not in item["observed_forms"]:
+            item["observed_forms"].insert(0, full_canonical)
 
     # 1. Base train dictionary
     train_dict_p = ROOT / "danh_gia/ket_qua/sua_pipeline_cnn_v1_01/tu_dien_duong_train.json"
@@ -88,7 +140,7 @@ def compile_dictionary():
     # 2. Hanoi (prov 01)
     for item in HANOI_STREETS:
         name, prefix, district, desc, src, alias = item
-        canon = f"{prefix} {name}"
+        canon = make_canon(prefix, name)
         obs = [canon, name]
         if alias:
             for al in alias.split(";"):
@@ -99,7 +151,7 @@ def compile_dictionary():
     # 3. TPHCM (prov 79)
     for item in TPHCM_STREETS:
         name, prefix, district, desc, src, alias = item
-        canon = f"{prefix} {name}"
+        canon = make_canon(prefix, name)
         obs = [canon, name]
         if alias:
             for al in alias.split(";"):
@@ -110,7 +162,7 @@ def compile_dictionary():
     # 4. Danang (prov 48)
     for item in DANANG_STREETS:
         name, prefix, district, desc, src, alias = item
-        canon = f"{prefix} {name}"
+        canon = make_canon(prefix, name)
         obs = [canon, name]
         if alias:
             for al in alias.split(";"):
@@ -121,7 +173,7 @@ def compile_dictionary():
     # 5. Hai Phong (prov 31)
     for item in HAIPHONG_STREETS:
         name, prefix, district, desc, src, alias = item
-        canon = f"{prefix} {name}"
+        canon = make_canon(prefix, name)
         obs = [canon, name]
         if alias:
             for al in alias.split(";"):
@@ -132,7 +184,7 @@ def compile_dictionary():
     # 6. Can Tho (prov 92)
     for item in CANTHO_STREETS:
         name, prefix, district, desc, src, alias = item
-        canon = f"{prefix} {name}"
+        canon = make_canon(prefix, name)
         obs = [canon, name]
         if alias:
             for al in alias.split(";"):
@@ -143,7 +195,7 @@ def compile_dictionary():
     # 7. Hue (prov 46)
     for item in HUE_STREETS:
         name, prefix, district, desc, src, alias = item
-        canon = f"{prefix} {name}"
+        canon = make_canon(prefix, name)
         obs = [canon, name]
         if alias:
             for al in alias.split(";"):
@@ -154,7 +206,7 @@ def compile_dictionary():
     # 8. Provincial cities
     for item in PROVINCIAL_CITIES_STREETS:
         prov_code, prov_name, st_name, prefix, district, desc, src, alias, status = item
-        canon = f"{prefix} {st_name}"
+        canon = make_canon(prefix, st_name)
         obs = [canon, st_name]
         if alias:
             for al in alias.split(";"):
@@ -165,7 +217,7 @@ def compile_dictionary():
     # 9. OSM verified
     for item in OSM_VERIFIED_STREETS:
         prov_code, prov_name, st_name, prefix, district, osm_id, src, alias, status = item
-        canon = f"{prefix} {st_name}"
+        canon = make_canon(prefix, st_name)
         obs = [canon, st_name]
         if alias:
             for al in alias.split(";"):
@@ -234,7 +286,7 @@ def compile_dictionary():
         "entries": sorted_entries,
     }
 
-    out_p = ROOT / "danh_gia/ket_qua/tu_dien_duong_v3.json"
+    out_p = ROOT / "danh_gia/ket_qua/tu_dien_duong_v4.json"
     out_p.parent.mkdir(parents=True, exist_ok=True)
     out_p.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Saved {len(sorted_entries)} unique verified street entries to {out_p}.")

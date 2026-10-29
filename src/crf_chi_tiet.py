@@ -100,15 +100,30 @@ class NguCanhCRF:
                 b -= 1
             if a >= b:
                 continue
+            # Không lấy thành phần là 'thành phố' làm đường
+            if f == 'duong' and a > 0:
+                prev_tok = bo_dau(self.tokens[a-1].casefold())
+                curr_tok = bo_dau(self.tokens[a].casefold())
+                if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
+                    continue
             marker = khop_tien_to(self.tokens, a, CHI_TIET)
             if marker:
                 proper_field = marker[1][0]
                 if proper_field in FIELDS:
                     f = proper_field
+            if f == 'duong' and a > 0:
+                prev_tok = bo_dau(self.tokens[a-1].casefold())
+                curr_tok = bo_dau(self.tokens[a].casefold())
+                if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
+                    continue
             value, guessed = dinh_dang_span(self.tokens[a:b], f, tien_to_mac_dinh=tien_to_mac_dinh,
                                            tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
             if f == 'thon_xom' and value.casefold() in ('khu', 'khu đô thị'):
                 value = ''
+            if f == 'so_nha':
+                num_val = value.casefold().replace('số', '').strip()
+                if num_val.isdigit() and len(num_val) in (5, 6) and (b >= len(self.tokens) - 2 or all(not any(c.isalnum() for c in self.tokens[k]) for k in range(b, len(self.tokens)))):
+                    value = ''
             if value and a < b:
                 values[f].append(value)
                 output_spans.append({'truong': f, 'bat_dau': a, 'ket_thuc': b, 'gia_tri': value})
@@ -119,15 +134,31 @@ class NguCanhCRF:
         for i in unknown_candidates:
             if i in used:
                 continue
+            if i > 0:
+                prev_tok = bo_dau(self.tokens[i-1].casefold())
+                curr_tok = bo_dau(self.tokens[i].casefold())
+                if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
+                    continue
+                if prev_tok in ('khu', 'to', 'khoi') and curr_tok == 'pho':
+                    continue
             marker = khop_tien_to(self.tokens, i, CHI_TIET)
             if marker:
                 end, (f, label) = marker
+                if f == 'duong' and i > 0:
+                    prev_tok = bo_dau(self.tokens[i-1].casefold())
+                    curr_tok = bo_dau(self.tokens[i].casefold())
+                    if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
+                        continue
                 j = end
                 while j < len(self.tokens) and j not in used and self.tokens[j] not in {',', ';'}:
                     j += 1
                 if j > i:
                     val, g = dinh_dang_span(self.tokens[i:j], f, tien_to_mac_dinh=tien_to_mac_dinh,
                                             tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
+                    if f == 'so_nha':
+                        num_val = val.casefold().replace('số', '').strip()
+                        if num_val.isdigit() and len(num_val) in (5, 6) and (j >= len(self.tokens) - 2 or all(not any(c.isalnum() for c in self.tokens[k]) for k in range(j, len(self.tokens)))):
+                            val = ''
                     if val:
                         values[f].append(val)
                         output_spans.append({'truong': f, 'bat_dau': i, 'ket_thuc': j, 'gia_tri': val})
