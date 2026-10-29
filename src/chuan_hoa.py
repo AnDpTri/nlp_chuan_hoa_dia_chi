@@ -14,7 +14,8 @@ class BoChuanHoa:
     PHIEN_BAN = "baseline_luat_v3"
     def __init__(self, danh_muc: DanhMuc | None = None, beam: int = 40, bo_tach=None, bo_xep_hang=None,
                  tu_dien_duong=None, bao_ve_duong=False, hop_dong=False, tien_to_mac_dinh: bool = True,
-                 tien_to_so_nha: bool | None = None, tien_to_duong: bool | None = None):
+                 tien_to_so_nha: bool | None = None, tien_to_duong: bool | None = None,
+                 bo_tach_phu=None):
         if bo_xep_hang is not None and not hasattr(bo_tach, 'chuan_bi_chuoi'):
             raise ValueError('Ranker thử nghiệm cần bộ nhận diện có đầu ra ký tự')
         self.danh_muc = danh_muc or DanhMuc()
@@ -22,6 +23,7 @@ class BoChuanHoa:
             raise ValueError("beam phải >= 1")
         self.beam = beam
         self.bo_tach = bo_tach
+        self.bo_tach_phu = bo_tach_phu
         self.bo_xep_hang = bo_xep_hang
         self.tu_dien_duong = tu_dien_duong
         self.bao_ve_duong = bao_ve_duong
@@ -203,6 +205,73 @@ class BoChuanHoa:
                                 unknown = [u for u in unknown if u != start_idx - 1]
                                 break
                             start_idx -= 1
+                    verified = bool(name_evidence)
+                    if not verified and curr_duong and ma_tinh:
+                        ung = self.tu_dien_duong.ung_vien(curr_duong, ma_tinh)
+                        if len(ung) == 1 and ung[0]['tuong_thich_dau']:
+                            verified = True
+                    if not verified and ma_tinh:
+                        so_nha_spans = [s for s in spans if s.get('truong') == 'so_nha']
+                        if duong_spans and so_nha_spans:
+                            d_start = duong_spans[0]['bat_dau']
+                            d_end = duong_spans[-1]['ket_thuc']
+                            sns = so_nha_spans[-1]
+                            if sns['ket_thuc'] == d_start and tokens[d_start - 1].isdigit():
+                                cand = ' '.join(tokens[d_start - 1 : d_end])
+                                cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
+                                if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
+                                    cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
+                                        cand, ma_tinh,
+                                        tien_to_mac_dinh=self.tien_to_mac_dinh,
+                                        tien_to_duong=self.tien_to_duong
+                                    )
+                                    new_duong = cand_new
+                                    name_evidence = cand_ev or cand_matches[0]
+                                    verified = True
+                                    sns['ket_thuc'] -= 1
+                                    if sns['ket_thuc'] <= sns['bat_dau']:
+                                        detail['so_nha'] = ''
+                                    else:
+                                        from .crf_chi_tiet import dinh_dang_span
+                                        detail['so_nha'], _ = dinh_dang_span(
+                                            tokens[sns['bat_dau']:sns['ket_thuc']], 'so_nha',
+                                            tien_to_mac_dinh=self.tien_to_mac_dinh,
+                                            tien_to_so_nha=self.tien_to_so_nha
+                                        )
+                    if not verified and self.bo_tach_phu is not None and ma_tinh and duong_spans:
+                        vdb_ctx = None
+                        for ds in duong_spans:
+                            a, b = ds['bat_dau'], ds['ket_thuc']
+                            if b in unknown and b < len(tokens) and tokens[b] not in (',', ';', '.', '-'):
+                                if vdb_ctx is None:
+                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
+                                while b < len(tokens) and b in unknown and tokens[b] not in (',', ';', '.', '-'):
+                                    if b < len(vdb_ctx.labels) and vdb_ctx.labels[b] in ('I-duong', 'B-duong'):
+                                        ds['ket_thuc'] = b + 1
+                                        unknown = [u for u in unknown if u != b]
+                                        b += 1
+                                    else:
+                                        break
+                            if (a - 1) in unknown and (a - 1) >= 0 and tokens[a - 1] not in (',', ';', '.', '-'):
+                                if vdb_ctx is None:
+                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
+                                while (a - 1) >= 0 and (a - 1) in unknown and tokens[a - 1] not in (',', ';', '.', '-'):
+                                    if (a - 1) < len(vdb_ctx.labels) and vdb_ctx.labels[a - 1] in ('I-duong', 'B-duong'):
+                                        ds['bat_dau'] = a - 1
+                                        unknown = [u for u in unknown if u != a - 1]
+                                        a -= 1
+                                    else:
+                                        break
+                        cand = ' '.join(tokens[duong_spans[0]['bat_dau'] : duong_spans[-1]['ket_thuc']])
+                        cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
+                        if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
+                            cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
+                                cand, ma_tinh,
+                                tien_to_mac_dinh=self.tien_to_mac_dinh,
+                                tien_to_duong=self.tien_to_duong
+                            )
+                            new_duong = cand_new
+                            name_evidence = cand_ev or cand_matches[0]
             if not new_duong and ma_tinh and unknown:
                 u_sorted = sorted(unknown)
                 groups = []
