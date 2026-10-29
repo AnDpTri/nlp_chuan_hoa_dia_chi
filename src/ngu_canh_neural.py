@@ -19,7 +19,10 @@ class NguCanhChar(NguCanhCRF):
         boundaries = {p for _, a, b in spans for p in (a, b)}
         records = []
         for tok in token_co_vi_tri(raw):
-            cuts = sorted({tok.bat_dau, tok.ket_thuc} | {b for b in boundaries if tok.bat_dau < b < tok.ket_thuc})
+            if tok.chu.isalpha():
+                cuts = [tok.bat_dau, tok.ket_thuc]
+            else:
+                cuts = sorted({tok.bat_dau, tok.ket_thuc} | {b for b in boundaries if tok.bat_dau < b < tok.ket_thuc})
             for a, b in zip(cuts, cuts[1:]):
                 records.append(Token(unicodedata.normalize('NFC', raw[a:b]), a, b))
         labels, p_o, probabilities = [], [], []
@@ -43,4 +46,3 @@ class NguCanhChar(NguCanhCRF):
         # Điểm tương thích vùng hành chính: O/xa/huyen/tinh, loại các vai trò chi tiết.
         ids = [0] + [TAG_ID[p + r] for r in ('xa', 'huyen', 'tinh') for p in ('B-', 'I-')]
         return sum(max(self.role_log_probs[i][j] for j in ids) for i in occupied)
-

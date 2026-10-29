@@ -45,14 +45,23 @@ def ghep_so_nha(tokens):
     return re.sub(r'\s+([,.;:])', r'\1', res)
 
 
-def dinh_dang_span(tokens, field, tien_to_mac_dinh=True):
+def dinh_dang_span(tokens, field, tien_to_mac_dinh=True, tien_to_so_nha=None, tien_to_duong=None):
+    if tien_to_so_nha is None:
+        tien_to_so_nha = tien_to_mac_dinh
+    if tien_to_duong is None:
+        tien_to_duong = tien_to_mac_dinh
     marker = tien_to_hien_thi(tokens, field)
     if marker and marker[1][0] == field:
         end, (_, label) = marker
         body = tokens[end:]
     else:
         body = tokens
-        label = {'so_nha': 'Số', 'duong': 'Đường'}.get(field, '') if tien_to_mac_dinh else ''
+        if field == 'so_nha':
+            label = 'Số' if tien_to_so_nha else ''
+        elif field == 'duong':
+            label = 'Đường' if tien_to_duong else ''
+        else:
+            label = ''
     if not body:
         return '', False
     if field == 'duong' and label in ('Đường', ''):
@@ -71,7 +80,7 @@ def dinh_dang_span(tokens, field, tien_to_mac_dinh=True):
         while clean_tokens and clean_tokens[-1] in {',', ';', '.'}:
             clean_tokens.pop()
         value = ghep_so_nha(clean_tokens)
-        if not tien_to_mac_dinh:
+        if not tien_to_so_nha:
             return value, False
     else:
         value = viet_ten(body)

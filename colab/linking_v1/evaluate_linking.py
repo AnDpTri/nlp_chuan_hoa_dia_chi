@@ -40,7 +40,7 @@ from src.lien_ket_v1.du_lieu_linking import (
 )
 from src.lien_ket_v1.adapter_linking import NeuralLinkingAdapter
 from src.danh_muc import DanhMuc
-from src.pipeline import chuan_hoa_dia_chi
+from src.chuan_hoa import BoChuanHoa
 from src.videberta import encode_text, load_tokenizer
 from transformers import DebertaV2Config, DebertaV2Model
 from safetensors.torch import load_file
@@ -221,16 +221,18 @@ def evaluate_e2e_dataset(
     field_matches = {"so_nha": 0, "ngo_ngach_hem": 0, "duong": 0, "thon_xom": 0, "xa_phuong": 0, "tinh_thanh": 0}
     per_sentence_results = []
 
+    pipeline = BoChuanHoa(danh_muc=DanhMuc(thu_muc=clean_dir) if clean_dir else DanhMuc())
+
     for row in dev_rows:
         raw_input = row.get("dia_chi_goc") or row.get("input") or row.get("raw") or ""
-        res = chuan_hoa_dia_chi(raw_input, clean_dir=clean_dir)
+        res = pipeline.chuan_hoa(raw_input)
 
-        pred_so_nha = (res.get("so_nha") or "").strip()
-        pred_ngo = (res.get("ngo_ngach_hem") or "").strip()
-        pred_duong = (res.get("duong") or "").strip()
-        pred_thon = (res.get("thon_xom") or "").strip()
-        pred_xa = (res.get("xa_phuong") or "").strip()
-        pred_tinh = (res.get("tinh_thanh") or "").strip()
+        pred_so_nha = (getattr(res, "so_nha", "") or "").strip()
+        pred_ngo = (getattr(res, "ngo_ngach_hem", "") or "").strip()
+        pred_duong = (getattr(res, "duong", "") or "").strip()
+        pred_thon = (getattr(res, "thon_xom", "") or "").strip()
+        pred_xa = (getattr(res, "xa_phuong", "") or "").strip()
+        pred_tinh = (getattr(res, "tinh_thanh", "") or "").strip()
 
         gold_so_nha = (row.get("so_nha") or "").strip()
         gold_ngo = (row.get("ngo_ngach_hem") or "").strip()

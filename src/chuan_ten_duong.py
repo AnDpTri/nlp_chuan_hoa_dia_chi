@@ -99,7 +99,9 @@ class TuDienDuong:
                         'xac_minh_doc_lap': False})
         return out
 
-    def chuan_hoa(self, value, ma_tinh, tien_to_mac_dinh=True):
+    def chuan_hoa(self, value, ma_tinh, tien_to_mac_dinh=True, tien_to_duong=None):
+        if tien_to_duong is None:
+            tien_to_duong = tien_to_mac_dinh
         parsed = tach_ten(value)
         if not parsed or not ma_tinh:
             return value, None
@@ -113,7 +115,7 @@ class TuDienDuong:
             return value, None
         new = item['gia_tri']
         c_kind = item.get('canonical_kind', kind)
-        if not co_tien_to and not tien_to_mac_dinh:
+        if not co_tien_to and not tien_to_duong:
             if new.startswith(c_kind + ' '):
                 new = new[len(c_kind) + 1:]
         if new.casefold() == value.casefold():

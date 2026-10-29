@@ -82,7 +82,11 @@ class NguCanhCRF:
     def diem_hanh_chinh(self, occupied):
         return sum(math.log(max(self.p_o[i], 1e-8)) for i in occupied)
 
-    def tach(self, occupied, tien_to_mac_dinh=True):
+    def tach(self, occupied, tien_to_mac_dinh=True, tien_to_so_nha=None, tien_to_duong=None):
+        if tien_to_so_nha is None:
+            tien_to_so_nha = tien_to_mac_dinh
+        if tien_to_duong is None:
+            tien_to_duong = tien_to_mac_dinh
         tags = ['O' if i in occupied else tag for i, tag in enumerate(self.labels)]
         spans, _ = bio_spans(tags)
         values = {f: [] for f in FIELDS}
@@ -94,7 +98,17 @@ class NguCanhCRF:
                 a += 1
             while b > a and not any(c.isalnum() for c in self.tokens[b-1]):
                 b -= 1
-            value, guessed = dinh_dang_span(self.tokens[a:b], f, tien_to_mac_dinh=tien_to_mac_dinh)
+            if a >= b:
+                continue
+            marker = khop_tien_to(self.tokens, a, CHI_TIET)
+            if marker:
+                proper_field = marker[1][0]
+                if proper_field in FIELDS:
+                    f = proper_field
+            value, guessed = dinh_dang_span(self.tokens[a:b], f, tien_to_mac_dinh=tien_to_mac_dinh,
+                                           tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
+            if f == 'thon_xom' and value.casefold() in ('khu', 'khu đô thị'):
+                value = ''
             if value and a < b:
                 values[f].append(value)
                 output_spans.append({'truong': f, 'bat_dau': a, 'ket_thuc': b, 'gia_tri': value})
@@ -112,7 +126,8 @@ class NguCanhCRF:
                 while j < len(self.tokens) and j not in used and self.tokens[j] not in {',', ';'}:
                     j += 1
                 if j > i:
-                    val, g = dinh_dang_span(self.tokens[i:j], f, tien_to_mac_dinh=tien_to_mac_dinh)
+                    val, g = dinh_dang_span(self.tokens[i:j], f, tien_to_mac_dinh=tien_to_mac_dinh,
+                                            tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
                     if val:
                         values[f].append(val)
                         output_spans.append({'truong': f, 'bat_dau': i, 'ket_thuc': j, 'gia_tri': val})

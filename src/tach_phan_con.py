@@ -14,7 +14,12 @@ def viet_ten(tokens):
     return text
 
 
-def tach_co_dau_vet(tokens: list[str], da_dung: set[int], tien_to=None, tien_to_mac_dinh=True):
+def tach_co_dau_vet(tokens: list[str], da_dung: set[int], tien_to=None, tien_to_mac_dinh=True,
+                      tien_to_so_nha=None, tien_to_duong=None):
+    if tien_to_so_nha is None:
+        tien_to_so_nha = tien_to_mac_dinh
+    if tien_to_duong is None:
+        tien_to_duong = tien_to_mac_dinh
     values = {f: [] for f in FIELDS}
     spans = []
     used = set(da_dung)
@@ -77,7 +82,7 @@ def tach_co_dau_vet(tokens: list[str], da_dung: set[int], tien_to=None, tien_to_
             words = phrase.split()
             return len(rest) >= len(words) and all(khop_chu_tien_to(t, bo_dau(w), w) for t, w in zip(rest, words))
         if rest and rest[0][0].isalnum() and sum(t.isalpha() for t in rest) >= 2 and not any(starts_with(p) for p in blocked):
-            luu("duong", start, end, ("Đường " if tien_to_mac_dinh else "") + viet_ten(rest))
+            luu("duong", start, end, ("Đường " if tien_to_duong else "") + viet_ten(rest))
             return True
         return False
 
@@ -101,7 +106,7 @@ def tach_co_dau_vet(tokens: list[str], da_dung: set[int], tien_to=None, tien_to_
             if f == "so_nha":
                 if number(j):
                     end, value = house_number(j)
-                    luu(f, i, end, f"Số {value}" if tien_to_mac_dinh else value)
+                    luu(f, i, end, f"Số {value}" if tien_to_so_nha else value)
                     inferred = implicit_road() or inferred
                     i = end
                     continue
@@ -119,7 +124,7 @@ def tach_co_dau_vet(tokens: list[str], da_dung: set[int], tien_to=None, tien_to_
         segment_start = i == 0 or tokens[i-1] in {",", ";"}
         if segment_start and not values["so_nha"] and number(i):
             end, value = house_number(i)
-            luu("so_nha", i, end, f"Số {value}" if tien_to_mac_dinh else value)
+            luu("so_nha", i, end, f"Số {value}" if tien_to_so_nha else value)
             # Tách ngay trước khi tên riêng bị nhận thành một tiền tố riêng lẻ.
             inferred = implicit_road() or inferred
         i += 1

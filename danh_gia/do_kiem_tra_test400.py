@@ -128,8 +128,19 @@ if __name__ == "__main__":
     parser.add_argument("--videberta-model", type=Path, default=None)
     parser.add_argument("--ranker", type=Path, default=ROOT / "mo_hinh/thu_nghiem/char_v1_01/ranker.txt")
     parser.add_argument("--tu-dien-duong", type=Path, default=ROOT / "danh_gia/ket_qua/sua_pipeline_cnn_v1_01/tu_dien_duong_train.json")
+    parser.add_argument("--tien-to-mac-dinh", action="store_true", default=False, help="Áp dụng tiền tố mặc định (Số, Đường) khi đầu vào không có tiền tố")
+    parser.add_argument("--tien-to-so-nha", type=str, default=None, help="Bật/tắt tiền tố Số: true hoặc false")
+    parser.add_argument("--tien-to-duong", type=str, default=None, help="Bật/tắt tiền tố Đường: true hoặc false")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
+
+    def parse_opt_bool(val):
+        if val is None:
+            return None
+        return val.lower() in ("1", "true", "yes", "t")
+
+    opt_so_nha = parse_opt_bool(args.tien_to_so_nha)
+    opt_duong = parse_opt_bool(args.tien_to_duong)
 
     from src.danh_muc import DanhMuc
     from src.char_cnn import BoTachCharCNN
@@ -154,7 +165,9 @@ if __name__ == "__main__":
         bo_xep_hang=bo_xep_hang,
         tu_dien_duong=tu_dien_duong,
         bao_ve_duong=True,
-        tien_to_mac_dinh=False
+        tien_to_mac_dinh=args.tien_to_mac_dinh,
+        tien_to_so_nha=opt_so_nha,
+        tien_to_duong=opt_duong
     )
 
     ket_qua = danh_gia_test_set(pipeline)

@@ -1,0 +1,75 @@
+{
+  "device": "cpu",
+  "torch_threads": 4,
+  "torch_version": "2.15.0+cpu",
+  "samples": 5768,
+  "batch_size": 32,
+  "parameters": 351310,
+  "seed": 20261029,
+  "epochs_requested": 12,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.3128,
+      "seconds": 29.42
+    },
+    {
+      "epoch": 2,
+      "loss": 0.1143,
+      "seconds": 30.92
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0713,
+      "seconds": 37.13
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0638,
+      "seconds": 35.37
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0515,
+      "seconds": 30.52
+    },
+    {
+      "epoch": 6,
+      "loss": 0.042,
+      "seconds": 29.88
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0363,
+      "seconds": 30.1
+    },
+    {
+      "epoch": 8,
+      "loss": 0.035,
+      "seconds": 24.46
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0308,
+      "seconds": 19.5
+    },
+    {
+      "epoch": 10,
+      "loss": 0.0282,
+      "seconds": 19.35
+    },
+    {
+      "epoch": 11,
+      "loss": 0.0263,
+      "seconds": 19.25
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0239,
+      "seconds": 19.57
+    }
+  ],
+  "train_seconds": 325.48,
+  "objective": "partial BIO CRF NLL/length + 0.2 CE",
+  "train_cnn_sha256": "74610ba79d7ec5ffedc9bb0aff9ed798824378e1f0cd895524dcff94b492190e"
+}
