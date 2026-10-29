@@ -74,6 +74,32 @@ def tao_nhan(n, spans):
     return tags
 
 
+def la_toa_nha_chung_cu(tokens, a, b):
+    first = bo_dau(tokens[a].rstrip('.').casefold())
+    if first in ('cc', 'ktt', 'tt', 'ct', 'block'):
+        return True
+    span_bd = bo_dau(' '.join(tokens[a:b]).casefold())
+    for kw in ('chung cu', 'tap the', 'khu tap the', 'toa nha', 'cao oc', 'can ho', 'kdt', 'khu do thi', 'phong ', 'tang '):
+        if span_bd.startswith(kw):
+            return True
+    p = a - 1
+    while p >= 0 and tokens[p] in (':', '-', '.', ',', ';'):
+        p -= 1
+    if p >= 0:
+        prev_1 = bo_dau(tokens[p].rstrip('.').casefold())
+        if prev_1 in ('cc', 'ktt', 'tt'):
+            return True
+        if p >= 1:
+            prev_2 = bo_dau(' '.join(tokens[p-1:p+1]).casefold())
+            if prev_2 in ('chung cu', 'tap the', 'toa nha', 'cao oc', 'can ho', 'khu tt', 'ktt'):
+                return True
+        if p >= 2:
+            prev_3 = bo_dau(' '.join(tokens[p-2:p+1]).casefold())
+            if prev_3 in ('khu tap the', 'khu chung cu', 'khu can ho'):
+                return True
+    return False
+
+
 class NguCanhCRF:
     def __init__(self, tokens, labels, p_o):
         self.tokens, self.labels, self.p_o = tokens, labels, p_o
@@ -106,6 +132,22 @@ class NguCanhCRF:
                 curr_tok = bo_dau(self.tokens[a].casefold())
                 if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
                     continue
+            if f == 'duong' and la_toa_nha_chung_cu(self.tokens, a, b):
+                continue
+            if f == 'so_nha':
+                if b - a > 1 and bo_dau(self.tokens[b-1].rstrip('.').casefold()) in ('cmt8', 'cmt-8', 'cmt8.'):
+                    b -= 1
+                if b - a > 1 and b < len(self.tokens) and bo_dau(self.tokens[b].rstrip('.').casefold()) in (
+                    'street', 'str', 'st', 'road', 'rd', 'avenue', 'ave'
+                ):
+                    b -= 1
+                if (b < len(self.tokens) 
+                    and len(self.tokens[b]) == 1 
+                    and self.tokens[b].isalpha() 
+                    and self.tokens[b].lower() not in ('đ', 'p', 'q', 'x', 'h', 't')
+                    and self.tokens[b-1][-1].isdigit()
+                    and (b + 1 == len(self.tokens) or (b + 1 < len(self.tokens) and self.tokens[b+1] in (',', ';')))):
+                    b += 1
             marker = khop_tien_to(self.tokens, a, CHI_TIET)
             if marker:
                 proper_field = marker[1][0]
@@ -124,6 +166,22 @@ class NguCanhCRF:
                 curr_tok = bo_dau(self.tokens[a].casefold())
                 if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
                     continue
+            if f == 'duong' and la_toa_nha_chung_cu(self.tokens, a, b):
+                continue
+            if f == 'so_nha':
+                if b - a > 1 and bo_dau(self.tokens[b-1].rstrip('.').casefold()) in ('cmt8', 'cmt-8', 'cmt8.'):
+                    b -= 1
+                if b - a > 1 and b < len(self.tokens) and bo_dau(self.tokens[b].rstrip('.').casefold()) in (
+                    'street', 'str', 'st', 'road', 'rd', 'avenue', 'ave'
+                ):
+                    b -= 1
+                if (b < len(self.tokens) 
+                    and len(self.tokens[b]) == 1 
+                    and self.tokens[b].isalpha() 
+                    and self.tokens[b].lower() not in ('đ', 'p', 'q', 'x', 'h', 't')
+                    and self.tokens[b-1][-1].isdigit()
+                    and (b + 1 == len(self.tokens) or (b + 1 < len(self.tokens) and self.tokens[b+1] in (',', ';')))):
+                    b += 1
             value, guessed = dinh_dang_span(self.tokens[a:b], f, tien_to_mac_dinh=tien_to_mac_dinh,
                                            tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
             if f == 'thon_xom' and value.casefold() in ('khu', 'khu đô thị'):

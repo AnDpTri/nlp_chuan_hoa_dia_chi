@@ -27,8 +27,21 @@ def sang_cay_moi(duong_di: DuongDi, phan_con: dict[str, str], danh_muc: DanhMuc)
     """Trả về (ma_xa_moi, ma_tinh_moi, canh_bao)."""
     wards, provinces = tap_dich(duong_di, danh_muc)
     warnings = []
-    if len(wards) > 1:
-        warnings.append("xa_bi_chia")
+    selected_ward = ""
+    if len(wards) == 1:
+        selected_ward = next(iter(wards))
+    elif len(wards) > 1:
+        from .tien_xu_ly import bo_dau
+        xa_u = next((u for u in duong_di.ung_vien if u.cap == "xa"), None)
+        if xa_u:
+            mention_name = bo_dau(danh_muc.lay(xa_u.cay, xa_u.ma).ten.lower())
+            name_matches = [w for w in wards if bo_dau(danh_muc.lay("moi", w).ten.lower()) == mention_name]
+            if len(name_matches) == 1:
+                selected_ward = name_matches[0]
+            else:
+                warnings.append("xa_bi_chia")
+        else:
+            warnings.append("xa_bi_chia")
     if not wards and any(u.cap == "xa" for u in duong_di.ung_vien):
         warnings.append("khong_co_doi_chieu")
-    return (next(iter(wards)) if len(wards) == 1 else "", next(iter(provinces)) if len(provinces) == 1 else "", warnings)
+    return (selected_ward, next(iter(provinces)) if len(provinces) == 1 else "", warnings)

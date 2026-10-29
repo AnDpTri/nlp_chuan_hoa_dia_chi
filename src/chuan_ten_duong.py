@@ -37,12 +37,35 @@ def khoa(words):
     return ''.join(bo_dau(w) for w in words)
 
 
+SO_CHU = {
+    'mot': ('mot', 'm', '1'),
+    'hai': ('hai', 'h', '2'),
+    'ba': ('ba', 'b', '3'),
+    'bon': ('bon', 'b', '4'),
+    'tu': ('tu', 't', '4'),
+    'nam': ('nam', 'n', '5'),
+    'sau': ('sau', 's', '6'),
+    'bay': ('bay', 'b', '7'),
+    'tam': ('tam', 't', '8'),
+    'chin': ('chin', 'c', '9'),
+    'muoi': ('muoi', 'm', '10'),
+}
+
+
 def cac_dang(words):
     """Dạng đầy đủ và tổ hợp nguyên từ/chữ đầu, không sinh biến thể địa chỉ."""
     folded = [bo_dau(w) for w in words]
     out = {''.join(folded)}
-    if 2 <= len(words) <= 7 and all(w.isalpha() for w in folded):
-        for parts in itertools.product(*[(w, w[0]) for w in folded]):
+    if 2 <= len(words) <= 7 and all(w.isalnum() for w in folded):
+        choices = []
+        for w in folded:
+            if w in SO_CHU:
+                choices.append(SO_CHU[w])
+            elif w.isdigit():
+                choices.append((w,))
+            else:
+                choices.append((w, w[0]))
+        for parts in itertools.product(*choices):
             key = ''.join(parts)
             if len(key) >= 3:
                 out.add(key)
