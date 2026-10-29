@@ -1,0 +1,226 @@
+{
+  "thoi_diem_utc": "2026-10-29T06:23:47.060264+00:00",
+  "phien_ban_loi": "baseline_luat_v2",
+  "so_mau": 1136,
+  "beam_goc": 40,
+  "beam_doi_chung": 160,
+  "khop_6": 839,
+  "oracle_6_trong_beam_goc": 890,
+  "them_nhanh_khop_6_khi_mo_beam": 0,
+  "co_che": {
+    "co_nhanh_dung_ma_nhung_chi_tiet_chua_khop_nhan": 228,
+    "co_nhanh_khop_6_nhung_xep_sau": 30,
+    "khop_6_truong": 839,
+    "chua_tach_duoc_hanh_chinh_chi_tiet_va_nhan": 18,
+    "quyet_dinh_giu_mo_ho_lam_lech_nhan": 21
+  },
+  "hanh_chinh": {
+    "nhan_va_du_doan_cung_trong_xa": 198,
+    "khop_ma_xa_va_tinh": 861,
+    "nhan_xa_trong_du_doan_co": 22,
+    "co_nhanh_dung_ma_nhung_xep_sau": 20,
+    "khong_sinh_dich_tham_chieu": 13,
+    "giu_mo_ho_o_buoc_quyet_dinh": 22
+  },
+  "theo_nhom": {
+    "tat_ca": {
+      "so_mau": 1136,
+      "khop_6": 839,
+      "co_che": {
+        "co_nhanh_dung_ma_nhung_chi_tiet_chua_khop_nhan": 228,
+        "co_nhanh_khop_6_nhung_xep_sau": 30,
+        "khop_6_truong": 839,
+        "chua_tach_duoc_hanh_chinh_chi_tiet_va_nhan": 18,
+        "quyet_dinh_giu_mo_ho_lam_lech_nhan": 21
+      }
+    },
+    "nguon:osm_public": {
+      "so_mau": 400,
+      "khop_6": 228,
+      "co_che": {
+        "co_nhanh_dung_ma_nhung_chi_tiet_chua_khop_nhan": 132,
+        "co_nhanh_khop_6_nhung_xep_sau": 20,
+        "khop_6_truong": 228,
+        "chua_tach_duoc_hanh_chinh_chi_tiet_va_nhan": 10,
+        "quyet_dinh_giu_mo_ho_lam_lech_nhan": 10
+      }
+    },
+    "khong_co_co_ra_nhan": {
+      "so_mau": 1056,
+      "khop_6": 819,
+      "co_che": {
+        "co_nhanh_dung_ma_nhung_chi_tiet_chua_khop_nhan": 171,
+        "co_nhanh_khop_6_nhung_xep_sau": 30,
+        "khop_6_truong": 819,
+        "chua_tach_duoc_hanh_chinh_chi_tiet_va_nhan": 15,
+        "quyet_dinh_giu_mo_ho_lam_lech_nhan": 21
+      }
+    },
+    "co_co_ra_nhan": {
+      "so_mau": 80,
+      "khop_6": 20,
+      "co_che": {
+        "co_nhanh_dung_ma_nhung_chi_tiet_chua_khop_nhan": 57,
+        "khop_6_truong": 20,
+        "chua_tach_duoc_hanh_chinh_chi_tiet_va_nhan": 3
+      }
+    },
+    "nguon:danh_muc_hanh_chinh": {
+      "so_mau": 736,
+      "khop_6": 611,
+      "co_che": {
+        "khop_6_truong": 611,
+        "co_nhanh_dung_ma_nhung_chi_tiet_chua_khop_nhan": 96,
+        "quyet_dinh_giu_mo_ho_lam_lech_nhan": 11,
+        "chua_tach_duoc_hanh_chinh_chi_tiet_va_nhan": 8,
+        "co_nhanh_khop_6_nhung_xep_sau": 10
+      }
+    }
+  },
+  "quyet_dinh_tung_truong": {
+    "so_nha": {
+      "dien_khop": 922,
+      "dien_lech_nhan": 32,
+      "de_trong_khi_nhan_co": 20,
+      "cung_trong": 162,
+      "so_dien": 954,
+      "ty_le_dien_pct": 83.979,
+      "ty_le_lech_trong_so_dien_pct": 3.354
+    },
+    "ngo_ngach_hem": {
+      "dien_khop": 129,
+      "dien_lech_nhan": 7,
+      "de_trong_khi_nhan_co": 0,
+      "cung_trong": 1000,
+      "so_dien": 136,
+      "ty_le_dien_pct": 11.972,
+      "ty_le_lech_trong_so_dien_pct": 5.147
+    },
+    "thon_xom": {
+      "dien_khop": 21,
+      "dien_lech_nhan": 6,
+      "de_trong_khi_nhan_co": 0,
+      "cung_trong": 1109,
+      "so_dien": 27,
+      "ty_le_dien_pct": 2.377,
+      "ty_le_lech_trong_so_dien_pct": 22.222
+    },
+    "duong": {
+      "dien_khop": 835,
+      "dien_lech_nhan": 157,
+      "de_trong_khi_nhan_co": 51,
+      "cung_trong": 93,
+      "so_dien": 992,
+      "ty_le_dien_pct": 87.324,
+      "ty_le_lech_trong_so_dien_pct": 15.827
+    },
+    "ma_xa": {
+      "dien_khop": 861,
+      "dien_lech_nhan": 23,
+      "de_trong_khi_nhan_co": 54,
+      "cung_trong": 198,
+      "so_dien": 884,
+      "ty_le_dien_pct": 77.817,
+      "ty_le_lech_trong_so_dien_pct": 2.602
+    },
+    "ma_tinh": {
+      "dien_khop": 1124,
+      "dien_lech_nhan": 1,
+      "de_trong_khi_nhan_co": 11,
+      "cung_trong": 0,
+      "so_dien": 1125,
+      "ty_le_dien_pct": 99.032,
+      "ty_le_lech_trong_so_dien_pct": 0.089
+    }
+  },
+  "loc_theo_canh_bao": {
+    "tat_ca": {
+      "so_mau": 1136,
+      "bao_phu_pct": 100.0,
+      "khop_6": 839,
+      "lech_6": 297,
+      "ty_le_lech_6_pct": 26.144
+    },
+    "khong_co_bat_ky_canh_bao_nao": {
+      "so_mau": 655,
+      "bao_phu_pct": 57.658,
+      "khop_6": 635,
+      "lech_6": 20,
+      "ty_le_lech_6_pct": 3.053
+    },
+    "co_it_nhat_mot_canh_bao": {
+      "so_mau": 481,
+      "bao_phu_pct": 42.342,
+      "khop_6": 204,
+      "lech_6": 277,
+      "ty_le_lech_6_pct": 57.588
+    }
+  },
+  "chi_tiet": {
+    "so_nha": {
+      "lech": 52,
+      "lech_chi_khac_dau": 0,
+      "lech_nhung_co_nhanh_khop": 1
+    },
+    "ngo_ngach_hem": {
+      "lech": 7,
+      "lech_chi_khac_dau": 0,
+      "lech_nhung_co_nhanh_khop": 3
+    },
+    "thon_xom": {
+      "lech": 6,
+      "lech_chi_khac_dau": 0,
+      "lech_nhung_co_nhanh_khop": 0
+    },
+    "duong": {
+      "lech": 208,
+      "lech_chi_khac_dau": 97,
+      "lech_nhung_co_nhanh_khop": 9
+    }
+  },
+  "co_ra_nhan": {
+    "noi_dung_nhan_chong_lan:duong": 40,
+    "noi_dung_nhan_nhieu_vi_tri:duong": 13,
+    "noi_dung_nhan_nhieu_vi_tri:so_nha": 6,
+    "noi_dung_nhan_khong_can_chinh:duong": 13,
+    "noi_dung_nhan_khong_can_chinh:so_nha": 2,
+    "noi_dung_nhan_nhieu_vi_tri:ngo_ngach_hem": 4,
+    "noi_dung_nhan_chong_lan:ngo_ngach_hem": 1,
+    "noi_dung_nhan_nhieu_vi_tri:thon_xom": 1,
+    "ten_dich_khac_ma:xa_phuong": 6
+  },
+  "ma_bam_dau_vao": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe",
+  "ma_bam_danh_muc": {
+    "cu_tinh.csv": "32755d21d198951adb6cfb562a74e3d18fddc526548791c5f66f9fc4d7441ead",
+    "moi_tinh.csv": "e18687784707867b3b44a70265fc37881dea5b8f41fd4f00d8b3462c6345da96",
+    "cu_huyen.csv": "0e7aa37a54ffd0ac4b87dac6f2c21ca122eef97b57e730bb0a44e572d68d0d4d",
+    "cu_tinh_huyen_xa.csv": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014",
+    "moi_tinh_xa.csv": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb",
+    "doi_chieu_xa_cu_moi.csv": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218"
+  },
+  "ma_bam_source": {
+    "src\\chuan_hoa.py": "2a8699c7d81f08623c72d13e2d646731c5d7218097336dcabf0e02f65c6fb3c4",
+    "src\\chuyen_doi.py": "0720717063d548f1853d8350870adf645a86bda2509559015479c3bfac61fc57",
+    "src\\danh_muc.py": "c4a72733ee810e0ec82cf4ce68b08440b89394b5de1a231eaf53a141216d3371",
+    "src\\giai_ma.py": "59b5ff58c4d68723e121022c7270fc9d6f560f9f2e55b3084e9a72ac04c481e4",
+    "src\\kieu_du_lieu.py": "c3ad0e1f9522efc4c57e7ccd1ec5d4c05ed3dd4392b66e1b98f981fcf6308db5",
+    "src\\quy_tac.py": "69fc65cb2736f39b82e2449450cff57aaf2f36f4876c098c63facf75d053e5b7",
+    "src\\tach_phan_con.py": "b0768274c52c2f06f72723c4ff391dc287b8994c371696867d72c0e7476c5ccb",
+    "src\\tien_xu_ly.py": "8d90f6e4f5158beda2cfeddcf1a7245a98041e0e464cb73e93b0f8fda86c6951",
+    "src\\tim_kiem.py": "d8ea2ae5adf724a65ef2f82e8c2990255d91709ffc04f410f1f8aa7027ab23ba",
+    "src\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\__main__.py": "233b4ed8c2e3acad825b38694c8fe47061029e3ffb2921df5d700845e369f25f",
+    "danh_gia\\chay_ban_thu.py": "d7af3c8baa304974ba9f777eb696a7e4a3facaefa3559c8008774a2767d4d990",
+    "danh_gia\\chan_doan_pipeline.py": "bcecfbceb8e875699afbbe97df26d75e5917f751c64c94b3d04aca2af773edc0"
+  },
+  "bao_toan_du_lieu_source": true,
+  "gioi_han": [
+    "Mọi khớp/lệch đều so với nhãn máy/tổng hợp chưa xác minh độc lập.",
+    "Oracle là khả năng khớp nhãn trong nhánh đã xét, không là độ chính xác mô hình có thể đạt.",
+    "Nhánh chứng cứ tập con có thể bỏ qua bằng chứng khác trong input; không bảo đảm đúng ngữ nghĩa.",
+    "Không có nhánh chốt duy nhất không chứng minh đầu vào thực tế thiếu thông tin; nguồn tra/ứng viên có thể thiếu.",
+    "Beam rộng chỉ chẩn đoán trên các mẫu lệch và không có nhánh khớp trong beam gốc; không tối ưu cấu hình.",
+    "Các cờ căn chỉnh là dấu hiệu cần duyệt, không tự xác nhận nhãn sai.",
+    "Không cảnh báo không đồng nghĩa xác suất đúng cao; chưa hiệu chuẩn độ tin cậy."
+  ]
+}

@@ -1,0 +1,2564 @@
+{
+  "scope": "Phân tích hậu kiểm bằng nhãn dev, không dùng reference để chọn output.",
+  "splits": {
+    "dev_goc": {
+      "counts": {
+        "remaining": 195,
+        "admin_only": 36,
+        "detail_only": 141,
+        "both_roads_nonempty_different": 98,
+        "both": 18,
+        "reference_road_empty": 11,
+        "predicted_road_empty": 11,
+        "six_fields_only_accents": 46,
+        "accent_only_reference_road_absent_dictionary": 46
+      },
+      "fields_mismatch_overlapping": {
+        "ma_xa": 52,
+        "duong": 120,
+        "thon_xom": 14,
+        "so_nha": 37,
+        "ngo_ngach_hem": 28,
+        "ma_tinh": 3
+      },
+      "examples": {
+        "both_roads_nonempty_different": [
+          {
+            "id": "VNDEV_00004",
+            "input": "313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ",
+            "latency_ms": 19.400400000449736,
+            "reference": {
+              "so_nha": "Số 313",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Phố Cần Thơ",
+              "ma_xa": "31147",
+              "ma_tinh": "92"
+            },
+            "prediction": {
+              "so_nha": "Số 313",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Văn Linh",
+              "xa_phuong": "Phường Tân An",
+              "ma_xa": "31147",
+              "tinh": "Thành phố Cần Thơ",
+              "ma_tinh": "92",
+              "dia_chi_chuan": "Số 313, Đường Nguyễn Văn Linh, Phường Tân An, Thành phố Cần Thơ",
+              "canh_bao": [
+                "loai_duong_suy_tu_crf"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 9,
+                  "ky_tu_bat_dau": 22,
+                  "ky_tu_ket_thuc": 37,
+                  "doan_goc": "PHƯỜNG AN KHÁNH",
+                  "truong": "xa",
+                  "ma": "31149",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 10,
+                  "token_ket_thuc": 13,
+                  "ky_tu_bat_dau": 39,
+                  "ky_tu_ket_thuc": 53,
+                  "doan_goc": "QUẬN NINH KIỀU",
+                  "truong": "huyen",
+                  "ma": "916",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 14,
+                  "token_ket_thuc": 18,
+                  "ky_tu_bat_dau": 55,
+                  "ky_tu_ket_thuc": 72,
+                  "doan_goc": "THÀNH PHỐ CẦN THƠ",
+                  "truong": "tinh",
+                  "ma": "92",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 3,
+                  "doan_goc": "313",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 313",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 5,
+                  "ky_tu_bat_dau": 5,
+                  "ky_tu_ket_thuc": 20,
+                  "doan_goc": "NGUYỄN VĂN LINH",
+                  "truong": "duong",
+                  "gia_tri": "Đường Nguyễn Văn Linh",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 18,
+                "so_ung_vien": 19,
+                "so_gia_thuyet": 32,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.5139,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 6,
+                  "added": 1,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00012",
+            "input": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+            "latency_ms": 13.044200000877026,
+            "reference": {
+              "so_nha": "Số 16",
+              "ngo_ngach_hem": "Ngõ 12",
+              "thon_xom": "",
+              "duong": "Đường Ngõ 12 Trần Quý Kiên",
+              "ma_xa": "",
+              "ma_tinh": "01"
+            },
+            "prediction": {
+              "so_nha": "Số 16",
+              "ngo_ngach_hem": "Ngõ 12",
+              "thon_xom": "",
+              "duong": "Đường Quý Kiên Tổ 58A",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hà Nội",
+              "ma_tinh": "01",
+              "dia_chi_chuan": "Số 16, Ngõ 12, Đường Quý Kiên Tổ 58A, Thành phố Hà Nội",
+              "canh_bao": [
+                "xa_bi_chia",
+                "phan_chua_phan_loai",
+                "loai_duong_suy_tu_crf",
+                "thieu_xa",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [
+                {
+                  "ma_xa": "00160",
+                  "ten": "Phường Nghĩa Đô",
+                  "ma_tinh": "01"
+                },
+                {
+                  "ma_xa": "00166",
+                  "ten": "Phường Cầu Giấy",
+                  "ma_tinh": "01"
+                }
+              ],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 10,
+                  "token_ket_thuc": 13,
+                  "ky_tu_bat_dau": 35,
+                  "ky_tu_ket_thuc": 51,
+                  "doan_goc": "phường Dịch Vọng",
+                  "truong": "xa",
+                  "ma": "00166",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 14,
+                  "token_ket_thuc": 17,
+                  "ky_tu_bat_dau": 53,
+                  "ky_tu_ket_thuc": 66,
+                  "doan_goc": "quận Cầu Giấy",
+                  "truong": "huyen",
+                  "ma": "005",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 5,
+                  "doan_goc": "Số 16",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 16",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 6,
+                  "ky_tu_ket_thuc": 12,
+                  "doan_goc": "ngõ 12",
+                  "truong": "ngo_ngach_hem",
+                  "gia_tri": "Ngõ 12",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 9,
+                  "ky_tu_bat_dau": 18,
+                  "ky_tu_ket_thuc": 33,
+                  "doan_goc": "Quý Kiên tổ 58A",
+                  "truong": "duong",
+                  "gia_tri": "Đường Quý Kiên Tổ 58A",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "Trần Hà Nội",
+              "thong_ke": {
+                "so_token": 20,
+                "so_ung_vien": 5,
+                "so_gia_thuyet": 13,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 2.9475,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 4,
+                  "added": 1,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00013",
+            "input": "348 Lạc Trung, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội",
+            "latency_ms": 15.58620000287192,
+            "reference": {
+              "so_nha": "Số 348",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Phố Lạc Trung",
+              "ma_xa": "",
+              "ma_tinh": "01"
+            },
+            "prediction": {
+              "so_nha": "Số 348",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lạc Trung",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hà Nội",
+              "ma_tinh": "01",
+              "dia_chi_chuan": "Số 348, Đường Lạc Trung, Thành phố Hà Nội",
+              "canh_bao": [
+                "xa_bi_chia",
+                "loai_duong_suy_tu_crf",
+                "thieu_xa"
+              ],
+              "xa_moi_ung_vien": [
+                {
+                  "ma_xa": "00283",
+                  "ten": "Phường Vĩnh Tuy",
+                  "ma_tinh": "01"
+                },
+                {
+                  "ma_xa": "00301",
+                  "ten": "Phường Vĩnh Hưng",
+                  "ma_tinh": "01"
+                }
+              ],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 4,
+                  "token_ket_thuc": 7,
+                  "ky_tu_bat_dau": 15,
+                  "ky_tu_ket_thuc": 30,
+                  "doan_goc": "phường Vĩnh Tuy",
+                  "truong": "xa",
+                  "ma": "00283",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 32,
+                  "ky_tu_ket_thuc": 49,
+                  "doan_goc": "quận Hai Bà Trưng",
+                  "truong": "huyen",
+                  "ma": "007",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 13,
+                  "token_ket_thuc": 15,
+                  "ky_tu_bat_dau": 51,
+                  "ky_tu_ket_thuc": 57,
+                  "doan_goc": "Hà Nội",
+                  "truong": "tinh",
+                  "ma": "01",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 3,
+                  "doan_goc": "348",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 348",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 3,
+                  "ky_tu_bat_dau": 4,
+                  "ky_tu_ket_thuc": 13,
+                  "doan_goc": "Lạc Trung",
+                  "truong": "duong",
+                  "gia_tri": "Đường Lạc Trung",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 15,
+                "so_ung_vien": 10,
+                "so_gia_thuyet": 23,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.2442,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ],
+        "reference_road_empty": [
+          {
+            "id": "VNDEV_00006",
+            "input": "129 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ",
+            "latency_ms": 17.70319999923231,
+            "reference": {
+              "so_nha": "Số 129",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "ma_xa": "",
+              "ma_tinh": "92"
+            },
+            "prediction": {
+              "so_nha": "Số 129",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Trần Việt",
+              "xa_phuong": "Phường Cái Khế",
+              "ma_xa": "31120",
+              "tinh": "Thành phố Cần Thơ",
+              "ma_tinh": "92",
+              "dia_chi_chuan": "Số 129, Đường Trần Việt, Phường Cái Khế, Thành phố Cần Thơ",
+              "canh_bao": [
+                "phan_chua_phan_loai",
+                "loai_duong_suy_tu_crf",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 7,
+                  "ky_tu_bat_dau": 20,
+                  "ky_tu_ket_thuc": 26,
+                  "doan_goc": "An Hòa",
+                  "truong": "xa",
+                  "ma": "31120",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 10,
+                  "ky_tu_bat_dau": 28,
+                  "ky_tu_ket_thuc": 37,
+                  "doan_goc": "Ninh Kiều",
+                  "truong": "huyen",
+                  "ma": "916",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 3,
+                  "doan_goc": "129",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 129",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 3,
+                  "ky_tu_bat_dau": 4,
+                  "ky_tu_ket_thuc": 13,
+                  "doan_goc": "Trần Việt",
+                  "truong": "duong",
+                  "gia_tri": "Đường Trần Việt",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "Châu Cần thơ",
+              "thong_ke": {
+                "so_token": 13,
+                "so_ung_vien": 22,
+                "so_gia_thuyet": 32,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 2.2828,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 4,
+                  "added": 3,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00009",
+            "input": "Phòng 801 , tầng 8, PVC MeKong, 131, Trần Hưng Đạo, Q. Ninh Kiều, Tp. Cần Thơ",
+            "latency_ms": 22.354100001393817,
+            "reference": {
+              "so_nha": "",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "ma_xa": "",
+              "ma_tinh": "92"
+            },
+            "prediction": {
+              "so_nha": "",
+              "ngo_ngach_hem": "",
+              "thon_xom": "Tầng 8",
+              "duong": "Đường Phòng",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Cần Thơ",
+              "ma_tinh": "92",
+              "dia_chi_chuan": "Tầng 8, Đường Phòng, Thành phố Cần Thơ",
+              "canh_bao": [
+                "mau_thuan_hanh_chinh",
+                "phan_chua_phan_loai",
+                "loai_duong_suy_tu_crf",
+                "thieu_xa",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 16,
+                  "token_ket_thuc": 20,
+                  "ky_tu_bat_dau": 52,
+                  "ky_tu_ket_thuc": 64,
+                  "doan_goc": "Q. Ninh Kiều",
+                  "truong": "huyen",
+                  "ma": "916",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 5,
+                  "doan_goc": "Phòng",
+                  "truong": "duong",
+                  "gia_tri": "Đường Phòng",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 3,
+                  "token_ket_thuc": 5,
+                  "ky_tu_bat_dau": 12,
+                  "ky_tu_ket_thuc": 18,
+                  "doan_goc": "tầng 8",
+                  "truong": "thon_xom",
+                  "gia_tri": "Tầng 8",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "801 PVC Me Kong 131 Trần Hưng Đạo Tp Cần Thơ",
+              "thong_ke": {
+                "so_token": 25,
+                "so_ung_vien": 29,
+                "so_gia_thuyet": 34,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": -0.1401,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 8,
+                  "added": 1,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00021",
+            "input": "464 Hoàng Công Chất, Phường Phú Diễn, Quận Bắc Từ Liêm, Hà Nội",
+            "latency_ms": 16.654099999868777,
+            "reference": {
+              "so_nha": "Số 464",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "ma_xa": "00619",
+              "ma_tinh": "01"
+            },
+            "prediction": {
+              "so_nha": "Số 464",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoàng Công Chất",
+              "xa_phuong": "Phường Phú Diễn",
+              "ma_xa": "00619",
+              "tinh": "Thành phố Hà Nội",
+              "ma_tinh": "01",
+              "dia_chi_chuan": "Số 464, Đường Hoàng Công Chất, Phường Phú Diễn, Thành phố Hà Nội",
+              "canh_bao": [
+                "loai_duong_suy_tu_crf"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 8,
+                  "ky_tu_bat_dau": 21,
+                  "ky_tu_ket_thuc": 36,
+                  "doan_goc": "Phường Phú Diễn",
+                  "truong": "xa",
+                  "ma": "00619",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 9,
+                  "token_ket_thuc": 13,
+                  "ky_tu_bat_dau": 38,
+                  "ky_tu_ket_thuc": 54,
+                  "doan_goc": "Quận Bắc Từ Liêm",
+                  "truong": "huyen",
+                  "ma": "021",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 14,
+                  "token_ket_thuc": 16,
+                  "ky_tu_bat_dau": 56,
+                  "ky_tu_ket_thuc": 62,
+                  "doan_goc": "Hà Nội",
+                  "truong": "tinh",
+                  "ma": "01",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 3,
+                  "doan_goc": "464",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 464",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 4,
+                  "ky_tu_ket_thuc": 19,
+                  "doan_goc": "Hoàng Công Chất",
+                  "truong": "duong",
+                  "gia_tri": "Đường Hoàng Công Chất",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 16,
+                "so_ung_vien": 10,
+                "so_gia_thuyet": 25,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.6599,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ],
+        "predicted_road_empty": [
+          {
+            "id": "VNDEV_00031",
+            "input": "154-156, Phan Thanh, P. Thạc Gián, Q. Thanh Khê, TP. Đà Nẵng",
+            "latency_ms": 13.18860000174027,
+            "reference": {
+              "so_nha": "Số 154-156",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Phan Thanh",
+              "ma_xa": "20209",
+              "ma_tinh": "48"
+            },
+            "prediction": {
+              "so_nha": "Số 154-156",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "xa_phuong": "Phường Thanh Khê",
+              "ma_xa": "20209",
+              "tinh": "Thành phố Đà Nẵng",
+              "ma_tinh": "48",
+              "dia_chi_chuan": "Số 154-156, Phường Thanh Khê, Thành phố Đà Nẵng",
+              "canh_bao": [
+                "mau_thuan_hanh_chinh",
+                "phan_chua_phan_loai",
+                "so_nha_can_duyet",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 7,
+                  "token_ket_thuc": 11,
+                  "ky_tu_bat_dau": 21,
+                  "ky_tu_ket_thuc": 33,
+                  "doan_goc": "P. Thạc Gián",
+                  "truong": "xa",
+                  "ma": "20218",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 12,
+                  "token_ket_thuc": 16,
+                  "ky_tu_bat_dau": 35,
+                  "ky_tu_ket_thuc": 47,
+                  "doan_goc": "Q. Thanh Khê",
+                  "truong": "huyen",
+                  "ma": "491",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 3,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 7,
+                  "doan_goc": "154-156",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 154-156",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "Phan Thanh TP Đà Nẵng",
+              "thong_ke": {
+                "so_token": 21,
+                "so_ung_vien": 11,
+                "so_gia_thuyet": 19,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 2.76,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 5,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00037",
+            "input": "Số 166 Ái Mộ, phường Bồ Đề, quận Long Biên, Hà Nội",
+            "latency_ms": 11.986100005742628,
+            "reference": {
+              "so_nha": "Số 166",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Phố Ái Mộ",
+              "ma_xa": "",
+              "ma_tinh": "01"
+            },
+            "prediction": {
+              "so_nha": "Số 166",
+              "ngo_ngach_hem": "",
+              "thon_xom": "Ái Mộ",
+              "duong": "",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hà Nội",
+              "ma_tinh": "01",
+              "dia_chi_chuan": "Số 166, Ái Mộ, Thành phố Hà Nội",
+              "canh_bao": [
+                "xa_bi_chia",
+                "thieu_xa"
+              ],
+              "xa_moi_ung_vien": [
+                {
+                  "ma_xa": "00097",
+                  "ten": "Phường Hồng Hà",
+                  "ma_tinh": "01"
+                },
+                {
+                  "ma_xa": "00118",
+                  "ten": "Phường Bồ Đề",
+                  "ma_tinh": "01"
+                },
+                {
+                  "ma_xa": "00145",
+                  "ten": "Phường Long Biên",
+                  "ma_tinh": "01"
+                }
+              ],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 8,
+                  "ky_tu_bat_dau": 14,
+                  "ky_tu_ket_thuc": 26,
+                  "doan_goc": "phường Bồ Đề",
+                  "truong": "xa",
+                  "ma": "00139",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 9,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 28,
+                  "ky_tu_ket_thuc": 42,
+                  "doan_goc": "quận Long Biên",
+                  "truong": "huyen",
+                  "ma": "004",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 13,
+                  "token_ket_thuc": 15,
+                  "ky_tu_bat_dau": 44,
+                  "ky_tu_ket_thuc": 50,
+                  "doan_goc": "Hà Nội",
+                  "truong": "tinh",
+                  "ma": "01",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 6,
+                  "doan_goc": "Số 166",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 166",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 7,
+                  "ky_tu_ket_thuc": 12,
+                  "doan_goc": "Ái Mộ",
+                  "truong": "thon_xom",
+                  "gia_tri": "Ái Mộ",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 15,
+                "so_ung_vien": 7,
+                "so_gia_thuyet": 20,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.411,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00089",
+            "input": "9, Khu dân cư số 9, Xuân Khánh, Ninh Kiều, Cần Thơ",
+            "latency_ms": 12.200800003483891,
+            "reference": {
+              "so_nha": "Số 9",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Khu Dân Cư Số 9",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "prediction": {
+              "so_nha": "Số 9",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "xa_phuong": "Phường Ninh Kiều",
+              "ma_xa": "31135",
+              "tinh": "Thành phố Cần Thơ",
+              "ma_tinh": "92",
+              "dia_chi_chuan": "Số 9, Phường Ninh Kiều, Thành phố Cần Thơ",
+              "canh_bao": [
+                "phan_chua_phan_loai",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 10,
+                  "ky_tu_bat_dau": 20,
+                  "ky_tu_ket_thuc": 30,
+                  "doan_goc": "Xuân Khánh",
+                  "truong": "xa",
+                  "ma": "31144",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 11,
+                  "token_ket_thuc": 13,
+                  "ky_tu_bat_dau": 32,
+                  "ky_tu_ket_thuc": 41,
+                  "doan_goc": "Ninh Kiều",
+                  "truong": "huyen",
+                  "ma": "916",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 1,
+                  "doan_goc": "9",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 9",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 7,
+                  "ky_tu_bat_dau": 14,
+                  "ky_tu_ket_thuc": 18,
+                  "doan_goc": "số 9",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 9",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "Khu dân cư Cần Thơ",
+              "thong_ke": {
+                "so_token": 16,
+                "so_ung_vien": 6,
+                "so_gia_thuyet": 19,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 2.3459,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 6,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ],
+        "accent_only_reference_road_absent_dictionary": [
+          {
+            "id": "VNDEV_00413",
+            "input": "18B duong Giai Phong, Xa My Hiep Son, Huyen Hon Dat, Kien Giang",
+            "latency_ms": 13.100200005283114,
+            "reference": {
+              "so_nha": "Số 18B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Giải Phóng",
+              "ma_xa": "30838",
+              "ma_tinh": "91"
+            },
+            "prediction": {
+              "so_nha": "Số 18B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Giai Phong",
+              "xa_phuong": "Xã Mỹ Thuận",
+              "ma_xa": "30838",
+              "tinh": "Tỉnh An Giang",
+              "ma_tinh": "91",
+              "dia_chi_chuan": "Số 18B, Đường Giai Phong, Xã Mỹ Thuận, Tỉnh An Giang",
+              "canh_bao": [
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 9,
+                  "ky_tu_bat_dau": 22,
+                  "ky_tu_ket_thuc": 36,
+                  "doan_goc": "Xa My Hiep Son",
+                  "truong": "xa",
+                  "ma": "30832",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 10,
+                  "token_ket_thuc": 13,
+                  "ky_tu_bat_dau": 38,
+                  "ky_tu_ket_thuc": 51,
+                  "doan_goc": "Huyen Hon Dat",
+                  "truong": "huyen",
+                  "ma": "903",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 14,
+                  "token_ket_thuc": 16,
+                  "ky_tu_bat_dau": 53,
+                  "ky_tu_ket_thuc": 63,
+                  "doan_goc": "Kien Giang",
+                  "truong": "tinh",
+                  "ma": "91",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 3,
+                  "doan_goc": "18B",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 18B",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 4,
+                  "ky_tu_ket_thuc": 20,
+                  "doan_goc": "duong Giai Phong",
+                  "truong": "duong",
+                  "gia_tri": "Đường Giai Phong",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 16,
+                "so_ung_vien": 9,
+                "so_gia_thuyet": 14,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.4511,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00429",
+            "input": "88 duong Nguyen Hue, Phuong 1, Thanh pho Da Lat, Lam Dong",
+            "latency_ms": 18.546899998909794,
+            "reference": {
+              "so_nha": "Số 88",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Huệ",
+              "ma_xa": "24781",
+              "ma_tinh": "68"
+            },
+            "prediction": {
+              "so_nha": "Số 88",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyen Hue",
+              "xa_phuong": "Phường Xuân Hương - Đà Lạt",
+              "ma_xa": "24781",
+              "tinh": "Tỉnh Lâm Đồng",
+              "ma_tinh": "68",
+              "dia_chi_chuan": "Số 88, Đường Nguyen Hue, Phường Xuân Hương - Đà Lạt, Tỉnh Lâm Đồng",
+              "canh_bao": [
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 7,
+                  "ky_tu_bat_dau": 21,
+                  "ky_tu_ket_thuc": 29,
+                  "doan_goc": "Phuong 1",
+                  "truong": "xa",
+                  "ma": "24784",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.35
+                },
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 31,
+                  "ky_tu_ket_thuc": 47,
+                  "doan_goc": "Thanh pho Da Lat",
+                  "truong": "huyen",
+                  "ma": "672",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 13,
+                  "token_ket_thuc": 15,
+                  "ky_tu_bat_dau": 49,
+                  "ky_tu_ket_thuc": 57,
+                  "doan_goc": "Lam Dong",
+                  "truong": "tinh",
+                  "ma": "68",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 2,
+                  "doan_goc": "88",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 88",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 3,
+                  "ky_tu_ket_thuc": 19,
+                  "doan_goc": "duong Nguyen Hue",
+                  "truong": "duong",
+                  "gia_tri": "Đường Nguyen Hue",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 15,
+                "so_ung_vien": 40,
+                "so_gia_thuyet": 41,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.4388,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_00445",
+            "input": "15 duong Tay Son, Xa Quynh My, Huyen Quynh Phu, Thai Binh",
+            "latency_ms": 12.347500000032596,
+            "reference": {
+              "so_nha": "Số 15",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Tây Sơn",
+              "ma_xa": "12472",
+              "ma_tinh": "33"
+            },
+            "prediction": {
+              "so_nha": "Số 15",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Tay Son",
+              "xa_phuong": "Xã Quỳnh Phụ",
+              "ma_xa": "12472",
+              "tinh": "Tỉnh Hưng Yên",
+              "ma_tinh": "33",
+              "dia_chi_chuan": "Số 15, Đường Tay Son, Xã Quỳnh Phụ, Tỉnh Hưng Yên",
+              "canh_bao": [
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 5,
+                  "token_ket_thuc": 8,
+                  "ky_tu_bat_dau": 18,
+                  "ky_tu_ket_thuc": 29,
+                  "doan_goc": "Xa Quynh My",
+                  "truong": "xa",
+                  "ma": "12535",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 9,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 31,
+                  "ky_tu_ket_thuc": 46,
+                  "doan_goc": "Huyen Quynh Phu",
+                  "truong": "huyen",
+                  "ma": "338",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 13,
+                  "token_ket_thuc": 15,
+                  "ky_tu_bat_dau": 48,
+                  "ky_tu_ket_thuc": 57,
+                  "doan_goc": "Thai Binh",
+                  "truong": "tinh",
+                  "ma": "34",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 2,
+                  "doan_goc": "15",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 15",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 3,
+                  "ky_tu_ket_thuc": 16,
+                  "doan_goc": "duong Tay Son",
+                  "truong": "duong",
+                  "gia_tri": "Đường Tay Son",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 15,
+                "so_ung_vien": 11,
+                "so_gia_thuyet": 16,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.2664,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dev_kho": {
+      "counts": {
+        "remaining": 168,
+        "detail_only": 145,
+        "both_roads_nonempty_different": 137,
+        "both": 10,
+        "six_fields_only_accents": 50,
+        "accent_only_reference_road_absent_dictionary": 50,
+        "admin_only": 13,
+        "reference_road_empty": 18
+      },
+      "fields_mismatch_overlapping": {
+        "duong": 155,
+        "ma_xa": 23,
+        "so_nha": 2
+      },
+      "examples": {
+        "both_roads_nonempty_different": [
+          {
+            "id": "VNDEV_KHO_00005",
+            "input": "118 dduowngf Hùng Vương, phuowngf Tân Sơn Nhì, Quận Tân Phú, Thành phố Hồ Chí Minh",
+            "latency_ms": 22.642999996605795,
+            "reference": {
+              "so_nha": "Số 118",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hùng Vương",
+              "ma_xa": "27019",
+              "ma_tinh": "79"
+            },
+            "prediction": {
+              "so_nha": "Số 118",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Dduowngf Hùng Vương",
+              "xa_phuong": "Phường Tân Sơn Nhì",
+              "ma_xa": "27019",
+              "tinh": "Thành phố Hồ Chí Minh",
+              "ma_tinh": "79",
+              "dia_chi_chuan": "Số 118, Đường Dduowngf Hùng Vương, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh",
+              "canh_bao": [
+                "mau_thuan_hanh_chinh",
+                "phan_chua_phan_loai",
+                "loai_duong_suy_tu_crf",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 9,
+                  "ky_tu_bat_dau": 34,
+                  "ky_tu_ket_thuc": 45,
+                  "doan_goc": "Tân Sơn Nhì",
+                  "truong": "xa",
+                  "ma": "27010",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 6.05
+                },
+                {
+                  "token_bat_dau": 10,
+                  "token_ket_thuc": 13,
+                  "ky_tu_bat_dau": 47,
+                  "ky_tu_ket_thuc": 59,
+                  "doan_goc": "Quận Tân Phú",
+                  "truong": "huyen",
+                  "ma": "767",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 3,
+                  "doan_goc": "118",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 118",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 4,
+                  "ky_tu_ket_thuc": 23,
+                  "doan_goc": "dduowngf Hùng Vương",
+                  "truong": "duong",
+                  "gia_tri": "Đường Dduowngf Hùng Vương",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "phuowngf Thành phố Hồ Chí Minh",
+              "thong_ke": {
+                "so_token": 19,
+                "so_ung_vien": 29,
+                "so_gia_thuyet": 40,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 2.4699,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 4,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_KHO_00008",
+            "input": "thanh pho ho chi minh, so 122/1B d. ton dan, phuong 13",
+            "latency_ms": 12.767899999744259,
+            "reference": {
+              "so_nha": "Số 122/1B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Tôn Đản",
+              "ma_xa": "27259",
+              "ma_tinh": "79"
+            },
+            "prediction": {
+              "so_nha": "Số 122/1B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Ton Dan",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hồ Chí Minh",
+              "ma_tinh": "79",
+              "dia_chi_chuan": "Số 122/1B, Đường Ton Dan, Thành phố Hồ Chí Minh",
+              "canh_bao": [
+                "nhieu_cach_hieu",
+                "so_nha_can_duyet",
+                "thieu_xa",
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [
+                {
+                  "ma_xa": "26905",
+                  "ten": "Phường Bình Lợi Trung",
+                  "ma_tinh": "79"
+                },
+                {
+                  "ma_xa": "27004",
+                  "ten": "Phường Tân Bình",
+                  "ma_tinh": "79"
+                },
+                {
+                  "ma_xa": "27073",
+                  "ten": "Phường Phú Nhuận",
+                  "ma_tinh": "79"
+                },
+                {
+                  "ma_xa": "27163",
+                  "ten": "Phường Hòa Hưng",
+                  "ma_tinh": "79"
+                },
+                {
+                  "ma_xa": "27259",
+                  "ten": "Phường Xóm Chiếu",
+                  "ma_tinh": "79"
+                },
+                {
+                  "ma_xa": "27343",
+                  "ten": "Phường Chợ Lớn",
+                  "ma_tinh": "79"
+                },
+                {
+                  "ma_xa": "27349",
+                  "ten": "Phường Phú Lâm",
+                  "ma_tinh": "79"
+                }
+              ],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 5,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 21,
+                  "doan_goc": "thanh pho ho chi minh",
+                  "truong": "tinh",
+                  "ma": "79",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 13,
+                  "token_ket_thuc": 15,
+                  "ky_tu_bat_dau": 45,
+                  "ky_tu_ket_thuc": 54,
+                  "doan_goc": "phuong 13",
+                  "truong": "xa",
+                  "ma": "26905",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.35
+                },
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 8,
+                  "ky_tu_bat_dau": 23,
+                  "ky_tu_ket_thuc": 32,
+                  "doan_goc": "so 122/1B",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 122/1B",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 33,
+                  "ky_tu_ket_thuc": 43,
+                  "doan_goc": "d. ton dan",
+                  "truong": "duong",
+                  "gia_tri": "Đường Ton Dan",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 15,
+                "so_ung_vien": 16,
+                "so_gia_thuyet": 31,
+                "so_cach_hieu_gan_nhat": 7,
+                "so_ket_qua_dich_gan_nhat": 7,
+                "diem": 3.1598,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 2,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_KHO_00013",
+            "input": "252Bis dduowngf Lê Lợi, xax Quảng Phú, Huyện Quảng Điền, Tỉnh Huế",
+            "latency_ms": 18.7997999964864,
+            "reference": {
+              "so_nha": "Số 252Bis",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lê Lợi",
+              "ma_xa": "19885",
+              "ma_tinh": "46"
+            },
+            "prediction": {
+              "so_nha": "Số 252Bis",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Dduowngf Lê Lợi",
+              "xa_phuong": "Xã Đan Điền",
+              "ma_xa": "19885",
+              "tinh": "Thành phố Huế",
+              "ma_tinh": "46",
+              "dia_chi_chuan": "Số 252Bis, Đường Dduowngf Lê Lợi, Xã Đan Điền, Thành phố Huế",
+              "canh_bao": [
+                "mau_thuan_hanh_chinh",
+                "phan_chua_phan_loai",
+                "loai_duong_suy_tu_crf",
+                "thieu_tinh_dau_vao"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 8,
+                  "ky_tu_bat_dau": 28,
+                  "ky_tu_ket_thuc": 37,
+                  "doan_goc": "Quảng Phú",
+                  "truong": "xa",
+                  "ma": "19897",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 5.7
+                },
+                {
+                  "token_bat_dau": 9,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 39,
+                  "ky_tu_ket_thuc": 55,
+                  "doan_goc": "Huyện Quảng Điền",
+                  "truong": "huyen",
+                  "ma": "477",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 1,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 6,
+                  "doan_goc": "252Bis",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 252Bis",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 1,
+                  "token_ket_thuc": 4,
+                  "ky_tu_bat_dau": 7,
+                  "ky_tu_ket_thuc": 22,
+                  "doan_goc": "dduowngf Lê Lợi",
+                  "truong": "duong",
+                  "gia_tri": "Đường Dduowngf Lê Lợi",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "xax Tỉnh Huế",
+              "thong_ke": {
+                "so_token": 15,
+                "so_ung_vien": 29,
+                "so_gia_thuyet": 37,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 2.4888,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 4,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ],
+        "accent_only_reference_road_absent_dictionary": [
+          {
+            "id": "VNDEV_KHO_00017",
+            "input": "so 369A d. hoang thi loan, phuong hoa minh, quan lien chieu, thanh pho da nang",
+            "latency_ms": 12.403900000208523,
+            "reference": {
+              "so_nha": "Số 369A",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoàng Thị Loan",
+              "ma_xa": "20200",
+              "ma_tinh": "48"
+            },
+            "prediction": {
+              "so_nha": "Số 369A",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoang Thi Loan",
+              "xa_phuong": "Phường Hòa Khánh",
+              "ma_xa": "20200",
+              "tinh": "Thành phố Đà Nẵng",
+              "ma_tinh": "48",
+              "dia_chi_chuan": "Số 369A, Đường Hoang Thi Loan, Phường Hòa Khánh, Thành phố Đà Nẵng",
+              "canh_bao": [
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 11,
+                  "ky_tu_bat_dau": 27,
+                  "ky_tu_ket_thuc": 42,
+                  "doan_goc": "phuong hoa minh",
+                  "truong": "xa",
+                  "ma": "20200",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 12,
+                  "token_ket_thuc": 15,
+                  "ky_tu_bat_dau": 44,
+                  "ky_tu_ket_thuc": 59,
+                  "doan_goc": "quan lien chieu",
+                  "truong": "huyen",
+                  "ma": "490",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 16,
+                  "token_ket_thuc": 20,
+                  "ky_tu_bat_dau": 61,
+                  "ky_tu_ket_thuc": 78,
+                  "doan_goc": "thanh pho da nang",
+                  "truong": "tinh",
+                  "ma": "48",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 7,
+                  "doan_goc": "so 369A",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 369A",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 7,
+                  "ky_tu_bat_dau": 8,
+                  "ky_tu_ket_thuc": 25,
+                  "doan_goc": "d. hoang thi loan",
+                  "truong": "duong",
+                  "gia_tri": "Đường Hoang Thi Loan",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 20,
+                "so_ung_vien": 8,
+                "so_gia_thuyet": 16,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.4876,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_KHO_00024",
+            "input": "tinh bac ninh, so 459/3A d. kha le, phuong vo cuong",
+            "latency_ms": 9.170500001346227,
+            "reference": {
+              "so_nha": "Số 459/3A",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Khả Lễ",
+              "ma_xa": "09190",
+              "ma_tinh": "24"
+            },
+            "prediction": {
+              "so_nha": "Số 459/3A",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Kha Le",
+              "xa_phuong": "Phường Võ Cường",
+              "ma_xa": "09190",
+              "tinh": "Tỉnh Bắc Ninh",
+              "ma_tinh": "24",
+              "dia_chi_chuan": "Số 459/3A, Đường Kha Le, Phường Võ Cường, Tỉnh Bắc Ninh",
+              "canh_bao": [
+                "so_nha_can_duyet",
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 3,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 13,
+                  "doan_goc": "tinh bac ninh",
+                  "truong": "tinh",
+                  "ma": "27",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 11,
+                  "token_ket_thuc": 14,
+                  "ky_tu_bat_dau": 36,
+                  "ky_tu_ket_thuc": 51,
+                  "doan_goc": "phuong vo cuong",
+                  "truong": "xa",
+                  "ma": "09190",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 4,
+                  "token_ket_thuc": 6,
+                  "ky_tu_bat_dau": 15,
+                  "ky_tu_ket_thuc": 24,
+                  "doan_goc": "so 459/3A",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 459/3A",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 10,
+                  "ky_tu_bat_dau": 25,
+                  "ky_tu_ket_thuc": 34,
+                  "doan_goc": "d. kha le",
+                  "truong": "duong",
+                  "gia_tri": "Đường Kha Le",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 14,
+                "so_ung_vien": 5,
+                "so_gia_thuyet": 10,
+                "so_cach_hieu_gan_nhat": 2,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.1335,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 4,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_KHO_00025",
+            "input": "so 434A d. le duc tho, thi tran thoi lai, huyen thoi lai, thanh pho can tho",
+            "latency_ms": 12.348199998086784,
+            "reference": {
+              "so_nha": "Số 434A",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lê Đức Thọ",
+              "ma_xa": "31258",
+              "ma_tinh": "92"
+            },
+            "prediction": {
+              "so_nha": "Số 434A",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Le Duc Tho",
+              "xa_phuong": "Xã Thới Lai",
+              "ma_xa": "31258",
+              "tinh": "Thành phố Cần Thơ",
+              "ma_tinh": "92",
+              "dia_chi_chuan": "Số 434A, Đường Le Duc Tho, Xã Thới Lai, Thành phố Cần Thơ",
+              "canh_bao": [
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 8,
+                  "token_ket_thuc": 12,
+                  "ky_tu_bat_dau": 23,
+                  "ky_tu_ket_thuc": 40,
+                  "doan_goc": "thi tran thoi lai",
+                  "truong": "xa",
+                  "ma": "31258",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 13,
+                  "token_ket_thuc": 16,
+                  "ky_tu_bat_dau": 42,
+                  "ky_tu_ket_thuc": 56,
+                  "doan_goc": "huyen thoi lai",
+                  "truong": "huyen",
+                  "ma": "927",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 17,
+                  "token_ket_thuc": 21,
+                  "ky_tu_bat_dau": 58,
+                  "ky_tu_ket_thuc": 75,
+                  "doan_goc": "thanh pho can tho",
+                  "truong": "tinh",
+                  "ma": "92",
+                  "moc": "cu",
+                  "kieu_khop": "khong_dau",
+                  "diem": 9.7
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 7,
+                  "doan_goc": "so 434A",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 434A",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 7,
+                  "ky_tu_bat_dau": 8,
+                  "ky_tu_ket_thuc": 21,
+                  "doan_goc": "d. le duc tho",
+                  "truong": "duong",
+                  "gia_tri": "Đường Le Duc Tho",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 21,
+                "so_ung_vien": 7,
+                "so_gia_thuyet": 20,
+                "so_cach_hieu_gan_nhat": 1,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 3.3458,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 3,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ],
+        "reference_road_empty": [
+          {
+            "id": "VNDEV_KHO_00447",
+            "input": "Số 428 Đ. NTT, Thành phố Hồ Chí Minh",
+            "latency_ms": 9.040499993716367,
+            "reference": {
+              "so_nha": "Số 428",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "ma_xa": "",
+              "ma_tinh": "79"
+            },
+            "prediction": {
+              "so_nha": "Số 428",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Ntt",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hồ Chí Minh",
+              "ma_tinh": "79",
+              "dia_chi_chuan": "Số 428, Đường Ntt, Thành phố Hồ Chí Minh",
+              "canh_bao": [
+                "thieu_xa",
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 11,
+                  "ky_tu_bat_dau": 15,
+                  "ky_tu_ket_thuc": 36,
+                  "doan_goc": "Thành phố Hồ Chí Minh",
+                  "truong": "tinh",
+                  "ma": "79",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 6,
+                  "doan_goc": "Số 428",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 428",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 5,
+                  "ky_tu_bat_dau": 7,
+                  "ky_tu_ket_thuc": 13,
+                  "doan_goc": "Đ. NTT",
+                  "truong": "duong",
+                  "gia_tri": "Đường Ntt",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 11,
+                "so_ung_vien": 9,
+                "so_gia_thuyet": 10,
+                "so_cach_hieu_gan_nhat": 2,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 1.9878,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 1,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_KHO_00448",
+            "input": "Số 472B Đ. NTT, Thành phố Hồ Chí Minh",
+            "latency_ms": 10.521299998799805,
+            "reference": {
+              "so_nha": "Số 472B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "ma_xa": "",
+              "ma_tinh": "79"
+            },
+            "prediction": {
+              "so_nha": "Số 472B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Ntt",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hồ Chí Minh",
+              "ma_tinh": "79",
+              "dia_chi_chuan": "Số 472B, Đường Ntt, Thành phố Hồ Chí Minh",
+              "canh_bao": [
+                "thieu_xa",
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 11,
+                  "ky_tu_bat_dau": 16,
+                  "ky_tu_ket_thuc": 37,
+                  "doan_goc": "Thành phố Hồ Chí Minh",
+                  "truong": "tinh",
+                  "ma": "79",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 7,
+                  "doan_goc": "Số 472B",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 472B",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 5,
+                  "ky_tu_bat_dau": 8,
+                  "ky_tu_ket_thuc": 14,
+                  "doan_goc": "Đ. NTT",
+                  "truong": "duong",
+                  "gia_tri": "Đường Ntt",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 11,
+                "so_ung_vien": 9,
+                "so_gia_thuyet": 10,
+                "so_cach_hieu_gan_nhat": 2,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 1.9878,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 1,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          },
+          {
+            "id": "VNDEV_KHO_00449",
+            "input": "Số 409B Đ. NTT, Thành phố Hồ Chí Minh",
+            "latency_ms": 9.780599997611716,
+            "reference": {
+              "so_nha": "Số 409B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "",
+              "ma_xa": "",
+              "ma_tinh": "79"
+            },
+            "prediction": {
+              "so_nha": "Số 409B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Ntt",
+              "xa_phuong": "",
+              "ma_xa": "",
+              "tinh": "Thành phố Hồ Chí Minh",
+              "ma_tinh": "79",
+              "dia_chi_chuan": "Số 409B, Đường Ntt, Thành phố Hồ Chí Minh",
+              "canh_bao": [
+                "thieu_xa",
+                "ten_chi_tiet_chua_xac_minh_dau"
+              ],
+              "xa_moi_ung_vien": [],
+              "dau_vet": [
+                {
+                  "token_bat_dau": 6,
+                  "token_ket_thuc": 11,
+                  "ky_tu_bat_dau": 16,
+                  "ky_tu_ket_thuc": 37,
+                  "doan_goc": "Thành phố Hồ Chí Minh",
+                  "truong": "tinh",
+                  "ma": "79",
+                  "moc": "cu",
+                  "kieu_khop": "chinh_xac",
+                  "diem": 10.05
+                },
+                {
+                  "token_bat_dau": 0,
+                  "token_ket_thuc": 2,
+                  "ky_tu_bat_dau": 0,
+                  "ky_tu_ket_thuc": 7,
+                  "doan_goc": "Số 409B",
+                  "truong": "so_nha",
+                  "gia_tri": "Số 409B",
+                  "kieu_khop": "crf"
+                },
+                {
+                  "token_bat_dau": 2,
+                  "token_ket_thuc": 5,
+                  "ky_tu_bat_dau": 8,
+                  "ky_tu_ket_thuc": 14,
+                  "doan_goc": "Đ. NTT",
+                  "truong": "duong",
+                  "gia_tri": "Đường Ntt",
+                  "kieu_khop": "crf"
+                }
+              ],
+              "phan_chua_phan_loai": "",
+              "thong_ke": {
+                "so_token": 11,
+                "so_ung_vien": 9,
+                "so_gia_thuyet": 10,
+                "so_cach_hieu_gan_nhat": 2,
+                "so_ket_qua_dich_gan_nhat": 1,
+                "diem": 1.9878,
+                "moc_dich": "2025-07-01",
+                "mo_hinh": "char_cnn_crf_va_lambdarank",
+                "crf_model_sha256": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+                "crf_bio_loi_truoc_sua": 0,
+                "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+                "tra_cuu_neural": {
+                  "lookups": 1,
+                  "added": 0,
+                  "truncated_spans": 0,
+                  "truncated_lookups": 0
+                },
+                "ranker_sha256": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+                "diem_khong_phai_xac_suat": true,
+                "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+                "tu_dien_duong_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "ten_duong_da_doi": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "boundary_changes_all": [
+    {
+      "split": "dev_goc",
+      "mode": "bao_ve_duong",
+      "id": "VNDEV_00097",
+      "input": "244, Đường Điện Biên Phủ",
+      "reference": {
+        "so_nha": "Số 244",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Điện Biên Phủ",
+        "ma_xa": "",
+        "ma_tinh": "11"
+      },
+      "before": {
+        "so_nha": "Số 244",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Phủ",
+        "ma_xa": "",
+        "ma_tinh": "11"
+      },
+      "after": {
+        "so_nha": "Số 244",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Điện Biên Phủ",
+        "ma_xa": "",
+        "ma_tinh": ""
+      },
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "split": "dev_goc",
+      "mode": "bao_ve_duong",
+      "id": "VNDEV_00181",
+      "input": "30/13, Đại lộ Bình Dương",
+      "reference": {
+        "so_nha": "Số 30/13",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đại lộ Bình Dương",
+        "ma_xa": "",
+        "ma_tinh": "79"
+      },
+      "before": {
+        "so_nha": "Số 30/13",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "",
+        "ma_xa": "",
+        "ma_tinh": "79"
+      },
+      "after": {
+        "so_nha": "Số 30/13",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đại lộ Bình Dương",
+        "ma_xa": "",
+        "ma_tinh": ""
+      },
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "split": "dev_kho",
+      "mode": "bao_ve_duong",
+      "id": "VNDEV_KHO_00188",
+      "input": "Số 554, Đường Nguyễn Thị Minh Khai, Huyện Thạch An, Tỉnh Cao Bằng",
+      "reference": {
+        "so_nha": "Số 554",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Nguyễn Thị Minh Khai",
+        "ma_xa": "",
+        "ma_tinh": "04"
+      },
+      "before": {
+        "so_nha": "Số 554",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Nguyễn Thị",
+        "ma_xa": "01795",
+        "ma_tinh": "04"
+      },
+      "after": {
+        "so_nha": "Số 554",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Nguyễn Thị Minh Khai",
+        "ma_xa": "",
+        "ma_tinh": "04"
+      },
+      "before_correct": false,
+      "after_correct": true
+    }
+  ],
+  "normalization_gains_examples": [
+    {
+      "split": "dev_goc",
+      "mode": "ten_train",
+      "id": "VNDEV_00405",
+      "input": "72 duong Doi Can, Xa Nga Lien, Huyen Nga Son, Thanh Hoa",
+      "reference": {
+        "so_nha": "Số 72",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Đội Cấn",
+        "ma_xa": "16138",
+        "ma_tinh": "38"
+      },
+      "before": {
+        "so_nha": "Số 72",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Doi Can",
+        "ma_xa": "16138",
+        "ma_tinh": "38"
+      },
+      "after": {
+        "so_nha": "Số 72",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Đội Cấn",
+        "ma_xa": "16138",
+        "ma_tinh": "38"
+      },
+      "before_correct": false,
+      "after_correct": true
+    },
+    {
+      "split": "dev_goc",
+      "mode": "ten_train",
+      "id": "VNDEV_00437",
+      "input": "99 duong Hoang Van Thu, Xa Tung Chung Pho, Huyen Muong Khuong, Lao Cai",
+      "reference": {
+        "so_nha": "Số 99",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hoàng Văn Thụ",
+        "ma_xa": "02761",
+        "ma_tinh": "15"
+      },
+      "before": {
+        "so_nha": "Số 99",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hoang Van Thu",
+        "ma_xa": "02761",
+        "ma_tinh": "15"
+      },
+      "after": {
+        "so_nha": "Số 99",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hoàng Văn Thụ",
+        "ma_xa": "02761",
+        "ma_tinh": "15"
+      },
+      "before_correct": false,
+      "after_correct": true
+    },
+    {
+      "split": "dev_goc",
+      "mode": "ten_train",
+      "id": "VNDEV_00469",
+      "input": "108 duong Tay Son, Xa Ninh Dong, Thi xa Ninh Hoa, Khanh Hoa",
+      "reference": {
+        "so_nha": "Số 108",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Tây Sơn",
+        "ma_xa": "22528",
+        "ma_tinh": "56"
+      },
+      "before": {
+        "so_nha": "Số 108",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Tay Son",
+        "ma_xa": "22528",
+        "ma_tinh": "56"
+      },
+      "after": {
+        "so_nha": "Số 108",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Tây Sơn",
+        "ma_xa": "22528",
+        "ma_tinh": "56"
+      },
+      "before_correct": false,
+      "after_correct": true
+    },
+    {
+      "split": "dev_goc",
+      "mode": "ten_train",
+      "id": "VNDEV_00477",
+      "input": "4A duong Hoang Hoa Tham, Xa Chau Quang, Huyen Quy Hop, Nghe An",
+      "reference": {
+        "so_nha": "Số 4A",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hoàng Hoa Thám",
+        "ma_xa": "17035",
+        "ma_tinh": "40"
+      },
+      "before": {
+        "so_nha": "Số 4A",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hoang Hoa Tham",
+        "ma_xa": "17035",
+        "ma_tinh": "40"
+      },
+      "after": {
+        "so_nha": "Số 4A",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hoàng Hoa Thám",
+        "ma_xa": "17035",
+        "ma_tinh": "40"
+      },
+      "before_correct": false,
+      "after_correct": true
+    },
+    {
+      "split": "dev_goc",
+      "mode": "ten_train",
+      "id": "VNDEV_00517",
+      "input": "168 duong Ba Trieu, Xa Nhuan Trach, Huyen Luong Son, Hoa Binh",
+      "reference": {
+        "so_nha": "Số 168",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Bà Triệu",
+        "ma_xa": "04924",
+        "ma_tinh": "25"
+      },
+      "before": {
+        "so_nha": "Số 168",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Ba Trieu",
+        "ma_xa": "04924",
+        "ma_tinh": "25"
+      },
+      "after": {
+        "so_nha": "Số 168",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Bà Triệu",
+        "ma_xa": "04924",
+        "ma_tinh": "25"
+      },
+      "before_correct": false,
+      "after_correct": true
+    }
+  ]
+}

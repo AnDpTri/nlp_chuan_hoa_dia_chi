@@ -1,0 +1,67 @@
+{
+  "truoc": 60.299,
+  "sau": 73.856,
+  "so_mau": 1136,
+  "chuyen_trang_thai": {
+    "giu_khop": 685,
+    "moi_khop": 154,
+    "mat_khop": 0,
+    "van_lech": 297
+  },
+  "tung_truong": {
+    "so_nha": {
+      "v1_pct": 95.423,
+      "v2_pct": 95.423,
+      "moi_khop": 0,
+      "mat_khop": 0
+    },
+    "ngo_ngach_hem": {
+      "v1_pct": 96.479,
+      "v2_pct": 99.384,
+      "moi_khop": 34,
+      "mat_khop": 1
+    },
+    "thon_xom": {
+      "v1_pct": 98.944,
+      "v2_pct": 99.472,
+      "moi_khop": 6,
+      "mat_khop": 0
+    },
+    "duong": {
+      "v1_pct": 68.398,
+      "v2_pct": 81.69,
+      "moi_khop": 152,
+      "mat_khop": 1
+    },
+    "ma_xa": {
+      "v1_pct": 90.845,
+      "v2_pct": 93.222,
+      "moi_khop": 28,
+      "mat_khop": 1
+    },
+    "ma_tinh": {
+      "v1_pct": 96.743,
+      "v2_pct": 98.944,
+      "moi_khop": 26,
+      "mat_khop": 1
+    },
+    "xa_phuong": {
+      "v1_pct": 90.581,
+      "v2_pct": 92.694,
+      "moi_khop": 25,
+      "mat_khop": 1
+    },
+    "tinh": {
+      "v1_pct": 96.743,
+      "v2_pct": 98.944,
+      "moi_khop": 26,
+      "mat_khop": 1
+    },
+    "dia_chi_chuan": {
+      "v1_pct": 60.211,
+      "v2_pct": 73.415,
+      "moi_khop": 150,
+      "mat_khop": 0
+    }
+  }
+}

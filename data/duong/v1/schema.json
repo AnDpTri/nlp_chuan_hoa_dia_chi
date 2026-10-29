@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VietnamStreetGazetteerV1_1_Schema",
+  "type": "object",
+  "required": [
+    "id",
+    "canonical_name",
+    "road_type",
+    "ma_tinh",
+    "ten_tinh",
+    "administrative_era",
+    "source_id",
+    "source_type",
+    "source_url",
+    "source_sha256",
+    "status",
+    "verification_status",
+    "evidence_snippet"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^STR_CONF_[0-9]{4}$"
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "road_type": {
+      "type": "string",
+      "enum": [
+        "Đường",
+        "Phố",
+        "Quốc lộ",
+        "Đại lộ",
+        "Xa lộ",
+        "Cao tốc"
+      ]
+    },
+    "ma_tinh": {
+      "type": "string",
+      "pattern": "^[0-9]{2}$"
+    },
+    "ten_tinh": {
+      "type": "string"
+    },
+    "administrative_era": {
+      "type": "string",
+      "enum": [
+        "hien_hanh",
+        "moi_2025",
+        "cu_2024"
+      ]
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "van_ban_quy_pham",
+        "bao_chi_chinh_thong",
+        "cong_thong_tin_chinh_phu",
+        "cong_dong_osm"
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "confirmed"
+      ]
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": [
+        "verified_with_raw_evidence"
+      ]
+    },
+    "evidence_snippet": {
+      "type": "string",
+      "minLength": 10
+    }
+  }
+}

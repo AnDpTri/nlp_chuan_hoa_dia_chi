@@ -1,6 +1,9 @@
 __pycache__/
 *.pyc
 .venv/
+.venv-crf/
+.venv-neural/
+.venv-videberta/
 .vscode/
 .idea/
 
@@ -8,7 +11,11 @@ __pycache__/
 data/agy_*log*.txt
 
 # Large source extracts and transient model logs for held-out evaluation data
-data/test/goc/*.pbf
-data/test/goc/*.part
+*.pbf
+*.part
 data/test/agy/logs/
 data/test/goc/osm_public_candidates.jsonl
+
+# Large handover zip and staging export directory
+ban_giao/**/*.zip
+ban_giao/**/goi_gui_di/

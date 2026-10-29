@@ -1,0 +1,633 @@
+tests/test_review_validation.py
+=== BẮT ĐẦU CHẠY BỘ KIỂM THỬ HỒI QUY QUY TRÌNH DUYỆT TẬP TEST ===
+
+[Test 1] Kiểm tra tập test thật hiện tại...
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 369,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "369/400 (92.2%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Tập test thật PASS cấu trúc, 0 dòng da_duyet, chưa sẵn sàng làm Gold.
+
+[Test 2] Dòng da_duyet có metadata hợp lệ (người, ngày lịch, lý do)...
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 1,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "1/400 (0.2%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Metadata hợp lệ được chấp nhận, tăng human_reviewed_rows lên 1.
+
+[Test 3] Đánh dấu da_duyet nhưng tên người duyệt là 'bot' hoặc rỗng...
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Chặn thành công tên người duyệt rỗng hoặc placeholder.
+
+[Test 4] Đánh dấu da_duyet nhưng ngày không tồn tại theo lịch (2026-02-30)...
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Chặn thành công ngày duyệt không có trên lịch.
+
+[Test 5] Đánh dấu da_duyet nhưng thiếu lý do duyệt...
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0001: trang_thai_nhan is da_duyet but missing valid human reviewer metadata"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Chặn thành công khi thiếu lý do duyệt.
+
+[Test 6] Người duyệt giải quyết xã bị chia khi có bằng chứng thực tế...
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 1,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "1/400 (0.2%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Xã bị chia được giải quyết hợp lệ với bằng chứng người duyệt.
+
+[Test 7] Xã bị chia tự ý điền xã đích khi chưa duyệt (trang_thai_nhan = can_duyet)...
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0002: split ward resolved without valid review"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Chặn thành công tự ý giải quyết xã bị chia mà không có người duyệt.
+
+[Test 8] Người duyệt chọn xã đích bịa đặt (không thuộc targets của xã cũ)...
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 1,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "1/400 (0.2%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [
+    "VNTEST0002: fabricated mapping",
+    "VNTEST0002: resolved split ward target 00004 not in valid targets",
+    "VNTEST0002: resolved split ward should not retain xa_bi_chia warning"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Chặn thành công xã đích không nằm trong bảng đối chiếu.
+
+[Test 9] Người duyệt xem xét xã bị chia nhưng chưa đủ bằng chứng (để trống ma_xa)...
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 1,
+  "ai_reviewed_rows": 0,
+  "total_rows": 400,
+  "review_progress": "1/400 (0.2%)",
+  "ai_review_progress": "0/400 (0.0%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Xã bị chia được duyệt nhưng để trống xã đích khi thiếu căn cứ -> HỢP LỆ.
+
+[Test 10] Tái chạy --sync nhiều lần không nhân đôi nhật ký trong ghi_chu...
+=== TẠO BẢNG ĐỐI CHIẾU DUYỆT TẬP TEST ===
+Đã tạo bảng đối chiếu duyệt: C:\Users\andan\AppData\Local\Temp\test_duyet_fixture_43rpsgau\bang_duyet_test.csv
+Tổng số mẫu: 400
+  Ưu tiên 1 (can_duyet): 232 dòng
+  Ưu tiên 2 (tu_dong_khop): 168 dòng
+  Số dòng đã có người duyệt: 0 (đang chờ người duyệt)
+=== BÁO CÁO TIẾN ĐỘ DUYỆT TẬP TEST ===
+Tổng số mẫu: 400
+--- Người duyệt (Human Review) ---
+  - Ưu tiên 1 (can_duyet):   1 / 232 (0.4%)
+  - Ưu tiên 2 (tu_dong_khop): 0 / 168 (0.0%)
+  - Tổng số dòng người duyệt: 1 / 400 (0.2%)
+  - Người duyệt tham gia:     Kiem Toan Vien A
+--- AI duyệt (AI Review) ---
+  - Ưu tiên 1 (can_duyet):   0 / 232 (0.0%)
+  - Ưu tiên 2 (tu_dong_khop): 0 / 168 (0.0%)
+  - Tổng số dòng AI duyệt:    0 / 400 (0.0%)
+  - Số dòng AI điều chỉnh:    0
+  - AI agent/model:           (Chưa có)
+
+Trạng thái sẵn sàng làm Bộ đáp án vàng (Gold Evaluation): CHƯA SẴN SÀNG (Cần 100% người duyệt chứng thực)
+
+Đang đồng bộ 1 dòng đã duyệt sang dia_chi_test.csv...
+Đã đồng bộ thành công 1 dòng (bao gồm nhãn, canh_bao và ghi_chu).
+Đã đồng bộ thành công 1 dòng (bao gồm nhãn, canh_bao và ghi_chu).
+=== BÁO CÁO TIẾN ĐỘ DUYỆT TẬP TEST ===
+Tổng số mẫu: 400
+--- Người duyệt (Human Review) ---
+  - Ưu tiên 1 (can_duyet):   1 / 232 (0.4%)
+  - Ưu tiên 2 (tu_dong_khop): 0 / 168 (0.0%)
+  - Tổng số dòng người duyệt: 1 / 400 (0.2%)
+  - Người duyệt tham gia:     Kiem Toan Vien A
+--- AI duyệt (AI Review) ---
+  - Ưu tiên 1 (can_duyet):   0 / 232 (0.0%)
+  - Ưu tiên 2 (tu_dong_khop): 0 / 168 (0.0%)
+  - Tổng số dòng AI duyệt:    0 / 400 (0.0%)
+  - Số dòng AI điều chỉnh:    0
+  - AI agent/model:           (Chưa có)
+
+Trạng thái sẵn sàng làm Bộ đáp án vàng (Gold Evaluation): CHƯA SẴN SÀNG (Cần 100% người duyệt chứng thực)
+
+Đang đồng bộ 1 dòng đã duyệt sang dia_chi_test.csv...
+Đã đồng bộ thành công 1 dòng (bao gồm nhãn, canh_bao và ghi_chu).
+Đã đồng bộ thành công 1 dòng (bao gồm nhãn, canh_bao và ghi_chu).
+  -> ĐẠT: Đồng bộ mang tính lũy đắc (idempotent), không nhân đôi nhật ký.
+
+[Test 11] Chạy lại tao_bang_duyet bảo toàn các ô người dùng đã điền...
+=== TẠO BẢNG ĐỐI CHIẾU DUYỆT TẬP TEST ===
+Đã tạo bảng đối chiếu duyệt: C:\Users\andan\AppData\Local\Temp\test_duyet_fixture_43rpsgau\bang_duyet_test.csv
+Tổng số mẫu: 400
+  Ưu tiên 1 (can_duyet): 231 dòng
+  Ưu tiên 2 (tu_dong_khop): 169 dòng
+  Số dòng đã có người duyệt: 0 (đang chờ người duyệt)
+  -> ĐẠT: Tái tạo bảng duyệt bảo toàn toàn bộ dữ liệu người dùng đã nhập.
+
+[Test 12] AI review: ghi nhận da_duyet_ai, tăng ai_reviewed_rows, không tăng human_reviewed_rows...
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 1,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "1/400 (0.2%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: AI review được ghi nhận độc lập, không mạo danh người duyệt.
+
+[Test 13] AI review giải quyết xã bị chia có bằng chứng đối chiếu hợp lệ...
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 1,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "1/400 (0.2%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: AI review giải quyết xã bị chia hợp lệ khi có bằng chứng và đích hợp lệ.
+
+[Test 14] AI review gán sai đích không thuộc tập chuyển đổi cho xã bị chia...
+{
+  "status": "FAIL",
+  "structural_status": "FAIL",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 1,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "1/400 (0.2%)",
+  "errors": [
+    "VNTEST0002: fabricated mapping",
+    "VNTEST0002: resolved split ward target 00004 not in valid targets",
+    "VNTEST0002: resolved split ward should not retain xa_bi_chia warning"
+  ],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+  -> ĐẠT: Chặn thành công AI review gán sai đích cho xã bị chia.
+
+=== TỔNG KẾT: 14/14 BÀI TEST ĐẠT YÊU CẦU 100% ===
+
+
+data/test/scripts/validate_dataset.py
+{
+  "status": "PASS",
+  "structural_status": "PASS",
+  "is_ready_for_gold_evaluation": false,
+  "provisional_only": true,
+  "human_reviewed_rows": 0,
+  "ai_reviewed_rows": 369,
+  "total_rows": 400,
+  "review_progress": "0/400 (0.0%)",
+  "ai_review_progress": "369/400 (92.2%)",
+  "errors": [],
+  "rows": 400,
+  "new_provinces_represented": 32,
+  "confirmed_old_split_rows": 33,
+  "limitations": [
+    "Nh\u00e3n s\u01a1 b\u1ed9 do m\u00e1y, ch\u01b0a c\u00f3 d\u00f2ng n\u00e0o \u0111\u01b0\u1ee3c ng\u01b0\u1eddi duy\u1ec7t; ch\u01b0a \u0111\u01b0\u1ee3c d\u00f9ng l\u00e0m gold test.",
+    "OSM l\u00e0 d\u1eef li\u1ec7u c\u1ed9ng \u0111\u1ed3ng: ngu\u1ed3n th\u1eadt kh\u00f4ng \u0111\u1ed3ng ngh\u0129a \u0111\u1ecba ch\u1ec9 lu\u00f4n \u0111\u00fang ho\u1eb7c c\u00f2n hi\u1ec7n h\u00e0nh.",
+    "Xem statistics.json \u0111\u1ec3 ph\u00e2n bi\u1ec7t chu\u1ed7i addr:full nguy\u00ean v\u0103n v\u00e0 chu\u1ed7i gh\u00e9p t\u1eeb th\u1ebb c\u1ea5u tr\u00fac.",
+    "Kh\u00f4ng c\u1ed1 t\u00ecnh t\u1ea1o l\u1ed7i g\u00f5 hay b\u1ecf d\u1ea5u; \u0111\u1ed9 kh\u00f3 v\u00e0 t\u1ef7 l\u1ec7 l\u1ed7i b\u1ecb gi\u1edbi h\u1ea1n b\u1edfi ngu\u1ed3n t\u1ef1 nhi\u00ean.",
+    "Kh\u00f4ng s\u1eed d\u1ee5ng t\u1ecda \u0111\u1ed9 hay t\u00ean t\u1ed5 ch\u1ee9c \u0111\u1ec3 \u0111i\u1ec1n \u0111\u01a1n v\u1ecb h\u00e0nh ch\u00ednh thi\u1ebfu trong \u0111\u1ea7u v\u00e0o.",
+    "C\u00e1c x\u00e3 b\u1ecb chia gi\u1eef nhi\u1ec1u \u1ee9ng vi\u00ean; c\u1ea7n \u0111\u1ed1i chi\u1ebfu chi ti\u1ebft \u0111\u1ecba ph\u01b0\u01a1ng n\u1ebfu mu\u1ed1n ch\u1ed1t \u0111\u00e1p \u00e1n."
+  ],
+  "csv_sha256": "3fbf36b998eca4203c1dd5dba193201a877fcb5921c457c8ba95383786ee1f2a"
+}
+
+
+data/test/scripts/pin_catalogues.py
+Catalogue fingerprints verified/pinned
+
+
+data/test/scripts/kiem_tra_tien_do_duyet.py
+=== BÁO CÁO TIẾN ĐỘ DUYỆT TẬP TEST ===
+Tổng số mẫu: 400
+--- Người duyệt (Human Review) ---
+  - Ưu tiên 1 (can_duyet):   0 / 232 (0.0%)
+  - Ưu tiên 2 (tu_dong_khop): 0 / 168 (0.0%)
+  - Tổng số dòng người duyệt: 0 / 400 (0.0%)
+  - Người duyệt tham gia:     (Chưa có)
+--- AI duyệt (AI Review) ---
+  - Ưu tiên 1 (can_duyet):   232 / 232 (100.0%)
+  - Ưu tiên 2 (tu_dong_khop): 168 / 168 (100.0%)
+  - Tổng số dòng AI duyệt:    400 / 400 (100.0%)
+  - Số dòng AI điều chỉnh:    308
+  - AI agent/model:           antigravity-deepmind-agent
+
+Trạng thái sẵn sàng làm Bộ đáp án vàng (Gold Evaluation): CHƯA SẴN SÀNG (Cần 100% người duyệt chứng thực)
+
+

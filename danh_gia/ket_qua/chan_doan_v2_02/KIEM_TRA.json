@@ -1,0 +1,14 @@
+{
+  "dev_rows": 1136,
+  "six_field_match": 839,
+  "mismatch_rows": 297,
+  "manual_review_rows": 33,
+  "all20_no_warning_mismatches_reviewed": true,
+  "new_diagnostic_tests_passed": 6,
+  "baseline_result_equality_all1136": true,
+  "trace_reconstruction_equality_all1136": true,
+  "core_evaluator_catalogue_dev_hashes_unchanged": true,
+  "original_train_hash": "b6908b887034742f040fef272498b037b8c5e8fc37ea0302adc281740f73042d",
+  "final_test_not_used": true,
+  "new_core_or_model_changes": false
+}

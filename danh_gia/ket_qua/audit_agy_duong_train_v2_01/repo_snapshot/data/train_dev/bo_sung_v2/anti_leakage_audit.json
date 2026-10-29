@@ -1,0 +1,60 @@
+{
+  "total_train_orig_scanned": 4564,
+  "valid_seeds_retained": 2857,
+  "conflicts_excluded": {
+    "masked_family_in_holdout": 208
+  },
+  "total_conflicts_excluded": 208,
+  "sample_excluded_cases": [
+    {
+      "id": "VNTRAIN_00002",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "137 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"
+    },
+    {
+      "id": "VNTRAIN_00006",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "48 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"
+    },
+    {
+      "id": "VNTRAIN_00007",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "29-31 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"
+    },
+    {
+      "id": "VNTRAIN_00008",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "87 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"
+    },
+    {
+      "id": "VNTRAIN_00010",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "119 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"
+    },
+    {
+      "id": "VNTRAIN_00013",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "326, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ"
+    },
+    {
+      "id": "VNTRAIN_00020",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "125 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"
+    },
+    {
+      "id": "VNTRAIN_00021",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "152 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"
+    },
+    {
+      "id": "VNTRAIN_00022",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "112 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"
+    },
+    {
+      "id": "VNTRAIN_00023",
+      "reason": "masked_family_in_holdout",
+      "dau_vao": "80 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "audit snapshot, not live agy directory",
+  "source_sha256": {
+    "anti_leakage_audit.json": "49782c9329137b6f9d41bdd936beb123db7922d82ba515f28bf07dc88431f443",
+    "distribution_summary.json": "fab066f84fe575b0fa9fcd3c11d7f298880acd39af3e108f6ff2e67d5bd174c6",
+    "manifest.json": "32a4ec503299de903b66fe79d09a1d6e5299f32d03929116e64602da90c17de9",
+    "token_spans_v2.jsonl": "4db2e8f387474323fd37a369c6a7c03f1fbc209f64e49fa7d32c3d42687d3032",
+    "train_bo_sung_v2.csv": "b61ace0964f7a3131539a1fa7ce4409576524bc88279c7cfe1d4c3948dd376a3",
+    "train_spans_v2.jsonl": "1fad639e3b3987766db32ca6bf733f1a9e6a91c0d1acf5c07912c859ded479db"
+  },
+  "input_rows": 3000,
+  "passed_local_checks": 1183,
+  "reserved_by_family": 256,
+  "cnn_new_rows": 927,
+  "cnn_new_parent_families": 301,
+  "cnn_combined_rows": 5768,
+  "excluded_rows": 1817,
+  "reasons_overlapping": {
+    "nhan_chuan_chua_du_dieu_kien": 664,
+    "nhan_span_khong_dong_bo_ngo_ngach_hem": 654,
+    "nhan_span_khong_dong_bo_duong": 262,
+    "nhan_span_khong_dong_bo_thon_xom": 79,
+    "trung_input_train_cnn": 628,
+    "giao_ho_dev_hoac_ranker": 31
+  },
+  "dev_or_ranker_read_only": true,
+  "models_retrained": false,
+  "quality": "Chỉ qua cổng kiểm tra này, chưa phải gold/kiểm chứng ngữ nghĩa toàn bộ; chưa đưa vào runtime."
+}

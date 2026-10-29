@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "generated_at": "2026-10-29T12:56:23.940017+00:00",
+    "description": "Bảng tổng hợp va chạm tra cứu của tập confirmed (đã có nguồn chứng thực thật)."
+  },
+  "collision_summary": {
+    "cross_province_count": 0,
+    "diacritics_collision_count": 0,
+    "road_type_collision_count": 0,
+    "initials_ambiguity_count": 0
+  },
+  "cross_province_collisions": {},
+  "diacritics_collisions": {},
+  "road_type_collisions": {},
+  "initials_ambiguities": {}
+}

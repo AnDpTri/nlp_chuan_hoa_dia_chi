@@ -1,0 +1,20 @@
+{
+  "dev.csv": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe",
+  "dev_kho.csv": "588767b2f5470d05a45296de24a6167f811296ed099a1b044165e5f0f9201421",
+  "dev_spans.jsonl": "73d68663c1d43837021febac30a3857524257f88064b7dc7051d021e9a673f16",
+  "train.csv": "b6908b887034742f040fef272498b037b8c5e8fc37ea0302adc281740f73042d",
+  "train_bo_sung.csv": "f7d96d510e87ca83fbce0151b28584d54e00879e853f8f836354b7770c6fd5df",
+  "train_spans.jsonl": "0c88e96f3cdd6c47eca2c970d51f4636720fd4fae5c86515a1d60444944d3e1d",
+  "clean\\cu_huyen.csv": "0e7aa37a54ffd0ac4b87dac6f2c21ca122eef97b57e730bb0a44e572d68d0d4d",
+  "clean\\cu_tinh.csv": "32755d21d198951adb6cfb562a74e3d18fddc526548791c5f66f9fc4d7441ead",
+  "clean\\cu_tinh_huyen_xa.csv": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014",
+  "clean\\doi_chieu_xa_cu_moi.csv": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218",
+  "clean\\moi_tinh.csv": "e18687784707867b3b44a70265fc37881dea5b8f41fd4f00d8b3462c6345da96",
+  "clean\\moi_tinh_xa.csv": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb",
+  "prepared_crf\\dev_goc.jsonl": "dd2c6fa9a726302812e1d89afe8174c7cbef7b3ee2b2001806a0c92ef7bff17b",
+  "prepared_crf\\dev_kho.jsonl": "fc6605224886aee72a911b62ecf8d529061d6ff1e5fbc581d4caa88216f7408b",
+  "prepared_crf\\excluded.jsonl": "7582b0fa7acd67bb510cfee4008ab4d9eba328c7d7e54e0e3b7e19f7b53b6c1e",
+  "prepared_crf\\summary.json": "ff3087de240bf7614b6538696ef8623d0e1ffa703a48909a64e9b7e4849c6a6b",
+  "prepared_crf\\train_goc.jsonl": "b7114178e196a34747779022a36965ac4543033cd87372e675e8d7e4bec24902",
+  "prepared_crf\\train_ket_hop.jsonl": "61fd656c592331358ee57a9e3b8240394e9e5412226f76101c71157bfb8bf445"
+}

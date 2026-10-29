@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "generated_at_utc": "2026-10-29T12:56:23.993623+00:00",
+    "description": "Bảng mã băm SHA-256 toàn bộ các tệp phân phối thuộc danh mục đường v1.1."
+  },
+  "files": [
+    {
+      "path": "data/duong/v1/danh_muc_candidates_pending.csv",
+      "sha256": "58e970f74a1295deaaf1efe4040eb5b08a089724f6abaf4b2c023a3d98f4cf67",
+      "size_bytes": 911619
+    },
+    {
+      "path": "data/duong/v1/danh_muc_candidates_pending.jsonl",
+      "sha256": "f0199f174ff7d3251f39c353499e8f9d9b34b132e4be4cfa0d74a45b17f82b2b",
+      "size_bytes": 1515363
+    },
+    {
+      "path": "data/duong/v1/danh_muc_duong.csv",
+      "sha256": "cdbcae04f42bcbb19c0a8b652ce42ec578d850720da5f012cac4a26dcc3411a7",
+      "size_bytes": 33328
+    },
+    {
+      "path": "data/duong/v1/danh_muc_duong.jsonl",
+      "sha256": "7e299f250a844060205c046644e46f62be8ea4cd66101a5d42447f8c8293228d",
+      "size_bytes": 50473
+    },
+    {
+      "path": "data/duong/v1/danh_muc_pending_rejected.csv",
+      "sha256": "f8016f972c8f5e1660ef8c4f8e358603c10a58dd8d288bf3a598498e8f0419e1",
+      "size_bytes": 8141
+    },
+    {
+      "path": "data/duong/v1/danh_muc_pending_rejected.jsonl",
+      "sha256": "dba6d65ea05927691d8ca4a35b542f38a8f83ce96ce337b4a9d271f990fa8b36",
+      "size_bytes": 13569
+    },
+    {
+      "path": "data/duong/v1/DINH_CHINH_LICH_SU.md",
+      "sha256": "892053a4549a3c9d326bb6f248d0b6eac8b22a7f05c8f2da437913b6d1759353",
+      "size_bytes": 8453
+    },
+    {
+      "path": "data/duong/v1/khoa_tra_cuu.json",
+      "sha256": "b8c68e8e32beb4a94dbcd5c94f9ae50d50bda6e7eb3be6a5ab9d1708a2adb386",
+      "size_bytes": 8518
+    },
+    {
+      "path": "data/duong/v1/khoa_xung_dot.json",
+      "sha256": "668fe8d08bec14c39804cba3bbad7af215a7b65a23ae406f553dc3d5f5c02a05",
+      "size_bytes": 538
+    },
+    {
+      "path": "data/duong/v1/raw_sources/danang_1022_nq_dat_ten_duong_raw.html",
+      "sha256": "b312aa486cf9a4cf9c7bc8c742ed83e6d233e613d517381796a9ca8201f2ab3c",
+      "size_bytes": 216570
+    },
+    {
+      "path": "data/duong/v1/raw_sources/danang_baodanang_dat_ten_duong_raw.html",
+      "sha256": "b7944de1ae86a4d284a70fd58cdfa2a0f988e244c9e33c0f21aa48bdb467d12f",
+      "size_bytes": 110240
+    },
+    {
+      "path": "data/duong/v1/raw_sources/docid204000_counter_evidence_raw.html",
+      "sha256": "d70ac973be49e5b7728efc9693625101f5d5c463768516330313236c2c9e5567",
+      "size_bytes": 84553
+    },
+    {
+      "path": "data/duong/v1/raw_sources/hanoi_qd3862_2025_raw.html",
+      "sha256": "7c053d11bdaefdc05a8d36cbf8a56d2f3a31cc6b31884fe7b9044d286ff29294",
+      "size_bytes": 193051
+    },
+    {
+      "path": "data/duong/v1/raw_sources/quoc_lo_qd1454_2021_baochinhphu_raw.html",
+      "sha256": "885f6352c0d2cbc98e9365acb4cc643b330e6474039922b69a03cb96104a3faf",
+      "size_bytes": 347255
+    },
+    {
+      "path": "data/duong/v1/raw_sources/raw_sources_manifest.json",
+      "sha256": "51b62bffde42aaf4aa5ce2f0b268ffa8c097af34f6a0dae302b41fc2176fd10b",
+      "size_bytes": 6936
+    },
+    {
+      "path": "data/duong/v1/raw_sources/tphcm_hdnd_dat_ten_quoc_lo_2025_raw.html",
+      "sha256": "f88ec99395d869db368088e9e71f72907772701983353ea45168fdd75522c57a",
+      "size_bytes": 81600
+    },
+    {
+      "path": "data/duong/v1/record_evidence_mapping.json",
+      "sha256": "d74a9fcf0e3f2b9bea671ba1a87214eb8351849b15b19faa36f868fc60146e55",
+      "size_bytes": 41235
+    },
+    {
+      "path": "data/duong/v1/schema.json",
+      "sha256": "07b808d32e0c4576dbcca367652731ec369680fc64470bf27699e9c9ea1efe3a",
+      "size_bytes": 1829
+    },
+    {
+      "path": "data/duong/v1/sources/cac_tinh_thanh_do_thi_qd_ubnd.txt",
+      "sha256": "a124be003ea69d86911a2bf9c211b3330b04daf20db66eae548cc2a281784993",
+      "size_bytes": 53263
+    },
+    {
+      "path": "data/duong/v1/sources/can_tho_qd19_2023.txt",
+      "sha256": "cc2375324f76ef617031ebe355491d4f7df455319ed6e58ff45cf07330bc4741",
+      "size_bytes": 4664
+    },
+    {
+      "path": "data/duong/v1/sources/danang_nq49_2025.txt",
+      "sha256": "3b5a55302444190fd6a2f4a121611fb60f3144f18876e6fb5a64fd9f48c6d560",
+      "size_bytes": 10557
+    },
+    {
+      "path": "data/duong/v1/sources/ha_noi_qd3816_2026.txt",
+      "sha256": "b9fb7e6c8575be9832d9909af78626b5bbd921e54d34e858ecd22312eb65828d",
+      "size_bytes": 91159
+    },
+    {
+      "path": "data/duong/v1/sources/hai_phong_nq14_2023.txt",
+      "sha256": "0a3bff06123853c454960775fbb2ae90aaf441070e953ced58f2881ca4b1862b",
+      "size_bytes": 5712
+    },
+    {
+      "path": "data/duong/v1/sources/osm_urban_streets_verified_2025.txt",
+      "sha256": "6c4b151fd3ede11e26f7ef15e50ec874e0131591c7bdb4857f096f8a4d2158dc",
+      "size_bytes": 27799
+    },
+    {
+      "path": "data/duong/v1/sources/quoc_lo_vietnam_qd1454_2021.txt",
+      "sha256": "65fa65b5267d91944da7806cbb95fd242a9f28bf200f2a3c104f7f00aae82f87",
+      "size_bytes": 20315
+    },
+    {
+      "path": "data/duong/v1/sources/sources_manifest.json",
+      "sha256": "cd72adb833cd511c0fd17482ae429b06abfaa67355a11360fc770a40ddad7871",
+      "size_bytes": 6355
+    },
+    {
+      "path": "data/duong/v1/sources/tai_lieu_chua_xac_minh_pending.txt",
+      "sha256": "0d8eb2da6eb21e5a49c51b1196acd94ece2463822f2a5660c1ff156493dff834",
+      "size_bytes": 6263
+    },
+    {
+      "path": "data/duong/v1/sources/thua_thien_hue_qd64_2022.txt",
+      "sha256": "005a0737e1f4d8c7f13b44ede8e226e10326ce8c6a107fa00d856df7cad5f396",
+      "size_bytes": 4746
+    },
+    {
+      "path": "data/duong/v1/sources/tphcm_qd212_2006.txt",
+      "sha256": "a9de0ca031b5257186ef53bc15f9fd35935b8eda67184e7190456330de182951",
+      "size_bytes": 45042
+    },
+    {
+      "path": "data/duong/v1/statistics.json",
+      "sha256": "556195cb90db2d453208cf98b32bf4338752a54c32d5f217e6faef1e86ec4886",
+      "size_bytes": 912
+    }
+  ]
+}

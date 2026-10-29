@@ -1,0 +1,34 @@
+{
+  "version": "1.1.0",
+  "updated_at_utc": "2026-10-29T12:56:23.940017+00:00",
+  "confirmed_summary": {
+    "total_confirmed_records": 53,
+    "unique_canonical_names": 53,
+    "provinces_covered": [
+      "Hà Nội",
+      "Hồ Chí Minh",
+      "Ninh Bình, Thanh Hóa",
+      "Toàn quốc",
+      "Đà Nẵng"
+    ],
+    "road_types": {
+      "Phố": 16,
+      "Đường": 34,
+      "Cao tốc": 2,
+      "Quốc lộ": 1
+    },
+    "status": "ALL_CONFIRMED_HAVE_RAW_EVIDENCE_HTTP200"
+  },
+  "downgraded_candidates_summary": {
+    "total_candidates_pending": 1484,
+    "legacy_records_downgraded_to_candidate": 1461,
+    "legacy_pending_rejected": 23,
+    "status": "AWAITING_INDEPENDENT_EVIDENCE_FETCH"
+  },
+  "raw_sources_summary": {
+    "total_raw_sources": 6,
+    "official_legal_sources": 5,
+    "press_evidence_sources": 1,
+    "counter_evidence_sources": 1
+  }
+}

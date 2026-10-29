@@ -1,0 +1,26 @@
+{
+  "train_validator": {
+    "exit_code": 0,
+    "tail": "tion): 0% RÒ RỈ.\n7. Cô lập Train - Dev (Group Isolation & Family Isolation): 0% RÒ RỈ (0 họ trùng khi che span so_nha).\n8. Tính xác thực Provenance (Provenance Integrity): 100% CHUẨN XÁC (0 sai lệch mã xã nguồn).\n9. Bảo toàn bộ gốc: NGUYÊN VẸN 100%.\n"
+  },
+  "test_validator": {
+    "exit_code": 0,
+    "tail": "\\u1ec1u \\u1ee9ng vi\\u00ean; c\\u1ea7n \\u0111\\u1ed1i chi\\u1ebfu chi ti\\u1ebft \\u0111\\u1ecba ph\\u01b0\\u01a1ng n\\u1ebfu mu\\u1ed1n ch\\u1ed1t \\u0111\\u00e1p \\u00e1n.\"\n  ],\n  \"csv_sha256\": \"38321e247f20de789e718f873fb4fedb04803fcd2d3aee3845adab9594d84603\"\n}\n"
+  },
+  "original_files_changed_during_audit": [],
+  "core_or_crf_changed_since_last_training": [],
+  "test_rows": 400,
+  "test_statuses": {
+    "da_duyet_ai": 292,
+    "can_duyet": 108
+  },
+  "test_input_id_source_unchanged": true,
+  "split_rows_kept_blank": 33,
+  "fixed_lookup_timestamp_rows": 37,
+  "audit_references_1192_as_hanoi_rows": 11,
+  "unit_tests_rerun_on_snapshot": {
+    "train": 13,
+    "test": 24,
+    "all_passed": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "total_train_bo_sung": 2297,
+  "total_dev_kho": 517,
+  "total_bo_sung_corpus": 2814,
+  "seed": 4242,
+  "valid_spans": {
+    "train_valid_spans": 2297,
+    "dev_valid_spans": 517,
+    "total_valid_spans": 2814,
+    "unaligned_spans_count": 0
+  },
+  "train_distribution_by_type": {
+    "viet_tat_ten_rieng": 142,
+    "viet_tat_ten_rieng_mo_ho": 144,
+    "dinh_chu_p7_q10": 144,
+    "mat_dau_viet_tat": 144,
+    "dinh_ranh_gioi_khong_phay": 144,
+    "dao_thu_tu": 144,
+    "thieu_cap": 144,
+    "tron_moc_cu_moi_kho": 144,
+    "loi_go_telex_phim": 144,
+    "to_hop_kho": 144,
+    "duong_trung_hanh_chinh": 144,
+    "so_nha_nhieu_xuyet": 144,
+    "xa_bi_chia_mo_ho": 144,
+    "ngu_canh_to_to": 143,
+    "ngu_canh_tinh_tinh": 142,
+    "ngu_canh_cum_thanh_pho": 142
+  },
+  "dev_distribution_by_type": {
+    "viet_tat_ten_rieng": 33,
+    "dinh_chu_p7_q10": 33,
+    "mat_dau_viet_tat": 33,
+    "dinh_ranh_gioi_khong_phay": 33,
+    "dao_thu_tu": 33,
+    "thieu_cap": 33,
+    "tron_moc_cu_moi_kho": 33,
+    "loi_go_telex_phim": 32,
+    "to_hop_kho": 32,
+    "duong_trung_hanh_chinh": 32,
+    "so_nha_nhieu_xuyet": 32,
+    "xa_bi_chia_mo_ho": 32,
+    "ngu_canh_to_to": 32,
+    "ngu_canh_tinh_tinh": 31,
+    "ngu_canh_cum_thanh_pho": 31,
+    "viet_tat_ten_rieng_mo_ho": 32
+  },
+  "status_breakdown": {
+    "da_xac_minh_span": 2287,
+    "xac_dinh_theo_ngu_canh": 175,
+    "chua_xac_dinh": 352
+  }
+}

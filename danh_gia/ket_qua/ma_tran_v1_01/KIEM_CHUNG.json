@@ -1,0 +1,20 @@
+{
+  "cnn_ranker_cu_dev_goc": true,
+  "cnn_tay_cu_dev_goc": true,
+  "videberta_ranker_cu_dev_goc": true,
+  "videberta_tay_cu_dev_goc": false,
+  "luat_tay_cu_dev_goc": true,
+  "crf_tay_cu_dev_goc": true,
+  "cnn_ranker_cu_dev_kho": true,
+  "cnn_tay_cu_dev_kho": true,
+  "videberta_ranker_cu_dev_kho": true,
+  "videberta_tay_cu_dev_kho": false,
+  "luat_tay_cu_dev_kho": true,
+  "crf_tay_cu_dev_kho": true,
+  "code_unchanged": true,
+  "videberta_tay_cu_dev_goc_same_except_float_score": true,
+  "videberta_tay_cu_dev_goc_max_score_delta": 0.00010000000000331966,
+  "videberta_tay_cu_dev_kho_same_except_float_score": true,
+  "videberta_tay_cu_dev_kho_max_score_delta": 0.00010000000000331966,
+  "note": "ViDeBERTa điểm tay khác số làm tròn score CPU laptop/Colab; mọi trường output/cảnh báo/trace còn lại giống. Các baseline khác giống toàn bộ prediction."
+}

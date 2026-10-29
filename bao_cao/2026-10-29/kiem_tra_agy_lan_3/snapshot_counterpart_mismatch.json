@@ -1,0 +1,978 @@
+[
+  {
+    "old_id": "VNTRAIN_BS_01503",
+    "new_id": "VNTRAIN_BS_01799",
+    "old_ward": "27310",
+    "new_ward": "27154",
+    "old_input": "118Đ.BàTriệu, P12, Q5, Thành phố Hồ Chí Minh",
+    "new_input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01513",
+    "new_id": "VNTRAIN_BS_01843",
+    "old_ward": "00611",
+    "new_ward": "00454",
+    "old_input": "Số 234B, Thôn 2, Phường Xuân Tảo, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "new_input": "Số 548, Thôn Đông, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01519",
+    "new_id": "VNTRAIN_BS_01800",
+    "old_ward": "27352",
+    "new_ward": "27154",
+    "old_input": "347Đ.VõVănKiệt, P9, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "209Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01529",
+    "new_id": "VNTRAIN_BS_01844",
+    "old_ward": "10816",
+    "new_ward": "00454",
+    "old_input": "Số 623C, Thôn Tây, Xã Hồng Lạc, Huyện Thanh Hà, Tỉnh Hải Dương",
+    "new_input": "Số 623A, Thôn Tây, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01535",
+    "new_id": "VNTRAIN_BS_01801",
+    "old_ward": "27271",
+    "new_ward": "27154",
+    "old_input": "667Đ.KimMã, P8, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "157Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01545",
+    "new_id": "VNTRAIN_BS_01845",
+    "old_ward": "00283",
+    "new_ward": "00454",
+    "old_input": "Số 847, Thôn 1, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 643Bis, Thôn Nam, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01551",
+    "new_id": "VNTRAIN_BS_01802",
+    "old_ward": "26875",
+    "new_ward": "27154",
+    "old_input": "94Đ.KimMã, P17, Q.Gò Vấp, Thành phố Hồ Chí Minh",
+    "new_input": "261Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01561",
+    "new_id": "VNTRAIN_BS_01846",
+    "old_ward": "11656",
+    "new_ward": "00454",
+    "old_input": "Số 196B, Thôn 2, Thị trấn Trường Sơn, Huyện An Lão, Thành phố Hải Phòng",
+    "new_input": "Số 599, Thôn Bắc, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01567",
+    "new_id": "VNTRAIN_BS_01803",
+    "old_ward": "26878",
+    "new_ward": "27154",
+    "old_input": "387Đ.BàTriệu, P16, Q.Gò Vấp, Thành phố Hồ Chí Minh",
+    "new_input": "229Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01577",
+    "new_id": "VNTRAIN_BS_01847",
+    "old_ward": "27625",
+    "new_ward": "00454",
+    "old_input": "Số 551B, Thôn 2, Xã An Phú Tây, Huyện Bình Chánh, Thành phố Hồ Chí Minh",
+    "new_input": "Số 658Bis, Thôn 1, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01583",
+    "new_id": "VNTRAIN_BS_01804",
+    "old_ward": "27151",
+    "new_ward": "27154",
+    "old_input": "692Đ.CầuGiấy, P5, Q3, Thành phố Hồ Chí Minh",
+    "new_input": "217Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01593",
+    "new_id": "VNTRAIN_BS_01848",
+    "old_ward": "25786",
+    "new_ward": "00454",
+    "old_input": "Số 837, Xóm Trại, Xã Minh Tân, Huyện Dầu Tiếng, Tỉnh Bình Dương",
+    "new_input": "Số 714A, Thôn 2, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01599",
+    "new_id": "VNTRAIN_BS_01805",
+    "old_ward": "26992",
+    "new_ward": "27154",
+    "old_input": "15Đ.VõVănKiệt, P10, Q.Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "267Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01609",
+    "new_id": "VNTRAIN_BS_01849",
+    "old_ward": "00256",
+    "new_ward": "00454",
+    "old_input": "Số 250C, Thôn Đông, Phường Lê Đại Hành, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 666A, Xóm Trại, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01615",
+    "new_id": "VNTRAIN_BS_01806",
+    "old_ward": "26914",
+    "new_ward": "27154",
+    "old_input": "304Đ.KimMã, P26, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "270Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01625",
+    "new_id": "VNTRAIN_BS_01850",
+    "old_ward": "07093",
+    "new_ward": "00454",
+    "old_input": "Số 471, Thôn 2, Phường Đức Chính, Thành phố Đông Triều, Tỉnh Quảng Ninh",
+    "new_input": "Số 690B, Ấp Chợ, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01631",
+    "new_id": "VNTRAIN_BS_01807",
+    "old_ward": "27259",
+    "new_ward": "27154",
+    "old_input": "627Đ.NguyễnHuệ, P13, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "304Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01641",
+    "new_id": "VNTRAIN_BS_01851",
+    "old_ward": "00271",
+    "new_ward": "00454",
+    "old_input": "Số 791C, Thôn 2, Phường Thanh Nhàn, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 729B, Thôn Đông, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01647",
+    "new_id": "VNTRAIN_BS_01808",
+    "old_ward": "27298",
+    "new_ward": "27154",
+    "old_input": "876Đ.CầuGiấy, P1, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "312Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01657",
+    "new_id": "VNTRAIN_BS_01852",
+    "old_ward": "00616",
+    "new_ward": "00454",
+    "old_input": "Số 128, Thôn Tây, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "new_input": "Số 718, Thôn Tây, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01663",
+    "new_id": "VNTRAIN_BS_01809",
+    "old_ward": "26926",
+    "new_ward": "27154",
+    "old_input": "250Đ.BàTriệu, P7, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "421Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01673",
+    "new_id": "VNTRAIN_BS_01853",
+    "old_ward": "10990",
+    "new_ward": "00454",
+    "old_input": "Số 490Bis, Thôn 2, Xã Thái Dương, Huyện Bình Giang, Tỉnh Hải Dương",
+    "new_input": "Số 755Bis, Thôn Nam, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01679",
+    "new_id": "VNTRAIN_BS_01810",
+    "old_ward": "26884",
+    "new_ward": "27154",
+    "old_input": "573Đ.TrầnHưngĐạo, P10, Q.Gò Vấp, Thành phố Hồ Chí Minh",
+    "new_input": "409Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01689",
+    "new_id": "VNTRAIN_BS_01854",
+    "old_ward": "00298",
+    "new_ward": "00454",
+    "old_input": "Số 772C, Thôn Chùa, Phường Trương Định, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 808B, Thôn Bắc, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01695",
+    "new_id": "VNTRAIN_BS_01811",
+    "old_ward": "27421",
+    "new_ward": "27154",
+    "old_input": "891Đ.KimMã, P14, Q8, Thành phố Hồ Chí Minh",
+    "new_input": "446Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01705",
+    "new_id": "VNTRAIN_BS_01855",
+    "old_ward": "11521",
+    "new_ward": "00454",
+    "old_input": "Số 172A, Thôn Tây, Phường Lê Hồng Phong, Thành phố Thủy Nguyên, Thành phố Hải Phòng",
+    "new_input": "Số 788, Thôn 1, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01711",
+    "new_id": "VNTRAIN_BS_01812",
+    "old_ward": "27367",
+    "new_ward": "27154",
+    "old_input": "271Đ.KimMã, P2, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "450Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01721",
+    "new_id": "VNTRAIN_BS_01856",
+    "old_ward": "00445",
+    "new_ward": "00454",
+    "old_input": "Số 456, Thôn 2, Xã Phú Minh, Huyện Sóc Sơn, Thành phố Hà Nội",
+    "new_input": "Số 818A, Thôn 2, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01726",
+    "new_id": "VNTRAIN_BS_01813",
+    "old_ward": "26950",
+    "new_ward": "27154",
+    "old_input": "564Đ.NguyễnTrãi, P17, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "463Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01736",
+    "new_id": "VNTRAIN_BS_01857",
+    "old_ward": "06799",
+    "new_ward": "00454",
+    "old_input": "Số 754A, Thôn 1, Xã Hải Hòa, Thành phố Cẩm Phả, Tỉnh Quảng Ninh",
+    "new_input": "Số 897Bis, Xóm Trại, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01742",
+    "new_id": "VNTRAIN_BS_01814",
+    "old_ward": "26941",
+    "new_ward": "27154",
+    "old_input": "837Đ.KimMã, P2, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "498Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01752",
+    "new_id": "VNTRAIN_BS_01858",
+    "old_ward": "09541",
+    "new_ward": "00454",
+    "old_input": "Số 59C, Thôn 2, Phường Mộ Lao, Quận Hà Đông, Thành phố Hà Nội",
+    "new_input": "Số 932B, Ấp Chợ, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01758",
+    "new_id": "VNTRAIN_BS_01815",
+    "old_ward": "27286",
+    "new_ward": "27154",
+    "old_input": "183Đ.CầuGiấy, P3, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "541Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01768",
+    "new_id": "VNTRAIN_BS_01859",
+    "old_ward": "11485",
+    "new_ward": "00454",
+    "old_input": "Số 435B, Thôn 1, Xã Liên Xuân, Thành phố Thủy Nguyên, Thành phố Hải Phòng",
+    "new_input": "Số 912, Thôn Đông, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01774",
+    "new_id": "VNTRAIN_BS_01816",
+    "old_ward": "27142",
+    "new_ward": "27154",
+    "old_input": "518Đ.VõVănKiệt, P9, Q3, Thành phố Hồ Chí Minh",
+    "new_input": "555Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01784",
+    "new_id": "VNTRAIN_BS_01860",
+    "old_ward": "25798",
+    "new_ward": "00454",
+    "old_input": "Số 659C, Thôn Tây, Xã Định Hiệp, Huyện Dầu Tiếng, Tỉnh Bình Dương",
+    "new_input": "Số 37Bis, Thôn Tây, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01790",
+    "new_id": "VNTRAIN_BS_01817",
+    "old_ward": "26908",
+    "new_ward": "27154",
+    "old_input": "838Đ.CầuGiấy, P11, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "565Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01800",
+    "new_id": "VNTRAIN_BS_01861",
+    "old_ward": "09922",
+    "new_ward": "00454",
+    "old_input": "Số 8A, Thôn Chùa, Xã Phú Cát, Huyện Quốc Oai, Thành phố Hà Nội",
+    "new_input": "Số 931, Thôn Nam, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01806",
+    "new_id": "VNTRAIN_BS_01818",
+    "old_ward": "27184",
+    "new_ward": "27154",
+    "old_input": "156Đ.CầuGiấy, P1, Q10, Thành phố Hồ Chí Minh",
+    "new_input": "635Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01816",
+    "new_id": "VNTRAIN_BS_01862",
+    "old_ward": "00199",
+    "new_ward": "00454",
+    "old_input": "Số 313, Ấp Bắc, Phường Láng Hạ, Quận Đống Đa, Thành phố Hà Nội",
+    "new_input": "Số 53, Thôn Bắc, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01822",
+    "new_id": "VNTRAIN_BS_01819",
+    "old_ward": "27328",
+    "new_ward": "27154",
+    "old_input": "449Đ.VõVănKiệt, P11, Q5, Thành phố Hồ Chí Minh",
+    "new_input": "594Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01832",
+    "new_id": "VNTRAIN_BS_01863",
+    "old_ward": "09685",
+    "new_ward": "00454",
+    "old_input": "Số 628Bis, Thôn Tây, Xã Thụy An, Huyện Ba Vì, Thành phố Hà Nội",
+    "new_input": "Số 54, Thôn 1, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01838",
+    "new_id": "VNTRAIN_BS_01820",
+    "old_ward": "27298",
+    "new_ward": "27154",
+    "old_input": "732Đ.LêLợi, P1, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "623Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01848",
+    "new_id": "VNTRAIN_BS_01864",
+    "old_ward": "00172",
+    "new_ward": "00454",
+    "old_input": "Số 49B, Thôn Chùa, Phường Yên Hòa, Quận Cầu Giấy, Thành phố Hà Nội",
+    "new_input": "Số 92, Thôn 2, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01854",
+    "new_id": "VNTRAIN_BS_01821",
+    "old_ward": "27421",
+    "new_ward": "27289",
+    "old_input": "105Đ.KimMã, P14, Q8, Thành phố Hồ Chí Minh",
+    "new_input": "398Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01864",
+    "new_id": "VNTRAIN_BS_01865",
+    "old_ward": "09889",
+    "new_ward": "00484",
+    "old_input": "Số 313Bis, Thôn Chùa, Xã La Phù, Huyện Hoài Đức, Thành phố Hà Nội",
+    "new_input": "Số 761, Thôn Nam, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01870",
+    "new_id": "VNTRAIN_BS_01822",
+    "old_ward": "27427",
+    "new_ward": "27289",
+    "old_input": "395Đ.KimMã, P15, Q8, Thành phố Hồ Chí Minh",
+    "new_input": "410Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01880",
+    "new_id": "VNTRAIN_BS_01866",
+    "old_ward": "22312",
+    "new_ward": "00484",
+    "old_input": "Số 640, Thôn Tây, Xã Hòa Trị, Huyện Phú Hòa, Tỉnh Phú Yên",
+    "new_input": "Số 802A, Thôn Bắc, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01886",
+    "new_id": "VNTRAIN_BS_01823",
+    "old_ward": "26971",
+    "new_ward": "27289",
+    "old_input": "766Đ.TrầnHưngĐạo, P12, Q.Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "360Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01896",
+    "new_id": "VNTRAIN_BS_01867",
+    "old_ward": "09796",
+    "new_ward": "00484",
+    "old_input": "Số 903C, Ấp Bắc, Xã Hồng Hà, Huyện Đan Phượng, Thành phố Hà Nội",
+    "new_input": "Số 838, Thôn 1, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01901",
+    "new_id": "VNTRAIN_BS_01824",
+    "old_ward": "27259",
+    "new_ward": "27289",
+    "old_input": "66Đ.CầuGiấy, P13, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "380Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01911",
+    "new_id": "VNTRAIN_BS_01868",
+    "old_ward": "00493",
+    "new_ward": "00484",
+    "old_input": "Số 309Bis, Xóm Trại, Xã Kim Chung, Huyện Đông Anh, Thành phố Hà Nội",
+    "new_input": "Số 841A, Thôn 2, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01917",
+    "new_id": "VNTRAIN_BS_01825",
+    "old_ward": "27133",
+    "new_ward": "27289",
+    "old_input": "354Đ.VõVănKiệt, P11, Q3, Thành phố Hồ Chí Minh",
+    "new_input": "403Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01927",
+    "new_id": "VNTRAIN_BS_01869",
+    "old_ward": "13354",
+    "new_ward": "00484",
+    "old_input": "Số 555B, Thôn 2, Phường Tiên Nội, Thị xã Duy Tiên, Tỉnh Hà Nam",
+    "new_input": "Số 824, Xóm Trại, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01933",
+    "new_id": "VNTRAIN_BS_01826",
+    "old_ward": "27202",
+    "new_ward": "27289",
+    "old_input": "705Đ.KimMã, P6, Q10, Thành phố Hồ Chí Minh",
+    "new_input": "440Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01943",
+    "new_id": "VNTRAIN_BS_01870",
+    "old_ward": "00325",
+    "new_ward": "00484",
+    "old_input": "Số 862, Thôn Chùa, Phường Giáp Bát, Quận Hoàng Mai, Thành phố Hà Nội",
+    "new_input": "Số 895, Ấp Chợ, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01959",
+    "new_id": "VNTRAIN_BS_01871",
+    "old_ward": "00241",
+    "new_ward": "00484",
+    "old_input": "Số 265, Xóm Trại, Phường Nguyễn Du, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 877Bis, Thôn Đông, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01965",
+    "new_id": "VNTRAIN_BS_01827",
+    "old_ward": "27373",
+    "new_ward": "27289",
+    "old_input": "390Đ.KimMã, P1, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "488Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01975",
+    "new_id": "VNTRAIN_BS_01872",
+    "old_ward": "00232",
+    "new_ward": "00484",
+    "old_input": "Số 517A, Thôn Chùa, Phương Mai, Quận Đống Đa, Thành phố Hà Nội",
+    "new_input": "Số 899, Thôn Tây, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01981",
+    "new_id": "VNTRAIN_BS_01828",
+    "old_ward": "27346",
+    "new_ward": "27289",
+    "old_input": "689Đ.KimMã, P14, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "475Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01991",
+    "new_id": "VNTRAIN_BS_01873",
+    "old_ward": "11020",
+    "new_ward": "00484",
+    "old_input": "Số 888B, Ấp Bắc, Xã Yết Kiêu, Huyện Gia Lộc, Tỉnh Hải Dương",
+    "new_input": "Số 17Bis, Thôn Nam, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_01997",
+    "new_id": "VNTRAIN_BS_01829",
+    "old_ward": "26875",
+    "new_ward": "27289",
+    "old_input": "58Đ.CầuGiấy, P17, Q.Gò Vấp, Thành phố Hồ Chí Minh",
+    "new_input": "524Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02007",
+    "new_id": "VNTRAIN_BS_01874",
+    "old_ward": "00100",
+    "new_ward": "00484",
+    "old_input": "Số 166, Xóm Trại, Phường Quảng An, Quận Tây Hồ, Thành phố Hà Nội",
+    "new_input": "Số 935A, Thôn Bắc, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02013",
+    "new_id": "VNTRAIN_BS_01830",
+    "old_ward": "27127",
+    "new_ward": "27289",
+    "old_input": "299Đ.KimMã, P14, Q3, Thành phố Hồ Chí Minh",
+    "new_input": "547Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02023",
+    "new_id": "VNTRAIN_BS_01875",
+    "old_ward": "00283",
+    "new_ward": "00484",
+    "old_input": "Số 497, Ấp Bắc, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 68, Thôn 1, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02029",
+    "new_id": "VNTRAIN_BS_01831",
+    "old_ward": "26920",
+    "new_ward": "27289",
+    "old_input": "630Đ.CầuGiấy, P25, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "556Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02039",
+    "new_id": "VNTRAIN_BS_01876",
+    "old_ward": "25939",
+    "new_ward": "00484",
+    "old_input": "Số 838Bis, Thôn Đông, Phường Thái Hòa, Thành phố Tân Uyên, Tỉnh Bình Dương",
+    "new_input": "Số 39Bis, Thôn 2, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02045",
+    "new_id": "VNTRAIN_BS_01832",
+    "old_ward": "26929",
+    "new_ward": "27289",
+    "old_input": "885Đ.LêLợi, P14, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "576Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02055",
+    "new_id": "VNTRAIN_BS_01877",
+    "old_ward": "27763",
+    "new_ward": "00484",
+    "old_input": "Số 147, Thôn Đông, Xã Khánh Hưng, Huyện Vĩnh Hưng, Tỉnh Long An",
+    "new_input": "Số 68, Xóm Trại, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02061",
+    "new_id": "VNTRAIN_BS_01833",
+    "old_ward": "27187",
+    "new_ward": "27289",
+    "old_input": "241Đ.TrầnHưngĐạo, P8, Q10, Thành phố Hồ Chí Minh",
+    "new_input": "589Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02071",
+    "new_id": "VNTRAIN_BS_01878",
+    "old_ward": "00331",
+    "new_ward": "00484",
+    "old_input": "Số 437, Ấp Bắc, Phường Thịnh Liệt, Quận Hoàng Mai, Thành phố Hà Nội",
+    "new_input": "Số 122, Ấp Chợ, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02077",
+    "new_id": "VNTRAIN_BS_01834",
+    "old_ward": "27373",
+    "new_ward": "27289",
+    "old_input": "626Đ.BàTriệu, P1, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "698Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02087",
+    "new_id": "VNTRAIN_BS_01879",
+    "old_ward": "15637",
+    "new_ward": "00484",
+    "old_input": "Số 766, Thôn Chùa, Xã Luận Khê, Huyện Thường Xuân, Tỉnh Thanh Hóa",
+    "new_input": "Số 128, Thôn Đông, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02093",
+    "new_id": "VNTRAIN_BS_01835",
+    "old_ward": "27184",
+    "new_ward": "27289",
+    "old_input": "895Đ.VõVănKiệt, P1, Q10, Thành phố Hồ Chí Minh",
+    "new_input": "713Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02103",
+    "new_id": "VNTRAIN_BS_01880",
+    "old_ward": "09799",
+    "new_ward": "00484",
+    "old_input": "Số 120B, Xóm Trại, Xã Liên Hồng, Huyện Đan Phượng, Thành phố Hà Nội",
+    "new_input": "Số 162Bis, Thôn Tây, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02108",
+    "new_id": "VNTRAIN_BS_01836",
+    "old_ward": "26911",
+    "new_ward": "27289",
+    "old_input": "225Đ.LêLợi, P27, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "678Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02118",
+    "new_id": "VNTRAIN_BS_01881",
+    "old_ward": "10828",
+    "new_ward": "00484",
+    "old_input": "Số 415, Thôn Chùa, Xã Cẩm Việt, Huyện Thanh Hà, Tỉnh Hải Dương",
+    "new_input": "Số 160, Thôn Nam, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02124",
+    "new_id": "VNTRAIN_BS_01837",
+    "old_ward": "27211",
+    "new_ward": "27289",
+    "old_input": "527Đ.TrầnHưngĐạo, P5, Q11, Thành phố Hồ Chí Minh",
+    "new_input": "674Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02134",
+    "new_id": "VNTRAIN_BS_01882",
+    "old_ward": "30355",
+    "new_ward": "00484",
+    "old_input": "Số 760, Thôn 1, Xã Phú Hội, Huyện An Phú, Tỉnh An Giang",
+    "new_input": "Số 185A, Thôn Bắc, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02140",
+    "new_id": "VNTRAIN_BS_01838",
+    "old_ward": "26929",
+    "new_ward": "27289",
+    "old_input": "830Đ.LêLợi, P14, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "769Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02150",
+    "new_id": "VNTRAIN_BS_01883",
+    "old_ward": "30334",
+    "new_ward": "00484",
+    "old_input": "Số 58, Thôn 2, Xã Vĩnh Châu, Thành phố Châu Đốc, Tỉnh An Giang",
+    "new_input": "Số 194, Thôn 1, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02156",
+    "new_id": "VNTRAIN_BS_01839",
+    "old_ward": "26995",
+    "new_ward": "27289",
+    "old_input": "204Đ.NguyễnHuệ, P6, Q.Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "760Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02166",
+    "new_id": "VNTRAIN_BS_01884",
+    "old_ward": "00358",
+    "new_ward": "00484",
+    "old_input": "Số 371, Ấp Bắc, Phương Liệt, Quận Thanh Xuân, Thành phố Hà Nội",
+    "new_input": "Số 213A, Thôn 2, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02172",
+    "new_id": "VNTRAIN_BS_01840",
+    "old_ward": "27214",
+    "new_ward": "27289",
+    "old_input": "522Đ.VõVănKiệt, P14, Q11, Thành phố Hồ Chí Minh",
+    "new_input": "835Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02182",
+    "new_id": "VNTRAIN_BS_01885",
+    "old_ward": "27829",
+    "new_ward": "00484",
+    "old_input": "Số 732Bis, Thôn Tây, Xã Bắc Hòa, Huyện Tân Thạnh, Tỉnh Long An",
+    "new_input": "Số 304A, Xóm Trại, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02188",
+    "new_id": "VNTRAIN_BS_01841",
+    "old_ward": "27343",
+    "new_ward": "27289",
+    "old_input": "791Đ.NguyễnHuệ, P13, Q5, Thành phố Hồ Chí Minh",
+    "new_input": "813Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02198",
+    "new_id": "VNTRAIN_BS_01886",
+    "old_ward": "11242",
+    "new_ward": "00484",
+    "old_input": "Số 93, Thôn Đông, Xã Thanh Tùng, Huyện Thanh Miện, Tỉnh Hải Dương",
+    "new_input": "Số 270, Ấp Chợ, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02204",
+    "new_id": "VNTRAIN_BS_01842",
+    "old_ward": "27358",
+    "new_ward": "27289",
+    "old_input": "210Đ.VõVănKiệt, P12, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "814Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02214",
+    "new_id": "VNTRAIN_BS_01887",
+    "old_ward": "09562",
+    "new_ward": "10342",
+    "old_input": "Số 331, Xóm Trại, Phường Yên Nghĩa, Quận Hà Đông, Thành phố Hà Nội",
+    "new_input": "Số 15B, Thôn 1, Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02220",
+    "new_id": "VNTRAIN_BS_01799",
+    "old_ward": "27289",
+    "new_ward": "27154",
+    "old_input": "441Đ.NguyễnTrãi, P16, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02230",
+    "new_id": "VNTRAIN_BS_01888",
+    "old_ward": "09799",
+    "new_ward": "10342",
+    "old_input": "Số 619A, Thôn 2, Xã Liên Hồng, Huyện Đan Phượng, Thành phố Hà Nội",
+    "new_input": "Số 17Bis, Thôn 2, Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02236",
+    "new_id": "VNTRAIN_BS_01799",
+    "old_ward": "26926",
+    "new_ward": "27154",
+    "old_input": "765Đ.VõVănKiệt, P7, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02246",
+    "new_id": "VNTRAIN_BS_01889",
+    "old_ward": "26752",
+    "new_ward": "10342",
+    "old_input": "Số 11, Ấp Bắc, Phường Cầu Ông Lãnh, Quận 1, Thành phố Hồ Chí Minh",
+    "new_input": "Số 80Bis, Xóm Trại, Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02252",
+    "new_id": "VNTRAIN_BS_01799",
+    "old_ward": "27181",
+    "new_ward": "27154",
+    "old_input": "78Đ.TrầnHưngĐạo, P9, Q10, Thành phố Hồ Chí Minh",
+    "new_input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02262",
+    "new_id": "VNTRAIN_BS_01890",
+    "old_ward": "00247",
+    "new_ward": "10342",
+    "old_input": "Số 346A, Thôn Chùa, Phường Phạm Đình Hổ, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 110, Ấp Chợ, Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02268",
+    "new_id": "VNTRAIN_BS_01799",
+    "old_ward": "27001",
+    "new_ward": "27154",
+    "old_input": "471Đ.LêLợi, P9, Q.Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02278",
+    "new_id": "VNTRAIN_BS_01891",
+    "old_ward": "25597",
+    "new_ward": "10342",
+    "old_input": "Số 617C, Xóm Trại, Xã Thái Bình, Huyện Châu Thành, Tỉnh Tây Ninh",
+    "new_input": "Số 97, Thôn Đông, Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02284",
+    "new_id": "VNTRAIN_BS_01799",
+    "old_ward": "26986",
+    "new_ward": "27154",
+    "old_input": "729Đ.NguyễnHuệ, P7, Q.Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNTRAIN_BS_02294",
+    "new_id": "VNTRAIN_BS_01892",
+    "old_ward": "27439",
+    "new_ward": "10342",
+    "old_input": "Số 16B, Ấp Bắc, Phường Bình Hưng Hòa A, Quận Bình Tân, Thành phố Hồ Chí Minh",
+    "new_input": "Số 127A, Thôn Tây, Xã Bạch Hạ, Huyện Phú Xuyên, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00323",
+    "new_id": "VNDEV_KHO_00399",
+    "old_ward": "27385",
+    "new_ward": "26809",
+    "old_input": "58Đ.LêLợi, P10, Q6, Thành phố Hồ Chí Minh",
+    "new_input": "668Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00333",
+    "new_id": "VNDEV_KHO_00411",
+    "old_ward": "14503",
+    "new_ward": "09715",
+    "old_input": "Số 263B, Xóm Trại, Xã Gia Tân, Huyện Gia Viễn, Tỉnh Ninh Bình",
+    "new_input": "Số 146, Thôn 1, Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00339",
+    "new_id": "VNDEV_KHO_00400",
+    "old_ward": "27421",
+    "new_ward": "26809",
+    "old_input": "366Đ.LêLợi, P14, Q8, Thành phố Hồ Chí Minh",
+    "new_input": "736Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00349",
+    "new_id": "VNDEV_KHO_00412",
+    "old_ward": "00988",
+    "new_ward": "09715",
+    "old_input": "Số 588, Thôn 1, Xã Yên Định, Huyện Bắc Mê, Tỉnh Hà Giang",
+    "new_input": "Số 206, Thôn 2, Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00354",
+    "new_id": "VNDEV_KHO_00401",
+    "old_ward": "27286",
+    "new_ward": "26809",
+    "old_input": "710Đ.VõVănKiệt, P3, Q4, Thành phố Hồ Chí Minh",
+    "new_input": "706Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00364",
+    "new_id": "VNDEV_KHO_00413",
+    "old_ward": "11587",
+    "new_ward": "09715",
+    "old_input": "Số 847, Thôn Đông, Phường Đại Bản, Quận Hồng Bàng, Thành phố Hải Phòng",
+    "new_input": "Số 161Bis, Xóm Trại, Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00370",
+    "new_id": "VNDEV_KHO_00402",
+    "old_ward": "27151",
+    "new_ward": "26809",
+    "old_input": "78Đ.NguyễnTrãi, P5, Q3, Thành phố Hồ Chí Minh",
+    "new_input": "817Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00380",
+    "new_id": "VNDEV_KHO_00414",
+    "old_ward": "00295",
+    "new_ward": "09715",
+    "old_input": "Số 272, Xóm Trại, Phường Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "new_input": "Số 172Bis, Ấp Chợ, Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00386",
+    "new_id": "VNDEV_KHO_00403",
+    "old_ward": "26908",
+    "new_ward": "26809",
+    "old_input": "376Đ.NguyễnHuệ, P11, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "807Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00396",
+    "new_id": "VNDEV_KHO_00415",
+    "old_ward": "11791",
+    "new_ward": "09715",
+    "old_input": "Số 583, Ấp Bắc, Xã Tân Minh, Huyện Tiên Lãng, Thành phố Hải Phòng",
+    "new_input": "Số 281, Thôn Đông, Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00402",
+    "new_id": "VNDEV_KHO_00404",
+    "old_ward": "26902",
+    "new_ward": "26809",
+    "old_input": "619Đ.NguyễnHuệ, P3, Q.Gò Vấp, Thành phố Hồ Chí Minh",
+    "new_input": "812Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00412",
+    "new_id": "VNDEV_KHO_00416",
+    "old_ward": "00112",
+    "new_ward": "09715",
+    "old_input": "Số 826Bis, Thôn Tây, Phường Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",
+    "new_input": "Số 253B, Thôn Tây, Thị trấn Phúc Thọ, Huyện Phúc Thọ, Thành phố Hà Nội"
+  },
+  {
+    "old_id": "VNDEV_KHO_00428",
+    "new_id": "VNDEV_KHO_00417",
+    "old_ward": "00070",
+    "new_ward": "11065",
+    "old_input": "Số 162A, Xóm Trại, Phường Hàng Trống, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "new_input": "Số 387, Xóm Trại, Xã Nhật Quang, Huyện Gia Lộc, Tỉnh Hải Dương"
+  },
+  {
+    "old_id": "VNDEV_KHO_00444",
+    "new_id": "VNDEV_KHO_00418",
+    "old_ward": "27778",
+    "new_ward": "11065",
+    "old_input": "Số 504, Thôn Tây, Xã Vĩnh Thuận, Huyện Vĩnh Hưng, Tỉnh Long An",
+    "new_input": "Số 385A, Ấp Chợ, Xã Nhật Quang, Huyện Gia Lộc, Tỉnh Hải Dương"
+  },
+  {
+    "old_id": "VNDEV_KHO_00450",
+    "new_id": "VNDEV_KHO_00405",
+    "old_ward": "26941",
+    "new_ward": "27352",
+    "old_input": "584Đ.NguyễnHuệ, P2, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "925Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00460",
+    "new_id": "VNDEV_KHO_00419",
+    "old_ward": "26746",
+    "new_ward": "11065",
+    "old_input": "Số 858, Thôn 1, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh",
+    "new_input": "Số 353B, Thôn Đông, Xã Nhật Quang, Huyện Gia Lộc, Tỉnh Hải Dương"
+  },
+  {
+    "old_id": "VNDEV_KHO_00464",
+    "new_id": "VNDEV_KHO_00406",
+    "old_ward": "27151",
+    "new_ward": "27352",
+    "old_input": "939Đ.KimMã, P5, Q3, Thành phố Hồ Chí Minh",
+    "new_input": "8Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00474",
+    "new_id": "VNDEV_KHO_00420",
+    "old_ward": "25741",
+    "new_ward": "11065",
+    "old_input": "Số 147Bis, Thôn Chùa, Phường Hiệp Thành, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",
+    "new_input": "Số 392, Thôn Tây, Xã Nhật Quang, Huyện Gia Lộc, Tỉnh Hải Dương"
+  },
+  {
+    "old_id": "VNDEV_KHO_00480",
+    "new_id": "VNDEV_KHO_00407",
+    "old_ward": "27073",
+    "new_ward": "27352",
+    "old_input": "307Đ.CầuGiấy, P11, Q.Phú Nhuận, Thành phố Hồ Chí Minh",
+    "new_input": "10Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00490",
+    "new_id": "VNDEV_KHO_00421",
+    "old_ward": "27007",
+    "new_ward": "11065",
+    "old_input": "Số 434, Thôn Chùa, Phường 15, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "Số 483A, Thôn Nam, Xã Nhật Quang, Huyện Gia Lộc, Tỉnh Hải Dương"
+  },
+  {
+    "old_id": "VNDEV_KHO_00496",
+    "new_id": "VNDEV_KHO_00408",
+    "old_ward": "26989",
+    "new_ward": "27352",
+    "old_input": "621Đ.VõVănKiệt, P5, Q.Tân Bình, Thành phố Hồ Chí Minh",
+    "new_input": "5Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "old_id": "VNDEV_KHO_00506",
+    "new_id": "VNDEV_KHO_00422",
+    "old_ward": "06880",
+    "new_ward": "11065",
+    "old_input": "Số 732Bis, Thôn 1, Xã Yên Than, Huyện Tiên Yên, Tỉnh Quảng Ninh",
+    "new_input": "Số 443, Thôn Bắc, Xã Nhật Quang, Huyện Gia Lộc, Tỉnh Hải Dương"
+  },
+  {
+    "old_id": "VNDEV_KHO_00512",
+    "new_id": "VNDEV_KHO_00409",
+    "old_ward": "26920",
+    "new_ward": "27352",
+    "old_input": "886Đ.NguyễnTrãi, P25, Q.Bình Thạnh, Thành phố Hồ Chí Minh",
+    "new_input": "63Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  }
+]

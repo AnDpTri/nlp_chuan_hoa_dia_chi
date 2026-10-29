@@ -1,0 +1,22 @@
+=== BẮT ĐẦU CHẠY AI REVIEW ENGINE (PHIÊN BẢN ROBUST SPAN & ĐỐI SOÁT ĐỘC LẬP) ===
+Đã lưu checkpoint an toàn tại: checkpoint_pre_review_20261029_161729.json
+Đã nạp 400 nhãn trích xuất chi tiết từ agy
+Tổng số mẫu nạp vào kiểm toán: 400
+
+Đang ghi nhật ký kiểm toán AI vào audit.jsonl...
+Đang ghi nhật ký kiểm toán AI vào audit.csv...
+Đang cập nhật nhãn chính thức vào dia_chi_test.csv...
+Đang cập nhật bảng đối chiếu duyệt vào bang_duyet_test.csv...
+Đang ghi tệp phân loại chi tiết vào classification.csv...
+Đã xuất báo cáo Markdown phân loại chi tiết vào classification.md...
+
+=== KẾT QUẢ TỔNG HỢP KIỂM TOÁN TẬP TEST ===
+Tổng số mẫu đã kiểm toán: 400 / 400
+  - Đủ căn cứ tham chiếu (du_can_cu_tham_chieu): 263 dòng (da_duyet_ai)
+  - Sửa đổi nhãn có căn cứ (nhan_can_sua):         26 dòng (da_duyet_ai)
+  - Chưa đủ căn cứ bảo lưu (chua_du_can_cu):       111 dòng (can_duyet)
+    + Xã bị chia (xa_bi_chia):                     36 dòng
+    + VNTEST0040 (mơ hồ mốc/địa bàn Hải Phòng):    1 dòng
+    + Thiếu xã / chưa xác định duy nhất:           74 dòng
+  - Số ca tra cứu web & nghị quyết pháp lý:        37 dòng
+  - Bảo toàn người duyệt (human preserved):        0 dòng

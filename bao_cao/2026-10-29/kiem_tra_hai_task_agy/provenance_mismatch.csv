@@ -1,0 +1,796 @@
+﻿split,id,parent_id,parent_input,new_input,parent_ward,new_ward
+train,VNTRAIN_BS_00001,VNTRAIN_03573,"108 duong Ly Thuong Kiet, Phuong Thach Ha, Thanh pho Ha Tinh, Ha Tinh","39 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",18100,27259
+train,VNTRAIN_BS_00003,VNTRAIN_01662,"72 Đ. Nguyễn Văn Cừ, X. Phước Vân, H. Cần Đước, T. Long An","69Đ.NguyễnHuệ, P5, Q.Tân Bình, Thành phố Hồ Chí Minh",28120,26989
+train,VNTRAIN_BS_00011,VNTRAIN_02030,"402 Đ. Hoàng Văn Thụ, X. Cao Chương, H. Trùng Khánh, T. Cao Bằng","Số 205B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",01471,11053
+train,VNTRAIN_BS_00013,VNTRAIN_02162,"Số 25B, Ngách 15/4, Đường Lê Duẩn, Xã Hưng Đạo, Thành phố Cao Bằng, Tỉnh Cao Bằng","Số 242C, Thôn Đông, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội",01705,00484
+train,VNTRAIN_BS_00014,VNTRAIN_02109,"25B duong Tran Phu, Phuong An Hoa, Quan An Duong, Hai Phong","Số 331 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",11590,00160
+train,VNTRAIN_BS_00015,VNTRAIN_02880,"Tỉnh Nam Định, Thành phố Nam Định, Phường Hưng Lộc, Số 120 Đường Nguyễn Thị Minh Khai","Số 313Bis Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",13708,01729
+train,VNTRAIN_BS_00016,VNTRAIN_02549,"12 duong Hoang Hoa Tham, Xa An Binh, Huyen Cao Lanh, Dong Thap","Số 321B Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",30106,25744
+train,VNTRAIN_BS_00017,VNTRAIN_02382,"402 Đ. Bà Triệu, X. Đông Thọ, TP. Thái Bình, T. Thái Bình","342 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",12820,27259
+train,VNTRAIN_BS_00019,VNTRAIN_02944,"Tỉnh Cà Mau, Thành phố Cà Mau, Xã Hòa Thành, Số 4A Đường Cầu Giấy","428Đ.NguyễnHuệ, P11, Q.Tân Bình, Thành phố Hồ Chí Minh",32038,26983
+train,VNTRAIN_BS_00027,VNTRAIN_02354,"Số 402, Hẻm 108, Đường Nguyễn Chí Thanh, Xã Vân Tụ, Huyện Yên Thành, Tỉnh Nghệ An","Số 568B Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",17611,11005
+train,VNTRAIN_BS_00029,VNTRAIN_01765,"15 duong Le Loi, Xa My Hoa Hung, Thanh pho Long Xuyen, An Giang","Số 554C, Xóm Trại, Xã Phong Điền, Huyện Trần Văn Thời, Tỉnh Cà Mau",30313,32124
+train,VNTRAIN_BS_00030,VNTRAIN_02399,"Xã Phú Cần, Huyện Krông Pa, Tỉnh Gia Lai","Số 588A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",24097,00259
+train,VNTRAIN_BS_00031,VNTRAIN_02602,"Số 4A, Ngách 8/2, Đường Tây Sơn, Phường Thới Hòa, Quận Ô Môn, Thành phố Cần Thơ","Số 659A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",31154,16642
+train,VNTRAIN_BS_00032,VNTRAIN_03522,"Số 12, Hẻm 68, Đường Cách Mạng Tháng Tám, Xã Thăng Long, Huyện Nông Cống, Tỉnh Thanh Hóa","Số 633 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",16342,00160
+train,VNTRAIN_BS_00033,VNTRAIN_01630,"10 Đ. Trường Chinh, X. Vĩnh Phong, H. Vĩnh Thuận, T. Kiên Giang","629 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",31075,00259
+train,VNTRAIN_BS_00035,VNTRAIN_03988,"68 Đ.TrầnHưngĐạo, P.Vĩnh Trường, TP.Nha Trang, Tỉnh Khánh Hòa","739Đ.CầuGiấy, P2, Q.Phú Nhuận, Thành phố Hồ Chí Minh",22381,27061
+train,VNTRAIN_BS_00043,VNTRAIN_01365,"Cây số 101., Quốc lộ 20, Xã La Ngà, Huyện Định Quán, Đồng Nai","Số 830 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26227,00160
+train,VNTRAIN_BS_00045,VNTRAIN_01009,"360, Phố Huế, Hai Bà Trưng, Hà Nội","Số 929, Ấp Bắc, Xã Uy Nỗ, Huyện Đông Anh, Thành phố Hà Nội",00262,00478
+train,VNTRAIN_BS_00046,VNTRAIN_00745,"Đường Đại Phúc 5, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 947C Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09181,26740
+train,VNTRAIN_BS_00047,VNTRAIN_03517,"402 duong Hoang Cau, Xa Dong Phuong, Huyen Kien Thuy, Hai Phong","Số 18A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",11695,16642
+train,VNTRAIN_BS_00048,VNTRAIN_01210,"115, Đường Trần Hưng Đạo, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 11 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09181,00160
+train,VNTRAIN_BS_00049,VNTRAIN_01647,"Xã Mỹ Tân, Huyện Cái Bè, Tỉnh Tiền Giang","21Bis Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",28378,26740
+train,VNTRAIN_BS_00051,VNTRAIN_01469,"Phố Nghiêm Xá, Phường Tương Giang, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","47Đ.NguyễnTrãi, P13, Q.Phú Nhuận, Thành phố Hồ Chí Minh",09376,27085
+train,VNTRAIN_BS_00059,VNTRAIN_02134,"68 Đ. Hoàng Cầu, P. 16, Q. 4, TP.HCM","Số 219 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",27289,11053
+train,VNTRAIN_BS_00061,VNTRAIN_01975,"Xã Tân Phú, Thị xã Long Mỹ, Tỉnh Hậu Giang","Số 271C, Xóm Trại, Phường Đông Khê, Quận Ngô Quyền, Thành phố Hải Phòng",31481,11350
+train,VNTRAIN_BS_00062,VNTRAIN_01789,"204 duong Hung Vuong, Phuong Ninh Hiep, Thi xa Ninh Hoa, Khanh Hoa","Số 233B Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",22528,26740
+train,VNTRAIN_BS_00063,VNTRAIN_01338,"Ngõ 328 Đường Nguyễn Văn Cừ, Phường Võ Cường, Thành phố Bắc Ninh, Bac Ninh","Số 251 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09190,01729
+train,VNTRAIN_BS_00064,VNTRAIN_01304,"Đường 412, D'Ran, Đơn Dương, Lâm Đồng","Số 263B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24928,00160
+train,VNTRAIN_BS_00065,VNTRAIN_02872,"Tỉnh Gia Lai, Huyện Ia Grai, Xã Ia Grăng, Số 18B Đường Võ Văn Kiệt","295A Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",23778,00160
+train,VNTRAIN_BS_00067,VNTRAIN_02642,"Số 68, Hẻm 25, Đường Nguyễn Chí Thanh, Thị trấn Yên Sơn, Huyện Yên Sơn, Tỉnh Tuyên Quang","312Đ.KimMã, P17, Q.Bình Thạnh, Thành phố Hồ Chí Minh",02473,26950
+train,VNTRAIN_BS_00075,VNTRAIN_02511,"Xã Xuân Thắng, Huyện Thới Lai, Thành phố Cần Thơ","Số 542B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",31270,11053
+train,VNTRAIN_BS_00077,VNTRAIN_03006,"168 Đ. Ngô Quyền, X. An Thanh, H. Quỳnh Phụ, T. Thái Bình","Số 557, Thôn Đông, Phường 4, Quận 3, Thành phố Hồ Chí Minh",12541,27148
+train,VNTRAIN_BS_00078,VNTRAIN_02498,"Số 18B, Hẻm 25, Đường Võ Văn Kiệt, Thị trấn Tân Châu, Huyện Tân Châu, Tỉnh Tây Ninh","Số 588 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",25516,00259
+train,VNTRAIN_BS_00079,VNTRAIN_02506,"Số 204, Hẻm 68, Đường Nguyễn Chí Thanh, Xã Xuân Thắng, Huyện Thới Lai, Thành phố Cần Thơ","Số 612A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",31270,01729
+train,VNTRAIN_BS_00080,VNTRAIN_00180,"141 Xa lộ Hà Nội, Thảo Điền, Quận 2, Hồ Chí Minh, Việt Nam","Số 648 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27088,00160
+train,VNTRAIN_BS_00081,VNTRAIN_00710,"822, Đường Thiên Đức, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh","650Bis Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",09172,00259
+train,VNTRAIN_BS_00083,VNTRAIN_01418,"116, Lê Văn Thịnh, Bình Trưng Tây, 2, Hồ Chí Minh","665Đ.TrầnHưngĐạo, P2, Q3, Thành phố Hồ Chí Minh",27100,27157
+train,VNTRAIN_BS_00091,VNTRAIN_03842,"Số 5, Hẻm 108, Đường Lê Lợi, Xã Minh Đài, Huyện Tân Sơn, Tỉnh Phú Thọ","Số 826 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",08593,11005
+train,VNTRAIN_BS_00093,VNTRAIN_00359,"1A, Trần Khánh Dư, Xuân Khánh, Ninh Kiều, Cần Thơ, VI","Số 830, Ấp Bắc, Xã Kim Thư, Huyện Thanh Oai, Thành phố Hà Nội",31144,10159
+train,VNTRAIN_BS_00094,VNTRAIN_02317,"402 duong Giai Phong, Xa Long Khanh, Thi xa Cai Lay, Tien Giang","Số 857A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",28486,00259
+train,VNTRAIN_BS_00095,VNTRAIN_00648,"Đường Bà Chúa Kho, Phường Vũ Ninh, Thành phố Bắc Ninh, Bac Ninh","Số 880Bis Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09163,01729
+train,VNTRAIN_BS_00096,VNTRAIN_03081,"Số 168, Đường Trần Phú, Xã Thanh Quang, Huyện Thanh Hà, Tỉnh Hải Dương","Số 894Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",10876,00160
+train,VNTRAIN_BS_00097,VNTRAIN_00702,"272, Đường Nguyễn Trãi, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Tỉnh Bắc Ninh","887C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09190,26740
+train,VNTRAIN_BS_00099,VNTRAIN_00034,"313 Nguyễn Văn Linh, Phường An Khánh, Ninh Kiều, Cần Thơ, Việt Nam","48Đ.CầuGiấy, P5, Q5, Thành phố Hồ Chí Minh",31149,27334
+train,VNTRAIN_BS_00107,VNTRAIN_01768,"Tỉnh An Giang, Thành phố Long Xuyên, Xã Mỹ Hòa Hưng, Số 15 Đường Lê Lợi","Số 141B Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",30313,11005
+train,VNTRAIN_BS_00109,VNTRAIN_03153,"Số 402, Đường Đội Cấn, Xã Quỳnh Hồng, Huyện Quỳnh Phụ, Tỉnh Thái Bình","Số 231, Thôn 2, Xã Tam Lập, Huyện Phú Giáo, Tỉnh Bình Dương",12505,25876
+train,VNTRAIN_BS_00110,VNTRAIN_02160,"Tỉnh Thái Bình, Huyện Quỳnh Phụ, Xã Quỳnh Khê, Số 204 Đường Trần Phú","Số 251Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",12508,00160
+train,VNTRAIN_BS_00111,VNTRAIN_02730,"Số 18B, Ngách 15/4, Đường Trường Chinh, Xã Thụy Quỳnh, Huyện Thái Thụy, Tỉnh Thái Bình","Số 289 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",12844,16642
+train,VNTRAIN_BS_00112,VNTRAIN_02277,"402 duong Vo Van Kiet, Xa Van Ninh, Huyen Quang Ninh, Quang Binh","Số 219B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19243,00160
+train,VNTRAIN_BS_00113,VNTRAIN_01909,"68 duong Hung Vuong, Xa An Cau, Huyen Quynh Phu, Thai Binh","237 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",12502,27259
+train,VNTRAIN_BS_00115,VNTRAIN_02906,"Số 99, Ngách 15/4, Đường Bà Triệu, Phường Mỹ Đông, Thành phố Phan Rang-Tháp Chàm, Tỉnh Ninh Thuận","357Đ.CầuGiấy, P13, Q.Phú Nhuận, Thành phố Hồ Chí Minh",22771,27085
+train,VNTRAIN_BS_00123,VNTRAIN_02833,"Số 15, Đường Phạm Văn Đồng, Phường Bình Hưng Hòa, Quận Bình Tân, Thành phố Hồ Chí Minh","Số 476 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27436,00160
+train,VNTRAIN_BS_00125,VNTRAIN_01906,"Số 68, Ngõ 12, Đường Hùng Vương, Xã An Cầu, Huyện Quỳnh Phụ, Tỉnh Thái Bình","Số 534, Thôn Tây, Phường Quang Trung, Thành phố Phủ Lý, Tỉnh Hà Nam",12502,13285
+train,VNTRAIN_BS_00126,VNTRAIN_03086,"168 Đ. Trần Phú, X. Thanh Quang, H. Thanh Hà, T. Hải Dương","Số 565 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",10876,00160
+train,VNTRAIN_BS_00127,VNTRAIN_02641,"Số 68, Đường Nguyễn Chí Thanh, Thị trấn Yên Sơn, Huyện Yên Sơn, Tỉnh Tuyên Quang","Số 520A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",02473,01729
+train,VNTRAIN_BS_00128,VNTRAIN_02581,"402 duong Nguyen Thi Minh Khai, Xa Phu Dinh, Huyen Bo Trach, Quang Binh","Số 566A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19174,00160
+train,VNTRAIN_BS_00129,VNTRAIN_02673,"Số 108, Đường Ngô Quyền, Xã Thành Tiến, Huyện Thạch Thành, Tỉnh Thanh Hóa","610 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",15256,26740
+train,VNTRAIN_BS_00131,VNTRAIN_03396,"72 Đ.LýThườngKiệt, X.Xuân Lũng, H.Lâm Thao, Tỉnh Phú Thọ","621Đ.VõVănKiệt, P7, Q6, Thành phố Hồ Chí Minh",08500,27382
+train,VNTRAIN_BS_00139,VNTRAIN_02908,"Số 99, Đuong Bà Triệu, Phường Mỹ Đông, Thành phố Phan Rang-Tháp Chàm, Tỉnh Ninh Thuận","Số 761A Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",22771,00259
+train,VNTRAIN_BS_00141,VNTRAIN_02190,"108 Đ. Nguyễn Thị Minh Khai, X. Thành Sơn, H. Quan Hóa, T. Thanh Hóa","Số 815B, Ấp Bắc, Phường Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội",14872,00295
+train,VNTRAIN_BS_00142,VNTRAIN_03593,"Số 168, Đường Hoàng Hoa Thám, Phường Khánh Hậu, Thành phố Tân An, Tỉnh Long An","Số 787C Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",27715,26740
+train,VNTRAIN_BS_00143,VNTRAIN_03085,"168 duong Tran Phu, Xa Thanh Quang, Huyen Thanh Ha, Hai Duong","Số 851 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",10876,01729
+train,VNTRAIN_BS_00144,VNTRAIN_02900,"5 dduowng Lê Duẩn, Xã Diễn Kỷ, Huyện Diễn Châu, Tỉnh Nghệ An","Số 825A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",17434,00160
+train,VNTRAIN_BS_00145,VNTRAIN_00640,"42, Đường Cách Mạng Tháng Tám, Phường Quang Vinh, Thành phố Biên Hòa, Tỉnh Đồng Nai","910A Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",26023,27259
+train,VNTRAIN_BS_00147,VNTRAIN_03173,"204 duong Pham Van Dong, Phuong An Lac, Quan Binh Tan, Ho Chi Minh","940Đ.CầuGiấy, P1, Q.Bình Thạnh, Thành phố Hồ Chí Minh",27460,26944
+train,VNTRAIN_BS_00155,VNTRAIN_02397,"15 duong Nguyen Trai, Xa Phu Can, Huyen Krong Pa, Gia Lai","Số 149C Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",24097,16417
+train,VNTRAIN_BS_00157,VNTRAIN_03172,"Số 204, Đuong Phạm Văn Đồng, Phường An Lạc, Quận Bình Tân, Thành phố Hồ Chí Minh","Số 173B, Thôn Tây, Xã Ngãi Tứ, Huyện Tam Bình, Tỉnh Vĩnh Long",27460,29764
+train,VNTRAIN_BS_00158,VNTRAIN_02921,"Số 10, Đường Giải Phóng, Xã Tân Xuân, Huyện Hàm Tân, Tỉnh Bình Thuận","Số 204A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",23260,00259
+train,VNTRAIN_BS_00159,VNTRAIN_03600,"Tỉnh Long An, Thành phố Tân An, Phường Khánh Hậu, Số 168 Đường Hoàng Hoa Thám","Số 193 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",27715,16642
+train,VNTRAIN_BS_00160,VNTRAIN_03237,"204 duong Kim Ma, Xa Nhat Hoa, Huyen Bac Son, Lang Son","Số 190A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",06376,25744
+train,VNTRAIN_BS_00161,VNTRAIN_03197,"120 duong Tay Son, Xa Tieu Dong, Huyen Binh Luc, Ha Nam","251 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",13558,27259
+train,VNTRAIN_BS_00163,VNTRAIN_00705,"81, Đường Số 6, Phường 10, Cityland Park Hills, Quận Gò Vấp, Thành phố Hồ Chí Minh","240Đ.NguyễnTrãi, P26, Q.Bình Thạnh, Thành phố Hồ Chí Minh",26884,26914
+train,VNTRAIN_BS_00171,VNTRAIN_02937,"Số 4A, Đường Cầu Giấy, Xã Hòa Thành, Thành phố Cà Mau, Tỉnh Cà Mau","Số 467B Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",32038,11005
+train,VNTRAIN_BS_00173,VNTRAIN_00633,"PG03-05A, 1A Hùng Vương, Phường 1, Mỹ Tho, Tiền Giang","Số 515, Thôn 1, Phường Phú Mỹ, Quận 7, Thành phố Hồ Chí Minh",28261,27493
+train,VNTRAIN_BS_00174,VNTRAIN_03713,"Số 15, Đường Phan Bội Châu, Xã Hưng Phú, Huyện Mỹ Tú, Tỉnh Sóc Trăng","Số 483A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",31588,00259
+train,VNTRAIN_BS_00175,VNTRAIN_04036,"10 dduowng Giải Phóng, Xã Phình Hồ, Huyện Trạm Tấu, Tỉnh Yên Bái","Số 525Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",04597,16642
+train,VNTRAIN_BS_00176,VNTRAIN_01333,"30, Đường Lý Thái Tổ, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 554 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09184,25744
+train,VNTRAIN_BS_00177,VNTRAIN_00509,"281, Thanh lãm, phú lãm, Hà đông, hà nội","503 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09568,26740
+train,VNTRAIN_BS_00179,VNTRAIN_03001,"Số 168, Đường Ngô Quyền, Xã An Thanh, Huyện Quỳnh Phụ, Tỉnh Thái Bình","593Đ.CầuGiấy, P12, Q6, Thành phố Hồ Chí Minh",12541,27358
+train,VNTRAIN_BS_00187,VNTRAIN_02025,"Số 402, Đường Hoàng Văn Thụ, Xã Cao Chương, Huyện Trùng Khánh, Tỉnh Cao Bằng","Số 767C Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",01471,16417
+train,VNTRAIN_BS_00189,VNTRAIN_00963,"417D, Vòng xoay Mỹ An, Mỹ Thạnh An, Bến Tre","Số 748Bis, Thôn Tây, Phường Gia Thụy, Quận Long Biên, Thành phố Hà Nội",28792,00130
+train,VNTRAIN_BS_00190,VNTRAIN_01989,"5 duong Kim Ma, Xa Van Hai, Huyen Quynh Luu, Nghe An","Số 810Bis Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",17212,26740
+train,VNTRAIN_BS_00191,VNTRAIN_01638,"35 Đ. Võ Văn Kiệt, X. Đức Bác, H. Sông Lô, T. Vĩnh Phúc","Số 771A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",08854,16642
+train,VNTRAIN_BS_00192,VNTRAIN_04021,"45 duong Hoang Van Thu, Thi tran Bac Ha, Huyen Bac Ha, Lao Cai","Số 814B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02839,00160
+train,VNTRAIN_BS_00193,VNTRAIN_03797,"168 duong Tran Phu, Xa Quang Thanh, Huyen Chau Duc, Ba Ria - Vung Tau","812C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",26605,27259
+train,VNTRAIN_BS_00195,VNTRAIN_00398,"Phạm Thái Bường, Phường 4, Vĩnh Long","910Đ.VõVănKiệt, P7, Q6, Thành phố Hồ Chí Minh",29554,27382
+train,VNTRAIN_BS_00203,VNTRAIN_03761,"Số 12, Đường Nguyễn Huệ, Xã Hộ Độ, Thành phố Hà Tĩnh, Tỉnh Hà Tĩnh","Số 53A Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",18598,00259
+train,VNTRAIN_BS_00205,VNTRAIN_02101,"108 duong Pham Van Dong, Xa Tam Hop, Huyen Quy Hop, Nghe An","Số 122C, Thôn 2, Phường 15, Quận Phú Nhuận, Thành phố Hồ Chí Minh",17059,27076
+train,VNTRAIN_BS_00206,VNTRAIN_02546,"Số 12, Ngõ 45, Đường Hoàng Hoa Thám, Xã An Bình, Huyện Cao Lãnh, Tỉnh Đồng Tháp","Số 140 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",30106,00160
+train,VNTRAIN_BS_00207,VNTRAIN_01470,"Ngõ 20 Phố Nguyễn Phúc Xuyên, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 136 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09181,01729
+train,VNTRAIN_BS_00208,VNTRAIN_03415,"Thị trấn Tam Sơn, Huyện Quản Bạ, Tỉnh Hà Giang","Số 211 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",00874,25744
+train,VNTRAIN_BS_00209,VNTRAIN_03952,"Tỉnh Trà Vinh, Huyện Châu Thành, Xã Hưng Mỹ, Số 120 Đường Lê Duẩn","164 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",29407,26740
+train,VNTRAIN_BS_00211,VNTRAIN_03186,"Số 88, Hẻm 68, Đường Nguyễn Thị Minh Khai, Phường Châu Phú B, Thành phố Châu Đốc, Tỉnh An Giang","249Đ.CầuGiấy, P7, Q6, Thành phố Hồ Chí Minh",30316,27382
+train,VNTRAIN_BS_00219,VNTRAIN_02630,"35 Đ. Ngô Quyền, X. Đồng Nơ, H. Hớn Quản, T. Bình Phước","Số 400B Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",25360,16417
+train,VNTRAIN_BS_00221,VNTRAIN_03945,"Số 120, Đường Lê Duẩn, Xã Hưng Mỹ, Huyện Châu Thành, Tỉnh Trà Vinh","Số 440Bis, Xóm Trại, Xã Đoàn Thượng, Huyện Gia Lộc, Tỉnh Hải Dương",29407,11056
+train,VNTRAIN_BS_00222,VNTRAIN_00768,"128/6, Đường Nguyễn Ái Quốc, Phường Tân Mai, Thành phố Biên Hòa, Tỉnh Đồng Nai","Số 496B Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",26014,26740
+train,VNTRAIN_BS_00223,VNTRAIN_02596,"68 Đ.PhanBộiChâu, X.Phú Sơn, H.Ba Vì, Thành phố Hà Nội","Số 446 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",09658,16642
+train,VNTRAIN_BS_00224,VNTRAIN_02942,"4A Đ. Cầu Giấy, X. Hòa Thành, TP. Cà Mau, T. Cà Mau","Số 472 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",32038,25744
+train,VNTRAIN_BS_00225,VNTRAIN_02201,"Số 168, Đường Nguyễn Chí Thanh, Xã Hội Thịnh, Huyện Tam Dương, Tỉnh Vĩnh Phúc","556 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",08905,00259
+train,VNTRAIN_BS_00227,VNTRAIN_03880,"Tỉnh Nghệ An, Huyện Yên Thành, Xã Tây Thành, Số 25B Đường Cầu Giấy","588Đ.KimMã, P13, Q6, Thành phố Hồ Chí Minh",17536,27349
+train,VNTRAIN_BS_00235,VNTRAIN_03421,"204 duong Ngo Quyen, Xa Thai Giang Pho, Huyen Bac Ha, Lao Cai","Số 654C Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02857,00160
+train,VNTRAIN_BS_00237,VNTRAIN_02941,"4A duong Cau Giay, Xa Hoa Thanh, Thanh pho Ca Mau, Ca Mau","Số 708C, Thôn Tây, Phường Thanh Xuân Bắc, Quận Thanh Xuân, Thành phố Hà Nội",32038,00367
+train,VNTRAIN_BS_00238,VNTRAIN_01759,"Phường 2, Thành phố Đông Hà, Tỉnh Quảng Trị","Số 713 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19342,00160
+train,VNTRAIN_BS_00239,VNTRAIN_03584,"Tỉnh Hải Dương, Thành phố Chí Linh, Phường Bến Tắm, Số 4A Đường Nguyễn Văn Cừ","Số 756Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",10552,16642
+train,VNTRAIN_BS_00240,VNTRAIN_00296,"125/13, nguyễn cửu vân, 17, Bình Thạnh, Ho Chi Minh City","Số 809B Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",26950,25744
+train,VNTRAIN_BS_00241,VNTRAIN_02570,"Số 35, Ngõ 12, Đường Lê Lợi, Xã Phú Đức, Huyện Châu Thành, Tỉnh Bến Tre","773Bis Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",28822,00259
+train,VNTRAIN_BS_00243,VNTRAIN_03818,"Số 25B, Hẻm 108, Đường Hai Bà Trưng, Xã Tân Yên, Huyện Tràng Định, Tỉnh Lạng Sơn","859Đ.VõVănKiệt, P11, Q.Phú Nhuận, Thành phố Hồ Chí Minh",06022,27073
+train,VNTRAIN_BS_00251,VNTRAIN_02848,"Tỉnh Sơn La, Huyện Mai Sơn, Xã Hát Lót, Số 168 Đường Cầu Giấy","Số 78 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",04135,00259
+train,VNTRAIN_BS_00253,VNTRAIN_03740,"35 Đ.NguyễnThịMinhKhai, P.Trà An, Q.Bình Thủy, Thành phố Cần Thơ","Số 42A, Thôn Đông, Phường 15, Quận 4, Thành phố Hồ Chí Minh",31169,27295
+train,VNTRAIN_BS_00254,VNTRAIN_02698,"Số 99, Ngách 15/4, Đường Lê Lợi, Xã Hồng Phong, Huyện Bình Gia, Tỉnh Lạng Sơn","Số 123Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",06079,00160
+train,VNTRAIN_BS_00255,VNTRAIN_01804,"5 Đ.ĐộiCấn, P.Thành Tâm, TX.Chơn Thành, Tỉnh Bình Phước","Số 159A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",25433,01729
+train,VNTRAIN_BS_00256,VNTRAIN_00091,"68/5A Trần Quang Khải, Phường Tân Định, Quận 1, TP. Hồ Chí Minh","Số 106C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",26734,25744
+train,VNTRAIN_BS_00257,VNTRAIN_01545,"Phố Bắc Hà, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","131A Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",09184,27259
+train,VNTRAIN_BS_00259,VNTRAIN_01637,"35 duong Vo Van Kiet, Xa Duc Bac, Huyen Song Lo, Vinh Phuc","232Đ.CầuGiấy, P2, Q6, Thành phố Hồ Chí Minh",08854,27367
+train,VNTRAIN_BS_00267,VNTRAIN_01645,"12 duong Hung Vuong, Xa My Tan, Huyen Cai Be, Tien Giang","Số 326Bis Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",28378,16417
+train,VNTRAIN_BS_00269,VNTRAIN_01706,"Số 99, Ngách 15/4, Đường Quang Trung, Xã Tân Lập, Huyện Krông Búk, Tỉnh Đắk Lắk","Số 355A, Ấp Bắc, Xã Quang Trung, Thành phố Thủy Nguyên, Thành phố Hải Phòng",24317,11518
+train,VNTRAIN_BS_00270,VNTRAIN_01125,"37, Đường Nguyễn Đăng Đạo, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 429 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09187,00160
+train,VNTRAIN_BS_00271,VNTRAIN_00050,"60-62-64, Lý Hồng Thanh, P. Cái Khế, Q. Ninh Kiều, Tp. Cần Thơ","Số 422C Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",31117,16642
+train,VNTRAIN_BS_00272,VNTRAIN_00595,"Tỉnh lộ 481, kim đông, kim sơn, ninh bình","Số 498C Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",14698,00160
+train,VNTRAIN_BS_00273,VNTRAIN_02368,"Tỉnh Bình Dương, Thành phố Thủ Dầu Một, Phường Phú Cường, Số 72 Đường Trường Chinh","489 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",25747,00259
+train,VNTRAIN_BS_00275,VNTRAIN_03575,"Phường Thạch Hạ, Thành phố Hà Tĩnh, Tỉnh Hà Tĩnh","474Đ.VõVănKiệt, P3, Q.Tân Bình, Thành phố Hồ Chí Minh",18100,26980
+train,VNTRAIN_BS_00283,VNTRAIN_02632,"Tỉnh Bình Phước, Huyện Hớn Quản, Xã Đồng Nơ, Số 35 Đường Ngô Quyền","Số 700A Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",25360,00259
+train,VNTRAIN_BS_00285,VNTRAIN_02762,"Số 25B, Kiệt 12, Đường Giải Phóng, Xã Bộc Bố, Huyện Pác Nặm, Tỉnh Bắc Kạn","Số 661, Ấp Bắc, Xã Phú Minh, Huyện Sóc Sơn, Thành phố Hà Nội",01864,00445
+train,VNTRAIN_BS_00286,VNTRAIN_02273,"Số 402, Đường Võ Văn Kiệt, Xã Vạn Ninh, Huyện Quảng Ninh, Tỉnh Quảng Bình","Số 749 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19243,00259
+train,VNTRAIN_BS_00287,VNTRAIN_01560,"167, Lê Lợi, Hải Châu, Thành phố Đà Nẵng","Số 700Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",20236,16642
+train,VNTRAIN_BS_00288,VNTRAIN_03156,"Số 402, Đuong Đội Cấn, Xã Quỳnh Hồng, Huyện Quỳnh Phụ, Tỉnh Thái Bình","Số 709 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",12505,00160
+train,VNTRAIN_BS_00289,VNTRAIN_02540,"Số 204, Đuong Phạm Văn Đồng, Xã Bạch Đằng, Thành phố Thủy Nguyên, Thành phố Hải Phòng","743A Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",11500,00160
+train,VNTRAIN_BS_00291,VNTRAIN_02585,"Số 108, Đường Trần Hưng Đạo, Xã Bảo Ninh, Thành phố Đồng Hới, Tỉnh Quảng Bình","768Đ.LêLợi, P12, Q5, Thành phố Hồ Chí Minh",18889,27310
+train,VNTRAIN_BS_00299,VNTRAIN_03729,"Số 18B, Đường Điện Biên Phủ, Xã Hải Định, Huyện Hải Lăng, Tỉnh Quảng Trị","Số 38C Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",19714,16417
+train,VNTRAIN_BS_00301,VNTRAIN_03764,"Số 12, Đuong Nguyễn Huệ, Xã Hộ Độ, Thành phố Hà Tĩnh, Tỉnh Hà Tĩnh","Số 84C, Thôn 1, Phường Văn Đức, Thành phố Chí Linh, Tỉnh Hải Dương",18598,10585
+train,VNTRAIN_BS_00302,VNTRAIN_03646,"108 Đ. Giải Phóng, P. Phù Đổng, TP. Pleiku, T. Gia Lai","Số 101B Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",23570,00160
+train,VNTRAIN_BS_00303,VNTRAIN_03746,"Số 15, Ngách 8/2, Đường Hoàng Cầu, Xã Vĩnh Hải, Huyện Vĩnh Bảo, Thành phố Hải Phòng","Số 77C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",11875,01729
+train,VNTRAIN_BS_00304,VNTRAIN_02744,"Thành phố Hồ Chí Minh, Quận Bình Tân, Phường An Lạc A, Số 120 Đường Điện Biên Phủ","Số 139 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",27463,25744
+train,VNTRAIN_BS_00305,VNTRAIN_00442,"705/2, Hẻm 705 Nguyễn Thị Định, Cát Lái, Thủ Đức, Phường Cát Lái, Hồ Chí Minh","170 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27109,00160
+train,VNTRAIN_BS_00307,VNTRAIN_01925,"18B duong Dien Bien Phu, Xa Thanh Huong, Huyen Thanh Chuong, Nghe An","197Đ.BàTriệu, P2, Q3, Thành phố Hồ Chí Minh",17758,27157
+train,VNTRAIN_BS_00315,VNTRAIN_00647,"Quốc lộ 1A, P. Thủy Bằng, TP. Huế, Huế","Số 356 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19981,00160
+train,VNTRAIN_BS_00317,VNTRAIN_03910,"120 Đ. Đội Cấn, X. Thượng Sơn, H. Vị Xuyên, T. Hà Giang","Số 401Bis, Thôn Tây, Xã Thượng Quận, Thị xã Kinh Môn, Tỉnh Hải Dương",00958,10729
+train,VNTRAIN_BS_00318,VNTRAIN_03613,"168 duong Truong Chinh, Xa Ho Thi Ky, Huyen Thoi Binh, Ca Mau","Số 360 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",32092,00160
+train,VNTRAIN_BS_00319,VNTRAIN_01211,"Phố Chuông, Phường Duy Minh, Thị Xã Duy Tiên, Hà Nam","Số 432C Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",13336,16642
+train,VNTRAIN_BS_00320,VNTRAIN_03345,"Số 120, Đường Lê Duẩn, Phường Yên Thịnh, Thành phố Yên Bái, Tỉnh Yên Bái","Số 440Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",04249,00160
+train,VNTRAIN_BS_00321,VNTRAIN_01164,"18, Đường Lê Văn Hiến, Đức Thắng, Bắc Từ Liêm, Hà Nội","416B Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",00602,27259
+train,VNTRAIN_BS_00323,VNTRAIN_02743,"Phường An Lạc A, Quận Bình Tân, Thành phố Hồ Chí Minh","514Đ.TrầnHưngĐạo, P2, Q.Phú Nhuận, Thành phố Hồ Chí Minh",27463,27061
+train,VNTRAIN_BS_00331,VNTRAIN_01773,"25B duong Ngo Quyen, Xa Ngok Tu, Huyen Dak To, Kon Tum","Số 584Bis Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",23428,11005
+train,VNTRAIN_BS_00333,VNTRAIN_03422,"204 Đ. Ngô Quyền, X. Thải Giàng Phố, H. Bắc Hà, T. Lào Cai","Số 613, Ấp Bắc, Xã Thượng Quận, Thị xã Kinh Môn, Tỉnh Hải Dương",02857,10729
+train,VNTRAIN_BS_00334,VNTRAIN_02306,"Số 12, Hẻm 108, Đường Nguyễn Huệ, Xã Hneng, Huyện Đăk Đoa, Tỉnh Gia Lai","Số 707B Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",23701,00259
+train,VNTRAIN_BS_00335,VNTRAIN_01663,"Xã Phước Vân, Huyện Cần Đước, Tỉnh Long An","Số 702 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",28120,01729
+train,VNTRAIN_BS_00336,VNTRAIN_01829,"5 duong Hai Ba Trung, Xa Tien Yen, Huyen Hoai Duc, Ha Noi","Số 676Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09871,00160
+train,VNTRAIN_BS_00337,VNTRAIN_01236,"256, Ba Cu, 4, Vũng Tàu, Bà Rịa - Vũng Tàu","739C Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26515,00259
+train,VNTRAIN_BS_00339,VNTRAIN_01478,"138A, Phố Giảng Võ, Giảng Võ, Ba Đình, Hà Nội","789Đ.CầuGiấy, P8, Q10, Thành phố Hồ Chí Minh",00031,27187
+train,VNTRAIN_BS_00347,VNTRAIN_03231,"Xã Long Phú, Huyện Long Phú, Tỉnh Sóc Trăng","Số 887 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",31669,00259
+train,VNTRAIN_BS_00349,VNTRAIN_02989,"4A duong Tran Phu, Xa An Phuc, Huyen Dong Hai, Bac Lieu","Số 926A, Thôn Tây, Phường Nghĩa Đô, Quận Cầu Giấy, Thành phố Hà Nội",31990,00157
+train,VNTRAIN_BS_00350,VNTRAIN_03917,"68 duong Doi Can, Xa Thien Duc, Huyen Gia Lam, Ha Noi","Số 45 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00541,00160
+train,VNTRAIN_BS_00351,VNTRAIN_03801,"Số 10, Đường Trần Phú, Xã Mường Lạn, Huyện Mường Ảng, Tỉnh Điện Biên","Số 13A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",03313,16642
+train,VNTRAIN_BS_00352,VNTRAIN_03916,"68 Đ.ĐộiCấn, X.Thiên Đức, H.Gia Lâm, Thành phố Hà Nội","Số 39A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00541,00160
+train,VNTRAIN_BS_00353,VNTRAIN_01830,"5 Đ. Hai Bà Trưng, X. Tiền Yên, H. Hoài Đức, HN","59 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09871,26740
+train,VNTRAIN_BS_00355,VNTRAIN_02639,"Xã Vĩnh Tuy, Huyện Gò Quao, Tỉnh Kiên Giang","137Đ.CầuGiấy, P3, Q4, Thành phố Hồ Chí Minh",30979,27286
+train,VNTRAIN_BS_00363,VNTRAIN_02624,"Tỉnh Thái Bình, Huyện Hưng Hà, Xã Tiến Đức, Số 45 Đường Hoàng Văn Thụ","Số 252Bis Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",12646,11005
+train,VNTRAIN_BS_00365,VNTRAIN_02842,"Số 168, Ngách 15/4, Đường Cầu Giấy, Xã Hát Lót, Huyện Mai Sơn, Tỉnh Sơn La","Số 316A, Thôn Tây, Phường Tân Tiến, Quận An Dương, Thành phố Hải Phòng",04135,11596
+train,VNTRAIN_BS_00366,VNTRAIN_02822,"10 Đ. Hoàng Cầu, P. Rạch Sỏi, TP. Rạch Giá, T. Kiên Giang","Số 297A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",30754,26740
+train,VNTRAIN_BS_00367,VNTRAIN_03289,"Số 18B, Đường Hoàng Hoa Thám, Xã Nam Tiến, Huyện Tiền Hải, Tỉnh Thái Bình","Số 383C Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",13057,16642
+train,VNTRAIN_BS_00368,VNTRAIN_03632,"Tỉnh Thanh Hóa, Thị xã Nghi Sơn, Xã Các Sơn, Số 4A Đường Lê Duẩn","Số 391Bis Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",16591,25744
+train,VNTRAIN_BS_00369,VNTRAIN_00484,"Đường Phúc Sơn, Phường Vũ Ninh, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","418B Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09163,26740
+train,VNTRAIN_BS_00371,VNTRAIN_03852,"Số 45, Đuong Xã Đàn, Xã Suối Bu, Huyện Văn Chấn, Tỉnh Yên Bái","453Đ.LêLợi, P15, Q8, Thành phố Hồ Chí Minh",04669,27427
+train,VNTRAIN_BS_00379,VNTRAIN_02330,"Số 72, Ngõ 12, Đường Phan Bội Châu, Xã Lương Sơn, Huyện Yên Lập, Tỉnh Phú Thọ","Số 602A Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",08299,00160
+train,VNTRAIN_BS_00381,VNTRAIN_03928,"Tỉnh Tiền Giang, Thị xã Cai Lậy, Xã Thanh Hòa, Số 68 Đường Kim Mã","Số 623B, Ấp Bắc, Phường Tứ Minh, Thành phố Hải Dương, Tỉnh Hải Dương",28480,10540
+train,VNTRAIN_BS_00382,VNTRAIN_02010,"Số 12, Ngách 8/2, Đường Nguyễn Văn Cừ, Xã Yên Cường, Huyện Ý Yên, Tỉnh Nam Định","Số 653 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",13870,00160
+train,VNTRAIN_BS_00383,VNTRAIN_03233,"Số 204, Đường Kim Mã, Xã Nhất Hòa, Huyện Bắc Sơn, Tỉnh Lạng Sơn","Số 662Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",06376,16642
+train,VNTRAIN_BS_00384,VNTRAIN_03464,"Tỉnh Thái Bình, Huyện Vũ Thư, Xã Hồng Lý, Số 402 Đường Giải Phóng","Số 661C Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",13195,00160
+train,VNTRAIN_BS_00385,VNTRAIN_02404,"402 dduowng Trần Phú, Xã Vị Thủy, Huyện Vị Thủy, Tỉnh Hậu Giang","746 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31447,00160
+train,VNTRAIN_BS_00387,VNTRAIN_03706,"Số 10, Ngách 15/4, Đường Nguyễn Văn Cừ, Xã Phú Phụng, Huyện Chợ Lách, Tỉnh Bến Tre","698Đ.TrầnHưngĐạo, P6, Q10, Thành phố Hồ Chí Minh",28873,27202
+train,VNTRAIN_BS_00395,VNTRAIN_03538,"Số 4A, Ngách 15/4, Đường Điện Biên Phủ, Xã Minh Tân, Huyện Vụ Bản, Tỉnh Nam Định","Số 869C Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",13750,00160
+train,VNTRAIN_BS_00397,VNTRAIN_03500,"108 Đ.VõVănKiệt, X.Thôm Mòn, H.Thuận Châu, Tỉnh Sơn La","Số 920Bis, Thôn 1, Thị trấn Tam Bình, Huyện Tam Bình, Tỉnh Vĩnh Long",03769,29719
+train,VNTRAIN_BS_00398,VNTRAIN_02735,"Xã Thụy Quỳnh, Huyện Thái Thụy, Tỉnh Thái Bình","Số 39 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",12844,26740
+train,VNTRAIN_BS_00399,VNTRAIN_01291,"206/40, Đồng Đen, 14, Tân Bình, Ho Chi Minh City","Số 11 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",27004,16642
+train,VNTRAIN_BS_00400,VNTRAIN_03052,"88 Đ.XãĐàn, X.Nguyễn Huệ, H.Hòa An, Tỉnh Cao Bằng","Số 946Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",01699,00160
+train,VNTRAIN_BS_00401,VNTRAIN_02381,"402 duong Ba Trieu, Xa Dong Tho, Thanh pho Thai Binh, Thai Binh","97B Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",12820,00259
+train,VNTRAIN_BS_00403,VNTRAIN_04031,"Xã Nà Chì, Huyện Xín Mần, Tỉnh Hà Giang","128Đ.NguyễnTrãi, P9, Q10, Thành phố Hồ Chí Minh",01147,27181
+train,VNTRAIN_BS_00411,VNTRAIN_02708,"168 Đ.BàTriệu, X.Gia Phù, H.Phù Yên, Tỉnh Sơn La","Số 207 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",03922,11005
+train,VNTRAIN_BS_00413,VNTRAIN_02393,"Số 15, Đường Nguyễn Trãi, Xã Phú Cần, Huyện Krông Pa, Tỉnh Gia Lai","Số 246A, Thôn 1, Phường Thượng Đình, Quận Thanh Xuân, Thành phố Hà Nội",24097,00346
+train,VNTRAIN_BS_00414,VNTRAIN_03662,"25B Đ. Giải Phóng, X. Gia Huynh, H. Tánh Linh, T. Bình Thuận","Số 287C Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",23182,26740
+train,VNTRAIN_BS_00415,VNTRAIN_03241,"Số 4A, Đường Lê Duẩn, Xã Phú Lương, Huyện Phú Vang, Tỉnh Huế","Số 338C Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",19939,16642
+train,VNTRAIN_BS_00416,VNTRAIN_01936,"Tỉnh Thanh Hóa, Huyện Hoằng Hóa, Xã Hoằng Lưu, Số 204 Đường Trần Phú","Số 317 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",15976,25744
+train,VNTRAIN_BS_00417,VNTRAIN_00217,"109, Trần Hưng Đạo, Phường Cẩm phô, Hội An, Quảng Nam","343B Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",20404,26740
+train,VNTRAIN_BS_00419,VNTRAIN_01761,"Số 15, Đường Lê Lợi, Xã Mỹ Hòa Hưng, Thành phố Long Xuyên, Tỉnh An Giang","370Đ.NguyễnHuệ, P6, Q10, Thành phố Hồ Chí Minh",30313,27202
+train,VNTRAIN_BS_00427,VNTRAIN_01998,"204 Đ. Giải Phóng, P. Cam Nghĩa, TP. Cam Ranh, T. Khánh Hòa","Số 549 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",22408,00259
+train,VNTRAIN_BS_00429,VNTRAIN_00014,"335, NGUYỄN VĂN LINH,PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, TP CẦN THƠ","Số 587, Ấp Bắc, Xã Vũ Dũng, Huyện Kim Thành, Tỉnh Hải Dương",31149,10762
+train,VNTRAIN_BS_00430,VNTRAIN_01337,"Phố Lê Văn Duyệt, Phường Vũ Ninh, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 594Bis Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09163,26740
+train,VNTRAIN_BS_00431,VNTRAIN_02543,"Xã Bạch Đằng, Thành phố Thủy Nguyên, Thành phố Hải Phòng","Số 633 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",11500,01729
+train,VNTRAIN_BS_00432,VNTRAIN_02038,"5 Đ. Trần Phú, X. Tri Thủy, H. Phú Xuyên, HN","Số 673 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",10333,25744
+train,VNTRAIN_BS_00433,VNTRAIN_02093,"168 duong Hung Vuong, Xa Dak Po Pho, Huyen Kong Chro, Gia Lai","692Bis Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",23846,27259
+train,VNTRAIN_BS_00435,VNTRAIN_03556,"Số 108, Đuong Kim Mã, Xã Quang Vĩnh, Huyện Đức Thọ, Tỉnh Hà Tĩnh","734Đ.LêLợi, P16, Q.Gò Vấp, Thành phố Hồ Chí Minh",18235,26878
+train,VNTRAIN_BS_00443,VNTRAIN_03287,"Xã Nhị Quý, Thị xã Cai Lậy, Tỉnh Tiền Giang","Số 887B Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",28477,00259
+train,VNTRAIN_BS_00445,VNTRAIN_00365,"118, Đường Nguyễn Đoan Trung, Phường Hạp Lĩnh, Thành phố Bắc Ninh, Bac Ninh","Số 905A, Thôn Chùa, Xã Hồng Lạc, Huyện Thanh Hà, Tỉnh Hải Dương",09331,10816
+train,VNTRAIN_BS_00446,VNTRAIN_03688,"Tỉnh Bình Phước, Huyện Phú Riềng, Xã Phú Trung, Số 402 Đường Hai Bà Trưng","Số 888 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",25261,00259
+train,VNTRAIN_BS_00447,VNTRAIN_00809,"24, Đường Tam Giang, Phường Nam Sơn, Thành phố Bắc Ninh, Bac Ninh","Số 904A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09286,01729
+train,VNTRAIN_BS_00448,VNTRAIN_02270,"15 Đ. Trường Chinh, X. Triệu Tài, H. Triệu Phong, T. Quảng Trị","Số 925 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",19660,25744
+train,VNTRAIN_BS_00449,VNTRAIN_01726,"18B Đ. Nguyễn Trãi, X. Ân Hòa, H. Kim Sơn, T. Ninh Bình","13Bis Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",14638,27259
+train,VNTRAIN_BS_00451,VNTRAIN_02370,"Số 5, Kiệt 12, Đường Trần Phú, Xã Ba Sao, Huyện Cao Lãnh, Tỉnh Đồng Tháp","98Đ.TrầnHưngĐạo, P3, Q.Tân Bình, Thành phố Hồ Chí Minh",30085,26980
+train,VNTRAIN_BS_00459,VNTRAIN_00106,"87, Xô Viết Nghệ Tĩnh , Phường 17, Quận Bình Thạnh, TP.Hồ Chí Minh","Số 189Bis Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",26950,11053
+train,VNTRAIN_BS_00461,VNTRAIN_02909,"99 duong Ba Trieu, Phuong My Dong, Thanh pho Phan Rang-Thap Cham, Ninh Thuan","Số 227, Thôn 1, Xã Hòa Bình 1, Huyện Tây Hòa, Tỉnh Phú Yên",22771,22252
+train,VNTRAIN_BS_00462,VNTRAIN_02122,"Số 12, Hẻm 108, Đường Bà Triệu, Xã Thiệu Duy, Huyện Thiệu Hóa, Tỉnh Thanh Hóa","Số 237A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",15799,26740
+train,VNTRAIN_BS_00463,VNTRAIN_03557,"108 duong Kim Ma, Xa Quang Vinh, Huyen Duc Tho, Ha Tinh","Số 242Bis Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",18235,01729
+train,VNTRAIN_BS_00464,VNTRAIN_03871,"Xã Chiềng Dong, Huyện Mai Sơn, Tỉnh Sơn La","Số 298B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",04147,00160
+train,VNTRAIN_BS_00465,VNTRAIN_03106,"Số 68, Ngõ 45, Đường Nguyễn Thị Minh Khai, Xã Cà Lúi, Huyện Sơn Hòa, Tỉnh Phú Yên","283Bis Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",22180,27259
+train,VNTRAIN_BS_00467,VNTRAIN_03826,"Số 18B, Ngách 15/4, Đường Hai Bà Trưng, Xã Đăk Choong, Huyện Đắk Glei, Tỉnh Kon Tum","383Đ.VõVănKiệt, P15, Q8, Thành phố Hồ Chí Minh",23356,27427
+train,VNTRAIN_BS_00475,VNTRAIN_02612,"Số 88, Đuong Hoàng Văn Thụ, Xã Diên Hoa, Huyện Nghi Lộc, Tỉnh Nghệ An","Số 528A Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",17899,16417
+train,VNTRAIN_BS_00477,VNTRAIN_02120,"Tỉnh Quảng Bình, Huyện Lệ Thủy, Xã An Thủy, Số 45 Đường Lý Thường Kiệt","Số 546Bis, Thôn Chùa, Xã Gia Phúc, Huyện Gia Lộc, Tỉnh Hải Dương",19264,11035
+train,VNTRAIN_BS_00478,VNTRAIN_01772,"25B dduowng Ngô Quyền, Xã Ngọk Tụ, Huyện Đắk Tô, Tỉnh Kon Tum","Số 580B Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",23428,26740
+train,VNTRAIN_BS_00479,VNTRAIN_01950,"88 Đ. Đinh Tiên Hoàng, P. Thới Hòa, TP. Bến Cát, T. Bình Dương","Số 603A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",25846,16642
+train,VNTRAIN_BS_00480,VNTRAIN_02545,"Số 12, Đường Hoàng Hoa Thám, Xã An Bình, Huyện Cao Lãnh, Tỉnh Đồng Tháp","Số 576 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",30106,00160
+train,VNTRAIN_BS_00481,VNTRAIN_02582,"402 Đ. Nguyễn Thị Minh Khai, X. Phú Định, H. Bố Trạch, T. Quảng Bình","620C Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19174,00259
+train,VNTRAIN_BS_00483,VNTRAIN_00665,"50, Phan Đình Phùng, Tân An, Ninh Kiều, Cần Thơ, Can Tho","684Đ.VõVănKiệt, P7, Q.Phú Nhuận, Thành phố Hồ Chí Minh",31135,27052
+train,VNTRAIN_BS_00491,VNTRAIN_01056,"D8 Khu Dân Cư, Chánh Nghĩa, Thủ Dầu Một, Bình Dương","Số 786 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",25756,11053
+train,VNTRAIN_BS_00493,VNTRAIN_02604,"4A dduowng Tây Sơn, Phường Thới Hòa, Quận Ô Môn, Thành phố Cần Thơ","Số 849, Thôn Chùa, Xã Kim Thư, Huyện Thanh Oai, Thành phố Hà Nội",31154,10159
+train,VNTRAIN_BS_00494,VNTRAIN_02885,"88 duong Le Loi, Xa Vinh Tien, Huyen Tan Son, Phu Tho","Số 876Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",08626,00160
+train,VNTRAIN_BS_00495,VNTRAIN_02884,"88 Đ.LêLợi, X.Vinh Tiền, H.Tân Sơn, Tỉnh Phú Thọ","Số 903A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",08626,16642
+train,VNTRAIN_BS_00496,VNTRAIN_03540,"4A dduowng Điện Biên Phủ, Xã Minh Tân, Huyện Vụ Bản, Tỉnh Nam Định","Số 897 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",13750,00160
+train,VNTRAIN_BS_00497,VNTRAIN_01013,"324, Đại lộ Bình Dương, Phường Phú Lợi, Thành phố Hồ Chí Minh","895 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",25744,27259
+train,VNTRAIN_BS_00499,VNTRAIN_03437,"25B duong Giai Phong, Xa Thieu Hop, Huyen Thieu Hoa, Thanh Hoa","14Đ.NguyễnHuệ, P13, Q.Bình Thạnh, Thành phố Hồ Chí Minh",15805,26905
+train,VNTRAIN_BS_00507,VNTRAIN_02948,"18B dduowng Phan Bội Châu, Xã Tân Thịnh, Huyện Chiêm Hóa, Tỉnh Tuyên Quang","Số 128Bis Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02344,00160
+train,VNTRAIN_BS_00509,VNTRAIN_01443,"01, Nguyễn Trung Trực, phường 2, Bảo Lộc, Phường 2, Lâm Đồng","Số 167C, Thôn Đông, Xã Phong Điền, Huyện Trần Văn Thời, Tỉnh Cà Mau",24820,32124
+train,VNTRAIN_BS_00510,VNTRAIN_02361,"Số 72, Đường Trường Chinh, Phường Phú Cường, Thành phố Thủ Dầu Một, Tỉnh Bình Dương","Số 218A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",25747,26740
+train,VNTRAIN_BS_00511,VNTRAIN_03572,"108 Đ.LýThườngKiệt, P.Thạch Hạ, TP.Hà Tĩnh, Tỉnh Hà Tĩnh","Số 230 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",18100,01729
+train,VNTRAIN_BS_00512,VNTRAIN_00711,"912, Đường Hùng Vương, Xã Chư Sê, Gia Lai","Số 212 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",23941,00160
+train,VNTRAIN_BS_00513,VNTRAIN_03850,"Số 45, Ngách 8/2, Đường Xã Đàn, Xã Suối Bu, Huyện Văn Chấn, Tỉnh Yên Bái","236A Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",04669,26740
+train,VNTRAIN_BS_00515,VNTRAIN_01534,"70, Đường Nguyễn Chí Thanh, Láng Thượng, Đống Đa, Hà Nội","329Đ.TrầnHưngĐạo, P9, Q5, Thành phố Hồ Chí Minh",00187,27304
+train,VNTRAIN_BS_00523,VNTRAIN_00983,"316, Đường Trần Hưng Đạo, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 518 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",09181,16417
+train,VNTRAIN_BS_00525,VNTRAIN_01632,"Tỉnh Kiên Giang, Huyện Vĩnh Thuận, Xã Vĩnh Phong, Số 10 Đường Trường Chinh","Số 469Bis, Thôn Tây, Xã Thái Dương, Huyện Bình Giang, Tỉnh Hải Dương",31075,10990
+train,VNTRAIN_BS_00526,VNTRAIN_02151,"Xã Sơn Phú, Huyện Giồng Trôm, Tỉnh Bến Tre","Số 549 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",29014,00259
+train,VNTRAIN_BS_00527,VNTRAIN_01921,"Số 18B, Đường Điện Biên Phủ, Xã Thanh Hương, Huyện Thanh Chương, Tỉnh Nghệ An","Số 551 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",17758,01729
+train,VNTRAIN_BS_00528,VNTRAIN_03201,"Số 4A, Đường Nguyễn Huệ, Xã Nhơn Mỹ, Huyện Kế Sách, Tỉnh Sóc Trăng","Số 539 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",31552,25744
+train,VNTRAIN_BS_00529,VNTRAIN_02562,"Số 35, Ngõ 12, Đường Hùng Vương, Xã Mỵ Hòa, Huyện Kim Bôi, Tỉnh Hòa Bình","619 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",05083,27259
+train,VNTRAIN_BS_00531,VNTRAIN_03989,"68 duong Tran Hung Dao, Phuong Vinh Truong, Thanh pho Nha Trang, Khanh Hoa","639Đ.KimMã, P11, Q11, Thành phố Hồ Chí Minh",22381,27226
+train,VNTRAIN_BS_00539,VNTRAIN_02413,"15 duong Dien Bien Phu, Phuong Thuy Bieu, Quan Thuan Hoa, Hue","Số 821Bis Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19807,00160
+train,VNTRAIN_BS_00541,VNTRAIN_03444,"15 dduowng Cách Mạng Tháng Tám, Xã Vĩnh Hòa Hiệp, Huyện Châu Thành, Tỉnh Kiên Giang","Số 827B, Xóm Trại, Xã Ngãi Tứ, Huyện Tam Bình, Tỉnh Vĩnh Long",30892,29764
+train,VNTRAIN_BS_00542,VNTRAIN_03326,"5 Đ. Giải Phóng, X. Tân Tiến, H. Đồng Phú, T. Bình Phước","Số 785 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",25393,26740
+train,VNTRAIN_BS_00543,VNTRAIN_02705,"Số 168, Đường Bà Triệu, Xã Gia Phù, Huyện Phù Yên, Tỉnh Sơn La","Số 895 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",03922,16642
+train,VNTRAIN_BS_00544,VNTRAIN_01972,"88 dduowng Lê Lợi, Xã Tân Phú, Thị xã Long Mỹ, Tỉnh Hậu Giang","Số 852A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31481,00160
+train,VNTRAIN_BS_00545,VNTRAIN_02015,"Xã Yên Cường, Huyện Ý Yên, Tỉnh Nam Định","850 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",13870,00259
+train,VNTRAIN_BS_00547,VNTRAIN_00005,59 Hùng Vương phường Thới Bình quận Ninh Kiều t.p Cần Thơ,"884Đ.KimMã, P1, Q11, Thành phố Hồ Chí Minh",31123,27247
+train,VNTRAIN_BS_00555,VNTRAIN_00250,"37/21, Đường Phạm Văn Thuận, Phường Tam Hiệp, Thành phố Biên Hòa, Tỉnh Đồng Nai","Số 89 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26017,00259
+train,VNTRAIN_BS_00557,VNTRAIN_03567,"Xã Hải Tiến, Thành phố Móng Cái, Tỉnh Quảng Ninh","Số 144C, Thôn Đông, Xã Đình Dù, Huyện Văn Lâm, Tỉnh Hưng Yên",06733,12004
+train,VNTRAIN_BS_00558,VNTRAIN_03149,"18B duong Quang Trung, Phuong Hang Ma, Quan Hoan Kiem, Ha Noi","Số 161B Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00043,00160
+train,VNTRAIN_BS_00559,VNTRAIN_02809,"Số 402, Đường Điện Biên Phủ, Xã Hải Sơn, Huyện Hải Lăng, Tỉnh Quảng Trị","Số 163C Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",19735,16642
+train,VNTRAIN_BS_00560,VNTRAIN_03065,"Số 18B, Đường Lê Duẩn, Xã Xuân Tây, Huyện Cẩm Mỹ, Tỉnh Đồng Nai","Số 239 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",26356,25744
+train,VNTRAIN_BS_00561,VNTRAIN_02214,"108 Đ. Nguyễn Văn Cừ, P. Thanh Khương, TX. Thuận Thành, T. Bắc Ninh","217B Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",09427,00259
+train,VNTRAIN_BS_00563,VNTRAIN_02281,"Số 25B, Đường Hùng Vương, Xã Hiếu Thuận, Huyện Vũng Liêm, Tỉnh Vĩnh Long","301Đ.NguyễnHuệ, P9, Q4, Thành phố Hồ Chí Minh",29701,27265
+train,VNTRAIN_BS_00571,VNTRAIN_03717,"15 duong Phan Boi Chau, Xa Hung Phu, Huyen My Tu, Soc Trang","Số 462C Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",31588,00259
+train,VNTRAIN_BS_00573,VNTRAIN_02228,"25B Đ.TrầnHưngĐạo, X.Co Tòng, H.Thuận Châu, Tỉnh Sơn La","Số 428, Thôn Tây, Phường Nam Hải, Quận Hải An, Thành phố Hải Phòng",03796,11419
+train,VNTRAIN_BS_00574,VNTRAIN_03182,"68 Đ. Nguyễn Trãi, X. Thượng Thôn, H. Hà Quảng, T. Cao Bằng","Số 468 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",01420,00259
+train,VNTRAIN_BS_00575,VNTRAIN_01626,"Số 10, Hẻm 68, Đường Trường Chinh, Xã Vĩnh Phong, Huyện Vĩnh Thuận, Tỉnh Kiên Giang","Số 533 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",31075,01729
+train,VNTRAIN_BS_00576,VNTRAIN_03118,"5 Đ. Giải Phóng, X. Thuận Hòa, H. Châu Thành, T. Sóc Trăng","Số 543A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",31576,25744
+train,VNTRAIN_BS_00577,VNTRAIN_02369,"Số 5, Đường Trần Phú, Xã Ba Sao, Huyện Cao Lãnh, Tỉnh Đồng Tháp","509A Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",30085,00259
+train,VNTRAIN_BS_00579,VNTRAIN_03012,"99 dduowng Cách Mạng Tháng Tám, Xã Đại Đồng, Huyện Yên Bình, Tỉnh Yên Bái","542Đ.BàTriệu, P13, Q.Phú Nhuận, Thành phố Hồ Chí Minh",04768,27085
+train,VNTRAIN_BS_00587,VNTRAIN_02984,"Tỉnh Quảng Bình, Huyện Lệ Thủy, Xã Xuân Thủy, Số 68 Đường Phạm Văn Đồng","Số 767 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19300,00259
+train,VNTRAIN_BS_00589,VNTRAIN_00749,"21a/2, Đặng Thái Thân, Phường 3, Thành Phố Đà Lạt, Lâm Đồng","Số 751A, Thôn Chùa, Thị trấn Tây Đằng, Huyện Ba Vì, Thành phố Hà Nội",24802,09619
+train,VNTRAIN_BS_00590,VNTRAIN_00596,"1, Đồng Khởi, Phường An Hội, Bến Tre","Số 786 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",28777,26740
+train,VNTRAIN_BS_00591,VNTRAIN_02751,"Xã Thụy Trình, Huyện Thái Thụy, Tỉnh Thái Bình","Số 817 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",12868,01729
+train,VNTRAIN_BS_00592,VNTRAIN_01506,"85, Đường Nguyễn Du, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 860C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09184,25744
+train,VNTRAIN_BS_00593,VNTRAIN_04024,"Tỉnh Lào Cai, Huyện Bắc Hà, Thị trấn Bắc Hà, Số 45 Đường Hoàng Văn Thụ","842B Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",02839,26740
+train,VNTRAIN_BS_00595,VNTRAIN_02049,"Số 15, Đường Trần Hưng Đạo, Xã Tân Hợp, Huyện Văn Yên, Tỉnh Yên Bái","897Đ.NguyễnHuệ, P9, Q.Tân Bình, Thành phố Hồ Chí Minh",04414,27001
+train,VNTRAIN_BS_00603,VNTRAIN_02806,"168 Đ. Giải Phóng, X. Mỹ Hạnh Bắc, H. Đức Hòa, T. Long An","Số 105A Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",27964,11005
+train,VNTRAIN_BS_00605,VNTRAIN_02239,"Xã Thiên Lộc, Huyện Can Lộc, Tỉnh Hà Tĩnh","Số 135B, Thôn 2, Xã Tiền Phong, Huyện Mê Linh, Thành phố Hà Nội",18415,09019
+train,VNTRAIN_BS_00606,VNTRAIN_02633,"Số 402, Đường Trần Hưng Đạo, Xã Vĩnh Tuy, Huyện Gò Quao, Tỉnh Kiên Giang","Số 126 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",30979,26740
+train,VNTRAIN_BS_00607,VNTRAIN_00671,"397, Đường Phan Huy Ích, Phường 14, Gò Vấp, Thành phố Hồ Chí Minh","Số 192 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",26882,16642
+train,VNTRAIN_BS_00608,VNTRAIN_01440,"104, Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội","Số 209Bis Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",00277,25744
+train,VNTRAIN_BS_00609,VNTRAIN_02247,"Xã Vũ Chấn, Huyện Võ Nhai, Tỉnh Thái Nguyên","205Bis Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",05728,00259
+train,VNTRAIN_BS_00611,VNTRAIN_00630,"5, Hùng Vương, Phường 1, Mỹ Tho, Tiền Giang","282Đ.VõVănKiệt, P4, Q10, Thành phố Hồ Chí Minh",28261,27193
+train,VNTRAIN_BS_00619,VNTRAIN_00423,"Phố Nguyên Hồng, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 344Bis Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09190,00160
+train,VNTRAIN_BS_00621,VNTRAIN_01557,"44/5, 883, Tân Thạch, Châu Thành, Bến Tre","Số 404A, Thôn 2, Phường Tân Tạo A, Quận Bình Tân, Thành phố Hồ Chí Minh",28804,27457
+train,VNTRAIN_BS_00622,VNTRAIN_02197,"45 duong Truong Chinh, Phuong 9, Thanh pho Da Lat, Lam Dong","Số 451 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24778,00160
+train,VNTRAIN_BS_00623,VNTRAIN_02231,"Xã Co Tòng, Huyện Thuận Châu, Tỉnh Sơn La","Số 458Bis Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",03796,01729
+train,VNTRAIN_BS_00624,VNTRAIN_02589,"108 duong Tran Hung Dao, Xa Bao Ninh, Thanh pho Dong Hoi, Quang Binh","Số 521 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",18889,25744
+train,VNTRAIN_BS_00625,VNTRAIN_01374,"79, Đường Đẩu Hàn, Phường Hòa Long, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","462B Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09214,26740
+train,VNTRAIN_BS_00627,VNTRAIN_02148,"402 dduowng Nguyễn Huệ, Xã Sơn Phú, Huyện Giồng Trôm, Tỉnh Bến Tre","592Đ.KimMã, P7, Q11, Thành phố Hồ Chí Minh",29014,27238
+train,VNTRAIN_BS_00635,VNTRAIN_02056,"Tỉnh Yên Bái, Huyện Văn Yên, Xã Tân Hợp, Số 15 Đường Trần Hưng Đạo","Số 679 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",04414,11005
+train,VNTRAIN_BS_00637,VNTRAIN_02946,"Số 18B, Ngõ 45, Đường Phan Bội Châu, Xã Tân Thịnh, Huyện Chiêm Hóa, Tỉnh Tuyên Quang","Số 765, Thôn Đông, Phường Gia Sàng, Thành phố Thái Nguyên, Tỉnh Thái Nguyên",02344,05461
+train,VNTRAIN_BS_00638,VNTRAIN_02753,"Số 108, Đường Nguyễn Huệ, Xã Trung Thành, Huyện Nông Cống, Tỉnh Thanh Hóa","Số 741 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",16303,26740
+train,VNTRAIN_BS_00639,VNTRAIN_03207,"Xã Nhơn Mỹ, Huyện Kế Sách, Tỉnh Sóc Trăng","Số 754A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",31552,16642
+train,VNTRAIN_BS_00640,VNTRAIN_03977,"Số 10, Đường Hoàng Cầu, Xã Tân Phú, Huyện Tam Bình, Tỉnh Vĩnh Long","Số 812C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",29749,25744
+train,VNTRAIN_BS_00641,VNTRAIN_00454,"2, Đường số 13, 8, Gò Vấp, Hồ Chí Minh","813Bis Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26898,00259
+train,VNTRAIN_BS_00643,VNTRAIN_02424,"Tỉnh Nghệ An, Huyện Nghi Lộc, Xã Nghi Quang, Số 204 Đường Hoàng Hoa Thám","828Đ.TrầnHưngĐạo, P10, Q6, Thành phố Hồ Chí Minh",17851,27385
+train,VNTRAIN_BS_00651,VNTRAIN_02660,"5 dduowng Trần Hưng Đạo, Xã Sơn Kỳ, Huyện Sơn Hà, Tỉnh Quảng Ngãi","Số 99 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",21325,16417
+train,VNTRAIN_BS_00653,VNTRAIN_01172,"209, Đường Nguyễn Trãi, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 84, Thôn 1, Phường Văn Đẩu, Quận Kiến An, Thành phố Hải Phòng",09190,11446
+train,VNTRAIN_BS_00654,VNTRAIN_01823,"Xã Thái Hòa, Huyện Hàm Yên, Tỉnh Tuyên Quang","Số 72Bis Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",02419,00259
+train,VNTRAIN_BS_00655,VNTRAIN_03813,"120 duong Hoang Van Thu, Xa Quang Ha, Huyen Phu Xuyen, Ha Noi","Số 88C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",10318,01729
+train,VNTRAIN_BS_00656,VNTRAIN_01540,"22, Phan Đình Giót, Phường 2, Tân Bình, Thành phố Hồ Chí Minh","Số 194 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",26965,25744
+train,VNTRAIN_BS_00657,VNTRAIN_02992,"Tỉnh Bạc Liêu, Huyện Đông Hải, Xã An Phúc, Số 4A Đường Trần Phú","134B Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",31990,27259
+train,VNTRAIN_BS_00659,VNTRAIN_01105,"50, Phố Hoàng Tích Chù, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","174Đ.KimMã, P3, Q3, Thành phố Hồ Chí Minh",09190,27154
+train,VNTRAIN_BS_00667,VNTRAIN_00241,"53/9, Đường Nhiêu Tứ, Phường 7, Phú Nhuận, Thành phố Hồ Chí Minh, Hồ Chí Minh","Số 323 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27052,00160
+train,VNTRAIN_BS_00669,VNTRAIN_03953,"Số 12, Đường Phan Bội Châu, Xã Trường Sơn, Huyện Lục Nam, Tỉnh Bắc Giang","Số 381Bis, Thôn Đông, Xã Liên Xuân, Thành phố Thủy Nguyên, Thành phố Hải Phòng",07507,11485
+train,VNTRAIN_BS_00670,VNTRAIN_00910,"15, Phố Nguyễn Hữu Nghiêm, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 391A Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09184,00160
+train,VNTRAIN_BS_00671,VNTRAIN_01704,"Tỉnh Vĩnh Long, Huyện Vũng Liêm, Xã Thanh Bình, Số 45 Đường Nguyễn Huệ","Số 413 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",29677,01729
+train,VNTRAIN_BS_00672,VNTRAIN_02217,"Số 15, Đường Nguyễn Chí Thanh, Xã Tam Hiệp, Huyện Phúc Thọ, Thành phố Hà Nội","Số 427 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09775,00160
+train,VNTRAIN_BS_00673,VNTRAIN_00581,"Hẻm 635 đường 30/4,, ,, P. Hưng Lợi, Q. Ninh Kiều, Cần Thơ","445 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31147,00160
+train,VNTRAIN_BS_00675,VNTRAIN_01714,"Số 99, Ngõ 12, Đường Trường Chinh, Phường Vạn Thạnh, Thành phố Nha Trang, Tỉnh Khánh Hòa","477Đ.LêLợi, P2, Q.Tân Bình, Thành phố Hồ Chí Minh",22348,26965
+train,VNTRAIN_BS_00683,VNTRAIN_02308,"12 Đ.NguyễnHuệ, X.Hneng, H.Đăk Đoa, Tỉnh Gia Lai","Số 612A Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",23701,11005
+train,VNTRAIN_BS_00685,VNTRAIN_04054,"45 Đ. Đinh Tiên Hoàng, X. Gia Xuyên, TP. Hải Dương, T. Hải Dương","Số 672C, Thôn 1, Phường Hàng Bột, Quận Đống Đa, Thành phố Hà Nội",11017,00196
+train,VNTRAIN_BS_00686,VNTRAIN_01665,"Số 10, Đường Ngô Quyền, Phường Sông Cầu, Thành phố Bắc Kạn, Tỉnh Bắc Kạn","Số 706A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",01837,26740
+train,VNTRAIN_BS_00687,VNTRAIN_02302,"45 Đ. Hoàng Cầu, X. Tam Thanh, H. Vụ Bản, T. Nam Định","Số 696A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",13789,01729
+train,VNTRAIN_BS_00688,VNTRAIN_00474,"547, Đường Rừng Sác, Xã Bình Khánh, Cần Giờ, Hồ Chí Minh","Số 759C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",27667,25744
+train,VNTRAIN_BS_00689,VNTRAIN_03549,"72 duong Hoang Van Thu, Xa Ia Bang, Huyen Chu Prong, Gia Lai","729C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",23905,26740
+train,VNTRAIN_BS_00691,VNTRAIN_02657,"Số 5, Đường Trần Hưng Đạo, Xã Sơn Kỳ, Huyện Sơn Hà, Tỉnh Quảng Ngãi","797Đ.TrầnHưngĐạo, P14, Q11, Thành phố Hồ Chí Minh",21325,27214
+train,VNTRAIN_BS_00699,VNTRAIN_00513,"140, Đường số 10, Bình Hưng Hoà, Bình Tân, Thành Phố Hồ Chí Minh","Số 931C Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",27436,00259
+train,VNTRAIN_BS_00701,VNTRAIN_02106,"Số 25B, Ngõ 45, Đường Trần Phú, Phường An Hòa, Quận An Dương, Thành phố Hải Phòng","Số 37C, Ấp Bắc, Xã Tiên Dương, Huyện Đông Anh, Thành phố Hà Nội",11590,00472
+train,VNTRAIN_BS_00702,VNTRAIN_01428,"308-322, Đường Nguyễn Đăng Đạo, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 82 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",09181,26740
+train,VNTRAIN_BS_00703,VNTRAIN_03509,"68 duong Le Duan, Xa Chieng Sang, Huyen Yen Chau, Son La","Số 86 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",04069,16642
+train,VNTRAIN_BS_00704,VNTRAIN_00902,"218, Đường Ngô Gia Tự, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 60 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09187,25744
+train,VNTRAIN_BS_00705,VNTRAIN_03695,"Xã Ea Ning, Huyện Cư Kuin, Tỉnh Đắk Lắk","146 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",24540,00259
+train,VNTRAIN_BS_00707,VNTRAIN_02829,"35 duong Ly Thuong Kiet, Phuong Nguyen Trai, Thanh pho Hai Duong, Hai Duong","134Đ.VõVănKiệt, P7, Q11, Thành phố Hồ Chí Minh",10519,27238
+train,VNTRAIN_BS_00715,VNTRAIN_02693,"168 duong Hoang Van Thu, Xa Thanh Tri, Huyen Binh Dai, Ben Tre","Số 330B Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",29095,16417
+train,VNTRAIN_BS_00717,VNTRAIN_02020,"35 dduowng Quang Trung, Xã Xuân Sơn, Huyện Đô Lương, Tỉnh Nghệ An","Số 393Bis, Thôn Đông, Thị trấn Hà Trung, Huyện Hà Trung, Tỉnh Thanh Hóa",17689,15271
+train,VNTRAIN_BS_00718,VNTRAIN_02648,"Tỉnh Tuyên Quang, Huyện Yên Sơn, Thị trấn Yên Sơn, Số 68 Đường Nguyễn Chí Thanh","Số 351Bis Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",02473,00259
+train,VNTRAIN_BS_00719,VNTRAIN_01735,"Xã Trung Thành Đông, Huyện Vũng Liêm, Tỉnh Vĩnh Long","Số 396C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",29689,01729
+train,VNTRAIN_BS_00720,VNTRAIN_02810,"Số 402, Kiệt 12, Đường Điện Biên Phủ, Xã Hải Sơn, Huyện Hải Lăng, Tỉnh Quảng Trị","Số 374Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19735,00160
+train,VNTRAIN_BS_00721,VNTRAIN_03473,"Số 72, Đường Tây Sơn, Xã Phước Bình, Huyện Bác Ái, Tỉnh Ninh Thuận","458B Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",22783,00160
+train,VNTRAIN_BS_00723,VNTRAIN_01776,"Tỉnh Kon Tum, Huyện Đắk Tô, Xã Ngọk Tụ, Số 25B Đường Ngô Quyền","463Đ.BàTriệu, P1, Q.Bình Thạnh, Thành phố Hồ Chí Minh",23428,26944
+train,VNTRAIN_BS_00731,VNTRAIN_03150,"18B Đ. Quang Trung, P. Hàng Mã, Q. Hoàn Kiếm, HN","Số 609B Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",00043,11005
+train,VNTRAIN_BS_00733,VNTRAIN_03254,"25B Đ. Lý Thường Kiệt, X. Du Già, H. Yên Minh, T. Hà Giang","Số 630A, Thôn Đông, Thị trấn Trà Ôn, Huyện Trà Ôn, Tỉnh Vĩnh Long",00871,29821
+train,VNTRAIN_BS_00734,VNTRAIN_03964,"18B dduowng Điện Biên Phủ, Xã Bình An, Huyện Thăng Bình, Tỉnh Quảng Nam","Số 635Bis Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",20845,26740
+train,VNTRAIN_BS_00735,VNTRAIN_03620,"120 Đ.TrườngChinh, X.N' Thôn Hạ, H.Đức Trọng, Tỉnh Lâm Đồng","Số 729 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",24973,16642
+train,VNTRAIN_BS_00736,VNTRAIN_01767,"Xã Mỹ Hòa Hưng, Thành phố Long Xuyên, Tỉnh An Giang","Số 755 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",30313,00160
+train,VNTRAIN_BS_00737,VNTRAIN_02664,"Tỉnh Quảng Ngãi, Huyện Sơn Hà, Xã Sơn Kỳ, Số 5 Đường Trần Hưng Đạo","739B Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",21325,27259
+train,VNTRAIN_BS_00739,VNTRAIN_00834,"364, Cộng Hoà, Phường 13, Tân Bình, Ho Chi Minh City","733Đ.BàTriệu, P10, Q.Gò Vấp, Thành phố Hồ Chí Minh",26974,26884
+train,VNTRAIN_BS_00747,VNTRAIN_01115,"6, Phố Phạm Ngũ Lão, Phan Chu Trinh, Hoàn Kiếm, Hà Nội","Số 881Bis Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",00085,00259
+train,VNTRAIN_BS_00749,VNTRAIN_00765,"Đường Tân Thới Nhì 24, Xã Tân Thới Nhì, Huyện Hóc Môn, Thành phố Hồ Chí Minh","Số 39A, Thôn Tây, Phường Phú Đô, Quận Nam Từ Liêm, Thành phố Hà Nội",27571,00632
+train,VNTRAIN_BS_00750,VNTRAIN_01447,"Ngõ 100 Phố Mai Công, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh","Số 935 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",09247,00259
+train,VNTRAIN_BS_00751,VNTRAIN_03057,"Số 25B, Đường Nguyễn Văn Cừ, Xã Lệ Xá, Huyện Tiên Lữ, Tỉnh Hưng Yên","Số 72 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",12352,16642
+train,VNTRAIN_BS_00752,VNTRAIN_02130,"Số 68, Ngõ 168, Đường Hoàng Cầu, Phường 16, Quận 4, Thành phố Hồ Chí Minh","Số 77B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27289,00160
+train,VNTRAIN_BS_00753,VNTRAIN_01666,"Số 10, Ngách 8/2, Đường Ngô Quyền, Phường Sông Cầu, Thành phố Bắc Kạn, Tỉnh Bắc Kạn","133Bis Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",01837,27259
+train,VNTRAIN_BS_00755,VNTRAIN_00293,"125, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","143Đ.KimMã, P2, Q.Bình Thạnh, Thành phố Hồ Chí Minh",09184,26941
+train,VNTRAIN_BS_00763,VNTRAIN_01927,"Xã Thanh Hương, Huyện Thanh Chương, Tỉnh Nghệ An","Số 311B Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",17758,00160
+train,VNTRAIN_BS_00765,VNTRAIN_02598,"68 Đ. Phan Bội Châu, X. Phú Sơn, H. Ba Vì, HN","Số 316C, Thôn Đông, Phường Nghĩa Đô, Quận Cầu Giấy, Thành phố Hà Nội",09658,00157
+train,VNTRAIN_BS_00766,VNTRAIN_00697,"101, Đường Tôn Dật Tiên, Phường Tân Phú, Quận 7, Ho Chi Minh City","Số 329 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27487,00160
+train,VNTRAIN_BS_00767,VNTRAIN_01890,"Số 35, Ngõ 12, Đường Trần Hưng Đạo, Thị trấn Dầu Giây, Huyện Thống Nhất, Tỉnh Đồng Nai","Số 400A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",26326,16642
+train,VNTRAIN_BS_00768,VNTRAIN_03854,"45 Đ. Xã Đàn, X. Suối Bu, H. Văn Chấn, T. Yên Bái","Số 349 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",04669,00160
+train,VNTRAIN_BS_00769,VNTRAIN_01085,"312, Đường Trần Hưng Đạo, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","420C Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",09181,00259
+train,VNTRAIN_BS_00771,VNTRAIN_03152,"Thành phố Hà Nội, Quận Hoàn Kiếm, Phường Hàng Mã, Số 18B Đường Quang Trung","429Đ.BàTriệu, P16, Q11, Thành phố Hồ Chí Minh",00043,27253
+train,VNTRAIN_BS_00779,VNTRAIN_02892,"15 Đ.QuangTrung, P.Linh Chiểu, TP.Thủ Đức, Thành phố Hồ Chí Minh","Số 583C Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26815,00259
+train,VNTRAIN_BS_00781,VNTRAIN_02646,"68 Đ. Nguyễn Chí Thanh, TT. Yên Sơn, H. Yên Sơn, T. Tuyên Quang","Số 620, Thôn 2, Phường Xuân La, Quận Tây Hồ, Thành phố Hà Nội",02473,00103
+train,VNTRAIN_BS_00782,VNTRAIN_01954,"Số 18B, Kiệt 12, Đường Hoàng Cầu, Xã Yên Thành, Huyện Yên Mô, Tỉnh Ninh Bình","Số 618B Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",14734,00259
+train,VNTRAIN_BS_00783,VNTRAIN_00392,"Phố Chợ Gạo, Phường Đông Ngàn, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","Số 672 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09367,01729
+train,VNTRAIN_BS_00784,VNTRAIN_01544,"128, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 695B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09184,00160
+train,VNTRAIN_BS_00785,VNTRAIN_00055,"Lô thương mại mua bán, tầng trệt thuộc nhà Chung cư (tên thương mại là Thái An), 21/5D Phan Huy Ích, Phường 14, Quận Gò Vấp, Tp. Hồ Chí Minh","648 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",26882,27259
+train,VNTRAIN_BS_00787,VNTRAIN_02146,"Số 402, Ngách 15/4, Đường Nguyễn Huệ, Xã Sơn Phú, Huyện Giồng Trôm, Tỉnh Bến Tre","781Đ.VõVănKiệt, P1, Q11, Thành phố Hồ Chí Minh",29014,27247
+train,VNTRAIN_BS_00795,VNTRAIN_01442,"40A - 40B, Lý Tự Trọng, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh","Số 881A Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26740,00259
+train,VNTRAIN_BS_00797,VNTRAIN_03261,"99 duong Hung Vuong, Xa Ngam La, Huyen Yen Minh, Ha Giang","Số 897Bis, Thôn Đông, Phường Thụy Phương, Quận Bắc Từ Liêm, Thành phố Hà Nội",00856,00604
+train,VNTRAIN_BS_00798,VNTRAIN_00357,"23, Phố Hàng Vôi, Ly Thai To, Hoan Kiem, Ha Noi","Số 23C Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",00058,26740
+train,VNTRAIN_BS_00799,VNTRAIN_03548,"72 dduowng Hoàng Văn Thụ, Xã Ia Băng, Huyện Chư Prông, Tỉnh Gia Lai","Số 43 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",23905,01729
+train,VNTRAIN_BS_00800,VNTRAIN_03980,"Số 10, Đuong Hoàng Cầu, Xã Tân Phú, Huyện Tam Bình, Tỉnh Vĩnh Long","Số 54 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",29749,25744
+train,VNTRAIN_BS_00801,VNTRAIN_03782,"10 Đ. Nguyễn Huệ, X. Xuân Vinh, H. Xuân Trường, T. Nam Định","3 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",14134,26740
+train,VNTRAIN_BS_00803,VNTRAIN_02791,"Xã Bình Trung, Huyện Thăng Bình, Tỉnh Quảng Nam","80Đ.TrầnHưngĐạo, P8, Q.Phú Nhuận, Thành phố Hồ Chí Minh",20848,27064
+train,VNTRAIN_BS_00811,VNTRAIN_03734,"18B Đ. Điện Biên Phủ, X. Hải Định, H. Hải Lăng, T. Quảng Trị","Số 281C Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19714,00259
+train,VNTRAIN_BS_00813,VNTRAIN_03588,"5 Đ.ĐộiCấn, X.Mỹ Hưng, H.Thanh Oai, Thành phố Hà Nội","Số 239, Thôn Chùa, Thị trấn Sơn Lư, Huyện Quan Sơn, Tỉnh Thanh Hóa",10129,15016
+train,VNTRAIN_BS_00814,VNTRAIN_02896,"Thành phố Hồ Chí Minh, Thành phố Thủ Đức, Phường Linh Chiểu, Số 15 Đường Quang Trung","Số 304Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26815,00160
+train,VNTRAIN_BS_00815,VNTRAIN_03279,"Xã Quảng Chính, Huyện Quảng Xương, Tỉnh Thanh Hóa","Số 297Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",16495,16642
+train,VNTRAIN_BS_00816,VNTRAIN_01961,"Số 204, Đường Điện Biên Phủ, Phường Phùng Chí Kiên, Thành phố Bắc Kạn, Tỉnh Bắc Kạn","Số 377 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",01843,00160
+train,VNTRAIN_BS_00817,VNTRAIN_03733,"18B duong Dien Bien Phu, Xa Hai Dinh, Huyen Hai Lang, Quang Tri","338 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",19714,26740
+train,VNTRAIN_BS_00819,VNTRAIN_02192,"Tỉnh Thanh Hóa, Huyện Quan Hóa, Xã Thành Sơn, Số 108 Đường Nguyễn Thị Minh Khai","346Đ.KimMã, P6, Q.Gò Vấp, Thành phố Hồ Chí Minh",14872,26876
+train,VNTRAIN_BS_00827,VNTRAIN_02935,"Xã An Lạc, Huyện Sơn Động, Tỉnh Bắc Giang","Số 545 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",07645,00160
+train,VNTRAIN_BS_00829,VNTRAIN_03469,"204 duong Quang Trung, Phuong Dong Giang, Thanh pho Dong Ha, Quang Tri","Số 549B, Thôn Đông, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội",19330,00217
+train,VNTRAIN_BS_00830,VNTRAIN_02069,"18B duong Dinh Tien Hoang, Phuong An Hoa, Quan Ninh Kieu, Can Tho","Số 630A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",31120,26740
+train,VNTRAIN_BS_00831,VNTRAIN_02268,"Số 15, Đuong Trường Chinh, Xã Triệu Tài, Huyện Triệu Phong, Tỉnh Quảng Trị","Số 594Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",19660,16642
+train,VNTRAIN_BS_00832,VNTRAIN_03886,"204 Đ. Cách Mạng Tháng Tám, TT. Cát Hải, H. Cát Hải, TP. Hải Phòng","Số 659 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",11917,25744
+train,VNTRAIN_BS_00833,VNTRAIN_01898,"Số 15, Hẻm 68, Đường Nguyễn Chí Thanh, Phường Bình Chiểu, Thành phố Thủ Đức, Thành phố Hồ Chí Minh","624 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",26797,26740
+train,VNTRAIN_BS_00835,VNTRAIN_02471,"Xã Hương Liên, Huyện Hương Khê, Tỉnh Hà Tĩnh","656Đ.NguyễnHuệ, P8, Q.Tân Bình, Thành phố Hồ Chí Minh",18559,26998
+train,VNTRAIN_BS_00843,VNTRAIN_03074,"Số 45, Kiệt 12, Đường Nguyễn Văn Cừ, Phường Phả Lại, Thành phố Chí Linh, Tỉnh Hải Dương","Số 851C Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",10546,11005
+train,VNTRAIN_BS_00845,VNTRAIN_03846,"5 Đ. Lê Lợi, X. Minh Đài, H. Tân Sơn, T. Phú Thọ","Số 838Bis, Thôn Chùa, Xã Đông Hưng, Huyện Cái Nước, Tỉnh Cà Mau",08593,32142
+train,VNTRAIN_BS_00846,VNTRAIN_02150,"402 Đ. Nguyễn Huệ, X. Sơn Phú, H. Giồng Trôm, T. Bến Tre","Số 921 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",29014,00259
+train,VNTRAIN_BS_00847,VNTRAIN_02224,"Thành phố Hà Nội, Huyện Phúc Thọ, Xã Tam Hiệp, Số 15 Đường Nguyễn Chí Thanh","Số 890Bis Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09775,01729
+train,VNTRAIN_BS_00848,VNTRAIN_01799,"Xã Phúc Hòa, Huyện Phúc Thọ, Thành phố Hà Nội","Số 914 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09763,25744
+train,VNTRAIN_BS_00849,VNTRAIN_00203,"Thôn Công Lương, P. Thủy Vân, TP. Huế","937 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19963,00160
+train,VNTRAIN_BS_00851,VNTRAIN_02479,"Xã Sơn Lộ, Huyện Bảo Lạc, Tỉnh Cao Bằng","92Đ.BàTriệu, P1, Q10, Thành phố Hồ Chí Minh",01360,27184
+train,VNTRAIN_BS_00859,VNTRAIN_00510,"2, Trần Nhân Tông, Phường 8, Đà Lạt, Lâm Đồng","Số 225 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24772,00160
+train,VNTRAIN_BS_00861,VNTRAIN_01199,"16, Nguyễn Khuyến, Tân An, Ninh Kiều, Cần Thơ","Số 201, Thôn 1, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội",31135,00484
+train,VNTRAIN_BS_00862,VNTRAIN_02140,"108 Đ.ĐiệnBiênPhủ, TT.Sa Rài, H.Tân Hồng, Tỉnh Đồng Tháp","Số 237B Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",29926,26740
+train,VNTRAIN_BS_00863,VNTRAIN_03062,"25B Đ. Nguyễn Văn Cừ, X. Lệ Xá, H. Tiên Lữ, T. Hưng Yên","Số 246C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",12352,01729
+train,VNTRAIN_BS_00864,VNTRAIN_02223,"Xã Tam Hiệp, Huyện Phúc Thọ, Thành phố Hà Nội","Số 310A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09775,25744
+train,VNTRAIN_BS_00865,VNTRAIN_02583,"Xã Phú Định, Huyện Bố Trạch, Tỉnh Quảng Bình","331Bis Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",19174,27259
+train,VNTRAIN_BS_00867,VNTRAIN_01610,"Số 15, Kiệt 12, Đường Quang Trung, Xã Việt Lập, Huyện Tân Yên, Tỉnh Bắc Giang","351Đ.NguyễnHuệ, P15, Q.Gò Vấp, Thành phố Hồ Chí Minh",07354,26872
+train,VNTRAIN_BS_00875,VNTRAIN_00268,"6, Đường Lý Thái Tông, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh","Số 518C Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09172,00160
+train,VNTRAIN_BS_00877,VNTRAIN_00418,"Phạm Văn Hai, 2, Tân Bình, Thành phố Hồ Chí Minh","Số 594, Thôn 1, Xã Định Hiệp, Huyện Dầu Tiếng, Tỉnh Bình Dương",26965,25798
+train,VNTRAIN_BS_00878,VNTRAIN_02714,"Số 10, Ngõ 12, Đường Phan Bội Châu, Phường 2, Quận Tân Bình, Thành phố Hồ Chí Minh","Số 541 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",26965,26740
+train,VNTRAIN_BS_00879,VNTRAIN_03496,"Tỉnh Hải Dương, Huyện Kim Thành, Xã Đại Đức, Số 120 Đường Hùng Vương","Số 629A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",10810,16642
+train,VNTRAIN_BS_00880,VNTRAIN_00798,"171, 30 Tháng 4, Cầu Kè, Trà Vinh","Số 583 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",29308,00160
+train,VNTRAIN_BS_00881,VNTRAIN_01740,"Số 15, Đuong Xã Đàn, Xã Lương Tâm, Huyện Long Mỹ, Tỉnh Hậu Giang","593 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",31492,26740
+train,VNTRAIN_BS_00883,VNTRAIN_01140,"31, Xô Viết Nghệ Tĩnh, 7, Đà Lạt, Lâm Đồng","632Đ.VõVănKiệt, P7, Q5, Thành phố Hồ Chí Minh",24769,27316
+train,VNTRAIN_BS_00891,VNTRAIN_02297,"Số 45, Đường Hoàng Cầu, Xã Tam Thanh, Huyện Vụ Bản, Tỉnh Nam Định","Số 781 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",13789,00259
+train,VNTRAIN_BS_00893,VNTRAIN_01948,"Số 88, Đuong Đinh Tiên Hoàng, Phường Thới Hòa, Thành phố Bến Cát, Tỉnh Bình Dương","Số 885Bis, Ấp Bắc, Xã Hòa Bình 1, Huyện Tây Hòa, Tỉnh Phú Yên",25846,22252
+train,VNTRAIN_BS_00894,VNTRAIN_03262,"99 Đ. Hùng Vương, X. Ngam La, H. Yên Minh, T. Hà Giang","Số 855Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00856,00160
+train,VNTRAIN_BS_00895,VNTRAIN_02792,"Tỉnh Quảng Nam, Huyện Thăng Bình, Xã Bình Trung, Số 10 Đường Lý Thường Kiệt","Số 864Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",20848,16642
+train,VNTRAIN_BS_00896,VNTRAIN_02637,"402 duong Tran Hung Dao, Xa Vinh Tuy, Huyen Go Quao, Kien Giang","Số 868A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",30979,25744
+train,VNTRAIN_BS_00898,VNTRAIN_01636,"35 Đ.VõVănKiệt, X.Đức Bác, H.Sông Lô, Tỉnh Vĩnh Phúc","43Đ.NguyễnTrãi, P4, Q5, Thành phố Hồ Chí Minh",08854,27301
+train,VNTRAIN_BS_00906,VNTRAIN_03718,"15 Đ. Phan Bội Châu, X. Hưng Phú, H. Mỹ Tú, T. Sóc Trăng","Số 149 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",31588,16417
+train,VNTRAIN_BS_00908,VNTRAIN_00936,"Hon Tre island, Vĩnh Nguyên, Nha Trang, Khánh Hòa","Số 251A, Thôn 1, Phường Văn Đức, Thành phố Chí Linh, Tỉnh Hải Dương",22375,10585
+train,VNTRAIN_BS_00909,VNTRAIN_04039,"Xã Phình Hồ, Huyện Trạm Tấu, Tỉnh Yên Bái","Số 236Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",04597,00160
+train,VNTRAIN_BS_00910,VNTRAIN_01461,"2, Đường Lê Quang Đạo, Phường Đình Bảng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","Số 208A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09394,01729
+train,VNTRAIN_BS_00911,VNTRAIN_02469,"12 duong Nguyen Trai, Xa Huong Lien, Huyen Huong Khe, Ha Tinh","Số 303Bis Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",18559,25744
+train,VNTRAIN_BS_00912,VNTRAIN_01918,"18B Đ. Điện Biên Phủ, X. Yên Hưng, H. Sông Mã, T. Sơn La","325B Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",04192,27259
+train,VNTRAIN_BS_00914,VNTRAIN_00390,"Đường Huyện 22, Hoà Quang Bắc, Phú Hoà, Phú Yên","329Đ.TrầnHưngĐạo, P16, Q4, Thành phố Hồ Chí Minh",22303,27289
+train,VNTRAIN_BS_00922,VNTRAIN_00487,"35, Thăng Long, 4, Tân Bình, Ho Chi Minh City","Số 490B Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",26968,16417
+train,VNTRAIN_BS_00924,VNTRAIN_03645,"108 duong Giai Phong, Phuong Phu Dong, Thanh pho Pleiku, Gia Lai","Số 474C, Thôn Tây, Phường Giang Biên, Quận Long Biên, Thành phố Hà Nội",23570,00121
+train,VNTRAIN_BS_00925,VNTRAIN_00654,"202, Hoàng Văn Thụ, Phường 9, Phu Nhuan, Ho Chi Minh City","Số 539Bis Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",27049,00259
+train,VNTRAIN_BS_00926,VNTRAIN_02125,"12 duong Ba Trieu, Xa Thieu Duy, Huyen Thieu Hoa, Thanh Hoa","Số 537B Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",15799,16642
+train,VNTRAIN_BS_00927,VNTRAIN_01904,"Thành phố Hồ Chí Minh, Thành phố Thủ Đức, Phường Bình Chiểu, Số 15 Đường Nguyễn Chí Thanh","Số 613B Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",26797,25744
+train,VNTRAIN_BS_00928,VNTRAIN_00234,"103, Hoàng Hoa Thám, Phường 10, Đà Lạt, Lâm Đồng","605C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",24796,26740
+train,VNTRAIN_BS_00930,VNTRAIN_00923,"160, Nguyễn Thị Nhỏ, 15, 11, Ho Chi Minh City","633Đ.NguyễnTrãi, P2, Q.Bình Thạnh, Thành phố Hồ Chí Minh",27208,26941
+train,VNTRAIN_BS_00938,VNTRAIN_02999,"Xã Đak Mang, Huyện Hoài Ân, Tỉnh Bình Định","Số 764 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",21700,11053
+train,VNTRAIN_BS_00940,VNTRAIN_01655,"Phường Hồng Thái, Quận An Dương, Thành phố Hải Phòng","Số 846B, Thôn Đông, Phường Trung Hưng, Thị xã Sơn Tây, Thành phố Hà Nội",11626,09601
+train,VNTRAIN_BS_00941,VNTRAIN_01745,"Số 12, Đường Trần Phú, Xã Bình Thạnh, Huyện Cao Lãnh, Tỉnh Đồng Tháp","Số 834C Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",30127,00160
+train,VNTRAIN_BS_00942,VNTRAIN_02066,"Số 18B, Hẻm 68, Đường Đinh Tiên Hoàng, Phường An Hòa, Quận Ninh Kiều, Thành phố Cần Thơ","Số 809 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",31120,01729
+train,VNTRAIN_BS_00943,VNTRAIN_00033,"312 Nguyễn Văn Linh, Phường An Khánh, Ninh Kiều, Cần Thơ, Việt Nam","Số 915A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31149,00160
+train,VNTRAIN_BS_00944,VNTRAIN_00411,"001, đường Phan Kế Bính, Phường Cam Đường, Thành phố Lào Cai, Tỉnh Lào Cai","878B Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",02674,26740
+train,VNTRAIN_BS_00946,VNTRAIN_03625,"Số 4A, Đường Lê Duẩn, Xã Các Sơn, Thị xã Nghi Sơn, Tỉnh Thanh Hóa","880Đ.LêLợi, P12, Q3, Thành phố Hồ Chí Minh",16591,27130
+train,VNTRAIN_BS_00954,VNTRAIN_02978,"Số 68, Ngõ 45, Đường Phạm Văn Đồng, Xã Xuân Thủy, Huyện Lệ Thủy, Tỉnh Quảng Bình","Số 92C Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",19300,11053
+train,VNTRAIN_BS_00956,VNTRAIN_01392,"1, Đường số 4, Tân Túc, Bình Chánh, Hồ Chí Minh","Số 147C, Thôn 1, Phường Kim Mã, Quận Ba Đình, Thành phố Hà Nội",27595,00028
+train,VNTRAIN_BS_00957,VNTRAIN_02359,"Xã Vân Tụ, Huyện Yên Thành, Tỉnh Nghệ An","Số 177 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",17611,00160
+train,VNTRAIN_BS_00958,VNTRAIN_02790,"10 Đ. Lý Thường Kiệt, X. Bình Trung, H. Thăng Bình, T. Quảng Nam","Số 191 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",20848,01729
+train,VNTRAIN_BS_00959,VNTRAIN_03596,"Số 168, Đuong Hoàng Hoa Thám, Phường Khánh Hậu, Thành phố Tân An, Tỉnh Long An","Số 237 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27715,00160
+train,VNTRAIN_BS_00960,VNTRAIN_02855,"Xã Nam Thanh, Huyện Nam Đàn, Tỉnh Nghệ An","245A Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",17938,00259
+train,VNTRAIN_BS_00962,VNTRAIN_00198,"Thôn Vinh Vệ, X. Phú Mỹ, H. Phú Vang, TP. Huế","311Đ.KimMã, P9, Q5, Thành phố Hồ Chí Minh",19927,27304
+train,VNTRAIN_BS_00970,VNTRAIN_03724,"Số 120, Đuong Đinh Tiên Hoàng, Xã Lao Chải, Huyện Mù Căng Chải, Tỉnh Yên Bái","Số 475B Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",04474,16417
+train,VNTRAIN_BS_00972,VNTRAIN_02634,"Số 402, Hẻm 108, Đường Trần Hưng Đạo, Xã Vĩnh Tuy, Huyện Gò Quao, Tỉnh Kiên Giang","Số 422, Thôn Chùa, Xã Hòa Mỹ, Huyện Cái Nước, Tỉnh Cà Mau",30979,32141
+train,VNTRAIN_BS_00973,VNTRAIN_02727,"Xã Định Thành, Huyện Dầu Tiếng, Tỉnh Bình Dương","Số 446B Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",25795,00160
+train,VNTRAIN_BS_00974,VNTRAIN_03532,"Số 35, Đuong Quang Trung, Xã Châu Lăng, Huyện Tri Tôn, Tỉnh An Giang","Số 517Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",30562,16642
+train,VNTRAIN_BS_00975,VNTRAIN_03701,"68 duong Tran Phu, Xa Tan Xuan, Huyen Ba Tri, Ben Tre","Số 568 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",29119,25744
+train,VNTRAIN_BS_00976,VNTRAIN_02898,"Số 5, Hẻm 25, Đường Lê Duẩn, Xã Diễn Kỷ, Huyện Diễn Châu, Tỉnh Nghệ An","579A Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",17434,27259
+train,VNTRAIN_BS_00978,VNTRAIN_02902,"5 Đ. Lê Duẩn, X. Diễn Kỷ, H. Diễn Châu, T. Nghệ An","535Đ.VõVănKiệt, P9, Q4, Thành phố Hồ Chí Minh",17434,27265
+train,VNTRAIN_BS_00986,VNTRAIN_02458,"Số 72, Ngõ 12, Đường Trần Hưng Đạo, Xã Ninh Hòa, Huyện Hồng Dân, Tỉnh Bạc Liêu","Số 690Bis Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",31852,11053
+train,VNTRAIN_BS_00988,VNTRAIN_03142,"99 Đ. Trường Chinh, X. Đồng Khê, H. Văn Chấn, T. Yên Bái","Số 763, Thôn Tây, Phường Thịnh Liệt, Quận Hoàng Mai, Thành phố Hà Nội",04690,00331
+train,VNTRAIN_BS_00989,VNTRAIN_02882,"Số 88, Ngõ 45, Đường Lê Lợi, Xã Vinh Tiền, Huyện Tân Sơn, Tỉnh Phú Thọ","Số 831C Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",08626,00160
+train,VNTRAIN_BS_00990,VNTRAIN_03777,"Số 10, Đường Nguyễn Huệ, Xã Xuân Vinh, Huyện Xuân Trường, Tỉnh Nam Định","Số 776C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",14134,01729
+train,VNTRAIN_BS_00991,VNTRAIN_02476,"Số 168, Đuong Đội Cấn, Xã Sơn Lộ, Huyện Bảo Lạc, Tỉnh Cao Bằng","Số 856 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",01360,00160
+train,VNTRAIN_BS_00992,VNTRAIN_02959,"Xã Hòa Long, Huyện Lai Vung, Tỉnh Đồng Tháp","805 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",30223,00160
+train,VNTRAIN_BS_00994,VNTRAIN_01278,"41A, Phố Lý Thái Tổ, Lý Thái Tổ, Hoàn Kiếm, Hà Nội","894Đ.KimMã, P8, Q.Tân Bình, Thành phố Hồ Chí Minh",00058,26998
+train,VNTRAIN_BS_01002,VNTRAIN_02446,"45 Đ. Hùng Vương, TT. Nông trường Phong Hải, H. Bảo Thắng, T. Lào Cai","Số 68 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02902,00160
+train,VNTRAIN_BS_01004,VNTRAIN_02550,"12 Đ. Hoàng Hoa Thám, X. An Bình, H. Cao Lãnh, T. Đồng Tháp","Số 171, Thôn 2, Xã Đại Thịnh, Huyện Mê Linh, Thành phố Hà Nội",30106,08974
+train,VNTRAIN_BS_01005,VNTRAIN_00512,"29, Đường Nguyễn Đăng Đạo, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh","Số 178 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09172,00160
+train,VNTRAIN_BS_01006,VNTRAIN_03295,"Xã Nam Tiến, Huyện Tiền Hải, Tỉnh Thái Bình","Số 185Bis Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",13057,01729
+train,VNTRAIN_BS_01007,VNTRAIN_01716,"99 dduowng Trường Chinh, Phường Vạn Thạnh, Thành phố Nha Trang, Tỉnh Khánh Hòa","Số 150A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",22348,00160
+train,VNTRAIN_BS_01008,VNTRAIN_01879,"Xã Tông Cọ, Huyện Thuận Châu, Tỉnh Sơn La","168 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",03775,27259
+train,VNTRAIN_BS_01010,VNTRAIN_03269,"99 duong Nguyen Chi Thanh, Phuong An Binh, Thanh pho Di An, Binh Duong","242Đ.LêLợi, P2, Q.Bình Thạnh, Thành phố Hồ Chí Minh",25960,26941
+train,VNTRAIN_BS_01018,VNTRAIN_01982,"99 Đ. Nguyễn Thị Minh Khai, X. Đại Bình, H. Đầm Hà, T. Quảng Ninh","Số 439C Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",06919,11053
+train,VNTRAIN_BS_01020,VNTRAIN_00561,"8, Lý Công Uẩn, 1, Mỹ Tho, Tiền Giang","Số 475, Thôn 2, Xã Tứ Hiệp, Huyện Thanh Trì, Thành phố Hà Nội",28261,00658
+train,VNTRAIN_BS_01021,VNTRAIN_01559,"405D, Hẻm Liên Tổ 4-5 Nguyễn Văn Linh, An Khánh, Ninh Kiều, Cần Thơ","Số 463A Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31149,00160
+train,VNTRAIN_BS_01022,VNTRAIN_01383,"Đường T, Dĩ An, Thành phố Hồ Chí Minh","Số 463 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",25942,01729
+train,VNTRAIN_BS_01023,VNTRAIN_00443,"1, Tết Mậu Thân, Phường 4, Mỹ Tho, Tiền Giang","Số 470C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",28252,25744
+train,VNTRAIN_BS_01024,VNTRAIN_01794,"Số 204, Hẻm 68, Đường Trần Phú, Xã Phúc Hòa, Huyện Phúc Thọ, Thành phố Hà Nội","535 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",09763,27259
+train,VNTRAIN_BS_01026,VNTRAIN_02436,"12 Đ.NguyễnThịMinhKhai, X.Long Hòa, H.Dầu Tiếng, Tỉnh Bình Dương","554Đ.NguyễnHuệ, P9, Q.Tân Bình, Thành phố Hồ Chí Minh",25792,27001
+train,VNTRAIN_BS_01034,VNTRAIN_02881,"Số 88, Đường Lê Lợi, Xã Vinh Tiền, Huyện Tân Sơn, Tỉnh Phú Thọ","Số 711 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",08626,11053
+train,VNTRAIN_BS_01036,VNTRAIN_01888,"Tỉnh Nghệ An, Huyện Thanh Chương, Xã Thanh Thịnh, Số 12 Đường Cách Mạng Tháng Tám","Số 737, Thôn 1, Xã Đức Hòa Thượng, Huyện Đức Hòa, Tỉnh Long An",17770,27967
+train,VNTRAIN_BS_01037,VNTRAIN_02509,"204 duong Nguyen Chi Thanh, Xa Xuan Thang, Huyen Thoi Lai, Can Tho","Số 735A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",31270,26740
+train,VNTRAIN_BS_01038,VNTRAIN_03638,"18B Đ. Nguyễn Thị Minh Khai, X. Yên Phú, H. Yên Mỹ, T. Hưng Yên","Số 737B Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",12079,16642
+train,VNTRAIN_BS_01039,VNTRAIN_01049,"12, Đường số 10, Phường Tân Kiểng, Quận 7, Thành phố Hồ Chí Minh","Số 839B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27472,00160
+train,VNTRAIN_BS_01040,VNTRAIN_03580,"Số 4A, Đuong Nguyễn Văn Cừ, Phường Bến Tắm, Thành phố Chí Linh, Tỉnh Hải Dương","813C Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",10552,00259
+train,VNTRAIN_BS_01042,VNTRAIN_00938,"298, Đường Nguyễn Gia Thiều, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","853Đ.NguyễnHuệ, P6, Q.Gò Vấp, Thành phố Hồ Chí Minh",09184,26876
+train,VNTRAIN_BS_01050,VNTRAIN_01312,"9, Triệu Việt Vương, Phường 4, Đà Lạt, Lâm Đồng","Số 95 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24793,00160
+train,VNTRAIN_BS_01052,VNTRAIN_04040,"Tỉnh Yên Bái, Huyện Trạm Tấu, Xã Phình Hồ, Số 10 Đường Giải Phóng","Số 105Bis, Thôn 1, Xã Cự Khê, Huyện Thanh Oai, Thành phố Hà Nội",04597,10120
+train,VNTRAIN_BS_01053,VNTRAIN_01670,"10 Đ. Ngô Quyền, P. Sông Cầu, TP. Bắc Kạn, T. Bắc Kạn","Số 81C Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",01837,00259
+train,VNTRAIN_BS_01054,VNTRAIN_01271,"1135, Đường Nguyễn Ái Quốc, Phường Tân Hiệp, Thành phố Biên Hòa, Tỉnh Đồng Nai","Số 151B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",26008,01729
+train,VNTRAIN_BS_01055,VNTRAIN_01984,"Tỉnh Quảng Ninh, Huyện Đầm Hà, Xã Đại Bình, Số 99 Đường Nguyễn Thị Minh Khai","Số 176Bis Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",06919,25744
+train,VNTRAIN_BS_01056,VNTRAIN_02189,"108 duong Nguyen Thi Minh Khai, Xa Thanh Son, Huyen Quan Hoa, Thanh Hoa","137C Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",14872,00160
+train,VNTRAIN_BS_01058,VNTRAIN_03029,"99 duong Hoang Hoa Tham, Xa Da Sar, Huyen Lac Duong, Lam Dong","156Đ.LêLợi, P5, Q.Gò Vấp, Thành phố Hồ Chí Minh",24865,26887
+train,VNTRAIN_BS_01066,VNTRAIN_01681,"Số 204, Đường Hai Bà Trưng, Xã Việt Tiến, Thị xã Việt Yên, Tỉnh Bắc Giang","Số 375B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",07762,11053
+train,VNTRAIN_BS_01068,VNTRAIN_02518,"5 Đ. Hoàng Cầu, X. Tân Hoa, H. Lục Ngạn, T. Bắc Giang","Số 423Bis, Thôn Đông, Xã Bát Tràng, Huyện Gia Lâm, Thành phố Hà Nội",07567,00583
+train,VNTRAIN_BS_01069,VNTRAIN_03431,"Phường Quang Vinh, Thành phố Biên Hòa, Tỉnh Đồng Nai","Số 435C Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26023,00160
+train,VNTRAIN_BS_01070,VNTRAIN_02663,"Xã Sơn Kỳ, Huyện Sơn Hà, Tỉnh Quảng Ngãi","Số 411B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",21325,01729
+train,VNTRAIN_BS_01071,VNTRAIN_00706,"833, Quốc lộ 1, Phường Long Bình Tân, Thành phố Biên Hòa, Tỉnh Đồng Nai","Số 460A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26056,00160
+train,VNTRAIN_BS_01072,VNTRAIN_03221,"5 duong Hoang Van Thu, Xa Vinh Thinh, Huyen Vinh Loc, Thanh Hoa","484C Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",15388,00160
+train,VNTRAIN_BS_01074,VNTRAIN_01523,"23, Đường Bà Chúa Kho, Phường Thị Cầu, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","523Đ.LêLợi, P14, Q6, Thành phố Hồ Chí Minh",09169,27346
+train,VNTRAIN_BS_01082,VNTRAIN_00557,"39, Hương lộ 605, Chánh Phú Hòa, Bến Cát, Bình Dương","Số 706 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",25837,00160
+train,VNTRAIN_BS_01084,VNTRAIN_03991,"Phường Vĩnh Trường, Thành phố Nha Trang, Tỉnh Khánh Hòa","Số 694, Thôn Tây, Xã Thọ An, Huyện Đan Phượng, Thành phố Hà Nội",22381,09790
+train,VNTRAIN_BS_01085,VNTRAIN_03002,"Số 168, Hẻm 25, Đường Ngô Quyền, Xã An Thanh, Huyện Quỳnh Phụ, Tỉnh Thái Bình","Số 705B Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",12541,26740
+train,VNTRAIN_BS_01086,VNTRAIN_00401,"317, Nguyễn Văn Linh, An Khánh, Ninh Kiều, Cần Thơ","Số 784B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",31149,01729
+train,VNTRAIN_BS_01087,VNTRAIN_02826,"Số 35, Ngõ 168, Đường Lý Thường Kiệt, Phường Nguyễn Trãi, Thành phố Hải Dương, Tỉnh Hải Dương","Số 719C Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",10519,00160
+train,VNTRAIN_BS_01088,VNTRAIN_02501,"18B duong Vo Van Kiet, Thi tran Tan Chau, Huyen Tan Chau, Tay Ninh","765 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",25516,26740
+train,VNTRAIN_BS_01090,VNTRAIN_01935,"Xã Hoằng Lưu, Huyện Hoằng Hóa, Tỉnh Thanh Hóa","831Đ.TrầnHưngĐạo, P22, Q.Bình Thạnh, Thành phố Hồ Chí Minh",15976,26956
+train,VNTRAIN_BS_01098,VNTRAIN_00117,"70 Đặng Văn Ngữ, P. 10, Q. Phú Nhuận, TP. HCM","Số 59 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",27070,00259
+train,VNTRAIN_BS_01100,VNTRAIN_01933,"204 duong Tran Phu, Xa Hoang Luu, Huyen Hoang Hoa, Thanh Hoa","Số 40, Thôn 1, Xã Thái Bình Trung, Huyện Vĩnh Hưng, Tỉnh Long An",15976,27772
+train,VNTRAIN_BS_01101,VNTRAIN_03825,"Số 18B, Đường Hai Bà Trưng, Xã Đăk Choong, Huyện Đắk Glei, Tỉnh Kon Tum","Số 88 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",23356,00259
+train,VNTRAIN_BS_01102,VNTRAIN_01744,"Tỉnh Hậu Giang, Huyện Long Mỹ, Xã Lương Tâm, Số 15 Đường Xã Đàn","Số 67C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",31492,01729
+train,VNTRAIN_BS_01103,VNTRAIN_03401,"Số 168, Đường Bà Triệu, Xã Lương Ngoại, Huyện Bá Thước, Tỉnh Thanh Hóa","Số 100 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",14941,25744
+train,VNTRAIN_BS_01104,VNTRAIN_02586,"Số 108, Hẻm 25, Đường Trần Hưng Đạo, Xã Bảo Ninh, Thành phố Đồng Hới, Tỉnh Quảng Bình","121C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",18889,27259
+train,VNTRAIN_BS_01106,VNTRAIN_00334,"Nguyễn Thái Học, Cam Lộc, Cam Ranh, Khánh Hòa","209Đ.NguyễnHuệ, P16, Q.Gò Vấp, Thành phố Hồ Chí Minh",22417,26878
+train,VNTRAIN_BS_01114,VNTRAIN_03602,"Số 15, Ngõ 12, Đường Bà Triệu, Xã Giao Hà, Huyện Giao Thủy, Tỉnh Nam Định","Số 313 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",14176,16417
+train,VNTRAIN_BS_01116,VNTRAIN_02548,"12 Đ.HoàngHoaThám, X.An Bình, H.Cao Lãnh, Tỉnh Đồng Tháp","Số 307, Thôn Đông, Phường Sơn Kỳ, Quận Tân Phú, Thành phố Hồ Chí Minh",30106,27016
+train,VNTRAIN_BS_01117,VNTRAIN_02815,"Xã Hải Sơn, Huyện Hải Lăng, Tỉnh Quảng Trị","Số 418 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19735,00160
+train,VNTRAIN_BS_01118,VNTRAIN_03597,"168 duong Hoang Hoa Tham, Phuong Khanh Hau, Thanh pho Tan An, Long An","Số 355 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",27715,16642
+train,VNTRAIN_BS_01119,VNTRAIN_03468,"Số 204, Đuong Quang Trung, Phường Đông Giang, Thành phố Đông Hà, Tỉnh Quảng Trị","Số 387 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19330,00160
+train,VNTRAIN_BS_01120,VNTRAIN_03111,"Xã Cà Lúi, Huyện Sơn Hòa, Tỉnh Phú Yên","392A Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",22180,27259
+train,VNTRAIN_BS_01122,VNTRAIN_03957,"12 duong Phan Boi Chau, Xa Truong Son, Huyen Luc Nam, Bac Giang","462Đ.NguyễnTrãi, P11, Q.Tân Bình, Thành phố Hồ Chí Minh",07507,26983
+train,VNTRAIN_BS_01130,VNTRAIN_00620,"Phố Tôn Thất Tùng, Khương Mai, Thanh Xuân, Hà Nội","Số 642 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",00352,11005
+train,VNTRAIN_BS_01132,VNTRAIN_03823,"Xã Tân Yên, Huyện Tràng Định, Tỉnh Lạng Sơn","Số 690Bis, Thôn Chùa, Xã Liên Xuân, Thành phố Thủy Nguyên, Thành phố Hải Phòng",06022,11485
+train,VNTRAIN_BS_01133,VNTRAIN_02864,"Tỉnh Nghệ An, Huyện Nam Đàn, Thị trấn Nam Đàn, Số 25B Đường Bà Triệu","Số 686B Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",17950,00160
+train,VNTRAIN_BS_01134,VNTRAIN_00314,"07, Thạnh Lộc 19, Phường An Phú Đông, Thành phố Hồ Chí Minh","Số 740A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",26779,01729
+train,VNTRAIN_BS_01135,VNTRAIN_02294,"120 Đ. Điện Biên Phủ, TT. Vị Xuyên, H. Vị Xuyên, T. Hà Giang","Số 721 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00913,00160
+train,VNTRAIN_BS_01136,VNTRAIN_03120,"Tỉnh Sóc Trăng, Huyện Châu Thành, Xã Thuận Hòa, Số 5 Đường Giải Phóng","783 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",31576,27259
+train,VNTRAIN_BS_01138,VNTRAIN_00252,"Đường Lê Quang Đạo, Phường Đình Bảng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","821Đ.KimMã, P11, Q3, Thành phố Hồ Chí Minh",09394,27133
+train,VNTRAIN_BS_01146,VNTRAIN_02170,"Số 68, Ngõ 12, Đường Hoàng Cầu, Xã Khánh Thành, Huyện Yên Khánh, Tỉnh Ninh Bình","Số 899 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",14608,11053
+train,VNTRAIN_BS_01148,VNTRAIN_04004,"Số 12, Đuong Điện Biên Phủ, Xã Lương Hòa Lạc, Huyện Chợ Gạo, Tỉnh Tiền Giang","Số 21, Thôn 2, Phường Đức Chính, Thành phố Đông Triều, Tỉnh Quảng Ninh",28612,07093
+train,VNTRAIN_BS_01149,VNTRAIN_03884,"Số 204, Đuong Cách Mạng Tháng Tám, Thị trấn Cát Hải, Huyện Cát Hải, Thành phố Hải Phòng","Số 78A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",11917,00259
+train,VNTRAIN_BS_01150,VNTRAIN_03807,"Xã Mường Lạn, Huyện Mường Ảng, Tỉnh Điện Biên","Số 33B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",03313,01729
+train,VNTRAIN_BS_01151,VNTRAIN_03895,"Xã Đỗ Động, Huyện Thanh Oai, Thành phố Hà Nội","Số 37 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",10153,25744
+train,VNTRAIN_BS_01152,VNTRAIN_02071,"Phường An Hòa, Quận Ninh Kiều, Thành phố Cần Thơ","106C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",31120,27259
+train,VNTRAIN_BS_01154,VNTRAIN_03054,"88 Đ. Xã Đàn, X. Nguyễn Huệ, H. Hòa An, T. Cao Bằng","93Đ.NguyễnHuệ, P1, Q10, Thành phố Hồ Chí Minh",01699,27184
+train,VNTRAIN_BS_01162,VNTRAIN_01287,"Số 18, Ngõ 192 - Lê Trọng Tấn, Khương Mai, Thanh Xuân, Hà Nội","Số 254C Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00352,00160
+train,VNTRAIN_BS_01164,VNTRAIN_01775,"Xã Ngọk Tụ, Huyện Đắk Tô, Tỉnh Kon Tum","Số 340A, Xóm Trại, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội",23428,00163
+train,VNTRAIN_BS_01165,VNTRAIN_00197,"Thôn Thuận Lợi, X. Bình Tiến, TX. Hương Trà, TP. Huế","Số 334 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",20035,00160
+train,VNTRAIN_BS_01166,VNTRAIN_03657,"Số 25B, Đường Giải Phóng, Xã Gia Huynh, Huyện Tánh Linh, Tỉnh Bình Thuận","Số 391A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",23182,01729
+train,VNTRAIN_BS_01167,VNTRAIN_02433,"Số 12, Đường Nguyễn Thị Minh Khai, Xã Long Hòa, Huyện Dầu Tiếng, Tỉnh Bình Dương","Số 353B Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",25792,25744
+train,VNTRAIN_BS_01168,VNTRAIN_03158,"402 Đ. Đội Cấn, X. Quỳnh Hồng, H. Quỳnh Phụ, T. Thái Bình","349 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",12505,27259
+train,VNTRAIN_BS_01170,VNTRAIN_00743,"Khoang Sau, Sơn Đông, Sơn Tây, Hà Nội","408Đ.BàTriệu, P18, Q4, Thành phố Hồ Chí Minh",09613,27277
+train,VNTRAIN_BS_01178,VNTRAIN_01406,"435, Đường Vành Đai Trong, Phường An Lạc, Thành phố Hồ Chí Minh","Số 602B Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27460,00160
+train,VNTRAIN_BS_01180,VNTRAIN_01616,"Tỉnh Bắc Giang, Huyện Tân Yên, Xã Việt Lập, Số 15 Đường Quang Trung","Số 575B, Thôn 1, Phường Tân Tiến, Quận An Dương, Thành phố Hải Phòng",07354,11596
+train,VNTRAIN_BS_01181,VNTRAIN_00340,"9, Phố Thái Phiên, Phố Huế, Hai Bà Trưng, Hà Nội","Số 624B Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00262,00160
+train,VNTRAIN_BS_01182,VNTRAIN_03426,"Số 5, Ngõ 12, Đường Lý Thường Kiệt, Phường Quang Vinh, Thành phố Biên Hòa, Tỉnh Đồng Nai","Số 708 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",26023,16642
+train,VNTRAIN_BS_01183,VNTRAIN_03664,"Tỉnh Bình Thuận, Huyện Tánh Linh, Xã Gia Huynh, Số 25B Đường Giải Phóng","Số 708A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",23182,25744
+train,VNTRAIN_BS_01184,VNTRAIN_02574,"35 Đ. Lê Lợi, X. Phú Đức, H. Châu Thành, T. Bến Tre","715 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",28822,00160
+train,VNTRAIN_BS_01186,VNTRAIN_00285,"Hoàng Hoa Thám, Phường 10, Thành phố Đà Lạt, Lâm Đồng","768Đ.LêLợi, P14, Q.Gò Vấp, Thành phố Hồ Chí Minh",24796,26882
+train,VNTRAIN_BS_01194,VNTRAIN_02282,"Số 25B, Ngách 15/4, Đường Hùng Vương, Xã Hiếu Thuận, Huyện Vũng Liêm, Tỉnh Vĩnh Long","Số 911 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",29701,00259
+train,VNTRAIN_BS_01196,VNTRAIN_00384,"9A, Nguyễn Hữu Thọ, Phường Xuân Phú, Thành phố Huế, Huế, Tỉnh Thừa Thiên Huế","Số 930C, Thôn Chùa, Phường Sơn Kỳ, Quận Tân Phú, Thành phố Hồ Chí Minh",19792,27016
+train,VNTRAIN_BS_01197,VNTRAIN_02445,"45 duong Hung Vuong, Thi tran Nong truong Phong Hai, Huyen Bao Thang, Lao Cai","Số 900 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",02902,26740
+train,VNTRAIN_BS_01198,VNTRAIN_03214,"88 Đ. Nguyễn Trãi, X. Phú Cường, H. Cai Lậy, T. Tiền Giang","Số 3 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",28444,01729
+train,VNTRAIN_BS_01199,VNTRAIN_02250,"Số 45, Ngõ 12, Đường Hoàng Cầu, Phường 3, Quận Gò Vấp, Thành phố Hồ Chí Minh","Số 950A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26902,00160
+train,VNTRAIN_BS_01200,VNTRAIN_00953,"97, Phố Ngọc Lâm, Ngọc Lâm, Long Biên, Hà Nội","98B Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00133,00160
+train,VNTRAIN_BS_01202,VNTRAIN_03400,"Tỉnh Phú Thọ, Huyện Lâm Thao, Xã Xuân Lũng, Số 72 Đường Lý Thường Kiệt","102Đ.LêLợi, P13, Q10, Thành phố Hồ Chí Minh",08500,27166
+train,VNTRAIN_BS_01210,VNTRAIN_02685,"10 duong Ba Trieu, Xa Muong Dang, Huyen Muong Ang, Dien Bien","Số 221 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",03286,00259
+train,VNTRAIN_BS_01212,VNTRAIN_03748,"Số 15, Đuong Hoàng Cầu, Xã Vĩnh Hải, Huyện Vĩnh Bảo, Thành phố Hải Phòng","Số 237Bis, Thôn Chùa, Xã Thượng Đình, Huyện Phú Bình, Tỉnh Thái Nguyên",11875,05932
+train,VNTRAIN_BS_01213,VNTRAIN_03921,"Số 68, Đường Kim Mã, Xã Thanh Hòa, Thị xã Cai Lậy, Tỉnh Tiền Giang","Số 267B Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",28480,00259
+train,VNTRAIN_BS_01214,VNTRAIN_02362,"Số 72, Kiệt 35, Đường Trường Chinh, Phường Phú Cường, Thành phố Thủ Dầu Một, Tỉnh Bình Dương","Số 366 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",25747,01729
+train,VNTRAIN_BS_01215,VNTRAIN_03409,"Số 12, Đường Tây Sơn, Thị trấn Tam Sơn, Huyện Quản Bạ, Tỉnh Hà Giang","Số 331 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00874,00160
+train,VNTRAIN_BS_01216,VNTRAIN_02312,"Tỉnh Gia Lai, Huyện Đăk Đoa, Xã Hneng, Số 12 Đường Nguyễn Huệ","329C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",23701,27259
+train,VNTRAIN_BS_01218,VNTRAIN_01294,"Đường Huyền Quang, Phường Võ Cường, Thành phố Bắc Ninh, Bac Ninh","402Đ.TrầnHưngĐạo, P5, Q.Tân Bình, Thành phố Hồ Chí Minh",09190,26989
+train,VNTRAIN_BS_01226,VNTRAIN_02847,"Xã Hát Lót, Huyện Mai Sơn, Tỉnh Sơn La","Số 580 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",04135,16417
+train,VNTRAIN_BS_01228,VNTRAIN_01700,"Số 45, Đuong Nguyễn Huệ, Xã Thanh Bình, Huyện Vũng Liêm, Tỉnh Vĩnh Long","Số 620, Thôn 1, Phường Đội Cấn, Quận Ba Đình, Thành phố Hà Nội",29677,00022
+train,VNTRAIN_BS_01229,VNTRAIN_02102,"108 Đ. Phạm Văn Đồng, X. Tam Hợp, H. Quỳ Hợp, T. Nghệ An","Số 596 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",17059,00160
+train,VNTRAIN_BS_01230,VNTRAIN_02687,"Xã Mường Đăng, Huyện Mường Ảng, Tỉnh Điện Biên","Số 591 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",03286,01729
+train,VNTRAIN_BS_01231,VNTRAIN_03023,"Xã Tủa Sín Chải, Huyện Sìn Hồ, Tỉnh Lai Châu","Số 622A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",03541,25744
+train,VNTRAIN_BS_01232,VNTRAIN_03060,"Số 25B, Đuong Nguyễn Văn Cừ, Xã Lệ Xá, Huyện Tiên Lữ, Tỉnh Hưng Yên","673Bis Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",12352,26740
+train,VNTRAIN_BS_01234,VNTRAIN_02692,"168 dduowng Hoàng Văn Thụ, Xã Thạnh Trị, Huyện Bình Đại, Tỉnh Bến Tre","665Đ.BàTriệu, P8, Q.Tân Bình, Thành phố Hồ Chí Minh",29095,26998
+train,VNTRAIN_BS_01242,VNTRAIN_02780,"72 Đ.ĐộiCấn, X.Hồng Việt, H.Đông Hưng, Tỉnh Thái Bình","Số 890B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",12739,11053
+train,VNTRAIN_BS_01244,VNTRAIN_01977,"Số 99, Đường Nguyễn Thị Minh Khai, Xã Đại Bình, Huyện Đầm Hà, Tỉnh Quảng Ninh","Số 847, Xóm Trại, Phường Văn Đức, Thành phố Chí Linh, Tỉnh Hải Dương",06919,10585
+train,VNTRAIN_BS_01245,VNTRAIN_03344,"Tỉnh Thanh Hóa, Thành phố Thanh Hóa, Phường Quảng Thành, Số 5 Đường Võ Văn Kiệt","Số 897B Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",14806,26740
+train,VNTRAIN_BS_01246,VNTRAIN_02244,"72 dduowng Nguyễn Thị Minh Khai, Xã Vũ Chấn, Huyện Võ Nhai, Tỉnh Thái Nguyên","Số 3 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",05728,16642
+train,VNTRAIN_BS_01247,VNTRAIN_01263,"Ngách 195/36 Đường Vũ Ninh, Phường Vũ Ninh, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 919Bis Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09163,25744
+train,VNTRAIN_BS_01248,VNTRAIN_03914,"Số 68, Ngách 8/2, Đường Đội Cấn, Xã Thiên Đức, Huyện Gia Lâm, Thành phố Hà Nội","19 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",00541,00259
+train,VNTRAIN_BS_01250,VNTRAIN_02465,"Số 12, Đường Nguyễn Trãi, Xã Hương Liên, Huyện Hương Khê, Tỉnh Hà Tĩnh","85Đ.CầuGiấy, P1, Q3, Thành phố Hồ Chí Minh",18559,27160
+train,VNTRAIN_BS_01258,VNTRAIN_03608,"Tỉnh Nam Định, Huyện Giao Thủy, Xã Giao Hà, Số 15 Đường Bà Triệu","Số 160 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",14176,16417
+train,VNTRAIN_BS_01260,VNTRAIN_00677,"112, Đường Hùng Vương, Cẩm Phô, Hội An, Quảng Nam","Số 256, Thôn Chùa, Xã Thiệu Long, Huyện Thiệu Hóa, Tỉnh Thanh Hóa",20404,15793
+train,VNTRAIN_BS_01261,VNTRAIN_02272,"Tỉnh Quảng Trị, Huyện Triệu Phong, Xã Triệu Tài, Số 15 Đường Trường Chinh","Số 219Bis Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19660,00259
+train,VNTRAIN_BS_01262,VNTRAIN_03092,"35 dduowng Hai Bà Trưng, Xã Thăng Long, Huyện Đông Hưng, Tỉnh Thái Bình","Số 235 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",12754,01729
+train,VNTRAIN_BS_01263,VNTRAIN_03631,"Xã Các Sơn, Thị xã Nghi Sơn, Tỉnh Thanh Hóa","Số 253Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",16591,00160
+train,VNTRAIN_BS_01264,VNTRAIN_03804,"10 Đ.TrầnPhú, X.Mường Lạn, H.Mường Ảng, Tỉnh Điện Biên","313Bis Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",03313,00160
+train,VNTRAIN_BS_01266,VNTRAIN_02218,"Số 15, Hẻm 25, Đường Nguyễn Chí Thanh, Xã Tam Hiệp, Huyện Phúc Thọ, Thành phố Hà Nội","380Đ.VõVănKiệt, P12, Q10, Thành phố Hồ Chí Minh",09775,27172
+train,VNTRAIN_BS_01274,VNTRAIN_00860,"206, Nguyễn Văn Cừ, 1, Bảo Lộc, Lâm Đồng","Số 556C Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24823,00160
+train,VNTRAIN_BS_01276,VNTRAIN_01561,"15/67, Tuệ tĩnh, Lộc Sơn, Bảo Lộc, Lâm Đồng","Số 539, Ấp Bắc, Thị trấn Đông Anh, Huyện Đông Anh, Thành phố Hà Nội",24829,00454
+train,VNTRAIN_BS_01277,VNTRAIN_04005,"12 duong Dien Bien Phu, Xa Luong Hoa Lac, Huyen Cho Gao, Tien Giang","Số 605A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",28612,00259
+train,VNTRAIN_BS_01278,VNTRAIN_03671,"Phường Sơn Phong, Thành phố Hội An, Tỉnh Quảng Nam","Số 595A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",20410,16642
+train,VNTRAIN_BS_01279,VNTRAIN_04052,"45 dduowng Đinh Tiên Hoàng, Xã Gia Xuyên, Thành phố Hải Dương, Tỉnh Hải Dương","Số 623 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",11017,25744
+train,VNTRAIN_BS_01280,VNTRAIN_02782,"72 Đ. Đội Cấn, X. Hồng Việt, H. Đông Hưng, T. Thái Bình","644 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",12739,26740
+train,VNTRAIN_BS_01282,VNTRAIN_00313,"Đường Sơn Nam, Phường Nam Sơn, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","655Đ.CầuGiấy, P26, Q.Bình Thạnh, Thành phố Hồ Chí Minh",09286,26914
+train,VNTRAIN_BS_01290,VNTRAIN_01041,"Phố Trang Liệt 3, Phường Trang Hạ, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","Số 808B Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",09383,16417
+train,VNTRAIN_BS_01292,VNTRAIN_03423,"Xã Thải Giàng Phố, Huyện Bắc Hà, Tỉnh Lào Cai","Số 857, Ấp Bắc, Phường Giang Biên, Quận Long Biên, Thành phố Hà Nội",02857,00121
+train,VNTRAIN_BS_01293,VNTRAIN_02529,"Số 402, Đường Cầu Giấy, Xã Liên Sang, Huyện Khánh Vĩnh, Tỉnh Khánh Hòa","Số 828A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",22639,26740
+train,VNTRAIN_BS_01294,VNTRAIN_02703,"Xã Hồng Phong, Huyện Bình Gia, Tỉnh Lạng Sơn","Số 897Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",06079,16642
+train,VNTRAIN_BS_01295,VNTRAIN_03938,"Số 10, Hẻm 68, Đường Lê Lợi, Xã Tam Đa, Huyện Sơn Dương, Tỉnh Tuyên Quang","Số 931 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02626,00160
+train,VNTRAIN_BS_01296,VNTRAIN_02005,"68 duong Tran Hung Dao, Xa Dong Cuong, Huyen Yen Lac, Vinh Phuc","918C Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",09028,00259
+train,VNTRAIN_BS_01298,VNTRAIN_01817,"Số 15, Đường Võ Văn Kiệt, Xã Thái Hòa, Huyện Hàm Yên, Tỉnh Tuyên Quang","26Đ.CầuGiấy, P11, Q6, Thành phố Hồ Chí Minh",02419,27364
+train,VNTRAIN_BS_01306,VNTRAIN_03298,"Số 402, Kiệt 35, Đường Trần Hưng Đạo, Thị trấn Cổ Phúc, Huyện Trấn Yên, Tỉnh Yên Bái","Số 166 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",04498,00259
+train,VNTRAIN_BS_01308,VNTRAIN_03958,"12 Đ. Phan Bội Châu, X. Trường Sơn, H. Lục Nam, T. Bắc Giang","Số 164, Thôn Chùa, Phường Thạch Bàn, Quận Long Biên, Thành phố Hà Nội",07507,00148
+train,VNTRAIN_BS_01309,VNTRAIN_03305,"Số 35, Đường Kim Mã, Xã Long Sơn, Huyện Minh Long, Tỉnh Quảng Ngãi","Số 250B Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",21349,00259
+train,VNTRAIN_BS_01310,VNTRAIN_02781,"72 duong Doi Can, Xa Hong Viet, Huyen Dong Hung, Thai Binh","Số 250 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",12739,01729
+train,VNTRAIN_BS_01311,VNTRAIN_01754,"Số 120, Ngõ 45, Đường Trường Chinh, Phường 2, Thành phố Đông Hà, Tỉnh Quảng Trị","Số 307 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19342,00160
+train,VNTRAIN_BS_01312,VNTRAIN_01660,"Số 72, Đuong Nguyễn Văn Cừ, Xã Phước Vân, Huyện Cần Đước, Tỉnh Long An","327 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",28120,27259
+train,VNTRAIN_BS_01314,VNTRAIN_01240,"19D, Hẻm 51, phường An Khánh, Ninh Kiều, Cần Thơ","287Đ.KimMã, P2, Q6, Thành phố Hồ Chí Minh",31149,27367
+train,VNTRAIN_BS_01322,VNTRAIN_02285,"25B duong Hung Vuong, Xa Hieu Thuan, Huyen Vung Liem, Vinh Long","Số 488 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",29701,00259
+train,VNTRAIN_BS_01324,VNTRAIN_01968,"Tỉnh Bắc Kạn, Thành phố Bắc Kạn, Phường Phùng Chí Kiên, Số 204 Đường Điện Biên Phủ","Số 532C, Thôn Chùa, Xã Kiên Mộc, Huyện Đình Lập, Tỉnh Lạng Sơn",01843,06625
+train,VNTRAIN_BS_01325,VNTRAIN_02334,"72 Đ. Phan Bội Châu, X. Lương Sơn, H. Yên Lập, T. Phú Thọ","Số 511 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",08299,00160
+train,VNTRAIN_BS_01326,VNTRAIN_03366,"99 Đ. Nguyễn Huệ, X. Viên Thành, H. Yên Thành, T. Nghệ An","Số 511C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",17596,01729
+train,VNTRAIN_BS_01327,VNTRAIN_01197,"189, Đường Thiên Đức, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh","Số 551 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09172,00160
+train,VNTRAIN_BS_01328,VNTRAIN_02626,"Số 35, Ngách 15/4, Đường Ngô Quyền, Xã Đồng Nơ, Huyện Hớn Quản, Tỉnh Bình Phước","594Bis Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",25360,00160
+train,VNTRAIN_BS_01330,VNTRAIN_03257,"Số 99, Đường Hùng Vương, Xã Ngam La, Huyện Yên Minh, Tỉnh Hà Giang","667Đ.KimMã, P7, Q.Phú Nhuận, Thành phố Hồ Chí Minh",00856,27052
+train,VNTRAIN_BS_01338,VNTRAIN_03072,"Tỉnh Đồng Nai, Huyện Cẩm Mỹ, Xã Xuân Tây, Số 18B Đường Lê Duẩn","Số 740 Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26356,00160
+train,VNTRAIN_BS_01340,VNTRAIN_03607,"Xã Giao Hà, Huyện Giao Thủy, Tỉnh Nam Định","Số 831, Ấp Bắc, Xã Cam Hiệp Nam, Huyện Cam Lâm, Tỉnh Khánh Hòa",14176,22456
+train,VNTRAIN_BS_01341,VNTRAIN_04025,"Số 402, Đường Tây Sơn, Xã Nà Chì, Huyện Xín Mần, Tỉnh Hà Giang","Số 823Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",01147,00160
+train,VNTRAIN_BS_01342,VNTRAIN_02886,"88 Đ. Lê Lợi, X. Vinh Tiền, H. Tân Sơn, T. Phú Thọ","Số 873 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",08626,01729
+train,VNTRAIN_BS_01343,VNTRAIN_02853,"68 duong Hai Ba Trung, Xa Nam Thanh, Huyen Nam Dan, Nghe An","Số 915 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",17938,25744
+train,VNTRAIN_BS_01344,VNTRAIN_03942,"10 Đ. Lê Lợi, X. Tam Đa, H. Sơn Dương, T. Tuyên Quang","888A Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",02626,26740
+train,VNTRAIN_BS_01346,VNTRAIN_03230,"88 Đ. Ngô Quyền, X. Long Phú, H. Long Phú, T. Sóc Trăng","18Đ.NguyễnTrãi, P12, Q6, Thành phố Hồ Chí Minh",31669,27358
+train,VNTRAIN_BS_01354,VNTRAIN_03066,"Số 18B, Ngách 8/2, Đường Lê Duẩn, Xã Xuân Tây, Huyện Cẩm Mỹ, Tỉnh Đồng Nai","Số 174B Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26356,00160
+train,VNTRAIN_BS_01356,VNTRAIN_03110,"68 Đ. Nguyễn Thị Minh Khai, X. Cà Lúi, H. Sơn Hòa, T. Phú Yên","Số 117Bis, Thôn Tây, Xã Cổ Bi, Huyện Gia Lâm, Thành phố Hà Nội",22180,00553
+train,VNTRAIN_BS_01357,VNTRAIN_02750,"15 Đ. Trần Hưng Đạo, X. Thụy Trình, H. Thái Thụy, T. Thái Bình","Số 175B Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",12868,00259
+train,VNTRAIN_BS_01358,VNTRAIN_00921,"31, Đường Trần Hưng Đạo, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 186 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09181,01729
+train,VNTRAIN_BS_01359,VNTRAIN_01711,"Xã Tân Lập, Huyện Krông Búk, Tỉnh Đắk Lắk","Số 235A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24317,00160
+train,VNTRAIN_BS_01360,VNTRAIN_02240,"Tỉnh Hà Tĩnh, Huyện Can Lộc, Xã Thiên Lộc, Số 5 Đường Ngô Quyền","290 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",18415,00259
+train,VNTRAIN_BS_01362,VNTRAIN_02844,"Số 168, Đuong Cầu Giấy, Xã Hát Lót, Huyện Mai Sơn, Tỉnh Sơn La","300Đ.VõVănKiệt, P14, Q.Bình Thạnh, Thành phố Hồ Chí Minh",04135,26929
+train,VNTRAIN_BS_01370,VNTRAIN_01834,"Số 402, Hẻm 108, Đường Giải Phóng, Xã Hòa Bình, Huyện Hưng Hà, Tỉnh Thái Bình","Số 438Bis Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",12655,11005
+train,VNTRAIN_BS_01372,VNTRAIN_03354,"Số 99, Ngách 8/2, Đường Nguyễn Văn Cừ, Phường Ninh Diêm, Thị xã Ninh Hòa, Tỉnh Khánh Hòa","Số 428, Thôn 1, Xã Thanh Mỹ, Thị xã Sơn Tây, Thành phố Hà Nội",22561,09604
+train,VNTRAIN_BS_01373,VNTRAIN_03144,"Tỉnh Yên Bái, Huyện Văn Chấn, Xã Đồng Khê, Số 99 Đường Trường Chinh","Số 527A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",04690,00259
+train,VNTRAIN_BS_01374,VNTRAIN_02154,"Số 204, Ngách 15/4, Đường Trần Phú, Xã Quỳnh Khê, Huyện Quỳnh Phụ, Tỉnh Thái Bình","Số 488C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",12508,01729
+train,VNTRAIN_BS_01375,VNTRAIN_04034,"Số 10, Kiệt 12, Đường Giải Phóng, Xã Phình Hồ, Huyện Trạm Tấu, Tỉnh Yên Bái","Số 529 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",04597,00160
+train,VNTRAIN_BS_01376,VNTRAIN_02607,"Phường Thới Hòa, Quận Ô Môn, Thành phố Cần Thơ","592C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",31154,27259
+train,VNTRAIN_BS_01378,VNTRAIN_03204,"Số 4A, Đuong Nguyễn Huệ, Xã Nhơn Mỹ, Huyện Kế Sách, Tỉnh Sóc Trăng","628Đ.NguyễnHuệ, P18, Q4, Thành phố Hồ Chí Minh",31552,27277
+train,VNTRAIN_BS_01386,VNTRAIN_03319,"Xã Hương Toàn, Thị xã Hương Trà, Tỉnh Huế","Số 713 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",20005,11005
+train,VNTRAIN_BS_01388,VNTRAIN_03530,"Số 35, Hẻm 108, Đường Quang Trung, Xã Châu Lăng, Huyện Tri Tôn, Tỉnh An Giang","Số 752B, Thôn 2, Phường Thượng Thanh, Quận Long Biên, Thành phố Hà Nội",30562,00115
+train,VNTRAIN_BS_01389,VNTRAIN_02974,"88 Đ. Hùng Vương, P. Ninh Hải, TX. Nghi Sơn, T. Thanh Hóa","Số 839C Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",16606,00259
+train,VNTRAIN_BS_01390,VNTRAIN_02893,"15 duong Quang Trung, Phuong Linh Chieu, Thanh pho Thu Duc, Ho Chi Minh","Số 803B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",26815,01729
+train,VNTRAIN_BS_01391,VNTRAIN_03812,"Số 120, Đuong Hoàng Văn Thụ, Xã Quang Hà, Huyện Phú Xuyên, Thành phố Hà Nội","Số 868B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",10318,00160
+train,VNTRAIN_BS_01392,VNTRAIN_03965,"18B duong Dien Bien Phu, Xa Binh An, Huyen Thang Binh, Quang Nam","850 Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",20845,26740
+train,VNTRAIN_BS_01394,VNTRAIN_01361,"205/45, Hẻm 205 Trần Văn Ðang, Phường 11, Quận 3, Hồ Chí Minh","899Đ.TrầnHưngĐạo, P13, Q6, Thành phố Hồ Chí Minh",27133,27349
+train,VNTRAIN_BS_01402,VNTRAIN_01849,"Số 204, Đường Hoàng Hoa Thám, Xã Nga Thanh, Huyện Nga Sơn, Tỉnh Thanh Hóa","Số 68 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",16123,16417
+train,VNTRAIN_BS_01404,VNTRAIN_03757,"88 duong Vo Van Kiet, Xa Son Vi, Huyen Meo Vac, Ha Giang","Số 110, Thôn Tây, Xã Đoàn Xá, Huyện Kiến Thụy, Thành phố Hải Phòng",00793,11746
+train,VNTRAIN_BS_01405,VNTRAIN_03252,"25B Đ.LýThườngKiệt, X.Du Già, H.Yên Minh, Tỉnh Hà Giang","Số 136 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",00871,26740
+train,VNTRAIN_BS_01406,VNTRAIN_02662,"5 Đ. Trần Hưng Đạo, X. Sơn Kỳ, H. Sơn Hà, T. Quảng Ngãi","Số 133B Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",21325,16642
+train,VNTRAIN_BS_01407,VNTRAIN_03574,"108 Đ. Lý Thường Kiệt, P. Thạch Hạ, TP. Hà Tĩnh, T. Hà Tĩnh","Số 167 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",18100,25744
+train,VNTRAIN_BS_01408,VNTRAIN_03154,"Số 402, Ngõ 12, Đường Đội Cấn, Xã Quỳnh Hồng, Huyện Quỳnh Phụ, Tỉnh Thái Bình","184C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",12505,26740
+train,VNTRAIN_BS_01410,VNTRAIN_02876,"120 Đ.NguyễnThịMinhKhai, P.Hưng Lộc, TP.Nam Định, Tỉnh Nam Định","207Đ.BàTriệu, P6, Q10, Thành phố Hồ Chí Minh",13708,27202
+train,VNTRAIN_BS_01418,VNTRAIN_03370,"Số 45, Kiệt 12, Đường Nguyễn Huệ, Xã Bình Triều, Huyện Thăng Bình, Tỉnh Quảng Nam","Số 436C Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",20806,16417
+train,VNTRAIN_BS_01420,VNTRAIN_01822,"15 Đ. Võ Văn Kiệt, X. Thái Hòa, H. Hàm Yên, T. Tuyên Quang","Số 480A, Thôn Đông, Xã Cam Tân, Huyện Cam Lâm, Tỉnh Khánh Hòa",02419,22435
+train,VNTRAIN_BS_01421,VNTRAIN_01790,"204 Đ. Hùng Vương, P. Ninh Hiệp, TX. Ninh Hòa, T. Khánh Hòa","Số 402A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",22528,00259
+train,VNTRAIN_BS_01422,VNTRAIN_02041,"Số 12, Đường Nguyễn Huệ, Xã Vĩnh An, Huyện Vĩnh Lộc, Tỉnh Thanh Hóa","Số 491A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",15391,16642
+train,VNTRAIN_BS_01423,VNTRAIN_00758,"195, Văn Cao, Đằng Giang, Ngô Quyền, Hải Phòng","Số 506B Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",11359,00160
+train,VNTRAIN_BS_01424,VNTRAIN_01609,"Số 15, Đường Quang Trung, Xã Việt Lập, Huyện Tân Yên, Tỉnh Bắc Giang","549 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",07354,00160
+train,VNTRAIN_BS_01426,VNTRAIN_03836,"4A dduowng Hoàng Cầu, Xã Tả Phìn, Huyện Đồng Văn, Tỉnh Hà Giang","510Đ.KimMã, P5, Q11, Thành phố Hồ Chí Minh",00739,27211
+train,VNTRAIN_BS_01434,VNTRAIN_01889,"Số 35, Đường Trần Hưng Đạo, Thị trấn Dầu Giây, Huyện Thống Nhất, Tỉnh Đồng Nai","Số 741A Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",26326,11053
+train,VNTRAIN_BS_01436,VNTRAIN_03594,"Số 168, Hẻm 25, Đường Hoàng Hoa Thám, Phường Khánh Hậu, Thành phố Tân An, Tỉnh Long An","Số 697Bis, Thôn 1, Thị trấn Gia Lộc, Huyện Gia Lộc, Tỉnh Hải Dương",27715,10999
+train,VNTRAIN_BS_01437,VNTRAIN_00150,"330B Xô Viết Nghệ Tĩnh, Phường 25, Quận Bình Thạnh, TP. Hồ Chí Minh","Số 720A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26920,00259
+train,VNTRAIN_BS_01438,VNTRAIN_03605,"15 duong Ba Trieu, Xa Giao Ha, Huyen Giao Thuy, Nam Dinh","Số 726Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",14176,16642
+train,VNTRAIN_BS_01439,VNTRAIN_01818,"Số 15, Ngõ 12, Đường Võ Văn Kiệt, Xã Thái Hòa, Huyện Hàm Yên, Tỉnh Tuyên Quang","Số 828A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",02419,25744
+train,VNTRAIN_BS_01440,VNTRAIN_03876,"Số 25B, Đuong Cầu Giấy, Xã Tây Thành, Huyện Yên Thành, Tỉnh Nghệ An","774 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",17536,27259
+train,VNTRAIN_BS_01442,VNTRAIN_01600,"304, Đường Võ Nguyên Giáp, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, Danang","866Đ.NguyễnHuệ, P7, Q11, Thành phố Hồ Chí Minh",20284,27238
+train,VNTRAIN_BS_01450,VNTRAIN_03930,"Số 168, Kiệt 35, Đường Xã Đàn, Xã Thọ Lâm, Huyện Thọ Xuân, Tỉnh Thanh Hóa","Số 85 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",15541,16417
+train,VNTRAIN_BS_01452,VNTRAIN_02821,"10 duong Hoang Cau, Phuong Rach Soi, Thanh pho Rach Gia, Kien Giang","Số 88C, Thôn 1, Xã Vạn Nhất, Huyện Thường Tín, Thành phố Hà Nội",30754,10264
+train,VNTRAIN_BS_01453,VNTRAIN_03649,"Số 12, Đường Cầu Giấy, Xã Cai Kinh, Huyện Hữu Lũng, Tỉnh Lạng Sơn","Số 114 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",06427,00259
+train,VNTRAIN_BS_01454,VNTRAIN_03622,"120 Đ. Trường Chinh, X. N' Thôn Hạ, H. Đức Trọng, T. Lâm Đồng","Số 110 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",24973,16642
+train,VNTRAIN_BS_01455,VNTRAIN_03887,"Thị trấn Cát Hải, Huyện Cát Hải, Thành phố Hải Phòng","Số 161 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",11917,25744
+train,VNTRAIN_BS_01456,VNTRAIN_00836,"Đường Lý Thái Tổ, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","181B Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",09190,00259
+train,VNTRAIN_BS_01458,VNTRAIN_03249,"Số 25B, Đường Lý Thường Kiệt, Xã Du Già, Huyện Yên Minh, Tỉnh Hà Giang","166Đ.VõVănKiệt, P12, Q.Gò Vấp, Thành phố Hồ Chí Minh",00871,26881
+train,VNTRAIN_BS_01466,VNTRAIN_04047,"Thị trấn Phú Hòa, Huyện Thoại Sơn, Tỉnh An Giang","Số 388 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",30685,11053
+train,VNTRAIN_BS_01468,VNTRAIN_00395,"217, Đường Ngô Gia Tự, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 402, Thôn Tây, Xã Hòa Mỹ, Huyện Cái Nước, Tỉnh Cà Mau",09187,32141
+train,VNTRAIN_BS_01469,VNTRAIN_00092,"27 Hàn Thuyên, Khu phố 3, Phường Bình Thọ, Quận Thủ Đức, Tp. Hồ Chí Minh","Số 442C Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26824,00160
+train,VNTRAIN_BS_01470,VNTRAIN_02342,"5 Đ. Điện Biên Phủ, X. Cư Êwi, H. Cư Kuin, T. Đắk Lắk","Số 442B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",24541,01729
+train,VNTRAIN_BS_01471,VNTRAIN_01086,"31, Đường Nguyễn Đăng Đạo, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 456 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09187,00160
+train,VNTRAIN_BS_01472,VNTRAIN_03070,"18B Đ. Lê Duẩn, X. Xuân Tây, H. Cẩm Mỹ, T. Đồng Nai","433C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",26356,26740
+train,VNTRAIN_BS_01474,VNTRAIN_01788,"204 dduowng Hùng Vương, Phường Ninh Hiệp, Thị xã Ninh Hòa, Tỉnh Khánh Hòa","493Đ.LêLợi, P11, Q6, Thành phố Hồ Chí Minh",22528,27364
+train,VNTRAIN_BS_01482,VNTRAIN_02009,"Số 12, Đường Nguyễn Văn Cừ, Xã Yên Cường, Huyện Ý Yên, Tỉnh Nam Định","Số 704 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",13870,11053
+train,VNTRAIN_BS_01484,VNTRAIN_02212,"108 Đ.NguyễnVănCừ, P.Thanh Khương, TX.Thuận Thành, Tỉnh Bắc Ninh","Số 715A, Thôn Đông, Xã Phú Sơn, Huyện Gia Lâm, Thành phố Hà Nội",09427,00562
+train,VNTRAIN_BS_01485,VNTRAIN_03047,"Xã Đồng Khởi, Huyện Châu Thành, Tỉnh Tây Ninh","Số 738 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",25594,26740
+train,VNTRAIN_BS_01486,VNTRAIN_03148,"18B dduowng Quang Trung, Phường Hàng Mã, Quận Hoàn Kiếm, Thành phố Hà Nội","Số 778C Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",00043,16642
+train,VNTRAIN_BS_01487,VNTRAIN_02560,"Thành phố Đà Nẵng, Quận Thanh Khê, Phường Xuân Hà, Số 99 Đường Phạm Văn Đồng","Số 793A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",20209,00160
+train,VNTRAIN_BS_01488,VNTRAIN_01901,"15 duong Nguyen Chi Thanh, Phuong Binh Chieu, Thanh pho Thu Duc, Ho Chi Minh","781 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26797,00259
+train,VNTRAIN_BS_01490,VNTRAIN_00919,"110, Đường Lý Thường Kiệt, Phường Thị Cầu, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","851Đ.BàTriệu, P7, Q.Tân Bình, Thành phố Hồ Chí Minh",09169,26986
+train,VNTRAIN_BS_01498,VNTRAIN_03277,"204 duong Truong Chinh, Xa Quang Chinh, Huyen Quang Xuong, Thanh Hoa","Số 949 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",16495,11053
+train,VNTRAIN_BS_01500,VNTRAIN_03271,"Phường An Bình, Thành phố Dĩ An, Tỉnh Bình Dương","Số 15B, Ấp Bắc, Xã Thái Dương, Huyện Bình Giang, Tỉnh Hải Dương",25960,10990
+dev,VNDEV_KHO_00001,VNDEV_00219,"142, Nguyễn Khuyến, Phú Nhuận, Huế","5A Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19789,00259
+dev,VNDEV_KHO_00002,VNDEV_00266,"145, Lê Văn Thịnh, Bình Trưng Tây, 2, Hồ Chí Minh","67Đ.NguyễnHuệ, P4, Q5, Thành phố Hồ Chí Minh",27100,27301
+dev,VNDEV_KHO_00010,VNDEV_00850,"Số 99, Ngõ 45, Đường Hùng Vương, Phường Hàng Bạc, Quận Hoàn Kiếm, Thành phố Hà Nội","Số 194 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",00061,00259
+dev,VNDEV_KHO_00012,VNDEV_00784,"Tỉnh Thanh Hóa, Huyện Triệu Sơn, Xã Triệu Thành, Số 5 Đường Giải Phóng","Số 247, Thôn Chùa, Phường An Phú, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",15685,27091
+dev,VNDEV_KHO_00013,VNDEV_00567,"Phường Hòa Lợi, Thành phố Bến Cát, Tỉnh Bình Dương","Số 340 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",25849,00259
+dev,VNDEV_KHO_00014,VNDEV_00371,"Đường Lý Thái Tổ, Phường Đình Bảng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","Số 298A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09394,01729
+dev,VNDEV_KHO_00015,VNDEV_00078,"16, Đường Lý Thái Tổ, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh","Số 340C Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09172,00160
+dev,VNDEV_KHO_00016,VNDEV_00799,"Xã Hòa Bình, Huyện Hữu Lũng, Tỉnh Lạng Sơn","376C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",06397,26740
+dev,VNDEV_KHO_00018,VNDEV_00703,"Phường 8, Thành phố Trà Vinh, Tỉnh Trà Vinh","360Đ.NguyễnHuệ, P26, Q.Bình Thạnh, Thành phố Hồ Chí Minh",29257,26914
+dev,VNDEV_KHO_00026,VNDEV_00430,"88 Đ. Nguyễn Huệ, P. 1, TP. Đà Lạt, T. Lâm Đồng","Số 581 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",24784,16417
+dev,VNDEV_KHO_00028,VNDEV_00463,"Xã Nhơn Hội, Huyện An Phú, Tỉnh An Giang","Số 587C, Xóm Trại, Phường Trung Hưng, Thị xã Sơn Tây, Thành phố Hà Nội",30349,09601
+dev,VNDEV_KHO_00029,VNDEV_00802,"Số 4A, Ngõ 168, Đường Hoàng Văn Thụ, Xã Tân Hưng, Thành phố Bà Rịa, Tỉnh Bà Rịa - Vũng Tàu","Số 579A Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",26567,26740
+dev,VNDEV_KHO_00030,VNDEV_00711,"Xã Tam Ngọc, Thành phố Tam Kỳ, Tỉnh Quảng Nam","Số 610A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",20389,01729
+dev,VNDEV_KHO_00031,VNDEV_00502,"402 Đ. Xã Đàn, X. Đạ Ròn, H. Đơn Dương, T. Lâm Đồng","Số 686C Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",24937,00160
+dev,VNDEV_KHO_00032,VNDEV_00886,"204 Đ. Cầu Giấy, TT. Xuân Mai, H. Chương Mỹ, HN","700 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",10018,00259
+dev,VNDEV_KHO_00034,VNDEV_00905,"Số 12, Đường Nguyễn Thị Minh Khai, Xã Nghĩa Thành, Huyện Nghĩa Đàn, Tỉnh Nghệ An","659Đ.NguyễnTrãi, P1, Q5, Thành phố Hồ Chí Minh",16987,27325
+dev,VNDEV_KHO_00042,VNDEV_00054,"Số 4 Kim Trà, P. Tứ Hạ, TX. Hương Trà, TP. Huế","Số 837C Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",19996,11053
+dev,VNDEV_KHO_00044,VNDEV_00204,"60;62, Đường số 1A, Phường An Lạc, Thành phố Hồ Chí Minh","Số 863A, Thôn Chùa, Xã Thanh Liệt, Huyện Thanh Trì, Thành phố Hà Nội",27460,00646
+dev,VNDEV_KHO_00045,VNDEV_00302,"160N3/12, Khu vực 10, Nguyễn Văn Cừ, Phường Tân An, Ninh Kiều, Cần Thơ, Can Tho","Số 924Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31135,00160
+dev,VNDEV_KHO_00046,VNDEV_00956,"35 dduowng Hoàng Văn Thụ, Phường Đúc, Quận Thuận Hóa, Tỉnh Huế","Số 1Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",19780,16642
+dev,VNDEV_KHO_00047,VNDEV_00120,"460, Đường Nguyễn Văn Cừ, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 38 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09190,25744
+dev,VNDEV_KHO_00048,VNDEV_00044,"185 Đường 3/2, phường 11, Quận 10, Hồ Chí Minh, Việt Nam","29C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",27133,26740
+dev,VNDEV_KHO_00050,VNDEV_00709,"12 duong Doi Can, Xa Tam Ngoc, Thanh pho Tam Ky, Quang Nam","100Đ.BàTriệu, P14, Q.Gò Vấp, Thành phố Hồ Chí Minh",20389,26882
+dev,VNDEV_KHO_00058,VNDEV_00005,"268/10 NGUYỄN VĂN LINH, PHƯỜNG XUÂN KHÁNH QUẬN NINH KIỀU, TP CẦN THƠ","Số 180C Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",31144,11053
+dev,VNDEV_KHO_00060,VNDEV_00918,"35 Đ. Lê Duẩn, X. Giới Phiên, TP. Yên Bái, T. Yên Bái","Số 238, Thôn Tây, Xã Thái Minh, Huyện Bình Giang, Tỉnh Hải Dương",04543,10981
+dev,VNDEV_KHO_00061,VNDEV_00762,"Số 99, Ngõ 168, Đường Đinh Tiên Hoàng, Xã Đông Bình, Huyện Thới Lai, Thành phố Cần Thơ","Số 254C Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",31279,00259
+dev,VNDEV_KHO_00062,VNDEV_00870,"68 Đ. Hoàng Cầu, X. Xuân Lai, H. Thọ Xuân, T. Thanh Hóa","Số 319A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",15583,16642
+dev,VNDEV_KHO_00063,VNDEV_00247,"2, Đường Lý Thái Tổ, Phường Kinh Bắc, Thành phố Bắc Ninh, Bắc Ninh","Số 325 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",09172,00160
+dev,VNDEV_KHO_00064,VNDEV_00871,"Xã Xuân Lai, Huyện Thọ Xuân, Tỉnh Thanh Hóa","289Bis Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",15583,00160
+dev,VNDEV_KHO_00066,VNDEV_00738,"Số 72, Hẻm 68, Đường Xã Đàn, Xã Hưng Phước, Huyện Bù Đốp, Tỉnh Bình Phước","402Đ.NguyễnTrãi, P8, Q.Gò Vấp, Thành phố Hồ Chí Minh",25309,26898
+dev,VNDEV_KHO_00074,VNDEV_00951,"Xã Nhân Bình, Huyện Lý Nhân, Tỉnh Hà Nam","Số 545 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",13618,16417
+dev,VNDEV_KHO_00076,VNDEV_00279,"1215, Phan Văn Trị, phường 10, Go Vap, Ho Chi Minh City","Số 528A, Thôn Tây, Phường Điện Biên, Quận Ba Đình, Thành phố Hà Nội",26884,00019
+dev,VNDEV_KHO_00077,VNDEV_00702,"120 Đ. Kim Mã, P. 8, TP. Trà Vinh, T. Trà Vinh","Số 545 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",29257,26740
+dev,VNDEV_KHO_00078,VNDEV_00577,"Số 4A, Đường Lê Lợi, Xã Cẩm Sơn, Huyện Cẩm Xuyên, Tỉnh Hà Tĩnh","Số 595C Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",18745,01729
+dev,VNDEV_KHO_00079,VNDEV_00152,"Phố Lư Vĩnh Xuyên, Phường Đồng Nguyên, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","Số 556A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",09385,25744
+dev,VNDEV_KHO_00080,VNDEV_00772,"12 Đ.LêDuẩn, X.Tân Hội, H.Mỏ Cày Nam, Tỉnh Bến Tre","595 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",28940,00160
+dev,VNDEV_KHO_00082,VNDEV_00912,"Tỉnh Nghệ An, Huyện Nghĩa Đàn, Xã Nghĩa Thành, Số 12 Đường Nguyễn Thị Minh Khai","645Đ.NguyễnHuệ, P3, Q4, Thành phố Hồ Chí Minh",16987,27286
+dev,VNDEV_KHO_00090,VNDEV_00089,"9, Khu dân cư số 9, Xuân Khánh, Ninh Kiều, Cần Thơ","Số 763Bis Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",31144,11053
+dev,VNDEV_KHO_00092,VNDEV_00471,"Xã Ninh Đông, Thị xã Ninh Hòa, Tỉnh Khánh Hòa","Số 883, Thôn Chùa, Xã Thái Bình, Huyện Châu Thành, Tỉnh Tây Ninh",22564,25597
+dev,VNDEV_KHO_00093,VNDEV_00542,"45 Đ. Nguyễn Huệ, X. Nguyễn Trãi, H. Ân Thi, T. Hưng Yên","Số 836C Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",12184,00259
+dev,VNDEV_KHO_00094,VNDEV_00031,"154-156, Phan Thanh, P. Thạc Gián, Q. Thanh Khê, TP. Đà Nẵng","Số 928A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",20218,01729
+dev,VNDEV_KHO_00095,VNDEV_00581,"4A duong Le Loi, Xa Cam Son, Huyen Cam Xuyen, Ha Tinh","Số 934Bis Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",18745,00160
+dev,VNDEV_KHO_00096,VNDEV_00449,"Số 99, Đường Hai Bà Trưng, Xã Bình Trưng, Huyện Châu Thành, Tỉnh Tiền Giang","1 Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",28564,00160
+dev,VNDEV_KHO_00098,VNDEV_00961,"Số 88, Đường Hai Bà Trưng, Xã Thắng Lợi, Huyện Vân Đồn, Tỉnh Quảng Ninh","929Đ.NguyễnTrãi, P11, Q5, Thành phố Hồ Chí Minh",07021,27328
+dev,VNDEV_KHO_00106,VNDEV_00930,"Số 12, Ngách 15/4, Đường Hoàng Cầu, Xã Bạch Xa, Huyện Hàm Yên, Tỉnh Tuyên Quang","Số 194A Đường Cầu Giấy, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02380,00160
+dev,VNDEV_KHO_00108,VNDEV_00485,"168 duong Phan Boi Chau, Xa Ba Xa, Huyen Ba To, Quang Ngai","Số 166, Xóm Trại, Phường Hà Khẩu, Thành phố Hạ Long, Tỉnh Quảng Ninh",21538,06655
+dev,VNDEV_KHO_00109,VNDEV_00641,"Số 402, Đường Ngô Quyền, Xã Ninh An, Thành phố Hoa Lư, Tỉnh Ninh Bình","Số 176 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",14557,26740
+dev,VNDEV_KHO_00110,VNDEV_00583,"Xã Cẩm Sơn, Huyện Cẩm Xuyên, Tỉnh Hà Tĩnh","Số 253 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",18745,01729
+dev,VNDEV_KHO_00111,VNDEV_00329,"Nguyễn Văn Cừ Nối dài, An Khánh, Khu vực 3, Ninh Kiều, Can Tho, Cần Thơ","Số 221 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",31149,00160
+dev,VNDEV_KHO_00112,VNDEV_00890,"Số 68, Ngách 15/4, Đường Cầu Giấy, Phường Tân Hương, Thành phố Phổ Yên, Tỉnh Thái Nguyên","313C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",05893,27259
+dev,VNDEV_KHO_00114,VNDEV_00750,"25B Đ. Võ Văn Kiệt, P. Thanh Hải, TP. Phan Thiết, T. Bình Thuận","288Đ.NguyễnHuệ, P11, Q.Phú Nhuận, Thành phố Hồ Chí Minh",22936,27073
+dev,VNDEV_KHO_00122,VNDEV_00941,"68 duong Tran Hung Dao, Xa Phuong Vien, Huyen Ha Hoa, Phu Tho","Số 437B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",08089,11053
+dev,VNDEV_KHO_00124,VNDEV_00351,"Quốc lộ 17, Xã Xuân Lai, Huyện Gia Bình, Bắc Ninh, Bac Ninh","Số 538, Thôn Tây, Phường Hà Cầu, Quận Hà Đông, Thành phố Hà Nội",09484,09556
+dev,VNDEV_KHO_00125,VNDEV_00273,"Đường Hồ Thị Nhung, Bình Trưng Đông, Thành phố Thủ Đức, Hồ Chí Minh","Số 504 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27097,00160
+dev,VNDEV_KHO_00126,VNDEV_00551,"Xã Tuy Lộc, Huyện Hậu Lộc, Tỉnh Thanh Hóa","Số 513B Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",16042,01729
+dev,VNDEV_KHO_00127,VNDEV_00708,"12 dduowng Đội Cấn, Xã Tam Ngọc, Thành phố Tam Kỳ, Tỉnh Quảng Nam","Số 577A Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",20389,25744
+dev,VNDEV_KHO_00128,VNDEV_00876,"68 dduowng Phan Bội Châu, Thị trấn Thác Bà, Huyện Yên Bình, Tỉnh Yên Bái","557C Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",04717,27259
+dev,VNDEV_KHO_00130,VNDEV_00922,"Số 168, Hẻm 108, Đường Điện Biên Phủ, Xã Liên Sơn, Thị xã Kim Bảng, Tỉnh Hà Nam","601Đ.BàTriệu, P12, Q6, Thành phố Hồ Chí Minh",13432,27358
+dev,VNDEV_KHO_00138,VNDEV_00968,"Tỉnh Quảng Ninh, Huyện Vân Đồn, Xã Thắng Lợi, Số 88 Đường Hai Bà Trưng","Số 763Bis Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",07021,16417
+dev,VNDEV_KHO_00140,VNDEV_00495,"Xã Bằng Giã, Huyện Hạ Hòa, Tỉnh Phú Thọ","Số 793, Thôn Đông, Xã Gia Phúc, Huyện Gia Lộc, Tỉnh Hải Dương",08125,11035
+dev,VNDEV_KHO_00141,VNDEV_00530,"Số 45, Ngõ 168, Đường Nguyễn Thị Minh Khai, Xã Minh Khai, Huyện Thạch An, Tỉnh Cao Bằng","Số 802Bis Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",01795,00259
+dev,VNDEV_KHO_00142,VNDEV_00156,"Đường Đàm Viết Kính, Phường Phù Khê, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh","Số 893 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",09379,16642
+dev,VNDEV_KHO_00143,VNDEV_00896,"Tỉnh Thái Nguyên, Thành phố Phổ Yên, Phường Tân Hương, Số 68 Đường Cầu Giấy","Số 859 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",05893,00160
+dev,VNDEV_KHO_00144,VNDEV_00677,"18B duong Ngo Quyen, Thi tran Tho Tang, Huyen Vinh Tuong, Vinh Phuc","868 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",09112,27259
+dev,VNDEV_KHO_00146,VNDEV_00730,"Số 68, Ngách 15/4, Đường Trường Chinh, Xã Động Quan, Huyện Lục Yên, Tỉnh Yên Bái","908Đ.KimMã, P11, Q6, Thành phố Hồ Chí Minh",04351,27364
+dev,VNDEV_KHO_00154,VNDEV_00489,"Số 108, Đường Tây Sơn, Xã Bằng Giã, Huyện Hạ Hòa, Tỉnh Phú Thọ","Số 103 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",08125,16417
+dev,VNDEV_KHO_00156,VNDEV_00889,"Số 68, Đường Cầu Giấy, Phường Tân Hương, Thành phố Phổ Yên, Tỉnh Thái Nguyên","Số 166A, Thôn 1, Xã Đặng Xá, Huyện Gia Lâm, Thành phố Hà Nội",05893,00556
+dev,VNDEV_KHO_00157,VNDEV_00420,"Số 4A, Đuong Quang Trung, Phường Cầu Tre, Quận Ngô Quyền, Thành phố Hải Phòng","Số 161 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",11338,00259
+dev,VNDEV_KHO_00158,VNDEV_00726,"120 Đ. Hai Bà Trưng, X. Thanh Phong, H. Như Xuân, T. Thanh Hóa","Số 220 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",16216,01729
+dev,VNDEV_KHO_00159,VNDEV_00733,"68 duong Truong Chinh, Xa Dong Quan, Huyen Luc Yen, Yen Bai","Số 218 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",04351,00160
+dev,VNDEV_KHO_00160,VNDEV_00809,"Số 10, Đường Cách Mạng Tháng Tám, Xã Quỳnh Lộc, Thị xã Hoàng Mai, Tỉnh Nghệ An","198 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",17107,00259
+dev,VNDEV_KHO_00162,VNDEV_00894,"68 Đ. Cầu Giấy, P. Tân Hương, TP. Phổ Yên, T. Thái Nguyên","327Đ.CầuGiấy, P9, Q6, Thành phố Hồ Chí Minh",05893,27352
+dev,VNDEV_KHO_00170,VNDEV_00505,"Số 18B, Đường Tây Sơn, Xã Tam Đàn, Huyện Phú Ninh, Tỉnh Quảng Nam","Số 411 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",20374,11005
+dev,VNDEV_KHO_00172,VNDEV_00812,"Số 10, Đuong Cách Mạng Tháng Tám, Xã Quỳnh Lộc, Thị xã Hoàng Mai, Tỉnh Nghệ An","Số 488, Thôn 1, Phường Trần Nguyên Hãn, Quận Lê Chân, Thành phố Hải Phòng",17107,11383
+dev,VNDEV_KHO_00173,VNDEV_00743,"Xã Hưng Phước, Huyện Bù Đốp, Tỉnh Bình Phước","Số 510Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",25309,00160
+dev,VNDEV_KHO_00174,VNDEV_00524,"45 dduowng Bà Triệu, Xã Đông Thạnh, Huyện Cần Giuộc, Tỉnh Long An","Số 542Bis Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",28204,16642
+dev,VNDEV_KHO_00175,VNDEV_00953,"Số 35, Đường Hoàng Văn Thụ, Phường Đúc, Quận Thuận Hóa, Tỉnh Huế","Số 556C Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",19780,00160
+dev,VNDEV_KHO_00176,VNDEV_00620,"45 dduowng Hoàng Văn Thụ, Phường Thượng Cát, Quận Bắc Từ Liêm, Thành phố Hà Nội","558B Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",00595,00160
+dev,VNDEV_KHO_00178,VNDEV_00647,"Xã Ninh An, Thành phố Hoa Lư, Tỉnh Ninh Bình","547Đ.NguyễnTrãi, P13, Q10, Thành phố Hồ Chí Minh",14557,27166
+dev,VNDEV_KHO_00186,VNDEV_00598,"99 Đ. Cầu Giấy, X. An Mỹ, H. Mỹ Đức, HN","Số 768 Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",10462,16417
+dev,VNDEV_KHO_00188,VNDEV_00857,"Số 35, Đường Nguyễn Văn Cừ, Xã Nam Cường, Huyện Nam Trực, Tỉnh Nam Định","Số 748B, Thôn Đông, Phường 7, Quận 8, Thành phố Hồ Chí Minh",13990,27433
+dev,VNDEV_KHO_00189,VNDEV_00958,"35 Đ. Hoàng Văn Thụ, P. Đúc, Q. Thuận Hóa, T. Huế","Số 796 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",19780,00259
+dev,VNDEV_KHO_00190,VNDEV_00406,"72 Đ. Đội Cấn, X. Nga Liên, H. Nga Sơn, T. Thanh Hóa","Số 839B Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",16159,16642
+dev,VNDEV_KHO_00191,VNDEV_00688,"Tỉnh Lạng Sơn, Thành phố Lạng Sơn, Xã Hoàng Đồng, Số 15 Đường Điện Biên Phủ","Số 873 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",05986,00160
+dev,VNDEV_KHO_00192,VNDEV_00927,"Xã Liên Sơn, Thị xã Kim Bảng, Tỉnh Hà Nam","892 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",13432,00259
+dev,VNDEV_KHO_00194,VNDEV_00655,"Xã Vĩ Thượng, Huyện Quang Bình, Tỉnh Hà Giang","882Đ.NguyễnTrãi, P2, Q6, Thành phố Hồ Chí Minh",01264,27367
+dev,VNDEV_KHO_00202,VNDEV_00660,"Số 402, Đuong Hoàng Hoa Thám, Xã Thạch Long, Huyện Thạch Thành, Tỉnh Thanh Hóa","Số 134B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",15220,11053
+dev,VNDEV_KHO_00204,VNDEV_00456,"Tỉnh Tiền Giang, Huyện Châu Thành, Xã Bình Trưng, Số 99 Đường Hai Bà Trưng","Số 150C, Ấp Bắc, Phường Hòa Hiệp Bắc, Thị xã Đông Hòa, Tỉnh Phú Yên",28564,22246
+dev,VNDEV_KHO_00205,VNDEV_00429,"88 duong Nguyen Hue, Phuong 1, Thanh pho Da Lat, Lam Dong","Số 186 Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",24784,26740
+dev,VNDEV_KHO_00206,VNDEV_00441,"Số 15, Đường Tây Sơn, Xã Quỳnh Mỹ, Huyện Quỳnh Phụ, Tỉnh Thái Bình","Số 128 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",12535,01729
+dev,VNDEV_KHO_00207,VNDEV_00698,"Số 120, Ngõ 12, Đường Kim Mã, Phường 8, Thành phố Trà Vinh, Tỉnh Trà Vinh","Số 160 Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",29257,00160
+dev,VNDEV_KHO_00208,VNDEV_00854,"99 Đ. Hùng Vương, P. Hàng Bạc, Q. Hoàn Kiếm, HN","210 Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",00061,00259
+dev,VNDEV_KHO_00210,VNDEV_00770,"Số 12, Ngõ 12, Đường Lê Duẩn, Xã Tân Hội, Huyện Mỏ Cày Nam, Tỉnh Bến Tre","227Đ.NguyễnHuệ, P9, Q.Tân Bình, Thành phố Hồ Chí Minh",28940,27001
+dev,VNDEV_KHO_00218,VNDEV_00932,"12 Đ.HoàngCầu, X.Bạch Xa, H.Hàm Yên, Tỉnh Tuyên Quang","Số 378B Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",02380,11053
+dev,VNDEV_KHO_00220,VNDEV_00188,"PG2-12A, Đường 30 Tháng 4, Phường 3, Tây Ninh","Số 395, Thôn Tây, Phường Lê Lợi, Quận An Dương, Thành phố Hải Phòng",25459,11581
+dev,VNDEV_KHO_00221,VNDEV_00083,"386, Tên Lửa, Phường An Lạc, Thành phố Hồ Chí Minh","Số 480 Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",27460,00259
+dev,VNDEV_KHO_00222,VNDEV_00229,"454, Đường Trần Văn Giàu, Phường Bình Trị Đông B, Quận Bình Tân, Hồ Chí Minh","Số 460A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",27451,01729
+dev,VNDEV_KHO_00223,VNDEV_00422,"4A Đ. Quang Trung, P. Cầu Tre, Q. Ngô Quyền, TP. Hải Phòng","Số 485C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",11338,25744
+dev,VNDEV_KHO_00224,VNDEV_00832,"Tỉnh Tuyên Quang, Huyện Sơn Dương, Xã Hợp Thành, Số 99 Đường Lý Thường Kiệt","466B Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",02566,00259
+dev,VNDEV_KHO_00226,VNDEV_00424,"Thành phố Hải Phòng, Quận Ngô Quyền, Phường Cầu Tre, Số 4A Đường Quang Trung","532Đ.KimMã, P4, Q.Phú Nhuận, Thành phố Hồ Chí Minh",11338,27043
+dev,VNDEV_KHO_00234,VNDEV_00610,"Số 99, Ngõ 45, Đường Lê Duẩn, Phường 8, Thành phố Bạc Liêu, Tỉnh Bạc Liêu","Số 655 Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",31828,11005
+dev,VNDEV_KHO_00236,VNDEV_00622,"45 Đ. Hoàng Văn Thụ, P. Thượng Cát, Q. Bắc Từ Liêm, HN","Số 764C, Thôn 2, Phường Đông Khê, Quận Ngô Quyền, Thành phố Hải Phòng",00595,11350
+dev,VNDEV_KHO_00237,VNDEV_00933,"12 duong Hoang Cau, Xa Bach Xa, Huyen Ham Yen, Tuyen Quang","Số 771Bis Đường Tô Ngọc Vân, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",02380,26740
+dev,VNDEV_KHO_00238,VNDEV_00687,"Xã Hoàng Đồng, Thành phố Lạng Sơn, Tỉnh Lạng Sơn","Số 776B Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",05986,16642
+dev,VNDEV_KHO_00239,VNDEV_00537,"Số 45, Đường Nguyễn Huệ, Xã Nguyễn Trãi, Huyện Ân Thi, Tỉnh Hưng Yên","Số 840A Đường Thành Phố Giao Lưu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",12184,00160
+dev,VNDEV_KHO_00240,VNDEV_00806,"4A Đ. Hoàng Văn Thụ, X. Tân Hưng, TP. Bà Rịa, T. Bà Rịa - Vũng Tàu","795C Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",26567,26740
+dev,VNDEV_KHO_00242,VNDEV_00511,"Xã Tam Đàn, Huyện Phú Ninh, Tỉnh Quảng Nam","842Đ.LêLợi, P10, Q6, Thành phố Hồ Chí Minh",20374,27385
+dev,VNDEV_KHO_00250,VNDEV_00804,"4A Đ.HoàngVănThụ, X.Tân Hưng, TP.Bà Rịa, Tỉnh Bà Rịa - Vũng Tàu","Số 20 Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",26567,00259
+dev,VNDEV_KHO_00252,VNDEV_00494,"108 Đ. Tây Sơn, X. Bằng Giã, H. Hạ Hòa, T. Phú Thọ","Số 126C, Thôn Đông, Thị trấn Tam Bình, Huyện Tam Bình, Tỉnh Vĩnh Long",08125,29719
+dev,VNDEV_KHO_00253,VNDEV_00798,"108 Đ. Nguyễn Huệ, X. Hòa Bình, H. Hữu Lũng, T. Lạng Sơn","Số 154Bis Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",06397,00160
+dev,VNDEV_KHO_00254,VNDEV_00540,"45 Đ.NguyễnHuệ, X.Nguyễn Trãi, H.Ân Thi, Tỉnh Hưng Yên","Số 142A Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",12184,16642
+dev,VNDEV_KHO_00255,VNDEV_00887,"Thị trấn Xuân Mai, Huyện Chương Mỹ, Thành phố Hà Nội","Số 181 Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",10018,25744
+dev,VNDEV_KHO_00256,VNDEV_00584,"Tỉnh Hà Tĩnh, Huyện Cẩm Xuyên, Xã Cẩm Sơn, Số 4A Đường Lê Lợi","206Bis Đ. NVC, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh",18745,26740
+dev,VNDEV_KHO_00258,VNDEV_00684,"Số 15, Đuong Điện Biên Phủ, Xã Hoàng Đồng, Thành phố Lạng Sơn, Tỉnh Lạng Sơn","248Đ.TrầnHưngĐạo, P3, Q4, Thành phố Hồ Chí Minh",05986,27286
+dev,VNDEV_KHO_00266,VNDEV_00460,"Số 25B, Đuong Đinh Tiên Hoàng, Xã Nhơn Hội, Huyện An Phú, Tỉnh An Giang","Số 307 Đường Ngô Quyền, Xã Phạm Trấn, Huyện Gia Lộc, Tỉnh Hải Dương",30349,11053
+dev,VNDEV_KHO_00268,VNDEV_00764,"99 Đ.ĐinhTiênHoàng, X.Đông Bình, H.Thới Lai, Thành phố Cần Thơ","Số 383Bis, Thôn Tây, Xã Tân Triều, Huyện Thanh Trì, Thành phố Hà Nội",31279,00643
+dev,VNDEV_KHO_00269,VNDEV_00648,"Tỉnh Ninh Bình, Thành phố Hoa Lư, Xã Ninh An, Số 402 Đường Ngô Quyền","Số 387 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",14557,00160
+dev,VNDEV_KHO_00270,VNDEV_00248,"131, Đường Nguyễn Gia Thiều, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh","Số 440 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",09187,01729
+dev,VNDEV_KHO_00271,VNDEV_00468,"108 Đ.TâySơn, X.Ninh Đông, TX.Ninh Hòa, Tỉnh Khánh Hòa","Số 407C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",22564,25744
+dev,VNDEV_KHO_00272,VNDEV_00965,"88 duong Hai Ba Trung, Xa Thang Loi, Huyen Van Don, Quang Ninh","446A Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",07021,27259
+dev,VNDEV_KHO_00274,VNDEV_00744,"Tỉnh Bình Phước, Huyện Bù Đốp, Xã Hưng Phước, Số 72 Đường Xã Đàn","482Đ.LêLợi, P10, Q.Gò Vấp, Thành phố Hồ Chí Minh",25309,26884
+dev,VNDEV_KHO_00282,VNDEV_00172,"32, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh, Bac Ninh","Số 691B Đường Hồng Bàng, Xã Liên Hồng, Thành phố Hải Dương, Tỉnh Hải Dương",09247,11005
+dev,VNDEV_KHO_00284,VNDEV_00053,"Thôn Phú Lễ, X. Quảng Phú, H. Quảng Điền, TP. Huế.","Số 728B, Xóm Trại, Phường Long Tuyền, Quận Bình Thủy, Thành phố Cần Thơ",19897,31183
+dev,VNDEV_KHO_00285,VNDEV_00020,"102 Ung Văn Khiêm, Phường 25, Quận Bình Thạnh, TP. Hồ Chí Minh","Số 705C Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",26920,00160
+dev,VNDEV_KHO_00286,VNDEV_00168,"302, Đường Lê Văn Sỹ, phường 1, Quận Tân Bình, Thành phố Hồ Chí Minh, Hồ Chí Minh","Số 742 Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",26977,01729
+dev,VNDEV_KHO_00287,VNDEV_00791,"Xã Chiềng Đen, Thành phố Sơn La, Tỉnh Sơn La","Số 778C Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",03661,25744
+dev,VNDEV_KHO_00288,VNDEV_00732,"68 Đ.TrườngChinh, X.Động Quan, H.Lục Yên, Tỉnh Yên Bái","792Bis Đ. HBT, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",04351,00259
+dev,VNDEV_KHO_00290,VNDEV_00748,"25B Đ.VõVănKiệt, P.Thanh Hải, TP.Phan Thiết, Tỉnh Bình Thuận","830Đ.KimMã, P14, Q.Bình Thạnh, Thành phố Hồ Chí Minh",22936,26929
+dev,VNDEV_KHO_00298,VNDEV_00445,"15 duong Tay Son, Xa Quynh My, Huyen Quynh Phu, Thai Binh","Số 929A Đường Ba Đình, Xã Đông Văn, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",12535,16417
+dev,VNDEV_KHO_00300,VNDEV_00679,"Thị trấn Thổ Tang, Huyện Vĩnh Tường, Tỉnh Vĩnh Phúc","Số 9, Thôn Đông, Phường Mai Động, Quận Hoàng Mai, Thành phố Hà Nội",09112,00310
+dev,VNDEV_KHO_00301,VNDEV_00904,"Tỉnh Nam Định, Huyện Ý Yên, Xã Yên Bình, Số 15 Đường Hoàng Cầu","Số 53A Phố Tô Hiến Thành, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",13825,00259
+dev,VNDEV_KHO_00302,VNDEV_00592,"Tỉnh Nghệ An, Huyện Nghi Lộc, Xã Nghi Phương, Số 10 Đường Cầu Giấy","Số 124A Phố Hoà Bình, Thị trấn Tĩnh Túc, Huyện Nguyên Bình, Tỉnh Cao Bằng",17860,01729
+dev,VNDEV_KHO_00303,VNDEV_00576,"Tỉnh Thái Bình, Huyện Quỳnh Phụ, Thị trấn Quỳnh Côi, Số 35 Đường Trường Chinh","Số 95B Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",12472,25744
+dev,VNDEV_KHO_00304,VNDEV_00246,"Phố Châu Úy, Phường Cam Đường, Thành phố Lào Cai, Tỉnh Lào Cai","125C Đ. TTT, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",02674,00160
+dev,VNDEV_KHO_00306,VNDEV_00685,"15 duong Dien Bien Phu, Xa Hoang Dong, Thanh pho Lang Son, Lang Son","160Đ.NguyễnTrãi, P12, Q.Bình Thạnh, Thành phố Hồ Chí Minh",05986,26917
+dev,VNDEV_KHO_00314,VNDEV_00237,"47, Phố Hàng Dầu, Lý Thái Tổ, Hoàn Kiếm, Hà Nội","Số 347Bis Đường Hai Bà Trưng, Phường Đồng Nhân, Quận Hai Bà Trưng, Thành phố Hà Nội",00058,00259
+dev,VNDEV_KHO_00316,VNDEV_00636,"Số 120, Đuong Quang Trung, Xã Gia Phong, Huyện Gia Viễn, Tỉnh Ninh Bình","Số 366Bis, Thôn Chùa, Phường Tân Đông Hiệp, Thành phố Dĩ An, Tỉnh Bình Dương",14524,25948
+dev,VNDEV_KHO_00317,VNDEV_00842,"Số 4A, Ngõ 12, Đường Trường Chinh, Xã Trung Chánh, Huyện Hóc Môn, Thành phố Hồ Chí Minh","Số 389 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",27586,00160
+dev,VNDEV_KHO_00318,VNDEV_00414,"18B Đ. Giải Phóng, X. Mỹ Hiệp Sơn, H. Hòn Đất, T. Kiên Giang","Số 419 Phố Chợ, Phường Tĩnh Hải, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",30832,16642
+dev,VNDEV_KHO_00319,VNDEV_00774,"12 Đ. Lê Duẩn, X. Tân Hội, H. Mỏ Cày Nam, T. Bến Tre","Số 401Bis Đại lộ Thành Phố Mới, Phường Phú Lợi, Thành phố Thủ Dầu Một, Tỉnh Bình Dương",28940,25744
+dev,VNDEV_KHO_00320,VNDEV_00604,"Số 10, Đuong Hoàng Hoa Thám, Xã An Vũ, Huyện Quỳnh Phụ, Tỉnh Thái Bình","390 Đ. NTT, Phường 13, Quận 4, Thành phố Hồ Chí Minh",12547,27259

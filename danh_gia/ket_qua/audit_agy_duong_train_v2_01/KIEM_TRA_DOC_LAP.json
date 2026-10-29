@@ -1,0 +1,191 @@
+{
+  "train": {
+    "rows": 3000,
+    "families": 650,
+    "max_rows_per_family": 5,
+    "counts": {
+      "canonical_usable": 2336,
+      "runtime_compatible": 2696,
+      "invalid_char_span": 0,
+      "overlapping_char_span": 0,
+      "nonempty_label_without_span_ngo_ngach_hem": 654,
+      "canonical_usable_nonempty_label_without_span_ngo_ngach_hem": 433,
+      "invalid_token_offset": 0,
+      "csv_input_differs_spans": 0,
+      "nonempty_label_without_span_thon_xom": 79,
+      "canonical_usable_nonempty_label_without_span_thon_xom": 66
+    },
+    "examples": {
+      "ngo_ngach_hem": [
+        {
+          "id": "VNTRAIN_V2_00001",
+          "input": "Số 528, Đường Ngô Gia Tự, Phường Đức Giang, Quận Long Biên, Thành phố Hà Nội",
+          "field": "ngo_ngach_hem",
+          "label": "Ngõ 528",
+          "canonical_usable": false,
+          "span": null,
+          "parent_id": "VNTRAIN_00067"
+        },
+        {
+          "id": "VNTRAIN_V2_00002",
+          "input": "Số 528 Đ.Ngô Gia Tự, P.Đức Giang, Thành phố Hà Nội",
+          "field": "ngo_ngach_hem",
+          "label": "Ngõ 528",
+          "canonical_usable": false,
+          "span": null,
+          "parent_id": "VNTRAIN_00067"
+        },
+        {
+          "id": "VNTRAIN_V2_00003",
+          "input": "Số 528, Dduowngf Ngô Gia Tự, Phường Đức Giang, Thành phố Hà Nội",
+          "field": "ngo_ngach_hem",
+          "label": "Ngõ 528",
+          "canonical_usable": false,
+          "span": null,
+          "parent_id": "VNTRAIN_00067"
+        },
+        {
+          "id": "VNTRAIN_V2_00004",
+          "input": "528ĐườngNgôGiaTự, Phường Đức Giang, Thành phố Hà Nội",
+          "field": "ngo_ngach_hem",
+          "label": "Ngõ 528",
+          "canonical_usable": false,
+          "span": null,
+          "parent_id": "VNTRAIN_00067"
+        }
+      ],
+      "thon_xom": [
+        {
+          "id": "VNTRAIN_V2_00021",
+          "input": "Số 27, Duong Han Thuyen, Phường Thủ Đức, Thành phố Hồ Chí Minh",
+          "field": "thon_xom",
+          "label": "Khu phố 3",
+          "canonical_usable": true,
+          "span": null,
+          "parent_id": "VNTRAIN_00092"
+        },
+        {
+          "id": "VNTRAIN_V2_00022",
+          "input": "Số 27 Đ.Hàn Thuyên, P.Thủ Đức, Thành phố Hồ Chí Minh",
+          "field": "thon_xom",
+          "label": "Khu phố 3",
+          "canonical_usable": true,
+          "span": null,
+          "parent_id": "VNTRAIN_00092"
+        },
+        {
+          "id": "VNTRAIN_V2_00023",
+          "input": "Số 27, Dduowngf Hàn Thuyên, Phường Thủ Đức, Thành phố Hồ Chí Minh",
+          "field": "thon_xom",
+          "label": "Khu phố 3",
+          "canonical_usable": true,
+          "span": null,
+          "parent_id": "VNTRAIN_00092"
+        },
+        {
+          "id": "VNTRAIN_V2_00024",
+          "input": "27ĐườngHànThuyên, Phường Thủ Đức, Thành phố Hồ Chí Minh",
+          "field": "thon_xom",
+          "label": "Khu phố 3",
+          "canonical_usable": true,
+          "span": null,
+          "parent_id": "VNTRAIN_00092"
+        }
+      ]
+    }
+  },
+  "roads": {
+    "rows": 1461,
+    "unique_names": 1007,
+    "sources": [
+      {
+        "file": "quoc_lo_vietnam_qd1454_2021.txt",
+        "hash_matches": true,
+        "url": "https://vanban.chinhphu.vn/?docid=204000&pageid=27160",
+        "is_homepage": false,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "ha_noi_qd3816_2026.txt",
+        "hash_matches": true,
+        "url": "https://congbao.hanoi.gov.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "tphcm_qd212_2006.txt",
+        "hash_matches": true,
+        "url": "https://congbao.hochiminhcity.gov.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "danang_nq49_2025.txt",
+        "hash_matches": true,
+        "url": "https://danang.gov.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "hai_phong_nq14_2023.txt",
+        "hash_matches": true,
+        "url": "https://haiphong.gov.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "can_tho_qd19_2023.txt",
+        "hash_matches": true,
+        "url": "https://cantho.gov.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "thua_thien_hue_qd64_2022.txt",
+        "hash_matches": true,
+        "url": "https://thuathienhue.gov.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "cac_tinh_thanh_do_thi_qd_ubnd.txt",
+        "hash_matches": true,
+        "url": "https://vanban.chinhphu.vn",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "osm_urban_streets_verified_2025.txt",
+        "hash_matches": true,
+        "url": "https://www.openstreetmap.org",
+        "is_homepage": true,
+        "has_fetch_time": false,
+        "has_http_status": false
+      },
+      {
+        "file": "tai_lieu_chua_xac_minh_pending.txt",
+        "hash_matches": true,
+        "url": "https://nlp.chuanhoadiachi.internal/audit",
+        "is_homepage": false,
+        "has_fetch_time": false,
+        "has_http_status": false
+      }
+    ],
+    "claimed_current_era_but_code_not_in_new_catalogue": 0,
+    "bad_era_examples": [],
+    "source_generation": "generate_sources.py writes imported definitions/*.py lists into source .txt files; this is not fetched independent evidence",
+    "wrong_external_reference": {
+      "url": "https://vanban.chinhphu.vn/?docid=204000&pageid=27160",
+      "claimed": "1454/QĐ-TTg, quy hoạch mạng lưới đường bộ",
+      "observed_on_official_page": "89/QĐ-TCTĐB, Quy chế hoạt động Tổ công tác đặc biệt, 09-09-2021"
+    }
+  }
+}

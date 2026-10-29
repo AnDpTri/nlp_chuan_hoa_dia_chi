@@ -4,6 +4,20 @@
     "tu_dong_khop": 168,
     "can_duyet": 232
   },
+  "status_ai_review": {
+    "da_duyet_ai": 292,
+    "can_duyet": 108
+  },
+  "ai_review_breakdown": {
+    "du_can_cu_tham_chieu": 263,
+    "nhan_can_sua": 29,
+    "chua_du_can_cu": 108,
+    "tra_cuu_web_nghi_quyet": 37,
+    "xa_bi_chia_thu_hoi_bao_luu": 33,
+    "vntest0040_mo_ho_bao_luu": 1,
+    "thieu_xa_chua_xac_dinh_bao_luu": 74,
+    "nhan_thuc_te_diff": 29
+  },
   "eras": {
     "cu": 361,
     "thieu_thong_tin": 14,

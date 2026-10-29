@@ -165,11 +165,36 @@ def clean_data():
     with open(curr_prov_path, "r", encoding="utf-8") as f:
         curr_prov = json.load(f)
     
+    # 6 thành phố trực thuộc trung ương tại mốc 01/07/2025 theo Quyết định 19/2025/QĐ-TTg
+    # và Nghị quyết 175/2024/QH15 (Huế):
+    # 01 (Hà Nội), 31 (Hải Phòng), 46 (Huế), 48 (Đà Nẵng), 79 (TP.HCM), 92 (Cần Thơ)
+    CENTRAL_CITIES_2025 = {'01', '31', '46', '48', '79', '92'}
+    
     moi_tinh_list = []
     for p in sorted(curr_prov, key=lambda x: x['code']):
         p_code = p['code'].zfill(2)
         p_name = normalize_tone(p['name'])
-        p_type = 'Thành phố' if p.get('type') == 'city' else 'Tỉnh'
+        raw_type = 'Thành phố' if p.get('type') == 'city' else 'Tỉnh'
+        
+        # Điều chỉnh về đúng mốc 01/07/2025:
+        # Ba tỉnh Quảng Ninh (22), Bắc Ninh (24), Đồng Nai (75) trong current-provinces.json bị gắn 'city'
+        # do lẫn mốc các Nghị quyết nâng cấp năm 2026 (đã tách sang thay_doi_2026.csv).
+        # Tại mốc 01/07/2025, loại hình chính thức của 3 đơn vị này là 'Tỉnh'.
+        if p_code in CENTRAL_CITIES_2025:
+            p_type = 'Thành phố'
+        else:
+            p_type = 'Tỉnh'
+            if raw_type == 'Thành phố':
+                sua_doi_records.append({
+                    'file': 'current-provinces.json -> moi_tinh.csv',
+                    'ma': p_code,
+                    'cot': 'loai_tinh',
+                    'gia_tri_cu': 'Thành phố',
+                    'gia_tri_moi': 'Tỉnh',
+                    'ly_do': f'Tại mốc 01/07/2025 (QĐ 19/2025/QĐ-TTg), {p_name} là Tỉnh. File nguồn current-provinces.json lẫn mốc các Nghị quyết năm 2026 (đã tách riêng trong thay_doi_2026.csv).',
+                    'can_cu': "Quyết định 19/2025/QĐ-TTg; raw/moi_tinh_xa.csv; conversion-table.xlsx (sheet 'Tổng hợp_không merge ')"
+                })
+        
         moi_tinh_list.append({
             'ma_tinh': p_code,
             'ten_tinh': p_name,
@@ -825,6 +850,62 @@ def validate_all():
         'doi_chieu_to_moi_xa': list(dc_orphans_moi_xa),
         'doi_chieu_to_moi_tinh': list(dc_orphans_moi_prov),
     }
+
+    # 3.1. Kiểm tra nhất quán loại hình và tên tỉnh giữa moi_tinh.csv và moi_tinh_xa.csv
+    moi_tinh_map = {r['ma_tinh']: r for r in moi_tinh}
+    moi_tinh_discrepancies = []
+    for r in moi_tinh_xa:
+        mt = moi_tinh_map.get(r['ma_tinh'])
+        if mt:
+            if r['loai_tinh'] != mt['loai_tinh']:
+                moi_tinh_discrepancies.append({
+                    'ma_tinh': r['ma_tinh'],
+                    'cot': 'loai_tinh',
+                    'moi_tinh': mt['loai_tinh'],
+                    'moi_tinh_xa': r['loai_tinh']
+                })
+            if r['ten_tinh'] != mt['ten_tinh']:
+                moi_tinh_discrepancies.append({
+                    'ma_tinh': r['ma_tinh'],
+                    'cot': 'ten_tinh',
+                    'moi_tinh': mt['ten_tinh'],
+                    'moi_tinh_xa': r['ten_tinh']
+                })
+    # Khử trùng lặp sai lệch
+    unique_mt_discrepancies = []
+    seen_mt_disc = set()
+    for d in moi_tinh_discrepancies:
+        key = (d['ma_tinh'], d['cot'], d['moi_tinh'], d['moi_tinh_xa'])
+        if key not in seen_mt_disc:
+            seen_mt_disc.add(key)
+            unique_mt_discrepancies.append(d)
+
+    val_report['moiTinhConsistency'] = {
+        'discrepancy_count': len(unique_mt_discrepancies),
+        'discrepancies': unique_mt_discrepancies
+    }
+
+    # 3.2. Kiểm tra chuẩn mốc 01/07/2025: Đúng 6 Thành phố trực thuộc Trung ương, 28 Tỉnh
+    # Cấm tuyệt đối lỗi lẫn mốc 2026 (Quảng Ninh 22, Bắc Ninh 24, Đồng Nai 75 lên Thành phố)
+    EXPECTED_CITIES_2025 = {'01', '31', '46', '48', '79', '92'}
+    cities_in_moi_tinh = {r['ma_tinh'] for r in moi_tinh if r['loai_tinh'] == 'Thành phố'}
+    unexpected_cities = sorted(cities_in_moi_tinh - EXPECTED_CITIES_2025)
+    missing_cities = sorted(EXPECTED_CITIES_2025 - cities_in_moi_tinh)
+    invalid_provinces_2025 = []
+    for r in moi_tinh:
+        if r['ma_tinh'] not in EXPECTED_CITIES_2025 and r['loai_tinh'] != 'Tỉnh':
+            invalid_provinces_2025.append({'ma_tinh': r['ma_tinh'], 'ten_tinh': r['ten_tinh'], 'loai_tinh': r['loai_tinh']})
+
+    asof_discrepancy_count = len(unexpected_cities) + len(missing_cities) + len(invalid_provinces_2025)
+    val_report['asOf2025CentralCities'] = {
+        'asOfDate': '2025-07-01',
+        'city_count': len(cities_in_moi_tinh),
+        'expected_city_count': 6,
+        'unexpected_cities': unexpected_cities,
+        'missing_cities': missing_cities,
+        'invalid_provinces': invalid_provinces_2025,
+        'discrepancy_count': asof_discrepancy_count
+    }
     
     # 4. Kiểm tra trường bắt buộc
     missing_fields = {}
@@ -1118,7 +1199,9 @@ def validate_all():
         val_report['coverage']['new_wards_coverage_rate'] != '100.00%' or
         val_report['invalidTonePlacement']['error_count'] > 0 or
         val_report['rawComparison']['unexplained_discrepancy_count'] > 0 or
-        val_report['doiChieuNameConsistency']['unexplained_mismatch_count'] > 0
+        val_report['doiChieuNameConsistency']['unexplained_mismatch_count'] > 0 or
+        val_report['moiTinhConsistency']['discrepancy_count'] > 0 or
+        val_report['asOf2025CentralCities']['discrepancy_count'] > 0
     )
     
     if has_errors:

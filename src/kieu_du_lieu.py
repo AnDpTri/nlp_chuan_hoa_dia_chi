@@ -27,13 +27,15 @@ class UngVien:
     ket_thuc: int  # vị trí token kết thúc (không tính)
     ma: str
     cay: str
-    kieu_khop: str  # "chinh_xac" | "khong_dau" | "viet_tat" | "sai_chinh_ta"
+    kieu_khop: str  # "chinh_xac" | "khong_dau" | "khac_dau" | "viet_tat" | "sai_chinh_ta" | "khac_loai"
     diem: float
+    cap: str = ""
+    co_tien_to: bool = False
 
 
 @dataclass
 class DuongDi:
-    """Một tổ hợp ứng viên tạo thành đường đi hợp lệ trong cây hành chính."""
+    """Một giả thuyết; từng ứng viên giữ mốc riêng, cay có thể là 'tron'."""
 
     cay: str
     ung_vien: list[UngVien]
@@ -54,3 +56,7 @@ class KetQua:
     ma_tinh: str = ""
     dia_chi_chuan: str = ""
     canh_bao: list[str] = field(default_factory=list)
+    xa_moi_ung_vien: list[dict[str, str]] = field(default_factory=list)
+    dau_vet: list[dict] = field(default_factory=list)
+    phan_chua_phan_loai: str = ""
+    thong_ke: dict = field(default_factory=dict)

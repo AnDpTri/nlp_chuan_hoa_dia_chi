@@ -1,0 +1,171 @@
+{
+  "pham_vi": "Rà 20/20 ca lệch không cảnh báo và 13 ca đại diện cho lỗi cơ chế/nhãn. Không phải đánh giá vàng độc lập toàn bộ dev.",
+  "nguon_kiem_tra": "Chuỗi input, nhánh thực thi v2, danh mục và đối chiếu cục bộ đã ghim hash. Không tra web, không xác nhận vị trí thực địa, không đổi nhãn.",
+  "ghi_chu": [
+    {
+      "id": "VNDEV_00056",
+      "nhom": "nhan_thieu_dich_theo_danh_muc",
+      "nhan_xet": "Input ghi X Bình Sa, H Thăng Bình; nhánh phù hợp danh mục chuyển sang Thăng Trường. Nhãn xã trống cần rà lại, chưa coi output là sai."
+    },
+    {
+      "id": "VNDEV_00091",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Nhãn đường chứa lại Ngõ 78 trong khi cùng đoạn đã gán ngõ. Output phân riêng Ngõ 78 và Phố Yên Lã, phù hợp hợp đồng span không chồng."
+    },
+    {
+      "id": "VNDEV_00103",
+      "nhom": "nhan_thieu_dich_theo_danh_muc",
+      "nhan_xet": "Xuân Bảo, Cẩm Mỹ khớp nhánh danh mục dẫn đến Xuân Định. Nhãn xã trống cần rà; tên không tiền tố vẫn cần kiểm tra vai trò theo nguồn."
+    },
+    {
+      "id": "VNDEV_00110",
+      "nhom": "quy_uoc_chuan_hoa_chua_chot",
+      "nhan_xet": "Output Xa lộ Hà Nội và nhãn Đường Xa Lộ Hà Nội cùng nội dung tên; khác cách giữ/gắn loại đường. Cần chốt quy ước, chưa coi là sai nhận diện tên."
+    },
+    {
+      "id": "VNDEV_00113",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Nhãn đường chép cả Tổ 1, Ấp 4 và hành chính, đồng thời Ấp 4 có nhãn thôn. Không thể dùng nguyên nhãn này cho BIO không chồng. Phần xã cần duyệt riêng."
+    },
+    {
+      "id": "VNDEV_00158",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Thôn Thượng Bái bị gán đồng thời thôn và đường trong tham chiếu. Đây là xung đột hợp đồng span, không nên ép parser lặp lại."
+    },
+    {
+      "id": "VNDEV_00162",
+      "nhom": "nhan_gop_tien_to_ngo_vao_so_nha",
+      "nhan_xet": "Nhãn Số 3 NG.1 gộp cả tiền tố ngõ vào số nhà; output tách Số 3, Ngõ 1 theo quy tắc hiện hành. Cần sửa nhãn theo hợp đồng đã chọn, không đổi dữ liệu trong lượt này."
+    },
+    {
+      "id": "VNDEV_00185",
+      "nhom": "nhan_lay_so_duong_lam_so_nha",
+      "nhan_xet": "Input bắt đầu 24, Hẻm 79 đường số 4; tham chiếu lấy Số 4 và lặp hẻm vào đường. Có bằng chứng trực tiếp nhãn nhầm vai trò số và chồng span."
+    },
+    {
+      "id": "VNDEV_00191",
+      "nhom": "nhan_lay_so_duong_lam_so_nha",
+      "nhan_xet": "Input 73, Đường số 27 nhưng tham chiếu Số 27. Output giữ Số 73; không nên sửa thuật toán để lấy số trong tên đường."
+    },
+    {
+      "id": "VNDEV_00223",
+      "nhom": "nhan_lay_so_duong_lam_so_nha",
+      "nhan_xet": "Input 163, Đường số 1 nhưng tham chiếu Số 1. Output giữ Số 163."
+    },
+    {
+      "id": "VNDEV_00225",
+      "nhom": "quy_uoc_ngo_co_ten_can_chot",
+      "nhan_xet": "Ngõ Đền được gán ngõ ở output và đường ở nhãn. Cần quy ước ngõ có tên và nguồn tên chính thức; chưa đủ để xác nhận bên nào sai."
+    },
+    {
+      "id": "VNDEV_00253",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Nhãn đường chứa lại Ngõ 75 đã gán vào ngõ, còn output tách Ngõ 75 và Phố Yên Lã."
+    },
+    {
+      "id": "VNDEV_00274",
+      "nhom": "nhan_lay_so_duong_lam_so_nha",
+      "nhan_xet": "Input 6, Đường Số 3 nhưng tham chiếu Số 3. Chỉ kết luận vấn đề số nhà; các tên hành chính trộn trong input cần xét riêng."
+    },
+    {
+      "id": "VNDEV_00301",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Thôn Đòn bị dùng lại làm đường trong tham chiếu dù đã có nhãn thôn. Output không nhân đôi đoạn chữ."
+    },
+    {
+      "id": "VNDEV_00305",
+      "nhom": "nhan_lay_so_duong_lam_so_nha",
+      "nhan_xet": "Input 30, Đường số 8A nhưng tham chiếu Số 8A; output giữ Số 30."
+    },
+    {
+      "id": "VNDEV_00318",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Hẻm 18 nằm đồng thời trong nhãn hẻm và nhãn đường; output tách riêng Hẻm 18 và Đường Số 8."
+    },
+    {
+      "id": "VNDEV_00327",
+      "nhom": "nhan_trai_hop_dong_span",
+      "nhan_xet": "Ngõ 160 bị đưa đồng thời vào trường ngõ và đường; output giữ tên đường Lý Thường Kiệt riêng."
+    },
+    {
+      "id": "VNDEV_00337",
+      "nhom": "quy_uoc_ngo_co_ten_can_chot",
+      "nhan_xet": "Ngõ Thịnh Quang: output coi là ngõ, tham chiếu coi là tên đường chứa chữ Ngõ. Cần hợp đồng và nguồn tra; chưa kết luận lỗi thuật toán."
+    },
+    {
+      "id": "VNDEV_00381",
+      "nhom": "nhan_lay_so_duong_lam_so_nha",
+      "nhan_xet": "Input 77, Đường số 6 nhưng tham chiếu Số 6; output giữ Số 77."
+    },
+    {
+      "id": "VNDEV_00390",
+      "nhom": "vai_tro_hanh_chinh_hay_duong_can_duyet",
+      "nhan_xet": "Bình Hàng Tây, Cao Lãnh, Đồng Tháp khớp quan hệ hành chính trong danh mục; tham chiếu đưa cả chuỗi vào đường. Cần duyệt nguồn, không coi nhánh bỏ hết hành chính là đáp án chắc chắn."
+    },
+    {
+      "id": "VNDEV_00024",
+      "nhom": "loi_thuat_toan_suy_duong_qua_rong",
+      "nhan_xet": "Parser suy Lô 2 tập thể Viện Kỹ thuật quân sự thành đường sau Số 1. Chưa có căn cứ trong input để gán cụm lô/tập thể thành tên đường; cần cho phép O hoặc nhãn phụ."
+    },
+    {
+      "id": "VNDEV_00031",
+      "nhom": "loi_thuat_toan_cat_cum_so_nha",
+      "nhan_xet": "Input 154-156 bị giữ thành Số 154. Cần bảo toàn cụm số trước khi chọn quy ước chuẩn hóa; hiện mất thông tin nguồn."
+    },
+    {
+      "id": "VNDEV_00036",
+      "nhom": "loi_thuat_toan_cat_cum_so_nha",
+      "nhan_xet": "Input Số 24B-24 bị cắt thành Số 24B và đẩy - 24 sang tên đường. Có lỗi ranh giới quan sát được trực tiếp."
+    },
+    {
+      "id": "VNDEV_00342",
+      "nhom": "loi_thuat_toan_dau_nhay_ten_rieng",
+      "nhan_xet": "Tên D'Ran bị chia ở dấu nháy, D bị nhận thành tiền tố đường, sinh Đường ' Ran; không có đích D’Ran trong ứng viên. Đây là lỗi token/quét tên, không do beam."
+    },
+    {
+      "id": "VNDEV_00553",
+      "nhom": "loi_thuat_toan_dau_nhay_ten_rieng",
+      "nhan_xet": "M'Drắk có trong tên danh mục nhưng dấu nháy làm ngắt quét; không sinh được xã đích. Cần hỗ trợ dấu nháy nằm trong tên và biến thể dấu nháy."
+    },
+    {
+      "id": "VNDEV_00505",
+      "nhom": "loi_thuat_toan_khong_uu_tien_dau_da_nhap",
+      "nhan_xet": "Xã Tam Đàn và Xã Tam Dân cùng huyện Phú Ninh được 31.23 điểm cho input có dấu Tam Đàn. Mất thông tin dấu khiến output để trống xã dù nhánh đúng đã đứng đầu."
+    },
+    {
+      "id": "VNDEV_01041",
+      "nhom": "loi_thuat_toan_chap_nhan_ten_cat_ngan",
+      "nhan_xet": "Nhánh Xã Cát Tiên 2 được 21.29 điểm; nhánh chỉ lấy Xã Cát Tiên để sót số 2 được 20.70. Chênh 0.59 nằm trong ngưỡng 0.65 nên gộp mơ hồ. Cần đánh giá ranh giới và bằng chứng còn sót, không chỉ tăng beam."
+    },
+    {
+      "id": "VNDEV_01095",
+      "nhom": "mo_ho_cu_moi_can_nhan_tap_dich",
+      "nhan_xet": "Xã Lam Sơn, Thanh Hóa khớp cả xã cũ Lam Sơn dẫn Minh Sơn và xã mới Lam Sơn. Không có huyện/mốc hay nguồn đường để phân biệt. Nhãn một đích từ bộ sinh tổng hợp không chứng minh input tự đủ thông tin."
+    },
+    {
+      "id": "VNDEV_01119",
+      "nhom": "dau_ten_va_mo_ho_cu_moi",
+      "nhan_xet": "Đông Thành và Đồng Thành bị cùng khóa bỏ dấu; đồng thời có Đông Thành cũ và mới tại Nghệ An dẫn đích khác nhau. Cần tách lỗi mất dấu đã nhập khỏi nhập nhằng thực sự giữa hai mốc."
+    },
+    {
+      "id": "VNDEV_00072",
+      "nhom": "mo_ho_cu_moi_can_nhan_tap_dich",
+      "nhan_xet": "Hai Bà Trưng có thể là quận cũ hoặc phường mới; cả hai nhánh cùng 12.90 điểm. Thiếu nguồn đường/địa bàn để xác nhận một đích. Không nên huấn luyện xếp hạng ép theo nhãn này trước khi duyệt."
+    },
+    {
+      "id": "VNDEV_00044",
+      "nhom": "nhan_bo_bang_chung_huyen_trong_input",
+      "nhan_xet": "Input ghi Quận 10 nhưng tham chiếu dùng Phường 11 thuộc Quận 3 trong danh mục. Có nhánh tái hiện nhãn bằng cách bỏ Quận 10; việc tồn tại nhánh đó không chứng minh cần sửa ranker để chọn nó."
+    },
+    {
+      "id": "VNDEV_00097",
+      "nhom": "nhan_suy_tinh_tu_ten_duong",
+      "nhan_xet": "Input chỉ có 244, Đường Điện Biên Phủ; tham chiếu thêm tỉnh Điện Biên. Không có bằng chứng tỉnh độc lập hay từ điển đường trong hệ thống để xác nhận."
+    },
+    {
+      "id": "VNDEV_00201",
+      "nhom": "nhan_suy_tinh_tu_ten_duong",
+      "nhan_xet": "Hà Nội nằm trong tên Đường Song Hành Xa lộ Hà Nội; tham chiếu thêm tỉnh/thành Hà Nội. Input không cung cấp bằng chứng hành chính độc lập, chưa được phép ép output thêm tỉnh."
+    }
+  ]
+}

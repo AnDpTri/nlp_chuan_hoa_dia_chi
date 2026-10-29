@@ -1,0 +1,241 @@
+# TỔNG HỢP QUYẾT ĐỊNH ĐẶT TÊN ĐƯỜNG CÁC ĐÔ THỊ TỈNH LỴ
+# Căn cứ: Các Quyết định của UBND các tỉnh (Đồng Nai, Bình Dương, Quảng Ninh, Khánh Hòa, Lâm Đồng, Nghệ An, Thanh Hóa, Thái Nguyên, Phú Thọ, Lạng Sơn, Cà Mau, Lào Cai, Yên Bái, Bắc Ninh, Bắc Giang, Quảng Trị, Quảng Bình, Gia Lai, Bình Định, Tây Ninh, Long An, Đồng Tháp, Tiền Giang, An Giang, Kiên Giang)
+# URL: https://vanban.chinhphu.vn
+# Định dạng: MA_TINH | TEN_TINH | CANONICAL_NAME | ROAD_TYPE | QUAN_HUYEN | DIEM_DAU_CUOI | LEGAL_SOURCE | ALIASES | ERA
+75 | Đồng Nai | Nguyễn Ái Quốc | Đường | TP Biên Hòa | Từ cầu Hóa An qua ngã tư Tân Phong đến ngã tư Amata | QĐ đặt tên đường TP Biên Hòa, UBND tỉnh Đồng Nai | Quốc lộ 1K cũ | hien_hanh
+75 | Đồng Nai | Đồng Khởi | Đường | TP Biên Hòa | Từ ngã tư Tân Phong đến ngã ba Trảng Dài | QĐ đặt tên đường TP Biên Hòa, UBND tỉnh Đồng Nai |  | hien_hanh
+75 | Đồng Nai | Phạm Văn Thuận | Đường | TP Biên Hòa | Từ cầu Hiệp Hòa qua ngã tư Vincom đến ngã tư Tam Hiệp | QĐ đặt tên đường TP Biên Hòa, UBND tỉnh Đồng Nai | Quốc lộ 15 cũ | hien_hanh
+75 | Đồng Nai | Võ Thị Sáu | Đường | TP Biên Hòa | Tuyến đường 5 nối dài từ đường Hà Huy Giáp đến đường Phạm Văn Thuận | QĐ đặt tên đường TP Biên Hòa, UBND tỉnh Đồng Nai | Đường 5 Biên Hòa | hien_hanh
+75 | Đồng Nai | Huỳnh Văn Nghệ | Đường | TP Biên Hòa | Từ cầu Hóa An đến khu du lịch Bửu Long | QĐ đặt tên đường TP Biên Hòa, UBND tỉnh Đồng Nai | Tỉnh lộ 24 | hien_hanh
+75 | Đồng Nai | Hùng Vương | Đường | TP Long Khánh | Trục trung tâm thị xã Long Khánh từ đường 21 Tháng 4 đến đường Nguyễn Thị Minh Khai | QĐ đặt tên đường TP Long Khánh, UBND tỉnh Đồng Nai |  | hien_hanh
+74 | Bình Dương | Đại lộ Bình Dương | Đại lộ | TP Thủ Dầu Một, Thuận An | Trục huyết mạch từ cầu Vĩnh Bình qua ngã tư Địa Chất đến Suối Cát | QĐ đặt tên đường tỉnh Bình Dương | Quốc lộ 13 qua Bình Dương | cu_2024
+74 | Bình Dương | Yersin | Đường | TP Thủ Dầu Một | Từ ngã tư Chợ Đình đến bến xe Bình Dương | QĐ đặt tên đường TP Thủ Dầu Một |  | cu_2024
+74 | Bình Dương | Bạch Đằng | Đường | TP Thủ Dầu Một | Đường đi bộ ven sông Sài Gòn từ chợ Thủ Dầu Một đến cầu Bạch Đằng | QĐ đặt tên đường TP Thủ Dầu Một |  | cu_2024
+74 | Bình Dương | Cách Mạng Tháng Tám | Đường | TP Thủ Dầu Một, Thuận An | Từ ngã sáu Bình Dương qua Lái Thiêu đến ranh giới TP.HCM | QĐ đặt tên đường tỉnh Bình Dương |  | cu_2024
+74 | Bình Dương | Phú Lợi | Đường | TP Thủ Dầu Một | Từ ngã ba Huỳnh Văn Cù đến ngã tư Chợ Đình | QĐ đặt tên đường TP Thủ Dầu Một |  | cu_2024
+22 | Quảng Ninh | Hạ Long | Đường | TP Hạ Long | Trục ven biển Bãi Cháy từ phà Bãi Cháy cũ qua Sun World đến cảng tàu quốc tế | QĐ đặt tên đường TP Hạ Long, UBND tỉnh Quảng Ninh | Đường bao biển Bãi Cháy | hien_hanh
+22 | Quảng Ninh | Lê Thánh Tông | Đường | TP Hạ Long | Trục trung tâm Hòn Gai từ ngã ba Kênh Liêm đến ngã năm Cột Đồng Hồ | QĐ đặt tên đường TP Hạ Long, UBND tỉnh Quảng Ninh |  | hien_hanh
+22 | Quảng Ninh | Trần Hưng Đạo | Đường | TP Hạ Long | Từ ngã tư Loong Toòng qua chợ Hạ Long 1 đến ngã năm Cột Đồng Hồ | QĐ đặt tên đường TP Hạ Long, UBND tỉnh Quảng Ninh | Đường Trần Hưng Đạo - Hạ Long | hien_hanh
+22 | Quảng Ninh | 25 Tháng 4 | Đường | TP Hạ Long | Quảng trường Cột Đồng Hồ trung tâm thành phố Hạ Long | QĐ đặt tên đường TP Hạ Long, UBND tỉnh Quảng Ninh | Đường 25/4 | hien_hanh
+22 | Quảng Ninh | Trần Phú | Đường | TP Móng Cái | Trục xuyên tâm TP Móng Cái từ cửa khẩu quốc tế Móng Cái đến cầu Ka Long | QĐ đặt tên đường TP Móng Cái, UBND tỉnh Quảng Ninh | Đường Trần Phú - Móng Cái | hien_hanh
+56 | Khánh Hòa | Trần Phú | Đường | TP Nha Trang | Trục đường ven biển Nha Trang từ cảng Nha Trang qua cầu Trần Phú đến ngã ba Xóm Cồn | QĐ đặt tên đường TP Nha Trang, UBND tỉnh Khánh Hòa | Đường ven biển Trần Phú | hien_hanh
+56 | Khánh Hòa | 2 Tháng 4 | Đường | TP Nha Trang | Từ ngã ba Thành (Diên Khánh) qua cầu Xóm Bóng đến ngã sáu trung tâm Nha Trang | QĐ đặt tên đường TP Nha Trang, UBND tỉnh Khánh Hòa | Đường 2/4; Đường Hai Tháng Tư | hien_hanh
+56 | Khánh Hòa | Thái Nguyên | Đường | TP Nha Trang | Từ ngã sáu trung tâm qua ga Nha Trang đến ngã sáu Mã Vòng | QĐ đặt tên đường TP Nha Trang, UBND tỉnh Khánh Hòa |  | hien_hanh
+56 | Khánh Hòa | Yersin | Đường | TP Nha Trang | Từ bãi biển Trần Phú qua Viện Pasteur Nha Trang đến ngã sáu Mã Vòng | QĐ đặt tên đường TP Nha Trang, UBND tỉnh Khánh Hòa | Đường Yersin - Nha Trang | hien_hanh
+56 | Khánh Hòa | Lê Thánh Tôn | Đường | TP Nha Trang | Từ ngã sáu trung tâm đến quảng trường 2 Tháng 4 bãi biển | QĐ đặt tên đường TP Nha Trang, UBND tỉnh Khánh Hòa |  | hien_hanh
+68 | Lâm Đồng | Trần Phú | Đường | TP Đà Lạt | Từ vòng xoay Hoàng Văn Thụ qua trước Nhà thờ Con Gà đến ngã tư Kim Cúc | QĐ đặt tên đường TP Đà Lạt, UBND tỉnh Lâm Đồng | Đường Trần Phú - Đà Lạt | hien_hanh
+68 | Lâm Đồng | Hùng Vương | Đường | TP Đà Lạt | Từ ngã tư Kim Cúc qua Dinh 1 đến vòng xoay Trại Mát | QĐ đặt tên đường TP Đà Lạt, UBND tỉnh Lâm Đồng | Quốc lộ 20 qua Đà Lạt | hien_hanh
+68 | Lâm Đồng | Hồ Tùng Mậu | Đường | TP Đà Lạt | Từ ngã tư Kim Cúc ôm ven hồ Xuân Hương đến cầu Ông Đạo | QĐ đặt tên đường TP Đà Lạt, UBND tỉnh Lâm Đồng |  | hien_hanh
+68 | Lâm Đồng | Nguyễn Thị Minh Khai | Đường | TP Đà Lạt | Khu chợ đêm Đà Lạt từ bùng binh Chợ Đà Lạt đến cầu Ông Đạo | QĐ đặt tên đường TP Đà Lạt, UBND tỉnh Lâm Đồng | Chợ đêm Đà Lạt | hien_hanh
+68 | Lâm Đồng | Phan Đình Phùng | Đường | TP Đà Lạt | Từ ngã ba chùa Linh Sơn qua chợ Phan Đình Phùng đến bùng binh số 6 | QĐ đặt tên đường TP Đà Lạt, UBND tỉnh Lâm Đồng |  | hien_hanh
+68 | Lâm Đồng | Bùi Thị Xuân | Đường | TP Đà Lạt | Từ hồ Xuân Hương qua ngã năm Đại học Đà Lạt đến ngã ba Cổ Loa | QĐ đặt tên đường TP Đà Lạt, UBND tỉnh Lâm Đồng |  | hien_hanh
+40 | Nghệ An | Lê Nin | Đại lộ | TP Vinh | Đại lộ sân bay từ ngã tư bưu điện tỉnh đến sân bay quốc tế Vinh | QĐ đặt tên đường TP Vinh, UBND tỉnh Nghệ An | Đại lộ V.I. Lê Nin | hien_hanh
+40 | Nghệ An | Quang Trung | Đường | TP Vinh | Trục thương mại từ ngã tư Chợ Vinh đến ngã tư cầu Ga | QĐ đặt tên đường TP Vinh, UBND tỉnh Nghệ An | Quốc lộ 1A cũ qua TP Vinh | hien_hanh
+40 | Nghệ An | Trường Thi | Đường | TP Vinh | Từ quảng trường Hồ Chí Minh đến ngã sáu Bến Thủy | QĐ đặt tên đường TP Vinh, UBND tỉnh Nghệ An |  | hien_hanh
+40 | Nghệ An | Phan Đăng Lưu | Đường | TP Vinh | Từ đường Trường Thi đến đường Nguyễn Du | QĐ đặt tên đường TP Vinh, UBND tỉnh Nghệ An |  | hien_hanh
+40 | Nghệ An | Bình Minh | Đường | Thị xã Cửa Lò | Trục ven biển Cửa Lò từ đảo Lan Châu đến ngã ba Cửa Hội | QĐ đặt tên đường TX Cửa Lò, UBND tỉnh Nghệ An | Đường ven biển Cửa Lò | hien_hanh
+38 | Thanh Hóa | Lê Lợi | Đại lộ | TP Thanh Hóa | Đại lộ xuyên tâm từ cầu Bố qua tượng đài Lê Lợi đến ngã ba Bia | QĐ đặt tên đường TP Thanh Hóa, UBND tỉnh Thanh Hóa | Đại lộ Lê Lợi - Thanh Hóa | hien_hanh
+38 | Thanh Hóa | Quang Trung | Đường | TP Thanh Hóa | Từ ngã tư Bưu điện tỉnh qua cầu Quán Nam đến đường tránh Quốc lộ 1 | QĐ đặt tên đường TP Thanh Hóa, UBND tỉnh Thanh Hóa | Quốc lộ 1A qua Thanh Hóa | hien_hanh
+38 | Thanh Hóa | Trần Phú | Đường | TP Thanh Hóa | Từ đại lộ Lê Lợi đến ngã ba Chợ Vườn Hoa | QĐ đặt tên đường TP Thanh Hóa, UBND tỉnh Thanh Hóa |  | hien_hanh
+38 | Thanh Hóa | Bà Triệu | Đường | TP Thanh Hóa | Từ cầu Bố đến dốc Ga | QĐ đặt tên đường TP Thanh Hóa, UBND tỉnh Thanh Hóa |  | hien_hanh
+38 | Thanh Hóa | Hồ Xuân Hương | Đường | TP Sầm Sơn | Trục đường ven biển ôm dọc các bãi tắm A, B, C, D từ núi Trường Lệ đến FLC Sầm Sơn | QĐ đặt tên đường TP Sầm Sơn, UBND tỉnh Thanh Hóa | Đường ven biển Sầm Sơn | hien_hanh
+19 | Thái Nguyên | Hoàng Văn Thụ | Đường | TP Thái Nguyên | Từ ngã tư bưu điện tỉnh đến ngã ba Đồng Bẩm | QĐ đặt tên đường TP Thái Nguyên, UBND tỉnh Thái Nguyên |  | hien_hanh
+19 | Thái Nguyên | Lương Ngọc Quyến | Đường | TP Thái Nguyên | Từ ngã năm Ga Thái Nguyên qua Đại học Y Dược đến ngã ba Đán | QĐ đặt tên đường TP Thái Nguyên, UBND tỉnh Thái Nguyên |  | hien_hanh
+19 | Thái Nguyên | Cách Mạng Tháng Tám | Đường | TP Thái Nguyên | Từ ngã ba Bến Tượng qua gang thép Thái Nguyên đến cầu Gia Bẩy | QĐ đặt tên đường TP Thái Nguyên, UBND tỉnh Thái Nguyên |  | hien_hanh
+25 | Phú Thọ | Hùng Vương | Đại lộ | TP Việt Trì | Đại lộ nối từ cầu Việt Trì qua trung tâm thành phố đến Khu di tích Đền Hùng | QĐ đặt tên đường TP Việt Trì, UBND tỉnh Phú Thọ | Đại lộ Hùng Vương Đền Hùng | hien_hanh
+25 | Phú Thọ | Nguyễn Tất Thành | Đường | TP Việt Trì | Từ đại lộ Hùng Vương qua công viên Văn Lang đến đê sông Lô | QĐ đặt tên đường TP Việt Trì, UBND tỉnh Phú Thọ |  | hien_hanh
+25 | Phú Thọ | Tiên Dung | Đường | TP Việt Trì | Chạy quanh công viên hồ Văn Lang trung tâm thành phố Việt Trì | QĐ đặt tên đường TP Việt Trì, UBND tỉnh Phú Thọ |  | hien_hanh
+20 | Lạng Sơn | Trần Đăng Ninh | Đường | TP Lạng Sơn | Từ ngã tư Hùng Vương đến dốc Kỳ Lừa | QĐ đặt tên đường TP Lạng Sơn, UBND tỉnh Lạng Sơn | Quốc lộ 1A qua TP Lạng Sơn | hien_hanh
+20 | Lạng Sơn | Tam Thanh | Đường | TP Lạng Sơn | Tuyến đường dẫn vào danh thắng Nhị Thanh - Tam Thanh và nàng Tô Thị | QĐ đặt tên đường TP Lạng Sơn, UBND tỉnh Lạng Sơn |  | hien_hanh
+20 | Lạng Sơn | Lê Lợi | Đường | TP Lạng Sơn | Từ cầu Kỳ Cùng qua chợ Đông Kinh đến ngã ba Mai Pha | QĐ đặt tên đường TP Lạng Sơn, UBND tỉnh Lạng Sơn |  | hien_hanh
+96 | Cà Mau | Phan Ngọc Hiển | Đường | TP Cà Mau | Từ cầu Cà Mau qua trung tâm hành chính tỉnh đến tượng đài Thống Nhất | QĐ đặt tên đường TP Cà Mau, UBND tỉnh Cà Mau |  | hien_hanh
+96 | Cà Mau | Trần Hưng Đạo | Đường | TP Cà Mau | Từ ngã tư Phan Ngọc Hiển qua bến xe Cà Mau đến cầu Hòa Trung | QĐ đặt tên đường TP Cà Mau, UBND tỉnh Cà Mau | Đường Trần Hưng Đạo - Cà Mau | hien_hanh
+96 | Cà Mau | Ngô Quyền | Đường | TP Cà Mau | Chạy dọc sông Gành Hào từ trung tâm TP Cà Mau | QĐ đặt tên đường TP Cà Mau, UBND tỉnh Cà Mau |  | hien_hanh
+15 | Lào Cai | Hoàng Liên | Đường | TP Lào Cai | Trục xuyên tâm từ cầu Cốc Lếu qua quảng trường trung tâm tỉnh Lào Cai | QĐ đặt tên đường TP Lào Cai, UBND tỉnh Lào Cai | Đường Hoàng Liên - Lào Cai | moi_2025
+10 | Lào Cai | Hoàng Liên | Đường | TP Lào Cai | Trục xuyên tâm từ cầu Cốc Lếu qua quảng trường trung tâm tỉnh Lào Cai | QĐ đặt tên đường TP Lào Cai, UBND tỉnh Lào Cai | Đường Hoàng Liên - Lào Cai | cu_2024
+15 | Lào Cai | Fansipan | Đường | Thị xã Sa Pa | Từ nhà thờ đá Sa Pa đến ga cáp treo Fansipan Legend | QĐ đặt tên đường TX Sa Pa, UBND tỉnh Lào Cai | Đường lên đỉnh Fansipan | moi_2025
+10 | Lào Cai | Fansipan | Đường | Thị xã Sa Pa | Từ nhà thờ đá Sa Pa đến ga cáp treo Fansipan Legend | QĐ đặt tên đường TX Sa Pa, UBND tỉnh Lào Cai | Đường lên đỉnh Fansipan | cu_2024
+15 | Yên Bái | Điện Biên | Đường | TP Yên Bái | Trục chính từ km 2 qua km 5 trung tâm thành phố Yên Bái | QĐ đặt tên đường TP Yên Bái, UBND tỉnh Yên Bái | Đường Điện Biên - Yên Bái | cu_2024
+15 | Yên Bái | Nguyễn Tất Thành | Đường | TP Yên Bái | Đại lộ trung tâm từ ngã tư km 5 đến cầu Bách Lẫm | QĐ đặt tên đường TP Yên Bái, UBND tỉnh Yên Bái |  | cu_2024
+24 | Bắc Ninh | Lý Thái Tổ | Đường | TP Bắc Ninh | Đại lộ trung tâm từ ngã sáu Bắc Ninh đến tượng đài Lý Thái Tổ | QĐ đặt tên đường TP Bắc Ninh, UBND tỉnh Bắc Ninh | Đại lộ Lý Thái Tổ - Bắc Ninh | moi_2025
+27 | Bắc Ninh | Lý Thái Tổ | Đường | TP Bắc Ninh | Đại lộ trung tâm từ ngã sáu Bắc Ninh đến tượng đài Lý Thái Tổ | QĐ đặt tên đường TP Bắc Ninh, UBND tỉnh Bắc Ninh | Đại lộ Lý Thái Tổ - Bắc Ninh | cu_2024
+24 | Bắc Ninh | Trần Hưng Đạo | Đường | TP Bắc Ninh | Từ ngã sáu Bắc Ninh qua cầu Đáp Cầu đến đê sông Cầu | QĐ đặt tên đường TP Bắc Ninh, UBND tỉnh Bắc Ninh | Đường Trần Hưng Đạo - Bắc Ninh | moi_2025
+27 | Bắc Ninh | Trần Hưng Đạo | Đường | TP Bắc Ninh | Từ ngã sáu Bắc Ninh qua cầu Đáp Cầu đến đê sông Cầu | QĐ đặt tên đường TP Bắc Ninh, UBND tỉnh Bắc Ninh | Đường Trần Hưng Đạo - Bắc Ninh | cu_2024
+24 | Bắc Giang | Hùng Vương | Đường | TP Bắc Giang | Từ ngã tư bưu điện tỉnh qua quảng trường 3 Tháng 2 đến cầu Đồng Sơn | QĐ đặt tên đường TP Bắc Giang, UBND tỉnh Bắc Giang | Đường Hùng Vương - Bắc Giang | cu_2024
+24 | Bắc Giang | Xương Giang | Đường | TP Bắc Giang | Từ ngã ba Quán Thành qua di tích thành Xương Giang đến ngã tư Kế | QĐ đặt tên đường TP Bắc Giang, UBND tỉnh Bắc Giang | Quốc lộ 1 cũ - Bắc Giang | cu_2024
+44 | Quảng Trị | Lê Duẩn | Đường | TP Đông Hà | Trục huyết mạch Quốc lộ 1 qua trung tâm thành phố Đông Hà | QĐ đặt tên đường TP Đông Hà, UBND tỉnh Quảng Trị | Quốc lộ 1 qua Đông Hà | moi_2025
+45 | Quảng Trị | Lê Duẩn | Đường | TP Đông Hà | Trục huyết mạch Quốc lộ 1 qua trung tâm thành phố Đông Hà | QĐ đặt tên đường TP Đông Hà, UBND tỉnh Quảng Trị | Quốc lộ 1 qua Đông Hà | cu_2024
+44 | Quảng Bình | Quang Trung | Đường | TP Đồng Hới | Trục huyết mạch từ cầu Dài qua tượng đài Mẹ Suốt đến cầu Nhật Lệ | QĐ đặt tên đường TP Đồng Hới, UBND tỉnh Quảng Bình | Quốc lộ 1 qua Đồng Hới | cu_2024
+44 | Quảng Bình | Trần Hưng Đạo | Đường | TP Đồng Hới | Từ ngã tư Hữu Nghị qua Chợ Đồng Hới đến đường Quách Xuân Kỳ | QĐ đặt tên đường TP Đồng Hới, UBND tỉnh Quảng Bình | Đường Trần Hưng Đạo - Đồng Hới | cu_2024
+52 | Gia Lai | Trần Phú | Đường | TP Pleiku | Từ ngã ba Hoa Lư qua quảng trường Đại Đoàn Kết đến đường Nguyễn Văn Cừ | QĐ đặt tên đường TP Pleiku, UBND tỉnh Gia Lai | Đường Trần Phú - Pleiku | moi_2025
+64 | Gia Lai | Trần Phú | Đường | TP Pleiku | Từ ngã ba Hoa Lư qua quảng trường Đại Đoàn Kết đến đường Nguyễn Văn Cừ | QĐ đặt tên đường TP Pleiku, UBND tỉnh Gia Lai | Đường Trần Phú - Pleiku | cu_2024
+52 | Bình Định | Nguyễn Tất Thành | Đại lộ | TP Quy Nhơn | Đại lộ quảng trường biển Quy Nhơn từ ngã ba Đống Đa đến đường An Dương Vương | QĐ đặt tên đường TP Quy Nhơn, UBND tỉnh Bình Định | Đại lộ biển Quy Nhơn | cu_2024
+52 | Bình Định | Xuân Diệu | Đường | TP Quy Nhơn | Trục ven biển Quy Nhơn ôm theo eo vịnh Quy Nhơn | QĐ đặt tên đường TP Quy Nhơn, UBND tỉnh Bình Định | Đường ven biển Xuân Diệu | cu_2024
+80 | Tây Ninh | 30 Tháng 4 | Đường | TP Tây Ninh | Đại lộ trung tâm từ ngã ba Cửa Hòa Viện đến ngã tư bưu điện tỉnh | QĐ đặt tên đường TP Tây Ninh, UBND tỉnh Tây Ninh | Đường 30/4 Tây Ninh | moi_2025
+72 | Tây Ninh | 30 Tháng 4 | Đường | TP Tây Ninh | Đại lộ trung tâm từ ngã ba Cửa Hòa Viện đến ngã tư bưu điện tỉnh | QĐ đặt tên đường TP Tây Ninh, UBND tỉnh Tây Ninh | Đường 30/4 Tây Ninh | cu_2024
+80 | Long An | Hùng Vương | Đường | TP Tân An | Trục trung tâm thành phố Tân An từ cầu Tân An qua công viên TP đến Quốc lộ 1 | QĐ đặt tên đường TP Tân An, UBND tỉnh Long An | Đường Hùng Vương - Tân An | cu_2024
+80 | Long An | Trần Phong Sắc | Đường | TP Tân An | Từ đường Hùng Vương đến đường Cách Mạng Tháng Tám | QĐ đặt tên đường TP Tân An, UBND tỉnh Long An |  | cu_2024
+82 | Đồng Tháp | Nguyễn Huệ | Đường | TP Cao Lãnh | Trục trung tâm từ cầu Đình Trung qua chợ Cao Lãnh đến ngã tư 30 Tháng 4 | QĐ đặt tên đường TP Cao Lãnh, UBND tỉnh Đồng Tháp | Đường Nguyễn Huệ - Cao Lãnh | moi_2025
+87 | Đồng Tháp | Nguyễn Huệ | Đường | TP Cao Lãnh | Trục trung tâm từ cầu Đình Trung qua chợ Cao Lãnh đến ngã tư 30 Tháng 4 | QĐ đặt tên đường TP Cao Lãnh, UBND tỉnh Đồng Tháp | Đường Nguyễn Huệ - Cao Lãnh | cu_2024
+82 | Tiền Giang | Ấp Bắc | Đường | TP Mỹ Tho | Trục cửa ngõ từ ngã ba Trung Lương vào trung tâm thành phố Mỹ Tho | QĐ đặt tên đường TP Mỹ Tho, UBND tỉnh Tiền Giang | Quốc lộ 60 qua Mỹ Tho | cu_2024
+82 | Tiền Giang | Hùng Vương | Đại lộ | TP Mỹ Tho | Từ đường Nguyễn Trãi qua cầu Hùng Vương đến đường Nguyễn Thị Thập | QĐ đặt tên đường TP Mỹ Tho, UBND tỉnh Tiền Giang | Đại lộ Hùng Vương Mỹ Tho | cu_2024
+91 | An Giang | Trần Hưng Đạo | Đường | TP Long Xuyên | Trục xuyên tâm từ ngã ba phà Vàm Cống qua Chợ Mỹ Bình đến cầu Cái Sắn | QĐ đặt tên đường TP Long Xuyên, UBND tỉnh An Giang | Quốc lộ 91 qua Long Xuyên | moi_2025
+89 | An Giang | Trần Hưng Đạo | Đường | TP Long Xuyên | Trục xuyên tâm từ ngã ba phà Vàm Cống qua Chợ Mỹ Bình đến cầu Cái Sắn | QĐ đặt tên đường TP Long Xuyên, UBND tỉnh An Giang | Quốc lộ 91 qua Long Xuyên | cu_2024
+91 | Kiên Giang | Trần Phú | Đường | TP Rạch Giá | Trục ven biển khu lấn biển Rạch Giá từ cầu 3 Tháng 2 đến công viên Lạc Hồng | QĐ đặt tên đường TP Rạch Giá, UBND tỉnh Kiên Giang | Khu lấn biển Rạch Giá | cu_2024
+91 | Kiên Giang | Nguyễn Trung Trực | Đường | TP Rạch Giá | Từ đền thờ Nguyễn Trung Trực qua trung tâm thương mại Rạch Giá đến ngã tư Rạch Sỏi | QĐ đặt tên đường TP Rạch Giá, UBND tỉnh Kiên Giang |  | cu_2024
+75 | Đồng Nai | Thùy Vân | Đường | TP Vũng Tàu | Trục ven biển Bãi Sau TP Vũng Tàu | QĐ đặt tên đường TP Vũng Tàu | Bãi Sau Vũng Tàu | moi_2025
+77 | Bà Rịa - Vũng Tàu | Thùy Vân | Đường | TP Vũng Tàu | Trục ven biển Bãi Sau TP Vũng Tàu | QĐ đặt tên đường TP Vũng Tàu | Bãi Sau Vũng Tàu | cu_2024
+75 | Đồng Nai | Hạ Long | Đường | TP Vũng Tàu | Trục ven biển Bãi Trước ôm quanh sườn Núi Nhỏ | QĐ đặt tên đường TP Vũng Tàu | Đường ven biển Bãi Trước | moi_2025
+77 | Bà Rịa - Vũng Tàu | Hạ Long | Đường | TP Vũng Tàu | Trục ven biển Bãi Trước ôm quanh sườn Núi Nhỏ | QĐ đặt tên đường TP Vũng Tàu | Đường ven biển Bãi Trước | cu_2024
+75 | Đồng Nai | Trần Phú | Đường | TP Vũng Tàu | Trục ven biển Bãi Dâu ôm quanh sườn Núi Lớn | QĐ đặt tên đường TP Vũng Tàu | Đường ven biển Bãi Dâu | moi_2025
+77 | Bà Rịa - Vũng Tàu | Trần Phú | Đường | TP Vũng Tàu | Trục ven biển Bãi Dâu ôm quanh sườn Núi Lớn | QĐ đặt tên đường TP Vũng Tàu | Đường ven biển Bãi Dâu | cu_2024
+75 | Đồng Nai | Lê Hồng Phong | Đường | TP Vũng Tàu | Từ bùng binh tượng đài Dầu Khí đến bùng binh ngã năm | QĐ đặt tên đường TP Vũng Tàu |  | moi_2025
+77 | Bà Rịa - Vũng Tàu | Lê Hồng Phong | Đường | TP Vũng Tàu | Từ bùng binh tượng đài Dầu Khí đến bùng binh ngã năm | QĐ đặt tên đường TP Vũng Tàu |  | cu_2024
+75 | Đồng Nai | Ba Cu | Đường | TP Vũng Tàu | Từ đường Quang Trung Bãi Trước đến ngã năm Ba Cu | QĐ đặt tên đường TP Vũng Tàu |  | moi_2025
+77 | Bà Rịa - Vũng Tàu | Ba Cu | Đường | TP Vũng Tàu | Từ đường Quang Trung Bãi Trước đến ngã năm Ba Cu | QĐ đặt tên đường TP Vũng Tàu |  | cu_2024
+68 | Lâm Đồng | Nguyễn Tất Thành | Đại lộ | TP Phan Thiết | Từ vòng xoay tượng đài Chiến Thắng đến bãi biển Đồi Dương | QĐ đặt tên đường TP Phan Thiết | Đại lộ Đồi Dương | moi_2025
+60 | Bình Thuận | Nguyễn Tất Thành | Đại lộ | TP Phan Thiết | Từ vòng xoay tượng đài Chiến Thắng đến bãi biển Đồi Dương | QĐ đặt tên đường TP Phan Thiết | Đại lộ Đồi Dương | cu_2024
+68 | Lâm Đồng | Trần Hưng Đạo | Đường | TP Phan Thiết | Trục trung tâm TP Phan Thiết qua cầu Trần Hưng Đạo | QĐ đặt tên đường TP Phan Thiết | Đường Trần Hưng Đạo - Phan Thiết | moi_2025
+60 | Bình Thuận | Trần Hưng Đạo | Đường | TP Phan Thiết | Trục trung tâm TP Phan Thiết qua cầu Trần Hưng Đạo | QĐ đặt tên đường TP Phan Thiết | Đường Trần Hưng Đạo - Phan Thiết | cu_2024
+68 | Lâm Đồng | Nguyễn Đình Chiểu | Đường | TP Phan Thiết | Thủ phủ resort Mũi Né từ Hàm Tiến đến đồi cát Mũi Né | QĐ đặt tên đường TP Phan Thiết | Đường resort Mũi Né | moi_2025
+60 | Bình Thuận | Nguyễn Đình Chiểu | Đường | TP Phan Thiết | Thủ phủ resort Mũi Né từ Hàm Tiến đến đồi cát Mũi Né | QĐ đặt tên đường TP Phan Thiết | Đường resort Mũi Né | cu_2024
+66 | Đắk Lắk | 23 Tháng 3 | Đường | TP Gia Nghĩa | Trục chính trung tâm thành phố Gia Nghĩa | QĐ đặt tên đường TP Gia Nghĩa | Đường 23/3 Gia Nghĩa | moi_2025
+67 | Đắk Nông | 23 Tháng 3 | Đường | TP Gia Nghĩa | Trục chính trung tâm thành phố Gia Nghĩa | QĐ đặt tên đường TP Gia Nghĩa | Đường 23/3 Gia Nghĩa | cu_2024
+66 | Đắk Lắk | Lê Duẩn | Đường | TP Buôn Ma Thuột | Từ vòng xoay ngã sáu Buôn Ma Thuột đến bến xe phía Nam | QĐ đặt tên đường TP Buôn Ma Thuột | Quốc lộ 14 qua Buôn Ma Thuột | hien_hanh
+66 | Đắk Lắk | Phan Chu Trinh | Đường | TP Buôn Ma Thuột | Từ ngã sáu Buôn Ma Thuột đến ngã tư Trần Quý Cáp | QĐ đặt tên đường TP Buôn Ma Thuột |  | hien_hanh
+66 | Đắk Lắk | Nguyễn Tất Thành | Đường | TP Buôn Ma Thuột | Từ vòng xoay ngã sáu đến bến xe liên tỉnh phía Bắc | QĐ đặt tên đường TP Buôn Ma Thuột |  | hien_hanh
+48 | Đà Nẵng | Trần Hưng Đạo | Đường | TP Hội An | Từ ngã ba Chùa Cầu đến ngã tư Cửa Đại | QĐ đặt tên đường TP Hội An | Trục chính phố cổ Hội An | moi_2025
+49 | Quảng Nam | Trần Hưng Đạo | Đường | TP Hội An | Từ ngã ba Chùa Cầu đến ngã tư Cửa Đại | QĐ đặt tên đường TP Hội An | Trục chính phố cổ Hội An | cu_2024
+48 | Đà Nẵng | Cửa Đại | Đường | TP Hội An | Từ trung tâm Hội An ra bãi biển Cửa Đại | QĐ đặt tên đường TP Hội An |  | moi_2025
+49 | Quảng Nam | Cửa Đại | Đường | TP Hội An | Từ trung tâm Hội An ra bãi biển Cửa Đại | QĐ đặt tên đường TP Hội An |  | cu_2024
+48 | Đà Nẵng | Hùng Vương | Đường | TP Tam Kỳ | Trục huyết mạch từ cầu Kỳ Phú qua quảng trường 24 Tháng 3 đến quốc lộ 1 | QĐ đặt tên đường TP Tam Kỳ |  | moi_2025
+49 | Quảng Nam | Hùng Vương | Đường | TP Tam Kỳ | Trục huyết mạch từ cầu Kỳ Phú qua quảng trường 24 Tháng 3 đến quốc lộ 1 | QĐ đặt tên đường TP Tam Kỳ |  | cu_2024
+37 | Ninh Bình | Trần Hưng Đạo | Đường | TP Ninh Bình | Quốc lộ 1 qua trung tâm thành phố Ninh Bình từ cầu Gián Khẩu đến cầu Lim | QĐ đặt tên đường TP Ninh Bình | Quốc lộ 1A qua Ninh Bình | hien_hanh
+37 | Ninh Bình | Lê Đại Hành | Đường | TP Ninh Bình | Từ đường Trần Hưng Đạo qua quảng trường Đinh Tiên Hoàng Đế | QĐ đặt tên đường TP Ninh Bình |  | hien_hanh
+37 | Ninh Bình | Tràng An | Đại lộ | TP Ninh Bình, Hoa Lư | Đại lộ danh thắng từ trung tâm TP Ninh Bình vào Quần thể danh thắng Tràng An - chùa Bái Đính | QĐ đặt tên đường TP Ninh Bình | Đại lộ Bái Đính Tràng An | hien_hanh
+37 | Ninh Bình | Trần Hưng Đạo | Đường | TP Nam Định | Từ cầu Đò Quan qua quảng trường 3 Tháng 2 đến dốc Đền Trần | QĐ đặt tên đường TP Nam Định | Trục chính thành Nam | moi_2025
+36 | Nam Định | Trần Hưng Đạo | Đường | TP Nam Định | Từ cầu Đò Quan qua quảng trường 3 Tháng 2 đến dốc Đền Trần | QĐ đặt tên đường TP Nam Định | Trục chính thành Nam | cu_2024
+37 | Ninh Bình | Hàng Tiện | Phố | TP Nam Định | Phố cổ dệt truyền thống Nam Định từ phố Trần Hưng Đạo đến phố Quang Trung | QĐ đặt tên đường TP Nam Định |  | moi_2025
+36 | Nam Định | Hàng Tiện | Phố | TP Nam Định | Phố cổ dệt truyền thống Nam Định từ phố Trần Hưng Đạo đến phố Quang Trung | QĐ đặt tên đường TP Nam Định |  | cu_2024
+37 | Ninh Bình | Biên Hòa | Đường | TP Phủ Lý | Từ cầu Châu Sơn qua ga Phủ Lý đến cầu Hồng Phú | QĐ đặt tên đường TP Phủ Lý | Quốc lộ 1 cũ qua Phủ Lý | moi_2025
+35 | Hà Nam | Biên Hòa | Đường | TP Phủ Lý | Từ cầu Châu Sơn qua ga Phủ Lý đến cầu Hồng Phú | QĐ đặt tên đường TP Phủ Lý | Quốc lộ 1 cũ qua Phủ Lý | cu_2024
+37 | Ninh Bình | Lý Thường Kiệt | Đường | TP Phủ Lý | Từ ngã tư Biên Hòa đến quốc lộ 21B | QĐ đặt tên đường TP Phủ Lý |  | moi_2025
+35 | Hà Nam | Lý Thường Kiệt | Đường | TP Phủ Lý | Từ ngã tư Biên Hòa đến quốc lộ 21B | QĐ đặt tên đường TP Phủ Lý |  | cu_2024
+31 | Hải Phòng | Bạch Đằng | Đường | TP Hải Dương | Trục ven hồ Bạch Đằng trung tâm thành phố Hải Dương | QĐ đặt tên đường TP Hải Dương | Hồ Bạch Đằng Hải Dương | moi_2025
+30 | Hải Dương | Bạch Đằng | Đường | TP Hải Dương | Trục ven hồ Bạch Đằng trung tâm thành phố Hải Dương | QĐ đặt tên đường TP Hải Dương | Hồ Bạch Đằng Hải Dương | cu_2024
+31 | Hải Phòng | Trần Hưng Đạo | Đường | TP Hải Dương | Từ cầu Phú Lương cũ qua ngã tư Đông Thị đến ngã sáu Máy Sứ | QĐ đặt tên đường TP Hải Dương | Trục chính thành phố Hải Dương | moi_2025
+30 | Hải Dương | Trần Hưng Đạo | Đường | TP Hải Dương | Từ cầu Phú Lương cũ qua ngã tư Đông Thị đến ngã sáu Máy Sứ | QĐ đặt tên đường TP Hải Dương | Trục chính thành phố Hải Dương | cu_2024
+33 | Hưng Yên | Bãi Sậy | Đường | TP Hưng Yên | Trục trung tâm Phố Hiến quanh hồ Bán Nguyệt | QĐ đặt tên đường TP Hưng Yên | Hồ Bán Nguyệt Phố Hiến | hien_hanh
+33 | Hưng Yên | Điện Biên | Đường | TP Hưng Yên | Từ đê tả Hồng qua đền Mẫu Phố Hiến đến quảng trường Nguyễn Văn Linh | QĐ đặt tên đường TP Hưng Yên |  | hien_hanh
+42 | Hà Tĩnh | Hà Huy Tập | Đường | TP Hà Tĩnh | Quốc lộ 1 qua trung tâm thành phố Hà Tĩnh từ cầu Đò Hà đến ngã tư bưu điện tỉnh | QĐ đặt tên đường TP Hà Tĩnh | Quốc lộ 1A qua Hà Tĩnh | hien_hanh
+42 | Hà Tĩnh | Trần Phú | Đường | TP Hà Tĩnh | Từ ngã tư bưu điện tỉnh qua cầu Cày đến ranh giới huyện Thạch Hà | QĐ đặt tên đường TP Hà Tĩnh | Đường Trần Phú - Hà Tĩnh | hien_hanh
+86 | Vĩnh Long | Đồng Khởi | Đại lộ | TP Bến Tre | Đại lộ trung tâm từ cầu Bến Tre qua tượng đài Đồng Khởi đến ngã tư Tân Thành | QĐ đặt tên đường TP Bến Tre | Đại lộ Đồng Khởi Bến Tre | moi_2025
+83 | Bến Tre | Đồng Khởi | Đại lộ | TP Bến Tre | Đại lộ trung tâm từ cầu Bến Tre qua tượng đài Đồng Khởi đến ngã tư Tân Thành | QĐ đặt tên đường TP Bến Tre | Đại lộ Đồng Khởi Bến Tre | cu_2024
+86 | Vĩnh Long | Nguyễn Thị Minh Khai | Đường | TP Trà Vinh | Từ cầu Long Bình qua chợ Trà Vinh đến đường Phạm Hồng Thái | QĐ đặt tên đường TP Trà Vinh |  | moi_2025
+84 | Trà Vinh | Nguyễn Thị Minh Khai | Đường | TP Trà Vinh | Từ cầu Long Bình qua chợ Trà Vinh đến đường Phạm Hồng Thái | QĐ đặt tên đường TP Trà Vinh |  | cu_2024
+96 | Cà Mau | Trần Phú | Đường | TP Bạc Liêu | Trục trung tâm từ cầu Kim Sơn qua quảng trường Hùng Vương | QĐ đặt tên đường TP Bạc Liêu |  | moi_2025
+95 | Bạc Liêu | Trần Phú | Đường | TP Bạc Liêu | Trục trung tâm từ cầu Kim Sơn qua quảng trường Hùng Vương | QĐ đặt tên đường TP Bạc Liêu |  | cu_2024
+96 | Cà Mau | Hòa Bình | Đường | TP Bạc Liêu | Từ cầu Bạc Liêu qua Tỉnh ủy Bạc Liêu | QĐ đặt tên đường TP Bạc Liêu |  | moi_2025
+95 | Bạc Liêu | Hòa Bình | Đường | TP Bạc Liêu | Từ cầu Bạc Liêu qua Tỉnh ủy Bạc Liêu | QĐ đặt tên đường TP Bạc Liêu |  | cu_2024
+96 | Cà Mau | Cao Văn Lầu | Đường | TP Bạc Liêu | Tuyến đường dẫn vào khu lưu niệm nhạc sĩ Cao Văn Lầu và đờn ca tài tử | QĐ đặt tên đường TP Bạc Liêu | Nhạc sĩ Cao Văn Lầu | moi_2025
+95 | Bạc Liêu | Cao Văn Lầu | Đường | TP Bạc Liêu | Tuyến đường dẫn vào khu lưu niệm nhạc sĩ Cao Văn Lầu và đờn ca tài tử | QĐ đặt tên đường TP Bạc Liêu | Nhạc sĩ Cao Văn Lầu | cu_2024
+92 | Cần Thơ | Lê Hồng Phong | Đường | TP Sóc Trăng | Từ vòng xoay tượng đài Sóc Trăng đến cầu Chùa Hang | QĐ đặt tên đường TP Sóc Trăng |  | moi_2025
+94 | Sóc Trăng | Lê Hồng Phong | Đường | TP Sóc Trăng | Từ vòng xoay tượng đài Sóc Trăng đến cầu Chùa Hang | QĐ đặt tên đường TP Sóc Trăng |  | cu_2024
+92 | Cần Thơ | Phú Lợi | Đường | TP Sóc Trăng | Quốc lộ 1 qua trung tâm thành phố Sóc Trăng | QĐ đặt tên đường TP Sóc Trăng |  | moi_2025
+94 | Sóc Trăng | Phú Lợi | Đường | TP Sóc Trăng | Quốc lộ 1 qua trung tâm thành phố Sóc Trăng | QĐ đặt tên đường TP Sóc Trăng |  | cu_2024
+92 | Cần Thơ | Trần Hưng Đạo | Đường | TP Vị Thanh | Chạy dọc kênh Xáng Xà No từ ngã ba Kênh Lầu đến bến phà Vị Thanh | QĐ đặt tên đường TP Vị Thanh | Bờ kè Xáng Xà No | moi_2025
+93 | Hậu Giang | Trần Hưng Đạo | Đường | TP Vị Thanh | Chạy dọc kênh Xáng Xà No từ ngã ba Kênh Lầu đến bến phà Vị Thanh | QĐ đặt tên đường TP Vị Thanh | Bờ kè Xáng Xà No | cu_2024
+92 | Cần Thơ | 3 Tháng 2 | Đường | TP Vị Thanh | Từ đường Trần Hưng Đạo qua trung tâm hành chính tỉnh Hậu Giang | QĐ đặt tên đường TP Vị Thanh |  | moi_2025
+93 | Hậu Giang | 3 Tháng 2 | Đường | TP Vị Thanh | Từ đường Trần Hưng Đạo qua trung tâm hành chính tỉnh Hậu Giang | QĐ đặt tên đường TP Vị Thanh |  | cu_2024
+82 | Tiền Giang | Lý Thường Kiệt | Đường | TP Mỹ Tho | Từ ngã ba Trung Lương đến đường Rạch Gầm | QĐ đặt tên đường TP Mỹ Tho |  | cu_2024
+82 | Tiền Giang | Rạch Gầm | Đường | TP Mỹ Tho | Từ đường Nam Kỳ Khởi Nghĩa đến đường Lê Lợi ven sông Tiền | QĐ đặt tên đường TP Mỹ Tho |  | cu_2024
+82 | Tiền Giang | Thủ Khoa Huân | Đường | TP Mỹ Tho | Từ đường Đinh Bộ Lĩnh qua Chợ Cũ Mỹ Tho đến đường 30 Tháng 4 | QĐ đặt tên đường TP Mỹ Tho |  | cu_2024
+86 | Vĩnh Long | Phạm Thái Bường | Đường | TP Vĩnh Long | Từ cầu Lộ qua Đài Truyền hình Vĩnh Long đến đường Trần Phú | QĐ đặt tên đường TP Vĩnh Long |  | hien_hanh
+86 | Vĩnh Long | Trần Đại Nghĩa | Đường | TP Vĩnh Long | Từ đường Phó Cơ Điều qua khu đô thị mới | QĐ đặt tên đường TP Vĩnh Long |  | hien_hanh
+86 | Vĩnh Long | Trưng Nữ Vương | Đường | TP Vĩnh Long | Từ đường 1 Tháng 5 đến đường Hoàng Thái Hiếu | QĐ đặt tên đường TP Vĩnh Long |  | hien_hanh
+82 | Đồng Tháp | Điện Biên Phủ | Đường | TP Cao Lãnh | Đại lộ kết nối cầu Cao Lãnh vào trung tâm TP Cao Lãnh | QĐ đặt tên đường TP Cao Lãnh | Đường nối cầu Cao Lãnh | moi_2025
+87 | Đồng Tháp | Điện Biên Phủ | Đường | TP Cao Lãnh | Đại lộ kết nối cầu Cao Lãnh vào trung tâm TP Cao Lãnh | QĐ đặt tên đường TP Cao Lãnh | Đường nối cầu Cao Lãnh | cu_2024
+82 | Đồng Tháp | Hùng Vương | Đường | TP Sa Đéc | Từ cầu Hang qua công viên Sa Đéc đến làng hoa Sa Đéc | QĐ đặt tên đường TP Sa Đéc | Trục Làng hoa Sa Đéc | moi_2025
+87 | Đồng Tháp | Hùng Vương | Đường | TP Sa Đéc | Từ cầu Hang qua công viên Sa Đéc đến làng hoa Sa Đéc | QĐ đặt tên đường TP Sa Đéc | Trục Làng hoa Sa Đéc | cu_2024
+91 | An Giang | Hà Hoàng Hổ | Đường | TP Long Xuyên | Từ ngã tư đèn Bốn Ngọn qua trường Đại học An Giang | QĐ đặt tên đường TP Long Xuyên |  | moi_2025
+89 | An Giang | Hà Hoàng Hổ | Đường | TP Long Xuyên | Từ ngã tư đèn Bốn Ngọn qua trường Đại học An Giang | QĐ đặt tên đường TP Long Xuyên |  | cu_2024
+91 | An Giang | Ung Văn Khiêm | Đường | TP Long Xuyên | Từ đường Võ Thị Sáu qua khu đô thị Đại học An Giang mới | QĐ đặt tên đường TP Long Xuyên |  | moi_2025
+89 | An Giang | Ung Văn Khiêm | Đường | TP Long Xuyên | Từ đường Võ Thị Sáu qua khu đô thị Đại học An Giang mới | QĐ đặt tên đường TP Long Xuyên |  | cu_2024
+91 | Kiên Giang | Lâm Quang Ky | Đường | TP Rạch Giá | Từ ngã tư Nguyễn Trung Trực qua trung tâm hành chính TP Rạch Giá | QĐ đặt tên đường TP Rạch Giá |  | cu_2024
+91 | Kiên Giang | Lạc Hồng | Đường | TP Rạch Giá | Công viên Lạc Hồng ven biển vịnh Rạch Giá | QĐ đặt tên đường TP Rạch Giá |  | cu_2024
+91 | Kiên Giang | Trần Hưng Đạo | Đường | TP Phú Quốc | Trục ven biển Dương Đông từ Dinh Cậu qua bãi Trường đến An Thới | QĐ đặt tên đường TP Phú Quốc | Trục biển Dương Đông | cu_2024
+91 | Kiên Giang | 30 Tháng 4 | Đường | TP Phú Quốc | Từ ngã năm Dinh Cậu qua Suối Tranh đến làng chài Hàm Ninh | QĐ đặt tên đường TP Phú Quốc | Trục Đông Tây Phú Quốc | cu_2024
+51 | Quảng Ngãi | Quang Trung | Đường | TP Quảng Ngãi | Quốc lộ 1 qua trung tâm thành phố Quảng Ngãi từ cầu Trà Khúc 1 đến ngã ba Quán Lát | QĐ đặt tên đường TP Quảng Ngãi | Quốc lộ 1 qua Quảng Ngãi | hien_hanh
+51 | Quảng Ngãi | Phạm Văn Đồng | Đường | TP Quảng Ngãi | Quảng trường trung tâm tỉnh Quảng Ngãi từ đường Hùng Vương đến đường Lê Thánh Tôn | QĐ đặt tên đường TP Quảng Ngãi |  | hien_hanh
+51 | Quảng Ngãi | Hùng Vương | Đường | TP Quảng Ngãi | Từ ngã tư Quang Trung qua ngã năm Ba La đến đường Phan Bội Châu | QĐ đặt tên đường TP Quảng Ngãi |  | hien_hanh
+52 | Gia Lai | Phan Đình Phùng | Đường | TP Kon Tum | Trục quốc lộ 14 qua trung tâm thành phố Kon Tum đến cầu Đăk Bla | QĐ đặt tên đường TP Kon Tum | Quốc lộ 14 Kon Tum | moi_2025
+62 | Kon Tum | Phan Đình Phùng | Đường | TP Kon Tum | Trục quốc lộ 14 qua trung tâm thành phố Kon Tum đến cầu Đăk Bla | QĐ đặt tên đường TP Kon Tum | Quốc lộ 14 Kon Tum | cu_2024
+52 | Gia Lai | Bà Triệu | Đường | TP Kon Tum | Từ đường Phan Đình Phùng qua Nhà thờ Gỗ Kon Tum | QĐ đặt tên đường TP Kon Tum | Đường Nhà thờ Gỗ | moi_2025
+62 | Kon Tum | Bà Triệu | Đường | TP Kon Tum | Từ đường Phan Đình Phùng qua Nhà thờ Gỗ Kon Tum | QĐ đặt tên đường TP Kon Tum | Đường Nhà thờ Gỗ | cu_2024
+14 | Sơn La | Tô Hiệu | Đường | TP Sơn La | Quốc lộ 6 qua trung tâm thành phố Sơn La từ dốc Chiềng Cơi đến ngã ba Quyết Thắng | QĐ đặt tên đường TP Sơn La | Quốc lộ 6 Sơn La | hien_hanh
+14 | Sơn La | Chu Văn Thịnh | Đường | TP Sơn La | Từ ngã ba Quyết Thắng qua di tích Nhà tù Sơn La | QĐ đặt tên đường TP Sơn La |  | hien_hanh
+11 | Điện Biên | Võ Nguyên Giáp | Đường | TP Điện Biên Phủ | Trục huyết mạch từ tượng đài Chiến thắng Điện Biên Phủ qua đồi A1 đến sân bay Điện Biên | QĐ đặt tên đường TP Điện Biên Phủ | Đại lộ Võ Nguyên Giáp Điện Biên | hien_hanh
+11 | Điện Biên | Hoàng Văn Thái | Đường | TP Điện Biên Phủ | Từ đường Võ Nguyên Giáp vào khu di tích Sở Chỉ huy chiến dịch Mường Phăng | QĐ đặt tên đường TP Điện Biên Phủ |  | hien_hanh
+12 | Lai Châu | Lê Duẩn | Đại lộ | TP Lai Châu | Đại lộ trung tâm hành chính tỉnh Lai Châu trước Quảng trường Nhân dân | QĐ đặt tên đường TP Lai Châu | Quảng trường Nhân dân Lai Châu | hien_hanh
+12 | Lai Châu | Trần Phú | Đường | TP Lai Châu | Từ ngã ba chợ trung tâm Lai Châu đến đường 30 Tháng 4 | QĐ đặt tên đường TP Lai Châu |  | hien_hanh
+04 | Cao Bằng | Kim Đồng | Đường | TP Cao Bằng | Từ cầu Bằng Giang qua tượng đài Kim Đồng đến ngã tư bưu điện tỉnh | QĐ đặt tên đường TP Cao Bằng | Phố đi bộ Kim Đồng Cao Bằng | hien_hanh
+04 | Cao Bằng | Hoàng Đình Giong | Đường | TP Cao Bằng | Chạy dọc sông Bằng Giang từ cầu Ngườm Ngao đến cầu Sông Hiến | QĐ đặt tên đường TP Cao Bằng |  | hien_hanh
+08 | Tuyên Quang | Bình Thuận | Đường | TP Tuyên Quang | Quốc lộ 2 qua trung tâm thành phố Tuyên Quang từ cầu Nông Tiến đến ngã ba Bình Thuận | QĐ đặt tên đường TP Tuyên Quang | Quốc lộ 2 Tuyên Quang | hien_hanh
+08 | Tuyên Quang | Tân Trào | Đường | TP Tuyên Quang | Từ quảng trường Nguyễn Tất Thành qua đền Hạ đến bến phà Nông Tiến | QĐ đặt tên đường TP Tuyên Quang |  | hien_hanh
+14 | Sơn La | Chi Lăng | Đường | TP Hòa Bình | Trục trung tâm phường Đồng Tiến thành phố Hòa Bình | QĐ đặt tên đường TP Hòa Bình | Trục Chi Lăng Hòa Bình | moi_2025
+17 | Hòa Bình | Chi Lăng | Đường | TP Hòa Bình | Trục trung tâm phường Đồng Tiến thành phố Hòa Bình | QĐ đặt tên đường TP Hòa Bình | Trục Chi Lăng Hòa Bình | cu_2024
+14 | Sơn La | Cù Chính Lan | Đường | TP Hòa Bình | Từ dốc Chăm qua chợ Phương Lâm đến cầu Hòa Bình | QĐ đặt tên đường TP Hòa Bình | Anh hùng Cù Chính Lan | moi_2025
+17 | Hòa Bình | Cù Chính Lan | Đường | TP Hòa Bình | Từ dốc Chăm qua chợ Phương Lâm đến cầu Hòa Bình | QĐ đặt tên đường TP Hòa Bình | Anh hùng Cù Chính Lan | cu_2024
+14 | Sơn La | Thịnh Lang | Đường | TP Hòa Bình | Trục ven sông Đà từ cầu Hòa Bình đến đê Quỳnh Lâm | QĐ đặt tên đường TP Hòa Bình |  | moi_2025
+17 | Hòa Bình | Thịnh Lang | Đường | TP Hòa Bình | Trục ven sông Đà từ cầu Hòa Bình đến đê Quỳnh Lâm | QĐ đặt tên đường TP Hòa Bình |  | cu_2024
+14 | Sơn La | Đà Giang | Đường | TP Hòa Bình | Đường bao ven sông Đà phía hạ lưu thủy điện Hòa Bình | QĐ đặt tên đường TP Hòa Bình |  | moi_2025
+17 | Hòa Bình | Đà Giang | Đường | TP Hòa Bình | Đường bao ven sông Đà phía hạ lưu thủy điện Hòa Bình | QĐ đặt tên đường TP Hòa Bình |  | cu_2024
+37 | Ninh Bình | Lý Bôn | Đường | TP Thái Bình | Trục xuyên tâm TP Thái Bình từ cầu Bo qua bến xe Thái Bình đến ngã ba Phúc Khánh | QĐ đặt tên đường TP Thái Bình | Trục Lý Bôn Thái Bình | moi_2025
+34 | Thái Bình | Lý Bôn | Đường | TP Thái Bình | Trục xuyên tâm TP Thái Bình từ cầu Bo qua bến xe Thái Bình đến ngã ba Phúc Khánh | QĐ đặt tên đường TP Thái Bình | Trục Lý Bôn Thái Bình | cu_2024
+37 | Ninh Bình | Lê Quý Đôn | Đường | TP Thái Bình | Từ công viên Kỳ Bá qua quảng trường 14 Tháng 10 đến ngã tư Gia Lễ | QĐ đặt tên đường TP Thái Bình |  | moi_2025
+34 | Thái Bình | Lê Quý Đôn | Đường | TP Thái Bình | Từ công viên Kỳ Bá qua quảng trường 14 Tháng 10 đến ngã tư Gia Lễ | QĐ đặt tên đường TP Thái Bình |  | cu_2024
+25 | Phú Thọ | Mê Linh | Đường | TP Vĩnh Yên | Trục trung tâm từ bưu điện tỉnh Vĩnh Phúc qua đài phun nước đến dốc Láp | QĐ đặt tên đường TP Vĩnh Yên | Trục chính Vĩnh Yên | moi_2025
+26 | Vĩnh Phúc | Mê Linh | Đường | TP Vĩnh Yên | Trục trung tâm từ bưu điện tỉnh Vĩnh Phúc qua đài phun nước đến dốc Láp | QĐ đặt tên đường TP Vĩnh Yên | Trục chính Vĩnh Yên | cu_2024
+25 | Phú Thọ | Lam Sơn | Đường | TP Vĩnh Yên | Từ đường Mê Linh qua quảng trường Hồ Chí Minh tỉnh Vĩnh Phúc | QĐ đặt tên đường TP Vĩnh Yên |  | moi_2025
+26 | Vĩnh Phúc | Lam Sơn | Đường | TP Vĩnh Yên | Từ đường Mê Linh qua quảng trường Hồ Chí Minh tỉnh Vĩnh Phúc | QĐ đặt tên đường TP Vĩnh Yên |  | cu_2024
+56 | Khánh Hòa | 16 Tháng 4 | Đường | TP Phan Rang - Tháp Chàm | Đại lộ trung tâm từ quảng trường 16 Tháng 4 ra bãi biển Bình Sơn | QĐ đặt tên đường TP Phan Rang | Đường 16/4; Mười Sáu Tháng Tư | moi_2025
+58 | Ninh Thuận | 16 Tháng 4 | Đường | TP Phan Rang - Tháp Chàm | Đại lộ trung tâm từ quảng trường 16 Tháng 4 ra bãi biển Bình Sơn | QĐ đặt tên đường TP Phan Rang | Đường 16/4; Mười Sáu Tháng Tư | cu_2024
+56 | Khánh Hòa | 21 Tháng 8 | Đường | TP Phan Rang - Tháp Chàm | Quốc lộ 27 từ ngã năm Phủ Hà lên tháp Po Klong Garai | QĐ đặt tên đường TP Phan Rang | Đường 21/8 lên Tháp Chàm | moi_2025
+58 | Ninh Thuận | 21 Tháng 8 | Đường | TP Phan Rang - Tháp Chàm | Quốc lộ 27 từ ngã năm Phủ Hà lên tháp Po Klong Garai | QĐ đặt tên đường TP Phan Rang | Đường 21/8 lên Tháp Chàm | cu_2024
+75 | Đồng Nai | Phú Riềng Đỏ | Đường | TP Đồng Xoài | Trục xuyên tâm từ ngã tư Đồng Xoài qua tượng đài Chiến Thắng Đồng Xoài | QĐ đặt tên đường TP Đồng Xoài | Đường Phú Riềng Đỏ | moi_2025
+70 | Bình Phước | Phú Riềng Đỏ | Đường | TP Đồng Xoài | Trục xuyên tâm từ ngã tư Đồng Xoài qua tượng đài Chiến Thắng Đồng Xoài | QĐ đặt tên đường TP Đồng Xoài | Đường Phú Riềng Đỏ | cu_2024
+51 | Quảng Ngãi | Độc Lập | Đường | TP Tuy Hòa | Đại lộ quảng trường tháp Nghinh Phong ven biển Tuy Hòa | QĐ đặt tên đường TP Tuy Hòa | Tháp Nghinh Phong | moi_2025
+54 | Phú Yên | Độc Lập | Đường | TP Tuy Hòa | Đại lộ quảng trường tháp Nghinh Phong ven biển Tuy Hòa | QĐ đặt tên đường TP Tuy Hòa | Tháp Nghinh Phong | cu_2024
+86 | Vĩnh Long | Kiên Thị Nhẫn | Đường | TP Trà Vinh | Từ đường Điện Biên Phủ đến bờ kè sông Long Bình | QĐ đặt tên đường TP Trà Vinh | Nữ liệt sĩ Kiên Thị Nhẫn | moi_2025
+84 | Trà Vinh | Kiên Thị Nhẫn | Đường | TP Trà Vinh | Từ đường Điện Biên Phủ đến bờ kè sông Long Bình | QĐ đặt tên đường TP Trà Vinh | Nữ liệt sĩ Kiên Thị Nhẫn | cu_2024
+86 | Vĩnh Long | Sơn Thông | Đường | TP Trà Vinh | Từ đường Nguyễn Đáng vào khu di tích Ao Bà Om | QĐ đặt tên đường TP Trà Vinh | Đường vào Ao Bà Om | moi_2025
+84 | Trà Vinh | Sơn Thông | Đường | TP Trà Vinh | Từ đường Nguyễn Đáng vào khu di tích Ao Bà Om | QĐ đặt tên đường TP Trà Vinh | Đường vào Ao Bà Om | cu_2024
+04 | Cao Bằng | Đội Kỳ | Đường | TP Bắc Kạn | Trục trung tâm từ cầu Bắc Kạn qua chợ trung tâm đến cổng đền Mẫu | QĐ đặt tên đường TP Bắc Kạn | Liệt sĩ Đội Kỳ | moi_2025
+06 | Bắc Kạn | Đội Kỳ | Đường | TP Bắc Kạn | Trục trung tâm từ cầu Bắc Kạn qua chợ trung tâm đến cổng đền Mẫu | QĐ đặt tên đường TP Bắc Kạn | Liệt sĩ Đội Kỳ | cu_2024
+08 | Tuyên Quang | 20 Tháng 8 | Đường | TP Hà Giang | Trục ven sông Lô từ cầu Yên Biên 1 qua quảng trường 26 Tháng 3 | QĐ đặt tên đường TP Hà Giang | Đường 20/8 Hà Giang | moi_2025
+02 | Hà Giang | 20 Tháng 8 | Đường | TP Hà Giang | Trục ven sông Lô từ cầu Yên Biên 1 qua quảng trường 26 Tháng 3 | QĐ đặt tên đường TP Hà Giang | Đường 20/8 Hà Giang | cu_2024
+80 | Tây Ninh | Bời Lời | Đường | TP Tây Ninh | Đại lộ dẫn vào Quần thể danh thắng quốc gia Núi Bà Đen | QĐ đặt tên đường TP Tây Ninh | Đường lên Núi Bà Đen | moi_2025
+72 | Tây Ninh | Bời Lời | Đường | TP Tây Ninh | Đại lộ dẫn vào Quần thể danh thắng quốc gia Núi Bà Đen | QĐ đặt tên đường TP Tây Ninh | Đường lên Núi Bà Đen | cu_2024
+80 | Tây Ninh | Hoàng Lê Kha | Đường | TP Tây Ninh | Từ ngã tư Hùng Vương qua Tỉnh ủy Tây Ninh | QĐ đặt tên đường TP Tây Ninh |  | moi_2025
+72 | Tây Ninh | Hoàng Lê Kha | Đường | TP Tây Ninh | Từ ngã tư Hùng Vương qua Tỉnh ủy Tây Ninh | QĐ đặt tên đường TP Tây Ninh |  | cu_2024
+91 | An Giang | Thoại Ngọc Hầu | Đường | TP Long Xuyên | Từ ngã tư Hùng Vương đến cầu Hoàng Diệu | QĐ đặt tên đường TP Long Xuyên | Danh thần Thoại Ngọc Hầu | moi_2025
+89 | An Giang | Thoại Ngọc Hầu | Đường | TP Long Xuyên | Từ ngã tư Hùng Vương đến cầu Hoàng Diệu | QĐ đặt tên đường TP Long Xuyên | Danh thần Thoại Ngọc Hầu | cu_2024
+91 | An Giang | Bùi Văn Danh | Đường | TP Long Xuyên | Từ đường Trần Hưng Đạo đến đường Hà Hoàng Hổ | QĐ đặt tên đường TP Long Xuyên |  | moi_2025
+89 | An Giang | Bùi Văn Danh | Đường | TP Long Xuyên | Từ đường Trần Hưng Đạo đến đường Hà Hoàng Hổ | QĐ đặt tên đường TP Long Xuyên |  | cu_2024
+91 | An Giang | Tôn Đức Thắng | Đường | TP Châu Đốc | Từ cầu Châu Đốc qua tượng đài cá Ba Sa đến ngã ba chùa Hang | QĐ đặt tên đường TP Châu Đốc |  | moi_2025
+89 | An Giang | Tôn Đức Thắng | Đường | TP Châu Đốc | Từ cầu Châu Đốc qua tượng đài cá Ba Sa đến ngã ba chùa Hang | QĐ đặt tên đường TP Châu Đốc |  | cu_2024
+91 | An Giang | Bạch Đằng | Đường | TP Châu Đốc | Đường ven sông Hậu từ bến đò Châu Giang | QĐ đặt tên đường TP Châu Đốc |  | moi_2025
+89 | An Giang | Bạch Đằng | Đường | TP Châu Đốc | Đường ven sông Hậu từ bến đò Châu Giang | QĐ đặt tên đường TP Châu Đốc |  | cu_2024
+91 | Kiên Giang | Mạc Cửu | Đường | TP Hà Tiên | Từ chân cầu Tô Châu qua lăng Mạc Cửu | QĐ đặt tên đường TP Hà Tiên | Khai trấn Mạc Cửu | cu_2024
+91 | Kiên Giang | Chi Lăng | Đường | TP Hà Tiên | Từ bến phà Hà Tiên đến chợ Hà Tiên | QĐ đặt tên đường TP Hà Tiên |  | cu_2024
+91 | Kiên Giang | Lam Sơn | Đường | TP Hà Tiên | Từ ngã tư Mạc Tử Hoàng đến bãi tắm Mũi Nai | QĐ đặt tên đường TP Hà Tiên |  | cu_2024
+25 | Phú Thọ | Bạch Đằng | Đường | Thị xã Phú Thọ | Chạy dọc bờ hữu sông Thao từ ngã ba bến phà | QĐ đặt tên đường TX Phú Thọ |  | hien_hanh
+25 | Phú Thọ | Lê Đồng | Đường | Thị xã Phú Thọ | Từ đường Hùng Vương đến đường Nguyễn Tất Thành | QĐ đặt tên đường TX Phú Thọ |  | hien_hanh
+20 | Lạng Sơn | Ngô Quyền | Đường | TP Lạng Sơn | Từ ngã ba Mai Pha đến cầu Kỳ Cùng | QĐ đặt tên đường TP Lạng Sơn |  | hien_hanh
+20 | Lạng Sơn | Phan Đình Phùng | Đường | TP Lạng Sơn | Từ đường Bà Triệu qua chợ Đông Kinh | QĐ đặt tên đường TP Lạng Sơn |  | hien_hanh
+96 | Cà Mau | Nguyễn Tất Thành | Đường | TP Cà Mau | Quốc lộ 1 từ cầu Cà Mau ra cửa ngõ phía Bắc | QĐ đặt tên đường TP Cà Mau |  | hien_hanh
+96 | Cà Mau | Lý Văn Lâm | Đường | TP Cà Mau | Từ cầu Huỳnh Thúc Kháng qua xã Lý Văn Lâm | QĐ đặt tên đường TP Cà Mau | Anh hùng Lý Văn Lâm | hien_hanh
+22 | Quảng Ninh | Quang Trung | Đường | TP Uông Bí | Quốc lộ 18 qua trung tâm thành phố Uông Bí | QĐ đặt tên đường TP Uông Bí |  | hien_hanh
+22 | Quảng Ninh | Trần Nhân Tông | Đường | TP Uông Bí | Tuyến đường hành hương lên Quần thể danh thắng di tích Yên Tử | QĐ đặt tên đường TP Uông Bí | Đường lên Yên Tử | hien_hanh
+22 | Quảng Ninh | Bái Tử Long | Đường | TP Cẩm Phả | Đường bao biển Cẩm Phả ôm vịnh Bái Tử Long | QĐ đặt tên đường TP Cẩm Phả | Bao biển Bái Tử Long | hien_hanh
+22 | Quảng Ninh | Tân Bình | Đường | TP Cẩm Phả | Từ ngã tư Cẩm Đông đến mỏ than Cọc Sáu | QĐ đặt tên đường TP Cẩm Phả |  | hien_hanh

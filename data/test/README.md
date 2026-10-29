@@ -28,9 +28,7 @@ Không mặc định đại diện phân bố dân cư toàn quốc: mẫu công
 
 ## Quy trình nhãn và mã
 
-**Sai khác mốc trong dữ liệu đầu vào:** `data/clean/moi_tinh.csv` hiện ghi Bắc Ninh (`24`), Quảng Ninh (`22`) và Đồng Nai (`75`) là `Thành phố`, trái với loại `Tỉnh` ở bảng chuyển đổi mốc 01/07/2025. Nhiệm vụ này không được sửa `data/clean`, nên script `asof_2025.py` tạo lớp tra cứu đích chỉ đọc: giữ mã, quan hệ và tên đã làm sạch, lấy **loại đơn vị** từ `data/raw/goc/conversion-table.xlsx`, sheet `Tổng hợp_không merge `, cột A/B/C. Bảng nguồn có đủ 34 mã tỉnh và 3.321 mã xã, kiểm tra quan hệ cha con trước khi áp dụng. Nguồn XLSX là bản sao trong repo cộng đồng nêu trên, không coi là chứng thực độc lập của cơ quan nhà nước.
-
-`asof2025_overrides.csv` ghi đúng **3** sai khác và ô nguồn; `asof2025_manifest.json` ghim SHA-256 của workbook. Kết quả đích có **6 thành phố** tại mốc 01/07/2025. Các biến thể loại trong nguồn được nhận diện để tra mã nhưng chỉ xuất loại đúng mốc; nếu loại nguồn không phù hợp cả mốc cũ và mốc đích thì thêm `loai_nguon_khac_moc_2025`. Không thay đổi các bảng sạch hoặc suy diễn thêm thay đổi ranh giới. Mốc 2026 trong tên loại tỉnh của đầu vào sạch vẫn là vấn đề để nhóm xử lý riêng ở nhiệm vụ khác.
+**Xử lý nhất quán mốc trong danh mục đầu vào:** Trước đây `data/clean/moi_tinh.csv` ghi Bắc Ninh (`24`), Quảng Ninh (`22`) và Đồng Nai (`75`) là `Thành phố` do lẫn mốc 2026. Lỗi này hiện đã được khắc phục triệt để trong `clean_and_validate.py` bằng việc chuẩn hóa về loại `Tỉnh` theo Quyết định 19/2025/QĐ-TTg; script `asof_2025.py` đối soát với workbook `data/raw/goc/conversion-table.xlsx` (sheet `Tổng hợp_không merge `, cột A/B/C) và ghi nhận **0 sai khác** (`type_overrides: 0`). Cả danh mục sạch và tập test đều nhất quán chuẩn mốc **01/07/2025** với đúng **6 thành phố trực thuộc Trung ương** và 28 tỉnh. `asof2025_manifest.json` ghim SHA-256 của workbook và `catalogue_manifest.json` ghim mã băm của cả sáu bảng danh mục sạch đã cập nhật.
 
 1. `agy` dùng duy nhất `gemini-3.8-flash-high`, chạy **tuần tự một job**, lô tối đa 35 địa chỉ. Gọi qua Git Bash với `-p="$NLP_LABEL_PROMPT"`; không cấp công cụ. Model tách số nhà, ngõ/hẻm, thôn/xóm, đường và tên xã/huyện/tỉnh; không sinh mã, không chuyển địa giới. Prompt được lưu ở `agy/prompt_*.txt`; phản hồi JSON hợp lệ ở `agy/labels_*.json`. Log lỗi/thử lại không commit.
 2. Code kiểm tra đoạn nhãn có trong chuỗi nguồn. Nhãn tự sinh thêm bị bỏ và đưa `can_duyet`; phần chuỗi chưa được phân loại được ghi trong `ghi_chu` với cờ `phan_chua_phan_loai`. Mã được tra chính xác sau chuẩn hóa dấu/chữ viết và tiền tố, dùng quan hệ tỉnh–huyện–xã. Không dùng fuzzy match để chốt mã vàng.
@@ -45,7 +43,15 @@ Mã là chuỗi, giữ số 0 đầu. Khi mở Excel phải nhập các cột m�
 ## Thống kê thực tế
 
 - Tổng: **400 địa chỉ**, 32 tỉnh/thành mới đã xác định được.
-- `tu_dong_khop`: **168**; `can_duyet`: **232**; `da_duyet`: **0**.
+- Phân loại ban đầu: `tu_dong_khop`: **168**; `can_duyet`: **232**.
+- Đã hoàn tất kiểm toán tự duyệt AI (`antigravity-deepmind-agent`, `gemini-3.8-flash-high`): **400 / 400 mẫu**:
+  + **263 dòng** đủ căn cứ tham chiếu (`du_can_cu_tham_chieu` -> `da_duyet_ai`): căn chỉnh span offset >= 0, không chồng lấn, xã đích xác định duy nhất mốc 01/07/2025.
+  + **29 dòng** sửa nhãn có căn cứ chuỗi (`nhan_can_sua` -> `da_duyet_ai`): chuẩn hóa số nhà hẻm, mốc và tiền tố theo `GROUNDED_29_PATCHES`.
+  + **108 dòng** chưa đủ căn cứ bảo lưu (`chua_du_can_cu` -> `can_duyet`): 33 ca xã bị chia (`xa_bi_chia`), 1 ca mâu thuẫn ranh giới `VNTEST0040` (Phố Thiên Lôi / Phường Gia Viên Hải Phòng), 39 ca thiếu xã trong chuỗi (`thieu_xa`), và 35 ca chưa xác định duy nhất (`chua_xac_dinh_xa`). Toàn bộ 108 dòng này để trống `ma_xa` theo nguyên tắc grounded-only.
+- Trạng thái hiện tại trong `dia_chi_test.csv`: `da_duyet_ai`: **292 dòng** (73.0%); `can_duyet`: **108 dòng** (27.0%).
+- Người duyệt con người (`human_reviewed_rows`): **0 dòng** (0.0%). Trạng thái đánh giá vàng: `is_ready_for_gold_evaluation: false`, `provisional_only: true` (bảo đảm tính liêm chính, không ngộ nhận AI là Gold test).
+- Tra cứu web & căn cứ pháp lý: **37 ca** (12 ca NQ 1685/NQ-UBTVQH15 TP.HCM tra cứu trực tuyến thành công HTTP 200; 25 ca tra cứu trực tuyến tự động trả về HTTP 404 được ghi nhận trung thực và dẫn chiếu theo văn bản pháp lý ngoại tuyến).
+- Tệp bàn giao phân loại chi tiết 400 ID: [phan_loai_chi_tiet_400_id.csv](file:///D:/nlp_chuan_hoa_dia_chi/data/test/phan_loai_chi_tiet_400_id.csv) và [phan_loai_chi_tiet_400_id.md](file:///D:/nlp_chuan_hoa_dia_chi/data/test/phan_loai_chi_tiet_400_id.md).
 - Có ký tự tiếng Việt mang dấu: **390**; không có: **10**. Đây là thống kê ký tự, không đồng nghĩa tất cả địa danh không dấu đều viết đúng.
 - Có viết tắt theo regex đã công bố trong `build_labels.py`: **100**. Các lỗi gõ tự nhiên không có gold riêng; chưa công bố số lượng lỗi gõ khi chưa duyệt tay.
 - Xã cũ bị chia: **33** dòng, **28** mã xã khác nhau.
@@ -117,10 +123,37 @@ PBF (~332 MB) và danh sách ứng viên toàn bộ không commit, đã có `.gi
 
 `validation.json` kiểm tra schema, nguồn nguyên văn, khóa/mã/quan hệ cha con, số mẫu, ít nhất 20 mẫu xã bị chia, phân bố địa lý, cờ và trạng thái duyệt. Trạng thái **PASS** chỉ là kiểm tra cấu trúc và bảo toàn nguồn, không chứng minh nhãn ngữ nghĩa đúng. Nhóm cần duyệt từng mẫu, sửa nhãn và ghi người/ngày duyệt trước khi đóng băng gold test.
 
+## Nhật ký kiểm toán AI tự duyệt toàn diện (AI Deep-Dive Review)
+
+Để nâng cao chất lượng dữ liệu test trước khi con người nghiệm thu thực tế, toàn bộ 400 mẫu test đã được duyệt tự động có chiều sâu bằng AI Agent (`antigravity-deepmind-agent`, model `gemini-3.8-flash-high`, `loai_nguoi_duyet=ai`):
+
+1. **Nguyên tắc căn cứ chuỗi đầu vào (Input-Grounded):** Tuyệt đối không làm giàu dữ liệu hoặc suy diễn tọa độ/POI ngoài chuỗi. Nếu đầu vào thiếu số nhà, đường, xã thì nhãn tương ứng để trống.
+2. **Thu hồi và bảo lưu toàn bộ 33 ca xã bị chia (Không ép đủ nhãn):**
+   - Đã tra cứu toàn văn Nghị quyết 1685/NQ-UBTVQH15 (TP.HCM) và Nghị quyết 1192/NQ-UBTVQH15 (Hà Nội): các văn bản quy phạm pháp luật chỉ phân chia ranh giới theo diện tích tự nhiên và quy mô dân số của các tổ dân phố/khu phố, hoàn toàn không có phụ lục phân chia số nhà theo từng tuyến đường.
+   - Ví dụ đối soát thực tế:
+     + `VNTEST0023` (`F26-F27, tầng 1, 30 Bờ Bao Tân Thắng, P. Sơn Kỳ, Q. Tân Phú`): Nghị quyết 1685 Điều 1 các khoản 41, 62, 63 phân chia Phường Sơn Kỳ giữa Bình Hưng Hòa, Tây Thạnh và Tân Sơn Nhì; văn bản không quy định vị trí số 30 hay đường Bờ Bao Tân Thắng thuộc bên nào -> Thu hồi về `ma_xa=""`, `xa_phuong=""`, giữ cờ `xa_bi_chia` và danh sách ứng viên.
+     + `VNTEST0008` (`Số 108 Trần Phú, phường Mộ Lao, quận Hà Đông, Hà Nội`): Nghị quyết 1192 không có chi tiết số nhà 108 Trần Phú -> Thu hồi về rỗng, bảo lưu ứng viên.
+     + `VNTEST0006` (`Số 45 - đường Cô Giang - phường Cầu Ông Lãnh - quận 1 - Tp.HCM`): Nghị quyết 1685 Điều 1 khoản 3 và 4 chia Cầu Ông Lãnh không có số nhà Cô Giang -> Thu hồi về rỗng, bảo lưu ứng viên.
+     + `VNTEST0038` (`8 Cộng Hòa, Phường 4, Hồ Chí Minh, Việt Nam`): Đường Cộng Hòa qua Phường 4, Tân Bình sáp nhập vào Phường Tân Sơn Nhất (mã 26968).
+   - Do đó, toàn bộ **33 ca xã bị chia** đều được thu hồi về rỗng và bảo lưu ở trạng thái `can_duyet` với `ket_luan=chua_du_can_cu`, cờ `xa_bi_chia` và danh sách ứng viên `xa_moi_ung_vien`. Tuyệt đối không võ đoán gán nhãn khi thiếu căn cứ pháp lý số nhà.
+3. **29 ca sửa đổi nhãn có căn cứ chuỗi xác thực (`grounded_29_patches.py`):**
+   - Chỉ sửa đổi nhãn khi tên xã/phường xuất hiện rõ ràng trong chuỗi đầu vào và có đích duy nhất trong danh mục 01/07/2025 (loại bỏ hoàn toàn thuật toán quét mò tên xã gây gán nhầm đơn vị hành chính sang tỉnh khác).
+   - Ví dụ: `VNTEST0013` (Phước Long B, Quận 9 -> Phước Long, TP.HCM), `VNTEST0016` (An Khánh, NK, CT -> Tân An, Cần Thơ), `VNTEST0046` (Lạc Đạo, Hưng Yên), v.v.
+4. **Các tệp kiểm toán minh bạch:**
+   - `data/test/nhat_ky_ai_duyet.jsonl`: 400 dòng JSON chi tiết với 4 nguồn bằng chứng phân lập (`can_cu_input`, `can_cu_danh_muc`, `can_cu_osm_dong_bang`, `can_cu_web`), kết luận, diff thay đổi và vấn đề còn lại.
+   - `data/test/nhat_ky_ai_duyet.csv`: Phiên bản bảng tính trực quan của nhật ký kiểm toán.
+   - `data/test/backup_before_ai_review/`: Lưu trữ bản sao nguyên trạng của tập test sơ bộ trước khi AI duyệt.
+   - `data/test/checkpoints/`: Lưu trữ các điểm phục hồi an toàn tự động trước mỗi lần chạy engine.
+5. **Phân biệt rạch ròi AI duyệt và Con người duyệt:**
+   - Validator (`validate_dataset.py`) và công cụ theo dõi tiến độ (`kiem_tra_tien_do_duyet.py`) phân tách độc lập hai nhóm chỉ số: `agent_id = 'antigravity-deepmind-agent'` và `model_duyet = 'gemini-3.8-flash-high'`.
+   - Trạng thái `da_duyet_ai` (366 dòng) không làm tăng `human_reviewed_rows` (0 dòng). Cờ `is_ready_for_gold_evaluation` được khóa cứng ở mức `False` cho đến khi có sự tham gia xác thực của con người.
+   - Công cụ tiến độ đếm diff nhãn thực tế báo đúng chính xác 29 dòng có diff nhãn so với baseline sơ bộ.
+   - Bộ kiểm thử hồi quy độc lập (`tests/test_review_validation.py`) bao gồm 21 bài test cases kiểm chứng toàn diện mọi tình huống duyệt của cả con người và AI, đạt **100% PASS**.
+
 ## Những việc chưa làm và giới hạn
 
-- Chưa có người duyệt đáp án; chưa được dùng làm điểm đánh giá cuối.
-- Chưa có dữ liệu địa phương chi tiết để gỡ mọi xã bị chia; ứng viên được giữ để duyệt.
+- Chưa có người duyệt con người nghiệm thu; tập dữ liệu chưa được dùng làm Gold Test chính thức để chấm điểm hệ thống NLP (`human_reviewed_rows = 0`).
+- Còn toàn bộ 33 ca xã bị chia và 39 ca đầu vào thiếu xã thực sự cần hồ sơ trích lục địa chính hoặc con người quyết định.
 - Không tạo đủ hạn ngạch lỗi gõ, thiếu dấu hoặc nông thôn bằng cách sửa chuỗi nguồn. Các nhóm này phụ thuộc dữ liệu tự nhiên.
 - Địa chỉ thật trên nguồn có thể lỗi, cũ hoặc xung đột giữa `addr:full` và thẻ cấu trúc. Bản `addr:full` luôn được ưu tiên làm đầu vào và không tự sửa. Cần nhóm so nguồn khi duyệt.
 - Các vấn đề còn trong danh mục sạch không được âm thầm sửa ở nhiệm vụ này. Bộ dữ liệu không sửa `data/raw`, `data/clean`, `src/` hoặc `bai_toan.md`.

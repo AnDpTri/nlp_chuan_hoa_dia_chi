@@ -1,0 +1,63 @@
+{
+  "zip_sha256": "aaa248ad54c51ce885e1a7902d2d0da3ca2c918ccd4243ad52b689d4aa7beff1",
+  "export_files_verified": 49,
+  "all_export_hashes_match": true,
+  "input_sha256_matches_cnn_experiment": {
+    "train_cnn": true,
+    "train_ranker": true,
+    "dev_goc": true,
+    "dev_kho": true
+  },
+  "evaluation_code_matches_delivered_v2": {
+    "src/tach_phan_con.py": true,
+    "src/tim_kiem.py": true,
+    "src/quy_tac.py": true,
+    "src/videberta.py": true,
+    "src/danh_muc.py": true,
+    "src/chuan_hoa.py": true,
+    "src/duong_dan.py": true,
+    "src/tra_cuu_neural.py": true,
+    "src/crf_chi_tiet.py": true,
+    "src/xep_hang.py": true,
+    "src/giai_ma.py": true,
+    "src/__init__.py": true,
+    "src/kieu_du_lieu.py": true,
+    "src/__main__.py": true,
+    "src/chuyen_doi.py": true,
+    "src/char_cnn.py": true,
+    "src/tien_xu_ly.py": true,
+    "danh_gia/do_char.py": true
+  },
+  "comparison": {
+    "dev_goc": {
+      "vs_crf_gain": 17,
+      "vs_crf_loss": 33,
+      "vs_cnn_gain": 15,
+      "vs_cnn_loss": 29
+    },
+    "dev_kho": {
+      "vs_crf_gain": 12,
+      "vs_crf_loss": 4,
+      "vs_cnn_gain": 6,
+      "vs_cnn_loss": 4
+    }
+  },
+  "mismatch_breakdown": {
+    "dev_goc": {
+      "both": 26,
+      "road_mismatch": 183,
+      "six_fields_only_accents": 94,
+      "detail_only": 194,
+      "admin_only": 37
+    },
+    "dev_kho": {
+      "detail_only": 156,
+      "road_mismatch": 168,
+      "six_fields_only_accents": 66,
+      "both": 12,
+      "admin_only": 14
+    }
+  },
+  "gpu_epoch_training_seconds_sum": 412.3672567470003,
+  "limitations": "Kiểm manifest và tính lại số khớp từ output, không đo lại inference hoặc xác nhận gold; latency là CPU Colab."
+}

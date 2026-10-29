@@ -1,0 +1,15 @@
+Sửa riêng gói data/duong/ tại D:\nlp_chuan_hoa_dia_chi theo audit độc lập danh_gia/ket_qua/audit_agy_duong_train_v2_01/BAO_CAO.md và KIEM_TRA_DOC_LAP.json, chỉ đọc phần đường. Gói chưa đạt xác minh nguồn; không sinh thêm danh sách tên để bù số lượng.
+
+LỖI ĐÃ XÁC NHẬN
+generate_sources.py lấy các bảng definitions/*.py tự ghi ra .txt, rồi validator kiểm tên trong chính .txt đó. Đây không phải evidence độc lập. 8/10 URL là trang gốc, không dẫn văn bản/bản ghi cụ thể. URL docid=204000 được ghi là QĐ1454 nhưng trang chính thức là QĐ89/QĐ-TCTĐB ngày09/09/2021, văn bản quy chế Tổ công tác dự án đầu tư. Audit có HTML tải thật và FETCH_NGUON_THAT.json. Không được chỉ đổi URL hoặc tên tệp để biến bảng tự viết thành nguồn thật.
+
+VIỆC CẦN LÀM
+1. Giữ snapshot/hash và hạ trạng thái những bản ghi chưa chứng minh được xuống candidate/pending; lịch sử cũ giữ nguyên, ghi đính chính rõ. Không gọi chúng là nguồn pháp lý hay xác minh thực địa nếu chưa có bằng chứng.
+2. Thu thập nguồn thật bằng web/search/HTTP/API công khai: URL bài/văn bản/PDF cụ thể hoặc OSM object/query có ID. Lưu raw response, HTTP status, fetched_at_utc, hash, nguồn và mốc hiệu lực riêng. Kiểm tên/loại/địa bàn/alias được đưa ra với đúng đoạn nguồn thực, không chỉ có từ gần giống đâu đó trong trang.
+3. Ưu tiên một lô nhỏ làm đúng hoàn toàn rồi mở rộng; không ép đạt1.000 tên nếu chưa đủ nguồn. Nguồn OSM là cộng đồng, không tự nâng thành văn bản pháp lý. Alias lịch sử/chữ đầu không mặc nhiên là tên tương đương hiện hành. Giữ mốc cũ/mới và địa bàn có căn cứ.
+4. Validator phải bắt nguồn tự tạo nhưng giả danh nguồn tải, trang chủ, sai số văn bản, thiếu bằng chứng của tên/alias/địa bàn xuất ra, HTTP lỗi, hash sai; có fixture đúng để chứng minh không từ chối tất cả. PASS cấu trúc không được báo là đã xác minh ngữ nghĩa100%.
+
+PHẠM VI
+Chỉ data/duong/ và docs/DANH_MUC_DUONG_V1.md. Không sửa src/, danh_gia/, mo_hinh/, colab/, data/train_dev/, data/test/, raw/clean, môi trường, tests/ gốc, README gốc hoặc audit độc lập. Đặc biệt không chạm data/train_dev/duyet_v2_01 là bản lọc độc lập đang dùng tiếp. Không commit/push, không mở agent/task khác, không agy CLI. Không đọc nhãn/ca sai/prediction dev/test để chọn tên. Giữ file gói khác nguyên trạng.
+
+Bàn giao số confirmed có nguồn thực, candidate/pending còn lại, thay đổi trạng thái, manifest raw nguồn, mapping record->evidence, validator/tests và giới hạn thật. Không tự tích hợp vào lõi.

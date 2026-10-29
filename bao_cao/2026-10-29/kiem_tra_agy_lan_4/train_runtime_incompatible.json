@@ -1,0 +1,562 @@
+[
+  {
+    "id": "VNTRAIN_BS_01799",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01800",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "209Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01801",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "157Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01802",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "261Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01803",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "229Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01804",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "217Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01805",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "267Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01806",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "270Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01807",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "304Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01808",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "312Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01809",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "421Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01810",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "409Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01811",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "446Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01812",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "450Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01813",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "463Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01814",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "498Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01815",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "541Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01816",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "555Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01817",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "565Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01818",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "635Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01819",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "594Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01820",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "623Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01821",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "398Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01822",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "410Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01823",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "360Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01824",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "380Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01825",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "403Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01826",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "440Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01827",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "488Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01828",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "475Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01829",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "524Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01830",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "547Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01831",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "556Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01832",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "576Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01833",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "589Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01834",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "698Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01835",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "713Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01836",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "678Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01837",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "674Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01838",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "769Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01839",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "760Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01840",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "835Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01841",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "813Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNTRAIN_BS_01842",
+    "split": "train",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "814Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00399",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "668Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00400",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "736Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00401",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "706Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00402",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "817Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00403",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "807Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00404",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "812Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00405",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "925Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00406",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "8Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00407",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "10Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00408",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "5Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00409",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "63Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "VNDEV_KHO_00410",
+    "split": "dev",
+    "fields": [
+      "so_nha",
+      "duong"
+    ],
+    "usable": false,
+    "input": "39Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"
+  }
+]

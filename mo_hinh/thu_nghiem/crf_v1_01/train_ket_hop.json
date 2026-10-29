@@ -1,0 +1,41 @@
+{
+  "rows": 5966,
+  "tokens": 102019,
+  "labels": {
+    "O": 72318,
+    "B-so_nha": 5406,
+    "B-duong": 5481,
+    "I-duong": 14354,
+    "I-so_nha": 3419,
+    "B-ngo_ngach_hem": 379,
+    "I-ngo_ngach_hem": 379,
+    "B-thon_xom": 126,
+    "I-thon_xom": 157
+  },
+  "feature_preparation_s": 16.1146828000019,
+  "fit_s": 13.9055386,
+  "total_s": 30.083868800000346,
+  "params": {
+    "c1": 0.1,
+    "c2": 0.1,
+    "max_iterations": 100,
+    "feature.possible_transitions": true
+  },
+  "model_bytes": 288624,
+  "model_sha256": "c8a9e30bb0dcf1adb56337a9af8f5f133c6cb1b1c8ad6eec1a996874a3e9d935",
+  "dataset_sha256": "61fd656c592331358ee57a9e3b8240394e9e5412226f76101c71157bfb8bf445",
+  "attributes": 3343,
+  "state_features": 5370,
+  "transitions": 45,
+  "memory_after_training": {
+    "phuong_phap": "Windows GetProcessMemoryInfo",
+    "working_set_mib": 117.105,
+    "peak_working_set_mib": 122.941,
+    "private_mib": 109.145
+  },
+  "library": "python-crfsuite 0.9.12",
+  "python": "3.12.10",
+  "cpu_logical_count": 12,
+  "device": "CPU",
+  "dev_used_for_fitting_or_model_selection": false
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "id": "VNTEST0016",
+    "input": "288 Nguyễn Văn Linh, An Khánh, NK, CT",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "31147",
+        "after": "31149"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0039",
+    "input": "709, Nguyễn Thị Định, Cát Lái, 2, Hồ Chí Minh",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "27112",
+        "after": "27109"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0046",
+    "input": "ĐT.281, Thôn Trịnh Xá, Xã Lạc Đạo, Hưng Yên",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "11992",
+        "after": "11989"
+      },
+      "ma_xa": {
+        "before": "11992",
+        "after": ""
+      },
+      "xa_phuong": {
+        "before": "Xã Lạc Đạo",
+        "after": ""
+      },
+      "dia_chi_chuan": {
+        "before": "Thôn Trịnh Xá, ĐT.281, Xã Lạc Đạo, Tỉnh Hưng Yên",
+        "after": "Thôn Trịnh Xá, ĐT.281, Tỉnh Hưng Yên"
+      },
+      "canh_bao": {
+        "before": "[]",
+        "after": "[\"chua_xac_dinh_xa\", \"mo_ho_moc_cu_moi\", \"xa_bi_chia\"]"
+      },
+      "trang_thai_nhan": {
+        "before": "da_duyet_ai",
+        "after": "can_duyet"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0053",
+    "input": "Chợ Đậu, Khu dân cư mới thông Cát Lư, Thôn Cát Lư, Xã Lạc Đạo, Hưng Yên",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "11992",
+        "after": "11989"
+      },
+      "ma_xa": {
+        "before": "11992",
+        "after": ""
+      },
+      "xa_phuong": {
+        "before": "Xã Lạc Đạo",
+        "after": ""
+      },
+      "dia_chi_chuan": {
+        "before": "Thôn Cát Lư, Xã Lạc Đạo, Tỉnh Hưng Yên",
+        "after": "Thôn Cát Lư, Tỉnh Hưng Yên"
+      },
+      "canh_bao": {
+        "before": "[\"phan_chua_phan_loai\"]",
+        "after": "[\"chua_xac_dinh_xa\", \"mo_ho_moc_cu_moi\", \"phan_chua_phan_loai\", \"xa_bi_chia\"]"
+      },
+      "trang_thai_nhan": {
+        "before": "da_duyet_ai",
+        "after": "can_duyet"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0055",
+    "input": "ĐT.385;ĐT.281, Nghĩa Lộ, Xã Lạc Đạo, Hưng Yên",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "11992",
+        "after": "11989"
+      },
+      "ma_xa": {
+        "before": "11992",
+        "after": ""
+      },
+      "xa_phuong": {
+        "before": "Xã Lạc Đạo",
+        "after": ""
+      },
+      "dia_chi_chuan": {
+        "before": "Nghĩa Lộ, ĐT.385;ĐT.281, Xã Lạc Đạo, Tỉnh Hưng Yên",
+        "after": "Nghĩa Lộ, ĐT.385;ĐT.281, Tỉnh Hưng Yên"
+      },
+      "canh_bao": {
+        "before": "[]",
+        "after": "[\"chua_xac_dinh_xa\", \"mo_ho_moc_cu_moi\", \"xa_bi_chia\"]"
+      },
+      "trang_thai_nhan": {
+        "before": "da_duyet_ai",
+        "after": "can_duyet"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0058",
+    "input": "Thon Pac Ngoi, Xa Nam Mau, Ba Be district, Bac Kan",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "01906",
+        "after": "01909"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0081",
+    "input": "Lạc Long Quân, P. Điện Dương, TX. Điện Bàn, T. Quảng Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "20579",
+        "after": "20581"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0090",
+    "input": "229 Tôn Đức Thắng, p. Nghĩa Thành, Thị xã Gia Nghĩa, Đăk Nông, Việt Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "24611",
+        "after": "24612"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0092",
+    "input": "908 Phú Riềng Đỏ, Tân Xuân, Tx. Đồng Xoài, Bình Phước, Việt Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "25195",
+        "after": "25204"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0143",
+    "input": "Khối phố Cẩm Sa, P Điện Nam Bắc, TX Điện Bàn, T Quảng Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "20579",
+        "after": "20578"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0179",
+    "input": "373 Nguyễn Oanh, Phường 17, Hồ Chí Minh, Việt Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "26884",
+        "after": "26875"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0246",
+    "input": "Ta Van Day, Ta Van, Sapa, Lao Cai",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "03037",
+        "after": "03040"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0266",
+    "input": "Thôn Xuân Phú, X. Tam Thái, H. Phú Ninh, T.Quảng Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "20364",
+        "after": "20386"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0277",
+    "input": "ấp 2 xã tiến hưng - thị xã đồng xoài - bình phước",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "25195",
+        "after": "25213"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0280",
+    "input": "Đường Mỹ Xuân-Tóc Tiên, ấp 5, xã Tóc Tiên, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "26728",
+        "after": "26731"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0308",
+    "input": "La Pán Tẩn, Mù Cang Chải District, Yên Bái, Vietnam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "04492",
+        "after": "04483"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0309",
+    "input": "123/8, Hẻm 123 đường số 3, Bình Hưng Hòa, Bình Tân, Hồ Chí Minh, Thành phố Hồ Chí Minh",
+    "changes": {
+      "so_nha": {
+        "before": "8",
+        "after": "123/8"
+      },
+      "dia_chi_chuan": {
+        "before": "Số 8, Hẻm 123, Đường Số 3, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh",
+        "after": "Số 123/8, Hẻm 123, Đường Số 3, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0325",
+    "input": "1232 Hùng Vương, X. Duy Sơn, H. Duy Xuyên, T. Quảng Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "20623",
+        "after": "20620"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0361",
+    "input": "Nam Dam hamlet, Quan Ba commune, Quan Ba, Ha Giang",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "00874",
+        "after": "00898"
+      }
+    }
+  },
+  {
+    "id": "VNTEST0384",
+    "input": "ĐT611, X. Quế Châu, H. Quế Sơn, T. Quảng Nam",
+    "changes": {
+      "ma_xa_cu": {
+        "before": "20662",
+        "after": "20680"
+      }
+    }
+  }
+]

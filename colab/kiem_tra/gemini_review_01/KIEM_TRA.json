@@ -1,0 +1,216 @@
+{
+  "baseline_cells": 19,
+  "current_cells": 23,
+  "current_sha256": "9a746746bedab0b58b62c8b670e8c1459777088589c2673b7288c897c0c063e8",
+  "changed_cells": [
+    {
+      "id": "cell-08",
+      "index": 8,
+      "execution_count": 12
+    }
+  ],
+  "added_cells": [
+    {
+      "id": "5dd84852",
+      "index": 9,
+      "execution_count": 16,
+      "type": "code"
+    },
+    {
+      "id": "16e02787",
+      "index": 10,
+      "execution_count": 17,
+      "type": "code"
+    },
+    {
+      "id": "ddf69ce1",
+      "index": 11,
+      "execution_count": null,
+      "type": "code"
+    },
+    {
+      "id": "8af3e948",
+      "index": 12,
+      "execution_count": 13,
+      "type": "code"
+    }
+  ],
+  "string_patch_reproduction_not_execution": {
+    "digest_patch": {
+      "syntax_valid": false,
+      "line": 43,
+      "message": "unexpected character after line continuation character",
+      "source_line": "normalized_path = Path(str(path).replace('\\', '/').replace('\\', '/'))",
+      "matched": true,
+      "bundle_checksum_would_change": true
+    },
+    "trainer_patch": {
+      "syntax_valid": false,
+      "line": 49,
+      "message": "unterminated string literal (detected at line 49)",
+      "source_line": "if digest(data_root / 'snapshot' / name.replace('\\\\', '/').replace('\\', '/')) != h:",
+      "matched": true,
+      "bundle_checksum_would_change": true
+    }
+  },
+  "windows_manifest_paths_not_portable": [
+    "clean\\cu_huyen.csv",
+    "clean\\cu_tinh.csv",
+    "clean\\cu_tinh_huyen_xa.csv",
+    "clean\\doi_chieu_xa_cu_moi.csv",
+    "clean\\moi_tinh.csv",
+    "clean\\moi_tinh_xa.csv",
+    "prepared_crf\\dev_goc.jsonl",
+    "prepared_crf\\dev_kho.jsonl",
+    "prepared_crf\\excluded.jsonl",
+    "prepared_crf\\summary.json",
+    "prepared_crf\\train_goc.jsonl",
+    "prepared_crf\\train_ket_hop.jsonl"
+  ],
+  "missing_after_normalizing_separators": [],
+  "local_code_vs_delivered_bundle": [
+    {
+      "file": "colab/build_bundle.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "colab/evaluate_videberta.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "colab/export_results.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "colab/train_videberta.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "colab/verify_bundle.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "colab/__init__.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/chan_doan_pipeline.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/chay_ban_thu.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/do_char.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/do_crf.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/do_ram_char.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/du_lieu_char.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/du_lieu_crf.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/huan_luyen_char.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/huan_luyen_crf.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/kiem_tra_char.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/so_sanh_ban_thu.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/viet_tong_ket_char.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "danh_gia/viet_tong_ket_crf.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/char_cnn.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/chuan_hoa.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/chuyen_doi.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/crf_chi_tiet.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/danh_muc.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/giai_ma.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/kieu_du_lieu.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/quy_tac.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/tach_phan_con.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/tien_xu_ly.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/tim_kiem.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/tra_cuu_neural.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/videberta.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/xep_hang.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/__init__.py",
+      "matches_delivered_bundle": true
+    },
+    {
+      "file": "src/__main__.py",
+      "matches_delivered_bundle": true
+    }
+  ],
+  "drive_training_run_dir_exists": false,
+  "source_notebook_unchanged_by_audit": true,
+  "limits": "Mã runtime /content không được đọc trực tiếp; lỗi cú pháp được tái hiện từ literal và phép sửa đã lưu trong notebook. Không gán mọi thay đổi trên ổ D cho Gemini."
+}

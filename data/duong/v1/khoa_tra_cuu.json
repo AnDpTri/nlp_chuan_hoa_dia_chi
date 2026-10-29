@@ -1,0 +1,485 @@
+{
+  "by_unaccented_key": {
+    "pho nguyen huu lieu": [
+      "STR_CONF_0001"
+    ],
+    "pho doan khue": [
+      "STR_CONF_0002"
+    ],
+    "pho hoc phi": [
+      "STR_CONF_0003"
+    ],
+    "pho hang long": [
+      "STR_CONF_0004"
+    ],
+    "pho ho linh quang": [
+      "STR_CONF_0005"
+    ],
+    "pho pha m kha c ho e": [
+      "STR_CONF_0006"
+    ],
+    "pho phan hien": [
+      "STR_CONF_0007"
+    ],
+    "duong vien chieu": [
+      "STR_CONF_0008"
+    ],
+    "pho duong ba tra c": [
+      "STR_CONF_0009"
+    ],
+    "pho le da i": [
+      "STR_CONF_0010"
+    ],
+    "pho nguyen huy tha o": [
+      "STR_CONF_0011"
+    ],
+    "pho nguyen the ruc": [
+      "STR_CONF_0012"
+    ],
+    "pho phan tay nha c": [
+      "STR_CONF_0013"
+    ],
+    "pho ba ch thanh phong": [
+      "STR_CONF_0014"
+    ],
+    "pho le gia n": [
+      "STR_CONF_0015"
+    ],
+    "pho tuong dan ba o": [
+      "STR_CONF_0016"
+    ],
+    "duong xuan mai": [
+      "STR_CONF_0017"
+    ],
+    "duong duong viet dien": [
+      "STR_CONF_0018"
+    ],
+    "duong ba da m dang": [
+      "STR_CONF_0019"
+    ],
+    "duong le xa": [
+      "STR_CONF_0020"
+    ],
+    "duong ngoc dong": [
+      "STR_CONF_0021"
+    ],
+    "duong xuan thuy": [
+      "STR_CONF_0022"
+    ],
+    "duong chu dong tu": [
+      "STR_CONF_0023"
+    ],
+    "duong tien dung": [
+      "STR_CONF_0024"
+    ],
+    "duong le tran can": [
+      "STR_CONF_0025"
+    ],
+    "duong kim hoa": [
+      "STR_CONF_0026"
+    ],
+    "duong an phu": [
+      "STR_CONF_0027"
+    ],
+    "duong hung tien": [
+      "STR_CONF_0028"
+    ],
+    "duong my xuyen": [
+      "STR_CONF_0029"
+    ],
+    "duong phuc lam": [
+      "STR_CONF_0030"
+    ],
+    "duong phung xa": [
+      "STR_CONF_0031"
+    ],
+    "duong tam du c": [
+      "STR_CONF_0032"
+    ],
+    "duong phuong nhi": [
+      "STR_CONF_0033"
+    ],
+    "duong tam hiep": [
+      "STR_CONF_0034"
+    ],
+    "duong yen nguu": [
+      "STR_CONF_0035"
+    ],
+    "pho vu du c uy": [
+      "STR_CONF_0036"
+    ],
+    "duong doan tue": [
+      "STR_CONF_0037"
+    ],
+    "duong le cong hanh": [
+      "STR_CONF_0038"
+    ],
+    "duong do muoi": [
+      "STR_CONF_0039"
+    ],
+    "duong le duc anh": [
+      "STR_CONF_0040"
+    ],
+    "duong le kha phieu": [
+      "STR_CONF_0041"
+    ],
+    "duong le quang dao": [
+      "STR_CONF_0042"
+    ],
+    "duong phan van khai": [
+      "STR_CONF_0043"
+    ],
+    "duong van tien dung": [
+      "STR_CONF_0044"
+    ],
+    "duong hoang cam": [
+      "STR_CONF_0045"
+    ],
+    "cao toc bac nam phia dong": [
+      "STR_CONF_0046"
+    ],
+    "cao toc bac nam phia tay": [
+      "STR_CONF_0047"
+    ],
+    "duong bo ven bien": [
+      "STR_CONF_0048"
+    ],
+    "quoc lo 45": [
+      "STR_CONF_0049"
+    ],
+    "duong binh ky": [
+      "STR_CONF_0050"
+    ],
+    "duong luu quang vu": [
+      "STR_CONF_0051"
+    ],
+    "duong tran hung dao": [
+      "STR_CONF_0052"
+    ],
+    "duong hung vuong": [
+      "STR_CONF_0053"
+    ]
+  },
+  "by_collapsed_key": {
+    "phonguyenhuulieu": [
+      "STR_CONF_0001"
+    ],
+    "phodoankhue": [
+      "STR_CONF_0002"
+    ],
+    "phohocphi": [
+      "STR_CONF_0003"
+    ],
+    "phohanglong": [
+      "STR_CONF_0004"
+    ],
+    "phoholinhquang": [
+      "STR_CONF_0005"
+    ],
+    "phophamkhachoe": [
+      "STR_CONF_0006"
+    ],
+    "phophanhien": [
+      "STR_CONF_0007"
+    ],
+    "duongvienchieu": [
+      "STR_CONF_0008"
+    ],
+    "phoduongbatrac": [
+      "STR_CONF_0009"
+    ],
+    "pholedai": [
+      "STR_CONF_0010"
+    ],
+    "phonguyenhuythao": [
+      "STR_CONF_0011"
+    ],
+    "phonguyentheruc": [
+      "STR_CONF_0012"
+    ],
+    "phophantaynhac": [
+      "STR_CONF_0013"
+    ],
+    "phobachthanhphong": [
+      "STR_CONF_0014"
+    ],
+    "pholegian": [
+      "STR_CONF_0015"
+    ],
+    "photuongdanbao": [
+      "STR_CONF_0016"
+    ],
+    "duongxuanmai": [
+      "STR_CONF_0017"
+    ],
+    "duongduongvietdien": [
+      "STR_CONF_0018"
+    ],
+    "duongbadamdang": [
+      "STR_CONF_0019"
+    ],
+    "duonglexa": [
+      "STR_CONF_0020"
+    ],
+    "duongngocdong": [
+      "STR_CONF_0021"
+    ],
+    "duongxuanthuy": [
+      "STR_CONF_0022"
+    ],
+    "duongchudongtu": [
+      "STR_CONF_0023"
+    ],
+    "duongtiendung": [
+      "STR_CONF_0024"
+    ],
+    "duongletrancan": [
+      "STR_CONF_0025"
+    ],
+    "duongkimhoa": [
+      "STR_CONF_0026"
+    ],
+    "duonganphu": [
+      "STR_CONF_0027"
+    ],
+    "duonghungtien": [
+      "STR_CONF_0028"
+    ],
+    "duongmyxuyen": [
+      "STR_CONF_0029"
+    ],
+    "duongphuclam": [
+      "STR_CONF_0030"
+    ],
+    "duongphungxa": [
+      "STR_CONF_0031"
+    ],
+    "duongtamduc": [
+      "STR_CONF_0032"
+    ],
+    "duongphuongnhi": [
+      "STR_CONF_0033"
+    ],
+    "duongtamhiep": [
+      "STR_CONF_0034"
+    ],
+    "duongyennguu": [
+      "STR_CONF_0035"
+    ],
+    "phovuducuy": [
+      "STR_CONF_0036"
+    ],
+    "duongdoantue": [
+      "STR_CONF_0037"
+    ],
+    "duongleconghanh": [
+      "STR_CONF_0038"
+    ],
+    "duongdomuoi": [
+      "STR_CONF_0039"
+    ],
+    "duongleducanh": [
+      "STR_CONF_0040"
+    ],
+    "duonglekhaphieu": [
+      "STR_CONF_0041"
+    ],
+    "duonglequangdao": [
+      "STR_CONF_0042"
+    ],
+    "duongphanvankhai": [
+      "STR_CONF_0043"
+    ],
+    "duongvantiendung": [
+      "STR_CONF_0044"
+    ],
+    "duonghoangcam": [
+      "STR_CONF_0045"
+    ],
+    "caotocbacnamphiadong": [
+      "STR_CONF_0046"
+    ],
+    "caotocbacnamphiatay": [
+      "STR_CONF_0047"
+    ],
+    "duongbovenbien": [
+      "STR_CONF_0048"
+    ],
+    "quoclo45": [
+      "STR_CONF_0049"
+    ],
+    "duongbinhky": [
+      "STR_CONF_0050"
+    ],
+    "duongluuquangvu": [
+      "STR_CONF_0051"
+    ],
+    "duongtranhungdao": [
+      "STR_CONF_0052"
+    ],
+    "duonghungvuong": [
+      "STR_CONF_0053"
+    ]
+  },
+  "by_initials_key": {
+    "pnhl": [
+      "STR_CONF_0001"
+    ],
+    "pdk": [
+      "STR_CONF_0002"
+    ],
+    "php": [
+      "STR_CONF_0003"
+    ],
+    "phl": [
+      "STR_CONF_0004"
+    ],
+    "phlq": [
+      "STR_CONF_0005"
+    ],
+    "ppmkche": [
+      "STR_CONF_0006"
+    ],
+    "pph": [
+      "STR_CONF_0007"
+    ],
+    "dvc": [
+      "STR_CONF_0008"
+    ],
+    "pdbtc": [
+      "STR_CONF_0009"
+    ],
+    "pldi": [
+      "STR_CONF_0010"
+    ],
+    "pnhto": [
+      "STR_CONF_0011"
+    ],
+    "pntr": [
+      "STR_CONF_0012"
+    ],
+    "pptnc": [
+      "STR_CONF_0013"
+    ],
+    "pbctp": [
+      "STR_CONF_0014"
+    ],
+    "plgn": [
+      "STR_CONF_0015"
+    ],
+    "ptdbo": [
+      "STR_CONF_0016"
+    ],
+    "dxm": [
+      "STR_CONF_0017"
+    ],
+    "ddvd": [
+      "STR_CONF_0018"
+    ],
+    "dbdmd": [
+      "STR_CONF_0019"
+    ],
+    "dlx": [
+      "STR_CONF_0020"
+    ],
+    "dnd": [
+      "STR_CONF_0021"
+    ],
+    "dxt": [
+      "STR_CONF_0022"
+    ],
+    "dcdt": [
+      "STR_CONF_0023"
+    ],
+    "dtd": [
+      "STR_CONF_0024"
+    ],
+    "dltc": [
+      "STR_CONF_0025"
+    ],
+    "dkh": [
+      "STR_CONF_0026"
+    ],
+    "dap": [
+      "STR_CONF_0027"
+    ],
+    "dht": [
+      "STR_CONF_0028"
+    ],
+    "dmx": [
+      "STR_CONF_0029"
+    ],
+    "dpl": [
+      "STR_CONF_0030"
+    ],
+    "dpx": [
+      "STR_CONF_0031"
+    ],
+    "dtdc": [
+      "STR_CONF_0032"
+    ],
+    "dpn": [
+      "STR_CONF_0033"
+    ],
+    "dth": [
+      "STR_CONF_0034"
+    ],
+    "dyn": [
+      "STR_CONF_0035"
+    ],
+    "pvdcu": [
+      "STR_CONF_0036"
+    ],
+    "ddt": [
+      "STR_CONF_0037"
+    ],
+    "dlch": [
+      "STR_CONF_0038"
+    ],
+    "ddm": [
+      "STR_CONF_0039"
+    ],
+    "dlda": [
+      "STR_CONF_0040"
+    ],
+    "dlkp": [
+      "STR_CONF_0041"
+    ],
+    "dlqd": [
+      "STR_CONF_0042"
+    ],
+    "dpvk": [
+      "STR_CONF_0043"
+    ],
+    "dvtd": [
+      "STR_CONF_0044"
+    ],
+    "dhc": [
+      "STR_CONF_0045"
+    ],
+    "ctbnpd": [
+      "STR_CONF_0046"
+    ],
+    "ctbnpt": [
+      "STR_CONF_0047"
+    ],
+    "dbvb": [
+      "STR_CONF_0048"
+    ],
+    "ql4": [
+      "STR_CONF_0049"
+    ],
+    "dbk": [
+      "STR_CONF_0050"
+    ],
+    "dlqv": [
+      "STR_CONF_0051"
+    ],
+    "dthd": [
+      "STR_CONF_0052"
+    ],
+    "dhv": [
+      "STR_CONF_0053"
+    ]
+  }
+}

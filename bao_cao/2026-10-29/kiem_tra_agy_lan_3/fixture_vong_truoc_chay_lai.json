@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "current_edit",
+    "input": "181 Tây Thạnh,P. Tây Thạnh, Q Tân Phú, HCM",
+    "final_road": "Đường Tây Thạnh",
+    "final_notes": "CURRENT_EDIT_SENTINEL_KEEP_ME; duyet_boi=antigravity-deepmind-agent; model=gemini-3.8-flash-high; loai_nguoi_duyet=ai; ngay_duyet=2026-10-29; ly_do=Đủ căn cứ tham chiếu: các thành phần địa chỉ khớp span trong chuỗi đầu vào, đơn vị hành chính cấp xã xác định duy nhất mốc 01/07/2025 theo danh mục sạch.",
+    "status": "da_duyet_ai",
+    "conclusion": "du_can_cu_tham_chieu",
+    "evidence": "Rà soát căn chỉnh span: duong 'Tây Thạnh' tại vị trí [4:13]; so_nha '181' tại vị trí [0:3]. Toàn bộ thành phần trích xuất quan sát được đều xuất hiện nguyên văn trong chuỗi đầu vào tại vị trí không chồng lấn.",
+    "validator_status": null
+  },
+  {
+    "mode": "missing_span",
+    "input": "181 Tây Thạnh,P. Tây Thạnh, Q Tân Phú, HCM",
+    "final_road": "Tây Thạnh",
+    "final_notes": "moc_nhan=cu; nguon_dau_vao=addr:full; duyet_boi=antigravity-deepmind-agent; model=gemini-3.8-flash-high; loai_nguoi_duyet=ai; ngay_duyet=2026-10-29; ly_do=Đủ căn cứ tham chiếu: các thành phần địa chỉ khớp span trong chuỗi đầu vào, đơn vị hành chính cấp xã xác định duy nhất mốc 01/07/2025 theo danh mục sạch.",
+    "status": "da_duyet_ai",
+    "conclusion": "du_can_cu_tham_chieu",
+    "evidence": "Rà soát căn chỉnh span: duong 'Tây Thạnh' tại vị trí [4:13]; so_nha '181' tại vị trí [0:3]. Toàn bộ thành phần trích xuất quan sát được đều xuất hiện nguyên văn trong chuỗi đầu vào tại vị trí không chồng lấn.",
+    "validator_status": null
+  },
+  {
+    "mode": "unobserved_output",
+    "input": "181 Tây Thạnh,P. Tây Thạnh, Q Tân Phú, HCM",
+    "final_road": "Tây Thạnh",
+    "final_notes": "moc_nhan=cu; nguon_dau_vao=addr:full; duyet_boi=antigravity-deepmind-agent; model=gemini-3.8-flash-high; loai_nguoi_duyet=ai; ngay_duyet=2026-10-29; ly_do=Đủ căn cứ tham chiếu: các thành phần địa chỉ khớp span trong chuỗi đầu vào, đơn vị hành chính cấp xã xác định duy nhất mốc 01/07/2025 theo danh mục sạch.",
+    "status": "da_duyet_ai",
+    "conclusion": "du_can_cu_tham_chieu",
+    "evidence": "Rà soát căn chỉnh span: duong 'Tây Thạnh' tại vị trí [4:13]; so_nha '181' tại vị trí [0:3]. Toàn bộ thành phần trích xuất quan sát được đều xuất hiện nguyên văn trong chuỗi đầu vào tại vị trí không chồng lấn.",
+    "validator_status": "PASS"
+  }
+]

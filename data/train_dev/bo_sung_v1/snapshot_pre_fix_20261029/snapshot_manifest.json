@@ -1,0 +1,10 @@
+{
+  "train_bo_sung.csv": "61d5732a67f24efaa5a6629d034e15f90918449b97185e766718e863fbc0f978",
+  "dev_kho.csv": "9444657c189c9b150b1aeff2ded3a88061359c02d865d72a174480829741361d",
+  "train_spans.jsonl": "9f63f49b393680fdd55c0eb42de7b37b7a42b3742d0baa6dcbba92174791ee81",
+  "dev_spans.jsonl": "fe21d7f5875dec2182f35f864cb1ce5de311e4180343423fb3394517644e2d62",
+  "token_spans.jsonl": "04f67cdb594360de8e661d87ada08330edfc8bf65b2f5940565af9fd274ff92d",
+  "manifest.json": "c81bd11a8368512adb010a531298287ced22bd139deafc139ca6733ba32d7f1c",
+  "summary_bo_sung.json": "ba03faedf4bb59c276f4a997962ecac0e50b1b23abbb92649473c956e12a821f",
+  "unaligned_spans.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

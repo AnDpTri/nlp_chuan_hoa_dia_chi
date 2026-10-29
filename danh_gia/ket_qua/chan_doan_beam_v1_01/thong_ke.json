@@ -1,0 +1,63 @@
+{
+  "scope": "Chẩn đoán các câu chưa khớp dev khó. Không đổi nhãn/model, không dùng test cuối.",
+  "category_warning": "Phân loại cơ học theo reference yếu, không xác nhận nhãn đúng ngữ nghĩa. Các nhãn cần rà chỉ là nghi vấn.",
+  "methods": {
+    "cnn": {
+      "wrong_output": 168,
+      "beam_missing_reference": 155,
+      "categories_exclusive": {
+        "co_hanh_chinh_dung_nhung_chi_tiet_chua_khop": 94,
+        "chi_thieu_phuc_hoi_dau": 56,
+        "thieu_ca_hanh_chinh_va_chi_tiet": 4,
+        "khac_dau_khoang_trang_dau_cau": 1,
+        "co_dap_an_trong_beam_nhung_output_chua_khop": 13
+      },
+      "tags_overlapping": {
+        "gia_tri_khac_duong": 137,
+        "span_chi_tiet_goc_khop": 157,
+        "span_khop_nhung_output_chuan_hoa_chua_du": 144,
+        "output_thieu_ma_xa": 3,
+        "span_chi_tiet_goc_khong_khop": 11,
+        "gia_tri_khac_ma_xa": 1,
+        "output_thieu_so_nha": 2,
+        "reference_trong_duong": 18,
+        "can_ra_soat_reference_duong_trong": 18
+      },
+      "detail_subgroups_heuristic": {
+        "thua_chu_dau_ten_co_the_tien_to_loi": 53,
+        "model_span_khong_khop": 10,
+        "noi_dung_chi_tiet_khac_can_ra_soat": 13,
+        "reference_duong_trong_can_ra_soat": 18
+      }
+    },
+    "videberta": {
+      "wrong_output": 165,
+      "beam_missing_reference": 152,
+      "categories_exclusive": {
+        "co_hanh_chinh_dung_nhung_chi_tiet_chua_khop": 91,
+        "chi_thieu_phuc_hoi_dau": 57,
+        "thieu_ca_hanh_chinh_va_chi_tiet": 3,
+        "khac_dau_khoang_trang_dau_cau": 1,
+        "co_dap_an_trong_beam_nhung_output_chua_khop": 13
+      },
+      "tags_overlapping": {
+        "gia_tri_khac_duong": 133,
+        "span_chi_tiet_goc_khop": 157,
+        "span_khop_nhung_output_chuan_hoa_chua_du": 144,
+        "output_thieu_ma_xa": 1,
+        "span_chi_tiet_goc_khong_khop": 8,
+        "gia_tri_khac_so_nha": 2,
+        "gia_tri_khac_ma_xa": 2,
+        "output_thieu_duong": 1,
+        "reference_trong_duong": 18,
+        "can_ra_soat_reference_duong_trong": 18
+      },
+      "detail_subgroups_heuristic": {
+        "thua_chu_dau_ten_co_the_tien_to_loi": 54,
+        "noi_dung_chi_tiet_khac_can_ra_soat": 12,
+        "model_span_khong_khop": 7,
+        "reference_duong_trong_can_ra_soat": 18
+      }
+    }
+  }
+}

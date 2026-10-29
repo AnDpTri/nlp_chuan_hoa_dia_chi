@@ -1,0 +1,32 @@
+Sửa tiếp và kiểm chứng quy trình duyệt test trong D:\nlp_chuan_hoa_dia_chi theo docs/antigravity_rpc/KIEM_TRA_HAI_TASK_AGY_LAN_3_20261029.md. Bằng chứng độc lập tại C:\Users\andan\Documents\Codex\2026-10-29\d-nlp-chuan-hoa-dia-chi\outputs\kiem_tra_agy_lan_3\independent_negative_fixtures.json; script tái hiện và fixture trong work/audit_agy_round3 của cùng chat. Không chỉ thêm assertion theo ID hoặc thay lời chứng nhận.
+
+PHẠM VI
+Chỉ sửa data/test/, tests/test_review_validation.py và tài liệu riêng của quy trình test nếu cần. Không sửa các báo cáo kiểm tra độc lập, src/, danh_gia/, mo_hinh/, train/dev gốc hoặc bổ sung, raw/clean, README.md gốc, tests khác. Không commit/push, không mở agent khác hay dùng agy CLI. Không chạy mô hình trên test để sửa lõi, không lấy dự đoán hoặc lỗi dev làm đáp án. Task train/dev bổ sung hoạt động riêng.
+
+GIỮ CÁC SỬA ĐÚNG
+Giữ cách bắt đầu từ dữ liệu hiện hành, bảo toàn giá trị/ghi chú, kiểm tra xung đột patch, căn chỉnh từ output thực. Giữ nguyên 400 ID/input/URL và nguồn đóng băng. Giữ 33 xã bị chia trống khi chưa có chứng cứ phân địa bàn. Trạng thái 292 duyệt AI/108 cần duyệt được phép thay đổi theo bằng chứng, không giữ số bằng mọi giá.
+
+1. CHẶN KHỚP CHUỖI CON SAI RANH GIỚI VÀ SAI VAI TRÒ
+Input fixture thật: '181 Tây Thạnh,P. Tây Thạnh, Q Tân Phú, HCM'.
+- Cài so_nha='Số 81': engine lấy '81' tại [1:3] bên trong '181', ghi du_can_cu_tham_chieu/da_duyet_ai, validator PASS.
+- Cài so_nha='Số Tân Phú': engine lấy tên quận làm số nhà, vẫn đủ căn cứ và PASS.
+Grounding phải xét token/cụm số và vai trò theo ngữ cảnh, tiền tố, các span nguồn; tìm được substring không đủ. Không cắt tùy ý một phần số nhà có hậu tố/xuyệt/gạch; không lấy tên hành chính để chứng minh số nhà hoặc đường chỉ vì trùng chữ. Tiền tố loại phải được chuẩn hóa theo đúng trường, không bóc mọi tiền tố cho mọi vai trò. Hỗ trợ mất dấu/viết tắt có căn cứ nhưng giữ dấu đã nhập làm bằng chứng; phần không chắc chuyển chưa đủ căn cứ với lý do cụ thể. Không dùng luật hardcode riêng 181/81/Tân Phú hay riêng VNTEST0001. Viết fixture biến thể để chứng minh xử lý theo cấu trúc.
+
+2. CHỨNG MINH ĐƠN VỊ NGUỒN TỪ INPUT, KHÔNG CHỈ KIỂM TRA MÃ HỢP LỆ
+Giữ input Tây Thạnh/Tân Phú ở trên, thay bộ mã thành Bến Nghé cũ 26740, Quận 1 cũ 760, xã mới 26740 Phường Sài Gòn, tỉnh 79. Chuỗi mã/cha-con/cạnh chuyển đổi này tự hợp lệ nhưng không có bằng chứng đơn vị nguồn tương ứng trong input. Engine vẫn đủ căn cứ và validator PASS.
+Mỗi đơn vị được gán cần bằng chứng nguồn đúng cấp/mốc/đoạn chữ hoặc suy luận có thể truy vết từ bằng chứng thực sự có. Kiểm tra quan hệ tại nguồn lẫn đối chiếu đích. Tên đích không bắt buộc nguyên văn trong input cũ; điều bắt buộc là chuỗi chứng minh nguồn -> cạnh -> đích. Trùng tên hoặc mơ hồ giữa hai mốc không tự thành một đích chắc chắn. Kiểm thử mã bịa, mã có thật nhưng sai cha/cạnh và mã/cha/cạnh đều hợp lệ nhưng không khớp input. Sửa cả engine lẫn validator/hồ sơ nghiệm thu phù hợp, không chỉ một nơi.
+
+3. OFFSET PHẢI TRỎ ĐÚNG CHUỖI GỐC
+API align_output_components với NFD của '12 Tây Thạnh' và output đường 'Tay Thanh' trả [3:12] cắt thành 'Tây Thạ'; bỏ dấu chỉ còn 'tay tha'. Sửa ánh xạ vị trí khi chuẩn hóa, không dùng chỉ số chuỗi đã xóa dấu để cắt chuỗi gốc. Kiểm thử NFC/NFD, đ/Đ, dấu câu, tiền tố và khớp nhiều vị trí. Mọi span được chấp nhận phải có offset hợp lệ, đúng substring sau phép chuẩn hóa đã khai báo, không chồng hoặc ghép qua khoảng xa.
+
+4. THAY CĂN CỨ PHÁP LÝ SAI BẰNG NGUỒN ĐÚNG
+File can_cu_phap_ly_ngoai_tuyen.md mới đang gán sai nội dung nguồn:
+- NQ1192/NQ-UBTVQH15 là của Cần Thơ, ban hành 28/09/2024, hiệu lực 01/11/2024; không phải Hà Nội 14/11/2024. Nguồn chính thức: https://vanban.chinhphu.vn/?docid=211381&pageid=27160 . Có 11 audit record dẫn sai như căn cứ Hà Nội.
+- NQ1232/NQ-UBTVQH15 hiệu lực 01/01/2025, không phải 01/07/2025: https://vanban.chinhphu.vn/?classid=2&docid=211609&pageid=27160 . Văn bản này nhập Lạc Viên và Máy Tơ vào Gia Viên; phần bản trích nói Gia Viên chia ba phường không phải nội dung của văn bản đó. Bản đăng: https://xaydungchinhsach.chinhphu.vn/nghi-quyet-1232-nq-ubtvqh-sap-xep-don-vi-hanh-chinh-thanh-pho-hai-phong-119241103063654234.htm .
+Tra lại nguồn chính thức cho đúng địa phương, mốc và quan hệ được khẳng định; phân biệt văn bản giai đoạn nguồn với sắp xếp 2025. Với mỗi kết luận phải có URL, điều/khoản, phần văn bản thực đọc và vị trí file lưu để kiểm tra. Không tự viết lại lời giải thích rồi gọi là bản trích pháp lý. Nếu truy cập/đối chiếu chưa được thì ghi thiếu căn cứ, không gán văn bản khác để lấp chỗ trống. Không suy số nhà/đường vắng mặt trong input từ tọa độ/POI. Không sửa âm thầm lịch sử; giữ snapshot bản chứng cứ sai cùng ghi nhận đính chính.
+
+5. THỜI GIAN VÀ MỨC CHỨNG NHẬN
+Engine đang hardcode thoi_diem_tra_cuu='2026-10-29T14:15:00+07:00' cho 37 dòng. Lấy thời gian truy cập từ hồ sơ nguồn có thể kiểm tra; không biết thì để trống và ghi rõ. Tách thời gian chạy tự động, thời gian thu thập nguồn và thời gian quyết định. Không dùng timestamp template làm bằng chứng đã đọc từng nguồn. Không giả human reviewer hoặc tự chuyển AI thành gold. Tự thực hiện các bước tra cứu/kiểm chứng trong phạm vi, phần thiếu ghi rõ thay vì kết thúc bằng một quy trình yêu cầu duyệt thay toàn bộ công việc.
+
+NGHIỆM THU
+Snapshot/checksum trước sửa. Chạy engine/validator thật với fixture đường dẫn cô lập, gồm các ca âm tính mới và biến thể, lỗi cũ đã sửa, kiểm tra chạy lặp engine/sync giữ chỉnh sửa hiện hành. Sau đó rà lại 400 output thực, lưu hồ sơ từng trường: output -> span/role/đơn vị nguồn -> cạnh/nguồn pháp lý -> quyết định. Tách phần đủ căn cứ, phần cố ý để trống, phần xung đột; không dùng một trường thiếu để phủ định mọi phần đã chứng minh. Báo số lượng thực, hạn chế thật, log test và danh sách ID còn thiếu căn cứ. PASS cấu trúc không được trình bày là đã chứng minh toàn bộ nhãn ngữ nghĩa.

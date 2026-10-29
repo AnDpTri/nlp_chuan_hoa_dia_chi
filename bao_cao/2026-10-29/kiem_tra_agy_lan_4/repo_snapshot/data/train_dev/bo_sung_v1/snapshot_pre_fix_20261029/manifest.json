@@ -1,0 +1,23 @@
+{
+  "generator_script": "data/train_dev/scripts/bo_sung_v1/generate_bo_sung_v1.py",
+  "generator_seed": 4242,
+  "source_checksums": {
+    "clean_moi_tinh": "e18687784707867b3b44a70265fc37881dea5b8f41fd4f00d8b3462c6345da96",
+    "clean_moi_tinh_xa": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb",
+    "clean_cu_tinh": "32755d21d198951adb6cfb562a74e3d18fddc526548791c5f66f9fc4d7441ead",
+    "clean_cu_huyen": "0e7aa37a54ffd0ac4b87dac6f2c21ca122eef97b57e730bb0a44e572d68d0d4d",
+    "clean_cu_tinh_huyen_xa": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014",
+    "clean_doi_chieu_xa_cu_moi": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218",
+    "train_orig": "b6908b887034742f040fef272498b037b8c5e8fc37ea0302adc281740f73042d",
+    "dev_orig": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe"
+  },
+  "generated_files_checksums": {
+    "train_bo_sung_csv": "61d5732a67f24efaa5a6629d034e15f90918449b97185e766718e863fbc0f978",
+    "dev_kho_csv": "9444657c189c9b150b1aeff2ded3a88061359c02d865d72a174480829741361d",
+    "train_spans_jsonl": "9f63f49b393680fdd55c0eb42de7b37b7a42b3742d0baa6dcbba92174791ee81",
+    "dev_spans_jsonl": "fe21d7f5875dec2182f35f864cb1ce5de311e4180343423fb3394517644e2d62",
+    "token_spans_jsonl": "04f67cdb594360de8e661d87ada08330edfc8bf65b2f5940565af9fd274ff92d",
+    "unaligned_spans_jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "summary_bo_sung_json": "ba03faedf4bb59c276f4a997962ecac0e50b1b23abbb92649473c956e12a821f"
+  }
+}

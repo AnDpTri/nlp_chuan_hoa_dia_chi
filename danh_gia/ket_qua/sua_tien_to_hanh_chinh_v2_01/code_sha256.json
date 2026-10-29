@@ -1,0 +1,23 @@
+{
+  "src/char_cnn.py": "a17f1ea80e1b9f971b9c976a1713cea0e4055dec8a6ff1c77d677613ba1a04ea",
+  "src/chuan_hoa.py": "2b7c4f7a73ceb369608e710b0b21bbd88470098de7e3fa29fd0790e6e8995d0b",
+  "src/chuan_ten_duong.py": "ac46e121c380cc81b04b83adde65fe12013f3ffdd0386c092dfaa4ba748654ed",
+  "src/chuyen_doi.py": "0720717063d548f1853d8350870adf645a86bda2509559015479c3bfac61fc57",
+  "src/crf_chi_tiet.py": "93ac39f7f673f87b2d45b3b5f0db4ce80ce730e98994882468607923db27bd2f",
+  "src/danh_muc.py": "c4a72733ee810e0ec82cf4ce68b08440b89394b5de1a231eaf53a141216d3371",
+  "src/duong_dan.py": "1d60facc075f5efe408205d170ffb534d355947277371d7e028a7f3737c4e8b8",
+  "src/giai_ma.py": "59b5ff58c4d68723e121022c7270fc9d6f560f9f2e55b3084e9a72ac04c481e4",
+  "src/hop_dong.py": "c41239c7939dd06f12a2161fe7e88af5e4d472911003ec348f33316fc67b9e01",
+  "src/kieu_du_lieu.py": "5a72d1d5a7108f2dbec3c78efc066d09c79dcbd8f3e783b1c1201fda1640b967",
+  "src/quy_tac.py": "e104a069fe601598edd1b1bc9761379bd42ed46645689d4fcc99b9660233ebc8",
+  "src/tach_phan_con.py": "fb88bd57564d4c6aca6b0cffb9c5dab1eb1eea77a2aa773c55217e55a2635165",
+  "src/tien_xu_ly.py": "6153f7fc0594d5508e9c7f4272b8bb01411e549ee9c9b56ec8ca0de323f81691",
+  "src/tim_kiem.py": "7b990431eaeafb21040b76353f89d64ae79aeb65a6df3b5b20f024ccdbf9dda9",
+  "src/tra_cuu_neural.py": "647bf5019dfb1a82667816c690af7d156bec48b004c0ab76166504b29d2d54df",
+  "src/videberta.py": "ea2eee0f9be39c1a75b7d5cdeb47ee258b844f2b4f5a2f6b9634a791517b69b4",
+  "src/xep_hang.py": "3050c347bc9336ae79e1adef12ad1eebe2b46a29d2e1e5865c182b947b2ba220",
+  "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "src/__main__.py": "bd0d3471d4302beb5e0f39e885930faa849c126958b8ac564a739d3486148071",
+  "danh_gia/do_sua_dinh_dang.py": "e75d2b0b105965399d45ff24b8471dfea70836e9aa53fb620aa798a8293d4441",
+  "tests/test_telex_tien_to.py": "108405ff68d7b1ae92927e434d032fd2c8c18352348caf196a30d0b2dcf21bbf"
+}

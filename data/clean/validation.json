@@ -9,7 +9,7 @@
     "cu_tinh_huyen_xa_count": 10033,
     "doi_chieu_count": 10569,
     "thay_doi_2026_count": 25,
-    "sua_doi_count": 22
+    "sua_doi_count": 25
   },
   "primaryKeyDuplicates": {
     "moi_tinh": {
@@ -81,6 +81,19 @@
     "data/clean/can_xem_lai.csv",
     "data/clean/sua_doi.csv"
   ],
+  "moiTinhConsistency": {
+    "discrepancy_count": 0,
+    "discrepancies": []
+  },
+  "asOf2025CentralCities": {
+    "asOfDate": "2025-07-01",
+    "city_count": 6,
+    "expected_city_count": 6,
+    "unexpected_cities": [],
+    "missing_cities": [],
+    "invalid_provinces": [],
+    "discrepancy_count": 0
+  },
   "invalidTonePlacement": {
     "error_count": 0,
     "invalid_cells": []

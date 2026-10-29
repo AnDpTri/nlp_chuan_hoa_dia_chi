@@ -1,0 +1,61 @@
+{
+  "counts": {
+    "train": {
+      "rows": 2169,
+      "span_counts": {
+        "so_nha": 2151,
+        "duong": 2081,
+        "thon_xom": 88,
+        "ngo_ngach_hem": 88
+      },
+      "usable_span": 2125,
+      "usable_canonical": 2038,
+      "declared_groups": 1626,
+      "new_rows": 132
+    },
+    "dev": {
+      "rows": 500,
+      "span_counts": {
+        "so_nha": 495,
+        "duong": 482,
+        "thon_xom": 18,
+        "ngo_ngach_hem": 24
+      },
+      "usable_span": 488,
+      "usable_canonical": 470,
+      "declared_groups": 375,
+      "new_rows": 36
+    }
+  },
+  "mechanical_errors": [],
+  "name_errors": [],
+  "parent_code_errors": [],
+  "runtime_incompatible_count": 56,
+  "runtime_incompatible_by_split": {
+    "train": 44,
+    "dev": 12
+  },
+  "overlap_checks": {
+    "new_train_new_dev_masked": 0,
+    "new_train_original_dev_masked": 0,
+    "new_dev_original_train_masked": 0,
+    "declared_groups_train_dev": 0
+  },
+  "manifest_errors": [],
+  "snapshot_counterpart_categories": {
+    "quarantined_provenance_and_overlap": 691,
+    "quarantined_provenance_mismatch": 445,
+    "not_reused_in_v2_clean_corpus": 1249,
+    "regenerated_clean_corpus": 56,
+    "quarantined_family_overlap": 373
+  },
+  "counterpart_errors": 55,
+  "counterpart_distinct_road_name_errors": 54,
+  "counterpart_road_spelling_only_differences": 1,
+  "token_spans_rows": 2669,
+  "token_spans_mismatches": [],
+  "new_declared_groups": {
+    "train": 6,
+    "dev": 6
+  }
+}

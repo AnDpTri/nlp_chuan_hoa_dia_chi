@@ -1,0 +1,64 @@
+{
+  "cnn_ranker": {
+    "VNDEV_KHO_00021": {
+      "ma_xa": "28261",
+      "reference_ma_xa": "28261",
+      "warnings": []
+    },
+    "VNDEV_KHO_00125": {
+      "ma_xa": "24781",
+      "reference_ma_xa": "24781",
+      "warnings": []
+    },
+    "VNDEV_KHO_00177": {
+      "ma_xa": "",
+      "reference_ma_xa": "20364",
+      "warnings": [
+        "nhieu_cach_hieu",
+        "thieu_xa",
+        "ten_duong_tham_chieu_train_chua_xac_minh"
+      ]
+    },
+    "VNDEV_KHO_00221": {
+      "ma_xa": "31825",
+      "reference_ma_xa": "31825",
+      "warnings": []
+    },
+    "VNDEV_KHO_00269": {
+      "ma_xa": "29254",
+      "reference_ma_xa": "29254",
+      "warnings": []
+    }
+  },
+  "videberta_tay": {
+    "VNDEV_KHO_00021": {
+      "ma_xa": "28261",
+      "reference_ma_xa": "28261",
+      "warnings": []
+    },
+    "VNDEV_KHO_00125": {
+      "ma_xa": "24781",
+      "reference_ma_xa": "24781",
+      "warnings": []
+    },
+    "VNDEV_KHO_00177": {
+      "ma_xa": "",
+      "reference_ma_xa": "20364",
+      "warnings": [
+        "nhieu_cach_hieu",
+        "thieu_xa",
+        "ten_duong_tham_chieu_train_chua_xac_minh"
+      ]
+    },
+    "VNDEV_KHO_00221": {
+      "ma_xa": "31825",
+      "reference_ma_xa": "31825",
+      "warnings": []
+    },
+    "VNDEV_KHO_00269": {
+      "ma_xa": "29254",
+      "reference_ma_xa": "29254",
+      "warnings": []
+    }
+  }
+}

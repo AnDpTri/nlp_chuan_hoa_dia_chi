@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "counts": {
+      "train": 2037,
+      "dev": 464
+    },
+    "normalized_house_mask_family_overlap": 0,
+    "broader_same_details_and_admin_overlap": 2,
+    "provenance_mismatches_all3_admin_codes": 0,
+    "span_errors": 0,
+    "parent_url_overlap_test": 0,
+    "parent_sources": {
+      "('train', 'osm_public')": 514,
+      "('train', 'danh_muc_hanh_chinh')": 1086,
+      "('dev', 'osm_public')": 104,
+      "('dev', 'danh_muc_hanh_chinh')": 246
+    },
+    "changed_detail_fields_from_parent": {
+      "('train', 'so_nha')": 1600,
+      "('train', 'duong')": 204,
+      "('train', 'ngo_ngach_hem')": 176,
+      "('train', 'thon_xom')": 17,
+      "('dev', 'so_nha')": 350,
+      "('dev', 'duong')": 67,
+      "('dev', 'thon_xom')": 5,
+      "('dev', 'ngo_ngach_hem')": 39
+    },
+    "usable_span": 2501,
+    "usable_canonical": 2340
+  },
+  "provenance_errors": [],
+  "span_errors": [],
+  "test_parent_url_overlap": [],
+  "semantic_overlap_examples": [
+    {
+      "train_ids": [
+        "VNTRAIN_BS_01995",
+        "VNTRAIN_BS_01996",
+        "VNTRAIN_BS_01997",
+        "VNTRAIN_BS_01998",
+        "VNTRAIN_BS_01999",
+        "VNTRAIN_BS_02000",
+        "VNTRAIN_BS_02001",
+        "VNTRAIN_BS_02002",
+        "VNTRAIN_BS_02003",
+        "VNTRAIN_BS_02004",
+        "VNTRAIN_BS_02005",
+        "VNTRAIN_BS_02006",
+        "VNTRAIN_BS_02007",
+        "VNTRAIN_BS_02008",
+        "VNTRAIN_BS_02009",
+        "VNTRAIN_BS_02010",
+        "VNTRAIN_BS_02011",
+        "VNTRAIN_BS_02012",
+        "VNTRAIN_BS_02013",
+        "VNTRAIN_BS_02014",
+        "VNTRAIN_BS_02015"
+      ],
+      "dev_ids": [
+        "VNDEV_KHO_00447",
+        "VNDEV_KHO_00448",
+        "VNDEV_KHO_00449",
+        "VNDEV_KHO_00450",
+        "VNDEV_KHO_00451",
+        "VNDEV_KHO_00452",
+        "VNDEV_KHO_00453",
+        "VNDEV_KHO_00454",
+        "VNDEV_KHO_00455",
+        "VNDEV_KHO_00456",
+        "VNDEV_KHO_00457",
+        "VNDEV_KHO_00458"
+      ],
+      "key": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "79"
+      ]
+    },
+    {
+      "train_ids": [
+        "VNTRAIN_BS_01973",
+        "VNTRAIN_BS_01974",
+        "VNTRAIN_BS_01975",
+        "VNTRAIN_BS_01976",
+        "VNTRAIN_BS_01977",
+        "VNTRAIN_BS_01978",
+        "VNTRAIN_BS_01979",
+        "VNTRAIN_BS_01980",
+        "VNTRAIN_BS_01981",
+        "VNTRAIN_BS_01982",
+        "VNTRAIN_BS_01983",
+        "VNTRAIN_BS_01984",
+        "VNTRAIN_BS_01985",
+        "VNTRAIN_BS_01986",
+        "VNTRAIN_BS_01987",
+        "VNTRAIN_BS_01988",
+        "VNTRAIN_BS_01989",
+        "VNTRAIN_BS_01990",
+        "VNTRAIN_BS_01991",
+        "VNTRAIN_BS_01992",
+        "VNTRAIN_BS_01993",
+        "VNTRAIN_BS_01994"
+      ],
+      "dev_ids": [
+        "VNDEV_KHO_00459",
+        "VNDEV_KHO_00460",
+        "VNDEV_KHO_00461",
+        "VNDEV_KHO_00462",
+        "VNDEV_KHO_00463",
+        "VNDEV_KHO_00464"
+      ],
+      "key": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "01"
+      ]
+    }
+  ]
+}

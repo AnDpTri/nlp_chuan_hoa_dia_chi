@@ -1,0 +1,41 @@
+{
+  "total_candidates_raw": 31374,
+  "excluded_test_leakage": 457,
+  "unqualified_osm_discarded": 15441,
+  "qualified_osm_available": 11248,
+  "osm_selected": 2000,
+  "synthetic_generated": 3700,
+  "total_corpus": 5700,
+  "train_count": 4564,
+  "dev_count": 1136,
+  "split_ratio": "80.1% / 19.9%",
+  "random_seed": 42,
+  "feature_counts": {
+    "with_ngo_ngach_hem": 611,
+    "mixed_era_admin": 380,
+    "intentional_typos": 500,
+    "split_ward_count": 700,
+    "unaccented_count": 507,
+    "abbreviated_count": 440
+  },
+  "train_breakdown": {
+    "total": 4564,
+    "osm_public_count": 1600,
+    "synthetic_count": 2964,
+    "with_ngo_ngach_hem": 482,
+    "mixed_era_admin": 307,
+    "intentional_typos": 400,
+    "split_ward_count": 563,
+    "unaccented_count": 405
+  },
+  "dev_breakdown": {
+    "total": 1136,
+    "osm_public_count": 400,
+    "synthetic_count": 736,
+    "with_ngo_ngach_hem": 129,
+    "mixed_era_admin": 73,
+    "intentional_typos": 100,
+    "split_ward_count": 137,
+    "unaccented_count": 102
+  }
+}

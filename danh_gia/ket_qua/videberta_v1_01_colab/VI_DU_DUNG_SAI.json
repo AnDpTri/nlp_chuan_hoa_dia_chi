@@ -1,0 +1,234 @@
+[
+  {
+    "split": "dev_goc",
+    "kind": "loss_vs_crf",
+    "input": "843M+RH3 Hòa Thành District, Tây Ninh",
+    "reference": {
+      "so_nha": "Số 843M",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "80"
+    },
+    "old_crf": {
+      "so_nha": "Số 843M",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "80"
+    },
+    "videberta": {
+      "so_nha": "Số 843",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "25645",
+      "ma_tinh": "80"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "kind": "loss_vs_crf",
+    "input": "45B Hoàng Văn Thụ Ninh Kiều Cần Thơ",
+    "reference": {
+      "so_nha": "Số 45B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 45B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "videberta": {
+      "so_nha": "Số 45B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Hoàng Văn Thụ Ninh Kiều",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "kind": "gain_vs_crf",
+    "input": "Số 24B-24 Tôn Đản, Phường 13, quận 4, TP HCM",
+    "reference": {
+      "so_nha": "Số 24B-24",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 24B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    },
+    "videberta": {
+      "so_nha": "Số 24B-24",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "kind": "gain_vs_crf",
+    "input": "9, Khu dân cư số 9, Xuân Khánh, Ninh Kiều, Cần Thơ",
+    "reference": {
+      "so_nha": "Số 9",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân Cư Số 9",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 9",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "videberta": {
+      "so_nha": "Số 9",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân Cư Số 9",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "kind": "loss_vs_crf",
+    "input": "Số 268B, Đường Ngõ 75 Phố Yên Lã, Thành phố Từ Sơn, Tỉnh Bắc Ninh",
+    "reference": {
+      "so_nha": "Số 268B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ngõ 75 Phố Yên Lã",
+      "ma_xa": "",
+      "ma_tinh": "24"
+    },
+    "old_crf": {
+      "so_nha": "Số 268B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ngõ 75 Phố Yên Lã",
+      "ma_xa": "",
+      "ma_tinh": "24"
+    },
+    "videberta": {
+      "so_nha": "Số 268B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ngõ 75 Phố",
+      "ma_xa": "",
+      "ma_tinh": "24"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "kind": "loss_vs_crf",
+    "input": "Số 277/3/2B Đường Tây Sơn, Xã Tam Đàn, Huyện Phú Ninh, Tỉnh Quảng Nam",
+    "reference": {
+      "so_nha": "Số 277/3/2B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tây Sơn",
+      "ma_xa": "20364",
+      "ma_tinh": "48"
+    },
+    "old_crf": {
+      "so_nha": "Số 277/3/2B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tây Sơn",
+      "ma_xa": "20364",
+      "ma_tinh": "48"
+    },
+    "videberta": {
+      "so_nha": "Số 277/3/2B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tây Sơn",
+      "ma_xa": "",
+      "ma_tinh": "48"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "kind": "gain_vs_crf",
+    "input": "668Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh",
+    "reference": {
+      "so_nha": "Số 668",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 668Đ",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "videberta": {
+      "so_nha": "Số 668",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "kind": "gain_vs_crf",
+    "input": "736Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh",
+    "reference": {
+      "so_nha": "Số 736",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 736Đ",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "videberta": {
+      "so_nha": "Số 736",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    }
+  }
+]

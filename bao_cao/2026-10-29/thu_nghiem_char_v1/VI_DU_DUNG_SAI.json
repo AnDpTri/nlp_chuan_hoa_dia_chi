@@ -1,0 +1,362 @@
+[
+  {
+    "split": "dev_goc",
+    "category": "lost_match",
+    "id": "VNDEV_00003",
+    "input": "45 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ",
+    "reference": {
+      "so_nha": "Số 45",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 45",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "char_ranker": {
+      "so_nha": "Số 45",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "category": "both_mismatch",
+    "id": "VNDEV_00004",
+    "input": "313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ",
+    "reference": {
+      "so_nha": "Số 313",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Cần Thơ",
+      "ma_xa": "31147",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 313",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "31147",
+      "ma_tinh": "92"
+    },
+    "char_ranker": {
+      "so_nha": "Số 313",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Nguyễn Văn Linh",
+      "ma_xa": "31147",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "category": "new_match",
+    "id": "VNDEV_00005",
+    "input": "268/10 NGUYỄN VĂN LINH, PHƯỜNG XUÂN KHÁNH QUẬN NINH KIỀU, TP CẦN THƠ",
+    "reference": {
+      "so_nha": "Số 268/10",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 268/10",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Nguyễn Văn Linh",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "char_ranker": {
+      "so_nha": "Số 268/10",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "category": "both_mismatch",
+    "id": "VNDEV_00006",
+    "input": "129 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ",
+    "reference": {
+      "so_nha": "Số 129",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 129",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Trần Việt Châu",
+      "ma_xa": "31120",
+      "ma_tinh": "92"
+    },
+    "char_ranker": {
+      "so_nha": "Số 129",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Trần Việt",
+      "ma_xa": "31120",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "category": "lost_match",
+    "id": "VNDEV_00011",
+    "input": "Số nhà 3, phố Tô Vĩnh Diện, phường Khương Trung, quận Thanh Xuân, Hà Nội",
+    "reference": {
+      "so_nha": "Số 3",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Tô Vĩnh Diện",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "old_crf": {
+      "so_nha": "Số 3",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Tô Vĩnh Diện",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "char_ranker": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Tô Vĩnh Diện",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    }
+  },
+  {
+    "split": "dev_goc",
+    "category": "new_match",
+    "id": "VNDEV_00036",
+    "input": "Số 24B-24 Tôn Đản, Phường 13, quận 4, TP HCM",
+    "reference": {
+      "so_nha": "Số 24B-24",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 24B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    },
+    "char_ranker": {
+      "so_nha": "Số 24B-24",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "category": "both_mismatch",
+    "id": "VNDEV_KHO_00001",
+    "input": "so 30 d. le loi, phuong xuan khanh, quan ninh kieu, thanh pho can tho",
+    "reference": {
+      "so_nha": "Số 30",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Lê Lợi",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 30",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Le Loi",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "char_ranker": {
+      "so_nha": "Số 30",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Le Loi",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "category": "both_mismatch",
+    "id": "VNDEV_KHO_00005",
+    "input": "118 dduowngf Hùng Vương, phuowngf Tân Sơn Nhì, Quận Tân Phú, Thành phố Hồ Chí Minh",
+    "reference": {
+      "so_nha": "Số 118",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Hùng Vương",
+      "ma_xa": "27019",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 118",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Dduowngf Hùng Vương",
+      "ma_xa": "27019",
+      "ma_tinh": "79"
+    },
+    "char_ranker": {
+      "so_nha": "Số 118",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Dduowngf Hùng Vương",
+      "ma_xa": "27019",
+      "ma_tinh": "79"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "category": "lost_match",
+    "id": "VNDEV_KHO_00028",
+    "input": "Số 537B, Đường Khu Dân Cư Số 9, Quận Ninh Kiều, Thành phố Cần Thơ",
+    "reference": {
+      "so_nha": "Số 537B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân Cư Số 9",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "old_crf": {
+      "so_nha": "Số 537B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân Cư Số 9",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "char_ranker": {
+      "so_nha": "Số 537B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "category": "lost_match",
+    "id": "VNDEV_KHO_00076",
+    "input": "Số 383, Đường Ba Mươi Tháng Tư, Thành phố Mỹ Tho, Tỉnh Tiền Giang",
+    "reference": {
+      "so_nha": "Số 383",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ba Mươi Tháng Tư",
+      "ma_xa": "",
+      "ma_tinh": "82"
+    },
+    "old_crf": {
+      "so_nha": "Số 383",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ba Mươi Tháng Tư",
+      "ma_xa": "",
+      "ma_tinh": "82"
+    },
+    "char_ranker": {
+      "so_nha": "Số 383",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ba Mươi Tháng",
+      "ma_xa": "",
+      "ma_tinh": "82"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "category": "new_match",
+    "id": "VNDEV_KHO_00399",
+    "input": "668Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh",
+    "reference": {
+      "so_nha": "Số 668",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 668Đ",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "char_ranker": {
+      "so_nha": "Số 668",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    }
+  },
+  {
+    "split": "dev_kho",
+    "category": "new_match",
+    "id": "VNDEV_KHO_00400",
+    "input": "736Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh",
+    "reference": {
+      "so_nha": "Số 736",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    },
+    "old_crf": {
+      "so_nha": "Số 736Đ",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "char_ranker": {
+      "so_nha": "Số 736",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Võ Văn Tần",
+      "ma_xa": "26809",
+      "ma_tinh": "79"
+    }
+  }
+]

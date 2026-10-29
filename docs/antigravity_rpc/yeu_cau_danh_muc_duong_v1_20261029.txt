@@ -1,0 +1,26 @@
+Tiếp tục dự án D:\nlp_chuan_hoa_dia_chi với nhiệm vụ mới: xây dữ liệu tra cứu tên đường có nguồn chứng thực để phục hồi tên không dấu/viết tắt. Giữ nguyên gói test vừa bàn giao; không mở thêm lượt sửa nhãn test trong nhiệm vụ này.
+
+BỐI CẢNH
+Giữ nguyên CNN/ranker, bổ sung tra tên từ train đã nâng khớp sáu trường dev gốc 78,609% -> 82,835%, dev khó 60,345% -> 63,578%. Từ điển train hiện có 1.018 cặp tên/tỉnh, nhưng chưa phải danh mục đường được chứng thực và còn thiếu độ phủ. Lượt này cung cấp dữ liệu có căn cứ độc lập để mở rộng tra cứu; không tối ưu theo nhãn hoặc ca sai dev/test.
+
+PHẠM VI ĐỘC LẬP
+Chỉ tạo/sửa data/duong/ và docs/DANH_MUC_DUONG_V1.md. Mọi script, fixture, kiểm thử riêng của nhiệm vụ đặt trong data/duong/scripts/ và data/duong/tests/. Giữ file gói bàn giao cũ, ghi phiên bản mới trong thư mục riêng. Không sửa src/, danh_gia/, mo_hinh/, colab/, requirements, môi trường Python, data/raw/, data/clean/, data/train_dev/, data/test/, tests/ gốc, README.md gốc, docs/antigravity_rpc/ hoặc báo cáo audit. Không commit/push, không mở task/agent khác, không gọi agy CLI. Có nhánh khác làm train song song, không chạm file của nhánh đó.
+
+DỮ LIỆU ĐƯỢC DÙNG
+- Đọc danh mục hành chính hiện hành và snapshot/clean theo chế độ chỉ đọc, phân biệt mã + mốc cũ/mới, không nối mã chỉ vì cùng chuỗi số.
+- Chỉ dùng train để chọn seed/ưu tiên độ phủ, ví dụ mo_hinh/thu_nghiem/char_v1_01/data/train_cnn.jsonl. Không đọc các file dev/test, prediction JSONL, danh sách lỗi dev/test hoặc CHAN_DOAN_SAU_SUA.json để chọn tên hay làm đáp án. Không sửa từ điển train đã dùng trong thí nghiệm.
+- Thu thập thực tế bằng web/search/API công khai, ưu tiên danh mục/quyết định đặt tên đường của địa phương và dữ liệu mở đáng tin cậy; OSM được dùng nhưng ghi rõ là nguồn cộng đồng. Không dùng output mô hình/luật hoặc nhãn train làm bằng chứng địa lý. Không thu thập địa chỉ nhà riêng hay dữ liệu cá nhân.
+
+YÊU CẦU THU THẬP
+1. Xây danh mục tên chuẩn có dấu, loại đường và địa bàn từ nguồn thực đã đọc. Mục tiêu khởi đầu khoảng 1.000 tên đường phân biệt trên nhiều tỉnh/thành, ưu tiên độ tin cậy và độ phủ hơn số lượng. Nếu chưa đạt thì bàn giao phần đã xác minh và báo trung thực phần thiếu; không nhân bản tên ra địa phương khác để đạt số lượng.
+2. Một tên có thể xuất hiện ở nhiều tỉnh: giữ các bản ghi địa bàn riêng. Cấp tỉnh/huyện/xã chỉ gắn khi nguồn hỗ trợ; không suy tỉnh/xã chỉ từ chữ trùng trong tên đường, không giả định một con đường nằm trong mọi xã của tỉnh. Ranh giới hành chính và đổi tên đường có mốc thời gian phải lưu rõ; không gắn mã đích khi chưa đủ căn cứ.
+3. Mỗi bản ghi có id ổn định, canonical_name, road_type, source_location_text, province_name/province_code/administrative_era khi biết, district/ward khi có chứng cứ, aliases có căn cứ, source_url, source_title, source_type, fetched_at_utc, source_sha256, evidence ngắn và trạng thái xác minh. Phân biệt thời điểm truy cập với mốc hiệu lực. Lưu dữ liệu nguồn cần thiết/tệp tải để tái hiện và manifest hash. Chỉ ghi HTTP/status hoặc nguồn đã đọc khi thực sự thực hiện.
+4. Khóa bỏ dấu, khóa viết liền và chữ đầu là chỉ mục kỹ thuật, không phải alias chứng thực hoặc bằng chứng duy nhất. Xuất riêng các khóa có nhiều tên/địa bàn, không chọn theo tần suất và không đổi dấu đã nhập sang dấu khác. Phân biệt Đường/Phố/Quốc lộ/Tỉnh lộ; không tự coi mọi loại là tương đương.
+5. Nguồn không rõ tên, nguồn mâu thuẫn, mã mốc không chắc, nguồn không tải được: đưa vào pending/rejected có lý do, không trộn vào tập confirmed. Nguồn OSM/cộng đồng không tự thành nguồn chính thức; độ tin cậy phải lưu riêng.
+
+BÀN GIAO VÀ NGHIỆM THU
+- data/duong/v1/: danh mục JSONL/CSV cùng schema, nguồn, manifest, thống kê, aliases/khóa tra cứu và collision/pending riêng. Không tích hợp vào lõi trong nhiệm vụ này.
+- Script tái tạo/validate chạy được, chỉ phụ thuộc thư viện sẵn có hoặc stdlib nếu được. Không cài package toàn máy. Không chạy job CPU nặng hoặc download lớn không cần thiết; fetch tuần tự với timeout/retry hữu hạn và checkpoint để tiếp tục.
+- Fixture độc lập bắt: một tên nhiều tỉnh, cùng khóa khác dấu, tên đường trùng tỉnh/xã, loại Đường/Phố khác nhau, nguồn không có tên thực xuất, thiếu nguồn/HTTP lỗi/hash sai và mã cũ/mới trùng số. Có ca hợp lệ để kiểm tra không từ chối tất cả.
+- Báo số tên phân biệt, số cặp tên/tỉnh, số địa phương, nguồn theo loại, aliases, collision, pending/rejected; không dùng số dòng thay số tên. Ghi rõ giới hạn xác minh, những trường có bằng chứng và những trường còn thiếu.
+- Báo cáo ở docs/DANH_MUC_DUONG_V1.md, dẫn đủ file/script/log để kiểm chứng. Hoàn thành bằng dữ liệu thật và kết quả validator, không chỉ bằng kế hoạch.

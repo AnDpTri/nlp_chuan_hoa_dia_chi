@@ -1,0 +1,40 @@
+{
+  "cnn_ranker_group_overlap": 0,
+  "train_dev_masked_house_family_overlap": 0,
+  "snapshot_hashes_unchanged": true,
+  "original_train_dev_and_six_catalogues_unchanged": true,
+  "ranker_training_groups": 1129,
+  "baseline_regression": {
+    "dev_goc:luat_v3": {
+      "rows": 1136,
+      "all_result_fields_unchanged": true
+    },
+    "dev_goc:crf_cu": {
+      "rows": 1136,
+      "all_result_fields_unchanged": true
+    },
+    "dev_kho:luat_v3": {
+      "rows": 464,
+      "all_result_fields_unchanged": true
+    },
+    "dev_kho:crf_cu": {
+      "rows": 464,
+      "all_result_fields_unchanged": true
+    }
+  },
+  "comparison_to_combined_crf": {
+    "dev_goc": {
+      "both_match": 873,
+      "lost_match": 22,
+      "both_mismatch": 221,
+      "new_match": 20
+    },
+    "dev_kho": {
+      "both_mismatch": 180,
+      "both_match": 270,
+      "lost_match": 4,
+      "new_match": 10
+    }
+  },
+  "limits": "Họ che số nhà và khai báo mẫu cha không chứng minh loại hết mọi tương đồng địa lý/ngữ nghĩa. Không dùng nhãn test để fit hoặc đo."
+}

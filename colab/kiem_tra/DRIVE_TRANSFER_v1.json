@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-10-29T09:51:00.471578+00:00",
+  "method": "Google Drive for desktop qua filesystem, không dùng UI/cookie/token",
+  "drive_folder": "G:\\My Drive\\nlp_chuan_hoa_dia_chi",
+  "zip": "G:\\My Drive\\nlp_chuan_hoa_dia_chi\\nlp_dia_chi_colab_v1.zip",
+  "zip_sha256": "e346d0b800a315c78fbdf9c705dd2a80144dbeeae5b2427793f54f40d840bd1f",
+  "zip_verified_on_drive_filesystem": true,
+  "notebook_local": "D:\\nlp_chuan_hoa_dia_chi\\colab\\ViDeBERTa_Drive.ipynb",
+  "notebook_drive": "G:\\My Drive\\nlp_chuan_hoa_dia_chi\\ViDeBERTa_Drive.ipynb",
+  "notebook_copy_sha256_verified": true,
+  "existing_colab_notebook_updated_in_place": true,
+  "existing_colab_path": "G:\\My Drive\\Colab Notebooks\\ViDeBERTa_Colab.ipynb",
+  "file_sharing_changed": false,
+  "training_started": false,
+  "cloud_sync_note": "Đã xác minh file trên ổ Drive for desktop; đồng bộ server do ứng dụng Drive thực hiện."
+}

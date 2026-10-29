@@ -1,0 +1,240 @@
+{
+  "bundle_name": "nlp_linking_bundle_v1",
+  "description": "Gói Colab trọn gói cho thí nghiệm Liên kết thực thể (Neural Linking v1)",
+  "total_files": 58,
+  "total_size_bytes": 17924695,
+  "files": {
+    "src/char_cnn.py": {
+      "size_bytes": 5945,
+      "sha256": "0bf400a3b0e989b581ba290e521baeacc542b956198427a62e94a2708130ea78"
+    },
+    "src/chuan_hoa.py": {
+      "size_bytes": 12747,
+      "sha256": "2b7c4f7a73ceb369608e710b0b21bbd88470098de7e3fa29fd0790e6e8995d0b"
+    },
+    "src/chuan_ten_duong.py": {
+      "size_bytes": 6404,
+      "sha256": "ac46e121c380cc81b04b83adde65fe12013f3ffdd0386c092dfaa4ba748654ed"
+    },
+    "src/chuyen_doi.py": {
+      "size_bytes": 1541,
+      "sha256": "0720717063d548f1853d8350870adf645a86bda2509559015479c3bfac61fc57"
+    },
+    "src/crf_chi_tiet.py": {
+      "size_bytes": 5316,
+      "sha256": "32706f1594ba6ad8eeeebbd7ebc0f14f796ae665c40019f66002f13e7e8ff825"
+    },
+    "src/danh_muc.py": {
+      "size_bytes": 5656,
+      "sha256": "c4a72733ee810e0ec82cf4ce68b08440b89394b5de1a231eaf53a141216d3371"
+    },
+    "src/dinh_dang.py": {
+      "size_bytes": 2341,
+      "sha256": "1b0b4040c079bc1e2135540436fbbf0cbd7728cd91381838dbd75e9f6db9c4ad"
+    },
+    "src/duong_dan.py": {
+      "size_bytes": 678,
+      "sha256": "1d60facc075f5efe408205d170ffb534d355947277371d7e028a7f3737c4e8b8"
+    },
+    "src/giai_ma.py": {
+      "size_bytes": 4243,
+      "sha256": "59b5ff58c4d68723e121022c7270fc9d6f560f9f2e55b3084e9a72ac04c481e4"
+    },
+    "src/hop_dong.py": {
+      "size_bytes": 5287,
+      "sha256": "e2f8b3f53eaa44abff4f6344b6ed3433f5ad7d406b961901e8e2c9ff71f7cdaf"
+    },
+    "src/kieu_du_lieu.py": {
+      "size_bytes": 1842,
+      "sha256": "5a72d1d5a7108f2dbec3c78efc066d09c79dcbd8f3e783b1c1201fda1640b967"
+    },
+    "src/ngu_canh_neural.py": {
+      "size_bytes": 2519,
+      "sha256": "1ba788480eb34a901b7d99ac6da80c2fce829696adf78b743a87fbaf27026441"
+    },
+    "src/nhan.py": {
+      "size_bytes": 703,
+      "sha256": "cc7b8dbc26596188577d2c0f67146deb19e55caf8c3c0571acbda0b25d31a748"
+    },
+    "src/quy_tac.py": {
+      "size_bytes": 5552,
+      "sha256": "e104a069fe601598edd1b1bc9761379bd42ed46645689d4fcc99b9660233ebc8"
+    },
+    "src/tach_phan_con.py": {
+      "size_bytes": 5343,
+      "sha256": "fb88bd57564d4c6aca6b0cffb9c5dab1eb1eea77a2aa773c55217e55a2635165"
+    },
+    "src/tien_xu_ly.py": {
+      "size_bytes": 2685,
+      "sha256": "7fa30b7838227eb728be4a4815e8bbebb05df82be187fc0c24f11fe80c182ccd"
+    },
+    "src/tim_kiem.py": {
+      "size_bytes": 10831,
+      "sha256": "7b990431eaeafb21040b76353f89d64ae79aeb65a6df3b5b20f024ccdbf9dda9"
+    },
+    "src/tra_cuu_neural.py": {
+      "size_bytes": 5018,
+      "sha256": "647bf5019dfb1a82667816c690af7d156bec48b004c0ab76166504b29d2d54df"
+    },
+    "src/videberta.py": {
+      "size_bytes": 7237,
+      "sha256": "f5dcb9db9aad9533d92eb534144eee0e0345fd8b2f6bf081b1ae37bf01f02b54"
+    },
+    "src/xep_hang.py": {
+      "size_bytes": 2793,
+      "sha256": "3050c347bc9336ae79e1adef12ad1eebe2b46a29d2e1e5865c182b947b2ba220"
+    },
+    "src/__init__.py": {
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/__main__.py": {
+      "size_bytes": 2910,
+      "sha256": "bd0d3471d4302beb5e0f39e885930faa849c126958b8ac564a739d3486148071"
+    },
+    "tests/test_char.py": {
+      "size_bytes": 7202,
+      "sha256": "c71a7afc8446fdc34a50d195c63696601eefe04b75e0bbb0e283a866f3376773"
+    },
+    "tests/test_crf.py": {
+      "size_bytes": 4523,
+      "sha256": "1f12035c2189aaeedcd4a7f88fa5fcec73f529f8c5ab24e15c816e96ac4038e6"
+    },
+    "tests/test_danh_gia.py": {
+      "size_bytes": 1343,
+      "sha256": "d51b7b2a92dc15a1c14236e5332529263b4f53bd248fd1174c625dc45019eaa5"
+    },
+    "tests/test_lien_ket_v1.py": {
+      "size_bytes": 15366,
+      "sha256": "25681d926395a516b59c8a49785a7ed8494597023de5319917ee662810be568c"
+    },
+    "tests/test_pipeline.py": {
+      "size_bytes": 11788,
+      "sha256": "3598099d486581f7eb1de9bd0ac78bb3b3e926b5a1685fee0f31a337011597a1"
+    },
+    "tests/test_pipeline_v3.py": {
+      "size_bytes": 6480,
+      "sha256": "8a94ad7d4e281ba1dd09e1de1b2afc025899ab89e4342b37106305749ce968c2"
+    },
+    "tests/__init__.py": {
+      "size_bytes": 9,
+      "sha256": "bcf999fc503b66120cf63e68146880ae72db96de240414da35e84324099a0d45"
+    },
+    "colab/linking_v1/build_linking_bundle.py": {
+      "size_bytes": 6990,
+      "sha256": "b44772aca4574f20a8ce4acbeae4d9e21f77d467cd6d532072c70d3c577bb9bc"
+    },
+    "colab/linking_v1/evaluate_linking.py": {
+      "size_bytes": 19031,
+      "sha256": "54eb1330f94acdfe6385e9294a308b67942b74e9ad21bd5c8150d70c4ec2d084"
+    },
+    "colab/linking_v1/generate_notebook.py": {
+      "size_bytes": 9537,
+      "sha256": "fbac3132a21e91b86dc46498bbb09fe09cb03f2880c3651ec787a4ec24f4081d"
+    },
+    "colab/linking_v1/LienKet_ViDeBERTa_Drive.ipynb": {
+      "size_bytes": 9783,
+      "sha256": "3723fdd942481c9e1f684e108dc8ab8d94c976021813bd803a7312952546c4da"
+    },
+    "colab/linking_v1/requirements.txt": {
+      "size_bytes": 117,
+      "sha256": "bcf373a2628de903e7ad86739faf4006ce8eff9af63df0378d9afc9ed65d25b6"
+    },
+    "colab/linking_v1/train_linking.py": {
+      "size_bytes": 21414,
+      "sha256": "92670966cdfcdb73c033968a214d36f4511076befc12b20b537886abcd44d55f"
+    },
+    "data/clean/BAO_CAO_CHUAN_HOA.md": {
+      "size_bytes": 37278,
+      "sha256": "2aec9b305a0939bb2220b745e0e881fd5340dd4ac3390901907efc3948713826"
+    },
+    "data/clean/can_xem_lai.csv": {
+      "size_bytes": 122,
+      "sha256": "ed865b4ab9e4af5708646d34148116f3a4f6016b434b7a4132378cf8220e679a"
+    },
+    "data/clean/cu_huyen.csv": {
+      "size_bytes": 19649,
+      "sha256": "0e7aa37a54ffd0ac4b87dac6f2c21ca122eef97b57e730bb0a44e572d68d0d4d"
+    },
+    "data/clean/cu_tinh.csv": {
+      "size_bytes": 1487,
+      "sha256": "32755d21d198951adb6cfb562a74e3d18fddc526548791c5f66f9fc4d7441ead"
+    },
+    "data/clean/cu_tinh_huyen_xa.csv": {
+      "size_bytes": 546223,
+      "sha256": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014"
+    },
+    "data/clean/doi_chieu_xa_cu_moi.csv": {
+      "size_bytes": 1426901,
+      "sha256": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218"
+    },
+    "data/clean/issues.csv": {
+      "size_bytes": 991,
+      "sha256": "4b7589992f7f86c33035ad5eeca52ac1deeec6457145367c9e1120a9dfa1c623"
+    },
+    "data/clean/moi_tinh.csv": {
+      "size_bytes": 822,
+      "sha256": "e18687784707867b3b44a70265fc37881dea5b8f41fd4f00d8b3462c6345da96"
+    },
+    "data/clean/moi_tinh_xa.csv": {
+      "size_bytes": 155729,
+      "sha256": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb"
+    },
+    "data/clean/sua_doi.csv": {
+      "size_bytes": 8135,
+      "sha256": "a85088a87dcec21c52a2f365aaa8eda087d1a97dd7d786aff8198d36754ea1a0"
+    },
+    "data/clean/thay_doi_2026.csv": {
+      "size_bytes": 1525,
+      "sha256": "0a7ee0132f4131d5ae64ee31138d5a10ed9afe1ad3b83eb438e6a3f4b5e977c8"
+    },
+    "data/clean/validation.json": {
+      "size_bytes": 3468,
+      "sha256": "97f5520505ef620afd8d9a969f02069c737cec3330ddb95ea33ff1725dc4ea2b"
+    },
+    "data/train_dev/duyet_v2_01/train_cnn_ket_hop.jsonl": {
+      "size_bytes": 10814095,
+      "sha256": "74610ba79d7ec5ffedc9bb0aff9ed798824378e1f0cd895524dcff94b492190e"
+    },
+    "mo_hinh/thu_nghiem/char_v1_01/snapshot/dev.csv": {
+      "size_bytes": 518239,
+      "sha256": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe"
+    },
+    "mo_hinh/thu_nghiem/char_v1_01/snapshot/dev_goc.csv": {
+      "size_bytes": 518239,
+      "sha256": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe"
+    },
+    "mo_hinh/thu_nghiem/char_v1_01/snapshot/dev_kho.csv": {
+      "size_bytes": 281247,
+      "sha256": "588767b2f5470d05a45296de24a6167f811296ed099a1b044165e5f0f9201421"
+    },
+    "mo_hinh/thu_nghiem/char_v1_01/snapshot/train.csv": {
+      "size_bytes": 2093214,
+      "sha256": "b6908b887034742f040fef272498b037b8c5e8fc37ea0302adc281740f73042d"
+    },
+    "mo_hinh/thu_nghiem/char_v1_01/snapshot/train_bo_sung.csv": {
+      "size_bytes": 1259536,
+      "sha256": "f7d96d510e87ca83fbce0151b28584d54e00879e853f8f836354b7770c6fd5df"
+    },
+    "src/lien_ket_v1/adapter_linking.py": {
+      "size_bytes": 5835,
+      "sha256": "a004dd51847fc956c5e10be24b05751a4be7524768b126701332038c499adaf4"
+    },
+    "src/lien_ket_v1/cache_ung_vien.py": {
+      "size_bytes": 7407,
+      "sha256": "9b60a4786417a063f8e418da7c4af58e176942fa3114a8b1a9f4e7100fc77d12"
+    },
+    "src/lien_ket_v1/du_lieu_linking.py": {
+      "size_bytes": 7340,
+      "sha256": "add3cb91f4c22b1b87da6527437dbffee9ca20f47713be6c45f3a030489c29d1"
+    },
+    "src/lien_ket_v1/mo_hinh_linking.py": {
+      "size_bytes": 5395,
+      "sha256": "2c8a3d76a765fcb5b6f889675dd5217f4a7821b0544161c03762c49fa4c5b3ae"
+    },
+    "src/lien_ket_v1/__init__.py": {
+      "size_bytes": 644,
+      "sha256": "f620038bd0b1e61e8c930008e31c98b1068cfcc3eb20c76f25d0e070fbba1f7d"
+    }
+  }
+}

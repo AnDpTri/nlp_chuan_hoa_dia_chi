@@ -1,0 +1,42 @@
+{
+  "experiment_id": "lien_ket_v1_01",
+  "task": "Entity Linking / Candidate Scoring for Administrative Units",
+  "baseline_checkpoint": "mo_hinh/thu_nghiem/videberta_v1_01/model",
+  "architecture": {
+    "encoder": "ViDeBERTa-xsmall (Fsoft-AIC/videberta-xsmall, 70M params)",
+    "encoder_mode": "FROZEN 100% (requires_grad = False)",
+    "linking_head": {
+      "enc_dim": 384,
+      "proj_dim": 128,
+      "geo_dim": 12,
+      "hidden_dim": 128,
+      "dropout": 0.1,
+      "trainable_params": 122241
+    },
+    "candidate_cache": {
+      "strategy": "Offline precomputation of candidate unit representations with context text",
+      "lookup_complexity": "O(1)",
+      "validation_hash_strategy": "SHA-256 of encoder safetensors + tokenizer.json + clean administrative catalogue CSVs"
+    }
+  },
+  "drive_artifacts": {
+    "notebook_colab": "G:/My Drive/Colab Notebooks/LienKet_ViDeBERTa_Drive.ipynb",
+    "experiment_folder": "G:/My Drive/nlp_chuan_hoa_dia_chi/linking_v1",
+    "bundle_zip": "G:/My Drive/nlp_chuan_hoa_dia_chi/linking_v1/nlp_linking_bundle_v1.zip",
+    "bundle_sha256": "aab968a7441bcb0c4333a23a262078b4e0efd9da074744c72c387b843c93f201",
+    "manifest_json": "G:/My Drive/nlp_chuan_hoa_dia_chi/linking_v1/BUNDLE_MANIFEST.json"
+  },
+  "baselines": {
+    "dev_goc": {
+      "total": 1136,
+      "baseline_cnn": "941/1136 (82.83%)",
+      "baseline_videberta_tay": "926/1136 (81.51%)"
+    },
+    "dev_kho": {
+      "total": 464,
+      "baseline_cnn": "337/464 (72.63%)",
+      "baseline_videberta_tay": "340/464 (73.28%)"
+    }
+  },
+  "unit_tests": "tests/test_lien_ket_v1.py (10/10 tests PASS)"
+}

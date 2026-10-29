@@ -1,0 +1,81 @@
+{
+  "device": "cpu",
+  "torch_threads": 2,
+  "torch_version": "2.15.0+cpu",
+  "samples": 4841,
+  "batch_size": 32,
+  "parameters": 351246,
+  "seed": 20261029,
+  "epochs_requested": 12,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.35244042507456097,
+      "seconds": 23.138153200001398
+    },
+    {
+      "epoch": 2,
+      "loss": 0.12241947754949756,
+      "seconds": 22.624566700000287
+    },
+    {
+      "epoch": 3,
+      "loss": 0.07357908795500955,
+      "seconds": 22.99913530000049
+    },
+    {
+      "epoch": 4,
+      "loss": 0.05869067291771669,
+      "seconds": 18.43489529999715
+    },
+    {
+      "epoch": 5,
+      "loss": 0.04955663602969243,
+      "seconds": 16.79859209999995
+    },
+    {
+      "epoch": 6,
+      "loss": 0.05036233485890085,
+      "seconds": 22.64993289999984
+    },
+    {
+      "epoch": 7,
+      "loss": 0.04057956083245426,
+      "seconds": 22.725073699999484
+    },
+    {
+      "epoch": 8,
+      "loss": 0.03506735013095684,
+      "seconds": 22.548636200001056
+    },
+    {
+      "epoch": 9,
+      "loss": 0.031997256181815564,
+      "seconds": 22.88212140000178
+    },
+    {
+      "epoch": 10,
+      "loss": 0.028487249585536115,
+      "seconds": 22.830737600001157
+    },
+    {
+      "epoch": 11,
+      "loss": 0.02747983332939617,
+      "seconds": 23.0187900000019
+    },
+    {
+      "epoch": 12,
+      "loss": 0.025212398239836002,
+      "seconds": 22.547844000000623
+    }
+  ],
+  "train_seconds": 263.2718939000006,
+  "objective": "partial BIO CRF NLL/length + 0.2 CE trên ký tự có nhãn đơn",
+  "validation_used_for_fitting": false,
+  "memory": {
+    "phuong_phap": "Windows GetProcessMemoryInfo",
+    "working_set_mib": 520.543,
+    "peak_working_set_mib": 534.574,
+    "private_mib": 1077.227
+  }
+}

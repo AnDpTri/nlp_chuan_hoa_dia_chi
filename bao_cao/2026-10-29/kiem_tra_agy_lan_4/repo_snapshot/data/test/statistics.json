@@ -1,0 +1,98 @@
+{
+  "rows": 400,
+  "status": {
+    "tu_dong_khop": 168,
+    "can_duyet": 232
+  },
+  "status_ai_review": {
+    "da_duyet_ai": 292,
+    "can_duyet": 108
+  },
+  "ai_review_breakdown": {
+    "du_can_cu_tham_chieu": 263,
+    "nhan_can_sua": 29,
+    "chua_du_can_cu": 108,
+    "tra_cuu_web_nghi_quyet": 37,
+    "xa_bi_chia_thu_hoi_bao_luu": 33,
+    "vntest0040_mo_ho_bao_luu": 1,
+    "thieu_xa_chua_xac_dinh_bao_luu": 74,
+    "nhan_thuc_te_diff": 29
+  },
+  "eras": {
+    "cu": 361,
+    "thieu_thong_tin": 14,
+    "mo_ho": 4,
+    "cu_moi_cung_ket_qua": 15,
+    "moi": 6
+  },
+  "new_provinces": {
+    "(chưa xác định)": 19,
+    "Thành phố Cần Thơ": 14,
+    "Thành phố Huế": 4,
+    "Thành phố Hà Nội": 15,
+    "Thành phố Hải Phòng": 17,
+    "Thành phố Hồ Chí Minh": 58,
+    "Thành phố Đà Nẵng": 8,
+    "Tỉnh An Giang": 10,
+    "Tỉnh Bắc Ninh": 11,
+    "Tỉnh Cao Bằng": 6,
+    "Tỉnh Cà Mau": 11,
+    "Tỉnh Gia Lai": 12,
+    "Tỉnh Hà Tĩnh": 6,
+    "Tỉnh Hưng Yên": 13,
+    "Tỉnh Khánh Hòa": 13,
+    "Tỉnh Lào Cai": 9,
+    "Tỉnh Lâm Đồng": 20,
+    "Tỉnh Lạng Sơn": 3,
+    "Tỉnh Nghệ An": 6,
+    "Tỉnh Ninh Bình": 17,
+    "Tỉnh Phú Thọ": 8,
+    "Tỉnh Quảng Ngãi": 12,
+    "Tỉnh Quảng Ninh": 6,
+    "Tỉnh Quảng Trị": 12,
+    "Tỉnh Sơn La": 6,
+    "Tỉnh Thanh Hóa": 3,
+    "Tỉnh Thái Nguyên": 6,
+    "Tỉnh Tuyên Quang": 9,
+    "Tỉnh Tây Ninh": 15,
+    "Tỉnh Vĩnh Long": 16,
+    "Tỉnh Đắk Lắk": 12,
+    "Tỉnh Đồng Nai": 11,
+    "Tỉnh Đồng Tháp": 12
+  },
+  "no_diacritics": 10,
+  "has_diacritics": 390,
+  "abbreviations": 100,
+  "with_hamlet_component": 56,
+  "warnings": {
+    "chua_xac_dinh_xa": 64,
+    "khong_khop_huyen": 36,
+    "khong_khop_tinh": 11,
+    "mau_thuan_the_osm": 14,
+    "mo_ho_moc_cu_moi": 4,
+    "phan_chua_phan_loai": 50,
+    "phan_du_khong_dau_can_duyet": 30,
+    "so_nha_can_duyet": 11,
+    "thieu_tinh": 19,
+    "thieu_tinh_dau_vao": 27,
+    "thieu_xa": 39,
+    "trung_ten_xa": 4,
+    "xa_bi_chia": 33
+  },
+  "old_ward_types": {
+    "Phường": 212,
+    "Xã": 48,
+    "Thị trấn": 16
+  },
+  "new_ward_types": {
+    "Phường": 196,
+    "Xã": 65,
+    "Đặc khu": 3
+  },
+  "confirmed_old_split_rows": 33,
+  "unique_old_split_codes": 28,
+  "input_modes": {
+    "addr:full": 150,
+    "structured_tags_joined": 250
+  }
+}

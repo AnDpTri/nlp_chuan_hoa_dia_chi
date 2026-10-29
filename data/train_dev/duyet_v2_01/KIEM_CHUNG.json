@@ -1,0 +1,8 @@
+{
+  "new_rows": 927,
+  "combined_rows": 5768,
+  "base_records_preserved": true,
+  "unique_nfc_input": true,
+  "new_masked_family_overlap_ranker_dev": 0,
+  "training_group_preserved": true
+}

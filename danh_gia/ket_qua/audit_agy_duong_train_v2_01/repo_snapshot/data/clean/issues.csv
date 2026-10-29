@@ -1,0 +1,3 @@
+ma,ten,cap,van_de,chi_tiet,trang_thai,khuyen_nghi
+None,Khu vực bãi bồi ven biển Kim Sơn,Khu vực,Đơn vị địa lý không có mã cấp xã,"Khu vực bãi bồi ven biển do huyện Kim Sơn (376), Ninh Bình quản lý được sáp nhập vào Xã Kim Đông (14698). Bảng đối chiếu để trống ma_xa_cu, lưu ma_huyen_cu=376.",Ngoại lệ hợp lệ,"Khi chuẩn hóa cụm từ ""bãi bồi ven biển Kim Sơn"", ánh xạ về Xã Kim Đông (14698), Ninh Bình"
+None,5 Huyện đảo không có cấp xã trực thuộc,Huyện,Huyện chuyển đổi trực tiếp lên Đặc khu không qua cấp xã,"Gồm Bạch Long Vĩ (318), Cồn Cỏ (471), Hoàng Sa (498), Lý Sơn (536), Côn Đảo (755). Bảng đối chiếu để trống ma_xa_cu, lưu ma_huyen_cu và ma_xa_moi tương ứng.",Ngoại lệ hợp lệ,Địa chỉ chỉ ghi tên huyện đảo được chuyển thẳng thành tên Đặc khu tương ứng ở đầu ra sau sáp nhập

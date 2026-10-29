@@ -1,0 +1,6369 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "generated_at": "2026-10-29T11:50:39.972262+00:00",
+    "description": "Bảng tổng hợp các va chạm khóa tra cứu phục vụ hệ thống NLP không phỏng đoán mơ hồ."
+  },
+  "collision_summary": {
+    "cross_province_count": 208,
+    "diacritics_collision_count": 2,
+    "road_type_collision_count": 74,
+    "initials_ambiguity_count": 158,
+    "administrative_era_conflicts_count": 7
+  },
+  "administrative_era_conflicts": {
+    "15": {
+      "moi": "Lào Cai",
+      "cu": "Yên Bái"
+    },
+    "24": {
+      "moi": "Bắc Ninh",
+      "cu": "Bắc Giang"
+    },
+    "44": {
+      "moi": "Quảng Trị",
+      "cu": "Quảng Bình"
+    },
+    "52": {
+      "moi": "Gia Lai",
+      "cu": "Bình Định"
+    },
+    "80": {
+      "moi": "Tây Ninh",
+      "cu": "Long An"
+    },
+    "82": {
+      "moi": "Đồng Tháp",
+      "cu": "Tiền Giang"
+    },
+    "91": {
+      "moi": "An Giang",
+      "cu": "Kiên Giang"
+    }
+  },
+  "cross_province_collisions": {
+    "16 Tháng 4": [
+      {
+        "id": "STR_00001",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00002",
+        "ma_tinh": "58",
+        "ten_tinh": "Ninh Thuận",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "20 Tháng 8": [
+      {
+        "id": "STR_00005",
+        "ma_tinh": "02",
+        "ten_tinh": "Hà Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00006",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "21 Tháng 8": [
+      {
+        "id": "STR_00007",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00008",
+        "ma_tinh": "58",
+        "ten_tinh": "Ninh Thuận",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "23 Tháng 3": [
+      {
+        "id": "STR_00009",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00010",
+        "ma_tinh": "67",
+        "ten_tinh": "Đắk Nông",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "3 Tháng 2": [
+      {
+        "id": "STR_00013",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00014",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00015",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00016",
+        "ma_tinh": "93",
+        "ten_tinh": "Hậu Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "30 Tháng 4": [
+      {
+        "id": "STR_00017",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00018",
+        "ma_tinh": "72",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00019",
+        "ma_tinh": "80",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00020",
+        "ma_tinh": "91",
+        "ten_tinh": "Kiên Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00021",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ba Cu": [
+      {
+        "id": "STR_00029",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00030",
+        "ma_tinh": "77",
+        "ten_tinh": "Bà Rịa - Vũng Tàu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Biên Hòa": [
+      {
+        "id": "STR_00033",
+        "ma_tinh": "35",
+        "ten_tinh": "Hà Nam",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00034",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Bà Triệu": [
+      {
+        "id": "STR_00036",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00037",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00038",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00039",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00040",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00041",
+        "ma_tinh": "62",
+        "ten_tinh": "Kon Tum",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Bùi Thị Xuân": [
+      {
+        "id": "STR_00062",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00063",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00064",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Bùi Viện": [
+      {
+        "id": "STR_00066",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00067",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Bùi Văn Danh": [
+      {
+        "id": "STR_00068",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00069",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Bạch Đằng": [
+      {
+        "id": "STR_00076",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00077",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00078",
+        "ma_tinh": "30",
+        "ten_tinh": "Hải Dương",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00079",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00080",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00081",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00082",
+        "ma_tinh": "74",
+        "ten_tinh": "Bình Dương",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00083",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00084",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00085",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Bắc Sơn": [
+      {
+        "id": "STR_00087",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00088",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Bời Lời": [
+      {
+        "id": "STR_00097",
+        "ma_tinh": "72",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00098",
+        "ma_tinh": "80",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Cao Văn Lầu": [
+      {
+        "id": "STR_00102",
+        "ma_tinh": "95",
+        "ten_tinh": "Bạc Liêu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00103",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Chi Lăng": [
+      {
+        "id": "STR_00105",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00106",
+        "ma_tinh": "17",
+        "ten_tinh": "Hòa Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00107",
+        "ma_tinh": "91",
+        "ten_tinh": "Kiên Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Chu Huy Mân": [
+      {
+        "id": "STR_00110",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00111",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Chu Văn An": [
+      {
+        "id": "STR_00113",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00114",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00115",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Châu Văn Liêm": [
+      {
+        "id": "STR_00121",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00122",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00123",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Cách Mạng Tháng Tám": [
+      {
+        "id": "STR_00134",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00135",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00136",
+        "ma_tinh": "74",
+        "ten_tinh": "Bình Dương",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00137",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Cù Chính Lan": [
+      {
+        "id": "STR_00144",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00145",
+        "ma_tinh": "17",
+        "ten_tinh": "Hòa Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Cửa Đại": [
+      {
+        "id": "STR_00164",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00165",
+        "ma_tinh": "49",
+        "ten_tinh": "Quảng Nam",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Dương Đình Nghệ": [
+      {
+        "id": "STR_00182",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00183",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Fansipan": [
+      {
+        "id": "STR_00188",
+        "ma_tinh": "10",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00189",
+        "ma_tinh": "15",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Hai Bà Trưng": [
+      {
+        "id": "STR_00200",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00201",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00202",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Diệu": [
+      {
+        "id": "STR_00207",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00208",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00209",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00210",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Liên": [
+      {
+        "id": "STR_00214",
+        "ma_tinh": "10",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00215",
+        "ma_tinh": "15",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Lê Kha": [
+      {
+        "id": "STR_00217",
+        "ma_tinh": "72",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00218",
+        "ma_tinh": "80",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Minh Giám": [
+      {
+        "id": "STR_00219",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00220",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Quốc Việt": [
+      {
+        "id": "STR_00224",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00225",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Sa": [
+      {
+        "id": "STR_00226",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00227",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Văn Thái": [
+      {
+        "id": "STR_00232",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00233",
+        "ma_tinh": "11",
+        "ten_tinh": "Điện Biên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hoàng Văn Thụ": [
+      {
+        "id": "STR_00234",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00235",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00236",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00237",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Huỳnh Thúc Kháng": [
+      {
+        "id": "STR_00244",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00245",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Huỳnh Tấn Phát": [
+      {
+        "id": "STR_00246",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00247",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hà Hoàng Hổ": [
+      {
+        "id": "STR_00250",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00251",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Hà Huy Tập": [
+      {
+        "id": "STR_00253",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00254",
+        "ma_tinh": "42",
+        "ten_tinh": "Hà Tĩnh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00255",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00256",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hàm Nghi": [
+      {
+        "id": "STR_00262",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00263",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hàng Tiện": [
+      {
+        "id": "STR_00296",
+        "ma_tinh": "36",
+        "ten_tinh": "Nam Định",
+        "administrative_era": "cu_2024",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00297",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "moi_2025",
+        "road_type": "Phố"
+      }
+    ],
+    "Hòa Bình": [
+      {
+        "id": "STR_00308",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00309",
+        "ma_tinh": "95",
+        "ten_tinh": "Bạc Liêu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00310",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Hùng Vương": [
+      {
+        "id": "STR_00312",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00313",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00314",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00315",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00316",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00317",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00318",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00319",
+        "ma_tinh": "49",
+        "ten_tinh": "Quảng Nam",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00320",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00321",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00322",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00323",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00324",
+        "ma_tinh": "80",
+        "ten_tinh": "Long An",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00325",
+        "ma_tinh": "82",
+        "ten_tinh": "Tiền Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00326",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00327",
+        "ma_tinh": "87",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00328",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hạ Long": [
+      {
+        "id": "STR_00331",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00332",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00333",
+        "ma_tinh": "77",
+        "ten_tinh": "Bà Rịa - Vũng Tàu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Hồ Tùng Mậu": [
+      {
+        "id": "STR_00347",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00348",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00349",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00350",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hồ Xuân Hương": [
+      {
+        "id": "STR_00351",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00352",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Hồng Bàng": [
+      {
+        "id": "STR_00354",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00355",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Kim Đồng": [
+      {
+        "id": "STR_00382",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00383",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Kinh Dương Vương": [
+      {
+        "id": "STR_00384",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00385",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Kiên Thị Nhẫn": [
+      {
+        "id": "STR_00386",
+        "ma_tinh": "84",
+        "ten_tinh": "Trà Vinh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00387",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Kỳ Đồng": [
+      {
+        "id": "STR_00393",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00394",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lam Sơn": [
+      {
+        "id": "STR_00395",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00396",
+        "ma_tinh": "26",
+        "ten_tinh": "Vĩnh Phúc",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00397",
+        "ma_tinh": "91",
+        "ten_tinh": "Kiên Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Duẩn": [
+      {
+        "id": "STR_00412",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00413",
+        "ma_tinh": "44",
+        "ten_tinh": "Quảng Trị",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00414",
+        "ma_tinh": "45",
+        "ten_tinh": "Quảng Trị",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00415",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00416",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00417",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Hồng Phong": [
+      {
+        "id": "STR_00419",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00420",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00421",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00422",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00423",
+        "ma_tinh": "77",
+        "ten_tinh": "Bà Rịa - Vũng Tàu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00424",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00425",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00426",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00427",
+        "ma_tinh": "94",
+        "ten_tinh": "Sóc Trăng",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Lợi": [
+      {
+        "id": "STR_00431",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00432",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00433",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00434",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00435",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00436",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00437",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Quý Đôn": [
+      {
+        "id": "STR_00442",
+        "ma_tinh": "34",
+        "ten_tinh": "Thái Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00443",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Thanh Nghị": [
+      {
+        "id": "STR_00445",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00446",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Thánh Tôn": [
+      {
+        "id": "STR_00449",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00450",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00451",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Thánh Tông": [
+      {
+        "id": "STR_00452",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00453",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Trọng Tấn": [
+      {
+        "id": "STR_00456",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00457",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Văn Lương": [
+      {
+        "id": "STR_00463",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00464",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Đại Hành": [
+      {
+        "id": "STR_00470",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00471",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00472",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lê Đức Thọ": [
+      {
+        "id": "STR_00474",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00475",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00476",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lý Bôn": [
+      {
+        "id": "STR_00479",
+        "ma_tinh": "34",
+        "ten_tinh": "Thái Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00480",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Lý Thái Tổ": [
+      {
+        "id": "STR_00485",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00486",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00487",
+        "ma_tinh": "27",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Lý Thường Kiệt": [
+      {
+        "id": "STR_00489",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00490",
+        "ma_tinh": "35",
+        "ten_tinh": "Hà Nam",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00491",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00492",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00493",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00494",
+        "ma_tinh": "82",
+        "ten_tinh": "Tiền Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00495",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lý Tự Trọng": [
+      {
+        "id": "STR_00496",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00497",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00498",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lương Ngọc Quyến": [
+      {
+        "id": "STR_00506",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00507",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lương Định Của": [
+      {
+        "id": "STR_00512",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00513",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Lạc Long Quân": [
+      {
+        "id": "STR_00515",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00516",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00517",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Mai Chí Thọ": [
+      {
+        "id": "STR_00521",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00522",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      }
+    ],
+    "Mai Hắc Đế": [
+      {
+        "id": "STR_00523",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00524",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Minh Khai": [
+      {
+        "id": "STR_00532",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00533",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      }
+    ],
+    "Mê Linh": [
+      {
+        "id": "STR_00540",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00541",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00542",
+        "ma_tinh": "26",
+        "ten_tinh": "Vĩnh Phúc",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00543",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      }
+    ],
+    "Nam Kỳ Khởi Nghĩa": [
+      {
+        "id": "STR_00555",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00556",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00557",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Chánh": [
+      {
+        "id": "STR_00569",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00570",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Chí Thanh": [
+      {
+        "id": "STR_00571",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00572",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00573",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Công Trứ": [
+      {
+        "id": "STR_00575",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00576",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Du": [
+      {
+        "id": "STR_00579",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00580",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Hoàng": [
+      {
+        "id": "STR_00586",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00587",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Huệ": [
+      {
+        "id": "STR_00590",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00591",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00592",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00593",
+        "ma_tinh": "87",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Hữu Thọ": [
+      {
+        "id": "STR_00596",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00597",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Lương Bằng": [
+      {
+        "id": "STR_00605",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00606",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00607",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Thái Học": [
+      {
+        "id": "STR_00621",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00622",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00623",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Thị Minh Khai": [
+      {
+        "id": "STR_00626",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00627",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00628",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00629",
+        "ma_tinh": "84",
+        "ten_tinh": "Trà Vinh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00630",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Thị Thập": [
+      {
+        "id": "STR_00632",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00633",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Tri Phương": [
+      {
+        "id": "STR_00636",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00637",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00638",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Trãi": [
+      {
+        "id": "STR_00640",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00641",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00642",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00643",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00644",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Tất Thành": [
+      {
+        "id": "STR_00649",
+        "ma_tinh": "15",
+        "ten_tinh": "Yên Bái",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00650",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00651",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00652",
+        "ma_tinh": "52",
+        "ten_tinh": "Bình Định",
+        "administrative_era": "cu_2024",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00653",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00654",
+        "ma_tinh": "60",
+        "ten_tinh": "Bình Thuận",
+        "administrative_era": "cu_2024",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00655",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00656",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_00657",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00658",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Văn Cừ": [
+      {
+        "id": "STR_00661",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00662",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00663",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Văn Linh": [
+      {
+        "id": "STR_00668",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00669",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00670",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      }
+    ],
+    "Nguyễn Đình Chiểu": [
+      {
+        "id": "STR_00679",
+        "ma_tinh": "60",
+        "ten_tinh": "Bình Thuận",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00680",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00681",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Nguyễn Đức Cảnh": [
+      {
+        "id": "STR_00685",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00686",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ngô Gia Tự": [
+      {
+        "id": "STR_00688",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00689",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00690",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00691",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ngô Quyền": [
+      {
+        "id": "STR_00692",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00693",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00694",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00695",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00696",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00697",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ngô Thì Nhậm": [
+      {
+        "id": "STR_00699",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00700",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ngô Đức Kế": [
+      {
+        "id": "STR_00702",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00703",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Pasteur": [
+      {
+        "id": "STR_00724",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00725",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phan Bội Châu": [
+      {
+        "id": "STR_00727",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00728",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00729",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00730",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00731",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phan Chu Trinh": [
+      {
+        "id": "STR_00732",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00733",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00734",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00735",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phan Huy Ích": [
+      {
+        "id": "STR_00738",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00739",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phan Đình Phùng": [
+      {
+        "id": "STR_00751",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00752",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00753",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00754",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00755",
+        "ma_tinh": "62",
+        "ten_tinh": "Kon Tum",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00756",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00757",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phan Đăng Lưu": [
+      {
+        "id": "STR_00758",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00759",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00760",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phó Đức Chính": [
+      {
+        "id": "STR_00762",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00763",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phùng Hưng": [
+      {
+        "id": "STR_00766",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00767",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00768",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phú Lợi": [
+      {
+        "id": "STR_00771",
+        "ma_tinh": "74",
+        "ten_tinh": "Bình Dương",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00772",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00773",
+        "ma_tinh": "94",
+        "ten_tinh": "Sóc Trăng",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Phú Riềng Đỏ": [
+      {
+        "id": "STR_00774",
+        "ma_tinh": "70",
+        "ten_tinh": "Bình Phước",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00775",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Phạm Ngũ Lão": [
+      {
+        "id": "STR_00784",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00785",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phạm Thái Bường": [
+      {
+        "id": "STR_00787",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00788",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Phạm Văn Đồng": [
+      {
+        "id": "STR_00797",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00798",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00799",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00800",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00801",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00802",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      }
+    ],
+    "Quang Trung": [
+      {
+        "id": "STR_00814",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00815",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00816",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00817",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_00818",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00819",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00820",
+        "ma_tinh": "44",
+        "ten_tinh": "Quảng Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00821",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00822",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00823",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_00824",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Quốc lộ 1": [
+      {
+        "id": "STR_00832",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00833",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00834",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00835",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00836",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00837",
+        "ma_tinh": "33",
+        "ten_tinh": "Hưng Yên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00838",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00839",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00840",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00841",
+        "ma_tinh": "42",
+        "ten_tinh": "Hà Tĩnh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00842",
+        "ma_tinh": "44",
+        "ten_tinh": "Quảng Trị",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00843",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00844",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00845",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00846",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00847",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00848",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00849",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00850",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00851",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00852",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00853",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 10": [
+      {
+        "id": "STR_00854",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00855",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00856",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00857",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 12": [
+      {
+        "id": "STR_00858",
+        "ma_tinh": "11",
+        "ten_tinh": "Điện Biên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00859",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 12C": [
+      {
+        "id": "STR_00862",
+        "ma_tinh": "42",
+        "ten_tinh": "Hà Tĩnh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00863",
+        "ma_tinh": "44",
+        "ten_tinh": "Quảng Trị",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 14": [
+      {
+        "id": "STR_00864",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00865",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00866",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00867",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 14C": [
+      {
+        "id": "STR_00869",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00870",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 15": [
+      {
+        "id": "STR_00873",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00874",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00875",
+        "ma_tinh": "42",
+        "ten_tinh": "Hà Tĩnh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00876",
+        "ma_tinh": "44",
+        "ten_tinh": "Quảng Trị",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 16": [
+      {
+        "id": "STR_00880",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00881",
+        "ma_tinh": "40",
+        "ten_tinh": "Nghệ An",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 17": [
+      {
+        "id": "STR_00882",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00883",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 18": [
+      {
+        "id": "STR_00884",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00885",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00886",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 19": [
+      {
+        "id": "STR_00889",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00890",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 19C": [
+      {
+        "id": "STR_00892",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00893",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 1B": [
+      {
+        "id": "STR_00894",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00895",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 2": [
+      {
+        "id": "STR_00898",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00899",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00900",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 20": [
+      {
+        "id": "STR_00901",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00902",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 21": [
+      {
+        "id": "STR_00903",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00904",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 21B": [
+      {
+        "id": "STR_00905",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00906",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 21C": [
+      {
+        "id": "STR_00907",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00908",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 22": [
+      {
+        "id": "STR_00909",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00910",
+        "ma_tinh": "80",
+        "ten_tinh": "Tây Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 24": [
+      {
+        "id": "STR_00913",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00914",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 25": [
+      {
+        "id": "STR_00916",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00917",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 26": [
+      {
+        "id": "STR_00918",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00919",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 27": [
+      {
+        "id": "STR_00921",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00922",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00923",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 27C": [
+      {
+        "id": "STR_00925",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00926",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 28": [
+      {
+        "id": "STR_00927",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00928",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 29": [
+      {
+        "id": "STR_00930",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00931",
+        "ma_tinh": "66",
+        "ten_tinh": "Đắk Lắk",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 2C": [
+      {
+        "id": "STR_00933",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00934",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00935",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 3": [
+      {
+        "id": "STR_00936",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00937",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00938",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 31": [
+      {
+        "id": "STR_00940",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00941",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 32": [
+      {
+        "id": "STR_00942",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00943",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00944",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 32B": [
+      {
+        "id": "STR_00945",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00946",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 34": [
+      {
+        "id": "STR_00948",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00949",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 37": [
+      {
+        "id": "STR_00950",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00951",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00952",
+        "ma_tinh": "19",
+        "ten_tinh": "Thái Nguyên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00953",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00954",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 38": [
+      {
+        "id": "STR_00956",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00957",
+        "ma_tinh": "33",
+        "ten_tinh": "Hưng Yên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 38B": [
+      {
+        "id": "STR_00958",
+        "ma_tinh": "33",
+        "ten_tinh": "Hưng Yên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00959",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 39": [
+      {
+        "id": "STR_00960",
+        "ma_tinh": "33",
+        "ten_tinh": "Hưng Yên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00961",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 3B": [
+      {
+        "id": "STR_00962",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00963",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 4": [
+      {
+        "id": "STR_00965",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00966",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00967",
+        "ma_tinh": "15",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00968",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00969",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 40B": [
+      {
+        "id": "STR_00971",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00972",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 45": [
+      {
+        "id": "STR_00974",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00975",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 4A": [
+      {
+        "id": "STR_00982",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00983",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 4B": [
+      {
+        "id": "STR_00984",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00985",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 4D": [
+      {
+        "id": "STR_00987",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00988",
+        "ma_tinh": "15",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 4H": [
+      {
+        "id": "STR_00990",
+        "ma_tinh": "11",
+        "ten_tinh": "Điện Biên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00991",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 5": [
+      {
+        "id": "STR_00992",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00993",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00994",
+        "ma_tinh": "33",
+        "ten_tinh": "Hưng Yên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 50": [
+      {
+        "id": "STR_00995",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_00996",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 54": [
+      {
+        "id": "STR_01000",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01001",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 6": [
+      {
+        "id": "STR_01005",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01006",
+        "ma_tinh": "11",
+        "ten_tinh": "Điện Biên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01007",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 60": [
+      {
+        "id": "STR_01008",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01009",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 61": [
+      {
+        "id": "STR_01010",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01011",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 63": [
+      {
+        "id": "STR_01014",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01015",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 6B": [
+      {
+        "id": "STR_01016",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01017",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 70": [
+      {
+        "id": "STR_01019",
+        "ma_tinh": "15",
+        "ten_tinh": "Lào Cai",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01020",
+        "ma_tinh": "25",
+        "ten_tinh": "Phú Thọ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 80": [
+      {
+        "id": "STR_01024",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01025",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01026",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01027",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Quốc lộ 91": [
+      {
+        "id": "STR_01031",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Quốc lộ"
+      },
+      {
+        "id": "STR_01032",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Quốc lộ"
+      }
+    ],
+    "Sơn Thông": [
+      {
+        "id": "STR_01046",
+        "ma_tinh": "84",
+        "ten_tinh": "Trà Vinh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01047",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Thoại Ngọc Hầu": [
+      {
+        "id": "STR_01061",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01062",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01063",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Thành Thái": [
+      {
+        "id": "STR_01067",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01068",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Thùy Vân": [
+      {
+        "id": "STR_01075",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01076",
+        "ma_tinh": "77",
+        "ten_tinh": "Bà Rịa - Vũng Tàu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Thịnh Lang": [
+      {
+        "id": "STR_01087",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01088",
+        "ma_tinh": "17",
+        "ten_tinh": "Hòa Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Trưng Nữ Vương": [
+      {
+        "id": "STR_01114",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01115",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trương Định": [
+      {
+        "id": "STR_01121",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01122",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01123",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trường Chinh": [
+      {
+        "id": "STR_01124",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01125",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01126",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trường Sa": [
+      {
+        "id": "STR_01127",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01128",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Bình Trọng": [
+      {
+        "id": "STR_01133",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01134",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Hưng Đạo": [
+      {
+        "id": "STR_01140",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01141",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01142",
+        "ma_tinh": "24",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01143",
+        "ma_tinh": "27",
+        "ten_tinh": "Bắc Ninh",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01144",
+        "ma_tinh": "30",
+        "ten_tinh": "Hải Dương",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01145",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01146",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01147",
+        "ma_tinh": "36",
+        "ten_tinh": "Nam Định",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01148",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01149",
+        "ma_tinh": "37",
+        "ten_tinh": "Ninh Bình",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01150",
+        "ma_tinh": "44",
+        "ten_tinh": "Quảng Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01151",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01152",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01153",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01154",
+        "ma_tinh": "49",
+        "ten_tinh": "Quảng Nam",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01155",
+        "ma_tinh": "60",
+        "ten_tinh": "Bình Thuận",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01156",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01157",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01158",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01159",
+        "ma_tinh": "91",
+        "ten_tinh": "Kiên Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01160",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01161",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01162",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01163",
+        "ma_tinh": "93",
+        "ten_tinh": "Hậu Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01164",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Nhân Tông": [
+      {
+        "id": "STR_01170",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01171",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Phú": [
+      {
+        "id": "STR_01175",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01176",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01177",
+        "ma_tinh": "12",
+        "ten_tinh": "Lai Châu",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01178",
+        "ma_tinh": "22",
+        "ten_tinh": "Quảng Ninh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01179",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01180",
+        "ma_tinh": "38",
+        "ten_tinh": "Thanh Hóa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01181",
+        "ma_tinh": "42",
+        "ten_tinh": "Hà Tĩnh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01182",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01183",
+        "ma_tinh": "52",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01184",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01185",
+        "ma_tinh": "64",
+        "ten_tinh": "Gia Lai",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01186",
+        "ma_tinh": "68",
+        "ten_tinh": "Lâm Đồng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01187",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01188",
+        "ma_tinh": "77",
+        "ten_tinh": "Bà Rịa - Vũng Tàu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01189",
+        "ma_tinh": "91",
+        "ten_tinh": "Kiên Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01190",
+        "ma_tinh": "95",
+        "ten_tinh": "Bạc Liêu",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01191",
+        "ma_tinh": "96",
+        "ten_tinh": "Cà Mau",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Quốc Hoàn": [
+      {
+        "id": "STR_01196",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01197",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Đăng Ninh": [
+      {
+        "id": "STR_01211",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01212",
+        "ma_tinh": "20",
+        "ten_tinh": "Lạng Sơn",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Trần Đại Nghĩa": [
+      {
+        "id": "STR_01213",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01214",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01215",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Tân Trào": [
+      {
+        "id": "STR_01232",
+        "ma_tinh": "08",
+        "ten_tinh": "Tuyên Quang",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01233",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Tô Hiến Thành": [
+      {
+        "id": "STR_01242",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01243",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Tô Hiệu": [
+      {
+        "id": "STR_01244",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01245",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01246",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      }
+    ],
+    "Tôn Thất Thiệp": [
+      {
+        "id": "STR_01251",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01252",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Tôn Đức Thắng": [
+      {
+        "id": "STR_01257",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01258",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01259",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01260",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01261",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01262",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Tạ Quang Bửu": [
+      {
+        "id": "STR_01268",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01269",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ung Văn Khiêm": [
+      {
+        "id": "STR_01277",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01278",
+        "ma_tinh": "89",
+        "ten_tinh": "An Giang",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01279",
+        "ma_tinh": "91",
+        "ten_tinh": "An Giang",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      }
+    ],
+    "Võ Nguyên Giáp": [
+      {
+        "id": "STR_01286",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01287",
+        "ma_tinh": "11",
+        "ten_tinh": "Điện Biên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01288",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_01289",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Võ Thị Sáu": [
+      {
+        "id": "STR_01291",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01292",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01293",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01294",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01295",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Võ Văn Kiệt": [
+      {
+        "id": "STR_01297",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01298",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_01299",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đại lộ"
+      }
+    ],
+    "Văn Cao": [
+      {
+        "id": "STR_01303",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01304",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Vũ Tông Phan": [
+      {
+        "id": "STR_01316",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01317",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Xuân Diệu": [
+      {
+        "id": "STR_01330",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01331",
+        "ma_tinh": "52",
+        "ten_tinh": "Bình Định",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Xô Viết Nghệ Tĩnh": [
+      {
+        "id": "STR_01336",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01337",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Yersin": [
+      {
+        "id": "STR_01339",
+        "ma_tinh": "56",
+        "ten_tinh": "Khánh Hòa",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01340",
+        "ma_tinh": "74",
+        "ten_tinh": "Bình Dương",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01341",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Yết Kiêu": [
+      {
+        "id": "STR_01349",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01350",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Âu Cơ": [
+      {
+        "id": "STR_01352",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01353",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Ông Ích Khiêm": [
+      {
+        "id": "STR_01356",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01357",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Đinh Tiên Hoàng": [
+      {
+        "id": "STR_01365",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01366",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01367",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01368",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01369",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Điện Biên": [
+      {
+        "id": "STR_01371",
+        "ma_tinh": "15",
+        "ten_tinh": "Yên Bái",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01372",
+        "ma_tinh": "33",
+        "ten_tinh": "Hưng Yên",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Điện Biên Phủ": [
+      {
+        "id": "STR_01373",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01374",
+        "ma_tinh": "31",
+        "ten_tinh": "Hải Phòng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01375",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01376",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01377",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01378",
+        "ma_tinh": "82",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01379",
+        "ma_tinh": "87",
+        "ten_tinh": "Đồng Tháp",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Đoàn Thị Điểm": [
+      {
+        "id": "STR_01382",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01383",
+        "ma_tinh": "46",
+        "ten_tinh": "Huế",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01384",
+        "ma_tinh": "48",
+        "ten_tinh": "Đà Nẵng",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Đà Giang": [
+      {
+        "id": "STR_01387",
+        "ma_tinh": "14",
+        "ten_tinh": "Sơn La",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01388",
+        "ma_tinh": "17",
+        "ten_tinh": "Hòa Bình",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Đặng Dung": [
+      {
+        "id": "STR_01422",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01423",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Đồng Khởi": [
+      {
+        "id": "STR_01438",
+        "ma_tinh": "75",
+        "ten_tinh": "Đồng Nai",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01439",
+        "ma_tinh": "79",
+        "ten_tinh": "Hồ Chí Minh",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01440",
+        "ma_tinh": "83",
+        "ten_tinh": "Bến Tre",
+        "administrative_era": "cu_2024",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_01441",
+        "ma_tinh": "86",
+        "ten_tinh": "Vĩnh Long",
+        "administrative_era": "moi_2025",
+        "road_type": "Đại lộ"
+      },
+      {
+        "id": "STR_01442",
+        "ma_tinh": "92",
+        "ten_tinh": "Cần Thơ",
+        "administrative_era": "hien_hanh",
+        "road_type": "Đường"
+      }
+    ],
+    "Độc Lập": [
+      {
+        "id": "STR_01454",
+        "ma_tinh": "01",
+        "ten_tinh": "Hà Nội",
+        "administrative_era": "hien_hanh",
+        "road_type": "Phố"
+      },
+      {
+        "id": "STR_01455",
+        "ma_tinh": "51",
+        "ten_tinh": "Quảng Ngãi",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01456",
+        "ma_tinh": "54",
+        "ten_tinh": "Phú Yên",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ],
+    "Đội Kỳ": [
+      {
+        "id": "STR_01458",
+        "ma_tinh": "04",
+        "ten_tinh": "Cao Bằng",
+        "administrative_era": "moi_2025",
+        "road_type": "Đường"
+      },
+      {
+        "id": "STR_01459",
+        "ma_tinh": "06",
+        "ten_tinh": "Bắc Kạn",
+        "administrative_era": "cu_2024",
+        "road_type": "Đường"
+      }
+    ]
+  },
+  "diacritics_collisions": {
+    "doan khue": [
+      "Doãn Khuê",
+      "Đoàn Khuê"
+    ],
+    "ton that dam": [
+      "Tôn Thất Đàm",
+      "Tôn Thất Đạm"
+    ]
+  },
+  "road_type_collisions": {
+    "Bà Triệu": [
+      "Phố Bà Triệu",
+      "Đường Bà Triệu"
+    ],
+    "Bùi Thị Xuân": [
+      "Phố Bùi Thị Xuân",
+      "Đường Bùi Thị Xuân"
+    ],
+    "Bùi Viện": [
+      "Đường Bùi Viện",
+      "Đại lộ Bùi Viện"
+    ],
+    "Bắc Sơn": [
+      "Phố Bắc Sơn",
+      "Đường Bắc Sơn"
+    ],
+    "Chu Văn An": [
+      "Phố Chu Văn An",
+      "Đường Chu Văn An"
+    ],
+    "Dương Đình Nghệ": [
+      "Phố Dương Đình Nghệ",
+      "Đường Dương Đình Nghệ"
+    ],
+    "Hai Bà Trưng": [
+      "Phố Hai Bà Trưng",
+      "Đường Hai Bà Trưng"
+    ],
+    "Hoàng Diệu": [
+      "Phố Hoàng Diệu",
+      "Đường Hoàng Diệu"
+    ],
+    "Hoàng Minh Giám": [
+      "Phố Hoàng Minh Giám",
+      "Đường Hoàng Minh Giám"
+    ],
+    "Hoàng Văn Thái": [
+      "Phố Hoàng Văn Thái",
+      "Đường Hoàng Văn Thái"
+    ],
+    "Hoàng Văn Thụ": [
+      "Phố Hoàng Văn Thụ",
+      "Đường Hoàng Văn Thụ"
+    ],
+    "Huỳnh Thúc Kháng": [
+      "Phố Huỳnh Thúc Kháng",
+      "Đường Huỳnh Thúc Kháng"
+    ],
+    "Hà Nội": [
+      "Xa lộ Hà Nội",
+      "Đường Hà Nội"
+    ],
+    "Hàm Nghi": [
+      "Phố Hàm Nghi",
+      "Đường Hàm Nghi"
+    ],
+    "Hòa Bình": [
+      "Đường Hòa Bình",
+      "Đại lộ Hòa Bình"
+    ],
+    "Hùng Vương": [
+      "Phố Hùng Vương",
+      "Đường Hùng Vương",
+      "Đại lộ Hùng Vương"
+    ],
+    "Kim Đồng": [
+      "Phố Kim Đồng",
+      "Đường Kim Đồng"
+    ],
+    "Kỳ Đồng": [
+      "Phố Kỳ Đồng",
+      "Đường Kỳ Đồng"
+    ],
+    "Lê Duẩn": [
+      "Đường Lê Duẩn",
+      "Đại lộ Lê Duẩn"
+    ],
+    "Lê Hồng Phong": [
+      "Phố Lê Hồng Phong",
+      "Đường Lê Hồng Phong"
+    ],
+    "Lê Lợi": [
+      "Phố Lê Lợi",
+      "Đường Lê Lợi",
+      "Đại lộ Lê Lợi"
+    ],
+    "Lê Thanh Nghị": [
+      "Phố Lê Thanh Nghị",
+      "Đường Lê Thanh Nghị"
+    ],
+    "Lê Đại Hành": [
+      "Phố Lê Đại Hành",
+      "Đường Lê Đại Hành"
+    ],
+    "Lý Thái Tổ": [
+      "Phố Lý Thái Tổ",
+      "Đường Lý Thái Tổ"
+    ],
+    "Lý Thường Kiệt": [
+      "Phố Lý Thường Kiệt",
+      "Đường Lý Thường Kiệt"
+    ],
+    "Lương Ngọc Quyến": [
+      "Phố Lương Ngọc Quyến",
+      "Đường Lương Ngọc Quyến"
+    ],
+    "Lương Định Của": [
+      "Phố Lương Định Của",
+      "Đường Lương Định Của"
+    ],
+    "Mai Chí Thọ": [
+      "Đường Mai Chí Thọ",
+      "Đại lộ Mai Chí Thọ"
+    ],
+    "Mai Hắc Đế": [
+      "Phố Mai Hắc Đế",
+      "Đường Mai Hắc Đế"
+    ],
+    "Mê Linh": [
+      "Phố Mê Linh",
+      "Đường Mê Linh"
+    ],
+    "Nguyễn Chánh": [
+      "Phố Nguyễn Chánh",
+      "Đường Nguyễn Chánh"
+    ],
+    "Nguyễn Công Trứ": [
+      "Phố Nguyễn Công Trứ",
+      "Đường Nguyễn Công Trứ"
+    ],
+    "Nguyễn Lương Bằng": [
+      "Phố Nguyễn Lương Bằng",
+      "Đường Nguyễn Lương Bằng"
+    ],
+    "Nguyễn Thái Học": [
+      "Phố Nguyễn Thái Học",
+      "Đường Nguyễn Thái Học"
+    ],
+    "Nguyễn Thị Thập": [
+      "Phố Nguyễn Thị Thập",
+      "Đường Nguyễn Thị Thập"
+    ],
+    "Nguyễn Tri Phương": [
+      "Phố Nguyễn Tri Phương",
+      "Đường Nguyễn Tri Phương"
+    ],
+    "Nguyễn Tất Thành": [
+      "Đường Nguyễn Tất Thành",
+      "Đại lộ Nguyễn Tất Thành"
+    ],
+    "Nguyễn Văn Linh": [
+      "Đường Nguyễn Văn Linh",
+      "Đại lộ Nguyễn Văn Linh"
+    ],
+    "Nguyễn Đức Cảnh": [
+      "Phố Nguyễn Đức Cảnh",
+      "Đường Nguyễn Đức Cảnh"
+    ],
+    "Ngô Quyền": [
+      "Phố Ngô Quyền",
+      "Đường Ngô Quyền"
+    ],
+    "Ngô Thì Nhậm": [
+      "Phố Ngô Thì Nhậm",
+      "Đường Ngô Thì Nhậm"
+    ],
+    "Phan Bội Châu": [
+      "Phố Phan Bội Châu",
+      "Đường Phan Bội Châu"
+    ],
+    "Phan Chu Trinh": [
+      "Phố Phan Chu Trinh",
+      "Đường Phan Chu Trinh"
+    ],
+    "Phan Huy Ích": [
+      "Phố Phan Huy Ích",
+      "Đường Phan Huy Ích"
+    ],
+    "Phan Đình Phùng": [
+      "Phố Phan Đình Phùng",
+      "Đường Phan Đình Phùng"
+    ],
+    "Phó Đức Chính": [
+      "Phố Phó Đức Chính",
+      "Đường Phó Đức Chính"
+    ],
+    "Phùng Hưng": [
+      "Phố Phùng Hưng",
+      "Đường Phùng Hưng"
+    ],
+    "Phạm Văn Đồng": [
+      "Đường Phạm Văn Đồng",
+      "Đại lộ Phạm Văn Đồng"
+    ],
+    "Quang Trung": [
+      "Phố Quang Trung",
+      "Đường Quang Trung"
+    ],
+    "Thành Thái": [
+      "Phố Thành Thái",
+      "Đường Thành Thái"
+    ],
+    "Trương Định": [
+      "Phố Trương Định",
+      "Đường Trương Định"
+    ],
+    "Trần Bình Trọng": [
+      "Phố Trần Bình Trọng",
+      "Đường Trần Bình Trọng"
+    ],
+    "Trần Hưng Đạo": [
+      "Phố Trần Hưng Đạo",
+      "Đường Trần Hưng Đạo"
+    ],
+    "Trần Phú": [
+      "Phố Trần Phú",
+      "Đường Trần Phú"
+    ],
+    "Trần Đăng Ninh": [
+      "Phố Trần Đăng Ninh",
+      "Đường Trần Đăng Ninh"
+    ],
+    "Trần Đại Nghĩa": [
+      "Phố Trần Đại Nghĩa",
+      "Đường Trần Đại Nghĩa"
+    ],
+    "Tô Hiến Thành": [
+      "Phố Tô Hiến Thành",
+      "Đường Tô Hiến Thành"
+    ],
+    "Tô Hiệu": [
+      "Phố Tô Hiệu",
+      "Đường Tô Hiệu"
+    ],
+    "Tôn Thất Thiệp": [
+      "Phố Tôn Thất Thiệp",
+      "Đường Tôn Thất Thiệp"
+    ],
+    "Tôn Đức Thắng": [
+      "Phố Tôn Đức Thắng",
+      "Đường Tôn Đức Thắng"
+    ],
+    "Tạ Quang Bửu": [
+      "Phố Tạ Quang Bửu",
+      "Đường Tạ Quang Bửu"
+    ],
+    "Võ Nguyên Giáp": [
+      "Đường Võ Nguyên Giáp",
+      "Đại lộ Võ Nguyên Giáp"
+    ],
+    "Võ Thị Sáu": [
+      "Phố Võ Thị Sáu",
+      "Đường Võ Thị Sáu"
+    ],
+    "Võ Văn Kiệt": [
+      "Đường Võ Văn Kiệt",
+      "Đại lộ Võ Văn Kiệt"
+    ],
+    "Văn Cao": [
+      "Phố Văn Cao",
+      "Đường Văn Cao"
+    ],
+    "Vạn Phúc": [
+      "Phố Vạn Phúc",
+      "Đường Vạn Phúc"
+    ],
+    "Xuân Diệu": [
+      "Phố Xuân Diệu",
+      "Đường Xuân Diệu"
+    ],
+    "Yết Kiêu": [
+      "Phố Yết Kiêu",
+      "Đường Yết Kiêu"
+    ],
+    "Đinh Tiên Hoàng": [
+      "Phố Đinh Tiên Hoàng",
+      "Đường Đinh Tiên Hoàng"
+    ],
+    "Điện Biên Phủ": [
+      "Phố Điện Biên Phủ",
+      "Đường Điện Biên Phủ"
+    ],
+    "Đoàn Thị Điểm": [
+      "Phố Đoàn Thị Điểm",
+      "Đường Đoàn Thị Điểm"
+    ],
+    "Đặng Dung": [
+      "Phố Đặng Dung",
+      "Đường Đặng Dung"
+    ],
+    "Đồng Khởi": [
+      "Đường Đồng Khởi",
+      "Đại lộ Đồng Khởi"
+    ],
+    "Độc Lập": [
+      "Phố Độc Lập",
+      "Đường Độc Lập"
+    ]
+  },
+  "initials_ambiguities": {
+    "2t4": [
+      "2 Tháng 4",
+      "25 Tháng 4"
+    ],
+    "2t8": [
+      "20 Tháng 8",
+      "21 Tháng 8",
+      "23 Tháng 8"
+    ],
+    "at": [
+      "An Thượng",
+      "An Trạch"
+    ],
+    "bc": [
+      "Ba Cu",
+      "Bích Câu"
+    ],
+    "bd": [
+      "Ba Đình",
+      "Bát Đàn",
+      "Bạch Đằng",
+      "Bồ Đề"
+    ],
+    "bh": [
+      "Biên Hòa",
+      "Bắc Hồng"
+    ],
+    "bt": [
+      "Bà Triệu",
+      "Bình Thuận",
+      "Bình Tiên",
+      "Bình Trưng"
+    ],
+    "bn": [
+      "Bát Nàn",
+      "Bến Nghé"
+    ],
+    "bs": [
+      "Bát Sứ",
+      "Bãi Sậy",
+      "Bắc Sơn"
+    ],
+    "bl": [
+      "Bình Long",
+      "Bằng Liệt",
+      "Bời Lời"
+    ],
+    "bm": [
+      "Bình Minh",
+      "Bạch Mai"
+    ],
+    "bvd": [
+      "Bùi Văn Danh",
+      "Bế Văn Đàn",
+      "Bến Vân Đồn"
+    ],
+    "cl": [
+      "Cao Lỗ",
+      "Chi Lăng",
+      "Chùa Láng",
+      "Cát Linh",
+      "Cổ Linh",
+      "Cổ Loa",
+      "Cự Lộc"
+    ],
+    "cvl": [
+      "Cao Văn Lầu",
+      "Châu Văn Liêm"
+    ],
+    "cd": [
+      "Chi Đông",
+      "Châu Đài",
+      "Chương Dương",
+      "Cầu Diễn",
+      "Cầu Đơ",
+      "Cầu Đất",
+      "Cổ Điển",
+      "Cửa Đông",
+      "Cửa Đại"
+    ],
+    "ct": [
+      "Chiến Thắng",
+      "Cây Trâm"
+    ],
+    "cc": [
+      "Chân Cầm",
+      "Chả Cá",
+      "Cát Cụt"
+    ],
+    "ck": [
+      "Chính Kinh",
+      "Cương Kiên",
+      "Cự Khối"
+    ],
+    "cb": [
+      "Chùa Bộc",
+      "Cây Bài",
+      "Cô Bắc",
+      "Cầu Bươu",
+      "Cửa Bắc"
+    ],
+    "ch": [
+      "Chùa Hà",
+      "Cộng Hòa"
+    ],
+    "cg": [
+      "Cô Giang",
+      "Cầu Giấy",
+      "Cầu Giẽ",
+      "Cầu Gỗ"
+    ],
+    "dk": [
+      "Doãn Khuê",
+      "Dương Khuê",
+      "Đoàn Khuê",
+      "Đồng Khởi",
+      "Đội Kỳ"
+    ],
+    "dt": [
+      "Duy Tân",
+      "Duyên Thái",
+      "Dã Tượng",
+      "Dục Tú",
+      "Đào Trí",
+      "Đào Tấn",
+      "Đình Thôn",
+      "Đường Thành",
+      "Đại Từ",
+      "Đặng Tất",
+      "Đề Thám"
+    ],
+    "dh": [
+      "Duyên Hải",
+      "Dư Hàng",
+      "Đông Hội"
+    ],
+    "dc": [
+      "Dân Chủ",
+      "Đào Cử",
+      "Đông Các",
+      "Định Công",
+      "Đội Cấn"
+    ],
+    "gn": [
+      "Gia Ngư",
+      "Giáp Nhị"
+    ],
+    "gb": [
+      "Giang Biên",
+      "Giáp Bát"
+    ],
+    "hb": [
+      "Hoa Bằng",
+      "Hàng Buồm",
+      "Hàng Bài",
+      "Hàng Bè",
+      "Hàng Bông",
+      "Hàng Bún",
+      "Hàng Bút",
+      "Hàng Bạc",
+      "Hàng Bồ",
+      "Hòa Bình",
+      "Hải Bối",
+      "Hồng Bàng"
+    ],
+    "hl": [
+      "Hoa Lư",
+      "Hoàng Liên",
+      "Hoàng Liệt",
+      "Hàm Long",
+      "Hàng Lược",
+      "Hạ Long"
+    ],
+    "ht": [
+      "Hoài Thanh",
+      "Hà Trung",
+      "Hà Trì",
+      "Hàn Thuyên",
+      "Hàng Than",
+      "Hàng Thiếc",
+      "Hàng Thùng",
+      "Hàng Tiện",
+      "Hàng Tre",
+      "Hàng Trống",
+      "Hòe Thị",
+      "Hạc Thành",
+      "Hồng Tiến"
+    ],
+    "hc": [
+      "Hoàng Cầu",
+      "Hàng Chai",
+      "Hàng Chiếu",
+      "Hàng Cân",
+      "Hàng Cót"
+    ],
+    "hd": [
+      "Hoàng Diệu",
+      "Huy Du",
+      "Hàng Da",
+      "Hàng Điếu",
+      "Hàng Đào",
+      "Hàng Đường",
+      "Hàng Đậu",
+      "Hàng Đồng"
+    ],
+    "hht": [
+      "Hoàng Hoa Thám",
+      "Hà Huy Tập",
+      "Hồ Hán Thương"
+    ],
+    "hs": [
+      "Hoàng Sa",
+      "Hoàng Sâm",
+      "Hồ Sen"
+    ],
+    "hvt": [
+      "Hoàng Văn Thái",
+      "Hoàng Văn Thụ"
+    ],
+    "hk": [
+      "Huyền Kỳ",
+      "Hàng Khay",
+      "Hàng Khoai"
+    ],
+    "hn": [
+      "Hà Nội",
+      "Hàm Nghi",
+      "Hàng Ngang",
+      "Hàng Nón",
+      "Hào Nam",
+      "Hồ Nghinh"
+    ],
+    "hg": [
+      "Hàng Gai",
+      "Hàng Giấy",
+      "Hàng Gà",
+      "Hậu Giang"
+    ],
+    "hh": [
+      "Hàng Hòm",
+      "Hải Hồ",
+      "Hồng Hà",
+      "Hữu Hòa",
+      "Hữu Hưng"
+    ],
+    "hm": [
+      "Hàng Mành",
+      "Hàng Mã",
+      "Hàng Mắm",
+      "Hạ Mỗ"
+    ],
+    "hp": [
+      "Hàng Phèn",
+      "Hưng Phú",
+      "Hải Phòng",
+      "Học Phi"
+    ],
+    "hv": [
+      "Hàng Vôi",
+      "Hàng Vải",
+      "Hùng Vương",
+      "Hồng Vân"
+    ],
+    "kl": [
+      "Khuyến Lương",
+      "Kim Long"
+    ],
+    "kh": [
+      "Khánh Hội",
+      "Khúc Hạo",
+      "Khương Hạ",
+      "Kim Hoa"
+    ],
+    "kt": [
+      "Khâm Thiên",
+      "Khương Thượng",
+      "Khương Trung",
+      "Khổng Tử"
+    ],
+    "kd": [
+      "Khương Đình",
+      "Kim Đồng",
+      "Kỳ Đồng"
+    ],
+    "kc": [
+      "Kim Chung",
+      "Ký Con"
+    ],
+    "km": [
+      "Kim Mã",
+      "Kiều Mai"
+    ],
+    "ls": [
+      "Lam Sơn",
+      "Lê Sao",
+      "Lò Sũ"
+    ],
+    "ll": [
+      "Linh Lang",
+      "Lê Liễu",
+      "Lê Lâm",
+      "Lê Lợi"
+    ],
+    "ld": [
+      "Linh Đàm",
+      "Lê Duẩn",
+      "Lê Đồng",
+      "Lò Đúc"
+    ],
+    "lh": [
+      "Láng Hạ",
+      "Lâm Hạ",
+      "Lạc Hồng"
+    ],
+    "lct": [
+      "Lê Cảnh Tuân",
+      "Lý Chính Thắng"
+    ],
+    "lhp": [
+      "Lê Hồng Phong",
+      "Lưu Hữu Phước"
+    ],
+    "ln": [
+      "Lê Nin",
+      "Lê Niệm",
+      "Lý Nhơn",
+      "Lĩnh Nam"
+    ],
+    "lqd": [
+      "Lê Quang Đạo",
+      "Lê Quý Đôn"
+    ],
+    "lt": [
+      "Lê Thiệt",
+      "Lê Trực",
+      "Lạc Trung",
+      "Lạch Tray"
+    ],
+    "ltt": [
+      "Lê Thái Tổ",
+      "Lê Thánh Tôn",
+      "Lê Thánh Tông",
+      "Lê Trọng Tấn",
+      "Lê Tấn Trung",
+      "Lý Thái Tổ",
+      "Lý Thánh Tông",
+      "Lý Tự Trọng"
+    ],
+    "lth": [
+      "Lê Thúc Hoạch",
+      "Lê Thị Hà"
+    ],
+    "lvl": [
+      "Lê Văn Lương",
+      "Lý Văn Lâm"
+    ],
+    "ldt": [
+      "Lê Đức Thọ",
+      "Lý Đạo Thành"
+    ],
+    "ml": [
+      "Mai Lâm",
+      "Mã Lò",
+      "Mê Linh",
+      "Mỗ Lao"
+    ],
+    "mtl": [
+      "Mai Thúc Loan",
+      "Mai Thúc Lân"
+    ],
+    "md": [
+      "Mai Động",
+      "Miếu Đầm",
+      "Mỹ Đình"
+    ],
+    "mt": [
+      "Man Thiện",
+      "Mậu Thân",
+      "Mễ Trì"
+    ],
+    "mtt": [
+      "Mạc Thái Tông",
+      "Mạc Thái Tổ"
+    ],
+    "nc": [
+      "Nam Cao",
+      "Nguyễn Chánh",
+      "Nhà Chung"
+    ],
+    "nh": [
+      "Nam Hồng",
+      "Nguyên Hồng",
+      "Nguyễn Hoàng",
+      "Nguyễn Huệ",
+      "Ngũ Hiệp",
+      "Ngọc Hà",
+      "Ngọc Hồi",
+      "Nhà Hỏa",
+      "Nhân Hòa"
+    ],
+    "nt": [
+      "Nam Trân",
+      "Nghĩa Tân",
+      "Nguyễn Thông",
+      "Nguyễn Trãi",
+      "Nguyễn Tuân",
+      "Nha Trang",
+      "Nhà Thờ",
+      "Núi Trúc"
+    ],
+    "nk": [
+      "Nguyên Khê",
+      "Nguyễn Khang",
+      "Nguyễn Khuyến",
+      "Ngọc Khánh"
+    ],
+    "nx": [
+      "Nguyên Xá",
+      "Nguyễn Xiển"
+    ],
+    "nb": [
+      "Nguyễn Biểu",
+      "Nguyễn Bình",
+      "Ngự Bình"
+    ],
+    "nbk": [
+      "Nguyễn Bá Khoản",
+      "Nguyễn Bỉnh Khiêm"
+    ],
+    "nct": [
+      "Nguyễn Chí Thanh",
+      "Nguyễn Công Trứ",
+      "Nguyễn Cơ Thạch"
+    ],
+    "nd": [
+      "Nguyễn Du",
+      "Nguyễn Đệ",
+      "Nhuận Đức"
+    ],
+    "ndh": [
+      "Nguyễn Duy Hiệu",
+      "Nguyễn Đình Hoàn"
+    ],
+    "ndt": [
+      "Nguyễn Duy Trinh",
+      "Nguyễn Đình Thi"
+    ],
+    "ngt": [
+      "Nguyễn Gia Thiều",
+      "Nguyễn Gia Trí",
+      "Ngô Gia Tự"
+    ],
+    "nht": [
+      "Nguyễn Hoàng Tôn",
+      "Nguyễn Huy Tưởng",
+      "Nguyễn Hữu Thọ"
+    ],
+    "nl": [
+      "Nguyễn Lam",
+      "Ngọc Lâm",
+      "Nhật Lệ"
+    ],
+    "ns": [
+      "Nguyễn Siêu",
+      "Nguyễn Sơn",
+      "Ninh Sở"
+    ],
+    "ntt": [
+      "Nguyễn Thiện Thuật",
+      "Nguyễn Thị Thập",
+      "Nguyễn Thị Tú",
+      "Nguyễn Trung Trực",
+      "Nguyễn Trường Tộ",
+      "Nguyễn Trọng Tuyển",
+      "Nguyễn Tất Thành"
+    ],
+    "ntd": [
+      "Nguyễn Thị Diệu",
+      "Nguyễn Thị Định"
+    ],
+    "ntn": [
+      "Nguyễn Tư Nghiêm",
+      "Ngô Thì Nhậm",
+      "Ngô Thời Nhiệm"
+    ],
+    "nvh": [
+      "Nguyễn Việt Hồng",
+      "Nguyễn Văn Huyên",
+      "Nguyễn Văn Hưởng"
+    ],
+    "nvl": [
+      "Nguyễn Văn Linh",
+      "Nguyễn Văn Lượng",
+      "Nguyễn Văn Lộc"
+    ],
+    "nvt": [
+      "Nguyễn Văn Thoại",
+      "Nguyễn Văn Trỗi",
+      "Nguyễn Văn Tăng",
+      "Nguyễn Văn Tạo"
+    ],
+    "ndc": [
+      "Nguyễn Đình Chiểu",
+      "Nguyễn Đức Cảnh"
+    ],
+    "pv": [
+      "Phai Vệ",
+      "Phú Viên"
+    ],
+    "pct": [
+      "Phan Chu Trinh",
+      "Phan Châu Trinh"
+    ],
+    "ptt": [
+      "Phan Trọng Tuệ",
+      "Phạm Tuấn Tài"
+    ],
+    "pt": [
+      "Phan Tôn",
+      "Phú Thuận",
+      "Phố Tía"
+    ],
+    "pvh": [
+      "Phan Văn Hớn",
+      "Phạm Văn Hai"
+    ],
+    "pvt": [
+      "Phan Văn Trường",
+      "Phan Văn Trị",
+      "Phạm Văn Thuận"
+    ],
+    "pvd": [
+      "Phan Văn Đáng",
+      "Phan Văn Đối",
+      "Phạm Văn Đồng"
+    ],
+    "pdl": [
+      "Phan Đăng Lưu",
+      "Pháo Đài Láng"
+    ],
+    "ph": [
+      "Phùng Hưng",
+      "Phạm Hùng",
+      "Phố Huế"
+    ],
+    "pl": [
+      "Phú Lợi",
+      "Phúc La"
+    ],
+    "pvc": [
+      "Phạm Văn Chiêu",
+      "Phạm Văn Cội"
+    ],
+    "qh": [
+      "Quan Hoa",
+      "Quốc Hương"
+    ],
+    "qd": [
+      "Quang Dũng",
+      "Quách Điêu",
+      "Quất Động"
+    ],
+    "qt": [
+      "Quang Trung",
+      "Quán Thánh"
+    ],
+    "ql1": [
+      "Quốc lộ 1",
+      "Quốc lộ 10",
+      "Quốc lộ 12",
+      "Quốc lộ 12A",
+      "Quốc lộ 12B",
+      "Quốc lộ 12C",
+      "Quốc lộ 14",
+      "Quốc lộ 14B",
+      "Quốc lộ 14C",
+      "Quốc lộ 14D",
+      "Quốc lộ 14E",
+      "Quốc lộ 15",
+      "Quốc lộ 15B",
+      "Quốc lộ 15C",
+      "Quốc lộ 15D",
+      "Quốc lộ 16",
+      "Quốc lộ 17",
+      "Quốc lộ 18",
+      "Quốc lộ 18B",
+      "Quốc lộ 18C",
+      "Quốc lộ 19",
+      "Quốc lộ 19B",
+      "Quốc lộ 19C",
+      "Quốc lộ 1B",
+      "Quốc lộ 1C",
+      "Quốc lộ 1D"
+    ],
+    "ql2": [
+      "Quốc lộ 2",
+      "Quốc lộ 20",
+      "Quốc lộ 21",
+      "Quốc lộ 21B",
+      "Quốc lộ 21C",
+      "Quốc lộ 22",
+      "Quốc lộ 22B",
+      "Quốc lộ 23",
+      "Quốc lộ 24",
+      "Quốc lộ 24B",
+      "Quốc lộ 25",
+      "Quốc lộ 26",
+      "Quốc lộ 26B",
+      "Quốc lộ 27",
+      "Quốc lộ 27B",
+      "Quốc lộ 27C",
+      "Quốc lộ 28",
+      "Quốc lộ 28B",
+      "Quốc lộ 29",
+      "Quốc lộ 2B",
+      "Quốc lộ 2C"
+    ],
+    "ql3": [
+      "Quốc lộ 3",
+      "Quốc lộ 30",
+      "Quốc lộ 31",
+      "Quốc lộ 32",
+      "Quốc lộ 32B",
+      "Quốc lộ 32C",
+      "Quốc lộ 34",
+      "Quốc lộ 37",
+      "Quốc lộ 37B",
+      "Quốc lộ 38",
+      "Quốc lộ 38B",
+      "Quốc lộ 39",
+      "Quốc lộ 3B",
+      "Quốc lộ 3C"
+    ],
+    "ql4": [
+      "Quốc lộ 4",
+      "Quốc lộ 40",
+      "Quốc lộ 40B",
+      "Quốc lộ 43",
+      "Quốc lộ 45",
+      "Quốc lộ 46",
+      "Quốc lộ 47",
+      "Quốc lộ 48",
+      "Quốc lộ 48E",
+      "Quốc lộ 49",
+      "Quốc lộ 49B",
+      "Quốc lộ 4A",
+      "Quốc lộ 4B",
+      "Quốc lộ 4C",
+      "Quốc lộ 4D",
+      "Quốc lộ 4E",
+      "Quốc lộ 4H"
+    ],
+    "ql5": [
+      "Quốc lộ 5",
+      "Quốc lộ 50",
+      "Quốc lộ 51",
+      "Quốc lộ 52",
+      "Quốc lộ 53",
+      "Quốc lộ 54",
+      "Quốc lộ 55",
+      "Quốc lộ 56",
+      "Quốc lộ 57"
+    ],
+    "ql6": [
+      "Quốc lộ 6",
+      "Quốc lộ 60",
+      "Quốc lộ 61",
+      "Quốc lộ 61B",
+      "Quốc lộ 62",
+      "Quốc lộ 63",
+      "Quốc lộ 6B"
+    ],
+    "ql7": [
+      "Quốc lộ 7",
+      "Quốc lộ 70",
+      "Quốc lộ 70B",
+      "Quốc lộ 7B"
+    ],
+    "ql8": [
+      "Quốc lộ 8",
+      "Quốc lộ 80",
+      "Quốc lộ 8B",
+      "Quốc lộ 8C"
+    ],
+    "ql9": [
+      "Quốc lộ 9",
+      "Quốc lộ 91",
+      "Quốc lộ 91B",
+      "Quốc lộ 91C",
+      "Quốc lộ 9B",
+      "Quốc lộ 9C",
+      "Quốc lộ 9D"
+    ],
+    "sd": [
+      "Sài Đồng",
+      "Sơn Đồng"
+    ],
+    "sk": [
+      "Sùng Khang",
+      "Sơn Kỳ"
+    ],
+    "st": [
+      "Sơn Thông",
+      "Sơn Tây",
+      "Sở Thượng"
+    ],
+    "th": [
+      "Tam Hiệp",
+      "Thái Hà",
+      "Trung Hòa",
+      "Tân Hương",
+      "Tân Hội",
+      "Tây Hòa",
+      "Tô Hiệu",
+      "Tạ Hiện",
+      "Tố Hữu"
+    ],
+    "tt": [
+      "Tam Thanh",
+      "Tam Trinh",
+      "Thành Thái",
+      "Thái Thịnh",
+      "Tràng Thi",
+      "Tràng Tiền",
+      "Trường Thi",
+      "Tuệ Tĩnh",
+      "Tân Triều",
+      "Tân Trào",
+      "Tây Thạnh",
+      "Tây Trà",
+      "Tây Tựu",
+      "Tố Tịch"
+    ],
+    "tl": [
+      "Thanh Lãm",
+      "Thúy Lĩnh",
+      "Thăng Long",
+      "Thạch Lam",
+      "Thắng Lợi",
+      "Thế Lữ",
+      "Thịnh Lang",
+      "Thịnh Liệt",
+      "Thụy Lâm",
+      "Tiểu La",
+      "Trung Lập",
+      "Tân Lập",
+      "Tên Lửa",
+      "Tựu Liệt"
+    ],
+    "tn": [
+      "Thanh Nhàn",
+      "Thanh Niên",
+      "Thái Nguyên",
+      "Thống Nhất",
+      "Thợ Nhuộm",
+      "Trần Não"
+    ],
+    "td": [
+      "Thanh Đàm",
+      "Thảo Điền",
+      "Tiên Dung",
+      "Tiên Dương",
+      "Trương Định",
+      "Tôn Đản",
+      "Tông Đản",
+      "Tư Đình",
+      "Tản Đà"
+    ],
+    "ts": [
+      "Thi Sách",
+      "Trường Sa",
+      "Trường Sơn",
+      "Tây Sơn"
+    ],
+    "tnh": [
+      "Thoại Ngọc Hầu",
+      "Trần Nguyên Hãn"
+    ],
+    "tk": [
+      "Thuận Kiều",
+      "Thụy Khuê",
+      "Triều Khúc",
+      "Trung Kiên",
+      "Trung Kính",
+      "Trịnh Kiểm",
+      "Tô Ký"
+    ],
+    "tb": [
+      "Thuốc Bắc",
+      "Thạch Bàn",
+      "Trần Bình",
+      "Tân Bình"
+    ],
+    "tc": [
+      "Thành Công",
+      "Thị Cấm",
+      "Trường Chinh",
+      "Trần Cung"
+    ],
+    "tp": [
+      "Thái Phiên",
+      "Thụy Phương",
+      "Tiền Phong",
+      "Trần Phú"
+    ],
+    "tm": [
+      "Thép Mới",
+      "Tân Mai",
+      "Tây Mỗ"
+    ],
+    "tqd": [
+      "Thích Quảng Đức",
+      "Triệu Quốc Đạt",
+      "Trần Quang Diệu"
+    ],
+    "tv": [
+      "Thùy Vân",
+      "Trung Văn",
+      "Trấn Vũ",
+      "Trần Vỹ",
+      "Tầm Vu"
+    ],
+    "tnv": [
+      "Triệu Nữ Vương",
+      "Trưng Nữ Vương",
+      "Tô Ngọc Vân"
+    ],
+    "tvb": [
+      "Trương Văn Bang",
+      "Trịnh Văn Bô"
+    ],
+    "thd": [
+      "Trần Hưng Đạo",
+      "Trần Hữu Dực",
+      "Trịnh Hoài Đức"
+    ],
+    "tqk": [
+      "Trần Quang Khải",
+      "Trần Quý Kiên"
+    ],
+    "tqt": [
+      "Trần Quốc Thảo",
+      "Trần Quốc Toản"
+    ],
+    "ttt": [
+      "Trần Thái Tông",
+      "Tôn Thất Thiệp",
+      "Tôn Thất Tùng"
+    ],
+    "ttd": [
+      "Trần Thủ Độ",
+      "Tôn Thất Đàm",
+      "Tôn Thất Đạm"
+    ],
+    "tdt": [
+      "Trần Đình Tri",
+      "Trịnh Đình Thảo",
+      "Tôn Dật Tiên",
+      "Tôn Đức Thắng"
+    ],
+    "tdn": [
+      "Trần Đăng Ninh",
+      "Trần Đại Nghĩa"
+    ],
+    "tx": [
+      "Tân Xuân",
+      "Tú Xương",
+      "Tắc Xuất"
+    ],
+    "vh": [
+      "Việt Hưng",
+      "Văn Hội",
+      "Vĩnh Hưng",
+      "Vạn Hạnh"
+    ],
+    "vt": [
+      "Vân Trì",
+      "Vân Tảo",
+      "Vĩnh Tuy",
+      "Vũ Tùng"
+    ],
+    "vd": [
+      "Vân Đồn",
+      "Vạn Điểm",
+      "Vọng Đức"
+    ],
+    "vl": [
+      "Văn La",
+      "Vườn Lài"
+    ],
+    "vq": [
+      "Vĩnh Quỳnh",
+      "Vũ Quỳnh"
+    ],
+    "vtp": [
+      "Vũ Trọng Phụng",
+      "Vũ Tông Phan"
+    ],
+    "xd": [
+      "Xuân Diệu",
+      "Xã Đàn"
+    ],
+    "yn": [
+      "Yên Ninh",
+      "Yên Nội"
+    ],
+    "dct": [
+      "Đinh Công Tráng",
+      "Định Công Thượng"
+    ],
+    "dl": [
+      "Đinh Liệt",
+      "Đinh Lễ",
+      "Đường Láng",
+      "Đại La",
+      "Độc Lập"
+    ],
+    "ddt": [
+      "Đinh Đức Thiện",
+      "Đào Duy Từ",
+      "Đô Đốc Thủ",
+      "Đỗ Đình Thiện"
+    ],
+    "db": [
+      "Điện Biên",
+      "Đông Ba",
+      "Đỗ Bá"
+    ],
+    "dtd": [
+      "Đoàn Thị Điểm",
+      "Đặng Tiến Đông"
+    ],
+    "dvb": [
+      "Đoàn Văn Bơ",
+      "Đặng Văn Bi"
+    ],
+    "dg": [
+      "Đà Giang",
+      "Đức Giang"
+    ],
+    "dn": [
+      "Đà Nẵng",
+      "Đông Ngạc",
+      "Đốc Ngữ",
+      "Đỗ Nhuận"
+    ],
+    "ddl": [
+      "Đào Đình Luyện",
+      "Đô Đốc Long",
+      "Đô Đốc Lộc"
+    ],
+    "dd": [
+      "Đông Du",
+      "Đản Dị",
+      "Đặng Dung",
+      "Đống Đa"
+    ],
+    "dm": [
+      "Đông Mỹ",
+      "Đại Mỗ",
+      "Đồng Mai",
+      "Đồng Me"
+    ],
+    "dx": [
+      "Đại Xuyên",
+      "Đồng Xuân",
+      "Đỗ Xá"
+    ]
+  }
+}

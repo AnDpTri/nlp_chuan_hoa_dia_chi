@@ -6,6 +6,6 @@
   "province_count": 34,
   "ward_count": 3321,
   "city_count": 6,
-  "type_overrides": 3,
+  "type_overrides": 0,
   "policy": "Read-only target view; clean input files unchanged."
 }

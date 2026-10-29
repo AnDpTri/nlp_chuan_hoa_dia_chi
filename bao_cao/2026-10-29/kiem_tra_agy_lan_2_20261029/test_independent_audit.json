@@ -1,0 +1,19 @@
+{
+  "rows": 400,
+  "statuses": {
+    "da_duyet_ai": 292,
+    "can_duyet": 108
+  },
+  "classifications": {
+    "du_can_cu_tham_chieu": 263,
+    "chua_du_can_cu": 108,
+    "nhan_can_sua": 29
+  },
+  "immutable_source_columns_changed": [],
+  "split_count": 33,
+  "split_filled": 0,
+  "web_count": 37,
+  "web_with_http200_text": 12,
+  "web_with_http404_text": 25,
+  "timestamp_distinct": 1
+}

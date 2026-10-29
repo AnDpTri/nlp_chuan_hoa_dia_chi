@@ -1,0 +1,12 @@
+{
+  "checks.json": "02d77705f258cf330a77da9a3ee337c48e6c37bbcc514c93d2586878141b47dc",
+  "check_1.log": "069ae26ed69fb52ae0530638a0d02af559ed0911b18fc76373250d55acb7c030",
+  "check_2.log": "0fb1e1f54d6e85727282135f10d00d1526383390d48157fe38f9cb6af9c52243",
+  "check_3.log": "11041411fea77122538da4e0e13a252fbd77ef2e0fdb96c8edd52712d6401181",
+  "check_4.log": "1c48c1214a1058bb712a7d4a840712c897d000cd87434dbaa0743e78b94ff979",
+  "check_5.log": "db50ba1f0cc45aaf22a7c563f73d4afd627f969bc94df286906ce474fff624d8",
+  "families_overlap.csv": "2984cd15bcee83dba1f738aa95c6374127766d4cb48e30e1c3f45d7d1d7d3347",
+  "hoi_thoai_ket_qua.json": "5979623ea34b66235b54b17f9cec71b63c76f3394ae28ad8f24a7c3d573fac99",
+  "independent_audit.json": "72298eeb584b741bfcdd0a4fc5d54323ffddb675c566f9d2a1c8cfbf1e6cfb89",
+  "provenance_mismatch.csv": "3a26d13a8c5a0ec8ded4a900255e8a5bb4d5ad0958e2b134d88ab8d89e8a1ac4"
+}

@@ -1,0 +1,486 @@
+{
+  "dev_goc": {
+    "cnn_ranker": {
+      "counts": {
+        "rows_with_name_suggestions": 424,
+        "suggestions_contain_reference_road": 417,
+        "reference_road_nonempty": 1031,
+        "name_suggestions_ambiguous": 0,
+        "name_suggestions_accent_conflict": 1,
+        "wrong_six_fields": 243,
+        "wrong_but_only_road_and_suggestion_matches": 48,
+        "lost_only_road_with_correct_suggestion": 48
+      },
+      "examples": {
+        "only_road_with_correct_suggestion": [
+          {
+            "id": "VNDEV_00405",
+            "input": "72 duong Doi Can, Xa Nga Lien, Huyen Nga Son, Thanh Hoa",
+            "reference": {
+              "so_nha": "Số 72",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Đội Cấn",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "before": {
+              "so_nha": "Số 72",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Đội Cấn",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "after": {
+              "so_nha": "Số 72",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Doi Can",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Đội Cấn",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "38",
+                "train_ids": [
+                  "VNTRAIN_01809",
+                  "VNTRAIN_01810",
+                  "VNTRAIN_01812",
+                  "VNTRAIN_01813",
+                  "VNTRAIN_01814",
+                  "VNTRAIN_01816",
+                  "VNTRAIN_02073",
+                  "VNTRAIN_02074",
+                  "VNTRAIN_02076",
+                  "VNTRAIN_02077",
+                  "VNTRAIN_02078"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          },
+          {
+            "id": "VNDEV_00437",
+            "input": "99 duong Hoang Van Thu, Xa Tung Chung Pho, Huyen Muong Khuong, Lao Cai",
+            "reference": {
+              "so_nha": "Số 99",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoàng Văn Thụ",
+              "ma_xa": "02761",
+              "ma_tinh": "15"
+            },
+            "before": {
+              "so_nha": "Số 99",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoàng Văn Thụ",
+              "ma_xa": "02761",
+              "ma_tinh": "15"
+            },
+            "after": {
+              "so_nha": "Số 99",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoang Van Thu",
+              "ma_xa": "02761",
+              "ma_tinh": "15"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Hoàng Văn Thụ",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "15",
+                "train_ids": [
+                  "VNTRAIN_04017",
+                  "VNTRAIN_04018",
+                  "VNTRAIN_04020",
+                  "VNTRAIN_04021",
+                  "VNTRAIN_04022",
+                  "VNTRAIN_04024"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "videberta_tay": {
+      "counts": {
+        "rows_with_name_suggestions": 421,
+        "suggestions_contain_reference_road": 416,
+        "reference_road_nonempty": 1031,
+        "name_suggestions_ambiguous": 0,
+        "name_suggestions_accent_conflict": 1,
+        "wrong_six_fields": 258,
+        "wrong_but_only_road_and_suggestion_matches": 48,
+        "lost_only_road_with_correct_suggestion": 48
+      },
+      "examples": {
+        "only_road_with_correct_suggestion": [
+          {
+            "id": "VNDEV_00405",
+            "input": "72 duong Doi Can, Xa Nga Lien, Huyen Nga Son, Thanh Hoa",
+            "reference": {
+              "so_nha": "Số 72",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Đội Cấn",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "before": {
+              "so_nha": "Số 72",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Đội Cấn",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "after": {
+              "so_nha": "Số 72",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Doi Can",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Đội Cấn",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "38",
+                "train_ids": [
+                  "VNTRAIN_01809",
+                  "VNTRAIN_01810",
+                  "VNTRAIN_01812",
+                  "VNTRAIN_01813",
+                  "VNTRAIN_01814",
+                  "VNTRAIN_01816",
+                  "VNTRAIN_02073",
+                  "VNTRAIN_02074",
+                  "VNTRAIN_02076",
+                  "VNTRAIN_02077",
+                  "VNTRAIN_02078"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          },
+          {
+            "id": "VNDEV_00437",
+            "input": "99 duong Hoang Van Thu, Xa Tung Chung Pho, Huyen Muong Khuong, Lao Cai",
+            "reference": {
+              "so_nha": "Số 99",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoàng Văn Thụ",
+              "ma_xa": "02761",
+              "ma_tinh": "15"
+            },
+            "before": {
+              "so_nha": "Số 99",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoàng Văn Thụ",
+              "ma_xa": "02761",
+              "ma_tinh": "15"
+            },
+            "after": {
+              "so_nha": "Số 99",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Hoang Van Thu",
+              "ma_xa": "02761",
+              "ma_tinh": "15"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Hoàng Văn Thụ",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "15",
+                "train_ids": [
+                  "VNTRAIN_04017",
+                  "VNTRAIN_04018",
+                  "VNTRAIN_04020",
+                  "VNTRAIN_04021",
+                  "VNTRAIN_04022",
+                  "VNTRAIN_04024"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "dev_kho": {
+    "cnn_ranker": {
+      "counts": {
+        "rows_with_name_suggestions": 96,
+        "suggestions_contain_reference_road": 78,
+        "reference_road_nonempty": 434,
+        "name_suggestions_ambiguous": 12,
+        "name_suggestions_accent_conflict": 1,
+        "wrong_six_fields": 147,
+        "wrong_but_only_road_and_suggestion_matches": 15,
+        "lost_only_road_with_correct_suggestion": 15,
+        "lost_changed_admin_or_other_detail": 1
+      },
+      "examples": {
+        "only_road_with_correct_suggestion": [
+          {
+            "id": "VNDEV_KHO_00001",
+            "input": "so 30 d. le loi, phuong xuan khanh, quan ninh kieu, thanh pho can tho",
+            "reference": {
+              "so_nha": "Số 30",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lê Lợi",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "before": {
+              "so_nha": "Số 30",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lê Lợi",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "after": {
+              "so_nha": "Số 30",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Le Loi",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Lê Lợi",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "92",
+                "train_ids": [
+                  "VNTRAIN_BS_00001",
+                  "VNTRAIN_01972",
+                  "VNTRAIN_BS_00791",
+                  "VNTRAIN_01973",
+                  "VNTRAIN_BS_00792"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          },
+          {
+            "id": "VNDEV_KHO_00105",
+            "input": "so 885B d. nguyen hue, xa nga lien, huyen nga son, tinh thanh hoa",
+            "reference": {
+              "so_nha": "Số 885B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Huệ",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "before": {
+              "so_nha": "Số 885B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Huệ",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "after": {
+              "so_nha": "Số 885B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyen Hue",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Nguyễn Huệ",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "38",
+                "train_ids": [
+                  "VNTRAIN_02042",
+                  "VNTRAIN_BS_00841",
+                  "VNTRAIN_02043",
+                  "VNTRAIN_BS_00897",
+                  "VNTRAIN_02757",
+                  "VNTRAIN_BS_01376",
+                  "VNTRAIN_02758",
+                  "VNTRAIN_BS_01377",
+                  "VNTRAIN_02760",
+                  "VNTRAIN_BS_01379"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          }
+        ],
+        "changed_admin_or_other_detail": [
+          {
+            "id": "VNDEV_KHO_00188",
+            "input": "Số 554, Đường Nguyễn Thị Minh Khai, Huyện Thạch An, Tỉnh Cao Bằng",
+            "reference": {
+              "so_nha": "Số 554",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Thị Minh Khai",
+              "ma_xa": "",
+              "ma_tinh": "04"
+            },
+            "before": {
+              "so_nha": "Số 554",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Thị Minh Khai",
+              "ma_xa": "",
+              "ma_tinh": "04"
+            },
+            "after": {
+              "so_nha": "Số 554",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Thị",
+              "ma_xa": "01795",
+              "ma_tinh": "04"
+            },
+            "suggestions": []
+          }
+        ]
+      }
+    },
+    "videberta_tay": {
+      "counts": {
+        "rows_with_name_suggestions": 96,
+        "suggestions_contain_reference_road": 78,
+        "reference_road_nonempty": 434,
+        "name_suggestions_ambiguous": 12,
+        "name_suggestions_accent_conflict": 1,
+        "wrong_six_fields": 143,
+        "wrong_but_only_road_and_suggestion_matches": 15,
+        "lost_only_road_with_correct_suggestion": 15
+      },
+      "examples": {
+        "only_road_with_correct_suggestion": [
+          {
+            "id": "VNDEV_KHO_00001",
+            "input": "so 30 d. le loi, phuong xuan khanh, quan ninh kieu, thanh pho can tho",
+            "reference": {
+              "so_nha": "Số 30",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lê Lợi",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "before": {
+              "so_nha": "Số 30",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Lê Lợi",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "after": {
+              "so_nha": "Số 30",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Le Loi",
+              "ma_xa": "31135",
+              "ma_tinh": "92"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Lê Lợi",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "92",
+                "train_ids": [
+                  "VNTRAIN_BS_00001",
+                  "VNTRAIN_01972",
+                  "VNTRAIN_BS_00791",
+                  "VNTRAIN_01973",
+                  "VNTRAIN_BS_00792"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          },
+          {
+            "id": "VNDEV_KHO_00105",
+            "input": "so 885B d. nguyen hue, xa nga lien, huyen nga son, tinh thanh hoa",
+            "reference": {
+              "so_nha": "Số 885B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Huệ",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "before": {
+              "so_nha": "Số 885B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyễn Huệ",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "after": {
+              "so_nha": "Số 885B",
+              "ngo_ngach_hem": "",
+              "thon_xom": "",
+              "duong": "Đường Nguyen Hue",
+              "ma_xa": "16138",
+              "ma_tinh": "38"
+            },
+            "suggestions": [
+              {
+                "gia_tri": "Đường Nguyễn Huệ",
+                "tuong_thich_dau": true,
+                "nguon": "tu_dien_train_chua_xac_minh",
+                "ma_tinh": "38",
+                "train_ids": [
+                  "VNTRAIN_02042",
+                  "VNTRAIN_BS_00841",
+                  "VNTRAIN_02043",
+                  "VNTRAIN_BS_00897",
+                  "VNTRAIN_02757",
+                  "VNTRAIN_BS_01376",
+                  "VNTRAIN_02758",
+                  "VNTRAIN_BS_01377",
+                  "VNTRAIN_02760",
+                  "VNTRAIN_BS_01379"
+                ],
+                "tu_dien_sha256": "7252d2f49df94fecbfe69f32d028472a33d012fc96305195b5f222077549ddd8",
+                "xac_minh_doc_lap": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Install torch CPU first: pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+numpy==2.5.4
+lightgbm==4.7.0
+python-crfsuite==0.9.12

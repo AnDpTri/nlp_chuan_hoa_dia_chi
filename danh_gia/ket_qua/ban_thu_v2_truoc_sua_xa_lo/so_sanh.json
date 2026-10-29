@@ -1,0 +1,75 @@
+{
+  "truoc": 60.299,
+  "sau": 73.856,
+  "so_mau": 1136,
+  "chuyen_trang_thai": {
+    "van_lech": 297,
+    "giu_khop": 685,
+    "moi_khop": 154
+  },
+  "tung_truong": {
+    "so_nha": {
+      "v1_pct": 95.423,
+      "v2_pct": 95.423,
+      "khong_doi": 1136
+    },
+    "ngo_ngach_hem": {
+      "v1_pct": 96.479,
+      "v2_pct": 99.384,
+      "khong_doi": 1101,
+      "moi_khop": 34,
+      "mat_khop": 1
+    },
+    "thon_xom": {
+      "v1_pct": 98.944,
+      "v2_pct": 99.472,
+      "khong_doi": 1130,
+      "moi_khop": 6
+    },
+    "duong": {
+      "v1_pct": 68.398,
+      "v2_pct": 81.602,
+      "khong_doi": 986,
+      "moi_khop": 150
+    },
+    "ma_xa": {
+      "v1_pct": 90.845,
+      "v2_pct": 93.222,
+      "khong_doi": 1107,
+      "mat_khop": 1,
+      "moi_khop": 28
+    },
+    "ma_tinh": {
+      "v1_pct": 96.743,
+      "v2_pct": 98.944,
+      "khong_doi": 1109,
+      "moi_khop": 26,
+      "mat_khop": 1
+    },
+    "xa_phuong": {
+      "v1_pct": 90.581,
+      "v2_pct": 92.694,
+      "khong_doi": 1110,
+      "mat_khop": 1,
+      "moi_khop": 25
+    },
+    "tinh": {
+      "v1_pct": 96.743,
+      "v2_pct": 98.944,
+      "khong_doi": 1109,
+      "moi_khop": 26,
+      "mat_khop": 1
+    },
+    "dia_chi_chuan": {
+      "v1_pct": 60.211,
+      "v2_pct": 73.415,
+      "khong_doi": 986,
+      "moi_khop": 150
+    }
+  },
+  "du_lieu_va_code_doi_chieu_hash": true,
+  "kiem_tra": {
+    "pipeline": 29,
+    "danh_gia": 4
+  }
+}

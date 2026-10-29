@@ -1,0 +1,30 @@
+
+test_ambiguous_acronym_fixture_policy (test_train_bo_sung_v1.TestTrainBoSungV1.test_ambiguous_acronym_fixture_policy)
+12. Kiểm thử hồi quy chính sách viết tắt: Bắt lỗi nếu viết tắt đa nghĩa bị gán chắc chắn. ... ok
+test_ambiguous_acronyms_policy (test_train_bo_sung_v1.TestTrainBoSungV1.test_ambiguous_acronyms_policy)
+7. Kiểm tra xử lý viết tắt đa nghĩa (không ép gán duy nhất khi thiếu ngữ cảnh). ... ok
+test_family_isolation_and_fixture_leakage (test_train_bo_sung_v1.TestTrainBoSungV1.test_family_isolation_and_fixture_leakage)
+10. Kiểm tra cô lập họ mẫu (che span so_nha) và kiểm thử hồi quy bằng fixture rò rỉ họ mẫu. ... ok
+test_files_existence_and_counts (test_train_bo_sung_v1.TestTrainBoSungV1.test_files_existence_and_counts)
+1. Kiểm tra sự tồn tại của file và số lượng mẫu đạt chỉ tiêu. ... ok
+test_hierarchy_integrity_and_mixed_era (test_train_bo_sung_v1.TestTrainBoSungV1.test_hierarchy_integrity_and_mixed_era)
+3. Kiểm tra tính toàn vẹn quan hệ cha-con hành chính và tính tương thích ca trộn mốc. ... ok
+test_leakage_and_group_isolation (test_train_bo_sung_v1.TestTrainBoSungV1.test_leakage_and_group_isolation)
+6. Kiểm tra 0% rò rỉ dữ liệu giữa Train-Test, Dev-Test, Train-Dev và cô lập nhóm gốc 100%. ... ok
+test_original_dataset_immutability (test_train_bo_sung_v1.TestTrainBoSungV1.test_original_dataset_immutability)
+9. Kiểm tra tính bất biến của bộ dữ liệu gốc train.csv và dev.csv. ... ok
+test_provenance_integrity_and_fixture_mismatch (test_train_bo_sung_v1.TestTrainBoSungV1.test_provenance_integrity_and_fixture_mismatch)
+11. Kiểm tra tính toàn vẹn provenance và kiểm thử hồi quy bằng fixture sai lệch mã xã nguồn. ... ok
+test_schema_and_zero_padded_codes (test_train_bo_sung_v1.TestTrainBoSungV1.test_schema_and_zero_padded_codes)
+2. Kiểm tra schema 23 cột và định dạng zero-padded của mã hành chính. ... ok
+test_special_contexts_presence (test_train_bo_sung_v1.TestTrainBoSungV1.test_special_contexts_presence)
+8. Kiểm tra bao phủ các nhóm kiểm tra ngữ cảnh chuyên sâu. ... ok
+test_split_ward_policy (test_train_bo_sung_v1.TestTrainBoSungV1.test_split_ward_policy)
+4. Kiểm tra chính sách xã bị chia: Bắt buộc cờ xa_bi_chia, để trống ma_xa, lưu ứng viên. ... ok
+test_token_spans_and_bio_alignment (test_train_bo_sung_v1.TestTrainBoSungV1.test_token_spans_and_bio_alignment)
+5. Kiểm tra tính chuẩn xác của offset ký tự token, span và quy tắc BIO tags. ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.589s
+
+OK

@@ -89,7 +89,7 @@ Nhằm phục vụ tối ưu cho thuật toán tách từ và chuẩn hóa NLP:
 | `cu_tinh_huyen_xa.csv` | 10.033 | 7 | Danh mục 10.033 xã/phường/thị trấn cũ trước sáp nhập | `ma_xa` |
 | `doi_chieu_xa_cu_moi.csv` | 10.569 | 11 | Bảng đối chiếu chuyển đổi cũ sang mới | Cặp `(ma_xa_cu, ma_xa_moi)` |
 | `thay_doi_2026.csv` | 25 | 6 | Các biến động ĐVHC phát sinh trong năm 2026 | `ma` |
-| `sua_doi.csv` | 22 | 7 | Nhật ký đối soát ghi nhận các dòng sửa đổi cụ thể | - |
+| `sua_doi.csv` | 25 | 7 | Nhật ký đối soát ghi nhận các dòng sửa đổi cụ thể | - |
 | `issues.csv` | 2 | 7 | Danh sách các trường hợp ngoại lệ hợp lệ | - |
 | `can_xem_lai.csv` | 0 | 11 | Danh sách bản ghi cần xem lại (đã xử lý xong toàn bộ) | - |
 
@@ -97,7 +97,7 @@ Nhằm phục vụ tối ưu cho thuật toán tách từ và chuẩn hóa NLP:
 
 ## 5. CHI TIẾT CÁC SỬA ĐỔI, LÝ DO VÀ BẰNG CHỨNG ĐỐI SOÁT
 
-Toàn bộ 22 sửa đổi cụ thể được ghi nhận chi tiết tại `data\clean\sua_doi.csv`. Dưới đây là các nhóm vấn đề trọng yếu đã được xác minh và xử lý triệt để:
+Toàn bộ 25 sửa đổi cụ thể được ghi nhận chi tiết tại `data\clean\sua_doi.csv`. Dưới đây là các nhóm vấn đề trọng yếu đã được xác minh và xử lý triệt để:
 
 ### 5.1. Xử lý mã huyện trùng lặp 794 (Tân An) và 900 (Hà Tiên) trong `legacy-districts.json`
 - **Hiện tượng nguồn:** `legacy-districts.json` có 698 bản ghi nhưng chỉ có 696 mã duy nhất:
@@ -176,6 +176,24 @@ Toàn bộ 22 sửa đổi cụ thể được ghi nhận chi tiết tại `data
   - **Kết luận (Trường hợp b):** Dòng đối chiếu `02485 (Xã Phú Thịnh) -> 02494 (Xã Thái Bình)` là dòng thừa do người lập bảng `conversion-table.xlsx` gán nhầm mã `02485` của Xã Công Đa cho Xã Phú Thịnh. Thực chất Xã Công Đa nhập toàn bộ vào Xã Trung Sơn (02458), không nhập vào Xã Thái Bình. Xã Phú Thịnh không nằm trong danh mục 10.033 xã cũ mốc trước sáp nhập 2025 (`cu_tinh_huyen_xa.csv`).
   - **Xử lý:** Xóa dòng thừa Phú Thịnh sang Thái Bình; cập nhật dòng `02485 (Xã Công Đa) -> 02458 (Xã Trung Sơn)` từ `bi_chia` về đúng `Nhập toàn bộ`.
 
+### 5.7. Hiệu chỉnh loại hình cấp tỉnh về đúng mốc 01/07/2025 (Quảng Ninh 22, Bắc Ninh 24, Đồng Nai 75)
+- **Hiện tượng và nguyên nhân:**
+  Trong file nguồn cộng đồng `current-provinces.json`, tác giả repo `vietnam-address-kit` đã cập nhật trước các Nghị quyết năm 2026 của Quốc hội khóa XVI nâng cấp 3 tỉnh Quảng Ninh, Bắc Ninh, Đồng Nai lên thành phố trực thuộc Trung ương, gán trường `"type": "city"`. Logic trước đây của script khi sinh `moi_tinh.csv` căn cứ vào `type == 'city'` nên gán nhầm loại hình 3 tỉnh này thành `Thành phố`, gây lệch mốc mục tiêu **01/07/2025** và mâu thuẫn với `moi_tinh_xa.csv` (ghi `Tỉnh`) và `doi_chieu_xa_cu_moi.csv` (ghi `Tỉnh`).
+- **Căn cứ xác minh mốc 01/07/2025:**
+  1. **Quyết định số 19/2025/QĐ-TTg ngày 30/06/2025** của Thủ tướng Chính phủ: Tại thời điểm 01/07/2025, toàn quốc sắp xếp còn 34 tỉnh/thành, trong đó chỉ có đúng **6 Thành phố trực thuộc Trung ương** (Hà Nội, Hải Phòng, Huế, Đà Nẵng, TP.HCM, Cần Thơ); 28 đơn vị còn lại là **Tỉnh** (bao gồm Quảng Ninh mã `22`, Bắc Ninh mã `24`, Đồng Nai mã `75`).
+  2. **Bảng chuyển đổi quốc gia gốc:** `data/raw/goc/conversion-table.xlsx`, sheet `Tổng hợp_không merge `, cột A:
+     - Ô A2537: `Tỉnh Quảng Ninh (22)`
+     - Ô A2722: `Tỉnh Bắc Ninh (24)`
+     - Ô A8114: `Tỉnh Đồng Nai (75)`
+  3. **Tệp dữ liệu gốc:** `data/raw/moi_tinh_xa.csv` ghi rõ `loai_tinh: Tỉnh` cho cả 3 mã này.
+  4. Các Nghị quyết nâng cấp 3 tỉnh lên Thành phố trực thuộc TW (`30/2026/QH16`, `36/2026/QH16`, `39/2026/QH16`) có hiệu lực trong năm 2026 và đã được tách riêng vào `thay_doi_2026.csv`.
+- **Biện pháp xử lý và kiểm soát tự động:**
+  - Sửa logic sinh `moi_tinh.csv` trong `clean_and_validate.py`: Khóa cứng danh sách 6 thành phố trực thuộc Trung ương tại mốc 01/07/2025 (`01`, `31`, `46`, `48`, `79`, `92`); toàn bộ 28 đơn vị còn lại nhận `loai_tinh = 'Tỉnh'`.
+  - Ghi nhận 3 bản ghi sửa đổi vào `sua_doi.csv` (nâng tổng số lên 25 bản ghi).
+  - Bổ sung 2 kiểm tra tự động nghiêm ngặt trong `validate_all()`:
+    + `moiTinhConsistency`: Kiểm tra 100% khớp `loai_tinh` và `ten_tinh` giữa `moi_tinh.csv` và `moi_tinh_xa.csv`.
+    + `asOf2025CentralCities`: Kiểm tra đúng 6 Thành phố trực thuộc TW; nếu có bất kỳ tỉnh nào khác (đặc biệt 22, 24, 75) mang loại `Thành phố` thì validation lập tức nhận kết quả FAIL.
+
 ---
 
 ## 6. BẢO TOÀN DỮ LIỆU & THỐNG KÊ XÃ ĐA ĐÍCH (FAN-OUT > 1)
@@ -240,7 +258,7 @@ Trích xuất kết quả tự động từ tệp `data\clean\validation.json`:
     "cu_tinh_huyen_xa_count": 10033,
     "doi_chieu_count": 10569,
     "thay_doi_2026_count": 25,
-    "sua_doi_count": 22
+    "sua_doi_count": 25
   },
   "primaryKeyDuplicates": {
     "moi_tinh": { "duplicate_count": 0, "duplicate_keys": [] },
@@ -334,6 +352,12 @@ Trích xuất kết quả tự động từ tệp `data\clean\validation.json`:
 3. **Kiểm tra khớp tên xã trong `doi_chieu_xa_cu_moi.csv` (`doiChieuNameConsistency`):**
    - Tiêu chí: Tên xã cũ và xã mới trong bảng đối chiếu (sau khi bóc tách tiền tố loại hình `Xã`, `Phường`, `Thị trấn`, `Đặc khu`) phải khớp đúng tuyệt đối với tên trong danh mục xã cũ (`cu_tinh_huyen_xa.csv`) và danh mục xã mới (`moi_tinh_xa.csv`) theo mã.
    - Kết quả: **0 sai lệch ngoài kiểm soát** (`unexplained_mismatch_count = 0`). Toàn bộ mâu thuẫn mã/tên đã được giải quyết triệt để (`can_xem_lai_documented_count = 0`). Khớp chính xác 100% tên đơn vị hành chính giữa các danh mục.
+4. **Kiểm tra nhất quán tỉnh giữa `moi_tinh.csv` và `moi_tinh_xa.csv` (`moiTinhConsistency`):**
+   - Tiêu chí: Mọi `ma_tinh` phải khớp 100% cả về `loai_tinh` và `ten_tinh` giữa bảng tỉnh mới và bảng xã mới.
+   - Kết quả: **0 sai lệch** (`discrepancy_count = 0`).
+5. **Kiểm tra chuẩn hóa mốc hiệu lực 01/07/2025 (`asOf2025CentralCities`):**
+   - Tiêu chí: Đúng 6 Thành phố trực thuộc Trung ương (`01`, `31`, `46`, `48`, `79`, `92`); toàn bộ 28 đơn vị cấp tỉnh còn lại phải có `loai_tinh == 'Tỉnh'`. Không được lẫn bất kỳ mốc nâng cấp nào của năm 2026 vào danh mục chính.
+   - Kết quả: **PASS**, đủ 6 thành phố, 0 tỉnh sai loại hình (`discrepancy_count = 0`).
 
 ---
 

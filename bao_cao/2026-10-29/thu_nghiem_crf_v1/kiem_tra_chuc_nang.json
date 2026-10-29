@@ -1,0 +1,62 @@
+{
+  "scope": "720 hoán vị của một fixture có tiền tố và dấu phẩy. Không phải 720 địa chỉ độc lập, không dùng train, không xác minh tồn tại đường thực địa.",
+  "count": 720,
+  "correct": {
+    "luat_v3": 720,
+    "crf_train_goc": 720,
+    "crf_ket_hop": 720
+  },
+  "stress_examples": [
+    {
+      "input": "Hà Nội, Quận Ba Đình, Phường Trúc Bạch, Lê Lợi, 12, Ngõ 5",
+      "outputs": {
+        "luat_v3": {
+          "address": "Số 12, Ngõ 5, Phường Ba Đình, Thành phố Hà Nội",
+          "unknown": "Lê Lợi"
+        },
+        "crf_train_goc": {
+          "address": "Ngõ 5, Phường Ba Đình, Thành phố Hà Nội",
+          "unknown": "Lê Lợi 12"
+        },
+        "crf_ket_hop": {
+          "address": "Ngõ 5, Phường Ba Đình, Thành phố Hà Nội",
+          "unknown": "Lê Lợi 12"
+        }
+      }
+    },
+    {
+      "input": "Hà Nội Quận Ba Đình Phường Trúc Bạch Lê Lợi 12 Ngõ 5",
+      "outputs": {
+        "luat_v3": {
+          "address": "Ngõ 5, Phường Ba Đình, Thành phố Hà Nội",
+          "unknown": "Lê Lợi 12"
+        },
+        "crf_train_goc": {
+          "address": "Đường Lê Lợi 12 Ngõ 5, Phường Ba Đình, Thành phố Hà Nội",
+          "unknown": ""
+        },
+        "crf_ket_hop": {
+          "address": "Ngõ 5, Phường Ba Đình, Thành phố Hà Nội",
+          "unknown": "Lê Lợi 12"
+        }
+      }
+    },
+    {
+      "input": "12 ng5 TTT, P.DV, Q.CG, HN",
+      "outputs": {
+        "luat_v3": {
+          "address": "Số 12, Ngõ 5, Thành phố Hà Nội",
+          "unknown": "TTT P DV Q CG"
+        },
+        "crf_train_goc": {
+          "address": "Số 12, Ngõ 5, Thành phố Hà Nội",
+          "unknown": "TTT P DV Q CG"
+        },
+        "crf_ket_hop": {
+          "address": "Số 12ng5TTT, Thành phố Hà Nội",
+          "unknown": "P DV Q CG"
+        }
+      }
+    }
+  ]
+}

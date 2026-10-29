@@ -1,0 +1,16 @@
+Sửa riêng nhãn gói train v2 tại D:\nlp_chuan_hoa_dia_chi. Audit độc lập ở danh_gia/ket_qua/audit_agy_duong_train_v2_01/KIEM_TRA_DOC_LAP.json có mục train và examples; chỉ đọc phần train. Không đọc nội dung dev/test trong repo_snapshot.
+
+LỖI ĐÃ XÁC NHẬN
+3.000 mẫu/650 family_id, offsets char/token cơ bản hợp lệ, nhưng có654 nhãn ngo_ngach_hem khác rỗng với span null (433 canonical_usable=true),79 nhãn thon_xom với span null (66 canonical_usable=true). Đây là số từng trường có thể chồng dòng, không cộng thành số mẫu. VNTRAIN_V2_00021 input 'Số27, Duong Han Thuyen, Phường Thủ Đức, Thành phố Hồ Chí Minh' nhưng nhãn Khu phố3 và canonical usable true. Input không có thông tin khu phố. VNTRAIN_V2_00001 chỉ số528/đường Ngô Gia Tự nhưng giữ Ngõ528 từ cha. Validator hiện vẫn PASS.
+
+VIỆC CẦN LÀM
+1. Kiểm toàn bộ nhãn đầu ra với input biến thể thực tế, không chỉ bảo toàn nhãn cha. Biến đổi đã bỏ ngõ/thôn/cấp hành chính thì cập nhật nhãn tương ứng theo hợp đồng missing/unknown và ghi trường bị bỏ; không tự giữ thông tin vắng mặt. Nếu không đủ căn cứ, đánh dấu mục đích sử dụng phù hợp. Không đoán để lấp.
+2. Giữ nguồn cha trong provenance riêng, không sửa nhãn cha hoặc dựng lại input chỉ để một tuyên bố kế thừa sai trở nên đúng. Rà cả bốn trường chi tiết và nhãn/mốc hành chính. Giữ những ca mơ hồ đúng, không ép tên/mã đơn nhất.
+3. Sửa builder/validator đồng bộ: nonempty output phải có căn cứ đúng vai trò trong input, hoặc chuỗi suy luận hợp lệ được khai minh bạch. Không dùng Số528 làm căn cứ Ngõ528, không lấy tên quận/đường làm xã. Có fixture âm khác ID/giá trị cho trường bị bỏ, sai vai trò, nguồn cha có trường nhưng input con không có; có ca viết tắt/typo đúng và Unicode NFD.
+4. Không chỉ hạ toàn bộ usable=false để qua kiểm tra. Sửa nhãn hợp đồng đúng, giữ flags độc lập cho char/token/canonical. Những ca đúng đã có giữ nguyên byte nếu không cần thay. Giữ ID và nguồn; xuất before/after theo ID và lý do. Không sinh lại toàn corpus hoặc tăng số mẫu trong lượt sửa này.
+5. Bản lọc độc lập ở data/train_dev/duyet_v2_01 đang được dùng chuẩn bị thí nghiệm: KHÔNG SỬA/ghi đè. File can_sua.jsonl có cả dòng duplicate hoặc giữ riêng theo họ; duplicate với train cũ không đồng nghĩa nhãn sai và không cần đổi nội dung để tạo độc nhất. Không được nhét họ ranker vào CNN để tăng số lượng.
+
+PHẠM VI
+Chỉ data/train_dev/bo_sung_v2/, data/train_dev/scripts/bo_sung_v2/, docs/DU_LIEU_TRAIN_BO_SUNG_V2.md. Tests riêng đặt trong gói. Không sửa bo_sung_v1/train/dev gốc, data/duong/, data/test/, raw/clean, src/, danh_gia/, mo_hinh/, colab/, môi trường, README gốc hoặc audit độc lập. Không commit/push, không mở agent/task khác, không agy CLI. Không dùng model/luật làm đáp án, không train lại.
+
+Bàn giao manifest/hash trước/sau, danh sách ID sửa từng trường và cờ sử dụng, kiểm tra nhãn->input theo vai trò, validator/tests/fixture thực. Báo phần còn chưa chắc; không gọi toàn gói là gold hoặc xác minh ngữ nghĩa100% chỉ vì PASS.

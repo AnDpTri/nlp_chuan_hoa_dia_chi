@@ -1,0 +1,34 @@
+{
+  "zip": "D:\\nlp_chuan_hoa_dia_chi\\colab\\dist\\nlp_dia_chi_colab_v1.zip",
+  "sha256": "e346d0b800a315c78fbdf9c705dd2a80144dbeeae5b2427793f54f40d840bd1f",
+  "bytes": 2804617,
+  "zip_extracted_cleanly": true,
+  "notebook_code_cells_compile": 9,
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "colab.verify_bundle",
+        "--root",
+        "C:\\Users\\andan\\Documents\\Codex\\2026-10-29\\d-nlp-chuan-hoa-dia-chi\\work\\colab_unpack_v1_final\\nlp_dia_chi_colab"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "tests.test_videberta_colab",
+        "tests.test_char",
+        "tests.test_pipeline",
+        "tests.test_pipeline_v3",
+        "tests.test_crf",
+        "tests.test_danh_gia"
+      ],
+      "returncode": 0
+    }
+  ],
+  "full_pretrained_training_run": false,
+  "local_gpu_training_run": false,
+  "tiny_backbone_smoke_tests_only": true
+}

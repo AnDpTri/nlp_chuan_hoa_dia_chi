@@ -1,0 +1,787 @@
+{"id": "VNTRAIN_00013", "split": "train_goc", "reason": "noi_dung_sau_tien_to_hanh_chinh:duong", "input": "326, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ"}
+{"id": "VNTRAIN_00043", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "460, Đường 30/4, P. Hưng Lợi, Q. Ninh Kiều, Tp. Cần Thơ"}
+{"id": "VNTRAIN_00044", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "237, Đường 30/4, Q. Ninh Kiều, Tp. Cần Thơ"}
+{"id": "VNTRAIN_00045", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Hẻm 124, Đường 3/2, Q. Ninh Kiều, Tp. Cần Thơ"}
+{"id": "VNTRAIN_00057", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "688 Lạc Long Quân, Tổ 13 cụm 2 phường Nhật Tân, quận Tây Hồ, HN"}
+{"id": "VNTRAIN_00067", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 528 ngõ 528 Ngô Gia Tự, phường Đức Giang, quận Long Biên, Hà Nội"}
+{"id": "VNTRAIN_00076", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 79 ngõ 34 phố Vĩnh Tuy, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00082", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 17A Hàn Thuyên, Tổ 2, Phường Phạm Đình Hổ, Quận Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00089", "split": "train_goc", "reason": "Span chồng lấn", "input": "79 ngõ 1194 Đường Láng, phường Láng Thượng, quận Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00094", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "(Căn 1a+2+3 Nhà D, tập thể công ty bánh kẹo Hải Hà), số 164 Trương Định, phường Trương Định, quận Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00102", "split": "train_goc", "reason": "Span chồng lấn", "input": "Số 38 ngõ 76 Mai Dịch, phường Mai Dịch, quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00103", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:so_nha", "input": "44C (Số Mới 70) Lê Lợi - Phường 4 - Quận Gò Vấp - Tp. Hồ Chí Minh"}
+{"id": "VNTRAIN_00104", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "121B, Quan Hoa, Quan Hoa, Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00112", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 152 Yên Hòa, Phường Yên Hòa, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00113", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 409 Bạch Mai, phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00119", "split": "train_goc", "reason": "noi_dung_sau_tien_to_hanh_chinh:duong", "input": "T06SO05A, tầng 1, tòa nhà T06, Tổ hợp trung tâm thương mại, giáo dục và căn hộ Times City, 458 Minh Khai, Phường Vĩnh Tuy, Quận Hai Bà Trưng, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00120", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 9 Thịnh Liệt, phường Thịnh Liệt, quận Hoàng Mai, Hà Nội"}
+{"id": "VNTRAIN_00122", "split": "train_goc", "reason": "Span chồng lấn", "input": "03 Đường số 4, Khu phố 6, Phường Trường Thọ, Quận Thủ Đức, Tp. Hồ Chí Minh"}
+{"id": "VNTRAIN_00126", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 133 Phố Thụy Khuê, phường Thụy Khuê, Quận Tây Hồ, Hà Nội"}
+{"id": "VNTRAIN_00138", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 210 Bis phố Đội Cấn, phường Đội Cấn, quận Ba Đình, Hà Nội"}
+{"id": "VNTRAIN_00141", "split": "train_goc", "reason": "Span chồng lấn", "input": "Số 29 ngõ 126 Xuân Đỉnh, phường Xuân Đỉnh, quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00142", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 33 Lương Khánh Thiện, tổ 62 phường Tương Mai, quận Hoàng Mai, Hà Nội"}
+{"id": "VNTRAIN_00144", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 19A tổ 39 Nguyễn Chánh, phường Trung Hòa, quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00152", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:so_nha", "input": "139A (số nhà mới 161) Lê Văn Thọ, Phường 8 ( Phường 11 cũ), Quận Gò Vấp, TP. Hồ Chí Minh"}
+{"id": "VNTRAIN_00180", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "141 Xa lộ Hà Nội, Thảo Điền, Quận 2, Hồ Chí Minh, Việt Nam"}
+{"id": "VNTRAIN_00194", "split": "train_goc", "reason": "Span chồng lấn", "input": "9 Đường số 3, Cụm công nghiệp An Hòa, Hương An, Huế"}
+{"id": "VNTRAIN_00196", "split": "train_goc", "reason": "noi_dung_sau_tien_to_hanh_chinh:duong", "input": "Thôn Parnghi 1, Xã A Lưới 2, Thành phố Huế, Việt Nam"}
+{"id": "VNTRAIN_00202", "split": "train_goc", "reason": "Span chồng lấn", "input": "Tổ Dân Phố Thạch Căn, Phường Dương Nỗ, TP Huế"}
+{"id": "VNTRAIN_00204", "split": "train_goc", "reason": "Span chồng lấn", "input": "Tổ dân phố Bồ Điền, P. Phong An, TX. Phong Điền, TP. Huế"}
+{"id": "VNTRAIN_00222", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "2, Phố Ngô Quyền, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_00224", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "92A, Phố Nghĩa Tân, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00233", "split": "train_goc", "reason": "Span chồng lấn", "input": "2, Ngách 4/4, Phường Bắc Giang, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00235", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "21, Phố Trung Liệt, Trung Liệt, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00236", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "42, Phố Tràng Tiền, Tràng Tiền, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_00258", "split": "train_goc", "reason": "Span chồng lấn", "input": "Hẻm 43R Hồ Văn Huê"}
+{"id": "VNTRAIN_00262", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "15, Đường Hoàng Văn Thụ, Phường 15, Phú Nhuận, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00271", "split": "train_goc", "reason": "Span chồng lấn", "input": "20, Ngõ 113 Phố Văn Hội, Đức Thắng, Bắc Từ Liêm, Phường Đức Thắng, Hà Nội"}
+{"id": "VNTRAIN_00292", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "9A, Phố Thái Phiên, Phố Huế, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00299", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Thôn, Phú Mỹ, Ia Tôr, Gia Lai"}
+{"id": "VNTRAIN_00311", "split": "train_goc", "reason": "Span chồng lấn", "input": "21, Ngõ 3 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00316", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "106, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh"}
+{"id": "VNTRAIN_00319", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 67 Phùng Khoang, Quận Nam Từ Liêm, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00321", "split": "train_goc", "reason": "Span chồng lấn", "input": "114, Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00333", "split": "train_goc", "reason": "Span chồng lấn", "input": "10A, Ngõ 458 Nguyễn văn Linh, Vĩnh Niệm, Lê Chân, Hải Phòng"}
+{"id": "VNTRAIN_00335", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Xã Đồn Xá, Bình Lục, Hà Nam, Vietnam"}
+{"id": "VNTRAIN_00336", "split": "train_goc", "reason": "Span chồng lấn", "input": "167, Đường số 1, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00337", "split": "train_goc", "reason": "Span chồng lấn", "input": "48, thôn Phú Hưng, xã Hàm Mỹ, huyện Hàm Thuận Nam, Bình Thuận"}
+{"id": "VNTRAIN_00340", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "9, Phố Thái Phiên, Phố Huế, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00348", "split": "train_goc", "reason": "Span chồng lấn", "input": "13, Hẻm 32 Đường Nguyễn Cửu Vân, Phường 17, Bình Thạnh, Ho Chi Minh City"}
+{"id": "VNTRAIN_00351", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Thị Trấn Tân Hiệp, Châu Thành, Tiền Giang"}
+{"id": "VNTRAIN_00353", "split": "train_goc", "reason": "Span chồng lấn", "input": "Hẻm 335 Điện Biên Phủ"}
+{"id": "VNTRAIN_00354", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "TDP Long Châu, Đường Long Châu, Chương Mỹ, Hà Nội"}
+{"id": "VNTRAIN_00358", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "2, Đường Tây Mỗ, Tây Mỗ, Nam Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00363", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "40, Nguyễn Khuyến, Tân An, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00367", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "71, Phố Trung Hoà, Trung Hòa, Cầu Giấy, Hà Nội, TP Hà Nội"}
+{"id": "VNTRAIN_00374", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "9Q2J+XJX, QL30, Mỹ Long, Cao Lãnh, Đồng Tháp."}
+{"id": "VNTRAIN_00381", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "ĐT 850, Mỹ Long, Cao Lãnh, Đồng Tháp."}
+{"id": "VNTRAIN_00391", "split": "train_goc", "reason": "Span chồng lấn", "input": "353/30/16 Bùi Thiện Ngộ, Phường Rạch Dừa, Thành Phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00393", "split": "train_goc", "reason": "Span chồng lấn", "input": "12, Ngõ 2 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00394", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 124 Minh Khai, Minh Khai, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00402", "split": "train_goc", "reason": "Span chồng lấn", "input": "95/29, Hẻm 95 Gò Dầu, Tân Qúy, Quận Tân Phú, Hồ Chí Minh"}
+{"id": "VNTRAIN_00406", "split": "train_goc", "reason": "Span chồng lấn", "input": "95, Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00411", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "001, đường Phan Kế Bính, Phường Cam Đường, Thành phố Lào Cai, Tỉnh Lào Cai"}
+{"id": "VNTRAIN_00415", "split": "train_goc", "reason": "Span chồng lấn", "input": "14, Ngõ 26 Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00442", "split": "train_goc", "reason": "Span chồng lấn", "input": "705/2, Hẻm 705 Nguyễn Thị Định, Cát Lái, Thủ Đức, Phường Cát Lái, Hồ Chí Minh"}
+{"id": "VNTRAIN_00449", "split": "train_goc", "reason": "Span chồng lấn", "input": "19, Ngõ 234 Hoàng Quốc Việt, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00451", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:thon_xom", "input": "Đường Cát Quế,Thôn 4, Xã Bảo Lâm 4, Lâm Đồng"}
+{"id": "VNTRAIN_00454", "split": "train_goc", "reason": "Span chồng lấn", "input": "2, Đường số 13, 8, Gò Vấp, Hồ Chí Minh"}
+{"id": "VNTRAIN_00456", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "141-143, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00464", "split": "train_goc", "reason": "Span chồng lấn", "input": "47 ngách 8, Ngõ Hòa Bình 3"}
+{"id": "VNTRAIN_00467", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "360 Nguyễn Thông, Phú Hài, Phan Thiết, Bình Thuận, Mũi Né, Mũi Né, khu phố 1, Phan Thiết, Bình Thuận"}
+{"id": "VNTRAIN_00468", "split": "train_goc", "reason": "Span chồng lấn", "input": "3, Đường số 4, Xã Tân Nhựt, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00469", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "74, Phố Nam Đồng, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00472", "split": "train_goc", "reason": "Span chồng lấn", "input": "23, Ngõ 214 Nguyễn Xiển, Quận Thanh Xuân, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00489", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "34, Nguyễn Khuyến, Tân An, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00490", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "113/5, Trường An, Hương lộ 24, Thanh Bình, Trảng Bom, Biên Hòa, Đồng Nai"}
+{"id": "VNTRAIN_00495", "split": "train_goc", "reason": "Span chồng lấn", "input": "dẹ 1, Văn Miếu, phú thọ"}
+{"id": "VNTRAIN_00502", "split": "train_goc", "reason": "Span chồng lấn", "input": "888, đường xóm giữa, Minh Hòa, Hưng Hà, Thái Bình"}
+{"id": "VNTRAIN_00504", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 20 Phố Nguyễn Nhân Bỉ, Phường Thị Cầu, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00513", "split": "train_goc", "reason": "Span chồng lấn", "input": "140, Đường số 10, Bình Hưng Hoà, Bình Tân, Thành Phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00517", "split": "train_goc", "reason": "Span chồng lấn", "input": "46, Ngõ 61 Phạm Tuấn Tài, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00521", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "1, Phố Thái Phiên, Phố Huế, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00523", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Phố Phú Đô, Nam Từ Liêm, Phường Phú Đô, Hà Nội"}
+{"id": "VNTRAIN_00539", "split": "train_goc", "reason": "Span chồng lấn", "input": "5, Ngõ 9 Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00542", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Bai Bac, Son Tra peninsula, Đà Nẵng"}
+{"id": "VNTRAIN_00551", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "8, Đường Trường Thi, Phường Trường Thi, Thành phố Vinh, Nghệ An"}
+{"id": "VNTRAIN_00556", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "1, Ngõ 6 Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00559", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Ngõ 54, Ngõ 54 Bùi Xương Trạch, Khương Đình, Thanh Xuân, Hà Nội"}
+{"id": "VNTRAIN_00564", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ấp Hữu Nhơn, Nguyễn Văn Cánh, Hữu Định, Châu Thành, Bến Tre"}
+{"id": "VNTRAIN_00565", "split": "train_goc", "reason": "Span chồng lấn", "input": "362/20, Hẻm 25 Thạnh Lộc 19, Phường An Phú Đông, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00567", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "236, Đường Thụy Khuê, Thụy Khuê, Tây Hồ, Hà Nội"}
+{"id": "VNTRAIN_00570", "split": "train_goc", "reason": "Span chồng lấn", "input": "16, Ngõ 1 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00571", "split": "train_goc", "reason": "Span chồng lấn", "input": "xóm 3, cầu Mỹ Cang, Phước Sơn, Tuy Phước, Bình Định"}
+{"id": "VNTRAIN_00573", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "1, Ngõ 61 Phạm Tuấn Tài, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00578", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "20, Đường Thảo Điền, Thao Dien, 2, Ho Chi Minh City"}
+{"id": "VNTRAIN_00581", "split": "train_goc", "reason": "Span chồng lấn", "input": "Hẻm 635 đường 30/4,, ,, P. Hưng Lợi, Q. Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00605", "split": "train_goc", "reason": "Span chồng lấn", "input": "10, Ngõ 12 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00624", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "17, Hẻm 17 Lương Minh Nguyệt, Phường Tân Thới Hòa, Quận Tân Phú, Ho Chi Minh City"}
+{"id": "VNTRAIN_00625", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "371B Nguyễn Đình Chiểu, Phường Hàm Tiến, Thành phố Phan Thiết, Bình Thuận"}
+{"id": "VNTRAIN_00628", "split": "train_goc", "reason": "Span chồng lấn", "input": "35, Ngõ 3 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00652", "split": "train_goc", "reason": "Span chồng lấn", "input": "111, Đường số 1, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00676", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "60, Đường Cổ Bi, Cổ Bi, Gia Lâm, Hà Nội"}
+{"id": "VNTRAIN_00679", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Ban Pho 2A Village, Ban Pho Commune, Bac Ha District, Lao Cai Province, Bắc Hà, , Viêt Nam -"}
+{"id": "VNTRAIN_00681", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "8, Phố Tràng Tiền, Tràng Tiền, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_00684", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "ĐT. 835D, xã Long Cang, Tây Ninh"}
+{"id": "VNTRAIN_00686", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "165/10c, Hẻm 165/10c, Phú Thọ Hòa, Tân Phú, Hồ Chí Minh"}
+{"id": "VNTRAIN_00701", "split": "train_goc", "reason": "Span chồng lấn", "input": "23, Đường số 2, Phường Hiệp Bình Chánh, Thủ Đức, Ho Chi Minh City"}
+{"id": "VNTRAIN_00705", "split": "train_goc", "reason": "Span chồng lấn", "input": "81, Đường Số 6, Phường 10, Cityland Park Hills, Quận Gò Vấp, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00723", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Làng Vàng, Xóm 4A, Nghĩa Mai, Nguiax Đang, Nghệ An"}
+{"id": "VNTRAIN_00727", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Group 2, Van Lam, Ninh Hai, Hoa Lu,  Ninh Binh, Wietnam"}
+{"id": "VNTRAIN_00732", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Đường Tương Giang, Phường Tương Giang, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00733", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "140, Núi Ngọc, Cát Bà, Hải Phòng, Vietnam 187380"}
+{"id": "VNTRAIN_00737", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Hòa Bình, khu phố 2, Tp. Phan Thiết, Bình Thuận"}
+{"id": "VNTRAIN_00760", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "192/34/1, Phú Thọ Hoà, Phú Thọ Hòa, Tân Phú, Hồ Chí Minh"}
+{"id": "VNTRAIN_00781", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "90 Nguyễn Thị Minh Khai, Phước Hoà, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_00789", "split": "train_goc", "reason": "Span chồng lấn", "input": "111, Ngõ 231 Chùa Bộc, Trung Liệt, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00791", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 23 Phố Đỗ Quang, Trung Hòa, Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00799", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "34 Phạm Văn Đồng, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_00800", "split": "train_goc", "reason": "Span chồng lấn", "input": "T4-L1-07, Đường Số 5 Times City, quận Hai Bà Trưng, thành phố Hà Nội"}
+{"id": "VNTRAIN_00813", "split": "train_goc", "reason": "Span chồng lấn", "input": "Số Nhà 20, Ngõ 1 - Đường Lương Thực, Phủ Lỗ, Sóc Sơn, Hà Nội"}
+{"id": "VNTRAIN_00817", "split": "train_goc", "reason": "Span chồng lấn", "input": "221, Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00818", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Hang Mua, Ninh Xuân, Ninh Binh, Khe Ha Hoa Lu Dítrict"}
+{"id": "VNTRAIN_00824", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "30 Đ. Phạm Ngọc Thạch, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_00859", "split": "train_goc", "reason": "Span chồng lấn", "input": "114, Đường số 1A, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00861", "split": "train_goc", "reason": "Span chồng lấn", "input": "Nhà A2 TT Thảm May ngõ 155, Đặng Tiến Đông, Trung Liệt, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00863", "split": "train_goc", "reason": "Span chồng lấn", "input": "428/3, Hẻm 428 Chiến Lược, Bình Trị Đông A, Bình Tân, Hồ Chí Minh"}
+{"id": "VNTRAIN_00865", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 106 Hoàng Quốc Việt, Quận Bắc Từ Liêm, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00872", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Lô T2-1.3, Đường D1, Phường Tân Phú, Quận 9, Hồ Chí Minh"}
+{"id": "VNTRAIN_00876", "split": "train_goc", "reason": "Span chồng lấn", "input": "10, Ngõ 181 Quan Nhân, Thanh Xuân, Hà Nội"}
+{"id": "VNTRAIN_00893", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Floor 7, A21 Building, 18 Hoang Quoc Viet, Cầu Giấy, Hanoi"}
+{"id": "VNTRAIN_00899", "split": "train_goc", "reason": "Span chồng lấn", "input": "Đường số 5, Phong Phú, Bình Chánh, Hồ Chí Minh"}
+{"id": "VNTRAIN_00906", "split": "train_goc", "reason": "Span chồng lấn", "input": "Đường Số 1, Quận Bắc Từ Liêm, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00908", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "ĐT.838, Đông Thành, Đức Huệ, Long An"}
+{"id": "VNTRAIN_00912", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "194, Đường Trần Quang Khải, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_00914", "split": "train_goc", "reason": "Span chồng lấn", "input": "8, Kiệt 54 Hoàng Văn Thái, Phường Hòa Minh, Quận Liên Chiểu, Đà Nẵng"}
+{"id": "VNTRAIN_00935", "split": "train_goc", "reason": "Span chồng lấn", "input": "13, Hẻm 103 Hồ Thị Kỷ, Phường 1, Quận 10, Ho Chi Minh City"}
+{"id": "VNTRAIN_00937", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 8 Phố Bà La, Phường Từ Sơn, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00943", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "26, Phố Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00953", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "97, Phố Ngọc Lâm, Ngọc Lâm, Long Biên, Hà Nội"}
+{"id": "VNTRAIN_00971", "split": "train_goc", "reason": "Span chồng lấn", "input": "131, ngõ 8 cầu Bươu, Xã Tả Thanh Oai, huyện Thanh Trì, Hà Nội"}
+{"id": "VNTRAIN_00975", "split": "train_goc", "reason": "Span chồng lấn", "input": "10A, Ngõ 319 Đà Nẵng"}
+{"id": "VNTRAIN_00981", "split": "train_goc", "reason": "Span chồng lấn", "input": "Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00989", "split": "train_goc", "reason": "Span chồng lấn", "input": "28B, Khu Phố Phước Thới, Thị Trấn Đất Đỏ, Huyện Đất Đỏ, Bà Rịa - Vũng Tàu"}
+{"id": "VNTRAIN_00991", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 72 Dịch Vọng, Quận Cầu Giấy, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00993", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "18 Ng.1, Phố Văn Hội, Đức Thắng, Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00995", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "266, Đường Thụy Khuê, Thụy Khuê, Tây Hồ, Hà Nội"}
+{"id": "VNTRAIN_01002", "split": "train_goc", "reason": "Span chồng lấn", "input": "136, Đường số 1A, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01024", "split": "train_goc", "reason": "Span chồng lấn", "input": "113, Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01034", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "164-166 Pho Bac Cau, Ngoc Thuy, Long Bien, Hanoi"}
+{"id": "VNTRAIN_01037", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "50 Đ. Củ Chi, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_01047", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "6/20 Ngách 44, Ngõ 460 Khương Đình, hạ đình, Thanh Xuân, Hà Nội, hà nội"}
+{"id": "VNTRAIN_01048", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "21-22 Phạm Văn Đồng, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_01049", "split": "train_goc", "reason": "Span chồng lấn", "input": "12, Đường số 10, Phường Tân Kiểng, Quận 7, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01050", "split": "train_goc", "reason": "Span chồng lấn", "input": "264, Đường số 30, TP Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01051", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "67A, Đường Trương Định, Trương Định, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01052", "split": "train_goc", "reason": "Span chồng lấn", "input": "88, Đường Số 1, Phường 16, Gò Vấp, Hồ Chí Minh"}
+{"id": "VNTRAIN_01053", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "142,144,146,148, Nguyễn Thị Minh Khai, Phường Bắc Giang, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01057", "split": "train_goc", "reason": "Span chồng lấn", "input": "15, Ngõ 295 Phố Bạch Mai, Tràng Tiền, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_01072", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Hoàng Thành Villas, KDT Mỗ Lao, Quận Hà Đông, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01091", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "303, Lê Lợi, Ho Chi Minh City"}
+{"id": "VNTRAIN_01092", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "155, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01095", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "77, Đường Thành, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01109", "split": "train_goc", "reason": "Span chồng lấn", "input": "15, Hẻm 649 Điện Biên Phủ"}
+{"id": "VNTRAIN_01110", "split": "train_goc", "reason": "Span chồng lấn", "input": "3/2, Xuân Khánh, Ninh Kiều, Cần Thơ, VI"}
+{"id": "VNTRAIN_01112", "split": "train_goc", "reason": "Span chồng lấn", "input": "ngõ 268/56/7, phường Ngọc Thụy, quận Long Biên, Hà Nội"}
+{"id": "VNTRAIN_01114", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "7.22, khai sơn, Long Biên, Phường Ngọc Thụy, Hà Nội"}
+{"id": "VNTRAIN_01116", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 54 Đường Lê Quang Đạo, Quận Nam Từ Liêm, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01119", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "29, Đường Cổ Bi, Cổ Bi, Gia Lâm, Hà Nội"}
+{"id": "VNTRAIN_01128", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "44 30 THÁNG 4, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam"}
+{"id": "VNTRAIN_01132", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "274, Đường Bình Thới, Phường Bình Thới, 11, Ho Chi Minh City, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01138", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Phố Mai Công, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01148", "split": "train_goc", "reason": "Span chồng lấn", "input": "878, Tam Hiệp, Châu Thành, Tiền Giang"}
+{"id": "VNTRAIN_01149", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "4, Phố Lê Lai, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_01152", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "21, Phan Đình Phùng, Bắc Hà, đường Phan Đình Phùng, tp Hà Tĩnh"}
+{"id": "VNTRAIN_01157", "split": "train_goc", "reason": "Span chồng lấn", "input": "6, Ngõ 19 Đường Hai Bà Trưng, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01166", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Lô T2-1.2, Đường D1, Phường Tân Phú, Quận 9, Hồ Chí Minh"}
+{"id": "VNTRAIN_01168", "split": "train_goc", "reason": "Span chồng lấn", "input": "13, Đường số 1, An Lạc, Bình Tân, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01169", "split": "train_goc", "reason": "Span chồng lấn", "input": "3, Ngách 3/1 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01177", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "D2, Phố Giảng Võ, Giảng Võ, Quận Ba Đình, Hà Nội"}
+{"id": "VNTRAIN_01178", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Cổng trại giam dã chiến, 188, Hùng Vương, Phường 11, Đà Lạt, Lâm Đồng"}
+{"id": "VNTRAIN_01185", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 429 Đường Hoàng Tăng Bí, Đức Thắng, Bắc Từ Liêm, Phường Đức Thắng, Hà Nội"}
+{"id": "VNTRAIN_01187", "split": "train_goc", "reason": "Span chồng lấn", "input": "2, Ngõ 135 Đội Cấn, Phường Ba Đình, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01188", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "3, Trúc Lâm Yên Tử, Phường 3, Đà Lạt, Lâm Đồng"}
+{"id": "VNTRAIN_01196", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "145, Đường Cổ Nhuế, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01199", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "16, Nguyễn Khuyến, Tân An, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_01208", "split": "train_goc", "reason": "Span chồng lấn", "input": "157, Đường số 1, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01209", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Cầu Cân, thôn Thái, Nguyên Xá, Vũ Thuw"}
+{"id": "VNTRAIN_01218", "split": "train_goc", "reason": "Span chồng lấn", "input": "2, Ngách 8/11 Lê Quang Đạo, quận Nam Từ Liêm, thành phố Hà Nội"}
+{"id": "VNTRAIN_01219", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "55, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh"}
+{"id": "VNTRAIN_01232", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "15A, Phố Phương Mai, Phương Mai, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01237", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "54, Tập thể Chắn 5 Trần Phú, Quận Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01238", "split": "train_goc", "reason": "Span chồng lấn", "input": "Hẻm 729 Trần Phú, Phường B'Lao, Lâm Đồng"}
+{"id": "VNTRAIN_01240", "split": "train_goc", "reason": "Span chồng lấn", "input": "19D, Hẻm 51, phường An Khánh, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_01241", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "35, Van Mieu, Hà Nội, VN 10000"}
+{"id": "VNTRAIN_01243", "split": "train_goc", "reason": "Span chồng lấn", "input": "33A, Đường Số 10, Cát Lái, TP. Thủ Đức, Phường Cát Lái, Hồ Chí Minh"}
+{"id": "VNTRAIN_01248", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "1, Trần Khánh Dư, Phường Tân Định, Quận 1, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01259", "split": "train_goc", "reason": "Span chồng lấn", "input": "Đường Số 11, Quận Bắc Từ Liêm, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01263", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngách 195/36 Đường Vũ Ninh, Phường Vũ Ninh, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01273", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "1, Ngõ 238 Hoàng Quốc Việt, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01274", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Đường Số 5,KCN Giang Điền,Trảng Bơm,Đồng Nai"}
+{"id": "VNTRAIN_01277", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "ĐT.839, Đông Thành, Đức Huệ, Long An"}
+{"id": "VNTRAIN_01278", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "41A, Phố Lý Thái Tổ, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_01287", "split": "train_goc", "reason": "Span chồng lấn", "input": "Số 18, Ngõ 192 - Lê Trọng Tấn, Khương Mai, Thanh Xuân, Hà Nội"}
+{"id": "VNTRAIN_01302", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "382, đường 21A cụm 4, thôn 3, Thạch Hoà, Thạch Thất, Hà Nội"}
+{"id": "VNTRAIN_01303", "split": "train_goc", "reason": "Span chồng lấn", "input": "Đường số 14, 26, Bình Thạnh, Ho Chi Minh City"}
+{"id": "VNTRAIN_01305", "split": "train_goc", "reason": "Span chồng lấn", "input": "112, Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01323", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "A1/1, Ấp 1, Quốc lộ 50, Phong Phú, Bình Chánh, Hồ Chí Minh"}
+{"id": "VNTRAIN_01324", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "150 Đ. Nguyễn Văn Cừ, Ngọc Lâm, Long Biên, Hà Nội 100000"}
+{"id": "VNTRAIN_01326", "split": "train_goc", "reason": "Span chồng lấn", "input": "9, Ngách 1/84 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01331", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "40, Hẻm 40 Ấp Bắc, Phường 13, Tân Bình, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01338", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 328 Đường Nguyễn Văn Cừ, Phường Võ Cường, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01346", "split": "train_goc", "reason": "Span chồng lấn", "input": "88/2, Đường số 18, Bình Hưng Hòa, Bình Tân, Hồ Chí Minh"}
+{"id": "VNTRAIN_01360", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "91, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh"}
+{"id": "VNTRAIN_01361", "split": "train_goc", "reason": "Span chồng lấn", "input": "205/45, Hẻm 205 Trần Văn Ðang, Phường 11, Quận 3, Hồ Chí Minh"}
+{"id": "VNTRAIN_01364", "split": "train_goc", "reason": "Span chồng lấn", "input": "6, Ngõ 5 Phố Từ Hoa, Quảng An, Tây Hồ, Hà Nội"}
+{"id": "VNTRAIN_01370", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "16 Đ. Phạm Ngọc Thạch, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_01375", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "274, Đường Khương Đình, Khương Đình, Thanh Xuân, Hà Nội"}
+{"id": "VNTRAIN_01388", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "15, Đường Cổ Bi, Cổ Bi, Gia Lâm, Hà Nội"}
+{"id": "VNTRAIN_01392", "split": "train_goc", "reason": "Span chồng lấn", "input": "1, Đường số 4, Tân Túc, Bình Chánh, Hồ Chí Minh"}
+{"id": "VNTRAIN_01394", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Cổ Nhuế, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01400", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "103, Trần Hưng Đạo, Duong Dong, Phu Quoc, Kien Giang"}
+{"id": "VNTRAIN_01404", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngách 15/2 An Dương Vương, Quận Tây Hồ, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01408", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "An An Homestay Road, Phong NHA, Bố Trạch, Quảng Bình"}
+{"id": "VNTRAIN_01411", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Xuân Diệu, Bắc Hà, xuân diệu, tp Hà Tĩnh"}
+{"id": "VNTRAIN_01415", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "828, Đường Láng, Láng Thượng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01426", "split": "train_goc", "reason": "Span chồng lấn", "input": "6A, Ngõ 61 Phạm Tuấn Tài, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01431", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "157, Đường Cổ Nhuế, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01436", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "34 Đ. Âu Cơ, Phước Tân, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_01438", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "33 Đường Điện Biên Phủ, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_01439", "split": "train_goc", "reason": "Span chồng lấn", "input": "27, Ngõ 6 Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01445", "split": "train_goc", "reason": "Span chồng lấn", "input": "25, Đường số 21D, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01447", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 100 Phố Mai Công, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh"}
+{"id": "VNTRAIN_01457", "split": "train_goc", "reason": "Span chồng lấn", "input": "Hẻm 1014/88 Tân Kỳ Tân Quý, Bình Hưng Hòa, Bình Tân, Hồ Chí Minh"}
+{"id": "VNTRAIN_01468", "split": "train_goc", "reason": "Span chồng lấn", "input": "115, Đường số 1, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01470", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 20 Phố Nguyễn Phúc Xuyên, Phường Đại Phúc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01476", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Đường N3, Gần Chợ, Chơn Thành, Bình Phước"}
+{"id": "VNTRAIN_01478", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "138A, Phố Giảng Võ, Giảng Võ, Ba Đình, Hà Nội"}
+{"id": "VNTRAIN_01483", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "lương quới,giồng trôm, bến tre"}
+{"id": "VNTRAIN_01496", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 1 Đỗ Nhuận, Quận Bắc Từ Liêm, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01499", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "số 58b, ngõ 95, Kim Mã, kim mã, Quận Ba Đình, Hà Nội"}
+{"id": "VNTRAIN_01518", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 274 Đường Đàm Văn Tiết, Phường Nam Sơn, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01531", "split": "train_goc", "reason": "Span chồng lấn", "input": "Đường Số 5 Times City, Quận Hai Bà Trưng, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01548", "split": "train_goc", "reason": "Span chồng lấn", "input": "18, Đường số 6, An Khánh, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_01553", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "31 Đ. Bắc Sơn, Vĩnh Hải, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNTRAIN_01555", "split": "train_goc", "reason": "Span chồng lấn", "input": "10, Ngõ 39 Phạm Tuấn Tài, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01562", "split": "train_goc", "reason": "Span chồng lấn", "input": "35, Đường số 6, Phường 15, Gò Vấp, Hồ Chí Minh"}
+{"id": "VNTRAIN_01563", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "2A, Đ. Lê Văn Quới, Bình Hưng Hoà A, Bình Tân, Hồ Chí Minh"}
+{"id": "VNTRAIN_01565", "split": "train_goc", "reason": "Span chồng lấn", "input": "03, Đường số 02, Phường Đông Hòa, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01566", "split": "train_goc", "reason": "Span chồng lấn", "input": "220, Đường số 12, Cái Răng, Cần Thơ"}
+{"id": "VNTRAIN_01570", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ấp Bắc, Phường 10, Mỹ Tho, Tiền Giang"}
+{"id": "VNTRAIN_01572", "split": "train_goc", "reason": "Span chồng lấn", "input": "5, Ngách 38/6 Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01573", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "162, Đường Trần Quang Khải, Lý Thái Tổ, Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01579", "split": "train_goc", "reason": "Span chồng lấn", "input": "Tầng 2, P209,  A3 An Bình City, Đường Số 12, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01588", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "60, Phố Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Ha Noi, Hà Nội"}
+{"id": "VNTRAIN_01598", "split": "train_goc", "reason": "Span chồng lấn", "input": "Ngõ 1 Đông Quan, Quận Cầu Giấy, Phường Quan Hoa, Hà Nội"}
+{"id": "VNTRAIN_01642", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 12, Kiệt 12, Đường Hùng Vương, Xã Mỹ Tân, Huyện Cái Bè, Tỉnh Tiền Giang"}
+{"id": "VNTRAIN_01653", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "168 duong Nguyen Chi Thanh, Phuong Hong Thai, Quan An Duong, Hai Phong"}
+{"id": "VNTRAIN_01949", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "88 duong Dinh Tien Hoang, Phuong Thoi Hoa, Thanh pho Ben Cat, Binh Duong"}
+{"id": "VNTRAIN_02057", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 168, Đường Cầu Giấy, Xã Vũ Bản, Huyện Bình Lục, Tỉnh Hà Nam"}
+{"id": "VNTRAIN_02058", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 168, Ngách 15/4, Đường Cầu Giấy, Xã Vũ Bản, Huyện Bình Lục, Tỉnh Hà Nam"}
+{"id": "VNTRAIN_02060", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 168, Đuong Cầu Giấy, Xã Vũ Bản, Huyện Bình Lục, Tỉnh Hà Nam"}
+{"id": "VNTRAIN_02061", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "168 duong Cau Giay, Xa Vu Ban, Huyen Binh Luc, Ha Nam"}
+{"id": "VNTRAIN_02062", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "168 Đ. Cầu Giấy, X. Vũ Bản, H. Bình Lục, T. Hà Nam"}
+{"id": "VNTRAIN_02063", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Xã Vũ Bản, Huyện Bình Lục, Tỉnh Hà Nam"}
+{"id": "VNTRAIN_02064", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Tỉnh Hà Nam, Huyện Bình Lục, Xã Vũ Bản, Số 168 Đường Cầu Giấy"}
+{"id": "VNTRAIN_02089", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Số 168, Đường Hùng Vương, Xã Đăk Pơ Pho, Huyện Kông Chro, Tỉnh Gia Lai"}
+{"id": "VNTRAIN_02090", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 168, Ngõ 168, Đường Hùng Vương, Xã Đăk Pơ Pho, Huyện Kông Chro, Tỉnh Gia Lai"}
+{"id": "VNTRAIN_02092", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "168 dduowng Hùng Vương, Xã Đăk Pơ Pho, Huyện Kông Chro, Tỉnh Gia Lai"}
+{"id": "VNTRAIN_02093", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "168 duong Hung Vuong, Xa Dak Po Pho, Huyen Kong Chro, Gia Lai"}
+{"id": "VNTRAIN_02094", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "168 Đ. Hùng Vương, X. Đăk Pơ Pho, H. Kông Chro, T. Gia Lai"}
+{"id": "VNTRAIN_02095", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Xã Đăk Pơ Pho, Huyện Kông Chro, Tỉnh Gia Lai"}
+{"id": "VNTRAIN_02096", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Tỉnh Gia Lai, Huyện Kông Chro, Xã Đăk Pơ Pho, Số 168 Đường Hùng Vương"}
+{"id": "VNTRAIN_02109", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "25B duong Tran Phu, Phuong An Hoa, Quan An Duong, Hai Phong"}
+{"id": "VNTRAIN_02131", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 68, Đường Hoàng Cầu, Phường Xóm Chiếu, Quận 4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_02205", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "168 duong Nguyen Chi Thanh, Xa Hoi Thinh, Huyen Tam Duong, Vinh Phuc"}
+{"id": "VNTRAIN_02261", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "204 duong Le Duan, Phuong Thai Thinh, Thi xa Kinh Mon, Hai Duong"}
+{"id": "VNTRAIN_02297", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 45, Đường Hoàng Cầu, Xã Tam Thanh, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_02298", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 45, Hẻm 108, Đường Hoàng Cầu, Xã Tam Thanh, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_02299", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 45, Đường Hoàng Cầu, Xã Vụ Bản, Huyện Vụ Bản, Tỉnh Ninh Bình"}
+{"id": "VNTRAIN_02300", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "45 dduowng Hoàng Cầu, Xã Tam Thanh, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_02301", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "45 duong Hoang Cau, Xa Tam Thanh, Huyen Vu Ban, Nam Dinh"}
+{"id": "VNTRAIN_02302", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "45 Đ. Hoàng Cầu, X. Tam Thanh, H. Vụ Bản, T. Nam Định"}
+{"id": "VNTRAIN_02303", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Xã Tam Thanh, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_02304", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Tỉnh Nam Định, Huyện Vụ Bản, Xã Tam Thanh, Số 45 Đường Hoàng Cầu"}
+{"id": "VNTRAIN_02349", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "204 duong Nguyen Van Cu, Phuong Chanh Nghia, Thanh pho Thu Dau Mot, Binh Duong"}
+{"id": "VNTRAIN_02365", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "72 duong Truong Chinh, Phuong Phu Cuong, Thanh pho Thu Dau Mot, Binh Duong"}
+{"id": "VNTRAIN_02437", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "12 duong Nguyen Thi Minh Khai, Xa Long Hoa, Huyen Dau Tieng, Binh Duong"}
+{"id": "VNTRAIN_02453", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "88 duong Cach Mang Thang Tam, Xa Hoang Lau, Huyen Tam Duong, Vinh Phuc"}
+{"id": "VNTRAIN_02474", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 168, Ngõ 168, Đường Đội Cấn, Xã Sơn Lộ, Huyện Bảo Lạc, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_02482", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 45, Ngõ 45, Đường Hoàng Cầu, Phường Hải Châu, Thị xã Nghi Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02674", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 108, Hẻm 108, Đường Ngô Quyền, Xã Thành Tiến, Huyện Thạch Thành, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02725", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "15 duong Hoang Cau, Xa Dinh Thanh, Huyen Dau Tieng, Binh Duong"}
+{"id": "VNTRAIN_02754", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 108, Hẻm 108, Đường Nguyễn Huệ, Xã Trung Thành, Huyện Nông Cống, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02829", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "35 duong Ly Thuong Kiet, Phuong Nguyen Trai, Thanh pho Hai Duong, Hai Duong"}
+{"id": "VNTRAIN_03029", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "99 duong Hoang Hoa Tham, Xa Da Sar, Huyen Lac Duong, Lam Dong"}
+{"id": "VNTRAIN_03077", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "45 duong Nguyen Van Cu, Phuong Pha Lai, Thanh pho Chi Linh, Hai Duong"}
+{"id": "VNTRAIN_03085", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "168 duong Tran Phu, Xa Thanh Quang, Huyen Thanh Ha, Hai Duong"}
+{"id": "VNTRAIN_03101", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "25B duong Truong Chinh, Xa Duong Quang, Thanh pho Bac Kan, Bac Kan"}
+{"id": "VNTRAIN_03161", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 12, Đường Hoàng Văn Thụ, Xã Bản Bo, Huyện Tam Đường, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03162", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 12, Hẻm 108, Đường Hoàng Văn Thụ, Xã Bản Bo, Huyện Tam Đường, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03163", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 12, Đường Hoàng Văn Thụ, Xã Bản Bo, Huyện Tam Đường, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03164", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "12 dduowng Hoàng Văn Thụ, Xã Bản Bo, Huyện Tam Đường, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03165", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "12 duong Hoang Van Thu, Xa Ban Bo, Huyen Tam Duong, Lai Chau"}
+{"id": "VNTRAIN_03166", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "12 Đ. Hoàng Văn Thụ, X. Bản Bo, H. Tam Đường, T. Lai Châu"}
+{"id": "VNTRAIN_03167", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Xã Bản Bo, Huyện Tam Đường, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03168", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Tỉnh Lai Châu, Huyện Tam Đường, Xã Bản Bo, Số 12 Đường Hoàng Văn Thụ"}
+{"id": "VNTRAIN_03177", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 68, Đường Nguyễn Trãi, Xã Thượng Thôn, Huyện Hà Quảng, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03178", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 68, Hẻm 68, Đường Nguyễn Trãi, Xã Thượng Thôn, Huyện Hà Quảng, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03180", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "68 dduowng Nguyễn Trãi, Xã Thượng Thôn, Huyện Hà Quảng, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03181", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "68 duong Nguyen Trai, Xa Thuong Thon, Huyen Ha Quang, Cao Bang"}
+{"id": "VNTRAIN_03182", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "68 Đ. Nguyễn Trãi, X. Thượng Thôn, H. Hà Quảng, T. Cao Bằng"}
+{"id": "VNTRAIN_03183", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Xã Thượng Thôn, Huyện Hà Quảng, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03184", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Tỉnh Cao Bằng, Huyện Hà Quảng, Xã Thượng Thôn, Số 68 Đường Nguyễn Trãi"}
+{"id": "VNTRAIN_03269", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "99 duong Nguyen Chi Thanh, Phuong An Binh, Thanh pho Di An, Binh Duong"}
+{"id": "VNTRAIN_03389", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "402 duong Doi Can, Xa Pham Tran, Huyen Gia Loc, Hai Duong"}
+{"id": "VNTRAIN_03410", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 12, Kiệt 12, Đường Tây Sơn, Thị trấn Tam Sơn, Huyện Quản Bạ, Tỉnh Hà Giang"}
+{"id": "VNTRAIN_03417", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Số 204, Đường Ngô Quyền, Xã Thải Giàng Phố, Huyện Bắc Hà, Tỉnh Lào Cai"}
+{"id": "VNTRAIN_03418", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Số 204, Hẻm 68, Đường Ngô Quyền, Xã Thải Giàng Phố, Huyện Bắc Hà, Tỉnh Lào Cai"}
+{"id": "VNTRAIN_03420", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "204 dduowng Ngô Quyền, Xã Thải Giàng Phố, Huyện Bắc Hà, Tỉnh Lào Cai"}
+{"id": "VNTRAIN_03421", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "204 duong Ngo Quyen, Xa Thai Giang Pho, Huyen Bac Ha, Lao Cai"}
+{"id": "VNTRAIN_03422", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "204 Đ. Ngô Quyền, X. Thải Giàng Phố, H. Bắc Hà, T. Lào Cai"}
+{"id": "VNTRAIN_03423", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Xã Thải Giàng Phố, Huyện Bắc Hà, Tỉnh Lào Cai"}
+{"id": "VNTRAIN_03424", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Tỉnh Lào Cai, Huyện Bắc Hà, Xã Thải Giàng Phố, Số 204 Đường Ngô Quyền"}
+{"id": "VNTRAIN_03493", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "120 duong Hung Vuong, Xa Dai Duc, Huyen Kim Thanh, Hai Duong"}
+{"id": "VNTRAIN_03498", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 108, Hẻm 108, Đường Võ Văn Kiệt, Xã Thôm Mòn, Huyện Thuận Châu, Tỉnh Sơn La"}
+{"id": "VNTRAIN_03506", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 68, Hẻm 68, Đường Lê Duẩn, Xã Chiềng Sàng, Huyện Yên Châu, Tỉnh Sơn La"}
+{"id": "VNTRAIN_03537", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 4A, Đường Điện Biên Phủ, Xã Minh Tân, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_03538", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 4A, Ngách 15/4, Đường Điện Biên Phủ, Xã Minh Tân, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_03539", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 4A, Đường Điện Biên Phủ, Xã Minh Tân, Huyện Vụ Bản, Tỉnh Ninh Bình"}
+{"id": "VNTRAIN_03540", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "4A dduowng Điện Biên Phủ, Xã Minh Tân, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_03541", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "4A duong Dien Bien Phu, Xa Minh Tan, Huyen Vu Ban, Nam Dinh"}
+{"id": "VNTRAIN_03542", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "4A Đ. Điện Biên Phủ, X. Minh Tân, H. Vụ Bản, T. Nam Định"}
+{"id": "VNTRAIN_03543", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Xã Minh Tân, Huyện Vụ Bản, Tỉnh Nam Định"}
+{"id": "VNTRAIN_03544", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Tỉnh Nam Định, Huyện Vụ Bản, Xã Minh Tân, Số 4A Đường Điện Biên Phủ"}
+{"id": "VNTRAIN_03581", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "4A duong Nguyen Van Cu, Phuong Ben Tam, Thanh pho Chi Linh, Hai Duong"}
+{"id": "VNTRAIN_03617", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 120, Đường Trường Chinh, Xã N' Thôn Hạ, Huyện Đức Trọng, Tỉnh Lâm Đồng"}
+{"id": "VNTRAIN_03618", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 120, Kiệt 12, Đường Trường Chinh, Xã N' Thôn Hạ, Huyện Đức Trọng, Tỉnh Lâm Đồng"}
+{"id": "VNTRAIN_03620", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "120 Đ.TrườngChinh, X.N' Thôn Hạ, H.Đức Trọng, Tỉnh Lâm Đồng"}
+{"id": "VNTRAIN_03621", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "120 duong Truong Chinh, Xa N' Thon Ha, Huyen Duc Trong, Lam Dong"}
+{"id": "VNTRAIN_03622", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "120 Đ. Trường Chinh, X. N' Thôn Hạ, H. Đức Trọng, T. Lâm Đồng"}
+{"id": "VNTRAIN_03623", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Xã N' Thôn Hạ, Huyện Đức Trọng, Tỉnh Lâm Đồng"}
+{"id": "VNTRAIN_03624", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Tỉnh Lâm Đồng, Huyện Đức Trọng, Xã N' Thôn Hạ, Số 120 Đường Trường Chinh"}
+{"id": "VNTRAIN_03674", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:ngo_ngach_hem", "input": "Số 88, Kiệt 12, Đường Nguyễn Thị Minh Khai, Phường Thạnh Xuân, Quận 12, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_03941", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "10 duong Le Loi, Xa Tam Da, Huyen Son Duong, Tuyen Quang"}
+{"id": "VNTRAIN_03986", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 68, Hẻm 68, Đường Trần Hưng Đạo, Phường Vĩnh Trường, Thành phố Nha Trang, Tỉnh Khánh Hòa"}
+{"id": "VNTRAIN_04013", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "25B duong Vo Van Kiet, Phuong An Phu, Thi xa Kinh Mon, Hai Duong"}
+{"id": "VNTRAIN_04050", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 45, Ngõ 45, Đường Đinh Tiên Hoàng, Xã Gia Xuyên, Thành phố Hải Dương, Tỉnh Hải Dương"}
+{"id": "VNTRAIN_04053", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "45 duong Dinh Tien Hoang, Xa Gia Xuyen, Thanh pho Hai Duong, Hai Duong"}
+{"id": "VNTRAIN_04060", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "45 duong Hung Vuong, Phuong Tu Minh, Thanh pho Hai Duong, Hai Duong"}
+{"id": "VNTRAIN_04070", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "12 duong Hoang Van Thu, Xa Minh Tan, Huyen Dau Tieng, Binh Duong"}
+{"id": "VNTRAIN_04110", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "99 duong Hai Ba Trung, Phuong Dong Khe, Quan Ngo Quyen, Hai Phong"}
+{"id": "VNTRAIN_04125", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "108 duong Hoang Hoa Tham, Xa Phuoc Minh, Huyen Duong Minh Chau, Tay Ninh"}
+{"id": "VNTRAIN_04140", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "402 duong Hai Ba Trung, Xa Thanh Tuyen, Huyen Dau Tieng, Binh Duong"}
+{"id": "VNTRAIN_04153", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 120, Hẻm 25, Đường Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy, Thành phố Hà Nội"}
+{"id": "VNTRAIN_04154", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "120 Đ.CầuGiấy, P.Dịch Vọng, Q.Cầu Giấy, Thành phố Hà Nội"}
+{"id": "VNTRAIN_04155", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "120 duong Cau Giay, Phuong Dich Vong, Quan Cau Giay, Ha Noi"}
+{"id": "VNTRAIN_04156", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Thành phố Hà Nội, Quận Cầu Giấy, Phường Dịch Vọng, Số 120 Đường Cầu Giấy"}
+{"id": "VNTRAIN_04165", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "88 duong Ngo Quyen, Xa Hong Lac, Huyen Thanh Ha, Hai Duong"}
+{"id": "VNTRAIN_04180", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "4A duong Vo Van Kiet, Xa Tan Hong, Huyen Binh Giang, Hai Duong"}
+{"id": "VNTRAIN_04198", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 168, Ngõ 168, Đường Phạm Văn Đồng, Phường Lê Hồng Phong, Thành phố Thủy Nguyên, Thành phố Hải Phòng"}
+{"id": "VNTRAIN_04218", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 168, Ngõ 168, Đường Quang Trung, Phương Liệt, Quận Thanh Xuân, Thành phố Hà Nội"}
+{"id": "VNTRAIN_04225", "split": "train_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "204 duong Nguyen Chi Thanh, Xa Phan, Huyen Duong Minh Chau, Tay Ninh"}
+{"id": "VNTRAIN_04252", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:thon_xom", "input": "Thôn Đông, Phường Linh Đông, Thành phố Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_04287", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:thon_xom", "input": "Thôn Đông, Xã Liên Hà, Huyện Đông Anh, Thành phố Hà Nội"}
+{"id": "VNTRAIN_04446", "split": "train_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 12, Kiệt 12, Đường Cầu Giấy, Xã Sìn Hồ, Tỉnh Lai Châu"}
+{"id": "VNDEV_00004", "split": "dev_goc", "reason": "noi_dung_sau_tien_to_hanh_chinh:duong", "input": "313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ"}
+{"id": "VNDEV_00012", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00027", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "663 Lê Trọng Tấn, KP.2 Bình Hưng Hòa, Q. Bình Tân, TP HCM"}
+{"id": "VNDEV_00034", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Số 194 phố Minh Khai, tổ 14, phường Minh Khai, quận Hai Bà Trưng, Hà Nội"}
+{"id": "VNDEV_00049", "split": "dev_goc", "reason": "Span chồng lấn", "input": "71 Đường số 4, Khu dân cư Intresco 13E, Bình Chánh, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00055", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "296 Lý Thái Tổ, P. Hương Sơ, TP. Huế"}
+{"id": "VNDEV_00070", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "79, Phố Đinh Tiên Hoàng, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNDEV_00080", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Đường Cổ Nhuế, Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội"}
+{"id": "VNDEV_00087", "split": "dev_goc", "reason": "Span chồng lấn", "input": "22 Tân Hồng - tổ 85 - KT - HN"}
+{"id": "VNDEV_00089", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "9, Khu dân cư số 9, Xuân Khánh, Ninh Kiều, Cần Thơ"}
+{"id": "VNDEV_00091", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 78 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh"}
+{"id": "VNDEV_00093", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 156 Phố Cổ Pháp, Phường Từ Sơn, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNDEV_00106", "split": "dev_goc", "reason": "Span chồng lấn", "input": "21, Hẻm 182 Lê Văn Sỹ, Phường 10, Phú Nhuận, Ho Chi Minh City"}
+{"id": "VNDEV_00112", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Lk12-No12, Ngõ 107 Nguyễn Viết Xuân, Quang Trung, Hà Đông, Hà Nội"}
+{"id": "VNDEV_00113", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Tổ 1, ấp 4, Mỹ Long, Cao Lãnh, Đồng Tháp."}
+{"id": "VNDEV_00116", "split": "dev_goc", "reason": "Span chồng lấn", "input": "53, Ngõ 3 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00121", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "366, Phố Ngọc Lâm, Ngọc Lâm, Long Biên, Hà Nội"}
+{"id": "VNDEV_00123", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "P401 Lo 20A, Lê Hồng Phong, Đằng Giang, Ngo Quyen, Hải Phòng, Việt Nam"}
+{"id": "VNDEV_00127", "split": "dev_goc", "reason": "Span chồng lấn", "input": "189 Nguyễn thị minh khai,, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00130", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "2, Nội khu Mỹ Toàn 2, Phường Tân Hưng, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00134", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Hẻm 152 Nguyễn Văn Thương, 25, Quận Bình Thạnh, Ho Chi Minh City"}
+{"id": "VNDEV_00135", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "QL30, số nhà 90, Bình Hàng Tây, Cao Lãnh, Đồng Tháp."}
+{"id": "VNDEV_00140", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 118 Nguyễn Khánh Toàn, Quận Cầu Giấy, Thành phố Hà Nội"}
+{"id": "VNDEV_00146", "split": "dev_goc", "reason": "Span chồng lấn", "input": "D14/410A, Ấp 41, Đa Phước, Hồ Chí Minh"}
+{"id": "VNDEV_00150", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "11 Đ. Nguyễn Đình Chiểu, Vĩnh Phước, Nha Trang, Khánh Hòa 650000"}
+{"id": "VNDEV_00158", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Thôn Thượng Bái, Diên Hà, Hưng Yên"}
+{"id": "VNDEV_00162", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "3 Ng.1, Phố Văn Hội, Đức Thắng, Bắc Từ Liêm, Hà Nội"}
+{"id": "VNDEV_00172", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "32, Đường Trần Hưng Đạo, Phường Phố Mới, Thị xã Quế Võ, Bắc Ninh, Bac Ninh"}
+{"id": "VNDEV_00179", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "50, Phố Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội"}
+{"id": "VNDEV_00185", "split": "dev_goc", "reason": "Span chồng lấn", "input": "24, Hẻm 79 đường số 4, Bình Hưng Hòa, Bình Tân, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00187", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 113 đường Cổ Bi, Cổ Bi, Gia Lâm, Hà Nội"}
+{"id": "VNDEV_00190", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "129 Thạch Sơn, TT. Sa Pa, Sa Pa, Lào Cai, Vietnam"}
+{"id": "VNDEV_00191", "split": "dev_goc", "reason": "Span chồng lấn", "input": "73, Đường số 27, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00193", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "99, 99/18/5/36 Đ. Thạnh Xuân 21, Thạnh Xuân, Quận 12, Thành phố Hồ Chí Minh 71514, Việt Nam, Thạnh Xuân, 12, Hồ Chí Minh"}
+{"id": "VNDEV_00199", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Đường số 3, Hiệp Bình Chánh, Thủ Đức, Phường Hiệp Bình Chánh, Hồ Chí Minh"}
+{"id": "VNDEV_00204", "split": "dev_goc", "reason": "Span chồng lấn", "input": "60;62, Đường số 1A, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00208", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Phố Phúc La, Phúc La, Hà Đông, Hà Nội"}
+{"id": "VNDEV_00211", "split": "dev_goc", "reason": "Span chồng lấn", "input": "7, Ngõ 6 Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00218", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "45, Phố Hàng Bài, Hàng Bài, Hoàn Kiếm, Hà Nội"}
+{"id": "VNDEV_00223", "split": "dev_goc", "reason": "Span chồng lấn", "input": "163, Đường số 1, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00226", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "D11 - 34, Đường D11, Mỹ Hạnh Bắc, Đức Hòa, Xã Mỹ Hạnh Bắc, Long An"}
+{"id": "VNDEV_00232", "split": "dev_goc", "reason": "Span chồng lấn", "input": "54-56, Đường số 7, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00234", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "681 Trần Hưng Đạo, xã Hàm Thuận Nam, tỉnh Lâm Đồng, Xã Thuận Nam, Huyện Hàm Thuận Nam, Lâm Đồng"}
+{"id": "VNDEV_00235", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "90, Phố Nghĩa Tân, Phường Nghĩa Tân, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00237", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "47, Phố Hàng Dầu, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNDEV_00246", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Phố Châu Úy, Phường Cam Đường, Thành phố Lào Cai, Tỉnh Lào Cai"}
+{"id": "VNDEV_00253", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 75 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh"}
+{"id": "VNDEV_00255", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "GJ5F+75H, , Tam Hoà, Núi Thành,, Tam Hòa, Núi Thành, Xã Tam Anh, Đà Nẵng"}
+{"id": "VNDEV_00260", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "85, Nguyễn Cư Trinh, Phường Nguyễn Cư Trinh, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00274", "split": "dev_goc", "reason": "Span chồng lấn", "input": "6, Đường Số 3, Xã Tân Nhựt, Bình Chánh, Thị trấn Tân Túc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00275", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "5X6F+MMF, Đường Bào, Dương Tơ, Phú Quốc, An Giang"}
+{"id": "VNDEV_00277", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "41B, Phố Lý Thái Tổ, Lý Thái Tổ, Hoàn Kiếm, Hà Nội"}
+{"id": "VNDEV_00278", "split": "dev_goc", "reason": "Span chồng lấn", "input": "2, Ngách 38/6 Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNDEV_00280", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "575, Ngõ 575 Kim Mã, Ngọc Khánh, Quận Ba Đình, Hà Nội"}
+{"id": "VNDEV_00283", "split": "dev_goc", "reason": "Span chồng lấn", "input": "2, Ngõ 3 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00285", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Đại Lương village, Thái Hoà Commune, Lập Thạch district, Vĩnh Phúc province"}
+{"id": "VNDEV_00290", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "360, Đường Cầu Giấy, Dịch Vọng, Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00292", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "38, Phố Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội"}
+{"id": "VNDEV_00301", "split": "dev_goc", "reason": "Span chồng lấn", "input": "thôn đòn, lương nội, bá thước, thanh hóa"}
+{"id": "VNDEV_00302", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "160N3/12, Khu vực 10, Nguyễn Văn Cừ, Phường Tân An, Ninh Kiều, Cần Thơ, Can Tho"}
+{"id": "VNDEV_00303", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "19 Phan Chu Trinh, Dien Bien Ward, Thanh Hoa, , Thanh Hóa"}
+{"id": "VNDEV_00305", "split": "dev_goc", "reason": "Span chồng lấn", "input": "30, Đường số 8A, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00310", "split": "dev_goc", "reason": "Span chồng lấn", "input": "ngõ 2, Xuân Diệu, Bắc Hà, đường Phan Đình Phùng, tp Hà Tĩnh"}
+{"id": "VNDEV_00315", "split": "dev_goc", "reason": "Span chồng lấn", "input": "6-8, Ngách 41/6 Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00318", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Số 5A, Hẻm 18 Đường Số 8, Phường Long Bình, Thủ Đức, Hồ Chí Minh"}
+{"id": "VNDEV_00324", "split": "dev_goc", "reason": "Span chồng lấn", "input": "3, Ngách 238/2 Hoàng Quốc Việt, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNDEV_00326", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "12, Ngõ 12 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00327", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 160 Đường Lý Thường Kiệt, Phường Thị Cầu, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNDEV_00328", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Đường số 5, Phường Long Phước, Quận 9, Thành phố Hồ Chí Minh, Hồ Chí Minh"}
+{"id": "VNDEV_00340", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 21 Lê Văn Lương, Quận Thanh Xuân, Thành phố Hà Nội"}
+{"id": "VNDEV_00349", "split": "dev_goc", "reason": "Span chồng lấn", "input": "145/5, Hẻm 145 Nguyễn Văn Trỗi, Phường Phú Nhuận, Ho Chi Minh City, Hồ Chí Minh"}
+{"id": "VNDEV_00350", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 61 Ngụy Như Kon Tum"}
+{"id": "VNDEV_00353", "split": "dev_goc", "reason": "Span chồng lấn", "input": "11, Ngách 1/84 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00359", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:thon_xom", "input": "Tổ 2, 4 đường, ấp 2, Mỹ Long, Cao Lãnh, Đồng Tháp."}
+{"id": "VNDEV_00365", "split": "dev_goc", "reason": "Span chồng lấn", "input": "149, Ngõ 765 đường Nguyễn Văn Linh, Hà Nội"}
+{"id": "VNDEV_00372", "split": "dev_goc", "reason": "Span chồng lấn", "input": "Ngõ 21 Phạm Ngọc Thạch, Kim Liên, Đống Đa, Hà Nội"}
+{"id": "VNDEV_00379", "split": "dev_goc", "reason": "Span chồng lấn", "input": "41, Ngõ 3 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNDEV_00381", "split": "dev_goc", "reason": "Span chồng lấn", "input": "77, Đường số 6, Phường An Lạc, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_00388", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "6c, Đường Thành, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNDEV_00390", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:duong", "input": "Bình Hàng Tây, Cao Lãnh, Đồng Tháp."}
+{"id": "VNDEV_00421", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "4A duong Quang Trung, Phuong Cau Tre, Quan Ngo Quyen, Hai Phong"}
+{"id": "VNDEV_00433", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Số 99, Đường Hoàng Văn Thụ, Xã Tung Chung Phố, Huyện Mường Khương, Tỉnh Lào Cai"}
+{"id": "VNDEV_00434", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Số 99, Hẻm 68, Đường Hoàng Văn Thụ, Xã Tung Chung Phố, Huyện Mường Khương, Tỉnh Lào Cai"}
+{"id": "VNDEV_00436", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Số 99, Đuong Hoàng Văn Thụ, Xã Tung Chung Phố, Huyện Mường Khương, Tỉnh Lào Cai"}
+{"id": "VNDEV_00437", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "99 duong Hoang Van Thu, Xa Tung Chung Pho, Huyen Muong Khuong, Lao Cai"}
+{"id": "VNDEV_00438", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "99 Đ. Hoàng Văn Thụ, X. Tung Chung Phố, H. Mường Khương, T. Lào Cai"}
+{"id": "VNDEV_00439", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Xã Tung Chung Phố, Huyện Mường Khương, Tỉnh Lào Cai"}
+{"id": "VNDEV_00440", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "Tỉnh Lào Cai, Huyện Mường Khương, Xã Tung Chung Phố, Số 99 Đường Hoàng Văn Thụ"}
+{"id": "VNDEV_00501", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "402 duong Xa Dan, Xa Da Ron, Huyen Don Duong, Lam Dong"}
+{"id": "VNDEV_00565", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "4A duong Nguyen Chi Thanh, Phuong Hoa Loi, Thanh pho Ben Cat, Binh Duong"}
+{"id": "VNDEV_00625", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "Số 72, Đường Nguyễn Chí Thanh, Xã Hiền Kiệt, Huyện Quan Hóa, Tỉnh Thanh Hóa"}
+{"id": "VNDEV_00626", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "Số 72, Ngách 15/4, Đường Nguyễn Chí Thanh, Xã Hiền Kiệt, Huyện Quan Hóa, Tỉnh Thanh Hóa"}
+{"id": "VNDEV_00627", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "Số 72, Đường Nguyễn Chí Thanh, Xã Hiền Kiệt, Huyện Quan Hóa, Tỉnh Thanh Hóa"}
+{"id": "VNDEV_00628", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "72 dduowng Nguyễn Chí Thanh, Xã Hiền Kiệt, Huyện Quan Hóa, Tỉnh Thanh Hóa"}
+{"id": "VNDEV_00629", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "72 duong Nguyen Chi Thanh, Xa Hien Kiet, Huyen Quan Hoa, Thanh Hoa"}
+{"id": "VNDEV_00630", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "72 Đ. Nguyễn Chí Thanh, X. Hiền Kiệt, H. Quan Hóa, T. Thanh Hóa"}
+{"id": "VNDEV_00631", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "Xã Hiền Kiệt, Huyện Quan Hóa, Tỉnh Thanh Hóa"}
+{"id": "VNDEV_00632", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "Tỉnh Thanh Hóa, Huyện Quan Hóa, Xã Hiền Kiệt, Số 72 Đường Nguyễn Chí Thanh"}
+{"id": "VNDEV_00770", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 12, Ngõ 12, Đường Lê Duẩn, Xã Tân Hội, Huyện Mỏ Cày Nam, Tỉnh Bến Tre"}
+{"id": "VNDEV_00829", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "99 duong Ly Thuong Kiet, Xa Hop Thanh, Huyen Son Duong, Tuyen Quang"}
+{"id": "VNDEV_00893", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "68 duong Cau Giay, Phuong Tan Huong, Thanh pho Pho Yen, Thai Nguyen"}
+{"id": "VNDEV_00923", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:ngo_ngach_hem", "input": "Số 168, Đường Điện Biên Phủ, Phường Lý Thường Kiệt, Thị xã Kim Bảng, Tỉnh Ninh Bình"}
+{"id": "VNDEV_01013", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:duong", "input": "18B duong Xa Dan, Phuong Dong Thai, Quan An Duong, Hai Phong"}
+{"id": "VNDEV_01031", "split": "dev_goc", "reason": "nhan_khong_co_mot_vi_tri:so_nha", "input": "Số 108, Hẻm 108, Đường Hoàng Cầu, Xã Đình Dù, Huyện Văn Lâm, Tỉnh Hưng Yên"}
+{"id": "VNDEV_01113", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 72, Đường Hoàng Hoa Thám, Xã Bản Xèo, Tỉnh Lào Cai"}
+{"id": "VNDEV_01114", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Số 72, Ngách 15/4, Đường Hoàng Hoa Thám, Xã Bản Xèo, Tỉnh Lào Cai"}
+{"id": "VNDEV_01115", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "72 dduowng Hoàng Hoa Thám, Xã Bản Xèo, Tỉnh Lào Cai"}
+{"id": "VNDEV_01116", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "72 duong Hoang Hoa Tham, Xa Ban Xeo, Lao Cai"}
+{"id": "VNDEV_01117", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "72 Đ. Hoàng Hoa Thám, X. Bản Xèo, T. Lào Cai"}
+{"id": "VNDEV_01118", "split": "dev_goc", "reason": "tien_to_chi_tiet_chua_co_nhan:thon_xom", "input": "Tỉnh Lào Cai, Xã Bản Xèo, Số 72 Đường Hoàng Hoa Thám"}
+{"id": "VNTRAIN_BS_01799", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "151Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01800", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "209Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01801", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "157Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01802", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "261Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01803", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "229Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01804", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "217Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01805", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "267Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01806", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "270Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01807", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "304Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01808", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "312Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01809", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "421Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01810", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "409Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01811", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "446Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01812", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "450Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01813", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "463Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01814", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "498Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01815", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "541Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01816", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "555Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01817", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "565Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01818", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "635Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01819", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "594Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01820", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "623Đ.LêLợi, P3, Q3, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01821", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "398Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01822", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "410Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01823", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "360Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01824", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "380Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01825", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "403Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01826", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "440Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01827", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "488Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01828", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "475Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01829", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "524Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01830", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "547Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01831", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "556Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01832", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "576Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01833", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "589Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01834", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "698Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01835", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "713Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01836", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "678Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01837", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "674Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01838", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "769Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01839", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "760Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01840", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "835Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01841", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "813Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_BS_01842", "split": "train_bo_sung", "reason": "span_cat_giua_token_runtime", "input": "814Đ.NguyễnTriPhương, P16, Q4, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00399", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "668Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00400", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "736Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00401", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "706Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00402", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "817Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00403", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "807Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00404", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "812Đ.VõVănTần, PHiệp Bình Phước, Q.Thủ Đức, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00405", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "925Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00406", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "8Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00407", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "10Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00408", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "5Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00409", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "63Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"}
+{"id": "VNDEV_KHO_00410", "split": "dev_kho", "reason": "span_cat_giua_token_runtime", "input": "39Đ.LãnhBinhThăng, P9, Q6, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00001", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "132 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00002", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "137 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00006", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "48 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"}
+{"id": "VNTRAIN_00007", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "29-31 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"}
+{"id": "VNTRAIN_00008", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "87 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"}
+{"id": "VNTRAIN_00010", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "119 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ"}
+{"id": "VNTRAIN_00020", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "125 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00021", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "152 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00022", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "112 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00023", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "80 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00024", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "22 Trần Việt Châu, An Hòa, Ninh Kiều, Cần thơ"}
+{"id": "VNTRAIN_00025", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "61/2 CMT8, An Hòa, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00026", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "110 CMT8, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00210", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "41 CMT8, An Hòa, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00212", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "51b CMT8, An Hòa, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00213", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "71a CMT8, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00214", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "106B CMT8, Ninh Kiều, Cần Thơ"}
+{"id": "VNTRAIN_00231", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "439, Đường Hoàng Tăng Bí, Thụy Phương, Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00232", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "389, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00246", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "353, Điện Biên Phủ"}
+{"id": "VNTRAIN_00249", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "54, Lũy Bán Bích, Phường Tân Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00256", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "121, Hoàng Văn Thụ, Ho Chi Minh City"}
+{"id": "VNTRAIN_00291", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "31, Phố Thái Phiên, Lê Đại Hành, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00293", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "125, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00294", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "815, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00301", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "110, Phố Huế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00305", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "338, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00309", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "24, Phố Hàng Giấy, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00324", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "107B6, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00329", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "41, Nguyễn Huệ"}
+{"id": "VNTRAIN_00332", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "42, Phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00346", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "30-34, Phố Hàng Mành, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00352", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "104C2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00362", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "114, Lạch Tray, Ngô Quyền, Thành phố Hải Phòng"}
+{"id": "VNTRAIN_00368", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "89, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00385", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "362C, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00426", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "105A2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00431", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "18A, Nguyễn Huệ"}
+{"id": "VNTRAIN_00434", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "126, Phố Huế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00437", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "147, Đường Nguyễn Gia Thiều, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00440", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "66, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00462", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "68a, Nguyễn Huệ"}
+{"id": "VNTRAIN_00473", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "477, Đường Hoàng Quốc Việt, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00476", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "103C2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00477", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "595;597, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00485", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "438, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00516", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "45, Đường Hoàng Quốc Việt, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00520", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "599, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00524", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "09, Phố Hàng Mành, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00528", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "182, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00529", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "114, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00537", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "185, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00546", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "336, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00550", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "27, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00555", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "441, Nguyễn Huệ"}
+{"id": "VNTRAIN_00572", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "235, Đường Nguyễn Gia Thiều, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00583", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "89, Đường Nguyễn Gia Thiều, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00584", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "98B, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00592", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "456-458, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00598", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "420, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00604", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "1031B, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00607", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "32, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00609", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "5, Phố Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00614", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "78A, Lũy Bán Bích, Phường Tân Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00627", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "9, Phố Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00641", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "30A, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00642", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "113, Đường Nguyễn Gia Thiều, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00657", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "105, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00658", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "22A, Phố Ngọc Hà, Phường Ba Đình, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00663", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "8, Phố Lý Đạo Thành, Tràng Tiền, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_00666", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "402, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00670", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "615, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00680", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "133, Đường Vua Bà, Phường Hòa Long, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00682", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "219, Đường Ngô Gia Tự, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00693", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "27-29, Phố Trần Phú, Phường Ba Đình, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00696", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "143, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00713", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "296, Hà Huy Giáp, Phường An Phú Đông, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00714", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "2B, Hàng Gà, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00719", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "488, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00722", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "98, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00724", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "536, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00748", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "742, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00753", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "233, Phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00769", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "100, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00773", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "793, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00777", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "135, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00780", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "58, Phố Trần Nhân Tông, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00784", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "231, Đường Nguyễn Gia Thiều, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00788", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "92A, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00793", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "156, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00805", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "32, Phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_00808", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "30, Lũy Bán Bích, Phường Tân Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00830", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "145, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00842", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "4X25+PXQ, Đường Lý Thái Tổ, Phường Đình Bảng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00844", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "88, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00850", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "95, Phố Văn Hội, Đức Thắng, Bắc Từ Liêm, Phường Đức Thắng, Hà Nội"}
+{"id": "VNTRAIN_00854", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "781, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00895", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "589, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00896", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "106A2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00897", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "159, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00900", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "2, Phố Ngọc Hà, Phường Ba Đình, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_00901", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "207, Phạm Ngũ Lão, Phường Bến Thành, Quận 1, Ho Chi Minh City, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00903", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "5, Phố Trần Nhân Tông, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00913", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "57, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00925", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "297-299, Phạm Ngũ Lão, Phường Bến Thành, Quận 1, Ho Chi Minh City, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00927", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "129, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00938", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "298, Đường Nguyễn Gia Thiều, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00960", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "537, Đường Điện Biên Phủ"}
+{"id": "VNTRAIN_00962", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "186, Đường Điện Biên Phủ"}
+{"id": "VNTRAIN_00964", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "26, Phố Liễu Giai, Cống Vị, Ba Đình, Hà Nội"}
+{"id": "VNTRAIN_00966", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "386, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_00967", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "99, Đường Lê Thái Tổ, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_00978", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "55, Xuân Thuỷ, Phường An Khánh, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_00980", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "5C, Phố Trần Nhân Tông, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_00985", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "393, Đường Hoàng Tăng Bí, Thụy Phương, Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_00994", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "671;673, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01003", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "8, Phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01004", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "115B6, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01005", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "14, Nguyễn Huệ"}
+{"id": "VNTRAIN_01009", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "360, Phố Huế, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01016", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "25, Đường Hoàng Quốc Việt, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01021", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "119, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01022", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "94, Mã Mây, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01030", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "23, Phố Lê Thánh Tông, Phan Chu Trinh, Hoàn Kiếm, Hà Nội"}
+{"id": "VNTRAIN_01031", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "74, Hoàng Văn Thụ, Ho Chi Minh City"}
+{"id": "VNTRAIN_01036", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "463, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01038", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "159, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01043", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "106, Đường Yên Phụ, Phường Ba Đình, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01055", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "Đường Lê Trọng Tấn, Quận Hà Đông, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01060", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "270, Đường Nguyễn Gia Thiều, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01074", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "157, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01078", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "63, Phố Trang Liệt 1, Phường Trang Hạ, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01082", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "197, Phạm Ngũ Lão, Phường Bến Thành, Quận 1, Ho Chi Minh City, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01084", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "107C1, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01093", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "192, Đường Nguyễn Gia Thiều, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01098", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "25B, Lý Thường Kiệt, Tân An, Ninh Kiều, Cần Thơ, Can Tho"}
+{"id": "VNTRAIN_01101", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "20, Phố Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01104", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "26, Đường Lê Thái Tổ, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01108", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "362, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01111", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "43, Trần Cao Vân, Quang Nam, Hoi An"}
+{"id": "VNTRAIN_01123", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "9, Mã Mây, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01126", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "7, Phố Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01135", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "43, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01144", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "160, Lũy Bán Bích, Phường Tân Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01154", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "25, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01159", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "113C2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01160", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "817, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01186", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "Trần Phú, Cái Khế, Ninh Kieu, CẦN THƠ"}
+{"id": "VNTRAIN_01190", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "6, Phố Đặng Thùy Trâm, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01202", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "9A, Ngô Thời Nhậm, Thuận Hoà, Huế, Thừa Thiên - Huế"}
+{"id": "VNTRAIN_01203", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "43, Đường Lương Minh Nguyệt, Phường Tân Thới Hòa, Quận Tân Phú, Ho Chi Minh City"}
+{"id": "VNTRAIN_01205", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "118, Phố Huế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01215", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "326, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01223", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "107C2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01224", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "93, Đường Nguyễn Gia Thiều, Phường Suối Hoa, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01228", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "174, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01229", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "59, Phố Phùng Hưng, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội"}
+{"id": "VNTRAIN_01242", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "251, Phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01253", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "482, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01255", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "47, Phố Bùi Thị Xuân, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01257", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "29, Đường Lê Thái Tổ, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01267", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "128, Phố Huế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01306", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "783, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01325", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "6A, Đường Nguyễn Ái Quốc, Phường Tân Hiệp, Khu phố 2, Thành phố Biên Hòa, Tỉnh Đồng Nai"}
+{"id": "VNTRAIN_01327", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "1, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01339", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "44, Phố Trần Quốc Hoàn, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01342", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "36A, Nguyễn Gia Trí, 25, Bình Thạnh, Ho Chi Minh City"}
+{"id": "VNTRAIN_01359", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "103-104 B6, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01366", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "110A2, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01371", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "14-16, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01373", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "54, Phố Mai Hắc Đế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01398", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "186, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01414", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "225, Phố Xã Đàn, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01418", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "116, Lê Văn Thịnh, Bình Trưng Tây, 2, Hồ Chí Minh"}
+{"id": "VNTRAIN_01423", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "15, Đường Lê Thái Tổ, Phường Võ Cường, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01427", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "157, Phố Triệu Việt Vương, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01430", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "387, Đường Ngô Gia Tự, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01433", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "473, Nguyễn Huệ"}
+{"id": "VNTRAIN_01455", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "280, Điện Biên Phủ"}
+{"id": "VNTRAIN_01466", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "16, Xuân Thuỷ, Phường An Khánh, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01479", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "90, Đường Ngô Gia Tự, Phường Kinh Bắc, Thành phố Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01482", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "72, Đường Hoàng Tăng Bí, Thụy Phương, Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01501", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "106C1, Phố Phạm Ngọc Thạch, Phương Liên – Trung Tự, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01503", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "127, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01510", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "561, Đường Hậu Giang, Phường Bình Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01516", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "90, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01528", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "419, Đường Hoàng Tăng Bí, Thụy Phương, Từ Liêm, Hà Nội"}
+{"id": "VNTRAIN_01529", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "131, Đường Vua Bà, Phường Hòa Long, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01534", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "70, Đường Nguyễn Chí Thanh, Láng Thượng, Đống Đa, Hà Nội"}
+{"id": "VNTRAIN_01535", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "534, Điện Biên Phủ"}
+{"id": "VNTRAIN_01538", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "104, Phố Huế, Nguyễn Du, Hai Bà Trưng, Hà Nội"}
+{"id": "VNTRAIN_01539", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "10A, Đường Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01544", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "128, Đường Trần Hưng Đạo, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"}
+{"id": "VNTRAIN_01582", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "31, Đường Hoàng Quốc Việt, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội"}
+{"id": "VNTRAIN_01584", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "156, Lũy Bán Bích, Phường Tân Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01591", "split": "train_goc", "reason": "ho_input_trung_dev_sau_che_so_nha", "input": "78, Lũy Bán Bích, Phường Tân Phú, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_01763", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Lê Lợi, Xã Mỹ Hòa Hưng, Thành phố Long Xuyên, Tỉnh An Giang"}
+{"id": "VNTRAIN_01779", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 4A, Đường Quang Trung, Xã Lương Minh, Huyện Ba Chẽ, Tỉnh Quảng Ninh"}
+{"id": "VNTRAIN_01819", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Võ Văn Kiệt, Xã Thái Hòa, Huyện Hàm Yên, Tỉnh Tuyên Quang"}
+{"id": "VNTRAIN_01867", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Đội Cấn, Xã Hướng Phùng, Huyện Hướng Hóa, Tỉnh Quảng Trị"}
+{"id": "VNTRAIN_02075", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 120, Đường Đội Cấn, Xã Tam Lư, Huyện Quan Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02099", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 108, Đường Phạm Văn Đồng, Xã Tam Hợp, Huyện Quỳ Hợp, Tỉnh Nghệ An"}
+{"id": "VNTRAIN_02355", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 402, Đường Nguyễn Chí Thanh, Xã Vân Tụ, Huyện Yên Thành, Tỉnh Nghệ An"}
+{"id": "VNTRAIN_02371", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 5, Đường Trần Phú, Xã Ba Sao, Huyện Cao Lãnh, Tỉnh Đồng Tháp"}
+{"id": "VNTRAIN_02475", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Đội Cấn, Xã Sơn Lộ, Huyện Bảo Lạc, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_02659", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 5, Đường Trần Hưng Đạo, Xã Sơn Kỳ, Huyện Sơn Hà, Tỉnh Quảng Ngãi"}
+{"id": "VNTRAIN_02699", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 99, Đường Lê Lợi, Xã Hồng Phong, Huyện Bình Gia, Tỉnh Lạng Sơn"}
+{"id": "VNTRAIN_02707", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Bà Triệu, Xã Gia Phù, Huyện Phù Yên, Tỉnh Sơn La"}
+{"id": "VNTRAIN_02771", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 4A, Đường Nguyễn Văn Cừ, Phường Hải Lĩnh, Thị xã Nghi Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02835", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Phạm Văn Đồng, Phường Bình Hưng Hòa, Quận Bình Tân, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_02955", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 12, Đường Xã Đàn, Xã Hòa Long, Huyện Lai Vung, Tỉnh Đồng Tháp"}
+{"id": "VNTRAIN_02963", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 35, Đường Điện Biên Phủ, Phường Vàng Danh, Thành phố Uông Bí, Tỉnh Quảng Ninh"}
+{"id": "VNTRAIN_03019", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 120, Đường Trần Hưng Đạo, Xã Tủa Sín Chải, Huyện Sìn Hồ, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03035", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 88, Đường Trần Phú, Xã Tổng Cọt, Huyện Hà Quảng, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03051", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 88, Đường Xã Đàn, Xã Nguyễn Huệ, Huyện Hòa An, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03171", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 204, Đường Phạm Văn Đồng, Phường An Lạc, Quận Bình Tân, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_03235", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 204, Đường Kim Mã, Xã Nhất Hòa, Huyện Bắc Sơn, Tỉnh Lạng Sơn"}
+{"id": "VNTRAIN_03275", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 204, Đường Trường Chinh, Xã Quảng Chính, Huyện Quảng Xương, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_03395", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 72, Đường Lý Thường Kiệt, Xã Xuân Lũng, Huyện Lâm Thao, Tỉnh Phú Thọ"}
+{"id": "VNTRAIN_03611", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Trường Chinh, Xã Hồ Thị Kỷ, Huyện Thới Bình, Tỉnh Cà Mau"}
+{"id": "VNTRAIN_03627", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 4A, Đường Lê Duẩn, Xã Các Sơn, Thị xã Nghi Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_03651", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 12, Đường Cầu Giấy, Xã Cai Kinh, Huyện Hữu Lũng, Tỉnh Lạng Sơn"}
+{"id": "VNTRAIN_03691", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 72, Đường Lê Lợi, Xã Ea Ning, Huyện Cư Kuin, Tỉnh Đắk Lắk"}
+{"id": "VNTRAIN_03747", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Hoàng Cầu, Xã Vĩnh Hải, Huyện Vĩnh Bảo, Thành phố Hải Phòng"}
+{"id": "VNTRAIN_03803", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 10, Đường Trần Phú, Xã Mường Lạn, Huyện Mường Ảng, Tỉnh Điện Biên"}
+{"id": "VNTRAIN_03843", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 5, Đường Lê Lợi, Xã Minh Đài, Huyện Tân Sơn, Tỉnh Phú Thọ"}
+{"id": "VNTRAIN_01763", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Lê Lợi, Xã Mỹ Hòa Hưng, Thành phố Long Xuyên, Tỉnh An Giang"}
+{"id": "VNTRAIN_01779", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 4A, Đường Quang Trung, Xã Lương Minh, Huyện Ba Chẽ, Tỉnh Quảng Ninh"}
+{"id": "VNTRAIN_01819", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Võ Văn Kiệt, Xã Thái Hòa, Huyện Hàm Yên, Tỉnh Tuyên Quang"}
+{"id": "VNTRAIN_01867", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Đội Cấn, Xã Hướng Phùng, Huyện Hướng Hóa, Tỉnh Quảng Trị"}
+{"id": "VNTRAIN_02075", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 120, Đường Đội Cấn, Xã Tam Lư, Huyện Quan Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02099", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 108, Đường Phạm Văn Đồng, Xã Tam Hợp, Huyện Quỳ Hợp, Tỉnh Nghệ An"}
+{"id": "VNTRAIN_02355", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 402, Đường Nguyễn Chí Thanh, Xã Vân Tụ, Huyện Yên Thành, Tỉnh Nghệ An"}
+{"id": "VNTRAIN_02371", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 5, Đường Trần Phú, Xã Ba Sao, Huyện Cao Lãnh, Tỉnh Đồng Tháp"}
+{"id": "VNTRAIN_02475", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Đội Cấn, Xã Sơn Lộ, Huyện Bảo Lạc, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_02659", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 5, Đường Trần Hưng Đạo, Xã Sơn Kỳ, Huyện Sơn Hà, Tỉnh Quảng Ngãi"}
+{"id": "VNTRAIN_02699", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 99, Đường Lê Lợi, Xã Hồng Phong, Huyện Bình Gia, Tỉnh Lạng Sơn"}
+{"id": "VNTRAIN_02707", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Bà Triệu, Xã Gia Phù, Huyện Phù Yên, Tỉnh Sơn La"}
+{"id": "VNTRAIN_02771", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 4A, Đường Nguyễn Văn Cừ, Phường Hải Lĩnh, Thị xã Nghi Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_02835", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Phạm Văn Đồng, Phường Bình Hưng Hòa, Quận Bình Tân, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_02955", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 12, Đường Xã Đàn, Xã Hòa Long, Huyện Lai Vung, Tỉnh Đồng Tháp"}
+{"id": "VNTRAIN_02963", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 35, Đường Điện Biên Phủ, Phường Vàng Danh, Thành phố Uông Bí, Tỉnh Quảng Ninh"}
+{"id": "VNTRAIN_03019", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 120, Đường Trần Hưng Đạo, Xã Tủa Sín Chải, Huyện Sìn Hồ, Tỉnh Lai Châu"}
+{"id": "VNTRAIN_03035", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 88, Đường Trần Phú, Xã Tổng Cọt, Huyện Hà Quảng, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03051", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 88, Đường Xã Đàn, Xã Nguyễn Huệ, Huyện Hòa An, Tỉnh Cao Bằng"}
+{"id": "VNTRAIN_03171", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 204, Đường Phạm Văn Đồng, Phường An Lạc, Quận Bình Tân, Thành phố Hồ Chí Minh"}
+{"id": "VNTRAIN_03235", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 204, Đường Kim Mã, Xã Nhất Hòa, Huyện Bắc Sơn, Tỉnh Lạng Sơn"}
+{"id": "VNTRAIN_03275", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 204, Đường Trường Chinh, Xã Quảng Chính, Huyện Quảng Xương, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_03395", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 72, Đường Lý Thường Kiệt, Xã Xuân Lũng, Huyện Lâm Thao, Tỉnh Phú Thọ"}
+{"id": "VNTRAIN_03611", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 168, Đường Trường Chinh, Xã Hồ Thị Kỷ, Huyện Thới Bình, Tỉnh Cà Mau"}
+{"id": "VNTRAIN_03627", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 4A, Đường Lê Duẩn, Xã Các Sơn, Thị xã Nghi Sơn, Tỉnh Thanh Hóa"}
+{"id": "VNTRAIN_03651", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 12, Đường Cầu Giấy, Xã Cai Kinh, Huyện Hữu Lũng, Tỉnh Lạng Sơn"}
+{"id": "VNTRAIN_03691", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 72, Đường Lê Lợi, Xã Ea Ning, Huyện Cư Kuin, Tỉnh Đắk Lắk"}
+{"id": "VNTRAIN_03747", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 15, Đường Hoàng Cầu, Xã Vĩnh Hải, Huyện Vĩnh Bảo, Thành phố Hải Phòng"}
+{"id": "VNTRAIN_03803", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 10, Đường Trần Phú, Xã Mường Lạn, Huyện Mường Ảng, Tỉnh Điện Biên"}
+{"id": "VNTRAIN_03843", "split": "train_goc", "reason": "trung_input_va_bio", "input": "Số 5, Đường Lê Lợi, Xã Minh Đài, Huyện Tân Sơn, Tỉnh Phú Thọ"}

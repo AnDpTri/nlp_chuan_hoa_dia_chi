@@ -1,0 +1,17 @@
+{
+  "BAO_CAO.md": "40641a4147a7a324a6b00dcc02267cfaabbe42e33663d09b98a79733e41689bc",
+  "checks.json": "59a7d7c7756ad455876c306f66d4c14102ac5ea8813ce0c39eccd0bdcd5129da",
+  "conversation_finals.json": "e5ce74428ab02cf9c0d5df497b58041a27ca2eef72cd66d2b5bf19cf041063ec",
+  "fixture_vong_truoc_chay_lai.json": "7e3663e6f7eed8f8c8c238ef6773dcc60f0d07af45ecd85a3bab61ae0d588ad1",
+  "independent_negative_fixtures.json": "f4e0dd77afccbeb013d19184405f203a33b5dfef6d2507a9fe23270305955787",
+  "negative_fixtures.py": "f2383bef79ca6ccefcaa0ad05902a6262da7d5d7e474dc9f1060a5f60d206084",
+  "original_sha256_before.json": "2cd69f6464adbb5937c150599fafa55b94b5ed229e16185ae3b8978682d93cc5",
+  "reproduce_engine_failures_round2.py": "264d7bbddfac031616f99a9558d30cab8d720bf3bb12d9d25f2117d5ed0b4f81",
+  "snapshot_counterpart_mismatch.json": "ac4107099cc85ee389d51d526de829d4f5b3b26c69fbc787a1fc07c9baf0097d",
+  "test_validator.log": "fcbd1ead882d695cad72a57686f2c92f526256fd8df3c97f28be30e4ed1ad81b",
+  "train_diff_vs_round2.json": "cdf93e30f334d09b359bcae3015e5ccb9742da0a8d460da3bc5fee8e0f23538a",
+  "train_independent_audit.json": "49755e1234c380b67d3eecabd70c235bfda833945f042682f7d1c7cc1ca38e6e",
+  "train_name_errors.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "train_runtime_incompatible.json": "47ee9508a97e3a0439ac6f90b08e3d3eeed41abf231971326c704a4c9699f6ec",
+  "train_validator.log": "abc54f9d301162fe0f7d128b583ecf30635c7b9d868ea723c93b68454d073e63"
+}
