@@ -98,7 +98,7 @@ class NguCanhCRF:
                 a += 1
             while b > a and not any(c.isalnum() for c in self.tokens[b-1]):
                 b -= 1
-            if a >= b:
+            if a >= b or any(k in used for k in range(a, b)):
                 continue
             # Không lấy thành phần là 'thành phố' làm đường
             if f == 'duong' and a > 0:
@@ -111,6 +111,14 @@ class NguCanhCRF:
                 proper_field = marker[1][0]
                 if proper_field in FIELDS:
                     f = proper_field
+                    if proper_field == 'thon_xom' and marker[1][1] in ('Thôn', 'Ấp', 'Xóm', 'Bản', 'Buôn'):
+                        end_idx = marker[0]
+                        while end_idx < len(self.tokens) and self.tokens[end_idx] not in {',', ';'}:
+                            if khop_tien_to(self.tokens, end_idx, CHI_TIET):
+                                break
+                            end_idx += 1
+                        if end_idx > b:
+                            b = end_idx
             if f == 'duong' and a > 0:
                 prev_tok = bo_dau(self.tokens[a-1].casefold())
                 curr_tok = bo_dau(self.tokens[a].casefold())

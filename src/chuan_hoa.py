@@ -156,7 +156,7 @@ class BoChuanHoa:
         if not chuoi.strip():
             warnings.append("dau_vao_rong")
         name_evidence = None
-        if detail.get('duong') and detail['duong'].casefold().startswith(('phòng ', 'tầng ', 'căn hộ ', 'tòa nhà ')):
+        if detail.get('duong') and detail['duong'].casefold().replace('đường ', '').replace('phố ', '').startswith(('phòng ', 'tầng ', 'căn hộ ', 'tòa nhà ', 'kios ', 'gian hàng ')):
             detail = dict(detail)
             detail['duong'] = ''
         if self.tu_dien_duong is not None and not self.hop_dong:
