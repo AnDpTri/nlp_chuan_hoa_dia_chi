@@ -15,6 +15,8 @@ class VietTatChiTietTests(unittest.TestCase):
         self.assertEqual(dd('sn384', 'so_nha'), 'Số 384')
         self.assertEqual(dd('SN 58/51', 'so_nha'), 'Số 58/51')
         self.assertEqual(dd('so315/36', 'so_nha'), 'Số 315/36')
+        self.assertEqual(dd('Nhà số 23', 'so_nha'), 'Số 23')
+        self.assertEqual(dd('Nhà 12', 'so_nha'), 'Số 12')
 
     def test_ngo_hem_kiet(self):
         self.assertEqual(dd('h.184', 'ngo_ngach_hem'), 'Hẻm 184')

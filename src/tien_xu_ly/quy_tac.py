@@ -36,7 +36,7 @@ HAU_TO_HANH_CHINH = {
 }
 
 CHI_TIET = [
-    ("so nha", "so_nha", "Số"), ("so", "so_nha", "Số"),
+    ("so nha", "so_nha", "Số"), ("nha so", "so_nha", "Số"), ("so", "so_nha", "Số"),
     ("ngo", "ngo_ngach_hem", "Ngõ"), ("ng", "ngo_ngach_hem", "Ngõ"),
     ("ngach", "ngo_ngach_hem", "Ngách"), ("hem", "ngo_ngach_hem", "Hẻm"),
     ("kiet", "ngo_ngach_hem", "Kiệt"),

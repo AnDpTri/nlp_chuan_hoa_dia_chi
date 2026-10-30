@@ -25,7 +25,7 @@ def tien_to_hien_thi(tokens, field):
 # Viết tắt chỉ đọc được khi đã biết span thuộc trường nào: "h"/"k" ở đầu câu
 # có thể là Huyện, nên không đưa vào bảng tiền tố chung CHI_TIET.
 VIET_TAT_TRONG_SPAN = {
-    'so_nha': {'sn': 'Số', 'so': 'Số', 's': 'Số'},
+    'so_nha': {'sn': 'Số', 'so': 'Số', 's': 'Số', 'nha': 'Số'},
     'ngo_ngach_hem': {'h': 'Hẻm', 'hem': 'Hẻm', 'k': 'Kiệt', 'kiet': 'Kiệt', 'ng': 'Ngõ', 'ngo': 'Ngõ',
                       'ngach': 'Ngách'},
     'thon_xom': {'kp': 'Khu phố', 'tdp': 'Tổ dân phố', 'to': 'Tổ', 'thon': 'Thôn', 'xom': 'Xóm', 'ap': 'Ấp'},
