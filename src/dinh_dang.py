@@ -72,9 +72,9 @@ def dinh_dang_span(tokens, field, tien_to_mac_dinh=True, tien_to_so_nha=None, ti
             if end < len(body) and re.fullmatch(r'\d+[A-Za-z]{0,2}', body[end]):
                 label, body = inner[1][1], body[end:]
     if field == 'so_nha':
-        clean_tokens = [t for t in body if not (t.isdigit() and len(t) in (5, 6))]
-        if not clean_tokens:
-            clean_tokens = body
+        # Không loại token 5–6 chữ số: đây có thể chính là số nhà hợp lệ.
+        # Phân biệt mã bưu chính phải dựa vào ngữ cảnh, không dựa độ dài.
+        clean_tokens = list(body)
         while clean_tokens and clean_tokens[0] in {',', ';', '.'}:
             clean_tokens.pop(0)
         while clean_tokens and clean_tokens[-1] in {',', ';', '.'}:
