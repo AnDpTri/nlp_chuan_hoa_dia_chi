@@ -20,7 +20,12 @@ if hasattr(sys.stderr, "reconfigure"):
 
 API_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = API_DIR.parent.parent.parent
-PYTHON_EXE = PROJECT_ROOT / ".venv-neural" / "Scripts" / "python.exe"
+PYTHON_CANDIDATES = [
+    Path(r"D:\nlp_chuan_hoa_dia_chi\.venv-neural\Scripts\python.exe"),
+    PROJECT_ROOT / ".venv-neural" / "Scripts" / "python.exe",
+    Path(sys.executable),
+]
+PYTHON_EXE = next((p for p in PYTHON_CANDIDATES if p.exists()), Path(sys.executable))
 PID_FILE = API_DIR / "server.pid"
 LOG_FILE = API_DIR / "api.log"
 

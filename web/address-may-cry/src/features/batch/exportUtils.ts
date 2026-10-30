@@ -71,6 +71,8 @@ export function exportToCSV(
     'ma_xa',
     'tinh',
     'ma_tinh',
+    'chuoi_co_doi_chieu',
+    'chuoi_thieu_du_lieu_doi_chieu',
     'trang_thai',
     'canh_bao',
     'elapsed_ms',
@@ -98,6 +100,7 @@ export function exportToCSV(
 
     // Các cột kết quả chuẩn hóa
     const res = item.result;
+    const haiDong = item.ket_qua_hai_dong || res?.ket_qua_hai_dong;
     if (res) {
       rowValues.push(escapeCsvField(res.dia_chi_chuan));
       rowValues.push(escapeCsvField(res.so_nha));
@@ -108,6 +111,8 @@ export function exportToCSV(
       rowValues.push(escapeCsvField(res.ma_xa));
       rowValues.push(escapeCsvField(res.tinh));
       rowValues.push(escapeCsvField(res.ma_tinh));
+      rowValues.push(escapeCsvField(haiDong?.co_doi_chieu?.chuoi || ''));
+      rowValues.push(escapeCsvField(haiDong?.thieu_du_lieu_doi_chieu?.chuoi || ''));
       rowValues.push(escapeCsvField(item.status));
       rowValues.push(escapeCsvField(res.canh_bao ? res.canh_bao.join('; ') : ''));
       rowValues.push(escapeCsvField(item.elapsed_ms != null ? String(item.elapsed_ms) : ''));
@@ -122,6 +127,8 @@ export function exportToCSV(
       rowValues.push(''); // ma_xa
       rowValues.push(''); // tinh
       rowValues.push(''); // ma_tinh
+      rowValues.push(''); // chuoi_co_doi_chieu
+      rowValues.push(''); // chuoi_thieu_du_lieu_doi_chieu
       rowValues.push(escapeCsvField(item.status || 'chua_xu_ly'));
       rowValues.push(escapeCsvField(item.error ? `Lỗi: ${item.error.message}` : ''));
       rowValues.push(escapeCsvField(item.elapsed_ms != null ? String(item.elapsed_ms) : ''));
@@ -150,6 +157,8 @@ export function exportToJSON(items: BatchItemWithMeta[], filename = 'address_may
       input: it.input,
       status: it.status,
       result: it.result || null,
+      thanh_phan: it.thanh_phan || it.result?.thanh_phan || null,
+      ket_qua_hai_dong: it.ket_qua_hai_dong || it.result?.ket_qua_hai_dong || null,
       elapsed_ms: it.elapsed_ms || null,
       error: it.error || null,
       original_columns: it.originalData || null,

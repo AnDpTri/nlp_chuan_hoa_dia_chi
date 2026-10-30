@@ -28,3 +28,6 @@ web/address-may-cry/api/*.pid
 
 # Windows folder metadata
 desktop.ini
+
+# Nhật ký chạy thử Address May Cry (chứa địa chỉ người dùng nhập)
+web/address-may-cry/api/logs/

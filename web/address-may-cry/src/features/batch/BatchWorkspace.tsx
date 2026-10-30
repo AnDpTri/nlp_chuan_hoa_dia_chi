@@ -4,6 +4,12 @@ import { normalizeBatch } from '../../shared/api';
 import { parseCSV, parsePastedLines, CSV_LIMITS } from './csvParser';
 import { exportToCSV, exportToJSON, type BatchItemWithMeta } from './exportUtils';
 import { SAMPLE_ADDRESSES, getSampleCsvContent } from './sampleData';
+import { ComponentBreakdown } from '../../components/ComponentBreakdown';
+import { describeWarning } from '../../lib/warnings';
+import { TwoLineResult } from '../../components/TwoLineResult';
+import { WarningList, CandidateList } from '../../components/WarningList';
+import { TechTrace } from '../../components/TechTrace';
+import { StatusBadge } from '../../components/StatusBadge';
 import styles from './batch.module.css';
 
 export interface BatchWorkspaceProps {
@@ -12,45 +18,6 @@ export interface BatchWorkspaceProps {
 
 const CHUNK_SIZE = 20;
 
-// Bảng giải nghĩa cảnh báo bằng tiếng Việt tự nhiên
-const WARNING_TRANSLATIONS: Record<string, { label: string; desc: string }> = {
-  xa_bi_chia: {
-    label: 'Xã bị chia tách 2025',
-    desc: 'Đơn vị hành chính cũ bị chia tách thành nhiều xã/phường mới theo mốc 01/07/2025; cần rà soát vị trí cụ thể.',
-  },
-  nhieu_cach_hieu: {
-    label: 'Nhiều cách hiểu',
-    desc: 'Đầu vào có nhiều giả thuyết địa chỉ tương đồng về điểm số xếp hạng.',
-  },
-  mo_ho_moc_cu_moi: {
-    label: 'Mơ hồ mốc cũ/mới',
-    desc: 'Địa danh vừa khớp với tên cũ vừa trùng tên đơn vị hành chính mới.',
-  },
-  dau_vao_khong_dau: {
-    label: 'Đầu vào không dấu',
-    desc: 'Địa chỉ thiếu dấu tiếng Việt; hệ thống khôi phục theo xác suất từ điển.',
-  },
-  dau_vao_viet_tat: {
-    label: 'Có từ viết tắt',
-    desc: 'Chứa các từ viết tắt tiền tố (vd: d., p., q., tt., tp.).',
-  },
-  thieu_xa: {
-    label: 'Khuyết cấp xã/phường',
-    desc: 'Không tìm thấy thông tin xã/phường hợp lệ trong chuỗi đầu vào.',
-  },
-  thieu_tinh: {
-    label: 'Khuyết cấp tỉnh/thành',
-    desc: 'Không xác định được tỉnh/thành phố tương ứng.',
-  },
-  so_nha_can_duyet: {
-    label: 'Số nhà phức hợp',
-    desc: 'Số nhà chứa ký tự kiệt/hẻm, xẹt lồng ghép hoặc số lô cần đối soát.',
-  },
-  phan_chua_phan_loai: {
-    label: 'Còn phần dư thừa',
-    desc: 'Một số từ ngữ trong địa chỉ không khớp với danh mục hành chính hay tên đường.',
-  },
-};
 
 export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
   // Chế độ nhập liệu: 'paste' (dán) | 'csv' (tệp CSV)
@@ -91,6 +58,19 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
   // Ngăn xem chi tiết (Drawer Inspector)
   const [inspectingItem, setInspectingItem] = useState<BatchItemWithMeta | null>(null);
 
+  const closeDrawerRef = useRef<HTMLButtonElement | null>(null);
+  const inspectingId = inspectingItem?.id;
+  useEffect(() => {
+    if (!inspectingId) return;
+    const opener = document.activeElement as HTMLElement | null;
+    closeDrawerRef.current?.focus();
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setInspectingItem(null); };
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('keydown', onKey);
+      opener?.focus?.();
+    };
+  }, [inspectingId]);
   // Đồng bộ item đang xem chi tiết khi danh sách cập nhật
   useEffect(() => {
     if (inspectingItem) {
@@ -422,11 +402,11 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
       {/* 1. Header & Lead Question */}
       <section className={styles.headerSection}>
         <div className={styles.titleRow}>
-          <h1 className={styles.mainTitle}>Không gian xử lý hàng loạt (Batch Workspace)</h1>
+          <h1 className={styles.mainTitle}>Chuẩn hóa hàng loạt</h1>
           <span className={styles.targetTag}>Mốc hành chính: 01/07/2025</span>
         </div>
         <p className={styles.leadQuestion}>
-          Dòng nào cần kiểm tra và xuất kết quả thế nào? Xử lý danh sách địa chỉ tự do, đối soát cảnh báo chia tách xã và xuất dữ liệu an toàn.
+          Dán danh sách hoặc tải tệp CSV, theo dõi tiến độ, lọc các dòng cần xem lại rồi xuất kết quả ra CSV hoặc JSON.
         </p>
       </section>
 
@@ -454,7 +434,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
           <div className={styles.textareaWrapper}>
             <textarea
               className={styles.addressTextarea}
-              placeholder="Dán mỗi dòng một địa chỉ cần chuẩn hóa (tối đa 1.000 dòng, mỗi dòng tối đa 2.048 ký tự)...&#10;Ví dụ:&#10;268/10 NGUYỄN VĂN LINH, PHƯỜNG XUÂN KHÁNH, CẦN THƠ&#10;45 XÔ VIẾT NGHỆ TĨNH, P.AN CƯ, NINH KIỀU, CẦN THƠ"
+              placeholder="Dán mỗi dòng một địa chỉ cần chuẩn hóa (tối đa 1.000 dòng, mỗi dòng tối đa 2.048 ký tự)…&#10;Ví dụ:&#10;268/10 NGUYỄN VĂN LINH, PHƯỜNG XUÂN KHÁNH, CẦN THƠ&#10;45 XÔ VIẾT NGHỆ TĨNH, P.AN CƯ, NINH KIỀU, CẦN THƠ"
               value={pastedText}
               onChange={e => setPastedText(e.target.value)}
               disabled={isProcessing}
@@ -489,7 +469,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
             </div>
           </div>
         ) : (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+          <div className={styles.stackCol}>
             <div
               className={`${styles.dropzone} ${isDragOver ? styles.dragOver : ''}`}
               onDragOver={e => { e.preventDefault(); setIsDragOver(true); }}
@@ -536,7 +516,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                     <strong>{csvHeaders.length}</strong> cột
                   </span>
                   <div className={styles.columnSelectorGroup}>
-                    <label htmlFor="address-col-select" style={{ fontWeight: 600 }}>Cột chứa địa chỉ:</label>
+                    <label htmlFor="address-col-select" className={styles.strongLabel}>Cột chứa địa chỉ:</label>
                     <select
                       id="address-col-select"
                       className={styles.columnSelect}
@@ -553,7 +533,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
               </div>
             )}
 
-            <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+            <div className={styles.rowEnd}>
               <button type="button" className={styles.chipBtn} onClick={handleDownloadSampleCsv}>
                 Tải tệp CSV mẫu chuẩn (.csv)
               </button>
@@ -563,14 +543,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
 
         {/* Thông báo lỗi nếu có */}
         {errorMessage && (
-          <div style={{
-            padding: '10px 14px',
-            borderRadius: 'var(--b-radius-control)',
-            backgroundColor: 'var(--b-pill-negative-bg)',
-            color: 'var(--b-negative)',
-            fontSize: 13,
-            fontWeight: 500
-          }}>
+          <div className={styles.errorBox} role="alert">
             {errorMessage}
           </div>
         )}
@@ -630,72 +603,23 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
         </div>
       </section>
 
-      {/* 3b. Hướng dẫn nghiệp vụ trạng thái ban đầu (Khi chưa có danh sách xử lý) */}
+      {/* 3b. Hướng dẫn khi chưa có danh sách */}
       {batchItems.length === 0 && (
-        <section style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-          gap: 'var(--b-gap)',
-          marginTop: 4
-        }}>
-          <div style={{
-            backgroundColor: 'var(--b-surface)',
-            border: '1px solid var(--b-border)',
-            borderRadius: 'var(--b-radius-card)',
-            padding: '18px 20px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 8
-          }}>
-            <span className={styles.guidanceTag}>
-              Mốc chuẩn hóa 2025
-            </span>
-            <h2 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: 'var(--b-text)' }}>
-              Tự động liên kết sáp nhập
-            </h2>
-            <p style={{ fontSize: 13, color: 'var(--b-muted)', lineHeight: 1.6, margin: 0 }}>
-              Hệ thống xử lý linh hoạt địa chỉ chứa mốc cũ lẫn mới trong cùng câu mà không bắt chọn mốc nguồn. Các xã/phường sáp nhập mốc 01/07/2025 được quy về mã đơn vị hành chính mới nhất.
-            </p>
+        <section className={styles.guideGrid} aria-label="Hướng dẫn nhanh">
+          <div className={styles.guideCard}>
+            <span className={styles.guidanceTag}>Mốc 01/07/2025</span>
+            <h2>Không cần chọn mốc cũ hay mới</h2>
+            <p>Địa chỉ viết theo tên cũ, tên mới hoặc lẫn cả hai đều được quy về xã/phường và tỉnh/thành áp dụng từ 01/07/2025.</p>
           </div>
-
-          <div style={{
-            backgroundColor: 'var(--b-surface)',
-            border: '1px solid var(--b-border)',
-            borderRadius: 'var(--b-radius-card)',
-            padding: '18px 20px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 8
-          }}>
-            <span className={styles.guidanceTag}>
-              Tiến trình Chunk 20
-            </span>
-            <h2 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: 'var(--b-text)' }}>
-              Minh bạch & Kiểm soát
-            </h2>
-            <p style={{ fontSize: 13, color: 'var(--b-muted)', lineHeight: 1.6, margin: 0 }}>
-              Dữ liệu được gửi theo từng đợt 20 dòng để bảo đảm an toàn bộ nhớ và đo đạc độ trễ thực tế. Bạn có thể nhấn dừng bất cứ lúc nào mà không làm mất các dòng đã xử lý xong.
-            </p>
+          <div className={styles.guideCard}>
+            <span className={styles.guidanceTag}>Xử lý từng gói</span>
+            <h2>Theo dõi tiến độ, dừng bất cứ lúc nào</h2>
+            <p>Danh sách được gửi theo từng gói 20 dòng. Khi bấm dừng, các dòng đã xử lý xong vẫn được giữ lại.</p>
           </div>
-
-          <div style={{
-            backgroundColor: 'var(--b-surface)',
-            border: '1px solid var(--b-border)',
-            borderRadius: 'var(--b-radius-card)',
-            padding: '18px 20px',
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 8
-          }}>
-            <span className={styles.guidanceTag}>
-              Xuất tệp an toàn
-            </span>
-            <h2 style={{ fontSize: 16, fontWeight: 700, margin: 0, color: 'var(--b-text)' }}>
-              Bảo vệ CSV Formula Injection
-            </h2>
-            <p style={{ fontSize: 13, color: 'var(--b-muted)', lineHeight: 1.6, margin: 0 }}>
-              Tệp xuất CSV giữ nguyên toàn bộ cột gốc, thêm 6 trường kết quả và mã hành chính. Tự động vô hiệu hóa ký tự công thức (=, +, -, @) để chống tấn công bảng tính Excel.
-            </p>
+          <div className={styles.guideCard}>
+            <span className={styles.guidanceTag}>Xuất tệp</span>
+            <h2>CSV giữ nguyên cột gốc</h2>
+            <p>Tệp CSV giữ mọi cột bạn tải lên, thêm các trường kết quả và mã hành chính. Các ô bắt đầu bằng =, +, - hoặc @ được vô hiệu hóa để an toàn khi mở bằng Excel.</p>
           </div>
         </section>
       )}
@@ -712,7 +636,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
           <div className={styles.progressStatsRow}>
             <span>
               Tiến độ: <strong>{processedCount}</strong> / {counts.total} dòng ({counts.total > 0 ? Math.round((processedCount / counts.total) * 100) : 0}%)
-              {isProcessing && ' · Đang gửi từng gói 20 địa chỉ...'}
+              {isProcessing && ' · Đang gửi từng gói 20 địa chỉ…'}
             </span>
             <span>
               Thời gian xử lý: <strong>{totalElapsedMs.toLocaleString('vi-VN')} ms</strong>
@@ -729,7 +653,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
             <span className={styles.kpiValue}>{counts.total}</span>
           </div>
           <div className={`${styles.kpiCard} ${styles.kpiWarning}`}>
-            <span className={styles.kpiLabel}>Cần kiểm tra (Review)</span>
+            <span className={styles.kpiLabel}>Cần xem lại</span>
             <span className={styles.kpiValue}>{counts.needs_review}</span>
           </div>
           <div className={`${styles.kpiCard} ${styles.kpiPositive}`}>
@@ -789,7 +713,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
             <input
               type="text"
               className={styles.searchInput}
-              placeholder="Tìm theo địa chỉ, mã xã, cảnh báo..."
+              placeholder="Tìm theo địa chỉ, mã xã, cảnh báo…"
               value={searchQuery}
               onChange={e => { setSearchQuery(e.target.value); setCurrentPage(1); }}
             />
@@ -805,18 +729,19 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
             <table className={styles.dataTable}>
               <thead>
                 <tr>
-                  <th style={{ width: 48, textAlign: 'center' }}>STT</th>
+                  <th className={styles.thIdx}>STT</th>
                   <th>Địa chỉ đầu vào</th>
                   <th>Địa chỉ chuẩn hóa (01/07/2025)</th>
-                  <th style={{ width: 140 }}>Trạng thái</th>
-                  <th style={{ width: 160 }}>Cảnh báo / Ghi chú</th>
-                  <th style={{ width: 70, textAlign: 'right' }}>Độ trễ</th>
+                  <th className={styles.thStatus}>Trạng thái</th>
+                  <th className={styles.thWarn}>Cảnh báo / Ghi chú</th>
+                  <th className={styles.thLatency}>Độ trễ</th>
+                  <th className={styles.thAction}>Thành phần</th>
                 </tr>
               </thead>
               <tbody>
                 {paginatedItems.length === 0 ? (
                   <tr>
-                    <td colSpan={6} style={{ textAlign: 'center', padding: '32px 14px', color: 'var(--b-muted)' }}>
+                    <td colSpan={7} className={styles.emptyCell}>
                       Không có dòng nào phù hợp với bộ lọc hoặc từ khóa tìm kiếm.
                     </td>
                   </tr>
@@ -825,17 +750,16 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                     <tr
                       key={item.id}
                       className={`${styles.clickableRow} ${inspectingItem?.id === item.id ? styles.selectedRow : ''}`}
-                      onClick={() => setInspectingItem(item)}
                     >
-                      <td style={{ textAlign: 'center' }} className={styles.monoCell}>
+                      <td className={`${styles.monoCell} ${styles.tdCenter}`}>
                         {item.rowIndex}
                       </td>
-                      <td style={{ maxWidth: 300, wordBreak: 'break-word' }}>
+                      <td className={styles.tdWrap}>
                         {item.input}
                       </td>
-                      <td style={{ maxWidth: 340, wordBreak: 'break-word', fontWeight: 500 }}>
+                      <td className={`${styles.tdWrap} ${styles.tdStrong}`}>
                         {item.result?.dia_chi_chuan || (
-                          <span style={{ color: 'var(--b-muted)' }}>
+                          <span className={styles.mutedText}>
                             {item.status === 'error' ? `[Lỗi: ${item.error?.message || 'Không thể xử lý'}]` : 'Chưa xử lý'}
                           </span>
                         )}
@@ -847,7 +771,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                           item.status === 'error' ? styles.statusError : styles.statusPending
                         }`}>
                           {item.status === 'processed' ? 'Đã xử lý' :
-                           item.status === 'needs_review' ? 'Cần duyệt' :
+                           item.status === 'needs_review' ? 'Cần xem lại' :
                            item.status === 'error' ? 'Lỗi' : 'Chờ xử lý'}
                         </span>
                       </td>
@@ -855,17 +779,30 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                         {item.result?.canh_bao && item.result.canh_bao.length > 0 ? (
                           <div className={styles.warningTagList}>
                             {item.result.canh_bao.map(w => (
-                              <span key={w} className={styles.warningTag} title={WARNING_TRANSLATIONS[w]?.desc || w}>
-                                {WARNING_TRANSLATIONS[w]?.label || w}
+                              <span key={w} className={styles.warningTag} title={describeWarning(w).desc}>
+                                {describeWarning(w).label}
                               </span>
                             ))}
                           </div>
                         ) : (
-                          <span style={{ color: 'var(--b-muted)', fontSize: 12 }}>-</span>
+                          <span className={styles.mutedText}>—</span>
                         )}
                       </td>
-                      <td style={{ textAlign: 'right' }} className={styles.monoCell}>
+                      <td className={`${styles.monoCell} ${styles.tdRight}`}>
                         {item.elapsed_ms != null ? `${item.elapsed_ms}ms` : '-'}
+                      </td>
+                      <td className={styles.tdCenter}>
+                        <button
+                          type="button"
+                          className={`${styles.secondaryBtn} ${styles.rowBtn}`}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setInspectingItem(item);
+                          }}
+                          title="Xem chi tiết từng thành phần"
+                        >
+                          Chi tiết
+                        </button>
                       </td>
                     </tr>
                   ))
@@ -877,7 +814,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
           {/* Mobile Cards View (< 768px) */}
           <div className={styles.mobileCardsContainer}>
             {paginatedItems.length === 0 ? (
-              <div style={{ textAlign: 'center', padding: '24px 12px', color: 'var(--b-muted)' }}>
+              <div className={styles.emptyCell}>
                 Không tìm thấy dòng phù hợp.
               </div>
             ) : (
@@ -885,7 +822,6 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                 <div
                   key={item.id}
                   className={`${styles.mobileCard} ${inspectingItem?.id === item.id ? styles.selectedMobileCard : ''}`}
-                  onClick={() => setInspectingItem(item)}
                 >
                   <div className={styles.mobileCardHeader}>
                     <span className={styles.monoCell}>#{item.rowIndex}</span>
@@ -895,7 +831,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                       item.status === 'error' ? styles.statusError : styles.statusPending
                     }`}>
                       {item.status === 'processed' ? 'Đã xử lý' :
-                       item.status === 'needs_review' ? 'Cần duyệt' :
+                       item.status === 'needs_review' ? 'Cần xem lại' :
                        item.status === 'error' ? 'Lỗi' : 'Chờ'}
                     </span>
                   </div>
@@ -907,11 +843,21 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                     <div className={styles.warningTagList}>
                       {item.result.canh_bao.map(w => (
                         <span key={w} className={styles.warningTag}>
-                          {WARNING_TRANSLATIONS[w]?.label || w}
+                          {describeWarning(w).label}
                         </span>
                       ))}
                     </div>
                   )}
+                  <button
+                    type="button"
+                    className={`${styles.secondaryBtn} ${styles.cardBtn}`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setInspectingItem(item);
+                    }}
+                  >
+                    Xem chi tiết từng thành phần
+                  </button>
                 </div>
               ))
             )}
@@ -943,7 +889,6 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
               </button>
               <select
                 className={styles.columnSelect}
-                style={{ minHeight: 32, padding: '2px 8px', fontSize: 12 }}
                 value={pageSize}
                 onChange={e => { setPageSize(Number(e.target.value)); setCurrentPage(1); }}
               >
@@ -963,6 +908,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
             className={styles.drawerPanel}
             onClick={e => e.stopPropagation()}
             role="dialog"
+            aria-modal="true"
             aria-label="Chi tiết chuẩn hóa địa chỉ"
           >
             <div className={styles.drawerHeader}>
@@ -972,6 +918,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
               <button
                 type="button"
                 className={styles.closeDrawerBtn}
+                ref={closeDrawerRef}
                 onClick={() => setInspectingItem(null)}
                 title="Đóng bảng chi tiết"
                 aria-label="Đóng bảng chi tiết"
@@ -986,7 +933,7 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
             <div className={styles.drawerBody}>
               {/* Nút kiểm tra ở chế độ đơn */}
               {onInspect && (
-                <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+                <div className={styles.rowEnd}>
                   <button
                     type="button"
                     className={styles.secondaryBtn}
@@ -995,47 +942,59 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                       setInspectingItem(null);
                     }}
                   >
-                    Kiểm tra ở chế độ đơn (Single Mode) →
+                    Mở ở màn một địa chỉ →
                   </button>
                 </div>
               )}
 
-              {/* Trạng thái & Độ trễ */}
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                <span className={`${styles.statusBadge} ${
-                  inspectingItem.status === 'processed' ? styles.statusProcessed :
-                  inspectingItem.status === 'needs_review' ? styles.statusReview :
-                  inspectingItem.status === 'error' ? styles.statusError : styles.statusPending
-                }`} style={{ fontSize: 12, padding: '4px 12px' }}>
-                  {inspectingItem.status === 'processed' ? 'Đã xử lý chuẩn hóa' :
-                   inspectingItem.status === 'needs_review' ? 'Cần rà soát (Có cảnh báo / mơ hồ)' :
-                   inspectingItem.status === 'error' ? 'Lỗi xử lý' : 'Đang chờ'}
-                </span>
+              <div className={styles.detailStatusRow}>
+                {inspectingItem.status === 'processed' || inspectingItem.status === 'needs_review' || inspectingItem.status === 'error'
+                  ? <StatusBadge status={inspectingItem.status} />
+                  : <span className={`${styles.statusBadge} ${styles.statusPending}`}>Đang chờ</span>}
                 <span className={styles.monoCell}>
-                  {inspectingItem.elapsed_ms != null ? `Độ trễ: ${inspectingItem.elapsed_ms}ms` : ''}
+                  {inspectingItem.elapsed_ms != null ? `Độ trễ: ${inspectingItem.elapsed_ms} ms` : ''}
                 </span>
               </div>
 
               {/* Đầu vào gốc */}
               <div className={styles.detailSection}>
-                <span className={styles.sectionLabel}>Đầu vào thô (Raw Input)</span>
+                <span className={styles.sectionLabel}>Địa chỉ đã nhập</span>
                 <div className={styles.detailValueBox}>{inspectingItem.input}</div>
               </div>
 
               {/* Đầu ra chuẩn hóa */}
               <div className={styles.detailSection}>
-                <span className={styles.sectionLabel}>Địa chỉ chuẩn hóa (Mốc 01/07/2025)</span>
-                <div className={styles.detailValueBox} style={{ fontWeight: 600, color: 'var(--b-accent)' }}>
+                <span className={styles.sectionLabel}>Địa chỉ ghép đầy đủ (mốc 01/07/2025)</span>
+                <div className={`${styles.detailValueBox} ${styles.detailAccent}`}>
                   {inspectingItem.result?.dia_chi_chuan || (
-                    <span style={{ color: 'var(--b-muted)' }}>Chưa có kết quả hoặc gặp lỗi</span>
+                    <span className={styles.mutedText}>Chưa có kết quả hoặc gặp lỗi</span>
                   )}
                 </div>
               </div>
 
+              {(() => {
+                const haiDong = inspectingItem.ket_qua_hai_dong || inspectingItem.result?.ket_qua_hai_dong;
+                return haiDong ? <TwoLineResult data={haiDong} /> : null;
+              })()}
+
+              {/* Bảng chi tiết từng thành phần */}
+              {(() => {
+                const thanhPhan = inspectingItem.thanh_phan || inspectingItem.result?.thanh_phan;
+                if (!thanhPhan || thanhPhan.length === 0) return null;
+                return (
+                  <div className={styles.detailSection}>
+                    <ComponentBreakdown
+                      rawAddress={inspectingItem.input}
+                      thanhPhan={thanhPhan}
+                    />
+                  </div>
+                );
+              })()}
+
               {/* 6 trường cốt lõi */}
               {inspectingItem.result && (
                 <div className={styles.detailSection}>
-                  <span className={styles.sectionLabel}>6 Trường cốt lõi & Mã hành chính</span>
+                  <span className={styles.sectionLabel}>Các trường tách riêng</span>
                   <div className={styles.fieldGrid}>
                     <div className={styles.fieldItem}>
                       <span className={styles.fieldItemLabel}>Số nhà</span>
@@ -1069,82 +1028,20 @@ export default function BatchWorkspace({ onInspect }: BatchWorkspaceProps) {
                 </div>
               )}
 
-              {/* Cảnh báo và lý do rà soát */}
-              {inspectingItem.result?.canh_bao && inspectingItem.result.canh_bao.length > 0 && (
-                <div className={styles.detailSection}>
-                  <span className={styles.sectionLabel}>Lý do cần kiểm tra ({inspectingItem.result.canh_bao.length})</span>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                    {inspectingItem.result.canh_bao.map(w => {
-                      const info = WARNING_TRANSLATIONS[w];
-                      return (
-                        <div key={w} style={{
-                          padding: '10px 12px',
-                          borderRadius: 'var(--b-radius-control)',
-                          backgroundColor: 'var(--b-pill-warning-bg)',
-                          border: '1px solid var(--b-warning)',
-                          color: 'var(--b-pill-warning-ink)'
-                        }}>
-                          <div style={{ fontWeight: 600, fontSize: 13 }}>{info?.label || w}</div>
-                          {info?.desc && <div style={{ fontSize: 12, marginTop: 2, opacity: 0.9 }}>{info.desc}</div>}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Ứng viên xã mới nếu có */}
-              {inspectingItem.result?.xa_moi_ung_vien && inspectingItem.result.xa_moi_ung_vien.length > 0 && (
-                <div className={styles.detailSection}>
-                  <span className={styles.sectionLabel}>Ứng viên xã mới khả dĩ (Sáp nhập/chia tách)</span>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                    {inspectingItem.result.xa_moi_ung_vien.map((cand, cIdx) => (
-                      <div key={cIdx} style={{
-                        padding: '8px 12px',
-                        borderRadius: 'var(--b-radius-control)',
-                        backgroundColor: 'var(--b-surface)',
-                        border: '1px solid var(--b-border)',
-                        fontSize: 13
-                      }}>
-                        Mã: <strong>{cand.ma || cand.ma_xa}</strong> · Tên: <strong>{cand.ten || cand.xa_phuong}</strong>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+              <WarningList codes={inspectingItem.result?.canh_bao ?? []} />
+              <CandidateList items={inspectingItem.result?.xa_moi_ung_vien ?? []} />
 
               {/* Thành phần chưa phân loại */}
               {inspectingItem.result?.phan_chua_phan_loai && (
                 <div className={styles.detailSection}>
                   <span className={styles.sectionLabel}>Phần chưa phân loại (Bảo toàn)</span>
-                  <div className={styles.detailValueBox} style={{ color: 'var(--b-muted)' }}>
+                  <div className={`${styles.detailValueBox} ${styles.mutedText}`}>
                     {inspectingItem.result.phan_chua_phan_loai}
                   </div>
                 </div>
               )}
 
-              {/* Debug JSON Disclosure */}
-              <details style={{
-                border: '1px solid var(--b-border)',
-                borderRadius: 'var(--b-radius-control)',
-                padding: '10px 12px',
-                fontSize: 12,
-                color: 'var(--b-muted)',
-                backgroundColor: 'var(--b-surface)'
-              }}>
-                <summary style={{ cursor: 'pointer', fontWeight: 600 }}>Xem dữ liệu phản hồi kỹ thuật (JSON)</summary>
-                <pre style={{
-                  marginTop: 10,
-                  padding: 10,
-                  backgroundColor: 'var(--b-raised)',
-                  borderRadius: 4,
-                  overflowX: 'auto',
-                  fontSize: 11,
-                  fontFamily: 'var(--b-font-mono)'
-                }}>
-                  {JSON.stringify(inspectingItem, null, 2)}
-                </pre>
-              </details>
+              <TechTrace data={inspectingItem} summary="Dữ liệu kỹ thuật (JSON) của dòng này" fileName={`dong_${inspectingItem.id}.json`} />
             </div>
           </aside>
         </div>

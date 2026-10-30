@@ -1,0 +1,703 @@
+[
+  {
+    "input": "313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ",
+    "result": {
+      "so_nha": "Số 313",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Nguyễn Văn Linh",
+      "xa_phuong": "Phường Tân An",
+      "ma_xa": "31147",
+      "tinh": "Thành phố Cần Thơ",
+      "ma_tinh": "92",
+      "dia_chi_chuan": "Số 313, Đường Nguyễn Văn Linh, Phường Tân An, Thành phố Cần Thơ",
+      "canh_bao": [
+        "loai_duong_suy_tu_crf"
+      ],
+      "xa_moi_ung_vien": [],
+      "dau_vet": [
+        {
+          "token_bat_dau": 6,
+          "token_ket_thuc": 9,
+          "ky_tu_bat_dau": 22,
+          "ky_tu_ket_thuc": 37,
+          "doan_goc": "PHƯỜNG AN KHÁNH",
+          "truong": "xa",
+          "ma": "31149",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.7
+        },
+        {
+          "token_bat_dau": 10,
+          "token_ket_thuc": 13,
+          "ky_tu_bat_dau": 39,
+          "ky_tu_ket_thuc": 53,
+          "doan_goc": "QUẬN NINH KIỀU",
+          "truong": "huyen",
+          "ma": "916",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.7
+        },
+        {
+          "token_bat_dau": 14,
+          "token_ket_thuc": 18,
+          "ky_tu_bat_dau": 55,
+          "ky_tu_ket_thuc": 72,
+          "doan_goc": "THÀNH PHỐ CẦN THƠ",
+          "truong": "tinh",
+          "ma": "92",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.7
+        },
+        {
+          "token_bat_dau": 0,
+          "token_ket_thuc": 1,
+          "ky_tu_bat_dau": 0,
+          "ky_tu_ket_thuc": 3,
+          "doan_goc": "313",
+          "truong": "so_nha",
+          "gia_tri": "Số 313",
+          "kieu_khop": "crf"
+        },
+        {
+          "token_bat_dau": 2,
+          "token_ket_thuc": 5,
+          "ky_tu_bat_dau": 5,
+          "ky_tu_ket_thuc": 20,
+          "doan_goc": "NGUYỄN VĂN LINH",
+          "truong": "duong",
+          "gia_tri": "Đường Nguyễn Văn Linh",
+          "kieu_khop": "crf"
+        }
+      ],
+      "phan_chua_phan_loai": "",
+      "thong_ke": {
+        "so_token": 18,
+        "so_ung_vien": 18,
+        "so_gia_thuyet": 26,
+        "so_cach_hieu_gan_nhat": 1,
+        "diem": 3.2882,
+        "moc_dich": "2025-07-01",
+        "mo_hinh": "char_cnn_crf_va_lambdarank",
+        "crf_model_sha256": "655db4a128c210765b267defa33c5a566debfe220d23837dcfaa3d566ab71075",
+        "crf_bio_loi_truoc_sua": 0,
+        "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+        "tra_cuu_neural": {
+          "lookups": 3,
+          "added": 0,
+          "truncated_spans": 0,
+          "truncated_lookups": 0
+        },
+        "ranker_sha256": "4712bb6e64037ce681fac4f53b5459dc952eb016624aaff48222f4cecc115a89",
+        "diem_khong_phai_xac_suat": true,
+        "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+        "tu_dien_duong_sha256": "a2910d7b69fb6bf43a25f4136a26b692939b16c546c26acd6b06a25dc02d8e38",
+        "ten_duong_da_doi": false,
+        "so_ket_qua_dich_gan_nhat": 1
+      },
+      "thanh_phan": [
+        {
+          "bat_dau": 0,
+          "ket_thuc": 3,
+          "doan_goc": "313",
+          "nhan_la": "so_nha",
+          "chuan_hoa": "Số 313",
+          "doi_chieu": "khong",
+          "ly_do": "Không có dữ liệu chuẩn để đối chiếu số nhà, chỉ chuẩn hóa cách viết",
+          "ket_qua_moi": "Số 313"
+        },
+        {
+          "bat_dau": 5,
+          "ket_thuc": 20,
+          "doan_goc": "NGUYỄN VĂN LINH",
+          "nhan_la": "duong",
+          "chuan_hoa": "Đường Nguyễn Văn Linh",
+          "doi_chieu": "khong",
+          "ly_do": "Không có dữ liệu chuẩn để đối chiếu tên đường, chỉ chuẩn hóa cách viết",
+          "ket_qua_moi": "Đường Nguyễn Văn Linh"
+        },
+        {
+          "bat_dau": 22,
+          "ket_thuc": 37,
+          "doan_goc": "PHƯỜNG AN KHÁNH",
+          "nhan_la": "xa",
+          "chuan_hoa": "Phường An Khánh",
+          "doi_chieu": "co",
+          "ly_do": "Phường An Khánh (cũ) đã nhập toàn bộ vào Phường Tân An",
+          "ket_qua_moi": "Phường Tân An"
+        },
+        {
+          "bat_dau": 39,
+          "ket_thuc": 53,
+          "doan_goc": "QUẬN NINH KIỀU",
+          "nhan_la": "huyen",
+          "chuan_hoa": "Quận Ninh Kiều",
+          "doi_chieu": "co",
+          "ly_do": "Theo cải cách hành chính 01/07/2025, không còn cấp huyện",
+          "ket_qua_moi": "Không còn cấp huyện"
+        },
+        {
+          "bat_dau": 55,
+          "ket_thuc": 72,
+          "doan_goc": "THÀNH PHỐ CẦN THƠ",
+          "nhan_la": "tinh",
+          "chuan_hoa": "Thành phố Cần Thơ",
+          "doi_chieu": "co",
+          "ly_do": "Đơn vị hành chính cấp tỉnh/thành phố",
+          "ket_qua_moi": "Thành phố Cần Thơ"
+        }
+      ],
+      "ket_qua_hai_dong": {
+        "co_doi_chieu": {
+          "xa_phuong": "Phường Tân An",
+          "ma_xa": "31147",
+          "tinh": "Thành phố Cần Thơ",
+          "ma_tinh": "92",
+          "chuoi": "Phường Tân An, Thành phố Cần Thơ"
+        },
+        "thieu_du_lieu_doi_chieu": {
+          "so_nha": "Số 313",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Nguyễn Văn Linh",
+          "chuoi": "Số 313, Đường Nguyễn Văn Linh",
+          "ghi_chu": "Chỉ chuẩn hóa cách viết, không có dữ liệu để kiểm đúng sai"
+        }
+      }
+    },
+    "elapsed_ms": 144.37,
+    "status": "needs_review",
+    "thanh_phan": [
+      {
+        "bat_dau": 0,
+        "ket_thuc": 3,
+        "doan_goc": "313",
+        "nhan_la": "so_nha",
+        "chuan_hoa": "Số 313",
+        "doi_chieu": "khong",
+        "ly_do": "Không có dữ liệu chuẩn để đối chiếu số nhà, chỉ chuẩn hóa cách viết",
+        "ket_qua_moi": "Số 313"
+      },
+      {
+        "bat_dau": 5,
+        "ket_thuc": 20,
+        "doan_goc": "NGUYỄN VĂN LINH",
+        "nhan_la": "duong",
+        "chuan_hoa": "Đường Nguyễn Văn Linh",
+        "doi_chieu": "khong",
+        "ly_do": "Không có dữ liệu chuẩn để đối chiếu tên đường, chỉ chuẩn hóa cách viết",
+        "ket_qua_moi": "Đường Nguyễn Văn Linh"
+      },
+      {
+        "bat_dau": 22,
+        "ket_thuc": 37,
+        "doan_goc": "PHƯỜNG AN KHÁNH",
+        "nhan_la": "xa",
+        "chuan_hoa": "Phường An Khánh",
+        "doi_chieu": "co",
+        "ly_do": "Phường An Khánh (cũ) đã nhập toàn bộ vào Phường Tân An",
+        "ket_qua_moi": "Phường Tân An"
+      },
+      {
+        "bat_dau": 39,
+        "ket_thuc": 53,
+        "doan_goc": "QUẬN NINH KIỀU",
+        "nhan_la": "huyen",
+        "chuan_hoa": "Quận Ninh Kiều",
+        "doi_chieu": "co",
+        "ly_do": "Theo cải cách hành chính 01/07/2025, không còn cấp huyện",
+        "ket_qua_moi": "Không còn cấp huyện"
+      },
+      {
+        "bat_dau": 55,
+        "ket_thuc": 72,
+        "doan_goc": "THÀNH PHỐ CẦN THƠ",
+        "nhan_la": "tinh",
+        "chuan_hoa": "Thành phố Cần Thơ",
+        "doi_chieu": "co",
+        "ly_do": "Đơn vị hành chính cấp tỉnh/thành phố",
+        "ket_qua_moi": "Thành phố Cần Thơ"
+      }
+    ],
+    "ket_qua_hai_dong": {
+      "co_doi_chieu": {
+        "xa_phuong": "Phường Tân An",
+        "ma_xa": "31147",
+        "tinh": "Thành phố Cần Thơ",
+        "ma_tinh": "92",
+        "chuoi": "Phường Tân An, Thành phố Cần Thơ"
+      },
+      "thieu_du_lieu_doi_chieu": {
+        "so_nha": "Số 313",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Nguyễn Văn Linh",
+        "chuoi": "Số 313, Đường Nguyễn Văn Linh",
+        "ghi_chu": "Chỉ chuẩn hóa cách viết, không có dữ liệu để kiểm đúng sai"
+      }
+    }
+  },
+  {
+    "input": "Số 10 Lê Lợi, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh, ĐT: 0901234567",
+    "result": {
+      "so_nha": "Số 10",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Lê Lợi, ĐT : 0901234567",
+      "xa_phuong": "Phường Sài Gòn",
+      "ma_xa": "26740",
+      "tinh": "Thành phố Hồ Chí Minh",
+      "ma_tinh": "79",
+      "dia_chi_chuan": "Số 10, Đường Lê Lợi, ĐT : 0901234567, Phường Sài Gòn, Thành phố Hồ Chí Minh",
+      "canh_bao": [
+        "loai_duong_suy_tu_crf"
+      ],
+      "xa_moi_ung_vien": [],
+      "dau_vet": [
+        {
+          "token_bat_dau": 5,
+          "token_ket_thuc": 8,
+          "ky_tu_bat_dau": 14,
+          "ky_tu_ket_thuc": 29,
+          "doan_goc": "Phường Bến Nghé",
+          "truong": "xa",
+          "ma": "26740",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.7
+        },
+        {
+          "token_bat_dau": 9,
+          "token_ket_thuc": 11,
+          "ky_tu_bat_dau": 31,
+          "ky_tu_ket_thuc": 37,
+          "doan_goc": "Quận 1",
+          "truong": "huyen",
+          "ma": "760",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.35
+        },
+        {
+          "token_bat_dau": 12,
+          "token_ket_thuc": 16,
+          "ky_tu_bat_dau": 39,
+          "ky_tu_ket_thuc": 53,
+          "doan_goc": "TP Hồ Chí Minh",
+          "truong": "tinh",
+          "ma": "79",
+          "moc": "cu",
+          "kieu_khop": "viet_tat",
+          "diem": 10.05
+        },
+        {
+          "token_bat_dau": 0,
+          "token_ket_thuc": 2,
+          "ky_tu_bat_dau": 0,
+          "ky_tu_ket_thuc": 5,
+          "doan_goc": "Số 10",
+          "truong": "so_nha",
+          "gia_tri": "Số 10",
+          "kieu_khop": "crf"
+        },
+        {
+          "token_bat_dau": 2,
+          "token_ket_thuc": 4,
+          "ky_tu_bat_dau": 6,
+          "ky_tu_ket_thuc": 12,
+          "doan_goc": "Lê Lợi",
+          "truong": "duong",
+          "gia_tri": "Đường Lê Lợi",
+          "kieu_khop": "crf"
+        },
+        {
+          "token_bat_dau": 17,
+          "token_ket_thuc": 20,
+          "ky_tu_bat_dau": 55,
+          "ky_tu_ket_thuc": 69,
+          "doan_goc": "ĐT: 0901234567",
+          "truong": "duong",
+          "gia_tri": "ĐT : 0901234567",
+          "kieu_khop": "crf"
+        }
+      ],
+      "phan_chua_phan_loai": "",
+      "thong_ke": {
+        "so_token": 20,
+        "so_ung_vien": 23,
+        "so_gia_thuyet": 31,
+        "so_cach_hieu_gan_nhat": 1,
+        "diem": 3.4898,
+        "moc_dich": "2025-07-01",
+        "mo_hinh": "char_cnn_crf_va_lambdarank",
+        "crf_model_sha256": "655db4a128c210765b267defa33c5a566debfe220d23837dcfaa3d566ab71075",
+        "crf_bio_loi_truoc_sua": 0,
+        "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+        "tra_cuu_neural": {
+          "lookups": 3,
+          "added": 0,
+          "truncated_spans": 0,
+          "truncated_lookups": 0
+        },
+        "ranker_sha256": "4712bb6e64037ce681fac4f53b5459dc952eb016624aaff48222f4cecc115a89",
+        "diem_khong_phai_xac_suat": true,
+        "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+        "tu_dien_duong_sha256": "a2910d7b69fb6bf43a25f4136a26b692939b16c546c26acd6b06a25dc02d8e38",
+        "ten_duong_da_doi": false,
+        "so_ket_qua_dich_gan_nhat": 1
+      },
+      "thanh_phan": [
+        {
+          "bat_dau": 0,
+          "ket_thuc": 5,
+          "doan_goc": "Số 10",
+          "nhan_la": "so_nha",
+          "chuan_hoa": "Số 10",
+          "doi_chieu": "khong",
+          "ly_do": "Không có dữ liệu chuẩn để đối chiếu số nhà, chỉ chuẩn hóa cách viết",
+          "ket_qua_moi": "Số 10"
+        },
+        {
+          "bat_dau": 6,
+          "ket_thuc": 12,
+          "doan_goc": "Lê Lợi",
+          "nhan_la": "duong",
+          "chuan_hoa": "Đường Lê Lợi",
+          "doi_chieu": "khong",
+          "ly_do": "Không có dữ liệu chuẩn để đối chiếu tên đường, chỉ chuẩn hóa cách viết",
+          "ket_qua_moi": "Đường Lê Lợi"
+        },
+        {
+          "bat_dau": 14,
+          "ket_thuc": 29,
+          "doan_goc": "Phường Bến Nghé",
+          "nhan_la": "xa",
+          "chuan_hoa": "Phường Bến Nghé",
+          "doi_chieu": "co",
+          "ly_do": "Phường Bến Nghé (cũ) đã nhập toàn bộ vào Phường Sài Gòn",
+          "ket_qua_moi": "Phường Sài Gòn"
+        },
+        {
+          "bat_dau": 31,
+          "ket_thuc": 37,
+          "doan_goc": "Quận 1",
+          "nhan_la": "huyen",
+          "chuan_hoa": "Quận 1",
+          "doi_chieu": "co",
+          "ly_do": "Theo cải cách hành chính 01/07/2025, không còn cấp huyện",
+          "ket_qua_moi": "Không còn cấp huyện"
+        },
+        {
+          "bat_dau": 39,
+          "ket_thuc": 53,
+          "doan_goc": "TP Hồ Chí Minh",
+          "nhan_la": "tinh",
+          "chuan_hoa": "Thành phố Hồ Chí Minh",
+          "doi_chieu": "co",
+          "ly_do": "Đơn vị hành chính cấp tỉnh/thành phố",
+          "ket_qua_moi": "Thành phố Hồ Chí Minh"
+        },
+        {
+          "bat_dau": 55,
+          "ket_thuc": 69,
+          "doan_goc": "ĐT: 0901234567",
+          "nhan_la": "bo_qua",
+          "chuan_hoa": "",
+          "doi_chieu": "bo_qua",
+          "ly_do": "Không thuộc địa chỉ (số điện thoại/ghi chú)",
+          "ket_qua_moi": ""
+        }
+      ],
+      "ket_qua_hai_dong": {
+        "co_doi_chieu": {
+          "xa_phuong": "Phường Sài Gòn",
+          "ma_xa": "26740",
+          "tinh": "Thành phố Hồ Chí Minh",
+          "ma_tinh": "79",
+          "chuoi": "Phường Sài Gòn, Thành phố Hồ Chí Minh"
+        },
+        "thieu_du_lieu_doi_chieu": {
+          "so_nha": "Số 10",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Lê Lợi",
+          "chuoi": "Số 10, Đường Lê Lợi",
+          "ghi_chu": "Chỉ chuẩn hóa cách viết, không có dữ liệu để kiểm đúng sai"
+        }
+      }
+    },
+    "elapsed_ms": 159.47,
+    "status": "needs_review",
+    "thanh_phan": [
+      {
+        "bat_dau": 0,
+        "ket_thuc": 5,
+        "doan_goc": "Số 10",
+        "nhan_la": "so_nha",
+        "chuan_hoa": "Số 10",
+        "doi_chieu": "khong",
+        "ly_do": "Không có dữ liệu chuẩn để đối chiếu số nhà, chỉ chuẩn hóa cách viết",
+        "ket_qua_moi": "Số 10"
+      },
+      {
+        "bat_dau": 6,
+        "ket_thuc": 12,
+        "doan_goc": "Lê Lợi",
+        "nhan_la": "duong",
+        "chuan_hoa": "Đường Lê Lợi",
+        "doi_chieu": "khong",
+        "ly_do": "Không có dữ liệu chuẩn để đối chiếu tên đường, chỉ chuẩn hóa cách viết",
+        "ket_qua_moi": "Đường Lê Lợi"
+      },
+      {
+        "bat_dau": 14,
+        "ket_thuc": 29,
+        "doan_goc": "Phường Bến Nghé",
+        "nhan_la": "xa",
+        "chuan_hoa": "Phường Bến Nghé",
+        "doi_chieu": "co",
+        "ly_do": "Phường Bến Nghé (cũ) đã nhập toàn bộ vào Phường Sài Gòn",
+        "ket_qua_moi": "Phường Sài Gòn"
+      },
+      {
+        "bat_dau": 31,
+        "ket_thuc": 37,
+        "doan_goc": "Quận 1",
+        "nhan_la": "huyen",
+        "chuan_hoa": "Quận 1",
+        "doi_chieu": "co",
+        "ly_do": "Theo cải cách hành chính 01/07/2025, không còn cấp huyện",
+        "ket_qua_moi": "Không còn cấp huyện"
+      },
+      {
+        "bat_dau": 39,
+        "ket_thuc": 53,
+        "doan_goc": "TP Hồ Chí Minh",
+        "nhan_la": "tinh",
+        "chuan_hoa": "Thành phố Hồ Chí Minh",
+        "doi_chieu": "co",
+        "ly_do": "Đơn vị hành chính cấp tỉnh/thành phố",
+        "ket_qua_moi": "Thành phố Hồ Chí Minh"
+      },
+      {
+        "bat_dau": 55,
+        "ket_thuc": 69,
+        "doan_goc": "ĐT: 0901234567",
+        "nhan_la": "bo_qua",
+        "chuan_hoa": "",
+        "doi_chieu": "bo_qua",
+        "ly_do": "Không thuộc địa chỉ (số điện thoại/ghi chú)",
+        "ket_qua_moi": ""
+      }
+    ],
+    "ket_qua_hai_dong": {
+      "co_doi_chieu": {
+        "xa_phuong": "Phường Sài Gòn",
+        "ma_xa": "26740",
+        "tinh": "Thành phố Hồ Chí Minh",
+        "ma_tinh": "79",
+        "chuoi": "Phường Sài Gòn, Thành phố Hồ Chí Minh"
+      },
+      "thieu_du_lieu_doi_chieu": {
+        "so_nha": "Số 10",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Lê Lợi",
+        "chuoi": "Số 10, Đường Lê Lợi",
+        "ghi_chu": "Chỉ chuẩn hóa cách viết, không có dữ liệu để kiểm đúng sai"
+      }
+    }
+  },
+  {
+    "input": "Xã An Khánh, Huyện Hoài Đức, Hà Nội",
+    "result": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Hà Nội",
+      "xa_phuong": "",
+      "ma_xa": "",
+      "tinh": "Thành phố Hà Nội",
+      "ma_tinh": "01",
+      "dia_chi_chuan": "Đường Hà Nội, Thành phố Hà Nội",
+      "canh_bao": [
+        "xa_bi_chia",
+        "phan_chua_phan_loai",
+        "thieu_xa",
+        "thieu_tinh_dau_vao",
+        "ten_duong_tham_chieu_train_chua_xac_minh"
+      ],
+      "xa_moi_ung_vien": [
+        {
+          "ma_xa": "00634",
+          "ten": "Phường Tây Mỗ",
+          "ma_tinh": "01"
+        },
+        {
+          "ma_xa": "09871",
+          "ten": "Xã Sơn Đồng",
+          "ma_tinh": "01"
+        },
+        {
+          "ma_xa": "09877",
+          "ten": "Xã An Khánh",
+          "ma_tinh": "01"
+        }
+      ],
+      "dau_vet": [
+        {
+          "token_bat_dau": 0,
+          "token_ket_thuc": 3,
+          "ky_tu_bat_dau": 0,
+          "ky_tu_ket_thuc": 11,
+          "doan_goc": "Xã An Khánh",
+          "truong": "xa",
+          "ma": "09877",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.7
+        },
+        {
+          "token_bat_dau": 4,
+          "token_ket_thuc": 7,
+          "ky_tu_bat_dau": 13,
+          "ky_tu_ket_thuc": 27,
+          "doan_goc": "Huyện Hoài Đức",
+          "truong": "huyen",
+          "ma": "274",
+          "moc": "cu",
+          "kieu_khop": "chinh_xac",
+          "diem": 9.7
+        }
+      ],
+      "phan_chua_phan_loai": "Hà Nội",
+      "thong_ke": {
+        "so_token": 10,
+        "so_ung_vien": 13,
+        "so_gia_thuyet": 26,
+        "so_cach_hieu_gan_nhat": 1,
+        "diem": 2.3961,
+        "moc_dich": "2025-07-01",
+        "mo_hinh": "char_cnn_crf_va_lambdarank",
+        "crf_model_sha256": "655db4a128c210765b267defa33c5a566debfe220d23837dcfaa3d566ab71075",
+        "crf_bio_loi_truoc_sua": 0,
+        "diem_nhan_dien": "log_softmax_emission_khong_phai_marginal_CRF",
+        "tra_cuu_neural": {
+          "lookups": 3,
+          "added": 0,
+          "truncated_spans": 0,
+          "truncated_lookups": 0
+        },
+        "ranker_sha256": "4712bb6e64037ce681fac4f53b5459dc952eb016624aaff48222f4cecc115a89",
+        "diem_khong_phai_xac_suat": true,
+        "phien_ban": "char_cnn_crf_v1_lambdarank_bao_ve_duong_ten_train",
+        "tu_dien_duong_sha256": "a2910d7b69fb6bf43a25f4136a26b692939b16c546c26acd6b06a25dc02d8e38",
+        "ten_duong_da_doi": true,
+        "so_ket_qua_dich_gan_nhat": 1
+      },
+      "thanh_phan": [
+        {
+          "bat_dau": 0,
+          "ket_thuc": 11,
+          "doan_goc": "Xã An Khánh",
+          "nhan_la": "xa",
+          "chuan_hoa": "Xã An Khánh",
+          "doi_chieu": "co",
+          "ly_do": "Xã cũ bị chia về 3 xã mới, chưa đủ thông tin để chọn",
+          "ket_qua_moi": ""
+        },
+        {
+          "bat_dau": 13,
+          "ket_thuc": 27,
+          "doan_goc": "Huyện Hoài Đức",
+          "nhan_la": "huyen",
+          "chuan_hoa": "Huyện Hoài Đức",
+          "doi_chieu": "co",
+          "ly_do": "Theo cải cách hành chính 01/07/2025, không còn cấp huyện",
+          "ket_qua_moi": "Không còn cấp huyện"
+        },
+        {
+          "bat_dau": 29,
+          "ket_thuc": 35,
+          "doan_goc": "Hà Nội",
+          "nhan_la": "bo_qua",
+          "chuan_hoa": "",
+          "doi_chieu": "bo_qua",
+          "ly_do": "Không thuộc địa chỉ (số điện thoại/ghi chú)",
+          "ket_qua_moi": ""
+        }
+      ],
+      "ket_qua_hai_dong": {
+        "co_doi_chieu": {
+          "xa_phuong": "",
+          "ma_xa": "",
+          "tinh": "Thành phố Hà Nội",
+          "ma_tinh": "01",
+          "chuoi": "Thành phố Hà Nội"
+        },
+        "thieu_du_lieu_doi_chieu": {
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Hà Nội",
+          "chuoi": "Đường Hà Nội",
+          "ghi_chu": "Chỉ chuẩn hóa cách viết, không có dữ liệu để kiểm đúng sai"
+        }
+      }
+    },
+    "elapsed_ms": 68.5,
+    "status": "needs_review",
+    "thanh_phan": [
+      {
+        "bat_dau": 0,
+        "ket_thuc": 11,
+        "doan_goc": "Xã An Khánh",
+        "nhan_la": "xa",
+        "chuan_hoa": "Xã An Khánh",
+        "doi_chieu": "co",
+        "ly_do": "Xã cũ bị chia về 3 xã mới, chưa đủ thông tin để chọn",
+        "ket_qua_moi": ""
+      },
+      {
+        "bat_dau": 13,
+        "ket_thuc": 27,
+        "doan_goc": "Huyện Hoài Đức",
+        "nhan_la": "huyen",
+        "chuan_hoa": "Huyện Hoài Đức",
+        "doi_chieu": "co",
+        "ly_do": "Theo cải cách hành chính 01/07/2025, không còn cấp huyện",
+        "ket_qua_moi": "Không còn cấp huyện"
+      },
+      {
+        "bat_dau": 29,
+        "ket_thuc": 35,
+        "doan_goc": "Hà Nội",
+        "nhan_la": "bo_qua",
+        "chuan_hoa": "",
+        "doi_chieu": "bo_qua",
+        "ly_do": "Không thuộc địa chỉ (số điện thoại/ghi chú)",
+        "ket_qua_moi": ""
+      }
+    ],
+    "ket_qua_hai_dong": {
+      "co_doi_chieu": {
+        "xa_phuong": "",
+        "ma_xa": "",
+        "tinh": "Thành phố Hà Nội",
+        "ma_tinh": "01",
+        "chuoi": "Thành phố Hà Nội"
+      },
+      "thieu_du_lieu_doi_chieu": {
+        "so_nha": "",
+        "ngo_ngach_hem": "",
+        "thon_xom": "",
+        "duong": "Đường Hà Nội",
+        "chuoi": "Đường Hà Nội",
+        "ghi_chu": "Chỉ chuẩn hóa cách viết, không có dữ liệu để kiểm đúng sai"
+      }
+    }
+  }
+]

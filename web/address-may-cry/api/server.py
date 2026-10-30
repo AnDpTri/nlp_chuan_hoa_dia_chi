@@ -4,6 +4,7 @@ Hỗ trợ đầy đủ:
 - GET /api/v1/health
 - POST /api/v1/normalize
 - POST /api/v1/batch
+- POST /api/v1/feedback (người dùng báo kết quả sai; chỉ ghi khi AMC_LOG=1)
 - CORS preflight OPTIONS
 - Xử lý lỗi JSON nhất quán (400, 404, 413, 503)
 - Phục vụ static build từ web/address-may-cry/dist (SPA fallback an toàn)
@@ -37,6 +38,7 @@ if str(API_DIR) not in sys.path:
     sys.path.insert(0, str(API_DIR))
 
 from engine import NlpEngineAdapter
+import nhat_ky
 
 # Giới hạn kỹ thuật theo hợp đồng
 MAX_BODY_BYTES = 1024 * 1024  # 1 MB
@@ -112,6 +114,8 @@ class AddressMayCryApiHandler(BaseHTTPRequestHandler):
             self._handle_normalize()
         elif path == "/api/v1/batch":
             self._handle_batch()
+        elif path == "/api/v1/feedback":
+            self._handle_feedback()
         elif path.startswith("/api/"):
             self._send_error_json("NOT_FOUND", "Endpoint API không tồn tại.", HTTPStatus.NOT_FOUND)
         else:
@@ -196,14 +200,22 @@ class AddressMayCryApiHandler(BaseHTTPRequestHandler):
 
         try:
             res_dict, elapsed_ms, status = eng.normalize(raw_address)
+            chan_doan = res_dict.pop("_chan_doan", None)
             response = {
                 "input": raw_address,
                 "result": res_dict,
                 "elapsed_ms": elapsed_ms,
                 "status": status,
+                "thanh_phan": res_dict.get("thanh_phan", []),
+                "ket_qua_hai_dong": res_dict.get("ket_qua_hai_dong"),
             }
+            response["log_id"] = nhat_ky.ghi("chuan_hoa", {"nguon": "mot_dia_chi", "input": raw_address,
+                                                             "status": status, "elapsed_ms": elapsed_ms,
+                                                             "engine": eng.engine_name, "result": res_dict,
+                                                             "chan_doan": chan_doan})
             self._send_json(response, HTTPStatus.OK)
         except Exception as e:
+            nhat_ky.ghi_loi(raw_address, e)
             self._send_error_json("PROCESSING_ERROR", "Lỗi trong quá trình chuẩn hóa địa chỉ.", HTTPStatus.INTERNAL_SERVER_ERROR)
 
     def _handle_batch(self) -> None:
@@ -287,14 +299,22 @@ class AddressMayCryApiHandler(BaseHTTPRequestHandler):
             # Xử lý normalize hợp lệ
             try:
                 res_dict, elapsed_ms, status = eng.normalize(addr_val)
+                chan_doan = res_dict.pop("_chan_doan", None)
                 results_items.append({
                     "id": item_id,
                     "input": addr_val,
                     "status": status,
                     "result": res_dict,
                     "elapsed_ms": elapsed_ms,
+                    "thanh_phan": res_dict.get("thanh_phan", []),
+                    "ket_qua_hai_dong": res_dict.get("ket_qua_hai_dong"),
+                    "log_id": nhat_ky.ghi("chuan_hoa", {"nguon": "hang_loat", "id": item_id, "input": addr_val,
+                                                        "status": status, "elapsed_ms": elapsed_ms,
+                                                        "engine": eng.engine_name, "result": res_dict,
+                                                        "chan_doan": chan_doan}),
                 })
-            except Exception:
+            except Exception as e:
+                nhat_ky.ghi_loi(addr_val, e)
                 results_items.append({
                     "id": item_id,
                     "input": addr_val,
@@ -308,6 +328,16 @@ class AddressMayCryApiHandler(BaseHTTPRequestHandler):
             "elapsed_ms": batch_elapsed_ms,
         }
         self._send_json(response_payload, HTTPStatus.OK)
+
+    def _handle_feedback(self) -> None:
+        body, err = self._read_body_json()
+        if err or not isinstance(body, dict) or not isinstance(body.get("input"), str):
+            self._send_error_json("INVALID_INPUT", "Cần trường 'input' (chuỗi) và tùy chọn 'log_id', 'ghi_chu'.", HTTPStatus.BAD_REQUEST)
+            return
+        ghi_chu = body.get("ghi_chu") if isinstance(body.get("ghi_chu"), str) else ""
+        log_id = nhat_ky.ghi("bao_sai", {"input": body["input"], "ref_log_id": body.get("log_id"),
+                                         "ghi_chu": ghi_chu[:1000]})
+        self._send_json({"saved": log_id is not None, "log_id": log_id}, HTTPStatus.OK)
 
     def _serve_static_or_spa(self, req_path: str) -> None:
         """Phục vụ file static từ dist nếu tồn tại, SPA fallback về index.html."""
@@ -354,7 +384,20 @@ class AddressMayCryApiHandler(BaseHTTPRequestHandler):
 
     def _send_static_file(self, filepath: Path) -> None:
         try:
-            mime_type, _ = mimetypes.guess_type(str(filepath))
+            suffix = filepath.suffix.lower()
+            if suffix == ".js":
+                mime_type = "application/javascript"
+            elif suffix == ".css":
+                mime_type = "text/css"
+            elif suffix == ".svg":
+                mime_type = "image/svg+xml"
+            elif suffix == ".json":
+                mime_type = "application/json"
+            elif suffix == ".html":
+                mime_type = "text/html"
+            else:
+                mime_type, _ = mimetypes.guess_type(str(filepath))
+
             content_type = mime_type or "application/octet-stream"
             if content_type.startswith("text/") or content_type in ("application/javascript", "application/json"):
                 content_type += "; charset=utf-8"

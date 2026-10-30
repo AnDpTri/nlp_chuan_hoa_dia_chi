@@ -1,23 +1,26 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Header } from './components/Header';
+import { Header, type TabId } from './components/Header';
 import { SingleWorkspace } from './features/single/SingleWorkspace';
 import { getHealth } from './shared/api';
 import type { HealthResponse, BatchItem } from './shared/contracts';
-
-// BatchWorkspace imported from Session B's contract path
-// @ts-ignore
 import BatchWorkspace from './features/batch/BatchWorkspace';
+import './app.css';
+
+const HASH_BY_TAB: Record<TabId, string> = { single: '#mot-dia-chi', batch: '#hang-loat' };
+
+function tabFromHash(): TabId {
+  return window.location.hash === HASH_BY_TAB.batch ? 'batch' : 'single';
+}
 
 export function App() {
-  const [activeTab, setActiveTab] = useState<'single' | 'batch'>('single');
+  const [activeTab, setActiveTab] = useState<TabId>(tabFromHash);
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [healthLoading, setHealthLoading] = useState<boolean>(true);
 
   const fetchHealth = useCallback(async () => {
     setHealthLoading(true);
     try {
-      const res = await getHealth();
-      setHealth(res);
+      setHealth(await getHealth());
     } catch {
       setHealth(null);
     } finally {
@@ -25,53 +28,42 @@ export function App() {
     }
   }, []);
 
-  useEffect(() => {
-    fetchHealth();
-  }, [fetchHealth]);
+  useEffect(() => { void fetchHealth(); }, [fetchHealth]);
 
-  const handleInspectFromBatch = useCallback((item: BatchItem) => {
-    setActiveTab('single');
+  // Địa chỉ URL phản ánh tab đang mở (có thể chia sẻ, dùng nút Quay lại)
+  useEffect(() => {
+    const onHash = () => setActiveTab(tabFromHash());
+    window.addEventListener('hashchange', onHash);
+    return () => window.removeEventListener('hashchange', onHash);
+  }, []);
+
+  const handleInspectFromBatch = useCallback((_item: BatchItem) => {
+    window.location.hash = HASH_BY_TAB.single;
   }, []);
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <div className="app-shell">
+      <a className="skip-link" href="#noi-dung-chinh">Bỏ qua tới nội dung chính</a>
       <Header
         activeTab={activeTab}
-        onTabChange={setActiveTab}
+        hrefs={HASH_BY_TAB}
         health={health}
         healthLoading={healthLoading}
         onRefreshHealth={fetchHealth}
       />
 
-      <main style={{ flex: 1, paddingBottom: 48 }}>
+      <main id="noi-dung-chinh" className="app-main" tabIndex={-1}>
         {activeTab === 'single' ? (
           <SingleWorkspace />
         ) : (
-          <div style={{ padding: '0 16px' }}>
-            {BatchWorkspace ? (
-              <BatchWorkspace onInspect={handleInspectFromBatch} />
-            ) : (
-              <div style={{ padding: 24, textAlign: 'center' }}>Đang tải mô-đun hàng loạt...</div>
-            )}
-          </div>
+          <BatchWorkspace onInspect={handleInspectFromBatch} />
         )}
       </main>
 
-      <footer style={{
-        borderTop: '1px solid var(--border)',
-        padding: '16px 20px',
-        textAlign: 'center',
-        fontSize: 12,
-        color: 'var(--muted)',
-        backgroundColor: 'var(--ground)'
-      }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 8 }}>
-          <div>
-            <strong>Address May Cry</strong> — Hệ thống Chuẩn hóa Địa chỉ Hành chính Việt Nam
-          </div>
-          <div>
-            Mốc đích: <strong>01/07/2025</strong> · Quyết định cải cách hành chính số 1111/NQ-UBTVQH15
-          </div>
+      <footer className="app-footer">
+        <div className="app-footer-inner">
+          <p><strong translate="no">Address May Cry</strong> — chuẩn hóa địa chỉ Việt Nam về mốc hành chính 01/07/2025.</p>
+          <p>Kết quả mang tính hỗ trợ, hãy kiểm tra lại các cảnh báo trước khi dùng chính thức.</p>
         </div>
       </footer>
     </div>

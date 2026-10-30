@@ -11,5 +11,7 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
 export const getHealth = (signal?: AbortSignal) => request<HealthResponse>('health', { signal });
 export const normalizeAddress = (address: string, signal?: AbortSignal) =>
   request<NormalizeResponse>('normalize', { method: 'POST', body: JSON.stringify({ address }), signal });
+export const sendFeedback = (input: string, log_id: string | null, ghi_chu: string) =>
+  request<{ saved: boolean; log_id: string | null }>('feedback', { method: 'POST', body: JSON.stringify({ input, log_id, ghi_chu }) });
 export const normalizeBatch = (addresses: BatchInput[], signal?: AbortSignal) =>
   request<BatchResponse>('batch', { method: 'POST', body: JSON.stringify({ addresses }), signal });
