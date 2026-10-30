@@ -29,6 +29,16 @@ class LoiGocLogTests(unittest.TestCase):
         self.assertEqual(r.duong, '')
         self.assertEqual(r.ma_tinh, '01')
 
+    def test_so_dien_thoai_cuoi_cau_khong_lam_mat_tinh(self):
+        # Ranker bỏ 'Hà Nội'/'THÀNH PHỐ CẦN THƠ' vì bỏ hay giữ đều ra cùng mã; giả thuyết mở rộng nhất quán giữ lại.
+        for cau, ma_tinh in [('Số 5 ngõ 12, Phường Ngọc Hà, Quận Ba Đình, Hà Nội - 0912345678', '01'),
+                             ('313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ - 0909123456', '92')]:
+            r = self.bo.chuan_hoa(cau)
+            self.assertEqual(r.ma_tinh, ma_tinh, cau)
+            self.assertNotIn('thieu_tinh_dau_vao', r.canh_bao, cau)
+            self.assertNotIn('mau_thuan_hanh_chinh', r.canh_bao, cau)
+            self.assertTrue(r.phan_chua_phan_loai.isdigit(), (cau, r.phan_chua_phan_loai))
+
     def test_duong_khoi_phuc_co_dau_vet_va_khong_con_chua_phan_loai(self):
         # 'Hoàng Văn Thụ' gán nhầm là xã (không có xã đó ở Cần Thơ) -> được khôi phục thành tên đường,
         # và phải có dấu vết + không còn nằm trong phần chưa phân loại.

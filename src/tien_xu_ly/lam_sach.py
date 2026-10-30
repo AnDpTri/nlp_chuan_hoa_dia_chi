@@ -64,6 +64,37 @@ def dau_vet_hanh_chinh_khong_khop(records, chuoi, crf_context, candidates, unkno
     return out
 
 
+def gia_thuyet_mo_rong_nhat_quan(chon, ranked, dm, crf_context):
+    """Giả thuyết gồm mọi đơn vị của giả thuyết đã chọn cộng thêm đơn vị khớp không sai chính tả, không qua tên cũ,
+    nằm trên đoạn CRF gán là hành chính, và đổi ra đúng cùng tập xã mới / tỉnh mới. Chọn nó không đổi mã kết quả,
+    chỉ giải thích thêm phần của câu mà ranker bỏ qua vì cả hai cách đều cho cùng đáp án lúc train
+    (ví dụ bỏ 'Hà Nội' trước số điện thoại)."""
+    from .xep_hang import _tap_dich
+    char_spans = getattr(crf_context, 'char_spans', None)
+    records = getattr(crf_context, 'records', None)
+    if not char_spans or not records:
+        return None
+    crf_hc = {i for i, t in enumerate(records)
+              for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
+    def khoa(p):
+        return {(u.bat_dau, u.ket_thuc, u.ma, u.cay) for u in p.ung_vien}
+    goc = khoa(chon[1])
+    dich = _tap_dich(chon[1], dm)
+    if not dich[1]:
+        return None
+    for item in ranked:
+        k = khoa(item[1])
+        if not (k > goc):
+            continue
+        them = [u for u in item[1].ung_vien if (u.bat_dau, u.ket_thuc, u.ma, u.cay) not in goc]
+        if any(u.kieu_khop == 'sai_chinh_ta' or u.ten_cu or not set(range(u.bat_dau, u.ket_thuc)) <= crf_hc
+               for u in them):
+            continue
+        if _tap_dich(item[1], dm) == dich:
+            return item
+    return None
+
+
 def _tinh_cua_duong_di(duong_di, dm):
     provinces = None
     for u in duong_di.ung_vien:
@@ -175,6 +206,10 @@ class BoLamSach:
         if hien_hanh and len(hien_hanh) < len(close):
             close = hien_hanh
             score, best, detail, spans, unknown, inferred = close[0]
+        mo_rong = gia_thuyet_mo_rong_nhat_quan(close[0], ranked, self.danh_muc, crf_context)
+        if mo_rong is not None:
+            close = [mo_rong] + close[1:]
+            score, best, detail, spans, unknown, inferred = mo_rong
         provinces_sets = [_tinh_cua_duong_di(x[1], self.danh_muc) for x in close]
         positive_provinces = set().union(*provinces_sets)
         ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""
