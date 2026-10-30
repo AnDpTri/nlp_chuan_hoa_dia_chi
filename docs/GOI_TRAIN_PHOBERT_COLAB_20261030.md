@@ -29,6 +29,9 @@
 ## Những gì đã kiểm chứng
 - Toàn bộ kiểm tra offline của `check_data.py` PASS.
 - 3/3 unit tests căn chỉnh từ ký tự sang token (kể cả nhãn yếu và xung đột thực thể) PASS.
+- Đã tải tokenizer PhoBERT tại revision `86cd7fd` về máy MSI để kiểm chứng **4/4** câu: fast tokenizer và tokenizer chính thức cho cùng dãy token ID.
+- Đã tiền xử lý **toàn bộ 5.768 train, 1.026 dev gốc và 464 dev khó** trên CPU bằng chính `train.py`, không cập nhật mô hình: train 9/100.967 subword xung đột, PyVi fallback 47/5.768; dev gốc 0/17.290 xung đột, fallback 5/1.026; dev khó 0/8.888 xung đột và 0 fallback. Cả ba qua ngưỡng chặn 1%.
+- Đã ghi file `PREFLIGHT_CPU.json` vào cùng thư mục Drive để người giám sát kiểm tra.
 - ZIP CRC và SHA-256 sau sao chép sang ổ G: PASS.
 - **Chưa chạy smoke hoặc full training trên Colab GPU**: việc đó cần người dùng mở notebook và quan sát. Không có tuyên bố accuracy PhoBERT hay chất lượng checkpoint nào khi chưa train.
 - Điểm cuối cùng cần đo là exact sáu trường và chuẩn hóa chuỗi sau khi tích hợp PhoBERT vào cùng decoder, danh mục và ranker được train lại; NER token accuracy không phải endpoint.
