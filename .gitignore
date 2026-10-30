@@ -19,3 +19,6 @@ data/test/goc/osm_public_candidates.jsonl
 # Large handover zip and staging export directory
 ban_giao/**/*.zip
 ban_giao/**/goi_gui_di/
+
+# Generated Colab train bundle copied separately to the owner's Google Drive
+/danh_gia/ket_qua/phobert_colab_package_20261030/
