@@ -11,12 +11,13 @@ from collections import defaultdict
 from .kieu_du_lieu import DonVi
 
 THU_MUC_DU_LIEU = Path(__file__).resolve().parent.parent / "data" / "clean"
+TEP_TEN_CU = Path(__file__).resolve().parent.parent / "data" / "ten_cu" / "ten_cu_alias.csv"
 
 
 class DanhMuc:
     """Hai cây hành chính và cạnh đối chiếu từ xã cũ sang xã mới."""
 
-    def __init__(self, thu_muc: Path = THU_MUC_DU_LIEU):
+    def __init__(self, thu_muc: Path = THU_MUC_DU_LIEU, tep_ten_cu: Path | None = TEP_TEN_CU):
         self.don_vi: dict[tuple[str, str], DonVi] = {}  # (cay, ma) -> DonVi
         self.con: dict[tuple[str, str], list[str]] = {}  # (cay, ma cha) -> mã con
         self.doi_chieu: dict[str, list[tuple[str, str]]] = {}  # mã xã cũ -> [(mã xã mới, kiểu)]
@@ -25,7 +26,18 @@ class DanhMuc:
         self.tinh_cu_cua_xa_moi: dict[str, set[str]] = defaultdict(set)
         self.ma_bam: dict[str, str] = {}
         self.huyen_thanh_dac_khu: dict[str, set[str]] = defaultdict(set)
+        # Tên/bí danh cũ của huyện, xã (đã nhập, đổi tên trước khi danh mục cũ được chụp).
+        # Không nằm trong ma_bam: không đổi cây, chỉ thêm khóa tra cứu vào đơn vị đã có.
+        self.ten_cu: list[tuple[str, str, str]] = []  # (cấp, mã cũ, khóa không dấu)
         self._nap(thu_muc)
+        if tep_ten_cu and Path(tep_ten_cu).exists():
+            self._nap_ten_cu(Path(tep_ten_cu))
+
+    def _nap_ten_cu(self, tep: Path) -> None:
+        with tep.open(encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                if ("cu", r["ma_cu"]) in self.don_vi:
+                    self.ten_cu.append((r["cap"], r["ma_cu"], r["khoa_alias"]))
 
     def _nap(self, thu_muc: Path) -> None:
         def doc(ten):

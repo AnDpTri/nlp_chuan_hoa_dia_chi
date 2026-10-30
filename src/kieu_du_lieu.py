@@ -31,6 +31,7 @@ class UngVien:
     diem: float
     cap: str = ""
     co_tien_to: bool = False
+    ten_cu: bool = False  # khớp qua tên cũ (đơn vị đã nhập/đổi tên trước danh mục cũ), không qua tên hiện hành
 
 
 @dataclass

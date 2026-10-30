@@ -170,6 +170,11 @@ class BoLamSach:
         score, best, detail, spans, unknown, inferred = ranked[0]
         margin = self.bo_xep_hang.nguong_gan if self.bo_xep_hang is not None else .65
         close = [x for x in ranked if score - x[0] <= margin]
+        # Tên hiện hành thắng tên cũ khi điểm gần bằng: tên cũ chỉ dùng khi không còn cách hiểu nào bằng tên hiện hành.
+        hien_hanh = [x for x in close if not any(u.ten_cu for u in x[1].ung_vien)]
+        if hien_hanh and len(hien_hanh) < len(close):
+            close = hien_hanh
+            score, best, detail, spans, unknown, inferred = close[0]
         provinces_sets = [_tinh_cua_duong_di(x[1], self.danh_muc) for x in close]
         positive_provinces = set().union(*provinces_sets)
         ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""

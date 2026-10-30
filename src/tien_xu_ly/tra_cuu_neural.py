@@ -8,7 +8,7 @@ from collections import defaultdict
 
 from ..kieu_du_lieu import UngVien
 from .quy_tac import HANH_CHINH, khop_tien_to
-from .tim_kiem import khoa_ten, chu_ten, so_dau_mau_thuan
+from .tim_kiem import khoa_ten, chu_ten, so_dau_mau_thuan, gan_mot_ky_tu
 from .tien_xu_ly import bo_dau
 
 
@@ -69,12 +69,18 @@ class TraCuuNeural:
                         actual_kind = 'chinh_xac' if chu_ten(text) == chu_ten(dv.ten) else 'khac_dau' if conflicts else 'viet_tat' if key != khoa_ten(dv.ten) else 'khong_dau'
                     elif kind == 'sai_chinh_ta' and errors == 0:
                         actual_kind = 'khac_dau' if conflicts else 'khong_dau'
-                    changed_kind = typed and prefix[1][1] and prefix[1][1] != bo_dau(dv.loai)
+                    # Tên cũ chỉ khớp đúng chữ; khớp sai chính tả phải gần chính tên hiện hành.
+                    if errors and not gan_mot_ky_tu(key, khoa_ten(dv.ten)):
+                        continue
+                    la_ten_cu = (key, code) in trie.ten_cu and era == 'cu' and errors == 0
+                    if la_ten_cu:
+                        actual_kind, conflicts = 'viet_tat', 0
+                    changed_kind = typed and prefix[1][1] and prefix[1][1] != bo_dau(dv.loai) and not la_ten_cu
                     if changed_kind and errors == 0:
                         actual_kind = 'khac_loai'
                     score = 5. + .35 * min(b - start, 5) + (4. if typed else 0.) - (2.5 if kind == 'sai_chinh_ta' else 1. if kind == 'viet_tat' else 0.)
                     score -= conflicts + ((2.5 if role == 'xa' else .75) if changed_kind else 0.)
-                    hits.append(UngVien(a, b, code, era, actual_kind, score, role, typed))
+                    hits.append(UngVien(a, b, code, era, actual_kind, score, role, typed, la_ten_cu))
             unique_hits = {}
             for u in hits:
                 k = (u.cay, u.ma)

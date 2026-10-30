@@ -211,10 +211,11 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("loai_hanh_chinh_khac_danh_muc", r.canh_bao)
 
     def test_khac_loai_xa_duoc_kiem_tra_theo_ngu_canh(self):
+        # Thị trấn Hòa Thành (huyện Hòa Thành) đã thành phường Long Hoa năm 2020 (NQ 865/NQ-UBTVQH14);
+        # lớp tên cũ đưa về xã cũ 25630 -> Phường Long Hoa mới, không đoán theo tên sang Phường Hòa Thành (25645, khác loại).
         r = self.bo.chuan_hoa("Đường Đỗ Thị Tặng, Thị trấn Hòa Thành, Huyện Hòa Thành, Tây Ninh")
-        self.assertEqual((r.ma_xa, r.ma_tinh), ("25645", "80"))
+        self.assertEqual((r.ma_xa, r.ma_tinh), ("25630", "80"))
         self.assertEqual(r.duong, "Đường Đỗ Thị Tặng")
-        self.assertIn("loai_hanh_chinh_khac_danh_muc", r.canh_bao)
         for name in ("Bản Xèo", "Trúc Bạch"):
             r = self.bo.chuan_hoa("Tỉnh " + name)
             self.assertEqual(r.ma_xa, "")
