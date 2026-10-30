@@ -1,17 +1,5 @@
-"""Gói liên kết thực thể địa chỉ v1 (Neural Candidate Scorer / Entity Linking)."""
-
-from .mo_hinh_linking import NeuralLinkingHead, ViDeBERTaLinkingModel
-from .cache_ung_vien import CandidateCacheManager, compute_cache_validation_hash
-from .du_lieu_linking import LinkingSampleBuilder, split_dataset_by_family, extract_geo_features
-from .adapter_linking import NeuralLinkingAdapter
-
-__all__ = [
-    "NeuralLinkingHead",
-    "ViDeBERTaLinkingModel",
-    "CandidateCacheManager",
-    "compute_cache_validation_hash",
-    "LinkingSampleBuilder",
-    "split_dataset_by_family",
-    "extract_geo_features",
-    "NeuralLinkingAdapter"
-]
+import sys
+from ..tien_xu_ly import lien_ket_v1 as _m
+for _name in ('adapter_linking', 'cache_ung_vien', 'du_lieu_linking', 'mo_hinh_linking'):
+    sys.modules[f'{__name__}.{_name}'] = sys.modules[f'src.tien_xu_ly.lien_ket_v1.{_name}']
+sys.modules[__name__] = _m

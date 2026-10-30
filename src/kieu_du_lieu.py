@@ -60,3 +60,42 @@ class KetQua:
     dau_vet: list[dict] = field(default_factory=list)
     phan_chua_phan_loai: str = ""
     thong_ke: dict = field(default_factory=dict)
+
+
+@dataclass
+class DiaChiSach:
+    """Địa chỉ sạch có cấu trúc, giao diện duy nhất giữa tiền xử lý và chuyển đổi."""
+
+    so_nha: str = ""
+    ngo_ngach_hem: str = ""
+    thon_xom: str = ""
+    duong: str = ""
+    phan_chua_phan_loai: str = ""
+    duong_di: DuongDi | None = None
+    don_vi_xa: UngVien | None = None
+    don_vi_huyen: UngVien | None = None
+    don_vi_tinh: UngVien | None = None
+    ma_xa: str = ""
+    ma_huyen: str = ""
+    ma_tinh: str = ""
+    xa: str = ""
+    huyen: str = ""
+    tinh: str = ""
+    cay: str = ""
+    duong_di_gan: list[DuongDi] = field(default_factory=list)
+    canh_bao_giua: list[str] = field(default_factory=list)
+    canh_bao_sau: list[str] = field(default_factory=list)
+    canh_bao: list[str] = field(default_factory=list)
+    dau_vet: list[dict] = field(default_factory=list)
+    thong_ke: dict = field(default_factory=dict)
+    chuoi: str = ""
+    records: list = field(default_factory=list)
+    candidates: list = field(default_factory=list)
+    crf_context: object = None
+    ranked: list = field(default_factory=list)
+    close: list = field(default_factory=list)
+    score: float = 0.0
+    spans: list = field(default_factory=list)
+    name_evidence: object = None
+    hop_dong: bool = False
+
