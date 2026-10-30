@@ -1,6 +1,6 @@
 """Định dạng giá trị từ span; không chạy model, không tra mã hành chính."""
 import re
-from .quy_tac import CHI_TIET, khop_tien_to
+from .quy_tac import CHI_TIET, khop_tien_to, bo_dau
 from .tach_phan_con import viet_ten
 
 def tien_to_hien_thi(tokens, field):
@@ -20,6 +20,33 @@ def tien_to_hien_thi(tokens, field):
             if end < len(tokens):
                 return end, (field, telex[raw])
     return None
+
+
+# Viết tắt chỉ đọc được khi đã biết span thuộc trường nào: "h"/"k" ở đầu câu
+# có thể là Huyện, nên không đưa vào bảng tiền tố chung CHI_TIET.
+VIET_TAT_TRONG_SPAN = {
+    'so_nha': {'sn': 'Số', 'so': 'Số', 's': 'Số'},
+    'ngo_ngach_hem': {'h': 'Hẻm', 'hem': 'Hẻm', 'k': 'Kiệt', 'kiet': 'Kiệt', 'ng': 'Ngõ', 'ngo': 'Ngõ',
+                      'ngach': 'Ngách'},
+    'thon_xom': {'kp': 'Khu phố', 'tdp': 'Tổ dân phố', 'to': 'Tổ', 'thon': 'Thôn', 'xom': 'Xóm', 'ap': 'Ấp'},
+}
+
+
+def tach_viet_tat(tokens, field):
+    """sn384 / h.184 / kp14 / SN 58 -> (nhãn, phần thân); None nếu không phải viết tắt của field."""
+    bang = VIET_TAT_TRONG_SPAN.get(field)
+    if not bang or not tokens:
+        return None
+    m = re.fullmatch(r'([^\W\d_]+)(\d\S*)?', tokens[0])
+    if not m or bo_dau(m.group(1)).casefold() not in bang:
+        return None
+    rest = tokens[1:]
+    if not m.group(2) and rest and rest[0] == '.':
+        rest = rest[1:]
+    body = ([m.group(2)] if m.group(2) else []) + rest
+    if not body or not body[0][0].isdigit():
+        return None
+    return bang[bo_dau(m.group(1)).casefold()], body
 
 
 def ghep_so_nha(tokens):
@@ -51,9 +78,13 @@ def dinh_dang_span(tokens, field, tien_to_mac_dinh=True, tien_to_so_nha=None, ti
     if tien_to_duong is None:
         tien_to_duong = tien_to_mac_dinh
     marker = tien_to_hien_thi(tokens, field)
+    viet_tat = None if marker else tach_viet_tat(tokens, field)
     if marker and marker[1][0] == field:
         end, (_, label) = marker
         body = tokens[end:]
+    elif viet_tat:
+        label, body = viet_tat
+        marker = (0, (field, label))
     else:
         body = tokens
         if field == 'so_nha':
