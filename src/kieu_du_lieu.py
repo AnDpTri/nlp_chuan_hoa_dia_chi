@@ -113,5 +113,6 @@ class NoiBoTienXuLy:
     close: list = field(default_factory=list)
     score: float = 0.0
     spans: list = field(default_factory=list)
+    chi_tiet_truoc_duong: dict = field(default_factory=dict)  # chi tiết trước bước khôi phục tên đường
     name_evidence: object = None
 

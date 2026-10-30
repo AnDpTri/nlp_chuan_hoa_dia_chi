@@ -221,6 +221,7 @@ class BoLamSach:
             tokens, candidates, crf_context, ranked
         )
         mid_warnings = self._thu_thap_canh_bao_giua(best, candidates, unknown, crf_context, inferred, detail)
+        detail_truoc_duong = dict(detail)
         detail, spans, unknown, name_evidence, road_warnings = self._xu_ly_duong_va_canh_bao(
             detail, spans, unknown, tokens, ma_tinh, chuoi
         )
@@ -255,5 +256,6 @@ class BoLamSach:
             chuoi=chuoi,
         )
         noi_bo = NoiBoTienXuLy(records=records, candidates=candidates, crf_context=crf_context, ranked=ranked,
-                               close=close, score=score, spans=spans, name_evidence=name_evidence)
+                               close=close, score=score, spans=spans, name_evidence=name_evidence,
+                               chi_tiet_truoc_duong=detail_truoc_duong)
         return sach, noi_bo

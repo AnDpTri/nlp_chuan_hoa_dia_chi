@@ -37,6 +37,16 @@ def sang_cay_moi(don_vi: list[DonViNhan], phan_con: dict[str, str], danh_muc: Da
     return (selected_ward, next(iter(provinces)) if len(provinces) == 1 else "", warnings)
 
 
+def chan_doan_chuyen_doi(dia_chi_sach: DiaChiSach, danh_muc: DanhMuc) -> list[dict]:
+    """Từng cách hiểu gần bằng đổi ra tập xã mới / tỉnh mới nào (để đọc lại vì sao để trống hay chọn)."""
+    out = []
+    for don_vi in dia_chi_sach.cach_hieu_gan or [dia_chi_sach.don_vi]:
+        wards, provinces = tap_dich(don_vi, danh_muc)
+        out.append({"don_vi": [[u.cap, u.ma, u.cay] for u in don_vi],
+                    "xa_moi": sorted(wards), "tinh_moi": sorted(provinces)})
+    return out
+
+
 def _chuan_chuoi_dia_chi(res: KetQua) -> str:
     parts = []
     if res.so_nha:

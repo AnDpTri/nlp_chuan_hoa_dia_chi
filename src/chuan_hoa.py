@@ -3,7 +3,7 @@
 from .danh_muc import DanhMuc
 from .kieu_du_lieu import KetQua
 from .tien_xu_ly.lam_sach import BoLamSach
-from .chuyen_doi import chuyen_doi
+from .chuyen_doi import chuyen_doi, chan_doan_chuyen_doi
 
 
 def _token_trong_span_ky_tu(context, token, role):
@@ -51,6 +51,17 @@ class BoChuanHoa:
         return self.bo_lam_sach.tao_gia_thuyet(chuoi)
 
     def chuan_hoa(self, chuoi: str) -> KetQua:
+        return self._chay(chuoi)[0]
+
+    def chuan_hoa_chan_doan(self, chuoi: str) -> tuple[KetQua, dict]:
+        """Như chuan_hoa, kèm bản ghi các bước trung gian của cả hai module (dùng cho nhật ký phát triển)."""
+        from .tien_xu_ly.chan_doan import tao_chan_doan
+        result, dia_chi_sach, noi_bo = self._chay(chuoi)
+        chan_doan = {"tien_xu_ly": tao_chan_doan(dia_chi_sach, noi_bo, self.danh_muc),
+                     "chuyen_doi": chan_doan_chuyen_doi(dia_chi_sach, self.danh_muc)}
+        return result, chan_doan
+
+    def _chay(self, chuoi: str):
         dia_chi_sach, noi_bo = self.bo_lam_sach.lam_sach_chi_tiet(chuoi)
         result = chuyen_doi(dia_chi_sach, self.danh_muc)
         if self.hop_dong:
@@ -61,4 +72,4 @@ class BoChuanHoa:
             )
             if result.thong_ke['hop_dong']['truong']['duong']['ung_vien_ten']:
                 result.canh_bao.append('ten_duong_chi_la_goi_y_chua_xac_minh')
-        return result
+        return result, dia_chi_sach, noi_bo
