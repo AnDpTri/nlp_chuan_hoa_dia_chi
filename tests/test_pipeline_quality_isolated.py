@@ -44,5 +44,20 @@ class TestCanChinhNeural(unittest.TestCase):
         self.assertFalse(_token_trong_span_ky_tu(context, token, "duong"))
 
 
+class TestSchemaDanhGia(unittest.TestCase):
+    def test_sau_truong_tho_khac_chuoi_chuan(self):
+        from danh_gia.do_kiem_tra_test400 import aggregate_metrics
+        ref = dict(so_nha="181", ngo_ngach_hem="", thon_xom="", duong="Tây Thạnh",
+                   ma_xa="27013", ma_tinh="79", xa_phuong="Phường Tây Thạnh",
+                   tinh="Thành phố Hồ Chí Minh",
+                   dia_chi_chuan="Số 181, Đường Tây Thạnh, Phường Tây Thạnh, Thành phố Hồ Chí Minh")
+        pred = {**ref, "so_nha": "Số 181", "duong": "Đường Tây Thạnh"}
+        metrics = aggregate_metrics([(ref, pred)])
+        self.assertEqual(metrics["dung_toan_bo_6_truong"], 0)
+        self.assertEqual(metrics["tung_truong"]["dia_chi_chuan"]["dung"], 1)
+        pred_raw = {**ref}
+        self.assertEqual(aggregate_metrics([(ref, pred_raw)])["dung_toan_bo_6_truong"], 1)
+
+
 if __name__ == "__main__":
     unittest.main()

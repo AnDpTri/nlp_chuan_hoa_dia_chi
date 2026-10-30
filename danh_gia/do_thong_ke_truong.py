@@ -25,7 +25,7 @@ pipeline = BoChuanHoa(
     bo_xep_hang=rk,
     tu_dien_duong=td,
     bao_ve_duong=True,
-    tien_to_mac_dinh=True,
+    tien_to_mac_dinh=False,  # Schema test: các trường chi tiết là giá trị thô.
 )
 
 res = danh_gia_test_set(pipeline)

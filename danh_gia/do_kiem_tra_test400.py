@@ -128,9 +128,10 @@ if __name__ == "__main__":
     parser.add_argument("--videberta-model", type=Path, default=None)
     parser.add_argument("--ranker", type=Path, default=ROOT / "mo_hinh/thu_nghiem/char_v1_01/ranker.txt")
     parser.add_argument("--tu-dien-duong", type=Path, default=ROOT / "danh_gia/ket_qua/sua_pipeline_cnn_v1_01/tu_dien_duong_train.json")
-    # Hợp đồng nhãn chuẩn yêu cầu Số/Đường; có --no-tien-to-mac-dinh để tái hiện cấu hình cũ.
-    parser.add_argument("--tien-to-mac-dinh", action=argparse.BooleanOptionalAction, default=True,
-                        help="Tự thêm tiền tố Số/Đường khi chưa xuất hiện (mặc định bật)")
+    # Các cột so_nha/duong của test lưu giá trị thô, không tự thêm Số/Đường.
+    # Cột dia_chi_chuan có tiền tố; phải báo hai phép đo riêng, không đánh đồng.
+    parser.add_argument("--tien-to-mac-dinh", action=argparse.BooleanOptionalAction, default=False,
+                        help="Tự thêm tiền tố Số/Đường (mặc định TẮT để chấm 6 trường test thô)")
     parser.add_argument("--tien-to-so-nha", type=str, default=None, help="Bật/tắt tiền tố Số: true hoặc false")
     parser.add_argument("--tien-to-duong", type=str, default=None, help="Bật/tắt tiền tố Đường: true hoặc false")
     parser.add_argument("--output", type=Path)
@@ -176,7 +177,9 @@ if __name__ == "__main__":
     print("\n" + "=" * 60)
     print("KẾT QUẢ ĐÁNH GIÁ TẬP TEST (dia_chi_test.csv):")
     print(f"1. Toàn bộ {ket_qua['tong_so_mau']} mẫu:")
-    print(f"   - Đúng toàn bộ 6 trường: {ket_qua['toan_bo_400_mau']['dung_toan_bo_6_truong']}/{ket_qua['tong_so_mau']} ({ket_qua['toan_bo_400_mau']['khop_toan_bo_6_truong_pct']}%)")
+    print(f"   - Đúng toàn bộ 6 trường thô: {ket_qua['toan_bo_400_mau']['dung_toan_bo_6_truong']}/{ket_qua['tong_so_mau']} ({ket_qua['toan_bo_400_mau']['khop_toan_bo_6_truong_pct']}%)")
+    chuoi = ket_qua['toan_bo_400_mau']['tung_truong']['dia_chi_chuan']
+    print(f"   - Khớp chuỗi địa chỉ chuẩn: {chuoi['dung']}/{chuoi['tong']} ({chuoi['ty_le_khop_pct']}%)")
     if ket_qua["tap_da_duyet_ai_292_mau"]:
         nhom = ket_qua["tap_da_duyet_ai_292_mau"]
         print(f"2. Tập đã duyệt AI ({nhom['so_mau']} mẫu):")

@@ -14,8 +14,8 @@
 2. `src/chuan_hoa.py`: tách bước dựng lại ứng viên đường từ span CNN thành nhánh không cần Transformer. Transformer chỉ được dùng khi thực sự cần mở rộng span.
 3. Nhánh fallback Transformer ghép theo offset ký tự gốc, không dùng chỉ số token CNN truy cập nhãn ViDeBERTa. Khi đề xuất không qua từ điển, span và danh sách token chưa phân loại được giữ nguyên (thay đổi theo transaction).
 4. `tests/test_pipeline_quality_isolated.py`: fixture độc lập cho hợp đồng tiền tố và căn chỉnh ký tự.
-5. `danh_gia/do_kiem_tra_test400.py`: mặc định bật hợp đồng tiền tố chuẩn, cho phép `--no-tien-to-mac-dinh` khi cần tái hiện chế độ cũ. Lấy mẫu số thực tế khi in báo cáo và từ chối ghi đè file output.
-6. `danh_gia/do_thong_ke_truong.py`: thống nhất cờ tiền tố với hợp đồng chuẩn và in mẫu số nhóm thực tế (không gắn cứng 292/108). **Chỉ sửa mã; chưa thực thi lại tập test**.
+5. `danh_gia/do_kiem_tra_test400.py`: sau khi xác minh schema test, khôi phục mặc định **tắt** tự thêm tiền tố cho sáu trường thô. In riêng khớp chuỗi `dia_chi_chuan` (vốn có tiền tố). Lấy mẫu số thực tế, từ chối ghi đè báo cáo; vẫn có `--tien-to-mac-dinh` để thử đúng định dạng dev.
+6. `danh_gia/do_thong_ke_truong.py`: dùng chế độ trường thô, in mẫu số nhóm thực tế (không gắn cứng 292/108). Kết quả test được ghi riêng ở `docs/BAO_CAO_TEST400_20261030.md`; không dùng các nhãn/lỗi test để thay model.
 
 ## Phép đo DEV mới
 
