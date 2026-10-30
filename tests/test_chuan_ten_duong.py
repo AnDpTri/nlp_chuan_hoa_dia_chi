@@ -27,9 +27,21 @@ class TenDuongTests(unittest.TestCase):
     def test_phuc_hoi_dau_nhung_can_dung_tinh_va_loai_duong(self):
         d = self.dictionary([('01', 'Đường Nguyễn Văn An')])
         self.assertEqual(d.chuan_hoa('Đường Nguyen Van An', '01')[0], 'Đường Nguyễn Văn An')
-        for value, province in [('Đường Nguyen Van An', ''), ('Đường Nguyen Van An', '02'),
+        for value, province in [('Đường Nguyen Van An', ''),
                                 ('Phố Nguyen Van An', '01'), ('Đường Tên Chưa Biết', '01')]:
             self.assertEqual(d.chuan_hoa(value, province), (value, None))
+
+    def test_toan_quoc_chi_bo_sung_dau_khi_duy_nhat_mot_dang(self):
+        d = self.dictionary([('01', 'Đường Nguyễn Văn An'), ('01', 'Phố Hòa Bình'), ('03', 'Đường Hòa Bình'),
+                             ('01', 'Đường Hóa Bình')])
+        # tỉnh 02 không có trong train: toàn từ điển có đúng một dạng có dấu => bổ sung, giữ tiền tố đã gõ
+        self.assertEqual(d.chuan_hoa('Đường Nguyen Van An', '02')[0], 'Đường Nguyễn Văn An')
+        self.assertEqual(d.chuan_hoa('Phố Nguyen Van An', '02'), ('Phố Nguyen Van An', None))
+        # toàn từ điển có hai dạng có dấu khác nhau => từ chối, không chọn theo tần suất
+        self.assertEqual(d.chuan_hoa('Đường Hoa Binh', '02'), ('Đường Hoa Binh', None))
+        # không mở rộng viết tắt ngoài tỉnh có tên đó
+        self.assertEqual(d.chuan_hoa('Đường NVA', '02'), ('Đường NVA', None))
+        self.assertEqual(d.chuan_hoa('Đường Nguyen Van An', '02')[1]['nguon'], 'tu_dien_train_toan_quoc_chua_xac_minh')
 
     def test_khong_sua_dau_da_nhap_ke_ca_NFD(self):
         d = self.dictionary([('01', 'Đường Hòa Bình')])

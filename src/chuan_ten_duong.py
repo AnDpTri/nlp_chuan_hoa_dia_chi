@@ -90,6 +90,8 @@ class TuDienDuong:
             raise ValueError('Từ điển đường phải có schema train_only phiên bản 1')
         self.index = defaultdict(dict)
         self.index_bare = defaultdict(dict)
+        self.index_qg = defaultdict(dict)
+        self.index_bare_qg = defaultdict(dict)
         for item in payload['entries']:
             parsed = tach_ten(item['canonical'])
             if not parsed or not item['province']:
@@ -98,6 +100,8 @@ class TuDienDuong:
             for key in cac_dang(words):
                 self.index[item['province'], kind, key][item['canonical'].casefold()] = item
                 self.index_bare[item['province'], key][item['canonical'].casefold()] = item
+                self.index_qg[kind, key][item['canonical'].casefold()] = item
+                self.index_bare_qg[key][item['canonical'].casefold()] = item
 
     def ung_vien(self, value, ma_tinh):
         """Trả cả va chạm và xung đột dấu; không chọn tên thay caller."""
@@ -108,19 +112,35 @@ class TuDienDuong:
         choices = list(self.index.get((ma_tinh, kind, khoa(words)), {}).values())
         if not choices and (kind == 'Đường' or not co_tien_to):
             choices = list(self.index_bare.get((ma_tinh, khoa(words)), {}).values())
+        nguon = 'tu_dien_train_chua_xac_minh'
+        if not choices:
+            choices = self._toan_quoc_duy_nhat(kind, words, co_tien_to)
+            nguon = 'tu_dien_train_toan_quoc_chua_xac_minh'
         out = []
         for item in sorted(choices, key=lambda x: x['canonical']):
             item_parsed = tach_ten(item['canonical'])
             if not item_parsed:
                 continue
             canonical_kind, canonical_words, _ = item_parsed
+            if nguon != 'tu_dien_train_chua_xac_minh' and co_tien_to:
+                canonical_kind = kind  # nhánh toàn quốc chỉ bổ sung dấu, giữ tiền tố người dùng đã gõ
             out.append({'gia_tri': canonical_kind + ' ' + ' '.join(canonical_words),
                         'canonical_kind': canonical_kind,
                         'tuong_thich_dau': tuong_thich_dau(words, canonical_words),
-                        'nguon': 'tu_dien_train_chua_xac_minh', 'ma_tinh': ma_tinh,
+                        'nguon': nguon, 'ma_tinh': ma_tinh,
                         'train_ids': list(item['train_ids']), 'tu_dien_sha256': self.ma_bam,
                         'xac_minh_doc_lap': False})
         return out
+
+    def _toan_quoc_duy_nhat(self, kind, words, co_tien_to):
+        """Tỉnh không có tên này trong train: chỉ nhận khi toàn từ điển có đúng MỘT dạng có dấu cho khóa."""
+        key = khoa(words)
+        choices = list(self.index_qg.get((kind, key), {}).values())
+        if not choices and (kind == 'Đường' or not co_tien_to):
+            choices = list(self.index_bare_qg.get(key, {}).values())
+        choices = [c for c in choices if khoa(tach_ten(c['canonical'])[1]) == key]  # không mở rộng viết tắt ngoài tỉnh
+        names = {tuple(tach_ten(c['canonical'])[1]) for c in choices}
+        return choices if len(names) == 1 else []
 
     def chuan_hoa(self, value, ma_tinh, tien_to_mac_dinh=True, tien_to_duong=None):
         if tien_to_duong is None:
@@ -143,7 +163,7 @@ class TuDienDuong:
                 new = new[len(c_kind) + 1:]
         if new.casefold() == value.casefold():
             return value, None
-        return new, {'nguon': 'tu_dien_train_chua_xac_minh', 'ma_tinh': ma_tinh,
+        return new, {'nguon': item['nguon'], 'ma_tinh': ma_tinh,
                      'gia_tri_truoc': value, 'gia_tri_sau': new,
                      'train_ids': item['train_ids'], 'tu_dien_sha256': self.ma_bam}
 
