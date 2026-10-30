@@ -128,7 +128,9 @@ if __name__ == "__main__":
     parser.add_argument("--videberta-model", type=Path, default=None)
     parser.add_argument("--ranker", type=Path, default=ROOT / "mo_hinh/thu_nghiem/char_v1_01/ranker.txt")
     parser.add_argument("--tu-dien-duong", type=Path, default=ROOT / "danh_gia/ket_qua/sua_pipeline_cnn_v1_01/tu_dien_duong_train.json")
-    parser.add_argument("--tien-to-mac-dinh", action="store_true", default=False, help="Áp dụng tiền tố mặc định (Số, Đường) khi đầu vào không có tiền tố")
+    # Hợp đồng nhãn chuẩn yêu cầu Số/Đường; có --no-tien-to-mac-dinh để tái hiện cấu hình cũ.
+    parser.add_argument("--tien-to-mac-dinh", action=argparse.BooleanOptionalAction, default=True,
+                        help="Tự thêm tiền tố Số/Đường khi chưa xuất hiện (mặc định bật)")
     parser.add_argument("--tien-to-so-nha", type=str, default=None, help="Bật/tắt tiền tố Số: true hoặc false")
     parser.add_argument("--tien-to-duong", type=str, default=None, help="Bật/tắt tiền tố Đường: true hoặc false")
     parser.add_argument("--output", type=Path)
@@ -173,11 +175,12 @@ if __name__ == "__main__":
     ket_qua = danh_gia_test_set(pipeline)
     print("\n" + "=" * 60)
     print("KẾT QUẢ ĐÁNH GIÁ TẬP TEST (dia_chi_test.csv):")
-    print(f"1. Toàn bộ 400 mẫu:")
+    print(f"1. Toàn bộ {ket_qua['tong_so_mau']} mẫu:")
     print(f"   - Đúng toàn bộ 6 trường: {ket_qua['toan_bo_400_mau']['dung_toan_bo_6_truong']}/{ket_qua['tong_so_mau']} ({ket_qua['toan_bo_400_mau']['khop_toan_bo_6_truong_pct']}%)")
     if ket_qua["tap_da_duyet_ai_292_mau"]:
-        print(f"2. Tập đã duyệt AI (292 mẫu):")
-        print(f"   - Đúng toàn bộ 6 trường: {ket_qua['tap_da_duyet_ai_292_mau']['dung_toan_bo_6_truong']}/292 ({ket_qua['tap_da_duyet_ai_292_mau']['khop_toan_bo_6_truong_pct']}%)")
+        nhom = ket_qua["tap_da_duyet_ai_292_mau"]
+        print(f"2. Tập đã duyệt AI ({nhom['so_mau']} mẫu):")
+        print(f"   - Đúng toàn bộ 6 trường: {nhom['dung_toan_bo_6_truong']}/{nhom['so_mau']} ({nhom['khop_toan_bo_6_truong_pct']}%)")
     print(f"3. Độ trễ CPU:")
     print(f"   - Mean latency: {ket_qua['latency']['mean_ms']} ms | P95: {ket_qua['latency']['p95_ms']} ms | QPS: {ket_qua['latency']['throughput_qps']}")
     print("=" * 60)
@@ -185,5 +188,7 @@ if __name__ == "__main__":
     if args.output:
         out_p = Path(args.output)
         out_p.parent.mkdir(parents=True, exist_ok=True)
-        out_p.write_text(json.dumps(ket_qua, ensure_ascii=False, indent=2), encoding="utf-8")
+        # 'x' từ chối ghi đè báo cáo của lần đo trước.
+        with out_p.open("x", encoding="utf-8", newline="\n") as f:
+            json.dump(ket_qua, f, ensure_ascii=False, indent=2)
         print(f"Đã lưu kết quả chi tiết vào: {out_p}")

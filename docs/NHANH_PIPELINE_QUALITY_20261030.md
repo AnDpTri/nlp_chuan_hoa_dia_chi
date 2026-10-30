@@ -14,6 +14,8 @@
 2. `src/chuan_hoa.py`: tách bước dựng lại ứng viên đường từ span CNN thành nhánh không cần Transformer. Transformer chỉ được dùng khi thực sự cần mở rộng span.
 3. Nhánh fallback Transformer ghép theo offset ký tự gốc, không dùng chỉ số token CNN truy cập nhãn ViDeBERTa. Khi đề xuất không qua từ điển, span và danh sách token chưa phân loại được giữ nguyên (thay đổi theo transaction).
 4. `tests/test_pipeline_quality_isolated.py`: fixture độc lập cho hợp đồng tiền tố và căn chỉnh ký tự.
+5. `danh_gia/do_kiem_tra_test400.py`: mặc định bật hợp đồng tiền tố chuẩn, cho phép `--no-tien-to-mac-dinh` khi cần tái hiện chế độ cũ. Lấy mẫu số thực tế khi in báo cáo và từ chối ghi đè file output.
+6. `danh_gia/do_thong_ke_truong.py`: thống nhất cờ tiền tố với hợp đồng chuẩn và in mẫu số nhóm thực tế (không gắn cứng 292/108). **Chỉ sửa mã; chưa thực thi lại tập test**.
 
 ## Phép đo DEV mới
 
@@ -39,7 +41,7 @@ Kết quả trong `danh_gia/ket_qua/pipeline_quality_full_20261030/BAO_CAO.json`
 
 Các số là exact-match 6 trường theo nhãn dev máy/tổng hợp, **không phải cải thiện năng lực NLP tương đương**. Thay đổi cờ chỉ ảnh hưởng định dạng tiền tố và từ đó cách chấm. Trên dev gốc, `dia_chi_chuan` nguyên chuỗi khớp 913/1.136 khi tắt so với 910/1.136 khi bật, vì vậy không được tuyên bố mọi metric đều không hồi quy.
 
-- **66/66** unit tests pipeline/char/formatter và các test mới đạt.
+- **70/70** unit tests pipeline/char/formatter/evaluator và các test mới đạt.
 - **4/4** fixture tên đường dính chữ (ví dụ train đã lưu) đúng với `bo_tach_phu=None`, không nạp Transformer, qua `danh_gia/kiem_tra_rebuild_no_transformer.py`.
 - Không suy ra được accuracy trên test cuối từ các lượt dev này.
 

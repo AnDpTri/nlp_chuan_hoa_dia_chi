@@ -25,16 +25,17 @@ pipeline = BoChuanHoa(
     bo_xep_hang=rk,
     tu_dien_duong=td,
     bao_ve_duong=True,
-    tien_to_mac_dinh=False,
+    tien_to_mac_dinh=True,
 )
 
 res = danh_gia_test_set(pipeline)
-print("=== Tap da duyet AI (292 mau) ===")
-print("Exact 6 fields:", res["tap_da_duyet_ai_292_mau"]["dung_toan_bo_6_truong"], "/ 292")
-for f, info in res["tap_da_duyet_ai_292_mau"]["tung_truong"].items():
-    print(f"  {f}: {info['dung']}/292 ({info['ty_le_khop_pct']}%)")
-
-print("\n=== Tap can duyet (108 mau) ===")
-print("Exact 6 fields:", res["tap_can_duyet_108_mau"]["dung_toan_bo_6_truong"], "/ 108")
-for f, info in res["tap_can_duyet_108_mau"]["tung_truong"].items():
-    print(f"  {f}: {info['dung']}/108 ({info['ty_le_khop_pct']}%)")
+for key, name in (("tap_da_duyet_ai_292_mau", "Tap da duyet AI"),
+                  ("tap_can_duyet_108_mau", "Tap can duyet")):
+    group = res.get(key)
+    if group is None:
+        continue
+    n = group["so_mau"]
+    print(f"=== {name} ({n} mau) ===")
+    print("Exact 6 fields:", group["dung_toan_bo_6_truong"], f"/ {n}")
+    for f, info in group["tung_truong"].items():
+        print(f"  {f}: {info['dung']}/{n} ({info['ty_le_khop_pct']}%)")
