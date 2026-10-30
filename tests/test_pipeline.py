@@ -5,7 +5,7 @@ import unicodedata
 from src.chuan_hoa import BoChuanHoa
 from src.tim_kiem import Trie
 from src.tien_xu_ly import token_co_vi_tri
-from src.kieu_du_lieu import UngVien, DuongDi
+from src.kieu_du_lieu import DonViNhan
 from src.chuyen_doi import sang_cay_moi
 
 
@@ -42,9 +42,7 @@ class PipelineTests(unittest.TestCase):
         ma = next(k for k, v in sorted(dm.doi_chieu.items()) if len({x[0] for x in v}) > 1)
         old = dm.lay("cu", ma)
         huyen = dm.lay("cu", old.ma_cha)
-        u = UngVien(0, 1, ma, "cu", "chinh_xac", 10, "xa", True)
-        p = DuongDi("cu", [u], 10)
-        target, _, warnings = sang_cay_moi(p, {}, dm)
+        target, _, warnings = sang_cay_moi([DonViNhan("xa", ma, "cu")], {}, dm)
         self.assertEqual(target, "")
         self.assertIn("xa_bi_chia", warnings)
         # Có đủ cấp nguồn nhưng không có thông tin chi tiết để chọn đích.

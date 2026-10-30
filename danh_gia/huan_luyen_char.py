@@ -131,7 +131,7 @@ def train_ranker(run_dir, extractor=None):
         relevance, vectors = [], []
         for item in items:
             _, path, detail, *_ = item
-            ward, prov, _ = sang_cay_moi(path, detail, dm)
+            ward, prov, _ = sang_cay_moi(path.ung_vien, detail, dm)
             same_admin = ward == ref['ma_xa'] and prov == ref['ma_tinh']
             same_detail = all(norm(detail[f]) == norm(ref[f]) for f in CORE[:4])
             relevance.append(3 if same_admin and same_detail else 2 if same_admin else 0)

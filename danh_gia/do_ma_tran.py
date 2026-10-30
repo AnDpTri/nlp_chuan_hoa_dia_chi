@@ -128,7 +128,7 @@ def run():
                     stage[key]['candidate_contains_ward'] += bool(ref['ma_xa']) and ref['ma_xa'] in targets
                     admin, full = False, False
                     for _, path, detail, *_ in items:
-                        w, p, _ = sang_cay_moi(path, detail, dm)
+                        w, p, _ = sang_cay_moi(path.ung_vien, detail, dm)
                         same = (w, p) == (ref['ma_xa'], ref['ma_tinh'])
                         admin |= same
                         detail = dict(detail)

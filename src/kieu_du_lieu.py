@@ -62,19 +62,31 @@ class KetQua:
     thong_ke: dict = field(default_factory=dict)
 
 
+@dataclass(frozen=True)
+class DonViNhan:
+    """Một đơn vị hành chính đã nhận ra trong địa chỉ: cấp, mã và mốc (cũ/mới) của mã."""
+
+    cap: str  # "tinh" | "huyen" | "xa"
+    ma: str
+    cay: str  # "cu" | "moi"
+
+
 @dataclass
 class DiaChiSach:
-    """Địa chỉ sạch có cấu trúc, giao diện duy nhất giữa tiền xử lý và chuyển đổi."""
+    """Địa chỉ sạch có cấu trúc, giao diện duy nhất giữa tiền xử lý và chuyển đổi.
+
+    Chỉ chứa giá trị đã chọn, không chứa token, điểm hay giả thuyết của beam;
+    một địa chỉ sạch dựng tay hoặc đọc từ nguồn khác cũng đưa thẳng vào chuyển đổi được.
+    """
 
     so_nha: str = ""
     ngo_ngach_hem: str = ""
     thon_xom: str = ""
     duong: str = ""
     phan_chua_phan_loai: str = ""
-    duong_di: DuongDi | None = None
-    don_vi_xa: UngVien | None = None
-    don_vi_huyen: UngVien | None = None
-    don_vi_tinh: UngVien | None = None
+    don_vi: list[DonViNhan] = field(default_factory=list)
+    # Các cách hiểu điểm gần bằng (kể cả cách đã chọn); rỗng nghĩa là chỉ có đúng một cách hiểu.
+    cach_hieu_gan: list[list[DonViNhan]] = field(default_factory=list)
     ma_xa: str = ""
     ma_huyen: str = ""
     ma_tinh: str = ""
@@ -82,13 +94,18 @@ class DiaChiSach:
     huyen: str = ""
     tinh: str = ""
     cay: str = ""
-    duong_di_gan: list[DuongDi] = field(default_factory=list)
     canh_bao_giua: list[str] = field(default_factory=list)
     canh_bao_sau: list[str] = field(default_factory=list)
     canh_bao: list[str] = field(default_factory=list)
     dau_vet: list[dict] = field(default_factory=list)
     thong_ke: dict = field(default_factory=dict)
     chuoi: str = ""
+
+
+@dataclass
+class NoiBoTienXuLy:
+    """Trạng thái trung gian của tiền xử lý; chỉ tiền xử lý (và bằng chứng hợp đồng) dùng, không qua chuyển đổi."""
+
     records: list = field(default_factory=list)
     candidates: list = field(default_factory=list)
     crf_context: object = None
@@ -97,5 +114,4 @@ class DiaChiSach:
     score: float = 0.0
     spans: list = field(default_factory=list)
     name_evidence: object = None
-    hop_dong: bool = False
 

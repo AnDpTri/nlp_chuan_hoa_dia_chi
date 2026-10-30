@@ -51,13 +51,13 @@ class BoChuanHoa:
         return self.bo_lam_sach.tao_gia_thuyet(chuoi)
 
     def chuan_hoa(self, chuoi: str) -> KetQua:
-        dia_chi_sach = self.bo_lam_sach.lam_sach(chuoi)
+        dia_chi_sach, noi_bo = self.bo_lam_sach.lam_sach_chi_tiet(chuoi)
         result = chuyen_doi(dia_chi_sach, self.danh_muc)
         if self.hop_dong:
             from .tien_xu_ly.hop_dong import bang_chung
             result.thong_ke['hop_dong'] = bang_chung(
-                result, dia_chi_sach.ranked, dia_chi_sach.close, dia_chi_sach.records,
-                dia_chi_sach.crf_context, self.danh_muc, self.tu_dien_duong, chuoi
+                result, noi_bo.ranked, noi_bo.close, noi_bo.records,
+                noi_bo.crf_context, self.danh_muc, self.tu_dien_duong, chuoi
             )
             if result.thong_ke['hop_dong']['truong']['duong']['ung_vien_ten']:
                 result.canh_bao.append('ten_duong_chi_la_goi_y_chua_xac_minh')

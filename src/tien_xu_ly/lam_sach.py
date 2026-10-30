@@ -5,7 +5,7 @@ Bao gồm tách token, nhận diện (CRF, CNN, Trie, ViDeBERTa), sinh và xếp
 """
 
 from ..danh_muc import DanhMuc
-from ..kieu_du_lieu import DiaChiSach
+from ..kieu_du_lieu import DiaChiSach, DonViNhan, NoiBoTienXuLy
 from .tim_kiem import dung_trie, sinh_ung_vien, bo_sung_tu_luoi_goc
 from .tien_xu_ly import token_co_vi_tri, bo_dau
 from .giai_ma import tim_duong_di
@@ -18,6 +18,11 @@ def _tao_dau_vet(records, chuoi, a, b, **extra):
     return {"token_bat_dau": a, "token_ket_thuc": b, "ky_tu_bat_dau": records[a].bat_dau,
             "ky_tu_ket_thuc": records[b-1].ket_thuc,
             "doan_goc": chuoi[records[a].bat_dau:records[b-1].ket_thuc], **extra}
+
+
+def _don_vi_nhan(duong_di):
+    """Rút giả thuyết beam về danh sách đơn vị sạch (cấp, mã, mốc), giữ thứ tự."""
+    return [DonViNhan(cap=u.cap, ma=u.ma, cay=u.cay) for u in duong_di.ung_vien]
 
 
 def _tinh_cua_duong_di(duong_di, dm):
@@ -207,6 +212,9 @@ class BoLamSach:
         return dau_vet, thong_ke
 
     def lam_sach(self, chuoi: str) -> DiaChiSach:
+        return self.lam_sach_chi_tiet(chuoi)[0]
+
+    def lam_sach_chi_tiet(self, chuoi: str) -> tuple[DiaChiSach, NoiBoTienXuLy]:
         records, candidates, crf_context, ranked = self.tao_gia_thuyet(chuoi)
         tokens = [t.chu for t in records]
         score, best, detail, spans, unknown, inferred, close, ranked, ma_tinh = self._chon_gia_thuyet_va_tinh(
@@ -224,16 +232,14 @@ class BoLamSach:
         don_vi_huyen = next((u for u in best.ung_vien if u.cap == "huyen"), None)
         don_vi_tinh = next((u for u in best.ung_vien if u.cap == "tinh"), None)
         dm = self.danh_muc
-        return DiaChiSach(
+        sach = DiaChiSach(
             so_nha=detail["so_nha"],
             ngo_ngach_hem=detail["ngo_ngach_hem"],
             thon_xom=detail["thon_xom"],
             duong=detail["duong"],
             phan_chua_phan_loai=detail["phan_chua_phan_loai"],
-            duong_di=best,
-            don_vi_xa=don_vi_xa,
-            don_vi_huyen=don_vi_huyen,
-            don_vi_tinh=don_vi_tinh,
+            don_vi=_don_vi_nhan(best),
+            cach_hieu_gan=[_don_vi_nhan(x[1]) for x in close],
             ma_xa=don_vi_xa.ma if don_vi_xa else "",
             ma_huyen=don_vi_huyen.ma if don_vi_huyen else "",
             ma_tinh=don_vi_tinh.ma if don_vi_tinh else "",
@@ -241,20 +247,13 @@ class BoLamSach:
             huyen=dm.ten_day_du(don_vi_huyen.cay, don_vi_huyen.ma) if don_vi_huyen else "",
             tinh=dm.ten_day_du(don_vi_tinh.cay, don_vi_tinh.ma) if don_vi_tinh else "",
             cay=best.cay,
-            duong_di_gan=[x[1] for x in close],
             canh_bao_giua=mid_warnings,
             canh_bao_sau=post_warnings,
             canh_bao=mid_warnings + post_warnings,
             dau_vet=dau_vet,
             thong_ke=thong_ke,
             chuoi=chuoi,
-            records=records,
-            candidates=candidates,
-            crf_context=crf_context,
-            ranked=ranked,
-            close=close,
-            score=score,
-            spans=spans,
-            name_evidence=name_evidence,
-            hop_dong=self.hop_dong,
         )
+        noi_bo = NoiBoTienXuLy(records=records, candidates=candidates, crf_context=crf_context, ranked=ranked,
+                               close=close, score=score, spans=spans, name_evidence=name_evidence)
+        return sach, noi_bo

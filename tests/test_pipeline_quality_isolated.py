@@ -69,9 +69,8 @@ class TestXaBiChia(unittest.TestCase):
 
     def test_trung_ten_nhung_bi_chia_thi_khong_tu_chon(self):
         from src.chuyen_doi import sang_cay_moi
-        from src.kieu_du_lieu import DuongDi, UngVien
-        u = UngVien(0, 2, "old", "cu", "chinh_xac", 1.0, cap="xa")
-        route = DuongDi("cu", [u], 1.0)
+        from src.kieu_du_lieu import DonViNhan
+        route = [DonViNhan("xa", "old", "cu")]
         ward, province, warn = sang_cay_moi(route, {"duong": "Đường A"},
                                             self.FakeCatalog(("new_same", "new_other")))
         self.assertEqual((ward, province), ("", "79"))
@@ -79,8 +78,8 @@ class TestXaBiChia(unittest.TestCase):
 
     def test_chuyen_doi_duy_nhat_van_duoc_chon(self):
         from src.chuyen_doi import sang_cay_moi
-        from src.kieu_du_lieu import DuongDi, UngVien
-        route = DuongDi("cu", [UngVien(0, 1, "old", "cu", "chinh_xac", 1.0, cap="xa")], 1.0)
+        from src.kieu_du_lieu import DonViNhan
+        route = [DonViNhan("xa", "old", "cu")]
         ward, province, warn = sang_cay_moi(route, {}, self.FakeCatalog(("new_same",)))
         self.assertEqual((ward, province), ("new_same", "79"))
         self.assertNotIn("xa_bi_chia", warn)

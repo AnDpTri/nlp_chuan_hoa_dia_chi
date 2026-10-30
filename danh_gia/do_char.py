@@ -131,7 +131,7 @@ def evaluate(run_dir, output, extractor=None, mode_prefix='char'):
                 oracle_admin, oracle_full = False, False
                 for item in items:
                     _, path, detail, *_ = item
-                    w, p, _ = sang_cay_moi(path, detail, dm)
+                    w, p, _ = sang_cay_moi(path.ung_vien, detail, dm)
                     same_admin = w == row['ma_xa'] and p == row['ma_tinh']
                     oracle_admin |= same_admin
                     oracle_full |= same_admin and all(norm(detail[f]) == norm(row[f]) for f in FIELDS)

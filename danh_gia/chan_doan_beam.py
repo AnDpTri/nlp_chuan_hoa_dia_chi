@@ -69,7 +69,7 @@ def run():
             records, candidates, context, items = model.last
             beam = []
             for score, path, detail, spans, unknown, inferred in items:
-                w, p, warnings = sang_cay_moi(path, detail, dm)
+                w, p, warnings = sang_cay_moi(path.ung_vien, detail, dm)
                 detail = dict(detail)
                 detail['duong'] = names.chuan_hoa(detail['duong'], p)[0]
                 pred = {f: detail[f] for f in CORE[:4]}

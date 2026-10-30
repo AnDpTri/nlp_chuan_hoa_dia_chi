@@ -6,7 +6,7 @@ from pathlib import Path
 import unittest
 
 from src.danh_muc import DanhMuc
-from src.kieu_du_lieu import DiaChiSach, KetQua
+from src.kieu_du_lieu import DiaChiSach, DonViNhan, KetQua
 from src.tien_xu_ly.lam_sach import BoLamSach
 from src.chuyen_doi import chuyen_doi
 from src.chuan_hoa import BoChuanHoa
@@ -26,8 +26,7 @@ class TestHaiModule(unittest.TestCase):
         self.assertIsInstance(sach, DiaChiSach)
         self.assertEqual(sach.duong, "Đường Lê Lợi")
         self.assertEqual(sach.so_nha, "Số 12")
-        self.assertIsNotNone(sach.don_vi_xa)
-        self.assertEqual(sach.don_vi_xa.ma, "00004")
+        self.assertIn(DonViNhan(cap="xa", ma="00004", cay="cu"), sach.don_vi)
         self.assertEqual(sach.ma_xa, "00004")
         self.assertIn("Trúc Bạch", sach.xa)
 

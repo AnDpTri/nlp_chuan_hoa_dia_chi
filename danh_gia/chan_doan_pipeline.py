@@ -17,7 +17,6 @@ from danh_gia.chay_ban_thu import ROOT, CORE, DETAIL, norm, pct, digest, align_d
 from src.chuan_hoa import BoChuanHoa
 from src.chuyen_doi import tap_dich, sang_cay_moi
 from src.giai_ma import tim_duong_di
-from src.kieu_du_lieu import DuongDi
 from src.quy_tac import cac_tien_to
 from src.tach_phan_con import tach_co_dau_vet
 from src.tien_xu_ly import token_co_vi_tri, bo_dau
@@ -54,8 +53,8 @@ def retained_paths(model, text, beam, tokens=None, candidates=None):
         occupied = {i for u in path.ung_vien for i in range(u.bat_dau, u.ket_thuc)}
         detail, spans, unknown, inferred = tach_co_dau_vet(tokens, occupied, prefixes)
         score = path.diem - .12*len(unknown) + .05*sum(s['ket_thuc']-s['bat_dau'] for s in spans)
-        w, p = tap_dich(path, model.danh_muc)
-        ma_xa, ma_tinh, _ = sang_cay_moi(path, detail, model.danh_muc)
+        w, p = tap_dich(path.ung_vien, model.danh_muc)
+        ma_xa, ma_tinh, _ = sang_cay_moi(path.ung_vien, detail, model.danh_muc)
         ranked.append({'score': score, 'path': path, 'wards': w, 'provinces': p,
                        'core': {**{f: detail[f] for f in DETAIL}, 'ma_xa': ma_xa, 'ma_tinh': ma_tinh},
                        'unknown': unknown})
@@ -79,7 +78,7 @@ def find_unique_witness(candidates, dm, ward, province, max_nodes=100000):
     """
     eligible = []
     for u in candidates:
-        w, p = tap_dich(DuongDi(u.cay, [u], 0), dm)
+        w, p = tap_dich([u], dm)
         is_provider = u.cap == 'xa' or (u.cay == 'cu' and u.ma in dm.huyen_thanh_dac_khu)
         if province not in p or (is_provider and ward not in w):
             continue
@@ -96,7 +95,7 @@ def find_unique_witness(candidates, dm, ward, province, max_nodes=100000):
             limited = True
             return None
         if selected:
-            w, p = tap_dich(DuongDi('', selected, 0), dm)
+            w, p = tap_dich(selected, dm)
             if w == {ward} and p == {province}:
                 return selected
         for j in range(start, len(eligible)):
