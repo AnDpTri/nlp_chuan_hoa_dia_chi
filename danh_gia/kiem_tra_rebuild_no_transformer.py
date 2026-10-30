@@ -20,7 +20,7 @@ def main():
     cnn = BoTachCharCNN("mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt", threads=1)
     ranker = BoXepHang("mo_hinh/thu_nghiem/char_v2_01/ranker.txt", cnn.ma_bam, dm.ma_bam)
     names = TuDienDuong("danh_gia/ket_qua/tu_dien_duong_v5.json")
-    pipeline = BoChuanHoa(danh_muc=dm, bo_tach=cnn, bo_tach_phu=None,
+    pipeline = BoChuanHoa(danh_muc=dm, bo_tach=cnn,
                           bo_xep_hang=ranker, tu_dien_duong=names,
                           bao_ve_duong=True, tien_to_mac_dinh=False)
     ok = 0

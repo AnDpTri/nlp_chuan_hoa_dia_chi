@@ -8,6 +8,7 @@ from .giai_ma import tim_duong_di
 from .tach_phan_con import tach_co_dau_vet, FIELDS
 from .chuyen_doi import tap_dich, sang_cay_moi
 from .quy_tac import cac_tien_to, CHI_TIET, khop_tien_to
+from .phuc_hoi_duong import phuc_hoi_ten_duong
 
 
 def _token_trong_span_ky_tu(context, token, role):
@@ -16,12 +17,35 @@ def _token_trong_span_ky_tu(context, token, role):
                for r, a, b in getattr(context, "char_spans", ()))
 
 
+def _chuan_chuoi_dia_chi(res: KetQua) -> str:
+    parts = []
+    if res.so_nha:
+        parts.append(res.so_nha if res.so_nha.startswith(("Số ", "Số")) else f"Số {res.so_nha}")
+    if res.ngo_ngach_hem:
+        parts.append(res.ngo_ngach_hem)
+    if res.thon_xom:
+        parts.append(res.thon_xom)
+    if res.duong:
+        road_pfx = ("Đường ", "Phố ", "Quốc lộ ", "Tỉnh lộ ", "Xa lộ ", "Đại lộ ", "ĐT ", "HL ", "Hương lộ ")
+        parts.append(res.duong if any(res.duong.startswith(p) for p in road_pfx) else f"Đường {res.duong}")
+    if res.xa_phuong:
+        parts.append(res.xa_phuong)
+    if res.tinh:
+        parts.append(res.tinh)
+    return ", ".join(parts)
+
+
+def _tao_dau_vet(records, chuoi, a, b, **extra):
+    return {"token_bat_dau": a, "token_ket_thuc": b, "ky_tu_bat_dau": records[a].bat_dau,
+            "ky_tu_ket_thuc": records[b-1].ket_thuc,
+            "doan_goc": chuoi[records[a].bat_dau:records[b-1].ket_thuc], **extra}
+
+
 class BoChuanHoa:
     PHIEN_BAN = "baseline_luat_v3"
     def __init__(self, danh_muc: DanhMuc | None = None, beam: int = 40, bo_tach=None, bo_xep_hang=None,
                  tu_dien_duong=None, bao_ve_duong=False, hop_dong=False, tien_to_mac_dinh: bool = True,
-                 tien_to_so_nha: bool | None = None, tien_to_duong: bool | None = None,
-                 bo_tach_phu=None):
+                 tien_to_so_nha: bool | None = None, tien_to_duong: bool | None = None):
         if bo_xep_hang is not None and not hasattr(bo_tach, 'chuan_bi_chuoi'):
             raise ValueError('Ranker thử nghiệm cần bộ nhận diện có đầu ra ký tự')
         self.danh_muc = danh_muc or DanhMuc()
@@ -29,7 +53,6 @@ class BoChuanHoa:
             raise ValueError("beam phải >= 1")
         self.beam = beam
         self.bo_tach = bo_tach
-        self.bo_tach_phu = bo_tach_phu
         self.bo_xep_hang = bo_xep_hang
         self.tu_dien_duong = tu_dien_duong
         self.bao_ve_duong = bao_ve_duong
@@ -108,9 +131,7 @@ class BoChuanHoa:
             ranked.append((score, path, detail, spans, unknown, inferred))
         return records, candidates, crf_context, ranked
 
-    def chuan_hoa(self, chuoi: str) -> KetQua:
-        records, candidates, crf_context, ranked = self.tao_gia_thuyet(chuoi)
-        tokens = [t.chu for t in records]
+    def _chon_gia_thuyet(self, tokens, candidates, crf_context, ranked):
         dm = self.danh_muc
         if self.bo_xep_hang is not None:
             from .xep_hang import dac_trung_gia_thuyet
@@ -120,7 +141,7 @@ class BoChuanHoa:
         ranked.sort(key=lambda x: -x[0])
         score, best, detail, spans, unknown, inferred = ranked[0]
         margin = self.bo_xep_hang.nguong_gan if self.bo_xep_hang is not None else .65
-        close = [x for x in ranked if score-x[0] <= margin]
+        close = [x for x in ranked if score - x[0] <= margin]
         target_sets = [tap_dich(x[1], dm) for x in close]
         wards, provinces = tap_dich(best, dm)
         ma_xa, ma_tinh, warnings = sang_cay_moi(best, detail, dm)
@@ -135,7 +156,10 @@ class BoChuanHoa:
             positive_provinces = set().union(*(p for _, p in target_sets))
             # Nhánh bỏ qua tỉnh không được xem là bằng chứng phủ định tỉnh.
             ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""
-        all_wards = set().union(*(w for w, _ in target_sets))
+        return (score, best, detail, spans, unknown, inferred, close, outcomes, target_sets, ma_xa, ma_tinh, warnings, wards)
+
+    def _xac_lap_canh_bao(self, warnings, wards, best, candidates, unknown, crf_context, inferred,
+                          detail, ma_xa, ma_tinh, chuoi):
         if len(wards) > 1:
             warnings.append("xa_bi_chia")
         occupied = {i for u in best.ung_vien for i in range(u.bat_dau, u.ket_thuc)}
@@ -163,173 +187,8 @@ class BoChuanHoa:
             warnings.append("thieu_tinh_dau_vao")
         if not chuoi.strip():
             warnings.append("dau_vao_rong")
-        name_evidence = None
-        if detail.get('duong') and detail['duong'].casefold().replace('đường ', '').replace('phố ', '').startswith(('phòng ', 'tầng ', 'căn hộ ', 'tòa nhà ', 'kios ', 'gian hàng ')):
-            detail = dict(detail)
-            detail['duong'] = ''
-        if self.tu_dien_duong is not None and not self.hop_dong:
-            detail = dict(detail)
-            curr_duong = detail['duong']
-            new_duong, name_evidence = self.tu_dien_duong.chuan_hoa(
-                curr_duong, ma_tinh,
-                tien_to_mac_dinh=self.tien_to_mac_dinh,
-                tien_to_duong=self.tien_to_duong
-            )
-            if not name_evidence and curr_duong and ma_tinh:
-                duong_spans = [s for s in spans if s.get('truong') == 'duong']
-                if duong_spans:
-                    end_idx = duong_spans[-1]['ket_thuc']
-                    cand = curr_duong
-                    while end_idx < len(tokens) and end_idx in unknown and tokens[end_idx] not in {',', ';', '.', '-'}:
-                        cand = cand + ' ' + tokens[end_idx]
-                        cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
-                        if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
-                            cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                cand, ma_tinh,
-                                tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                tien_to_duong=self.tien_to_duong
-                            )
-                            new_duong = cand_new
-                            name_evidence = cand_ev or cand_matches[0]
-                            unknown = [u for u in unknown if u != end_idx]
-                            break
-                        end_idx += 1
-                    if not name_evidence:
-                        start_idx = duong_spans[0]['bat_dau']
-                        cand = curr_duong
-                        while start_idx - 1 >= 0 and (start_idx - 1) in unknown and tokens[start_idx - 1] not in {',', ';', '.', '-'}:
-                            cand = tokens[start_idx - 1] + ' ' + cand
-                            cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
-                            if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
-                                cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                    cand, ma_tinh,
-                                    tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                    tien_to_duong=self.tien_to_duong
-                                )
-                                new_duong = cand_new
-                                name_evidence = cand_ev or cand_matches[0]
-                                unknown = [u for u in unknown if u != start_idx - 1]
-                                break
-                            start_idx -= 1
-                    verified = bool(name_evidence)
-                    if not verified and curr_duong and ma_tinh:
-                        ung = self.tu_dien_duong.ung_vien(curr_duong, ma_tinh)
-                        if len(ung) == 1 and ung[0]['tuong_thich_dau']:
-                            verified = True
-                    if not verified and ma_tinh:
-                        so_nha_spans = [s for s in spans if s.get('truong') == 'so_nha']
-                        if duong_spans and so_nha_spans:
-                            d_start = duong_spans[0]['bat_dau']
-                            d_end = duong_spans[-1]['ket_thuc']
-                            sns = so_nha_spans[-1]
-                            if sns['ket_thuc'] == d_start and tokens[d_start - 1].isdigit():
-                                cand = ' '.join(tokens[d_start - 1 : d_end])
-                                cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
-                                if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
-                                    cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                        cand, ma_tinh,
-                                        tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                        tien_to_duong=self.tien_to_duong
-                                    )
-                                    new_duong = cand_new
-                                    name_evidence = cand_ev or cand_matches[0]
-                                    verified = True
-                                    sns['ket_thuc'] -= 1
-                                    if sns['ket_thuc'] <= sns['bat_dau']:
-                                        detail['so_nha'] = ''
-                                    else:
-                                        from .crf_chi_tiet import dinh_dang_span
-                                        detail['so_nha'], _ = dinh_dang_span(
-                                            tokens[sns['bat_dau']:sns['ket_thuc']], 'so_nha',
-                                            tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                            tien_to_so_nha=self.tien_to_so_nha
-                                        )
-                    # Dựng lại từ span CNN trước: bước xác định, không cần tải Transformer.
-                    if not verified and ma_tinh and duong_spans:
-                        cand = ' '.join(tokens[duong_spans[0]['bat_dau']:duong_spans[-1]['ket_thuc']])
-                        cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
-                        if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
-                            cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                cand, ma_tinh, tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                tien_to_duong=self.tien_to_duong
-                            )
-                            new_duong = cand_new
-                            name_evidence = cand_ev or cand_matches[0]
-                            verified = True
 
-                    # Fallback chỉ mở rộng span khi model phụ thực sự ủng hộ theo offset.
-                    # Không thay dấu vết/unknown nếu từ điển từ chối ứng viên cuối.
-                    if not verified and self.bo_tach_phu is not None and ma_tinh and duong_spans:
-                        vdb_ctx = None
-                        proposed = [dict(ds) for ds in duong_spans]
-                        proposed_unknown = list(unknown)
-                        for ds in proposed:
-                            a, b = ds['bat_dau'], ds['ket_thuc']
-                            if b in proposed_unknown and b < len(tokens) and tokens[b] not in (',', ';', '.', '-'):
-                                if vdb_ctx is None:
-                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
-                                while b < len(tokens) and b in proposed_unknown and tokens[b] not in (',', ';', '.', '-'):
-                                    if _token_trong_span_ky_tu(vdb_ctx, records[b], 'duong'):
-                                        ds['ket_thuc'] = b + 1
-                                        proposed_unknown.remove(b)
-                                        b += 1
-                                    else:
-                                        break
-                            if (a - 1) in proposed_unknown and tokens[a - 1] not in (',', ';', '.', '-'):
-                                if vdb_ctx is None:
-                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
-                                while a > 0 and (a - 1) in proposed_unknown and tokens[a - 1] not in (',', ';', '.', '-'):
-                                    if _token_trong_span_ky_tu(vdb_ctx, records[a - 1], 'duong'):
-                                        ds['bat_dau'] = a - 1
-                                        proposed_unknown.remove(a - 1)
-                                        a -= 1
-                                    else:
-                                        break
-                        if proposed_unknown != unknown:
-                            cand = ' '.join(tokens[proposed[0]['bat_dau']:proposed[-1]['ket_thuc']])
-                            cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
-                            if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
-                                cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                    cand, ma_tinh, tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                    tien_to_duong=self.tien_to_duong
-                                )
-                                new_duong = cand_new
-                                name_evidence = cand_ev or cand_matches[0]
-                                for original, proposal in zip(duong_spans, proposed):
-                                    original.update(proposal)
-                                unknown = proposed_unknown
-            if not new_duong and ma_tinh and unknown:
-                u_sorted = sorted(unknown)
-                groups = []
-                curr_g = [u_sorted[0]]
-                for idx in u_sorted[1:]:
-                    if idx == curr_g[-1] + 1 and tokens[idx] not in {',', ';', '.', '-'}:
-                        curr_g.append(idx)
-                    else:
-                        groups.append(curr_g)
-                        curr_g = [idx]
-                groups.append(curr_g)
-
-                for g in groups:
-                    for start in range(len(g)):
-                        for end in range(start + 1, min(start + 7, len(g) + 1)):
-                            sub_phrase = ' '.join(tokens[g[k]] for k in range(start, end))
-                            cand_matches = self.tu_dien_duong.ung_vien(sub_phrase, ma_tinh)
-                            if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
-                                cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                    sub_phrase, ma_tinh,
-                                    tien_to_mac_dinh=self.tien_to_mac_dinh,
-                                    tien_to_duong=self.tien_to_duong
-                                )
-                                new_duong = cand_new
-                                name_evidence = cand_ev or cand_matches[0]
-                                unknown = [u for u in unknown if u not in g[start:end]]
-                                break
-                        if new_duong:
-                            break
-            detail['duong'] = new_duong
-            if name_evidence:
-                warnings.append('ten_duong_tham_chieu_train_chua_xac_minh')
+    def _dung_ket_qua(self, detail, ma_xa, ma_tinh, warnings, all_wards):
         # Không phục hồi dấu tên đường/thôn khi chưa có từ điển chứng thực.
         for f in ("duong", "thon_xom"):
             name = detail[f].split(" ", 1)[-1] if detail[f] else ""
@@ -337,62 +196,81 @@ class BoChuanHoa:
                 warnings.append("ten_chi_tiet_chua_xac_minh_dau")
         result = KetQua(**{f: detail[f] for f in FIELDS},
                         ma_xa=ma_xa, ma_tinh=ma_tinh,
-                        xa_phuong=dm.ten_day_du("moi", ma_xa) if ma_xa else "",
-                        tinh=dm.ten_day_du("moi", ma_tinh) if ma_tinh else "",
+                        xa_phuong=self.danh_muc.ten_day_du("moi", ma_xa) if ma_xa else "",
+                        tinh=self.danh_muc.ten_day_du("moi", ma_tinh) if ma_tinh else "",
                         canh_bao=list(dict.fromkeys(warnings)),
                         phan_chua_phan_loai=detail["phan_chua_phan_loai"])
-        def _chuan_chuoi(res):
-            parts = []
-            if res.so_nha:
-                parts.append(res.so_nha if res.so_nha.startswith(("Số ", "Số")) else f"Số {res.so_nha}")
-            if res.ngo_ngach_hem:
-                parts.append(res.ngo_ngach_hem)
-            if res.thon_xom:
-                parts.append(res.thon_xom)
-            if res.duong:
-                road_pfx = ("Đường ", "Phố ", "Quốc lộ ", "Tỉnh lộ ", "Xa lộ ", "Đại lộ ", "ĐT ", "HL ", "Hương lộ ")
-                parts.append(res.duong if any(res.duong.startswith(p) for p in road_pfx) else f"Đường {res.duong}")
-            if res.xa_phuong:
-                parts.append(res.xa_phuong)
-            if res.tinh:
-                parts.append(res.tinh)
-            return ", ".join(parts)
-        result.dia_chi_chuan = _chuan_chuoi(result)
+        result.dia_chi_chuan = _chuan_chuoi_dia_chi(result)
         if not ma_xa:
-            result.xa_moi_ung_vien = [{"ma_xa": w, "ten": dm.ten_day_du("moi", w), "ma_tinh": dm.lay("moi", w).ma_cha} for w in sorted(all_wards)]
-        def trace(a, b, **extra):
-            return {"token_bat_dau": a, "token_ket_thuc": b, "ky_tu_bat_dau": records[a].bat_dau,
-                    "ky_tu_ket_thuc": records[b-1].ket_thuc,
-                    "doan_goc": chuoi[records[a].bat_dau:records[b-1].ket_thuc], **extra}
+            result.xa_moi_ung_vien = [{"ma_xa": w, "ten": self.danh_muc.ten_day_du("moi", w),
+                                       "ma_tinh": self.danh_muc.lay("moi", w).ma_cha} for w in sorted(all_wards)]
+        return result
+
+    def _dung_dau_vet(self, result, records, chuoi, best, spans, crf_context, name_evidence):
         for u in sorted(best.ung_vien, key=lambda u: u.bat_dau):
-            result.dau_vet.append(trace(u.bat_dau, u.ket_thuc, truong=u.cap, ma=u.ma, moc=u.cay, kieu_khop=u.kieu_khop, diem=u.diem))
+            result.dau_vet.append(_tao_dau_vet(records, chuoi, u.bat_dau, u.ket_thuc,
+                                               truong=u.cap, ma=u.ma, moc=u.cay,
+                                               kieu_khop=u.kieu_khop, diem=u.diem))
         for s in spans:
-            result.dau_vet.append(trace(s["bat_dau"], s["ket_thuc"], truong=s["truong"], gia_tri=s["gia_tri"], kieu_khop="crf" if crf_context is not None else "luat"))
+            result.dau_vet.append(_tao_dau_vet(records, chuoi, s["bat_dau"], s["ket_thuc"],
+                                               truong=s["truong"], gia_tri=s["gia_tri"],
+                                               kieu_khop="crf" if crf_context is not None else "luat"))
             if s['truong'] == 'duong' and name_evidence:
                 result.dau_vet[-1]['chuan_hoa_ten'] = name_evidence
-        result.thong_ke = {"so_token": len(tokens), "so_ung_vien": len(candidates), "so_gia_thuyet": len(ranked),
-                          "so_cach_hieu_gan_nhat": len(close), "so_ket_qua_dich_gan_nhat": len(outcomes), "diem": round(score, 4),
-                          "moc_dich": "2025-07-01", "mo_hinh": "crf_va_diem_ghep_tay" if crf_context is not None else "luat_va_diem_tay"}
+
+    def _dung_thong_ke(self, tokens, candidates, ranked, close, outcomes, score,
+                       crf_context, name_evidence, result, records, chuoi):
+        thong_ke = {"so_token": len(tokens), "so_ung_vien": len(candidates), "so_gia_thuyet": len(ranked),
+                    "so_cach_hieu_gan_nhat": len(close), "so_ket_qua_dich_gan_nhat": len(outcomes), "diem": round(score, 4),
+                    "moc_dich": "2025-07-01", "mo_hinh": "crf_va_diem_ghep_tay" if crf_context is not None else "luat_va_diem_tay"}
         if crf_context is not None:
-            result.thong_ke['crf_model_sha256'] = self.bo_tach.ma_bam
-            result.thong_ke['crf_bio_loi_truoc_sua'] = crf_context.loi_bio
+            thong_ke['crf_model_sha256'] = self.bo_tach.ma_bam
+            thong_ke['crf_bio_loi_truoc_sua'] = crf_context.loi_bio
         if hasattr(self.bo_tach, 'phien_ban'):
-            result.thong_ke['mo_hinh'] = getattr(self.bo_tach, 'ten_mo_hinh', 'char_cnn_crf') + '_va_diem_tay'
-            result.thong_ke['diem_nhan_dien'] = 'log_softmax_emission_khong_phai_marginal_CRF'
-            result.thong_ke['tra_cuu_neural'] = crf_context.lookup_stats
+            thong_ke['mo_hinh'] = getattr(self.bo_tach, 'ten_mo_hinh', 'char_cnn_crf') + '_va_diem_tay'
+            thong_ke['diem_nhan_dien'] = 'log_softmax_emission_khong_phai_marginal_CRF'
+            thong_ke['tra_cuu_neural'] = crf_context.lookup_stats
             if hasattr(crf_context, 'segmentation_fallback'):
-                result.thong_ke['tach_tu_fallback_raw'] = crf_context.segmentation_fallback
+                thong_ke['tach_tu_fallback_raw'] = crf_context.segmentation_fallback
         if self.bo_xep_hang is not None:
-            result.thong_ke['mo_hinh'] = getattr(self.bo_tach, 'ten_mo_hinh', 'char_cnn_crf') + '_va_lambdarank'
-            result.thong_ke['ranker_sha256'] = self.bo_xep_hang.ma_bam
-            result.thong_ke['diem_khong_phai_xac_suat'] = True
-        result.thong_ke["phien_ban"] = self.PHIEN_BAN
+            thong_ke['mo_hinh'] = getattr(self.bo_tach, 'ten_mo_hinh', 'char_cnn_crf') + '_va_lambdarank'
+            thong_ke['ranker_sha256'] = self.bo_xep_hang.ma_bam
+            thong_ke['diem_khong_phai_xac_suat'] = True
+        thong_ke["phien_ban"] = self.PHIEN_BAN
         if self.tu_dien_duong is not None:
-            result.thong_ke['tu_dien_duong_sha256'] = self.tu_dien_duong.ma_bam
-            result.thong_ke['ten_duong_da_doi'] = bool(name_evidence)
+            thong_ke['tu_dien_duong_sha256'] = self.tu_dien_duong.ma_bam
+            thong_ke['ten_duong_da_doi'] = bool(name_evidence)
         if self.hop_dong:
             from .hop_dong import bang_chung
-            result.thong_ke['hop_dong'] = bang_chung(result, ranked, close, records, crf_context, dm, self.tu_dien_duong, chuoi)
-            if result.thong_ke['hop_dong']['truong']['duong']['ung_vien_ten']:
+            thong_ke['hop_dong'] = bang_chung(result, ranked, close, records, crf_context, self.danh_muc, self.tu_dien_duong, chuoi)
+            if thong_ke['hop_dong']['truong']['duong']['ung_vien_ten']:
                 result.canh_bao.append('ten_duong_chi_la_goi_y_chua_xac_minh')
+        return thong_ke
+
+    def chuan_hoa(self, chuoi: str) -> KetQua:
+        records, candidates, crf_context, ranked = self.tao_gia_thuyet(chuoi)
+        tokens = [t.chu for t in records]
+        (score, best, detail, spans, unknown, inferred, close,
+         outcomes, target_sets, ma_xa, ma_tinh, warnings, wards) = self._chon_gia_thuyet(
+            tokens, candidates, crf_context, ranked
+        )
+        all_wards = set().union(*(w for w, _ in target_sets))
+        self._xac_lap_canh_bao(
+            warnings, wards, best, candidates, unknown, crf_context, inferred,
+            detail, ma_xa, ma_tinh, chuoi
+        )
+        detail, spans, unknown, name_evidence = phuc_hoi_ten_duong(
+            detail, spans, unknown, tokens, ma_tinh, self.tu_dien_duong, self.hop_dong,
+            tien_to_mac_dinh=self.tien_to_mac_dinh,
+            tien_to_duong=self.tien_to_duong,
+            tien_to_so_nha=self.tien_to_so_nha
+        )
+        if name_evidence:
+            warnings.append('ten_duong_tham_chieu_train_chua_xac_minh')
+        result = self._dung_ket_qua(detail, ma_xa, ma_tinh, warnings, all_wards)
+        self._dung_dau_vet(result, records, chuoi, best, spans, crf_context, name_evidence)
+        result.thong_ke = self._dung_thong_ke(
+            tokens, candidates, ranked, close, outcomes, score,
+            crf_context, name_evidence, result, records, chuoi
+        )
         return result
