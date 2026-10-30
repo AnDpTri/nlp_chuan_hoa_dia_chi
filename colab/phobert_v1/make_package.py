@@ -8,10 +8,10 @@ from check_data import TAGS, DATA_FILES, inspect, sha256
 
 ROOT = Path(__file__).resolve().parents[2]
 CODE = Path(__file__).resolve().parent
-DEST = ROOT / "danh_gia/ket_qua/phobert_colab_package_20261030"
-NAME = "PhoBERT_Colab_v1_20261030"
+DEST = ROOT / "danh_gia/ket_qua/phobert_colab_package_v2_20261030"
+NAME = "PhoBERT_Colab_v2_20261030"
 BUNDLE = DEST / NAME
-DRIVE = Path("G:/My Drive/PhoBERT_Address_Colab_20261030")
+DRIVE = Path("G:/My Drive/PhoBERT_Address_Colab_20261030_v2")
 
 
 def cell(source, md=False):
@@ -25,12 +25,12 @@ def cell(source, md=False):
 def notebook():
     cells = [
         cell("# Huấn luyện PhoBERT-base-v2 cho địa chỉ Việt Nam\nChỉ sử dụng train và dev; không sử dụng test 400. Chạy từng ô và giám sát file status trong Drive.", True),
-        cell("from google.colab import drive\ndrive.mount('/content/drive')\nfrom pathlib import Path\nD = Path('/content/drive/MyDrive/PhoBERT_Address_Colab_20261030')\nARCHIVE = D / 'PhoBERT_Colab_v1_20261030.zip'\nassert ARCHIVE.is_file(), f'Archive not found: {ARCHIVE}'\nprint('DRIVE_PACKAGE:', ARCHIVE)\n"),
-        cell("import zipfile\nwith zipfile.ZipFile(ARCHIVE) as z:\n    assert z.testzip() is None\n    assert all('test' not in Path(p).name.lower() for p in z.namelist() if p.endswith('.jsonl'))\n    z.extractall('/content')\nP = Path('/content/PhoBERT_Colab_v1_20261030')\nprint('UNPACKED:', P)\n"),
+        cell("from google.colab import drive\ndrive.mount('/content/drive')\nfrom pathlib import Path\nD = Path('/content/drive/MyDrive/PhoBERT_Address_Colab_20261030_v2')\nARCHIVE = D / 'PhoBERT_Colab_v2_20261030.zip'\nassert ARCHIVE.is_file(), f'Archive not found: {ARCHIVE}'\nprint('DRIVE_PACKAGE:', ARCHIVE)\n"),
+        cell("import zipfile\nwith zipfile.ZipFile(ARCHIVE) as z:\n    assert z.testzip() is None\n    assert all('test' not in Path(p).name.lower() for p in z.namelist() if p.endswith('.jsonl'))\n    z.extractall('/content')\nP = Path('/content/PhoBERT_Colab_v2_20261030')\nprint('UNPACKED:', P)\n"),
         cell("import subprocess, sys\nsubprocess.run([sys.executable, '-m', 'pip', 'install', '-q', '-r', str(P / 'requirements.txt')], check=True)\nprint('INSTALL_PASS')\n"),
         cell("subprocess.run([sys.executable, str(P / 'check_data.py'), '--data-dir', str(P / 'data'), '--manifest', str(P / 'package_manifest.json')], check=True)\n"),
         cell("import torch\nassert torch.cuda.is_available(), 'Please select Colab GPU runtime (T4 or better)'\nprint('GPU:', torch.cuda.get_device_name(0), 'CUDA:', torch.version.cuda)\n"),
-        cell("## Smoke test, 8 train + 4 dev rows\nPhải chạy thành công và có summary.json trước khi chạy full training.", True),
+        cell("## Smoke test v2\nKiểm tra **toàn bộ** train/dev bằng tokenizer chính thức rồi dùng 7 mẫu đầu + 1 mẫu có token OOV từng gây CUDA assert để thử GPU. Chỉ huấn luyện đầy đủ nếu smoke PASS.", True),
         cell("from datetime import datetime, timezone\ndef fresh_output(prefix):\n    path = D / 'runs' / (prefix + '_' + datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ'))\n    assert not path.exists()\n    return path\nSMOKE = fresh_output('smoke')\ncmd = [sys.executable, str(P / 'train.py'), '--data-dir', str(P / 'data'), '--manifest', str(P / 'package_manifest.json'), '--out-dir', str(SMOKE), '--smoke', '--epochs', '1', '--batch-size', '4']\nsubprocess.run(cmd, check=True)\nassert (SMOKE / 'summary.json').is_file(), 'Smoke failed - STOP'\nprint('SMOKE_PASS:', SMOKE)\n"),
         cell("## Huấn luyện đầy đủ\nTheo dõi Google Drive/runs/<run-id>/status.json và history.json sau mỗi epoch.", True),
         cell("RUN = fresh_output('phobert_base_v2')\ncmd = [sys.executable, str(P / 'train.py'), '--data-dir', str(P / 'data'), '--manifest', str(P / 'package_manifest.json'), '--out-dir', str(RUN), '--epochs', '6', '--batch-size', '8', '--grad-accum', '2', '--seed', '20261030', '--lr', '2e-5', '--patience', '2']\nprint('LIVE_MONITOR:', RUN / 'status.json')\nsubprocess.run(cmd, check=True)\nassert (RUN / 'summary.json').is_file()\nprint('TRAINING_COMPLETE:', RUN)\n"),

@@ -53,7 +53,17 @@ def role(label_id):
     return 0 if label_id == 0 else (label_id + 1) // 2
 
 
-def encode_one(row, tokenizer):
+def remap_invalid_token_ids(ids, vocab_size, unk_token_id):
+    """PhoBERT tokenizer may emit ids outside the pretrained encoder embedding."""
+    if not 0 <= unk_token_id < vocab_size:
+        raise ValueError("Tokenizer UNK id outside model vocab")
+    if vocab_size < 1:
+        raise ValueError("Invalid model vocab size")
+    count = sum(not (0 <= x < vocab_size) for x in ids)
+    return [x if 0 <= x < vocab_size else unk_token_id for x in ids], count
+
+
+def encode_one(row, tokenizer, vocab_size):
     raw = row["nfc"]
     fallback = False
     try:
@@ -67,6 +77,8 @@ def encode_one(row, tokenizer):
                         return_offsets_mapping=True)
     if len(encoded["input_ids"]) > MAX_LEN:
         raise ValueError("Input exceeds model 256-token limit: " + row["id"])
+    model_ids, replaced = remap_invalid_token_ids(
+        encoded["input_ids"], vocab_size, tokenizer.unk_token_id)
     allowed = []
     conflicted = 0
     strong = 0
@@ -99,26 +111,37 @@ def encode_one(row, tokenizer):
         allowed.append(labels)
         strong += int(sum(labels) == 1)
     assert len(allowed) == len(encoded["input_ids"])
-    return {"ids": encoded["input_ids"], "allowed": allowed, "conflicts": conflicted,
+    return {"ids": model_ids, "allowed": allowed, "conflicts": conflicted,
             "strong": strong, "source_id": row["id"], "segmented": segmented,
-            "segmentation_fallback": fallback}
+            "segmentation_fallback": fallback, "replaced_oov_tokens": replaced}
 
 
-def load_encoded(path, tokenizer, limit=0):
+def load_encoded(path, tokenizer, vocab_size, official_slow=None):
     data, total_conflicts, total_labeled, fallback_count = [], 0, 0, 0
+    replaced_oov, oov_rows, slow_verified = 0, 0, 0
     with Path(path).open(encoding="utf-8") as f:
         for line_no, line in enumerate(f, 1):
-            if limit and line_no > limit:
-                break
             row = json.loads(line)
-            item = encode_one(row, tokenizer)
+            item = encode_one(row, tokenizer, vocab_size)
+            if official_slow is not None:
+                official_ids = official_slow.encode(item["segmented"])
+                if item["ids"] != official_ids:
+                    raise ValueError(
+                        f"PhoBERT fast/slow tokenizer mismatch after safe UNK remap: {row['id']} ({path}:{line_no}); STOP")
+                slow_verified += 1
             data.append(item)
+            replaced_oov += item["replaced_oov_tokens"]
+            oov_rows += bool(item["replaced_oov_tokens"])
             total_conflicts += item["conflicts"]
             total_labeled += len(item["ids"])
             fallback_count += int(item["segmentation_fallback"])
     assert data, "Empty split"
     if fallback_count / len(data) > 0.01:
         raise ValueError(f"PyVi segmentation fallback {fallback_count}/{len(data)} >1%; STOP")
+    if replaced_oov / total_labeled > 0.01 or oov_rows / len(data) > 0.02:
+        raise ValueError(f"PhoBERT out-of-range tokenizer ids too frequent: {replaced_oov} tokens, {oov_rows} rows; STOP")
+    if any(min(x["ids"]) < 0 or max(x["ids"]) >= vocab_size for x in data):
+        raise ValueError("Embedding token id out of bounds after remap; STOP")
     # Treat alignment errors as a hard blocker, not as an excuse to train corrupted labels.
     ratio = total_conflicts / total_labeled
     if ratio > 0.01:
@@ -126,6 +149,9 @@ def load_encoded(path, tokenizer, limit=0):
     return data, {"rows": len(data), "conflicted_subwords": total_conflicts,
                   "total_subwords": total_labeled, "conflict_rate": ratio,
                   "segmentation_fallback_rows": fallback_count,
+                  "oov_tokens_replaced_with_unk": replaced_oov,
+                  "oov_rows": oov_rows, "model_vocab_size": vocab_size,
+                  "official_slow_verified_rows": slow_verified,
                   "strong_subwords": sum(x["strong"] for x in data)}
 
 
@@ -151,7 +177,7 @@ def main():
     import numpy as np
     import torch
     from torch.utils.data import DataLoader
-    from transformers import AutoTokenizer, PreTrainedTokenizerFast, AutoModelForTokenClassification, get_linear_schedule_with_warmup
+    from transformers import AutoConfig, AutoTokenizer, PreTrainedTokenizerFast, AutoModelForTokenClassification, get_linear_schedule_with_warmup
     from huggingface_hub import hf_hub_download
     if not torch.cuda.is_available():
         raise RuntimeError("NO CUDA: Colab Runtime > Change runtime type > GPU. No CPU training by mistake.")
@@ -177,11 +203,19 @@ def main():
     for phrase in examples:
         if tokenizer.encode(phrase) != slow.encode(phrase):
             raise RuntimeError("Fast/slow PhoBERT ID mismatch; MUST fix tokenizer before training: " + phrase)
-    limit_train, limit_dev = (8, 4) if args.smoke else (0, 0)
-    train, train_info = load_encoded(args.data_dir / "train_cnn.jsonl", tokenizer, limit_train)
-    dev, dev_info = load_encoded(args.data_dir / "dev_goc.jsonl", tokenizer, limit_dev)
-    # Prepare and check hard dev now; evaluate exactly once AFTER checkpoint selection.
-    hard, hard_info = load_encoded(args.data_dir / "dev_kho.jsonl", tokenizer, 4 if args.smoke else 0)
+    # Full-split token-id validation even in smoke; never hide a rare OOV behind eight rows.
+    cfg = AutoConfig.from_pretrained(MODEL_ID, revision=MODEL_REVISION)
+    model_vocab = cfg.vocab_size
+    train, train_info = load_encoded(args.data_dir / "train_cnn.jsonl", tokenizer, model_vocab, slow)
+    dev, dev_info = load_encoded(args.data_dir / "dev_goc.jsonl", tokenizer, model_vocab, slow)
+    # dev_kho is checked here but evaluated exactly once after selecting best checkpoint.
+    hard, hard_info = load_encoded(args.data_dir / "dev_kho.jsonl", tokenizer, model_vocab, slow)
+    if args.smoke:
+        oov_example = next((x for x in train if x["replaced_oov_tokens"]), None)
+        if not oov_example:
+            raise ValueError("Smoke OOV coverage missing; STOP")
+        train = train[:7] + [oov_example]  # exercise the previously failing rare vocabulary case
+        dev, hard = dev[:4], hard[:4]
     max_tokens = max(len(x["ids"]) for x in train + dev + hard)
     def collate(rows):
         length = max(len(row["ids"]) for row in rows)
@@ -193,6 +227,8 @@ def main():
             ids[i, :n] = torch.tensor(row["ids"])
             mask[i, :n] = 1
             allowed[i, :n] = torch.tensor(row["allowed"], dtype=torch.bool)
+        if ids.min().item() < 0 or ids.max().item() >= model_vocab:
+            raise ValueError("Unsafe token ids blocked before CUDA")
         return ids, mask, allowed
     g = torch.Generator().manual_seed(args.seed)
     train_loader = DataLoader(train, batch_size=args.batch_size, shuffle=True, collate_fn=collate, generator=g)
@@ -202,6 +238,8 @@ def main():
         id2label={i: t for i, t in enumerate(TAGS)},
         label2id={t: i for i, t in enumerate(TAGS)},
         ignore_mismatched_sizes=True).to(device)
+    if model.get_input_embeddings().num_embeddings != model_vocab:
+        raise ValueError("Loaded PhoBERT embedding size differs from preflight config; STOP")
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=0.01)
     steps = (len(train_loader) + args.grad_accum - 1) // args.grad_accum * args.epochs
     sched = get_linear_schedule_with_warmup(opt, num_warmup_steps=max(1, steps // 10),
@@ -279,6 +317,14 @@ def main():
                 # Write checkpoint atomically in a fresh run directory; never overwrite another run.
                 model.save_pretrained(args.out_dir / "best_model", safe_serialization=True)
                 tokenizer.save_pretrained(args.out_dir / "best_model")
+                # Inference MUST apply the exact same model-vocab-safe ID policy.
+                write_json(args.out_dir / "best_model" / "token_id_policy.json", {
+                    "model_id": MODEL_ID, "revision": MODEL_REVISION,
+                    "model_embedding_vocab_size": model_vocab,
+                    "tokenizer_unk_token_id": tokenizer.unk_token_id,
+                    "out_of_range_action": "replace_with_unk",
+                    "all_train_dev_official_slow_token_ids_verified": True,
+                    "oov_tokens_in_train": train_info["oov_tokens_replaced_with_unk"]})
             else:
                 no_improve += 1
             record = {"epoch": epoch, "train_loss": sum(epoch_losses) / len(epoch_losses),
