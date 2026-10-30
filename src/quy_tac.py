@@ -63,6 +63,34 @@ CHI_TIET = [
     ("xa lo", "duong", "Xa lộ"), ("dai lo", "duong", "Đại lộ"),
 ]
 
+# Từ khóa nhận diện tòa nhà, chung cư, tập thể
+TU_KHOA_TOA_NHA_DAU = ('cc', 'ktt', 'tt', 'ct', 'block')
+TU_KHOA_TOA_NHA_BAT_DAU = (
+    'chung cu', 'tap the', 'khu tap the', 'toa nha', 'cao oc',
+    'can ho', 'kdt', 'khu do thi', 'phong ', 'tang '
+)
+DAU_NGAT_TOA_NHA = (':', '-', '.', ',', ';')
+TU_KHOA_TOA_NHA_LIEN_TRUOC_1 = ('cc', 'ktt', 'tt')
+TU_KHOA_TOA_NHA_LIEN_TRUOC_2 = (
+    'chung cu', 'tap the', 'toa nha', 'cao oc', 'can ho', 'khu tt', 'ktt'
+)
+TU_KHOA_TOA_NHA_LIEN_TRUOC_3 = ('khu tap the', 'khu chung cu', 'khu can ho')
+
+# Từ khóa hậu xử lý số nhà và đường
+TU_KHOA_CMT8 = ('cmt8', 'cmt-8', 'cmt8.')
+HAU_TO_DUONG_TIENG_ANH = ('street', 'str', 'st', 'road', 'rd', 'avenue', 'ave')
+CHU_CAI_LOAI_TRU_SO_NHA = ('đ', 'p', 'q', 'x', 'h', 't')
+DAU_NGAT_SO_NHA = (',', ';')
+
+# Tiền tố và lọc span đường, phố, thôn xóm
+TIEN_TO_THANH_PHO = ('thanh', 'tp')
+TIEN_TO_PHO_HANH_CHINH = ('khu', 'to', 'khoi')
+TIEN_TO_THON_XOM = ('Thôn', 'Ấp', 'Xóm', 'Bản', 'Buôn')
+DAU_NGAT_CHI_TIET = {',', ';'}
+GIA_TRI_THON_XOM_LOAI_BO = ('khu', 'khu đô thị')
+DO_DAI_MA_BUU_CHINH = (5, 6)
+
+
 # So khớp không dấu chỉ dùng làm dạng tra cứu; dấu đã có là bằng chứng.
 # Tô không phải Tổ, Tĩnh không phải Tỉnh, dù khóa bỏ dấu giống nhau.
 _CHU_CHUAN = "Thành phố Thị xã trấn Đặc khu Tỉnh Huyện Quận Phường Số nhà Ngõ Ngách Hẻm Kiệt Thôn Xóm Ấp Bản Khu Tổ dân Đường Quốc lộ Khóm Buôn Cụm ĐH HL Cao tốc Xa lộ Đại lộ Vành đai District Ward City Province"
