@@ -1,5 +1,7 @@
 """Khôi phục tên đường bằng từ điển và span chi tiết."""
 
+from .tien_xu_ly import bo_dau
+
 
 def thu_ung_vien_duong(tu_dien_duong, cand: str, ma_tinh: str, tien_to_mac_dinh: bool = True, tien_to_duong: bool | None = None):
     cand_matches = tu_dien_duong.ung_vien(cand, ma_tinh)
@@ -161,6 +163,28 @@ def quet_token_chua_phan_loai(tokens, unknown, ma_tinh, tu_dien_duong, tien_to_m
             if new_duong:
                 break
     return new_duong, name_evidence, unknown
+
+
+TIEN_TO_DUONG_RUT_GON = {'d', 'duong', 'pho', 'p'}
+
+
+def bo_duong_viet_tat_chua_giai(detail, spans, tokens, chuoi):
+    """Tên đường chỉ là một chữ viết tắt VIẾT HOA (2-4 chữ cái) mà từ điển không giải được: để trống thay vì bịa tên.
+
+    Chỉ áp dụng khi chuỗi nhập có chữ thường (nếu cả chuỗi viết hoa thì chữ hoa không còn là dấu hiệu viết tắt).
+    """
+    if not detail.get('duong') or not any(c.islower() for c in chuoi):
+        return detail, spans, False
+    for s in spans:
+        if s.get('truong') != 'duong':
+            continue
+        words = [t for t in tokens[s['bat_dau']:s['ket_thuc']] if any(c.isalnum() for c in t)]
+        body = [w for w in words if bo_dau(w.casefold().rstrip('.')) not in TIEN_TO_DUONG_RUT_GON]
+        if len(body) == 1 and body[0].isalpha() and body[0].isupper() and 2 <= len(body[0]) <= 4:
+            detail = dict(detail)
+            detail['duong'] = ''
+            return detail, [x for x in spans if x is not s], True
+    return detail, spans, False
 
 
 def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong, hop_dong,

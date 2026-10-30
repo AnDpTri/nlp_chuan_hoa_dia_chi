@@ -8,7 +8,7 @@ from .giai_ma import tim_duong_di
 from .tach_phan_con import tach_co_dau_vet, FIELDS
 from .chuyen_doi import tap_dich, sang_cay_moi
 from .quy_tac import cac_tien_to, CHI_TIET, khop_tien_to
-from .phuc_hoi_duong import phuc_hoi_ten_duong
+from .phuc_hoi_duong import phuc_hoi_ten_duong, bo_duong_viet_tat_chua_giai
 
 
 def _token_trong_span_ky_tu(context, token, role):
@@ -267,6 +267,10 @@ class BoChuanHoa:
         )
         if name_evidence:
             warnings.append('ten_duong_tham_chieu_train_chua_xac_minh')
+        else:
+            detail, spans, bo_viet_tat = bo_duong_viet_tat_chua_giai(detail, spans, tokens, chuoi)
+            if bo_viet_tat:
+                warnings.append('ten_duong_viet_tat_chua_giai')
         result = self._dung_ket_qua(detail, ma_xa, ma_tinh, warnings, all_wards)
         self._dung_dau_vet(result, records, chuoi, best, spans, crf_context, name_evidence)
         result.thong_ke = self._dung_thong_ke(
