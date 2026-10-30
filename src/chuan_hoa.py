@@ -10,6 +10,12 @@ from .chuyen_doi import tap_dich, sang_cay_moi
 from .quy_tac import cac_tien_to, CHI_TIET, khop_tien_to
 
 
+def _token_trong_span_ky_tu(context, token, role):
+    """Ghép hai bộ token khác nhau qua offset ký tự gốc, không dùng chỉ số token."""
+    return any(r == role and a <= token.bat_dau and token.ket_thuc <= b
+               for r, a, b in getattr(context, "char_spans", ()))
+
+
 class BoChuanHoa:
     PHIEN_BAN = "baseline_luat_v3"
     def __init__(self, danh_muc: DanhMuc | None = None, beam: int = 40, bo_tach=None, bo_xep_hang=None,
@@ -238,40 +244,60 @@ class BoChuanHoa:
                                             tien_to_mac_dinh=self.tien_to_mac_dinh,
                                             tien_to_so_nha=self.tien_to_so_nha
                                         )
-                    if not verified and self.bo_tach_phu is not None and ma_tinh and duong_spans:
-                        vdb_ctx = None
-                        for ds in duong_spans:
-                            a, b = ds['bat_dau'], ds['ket_thuc']
-                            if b in unknown and b < len(tokens) and tokens[b] not in (',', ';', '.', '-'):
-                                if vdb_ctx is None:
-                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
-                                while b < len(tokens) and b in unknown and tokens[b] not in (',', ';', '.', '-'):
-                                    if b < len(vdb_ctx.labels) and vdb_ctx.labels[b] in ('I-duong', 'B-duong'):
-                                        ds['ket_thuc'] = b + 1
-                                        unknown = [u for u in unknown if u != b]
-                                        b += 1
-                                    else:
-                                        break
-                            if (a - 1) in unknown and (a - 1) >= 0 and tokens[a - 1] not in (',', ';', '.', '-'):
-                                if vdb_ctx is None:
-                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
-                                while (a - 1) >= 0 and (a - 1) in unknown and tokens[a - 1] not in (',', ';', '.', '-'):
-                                    if (a - 1) < len(vdb_ctx.labels) and vdb_ctx.labels[a - 1] in ('I-duong', 'B-duong'):
-                                        ds['bat_dau'] = a - 1
-                                        unknown = [u for u in unknown if u != a - 1]
-                                        a -= 1
-                                    else:
-                                        break
-                        cand = ' '.join(tokens[duong_spans[0]['bat_dau'] : duong_spans[-1]['ket_thuc']])
+                    # Dựng lại từ span CNN trước: bước xác định, không cần tải Transformer.
+                    if not verified and ma_tinh and duong_spans:
+                        cand = ' '.join(tokens[duong_spans[0]['bat_dau']:duong_spans[-1]['ket_thuc']])
                         cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
                         if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
                             cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
-                                cand, ma_tinh,
-                                tien_to_mac_dinh=self.tien_to_mac_dinh,
+                                cand, ma_tinh, tien_to_mac_dinh=self.tien_to_mac_dinh,
                                 tien_to_duong=self.tien_to_duong
                             )
                             new_duong = cand_new
                             name_evidence = cand_ev or cand_matches[0]
+                            verified = True
+
+                    # Fallback chỉ mở rộng span khi model phụ thực sự ủng hộ theo offset.
+                    # Không thay dấu vết/unknown nếu từ điển từ chối ứng viên cuối.
+                    if not verified and self.bo_tach_phu is not None and ma_tinh and duong_spans:
+                        vdb_ctx = None
+                        proposed = [dict(ds) for ds in duong_spans]
+                        proposed_unknown = list(unknown)
+                        for ds in proposed:
+                            a, b = ds['bat_dau'], ds['ket_thuc']
+                            if b in proposed_unknown and b < len(tokens) and tokens[b] not in (',', ';', '.', '-'):
+                                if vdb_ctx is None:
+                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
+                                while b < len(tokens) and b in proposed_unknown and tokens[b] not in (',', ';', '.', '-'):
+                                    if _token_trong_span_ky_tu(vdb_ctx, records[b], 'duong'):
+                                        ds['ket_thuc'] = b + 1
+                                        proposed_unknown.remove(b)
+                                        b += 1
+                                    else:
+                                        break
+                            if (a - 1) in proposed_unknown and tokens[a - 1] not in (',', ';', '.', '-'):
+                                if vdb_ctx is None:
+                                    vdb_ctx = self.bo_tach_phu.chuan_bi_chuoi(chuoi)
+                                while a > 0 and (a - 1) in proposed_unknown and tokens[a - 1] not in (',', ';', '.', '-'):
+                                    if _token_trong_span_ky_tu(vdb_ctx, records[a - 1], 'duong'):
+                                        ds['bat_dau'] = a - 1
+                                        proposed_unknown.remove(a - 1)
+                                        a -= 1
+                                    else:
+                                        break
+                        if proposed_unknown != unknown:
+                            cand = ' '.join(tokens[proposed[0]['bat_dau']:proposed[-1]['ket_thuc']])
+                            cand_matches = self.tu_dien_duong.ung_vien(cand, ma_tinh)
+                            if len(cand_matches) == 1 and cand_matches[0]['tuong_thich_dau']:
+                                cand_new, cand_ev = self.tu_dien_duong.chuan_hoa(
+                                    cand, ma_tinh, tien_to_mac_dinh=self.tien_to_mac_dinh,
+                                    tien_to_duong=self.tien_to_duong
+                                )
+                                new_duong = cand_new
+                                name_evidence = cand_ev or cand_matches[0]
+                                for original, proposal in zip(duong_spans, proposed):
+                                    original.update(proposal)
+                                unknown = proposed_unknown
             if not new_duong and ma_tinh and unknown:
                 u_sorted = sorted(unknown)
                 groups = []

@@ -80,7 +80,9 @@ def dinh_dang_span(tokens, field, tien_to_mac_dinh=True, tien_to_so_nha=None, ti
         while clean_tokens and clean_tokens[-1] in {',', ';', '.'}:
             clean_tokens.pop()
         value = ghep_so_nha(clean_tokens)
-        if not tien_to_so_nha:
+        # Cờ này chỉ điều khiển việc *tự thêm* tiền tố khi input không có.
+        # Nếu input đã ghi rõ "Số", phải bảo toàn kiểu hiển thị đó.
+        if not tien_to_so_nha and not marker:
             return value, False
     else:
         value = viet_ten(body)
