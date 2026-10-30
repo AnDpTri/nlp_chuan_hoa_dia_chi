@@ -12,16 +12,9 @@ m = BoTachCharCNN("mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt")
 td = TuDienDuong("danh_gia/ket_qua/tu_dien_duong_v5.json")
 rk = BoXepHang("mo_hinh/thu_nghiem/char_v2_01/ranker.txt", m.ma_bam, dm.ma_bam)
 
-bo_tach_phu = None
-if "--hybrid" in sys.argv:
-    from src.videberta import BoTachViDeberta
-    print("Enabling ViDeBERTa Cascade (Hybrid mode)...")
-    bo_tach_phu = BoTachViDeberta("mo_hinh/thu_nghiem/videberta_v1_01/model", threads=4)
-
 pipeline = BoChuanHoa(
     danh_muc=dm,
     bo_tach=m,
-    bo_tach_phu=bo_tach_phu,
     bo_xep_hang=rk,
     tu_dien_duong=td,
     bao_ve_duong=True,
