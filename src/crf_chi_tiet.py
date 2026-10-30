@@ -6,7 +6,27 @@ import re
 from pathlib import Path
 
 from .tien_xu_ly import bo_dau
-from .quy_tac import CHI_TIET, cac_tien_to, khop_tien_to
+from .quy_tac import (
+    CHI_TIET,
+    CHU_CAI_LOAI_TRU_SO_NHA,
+    DAU_NGAT_CHI_TIET,
+    DAU_NGAT_SO_NHA,
+    DAU_NGAT_TOA_NHA,
+    DO_DAI_MA_BUU_CHINH,
+    GIA_TRI_THON_XOM_LOAI_BO,
+    HAU_TO_DUONG_TIENG_ANH,
+    TIEN_TO_PHO_HANH_CHINH,
+    TIEN_TO_THANH_PHO,
+    TIEN_TO_THON_XOM,
+    TU_KHOA_CMT8,
+    TU_KHOA_TOA_NHA_BAT_DAU,
+    TU_KHOA_TOA_NHA_DAU,
+    TU_KHOA_TOA_NHA_LIEN_TRUOC_1,
+    TU_KHOA_TOA_NHA_LIEN_TRUOC_2,
+    TU_KHOA_TOA_NHA_LIEN_TRUOC_3,
+    cac_tien_to,
+    khop_tien_to,
+)
 from .tach_phan_con import FIELDS, viet_ten
 from .dinh_dang import tien_to_hien_thi, dinh_dang_span
 
@@ -76,28 +96,71 @@ def tao_nhan(n, spans):
 
 def la_toa_nha_chung_cu(tokens, a, b):
     first = bo_dau(tokens[a].rstrip('.').casefold())
-    if first in ('cc', 'ktt', 'tt', 'ct', 'block'):
+    if first in TU_KHOA_TOA_NHA_DAU:
         return True
     span_bd = bo_dau(' '.join(tokens[a:b]).casefold())
-    for kw in ('chung cu', 'tap the', 'khu tap the', 'toa nha', 'cao oc', 'can ho', 'kdt', 'khu do thi', 'phong ', 'tang '):
+    for kw in TU_KHOA_TOA_NHA_BAT_DAU:
         if span_bd.startswith(kw):
             return True
     p = a - 1
-    while p >= 0 and tokens[p] in (':', '-', '.', ',', ';'):
+    while p >= 0 and tokens[p] in DAU_NGAT_TOA_NHA:
         p -= 1
     if p >= 0:
         prev_1 = bo_dau(tokens[p].rstrip('.').casefold())
-        if prev_1 in ('cc', 'ktt', 'tt'):
+        if prev_1 in TU_KHOA_TOA_NHA_LIEN_TRUOC_1:
             return True
         if p >= 1:
             prev_2 = bo_dau(' '.join(tokens[p-1:p+1]).casefold())
-            if prev_2 in ('chung cu', 'tap the', 'toa nha', 'cao oc', 'can ho', 'khu tt', 'ktt'):
+            if prev_2 in TU_KHOA_TOA_NHA_LIEN_TRUOC_2:
                 return True
         if p >= 2:
             prev_3 = bo_dau(' '.join(tokens[p-2:p+1]).casefold())
-            if prev_3 in ('khu tap the', 'khu chung cu', 'khu can ho'):
+            if prev_3 in TU_KHOA_TOA_NHA_LIEN_TRUOC_3:
                 return True
     return False
+
+
+def la_duong_thanh_pho(tokens, a):
+    if a > 0:
+        prev_tok = bo_dau(tokens[a-1].casefold())
+        curr_tok = bo_dau(tokens[a].casefold())
+        return prev_tok in TIEN_TO_THANH_PHO and curr_tok == 'pho'
+    return False
+
+
+def chinh_bien_so_nha(tokens, a, b):
+    if b - a > 1 and bo_dau(tokens[b-1].rstrip('.').casefold()) in TU_KHOA_CMT8:
+        b -= 1
+    if b - a > 1 and b < len(tokens) and bo_dau(tokens[b].rstrip('.').casefold()) in HAU_TO_DUONG_TIENG_ANH:
+        b -= 1
+    if (b < len(tokens) 
+        and len(tokens[b]) == 1 
+        and tokens[b].isalpha() 
+        and tokens[b].lower() not in CHU_CAI_LOAI_TRU_SO_NHA
+        and tokens[b-1][-1].isdigit()
+        and (b + 1 == len(tokens) or (b + 1 < len(tokens) and tokens[b+1] in DAU_NGAT_SO_NHA))):
+        b += 1
+    return b
+
+
+def loc_va_chinh_bien_span(tokens, f, a, b):
+    """Lọc span không hợp lệ và căn chỉnh biên cho trường số nhà."""
+    if f == 'duong':
+        if la_duong_thanh_pho(tokens, a) or la_toa_nha_chung_cu(tokens, a, b):
+            return False, b
+    elif f == 'so_nha':
+        b = chinh_bien_so_nha(tokens, a, b)
+    return True, b
+
+
+def loc_so_nha_ma_buu_chinh(tokens, f, value, end_idx):
+    if f == 'so_nha':
+        num_val = value.casefold().replace('số', '').strip()
+        if num_val.isdigit() and len(num_val) in DO_DAI_MA_BUU_CHINH and (
+            end_idx >= len(tokens) - 2 or all(not any(c.isalnum() for c in tokens[k]) for k in range(end_idx, len(tokens)))
+        ):
+            return ''
+    return value
 
 
 class NguCanhCRF:
@@ -126,70 +189,32 @@ class NguCanhCRF:
                 b -= 1
             if a >= b or any(k in used for k in range(a, b)):
                 continue
-            # Không lấy thành phần là 'thành phố' làm đường
-            if f == 'duong' and a > 0:
-                prev_tok = bo_dau(self.tokens[a-1].casefold())
-                curr_tok = bo_dau(self.tokens[a].casefold())
-                if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
-                    continue
-            if f == 'duong' and la_toa_nha_chung_cu(self.tokens, a, b):
+            # Lọc đường thành phố, chung cư và căn chỉnh biên số nhà (lần 1)
+            hop_le, b = loc_va_chinh_bien_span(self.tokens, f, a, b)
+            if not hop_le:
                 continue
-            if f == 'so_nha':
-                if b - a > 1 and bo_dau(self.tokens[b-1].rstrip('.').casefold()) in ('cmt8', 'cmt-8', 'cmt8.'):
-                    b -= 1
-                if b - a > 1 and b < len(self.tokens) and bo_dau(self.tokens[b].rstrip('.').casefold()) in (
-                    'street', 'str', 'st', 'road', 'rd', 'avenue', 'ave'
-                ):
-                    b -= 1
-                if (b < len(self.tokens) 
-                    and len(self.tokens[b]) == 1 
-                    and self.tokens[b].isalpha() 
-                    and self.tokens[b].lower() not in ('đ', 'p', 'q', 'x', 'h', 't')
-                    and self.tokens[b-1][-1].isdigit()
-                    and (b + 1 == len(self.tokens) or (b + 1 < len(self.tokens) and self.tokens[b+1] in (',', ';')))):
-                    b += 1
             marker = khop_tien_to(self.tokens, a, CHI_TIET)
             if marker:
                 proper_field = marker[1][0]
                 if proper_field in FIELDS:
                     f = proper_field
-                    if proper_field == 'thon_xom' and marker[1][1] in ('Thôn', 'Ấp', 'Xóm', 'Bản', 'Buôn'):
+                    if proper_field == 'thon_xom' and marker[1][1] in TIEN_TO_THON_XOM:
                         end_idx = marker[0]
-                        while end_idx < len(self.tokens) and self.tokens[end_idx] not in {',', ';'}:
+                        while end_idx < len(self.tokens) and self.tokens[end_idx] not in DAU_NGAT_CHI_TIET:
                             if khop_tien_to(self.tokens, end_idx, CHI_TIET):
                                 break
                             end_idx += 1
                         if end_idx > b:
                             b = end_idx
-            if f == 'duong' and a > 0:
-                prev_tok = bo_dau(self.tokens[a-1].casefold())
-                curr_tok = bo_dau(self.tokens[a].casefold())
-                if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
-                    continue
-            if f == 'duong' and la_toa_nha_chung_cu(self.tokens, a, b):
+            # Áp dụng lại khối luật sau khi tiền tố có thể đổi f hoặc b (lần 2)
+            hop_le, b = loc_va_chinh_bien_span(self.tokens, f, a, b)
+            if not hop_le:
                 continue
-            if f == 'so_nha':
-                if b - a > 1 and bo_dau(self.tokens[b-1].rstrip('.').casefold()) in ('cmt8', 'cmt-8', 'cmt8.'):
-                    b -= 1
-                if b - a > 1 and b < len(self.tokens) and bo_dau(self.tokens[b].rstrip('.').casefold()) in (
-                    'street', 'str', 'st', 'road', 'rd', 'avenue', 'ave'
-                ):
-                    b -= 1
-                if (b < len(self.tokens) 
-                    and len(self.tokens[b]) == 1 
-                    and self.tokens[b].isalpha() 
-                    and self.tokens[b].lower() not in ('đ', 'p', 'q', 'x', 'h', 't')
-                    and self.tokens[b-1][-1].isdigit()
-                    and (b + 1 == len(self.tokens) or (b + 1 < len(self.tokens) and self.tokens[b+1] in (',', ';')))):
-                    b += 1
             value, guessed = dinh_dang_span(self.tokens[a:b], f, tien_to_mac_dinh=tien_to_mac_dinh,
                                            tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
-            if f == 'thon_xom' and value.casefold() in ('khu', 'khu đô thị'):
+            if f == 'thon_xom' and value.casefold() in GIA_TRI_THON_XOM_LOAI_BO:
                 value = ''
-            if f == 'so_nha':
-                num_val = value.casefold().replace('số', '').strip()
-                if num_val.isdigit() and len(num_val) in (5, 6) and (b >= len(self.tokens) - 2 or all(not any(c.isalnum() for c in self.tokens[k]) for k in range(b, len(self.tokens)))):
-                    value = ''
+            value = loc_so_nha_ma_buu_chinh(self.tokens, f, value, b)
             if value and a < b:
                 values[f].append(value)
                 output_spans.append({'truong': f, 'bat_dau': a, 'ket_thuc': b, 'gia_tri': value})
@@ -200,31 +225,22 @@ class NguCanhCRF:
         for i in unknown_candidates:
             if i in used:
                 continue
-            if i > 0:
-                prev_tok = bo_dau(self.tokens[i-1].casefold())
-                curr_tok = bo_dau(self.tokens[i].casefold())
-                if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
-                    continue
-                if prev_tok in ('khu', 'to', 'khoi') and curr_tok == 'pho':
-                    continue
+            if la_duong_thanh_pho(self.tokens, i):
+                continue
+            if i > 0 and bo_dau(self.tokens[i-1].casefold()) in TIEN_TO_PHO_HANH_CHINH and bo_dau(self.tokens[i].casefold()) == 'pho':
+                continue
             marker = khop_tien_to(self.tokens, i, CHI_TIET)
             if marker:
                 end, (f, label) = marker
-                if f == 'duong' and i > 0:
-                    prev_tok = bo_dau(self.tokens[i-1].casefold())
-                    curr_tok = bo_dau(self.tokens[i].casefold())
-                    if prev_tok in ('thanh', 'tp') and curr_tok == 'pho':
-                        continue
+                if f == 'duong' and la_duong_thanh_pho(self.tokens, i):
+                    continue
                 j = end
-                while j < len(self.tokens) and j not in used and self.tokens[j] not in {',', ';'}:
+                while j < len(self.tokens) and j not in used and self.tokens[j] not in DAU_NGAT_CHI_TIET:
                     j += 1
                 if j > i:
                     val, g = dinh_dang_span(self.tokens[i:j], f, tien_to_mac_dinh=tien_to_mac_dinh,
                                             tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
-                    if f == 'so_nha':
-                        num_val = val.casefold().replace('số', '').strip()
-                        if num_val.isdigit() and len(num_val) in (5, 6) and (j >= len(self.tokens) - 2 or all(not any(c.isalnum() for c in self.tokens[k]) for k in range(j, len(self.tokens)))):
-                            val = ''
+                    val = loc_so_nha_ma_buu_chinh(self.tokens, f, val, j)
                     if val:
                         values[f].append(val)
                         output_spans.append({'truong': f, 'bat_dau': i, 'ket_thuc': j, 'gia_tri': val})
