@@ -1,0 +1,981 @@
+[
+  {
+    "id": "VNDEV_00003",
+    "input": "45 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ",
+    "ref": {
+      "so_nha": "Số 45",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "92"
+    },
+    "pred_base": {
+      "so_nha": "Số 45",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Xô Viết Nghệ TĨNH",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "has_span_annotation": true,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        2
+      ],
+      [
+        "duong",
+        3,
+        15
+      ],
+      [
+        "xa",
+        16,
+        20
+      ],
+      [
+        "xa",
+        21,
+        28
+      ],
+      [
+        "xa",
+        30,
+        34
+      ],
+      [
+        "xa",
+        35,
+        39
+      ],
+      [
+        "tinh",
+        41,
+        48
+      ]
+    ],
+    "assigned_layer": "TANG_1_SAI_RAW_SPAN",
+    "evidence": "CNN cắt sai span đường: gold=[] vs pred=['XÔ VIẾT NGHỆ']",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_1_SAI_RAW_SPAN"
+  },
+  {
+    "id": "VNDEV_00005",
+    "input": "268/10 NGUYỄN VĂN LINH, PHƯỜNG XUÂN KHÁNH QUẬN NINH KIỀU, TP CẦN THƠ",
+    "ref": {
+      "so_nha": "Số 268/10",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "pred_base": {
+      "so_nha": "Số 268/10",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Nguyễn Văn Linh",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "has_span_annotation": true,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        6
+      ],
+      [
+        "duong",
+        7,
+        22
+      ],
+      [
+        "xa",
+        24,
+        41
+      ],
+      [
+        "huyen",
+        42,
+        56
+      ],
+      [
+        "tinh",
+        58,
+        68
+      ]
+    ],
+    "assigned_layer": "TANG_1_SAI_RAW_SPAN",
+    "evidence": "CNN cắt sai span đường: gold=[] vs pred=['NGUYỄN VĂN LINH']",
+    "is_street_case": true,
+    "in_dict": true,
+    "dict_cands_count": 1,
+    "category_group": "TANG_1_SAI_RAW_SPAN"
+  },
+  {
+    "id": "VNDEV_00099",
+    "input": "Ngõ Hòa Bình 5, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "ref": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Ngõ Hòa Bình 5",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "pred_base": {
+      "so_nha": "",
+      "ngo_ngach_hem": "Ngõ Hòa Bình 5",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "has_span_annotation": true,
+    "raw_spans": [
+      [
+        "duong",
+        0,
+        14
+      ],
+      [
+        "huyen",
+        16,
+        20
+      ],
+      [
+        "huyen",
+        21,
+        27
+      ],
+      [
+        "huyen",
+        28,
+        33
+      ],
+      [
+        "tinh",
+        35,
+        51
+      ]
+    ],
+    "assigned_layer": "TANG_2_LECH_FORMATTER",
+    "evidence": "Raw span đường đúng semantic 'Ngõ Hòa Bình 5', nhưng pipeline format '' khác ref 'Đường Ngõ Hòa Bình 5'",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_2_LECH_FORMATTER"
+  },
+  {
+    "id": "VNDEV_00110",
+    "input": "120, Xa lộ Hà Nội, Phường Tăng Nhơn Phú, Khu phố 8, Thành phố Hồ Chí Minh",
+    "ref": {
+      "so_nha": "Số 120",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Khu phố 8",
+      "duong": "Đường Xa Lộ Hà Nội",
+      "ma_xa": "26842",
+      "ma_tinh": "79"
+    },
+    "pred_base": {
+      "so_nha": "Số 120",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Khu phố 8",
+      "duong": "Xa lộ Hà Nội",
+      "ma_xa": "26842",
+      "ma_tinh": "79"
+    },
+    "has_span_annotation": true,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        3
+      ],
+      [
+        "duong",
+        5,
+        17
+      ],
+      [
+        "xa",
+        19,
+        39
+      ],
+      [
+        "thon_xom",
+        41,
+        50
+      ],
+      [
+        "tinh",
+        52,
+        64
+      ],
+      [
+        "tinh",
+        65,
+        73
+      ]
+    ],
+    "assigned_layer": "TANG_2_LECH_FORMATTER",
+    "evidence": "Raw span đường đúng semantic 'Xa lộ Hà Nội', nhưng pipeline format 'Xa lộ Hà Nội' khác ref 'Đường Xa Lộ Hà Nội'",
+    "is_street_case": true,
+    "in_dict": true,
+    "dict_cands_count": 1,
+    "category_group": "TANG_2_LECH_FORMATTER"
+  },
+  {
+    "id": "VNDEV_00055",
+    "input": "296 Lý Thái Tổ, P. Hương Sơ, TP. Huế",
+    "ref": {
+      "so_nha": "Số 296",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "19804",
+      "ma_tinh": "46"
+    },
+    "pred_base": {
+      "so_nha": "Số 296",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Lý Thái Tổ",
+      "ma_xa": "19804",
+      "ma_tinh": "46"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        3
+      ],
+      [
+        "duong",
+        4,
+        14
+      ],
+      [
+        "xa",
+        16,
+        27
+      ],
+      [
+        "tinh",
+        29,
+        36
+      ]
+    ],
+    "assigned_layer": "TANG_3_THIEU_TU_DIEN_OOV",
+    "evidence": "Đường 'Lý Thái Tổ' trích xuất được nhưng OOV trong tu_dien_duong_v5 cho mã tỉnh '46'",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_3_THIEU_TU_DIEN_OOV"
+  },
+  {
+    "id": "VNDEV_00089",
+    "input": "9, Khu dân cư số 9, Xuân Khánh, Ninh Kiều, Cần Thơ",
+    "ref": {
+      "so_nha": "Số 9",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân Cư Số 9",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "pred_base": {
+      "so_nha": "Số 9",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Khu Dân Cư",
+      "ma_xa": "31135",
+      "ma_tinh": "92"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        1
+      ],
+      [
+        "duong",
+        3,
+        13
+      ],
+      [
+        "so_nha",
+        14,
+        18
+      ],
+      [
+        "xa",
+        20,
+        30
+      ],
+      [
+        "huyen",
+        32,
+        36
+      ],
+      [
+        "huyen",
+        37,
+        41
+      ],
+      [
+        "tinh",
+        43,
+        50
+      ]
+    ],
+    "assigned_layer": "TANG_3_THIEU_TU_DIEN_OOV",
+    "evidence": "Đường 'Khu dân cư' trích xuất được nhưng OOV trong tu_dien_duong_v5 cho mã tỉnh '92'",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_3_THIEU_TU_DIEN_OOV"
+  },
+  {
+    "id": "VNDEV_00091",
+    "input": "Ngõ 78 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh",
+    "ref": {
+      "so_nha": "",
+      "ngo_ngach_hem": "Ngõ 78",
+      "thon_xom": "",
+      "duong": "Đường Ngõ 78 Phố Yên Lã",
+      "ma_xa": "09367",
+      "ma_tinh": "24"
+    },
+    "pred_base": {
+      "so_nha": "",
+      "ngo_ngach_hem": "Ngõ 78",
+      "thon_xom": "",
+      "duong": "Phố Yên Lã",
+      "ma_xa": "09367",
+      "ma_tinh": "24"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        6
+      ],
+      [
+        "duong",
+        7,
+        17
+      ],
+      [
+        "xa",
+        19,
+        34
+      ],
+      [
+        "huyen",
+        36,
+        48
+      ],
+      [
+        "huyen",
+        49,
+        52
+      ],
+      [
+        "huyen",
+        54,
+        56
+      ],
+      [
+        "huyen",
+        58,
+        62
+      ],
+      [
+        "tinh",
+        64,
+        67
+      ],
+      [
+        "tinh",
+        68,
+        72
+      ]
+    ],
+    "assigned_layer": "TANG_3_THIEU_TU_DIEN_OOV",
+    "evidence": "Đường 'Phố Yên Lã' trích xuất được nhưng OOV trong tu_dien_duong_v5 cho mã tỉnh '24'",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_3_THIEU_TU_DIEN_OOV"
+  },
+  {
+    "id": "VNDEV_00004",
+    "input": "313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ",
+    "ref": {
+      "so_nha": "Số 313",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Cần Thơ",
+      "ma_xa": "31147",
+      "ma_tinh": "92"
+    },
+    "pred_base": {
+      "so_nha": "Số 313",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Nguyễn Văn Linh",
+      "ma_xa": "31147",
+      "ma_tinh": "92"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        3
+      ],
+      [
+        "duong",
+        5,
+        20
+      ],
+      [
+        "xa",
+        22,
+        37
+      ],
+      [
+        "huyen",
+        39,
+        53
+      ],
+      [
+        "tinh",
+        55,
+        72
+      ]
+    ],
+    "assigned_layer": "TANG_4_XEP_HANG_CANONICAL_SAI",
+    "evidence": "Đường 'NGUYỄN VĂN LINH' có trong từ điển v5 (tìm thấy 1 ứng viên), nhưng bộ chọn/ranking chọn sai hoặc lệch xã/tỉnh",
+    "is_street_case": true,
+    "in_dict": true,
+    "dict_cands_count": 1,
+    "category_group": "TANG_4_XEP_HANG_CANONICAL_SAI"
+  },
+  {
+    "id": "VNDEV_00027",
+    "input": "663 Lê Trọng Tấn, KP.2 Bình Hưng Hòa, Q. Bình Tân, TP HCM",
+    "ref": {
+      "so_nha": "Số 663",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Trọng Tấn",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "pred_base": {
+      "so_nha": "Số 663",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Khu phố 2 Bình Hưng Hòa",
+      "duong": "Đường Lê Trọng Tấn",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        3
+      ],
+      [
+        "duong",
+        4,
+        16
+      ],
+      [
+        "xa",
+        18,
+        22
+      ],
+      [
+        "xa",
+        23,
+        27
+      ],
+      [
+        "xa",
+        28,
+        32
+      ],
+      [
+        "xa",
+        33,
+        37
+      ],
+      [
+        "huyen",
+        39,
+        51
+      ],
+      [
+        "tinh",
+        53,
+        59
+      ]
+    ],
+    "assigned_layer": "TANG_4_XEP_HANG_CANONICAL_SAI",
+    "evidence": "Đường 'Lê Trọng Tấn' có trong từ điển v5 (tìm thấy 1 ứng viên), nhưng bộ chọn/ranking chọn sai hoặc lệch xã/tỉnh",
+    "is_street_case": true,
+    "in_dict": true,
+    "dict_cands_count": 1,
+    "category_group": "TANG_4_XEP_HANG_CANONICAL_SAI"
+  },
+  {
+    "id": "VNDEV_00087",
+    "input": "22 Tân Hồng - tổ 85 - KT - HN",
+    "ref": {
+      "so_nha": "Số 22",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường 22 Tân Hồng - Tổ 85 - Kt - Hn",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "pred_base": {
+      "so_nha": "Số 22",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "10114",
+      "ma_tinh": "01"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        2
+      ],
+      [
+        "xa",
+        3,
+        6
+      ],
+      [
+        "xa",
+        7,
+        11
+      ],
+      [
+        "xa",
+        14,
+        16
+      ],
+      [
+        "xa",
+        17,
+        19
+      ],
+      [
+        "tinh",
+        22,
+        24
+      ],
+      [
+        "tinh",
+        27,
+        29
+      ]
+    ],
+    "assigned_layer": "TANG_6_CHUA_XAC_DINH",
+    "evidence": "Chưa đủ dữ kiện độc lập phân tách dứt khoát tầng lỗi",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_6_CHUA_XAC_DINH"
+  },
+  {
+    "id": "VNDEV_00301",
+    "input": "thôn đòn, lương nội, bá thước, thanh hóa",
+    "ref": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Thôn Đòn",
+      "duong": "Đường Thôn Đòn",
+      "ma_xa": "14953",
+      "ma_tinh": "38"
+    },
+    "pred_base": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Thôn Đòn",
+      "duong": "",
+      "ma_xa": "14953",
+      "ma_tinh": "38"
+    },
+    "has_span_annotation": false,
+    "raw_spans": [
+      [
+        "thon_xom",
+        0,
+        8
+      ],
+      [
+        "xa",
+        10,
+        19
+      ],
+      [
+        "xa",
+        21,
+        29
+      ],
+      [
+        "tinh",
+        31,
+        40
+      ]
+    ],
+    "assigned_layer": "TANG_6_CHUA_XAC_DINH",
+    "evidence": "Chưa đủ dữ kiện độc lập phân tách dứt khoát tầng lỗi",
+    "is_street_case": true,
+    "in_dict": false,
+    "dict_cands_count": 0,
+    "category_group": "TANG_6_CHUA_XAC_DINH"
+  },
+  {
+    "id": "VNDEV_00113",
+    "input": "Tổ 1, ấp 4, Mỹ Long, Cao Lãnh, Đồng Tháp.",
+    "ref": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Ấp 4",
+      "duong": "Đường Tổ 1, Ấp 4, Mỹ Long, Cao Lãnh, Đồng Tháp.",
+      "ma_xa": "",
+      "ma_tinh": "82"
+    },
+    "pred_base": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "Tổ 1, Ấp 4",
+      "duong": "",
+      "ma_xa": "30112",
+      "ma_tinh": "82"
+    },
+    "category_group": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "assigned_layer": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        4
+      ],
+      [
+        "duong",
+        6,
+        10
+      ],
+      [
+        "xa",
+        12,
+        14
+      ],
+      [
+        "xa",
+        15,
+        19
+      ],
+      [
+        "huyen",
+        21,
+        29
+      ],
+      [
+        "tinh",
+        31,
+        40
+      ]
+    ],
+    "evidence": "Nhãn tham chiếu (ref) bị nhiễu nặng: trường 'duong' bị gán nguyên cả chuỗi dài chứa cả quận/tỉnh, trong khi model trích xuất đúng tên đường."
+  },
+  {
+    "id": "VNDEV_00135",
+    "input": "QL30, số nhà 90, Bình Hàng Tây, Cao Lãnh, Đồng Tháp.",
+    "ref": {
+      "so_nha": "",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường QL30, Số Nhà 90, Bình Hàng Tây, Cao Lãnh, Đồng Tháp.",
+      "ma_xa": "",
+      "ma_tinh": "82"
+    },
+    "pred_base": {
+      "so_nha": "Số L30, Số 90",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "",
+      "ma_xa": "30118",
+      "ma_tinh": "82"
+    },
+    "category_group": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "assigned_layer": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "raw_spans": [
+      [
+        "xa",
+        0,
+        1
+      ],
+      [
+        "so_nha",
+        1,
+        4
+      ],
+      [
+        "duong",
+        6,
+        15
+      ],
+      [
+        "xa",
+        17,
+        21
+      ],
+      [
+        "xa",
+        22,
+        26
+      ],
+      [
+        "xa",
+        27,
+        30
+      ],
+      [
+        "huyen",
+        32,
+        40
+      ],
+      [
+        "tinh",
+        42,
+        51
+      ]
+    ],
+    "evidence": "Nhãn tham chiếu (ref) bị nhiễu nặng: trường 'duong' bị gán nguyên cả chuỗi dài chứa cả quận/tỉnh, trong khi model trích xuất đúng tên đường."
+  },
+  {
+    "id": "VNDEV_00012",
+    "input": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+    "ref": {
+      "so_nha": "Số 16",
+      "ngo_ngach_hem": "Ngõ 12",
+      "thon_xom": "",
+      "duong": "Đường Ngõ 12 Trần Quý Kiên",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "pred_base": {
+      "so_nha": "Số 16",
+      "ngo_ngach_hem": "Ngõ 12",
+      "thon_xom": "Tổ 58A",
+      "duong": "Phố Trần Quý Kiên",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "category_group": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "assigned_layer": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        5
+      ],
+      [
+        "ngo_ngach_hem",
+        6,
+        12
+      ],
+      [
+        "duong",
+        13,
+        26
+      ],
+      [
+        "so_nha",
+        27,
+        33
+      ],
+      [
+        "xa",
+        35,
+        51
+      ],
+      [
+        "huyen",
+        53,
+        66
+      ],
+      [
+        "tinh",
+        68,
+        74
+      ]
+    ],
+    "evidence": "Xã cũ bị chia tách địa giới hành chính năm 2025 thành nhiều đơn vị mới; đầu vào không có thông tin chi tiết để chọn duy nhất 1 xã."
+  },
+  {
+    "id": "VNDEV_00013",
+    "input": "348 Lạc Trung, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội",
+    "ref": {
+      "so_nha": "Số 348",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Lạc Trung",
+      "ma_xa": "",
+      "ma_tinh": "01"
+    },
+    "pred_base": {
+      "so_nha": "Số 348",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Phố Lạc Trung",
+      "ma_xa": "00283",
+      "ma_tinh": "01"
+    },
+    "category_group": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "assigned_layer": "TANG_5_NHAN_NHIEU_HOAC_MO_HO",
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        3
+      ],
+      [
+        "duong",
+        4,
+        13
+      ],
+      [
+        "xa",
+        15,
+        30
+      ],
+      [
+        "huyen",
+        32,
+        49
+      ],
+      [
+        "tinh",
+        51,
+        57
+      ]
+    ],
+    "evidence": "Xã cũ bị chia tách địa giới hành chính năm 2025 thành nhiều đơn vị mới; đầu vào không có thông tin chi tiết để chọn duy nhất 1 xã."
+  },
+  {
+    "id": "VNDEV_KHO_00008",
+    "input": "thanh pho ho chi minh, so 122/1B d. ton dan, phuong 13",
+    "ref": {
+      "so_nha": "Số 122/1B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "27259",
+      "ma_tinh": "79"
+    },
+    "pred_base": {
+      "so_nha": "Số 122/1B",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Tôn Đản",
+      "ma_xa": "",
+      "ma_tinh": "79"
+    },
+    "category_group": "DEV_KHO_BIEN_THE",
+    "assigned_layer": "TANG_4_XEP_HANG_CANONICAL_SAI",
+    "raw_spans": [
+      [
+        "tinh",
+        0,
+        21
+      ],
+      [
+        "so_nha",
+        23,
+        32
+      ],
+      [
+        "duong",
+        33,
+        43
+      ],
+      [
+        "xa",
+        45,
+        54
+      ]
+    ],
+    "evidence": "Tập Dev Khó: Biến thể mất dấu / viết tắt ('to_hop_kho'). Khác biệt tại 6 trường cốt lõi."
+  },
+  {
+    "id": "VNDEV_KHO_00017",
+    "input": "so 369A d. hoang thi loan, phuong hoa minh, quan lien chieu, thanh pho da nang",
+    "ref": {
+      "so_nha": "Số 369A",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Hoàng Thị Loan",
+      "ma_xa": "20200",
+      "ma_tinh": "48"
+    },
+    "pred_base": {
+      "so_nha": "Số 369A",
+      "ngo_ngach_hem": "",
+      "thon_xom": "",
+      "duong": "Đường Hoang Thi Loan",
+      "ma_xa": "20200",
+      "ma_tinh": "48"
+    },
+    "category_group": "DEV_KHO_BIEN_THE",
+    "assigned_layer": "TANG_3_THIEU_TU_DIEN_OOV",
+    "raw_spans": [
+      [
+        "so_nha",
+        0,
+        7
+      ],
+      [
+        "duong",
+        8,
+        25
+      ],
+      [
+        "xa",
+        27,
+        42
+      ],
+      [
+        "huyen",
+        44,
+        59
+      ],
+      [
+        "tinh",
+        61,
+        78
+      ]
+    ],
+    "evidence": "Tập Dev Khó: Biến thể mất dấu / viết tắt ('mat_dau_viet_tat'). Khác biệt tại 6 trường cốt lõi."
+  }
+]

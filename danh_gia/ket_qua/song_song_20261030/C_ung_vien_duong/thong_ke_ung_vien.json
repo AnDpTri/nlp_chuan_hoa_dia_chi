@@ -1,0 +1,2577 @@
+{
+  "dev_goc": {
+    "gained_cases": [
+      {
+        "id": "VNDEV_00009",
+        "dau_vao": "Phòng 801 , tầng 8, PVC MeKong, 131, Trần Hưng Đạo, Q. Ninh Kiều, Tp. Cần Thơ",
+        "ref_duong": "",
+        "base_duong": "Đường Trần Hưng Đạo",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "Trần Hưng Đạo"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00024",
+        "dau_vao": "Số 1 Lô 2 tập thể Viện Kỹ thuật quân sự, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội",
+        "ref_duong": "",
+        "base_duong": "Quốc lộ 2",
+        "candidates": [
+          {
+            "text": "Quốc lộ 2",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "2"
+            }
+          },
+          {
+            "text": "Phố Viên",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": false,
+            "confidence_tier": 3,
+            "metadata": {
+              "unknown_phrase": "Viện"
+            }
+          },
+          {
+            "text": "Phố Quán Sứ",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": false,
+            "confidence_tier": 3,
+            "metadata": {
+              "unknown_phrase": "quân sự"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00025",
+        "dau_vao": "LK 16-19 Khu đô thị Ngô Thì Nhậm, phường La Khê, quận Hà Đông, Hà Nội",
+        "ref_duong": "Đường Ngô Thì Nhậm",
+        "base_duong": "Phố Ngô Thì Nhậm",
+        "candidates": [
+          {
+            "text": "Phố Ngô Thì Nhậm",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ngô Thì Nhậm",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_00699"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ngô Thì Nhậm",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Ngô Thì Nhậm",
+              "span_range": [
+                7,
+                10
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00069",
+        "dau_vao": "145, Trần Đăng Ninh, Dịch Vọng, Cầu Giấy, Hà Nội",
+        "ref_duong": "Đường Trần Đăng Ninh",
+        "base_duong": "Phố Trần Đăng Ninh",
+        "candidates": [
+          {
+            "text": "Phố Trần Đăng Ninh",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Trần Đăng Ninh",
+              "train_ids": [
+                "VNTRAIN_00586",
+                "def_hanoi",
+                "CAND_STR_01211"
+              ]
+            }
+          },
+          {
+            "text": "Đường Trần Đăng Ninh",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Trần Đăng Ninh",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00144",
+        "dau_vao": "49, Bát Đàn, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội",
+        "ref_duong": "Đường Bát Đàn",
+        "base_duong": "Phố Bát Đàn",
+        "candidates": [
+          {
+            "text": "Phố Bát Đàn",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Bát Đàn",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_00047",
+                "VNTRAIN_01489"
+              ]
+            }
+          },
+          {
+            "text": "Đường Bát Đàn",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Bát Đàn",
+              "span_range": [
+                2,
+                4
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00178",
+        "dau_vao": "12, Đặng Xuân Bảng, Đại Kim, Hoàng Mai, Hà Nội",
+        "ref_duong": "Đường Đặng Xuân Bảng",
+        "base_duong": "Phố Đặng Xuân Bảng",
+        "candidates": [
+          {
+            "text": "Phố Đặng Xuân Bảng",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Đặng Xuân Bảng",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01431"
+              ]
+            }
+          },
+          {
+            "text": "Đường Đặng Xuân Bảng",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đặng Xuân Bảng",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00323",
+        "dau_vao": "Le Hong Phong, Trà An, Bình Thủy, Can Tho",
+        "ref_duong": "Đường Le Hong Phong",
+        "base_duong": "Đường Lê Hồng Phong",
+        "candidates": [
+          {
+            "text": "Đường Lê Hồng Phong",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Hong Phong",
+              "train_ids": [
+                "def_cantho",
+                "def_tinh_thanh",
+                "CAND_STR_00425",
+                "CAND_STR_00426"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Hong Phong",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Le Hong Phong",
+              "span_range": [
+                0,
+                3
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00389",
+        "dau_vao": "107, Đường Tân Xuân, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+        "ref_duong": "Đường Tân Xuân",
+        "base_duong": "Phố Tân Xuân",
+        "candidates": [
+          {
+            "text": "Phố Tân Xuân",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tân Xuân",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01234"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tân Xuân",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tân Xuân",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00393",
+        "dau_vao": "25, Hàng Cá, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội",
+        "ref_duong": "Đường Hàng Cá",
+        "base_duong": "Phố Hàng Cá",
+        "candidates": [
+          {
+            "text": "Phố Hàng Cá",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Hàng Cá",
+              "train_ids": [
+                "VNTRAIN_00553"
+              ]
+            }
+          },
+          {
+            "text": "Đường Hàng Cá",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Hàng Cá",
+              "span_range": [
+                2,
+                4
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00400",
+        "dau_vao": "Nguyễn Tất Thành, Quy Nhơn, Binh Dinh",
+        "ref_duong": "Đường Nguyễn Tất Thành",
+        "base_duong": "Đại lộ Nguyễn Tất Thành",
+        "candidates": [
+          {
+            "text": "Đại lộ Nguyễn Tất Thành",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Nguyễn Tất Thành",
+              "train_ids": [
+                "def_tinh_thanh",
+                "CAND_STR_00652"
+              ]
+            }
+          },
+          {
+            "text": "Đường Nguyễn Tất Thành",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Nguyễn Tất Thành",
+              "span_range": [
+                0,
+                3
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_00669",
+        "dau_vao": "88 duong Le Loi, Phuong An Loi Dong, Thanh pho Thu Duc, Ho Chi Minh",
+        "ref_duong": "Đường Lê Lợi",
+        "base_duong": "Đường Le Loi",
+        "candidates": [
+          {
+            "text": "Đường Lê Lợ I",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Loi",
+              "train_ids": [
+                "VNTRAIN_01091"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Loi",
+              "train_ids": [
+                "VNTRAIN_BS_00991",
+                "VNTRAIN_BS_01799",
+                "VNTRAIN_BS_01800",
+                "VNTRAIN_BS_01801",
+                "VNTRAIN_BS_01802",
+                "VNTRAIN_BS_01803",
+                "VNTRAIN_BS_01804",
+                "VNTRAIN_BS_01805",
+                "VNTRAIN_BS_01806",
+                "VNTRAIN_BS_01807",
+                "VNTRAIN_BS_01808",
+                "VNTRAIN_BS_01809",
+                "VNTRAIN_BS_01810",
+                "VNTRAIN_BS_01811",
+                "VNTRAIN_BS_01812",
+                "VNTRAIN_BS_01813",
+                "VNTRAIN_BS_01814",
+                "VNTRAIN_BS_01815",
+                "VNTRAIN_BS_01816",
+                "VNTRAIN_BS_01817",
+                "VNTRAIN_BS_01818",
+                "VNTRAIN_BS_01819",
+                "VNTRAIN_BS_01820",
+                "def_tphcm",
+                "CAND_STR_00437",
+                "VNTRAIN_00103",
+                "VNTRAIN_00288"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Loi",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "duong Le Loi",
+              "span_range": [
+                1,
+                4
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": true
+      },
+      {
+        "id": "VNDEV_01005",
+        "dau_vao": "Khu phố 4, Phường Thịnh Liệt, Quận Hoàng Mai, Thành phố Hà Nội",
+        "ref_duong": "",
+        "base_duong": "Đường Thành",
+        "candidates": [
+          {
+            "text": "Đường Thành",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "Thành"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_01021",
+        "dau_vao": "Số 72, Ngõ 168, Đường Xã Đàn, Xã Hạ Bằng, Huyện Thạch Thất, Thành phố Hà Nội",
+        "ref_duong": "Đường Xã Đàn",
+        "base_duong": "Phố Xã Đàn",
+        "candidates": [
+          {
+            "text": "Phố Xã Đàn",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Xã Đàn",
+              "train_ids": [
+                "VNTRAIN_00277",
+                "def_hanoi",
+                "CAND_STR_01335",
+                "VNTRAIN_00385",
+                "VNTRAIN_00485",
+                "VNTRAIN_00537",
+                "VNTRAIN_00592",
+                "VNTRAIN_00598",
+                "VNTRAIN_00666",
+                "VNTRAIN_00719",
+                "VNTRAIN_00966",
+                "VNTRAIN_01253",
+                "VNTRAIN_01414"
+              ]
+            }
+          },
+          {
+            "text": "Đường Xã Đàn",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Xã Đàn",
+              "span_range": [
+                6,
+                9
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_01022",
+        "dau_vao": "72 Đ.XãĐàn, X.Hạ Bằng, H.Thạch Thất, Thành phố Hà Nội",
+        "ref_duong": "Đường Xã Đàn",
+        "base_duong": "Phố Xã Đàn",
+        "candidates": [
+          {
+            "text": "Phố Xã Đàn",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Xã Đàn",
+              "train_ids": [
+                "VNTRAIN_00277",
+                "def_hanoi",
+                "CAND_STR_01335",
+                "VNTRAIN_00385",
+                "VNTRAIN_00485",
+                "VNTRAIN_00537",
+                "VNTRAIN_00592",
+                "VNTRAIN_00598",
+                "VNTRAIN_00666",
+                "VNTRAIN_00719",
+                "VNTRAIN_00966",
+                "VNTRAIN_01253",
+                "VNTRAIN_01414"
+              ]
+            }
+          },
+          {
+            "text": "Đường Xã Đàn",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đ . Xã Đàn",
+              "span_range": [
+                1,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_01024",
+        "dau_vao": "Thành phố Hà Nội, Huyện Thạch Thất, Xã Hạ Bằng, Số 72 Đường Xã Đàn",
+        "ref_duong": "Đường Xã Đàn",
+        "base_duong": "Phố Xã Đàn",
+        "candidates": [
+          {
+            "text": "Phố Xã Đàn",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Xã Đàn",
+              "train_ids": [
+                "VNTRAIN_00277",
+                "def_hanoi",
+                "CAND_STR_01335",
+                "VNTRAIN_00385",
+                "VNTRAIN_00485",
+                "VNTRAIN_00537",
+                "VNTRAIN_00592",
+                "VNTRAIN_00598",
+                "VNTRAIN_00666",
+                "VNTRAIN_00719",
+                "VNTRAIN_00966",
+                "VNTRAIN_01253",
+                "VNTRAIN_01414"
+              ]
+            }
+          },
+          {
+            "text": "Đường Xã Đàn",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Xã Đàn",
+              "span_range": [
+                15,
+                18
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      }
+    ],
+    "lost_cases": [],
+    "ambiguous_sample_count": 94,
+    "ambiguous_samples_preview": [
+      {
+        "id": "VNDEV_00003",
+        "dau_vao": "45 XÔ VIẾT NGHỆ TĨNH P.AN CƯ- NINH KIỀU- CẦN THƠ",
+        "ref_duong": "",
+        "candidates": [
+          {
+            "text": "Đường Xô Viết Nghệ Tĩnh",
+            "provenance": "boundary_expansion_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "direction": "right",
+              "expanded_tokens": [
+                "TĨNH"
+              ]
+            }
+          },
+          {
+            "text": "Đường Xô Viết Nghệ",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "XÔ VIẾT NGHỆ",
+              "span_range": [
+                1,
+                4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00007",
+        "dau_vao": "87 CMT8, An Hòa, Ninh Kiều, Cần Thơ",
+        "ref_duong": "",
+        "candidates": [
+          {
+            "text": "Đường Cách Mạng Tháng 8",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "CMT8"
+            }
+          },
+          {
+            "text": "Đường Cách Mạng Tháng Tám",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "CMT8"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00009",
+        "dau_vao": "Phòng 801 , tầng 8, PVC MeKong, 131, Trần Hưng Đạo, Q. Ninh Kiều, Tp. Cần Thơ",
+        "ref_duong": "",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "Trần Hưng Đạo"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00012",
+        "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+        "ref_duong": "Đường Ngõ 12 Trần Quý Kiên",
+        "candidates": [
+          {
+            "text": "Phố Trần Quý Kiên",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Trần Quý Kiên",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01195"
+              ]
+            }
+          },
+          {
+            "text": "Đường Trần Quý Kiên",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Trần Quý Kiên",
+              "span_range": [
+                4,
+                7
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00013",
+        "dau_vao": "348 Lạc Trung, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội",
+        "ref_duong": "Phố Lạc Trung",
+        "candidates": [
+          {
+            "text": "Phố Lạc Trung",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lạc Trung",
+              "train_ids": [
+                "VNTRAIN_01155",
+                "VNTRAIN_01250",
+                "def_hanoi",
+                "CAND_STR_00518"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lạc Trung",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Lạc Trung",
+              "span_range": [
+                1,
+                3
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00015",
+        "dau_vao": "Số 86 Lạc Trung, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội",
+        "ref_duong": "Phố Lạc Trung",
+        "candidates": [
+          {
+            "text": "Phố Lạc Trung",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lạc Trung",
+              "train_ids": [
+                "VNTRAIN_01155",
+                "VNTRAIN_01250",
+                "def_hanoi",
+                "CAND_STR_00518"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lạc Trung",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Lạc Trung",
+              "span_range": [
+                2,
+                4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00018",
+        "dau_vao": "37 Doãn Kế Thiện, phường Mai Dịch, quận Cầu Giấy, Hà Nội",
+        "ref_duong": "Phố Doãn Kế Thiện",
+        "candidates": [
+          {
+            "text": "Phố Doãn Kế Thiện",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Doãn Kế Thiện",
+              "train_ids": [
+                "VNTRAIN_00270",
+                "def_hanoi",
+                "CAND_STR_00170"
+              ]
+            }
+          },
+          {
+            "text": "Đường Doãn Kế Thiện",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Doãn Kế Thiện",
+              "span_range": [
+                1,
+                4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00019",
+        "dau_vao": "29A Nguyễn Công Hoan, phường Ngọc Khánh, quận Ba Đình, Hà Nội",
+        "ref_duong": "Phố Nguyễn Công Hoan",
+        "candidates": [
+          {
+            "text": "Phố Nguyễn Công Hoan",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Nguyễn Công Hoan",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_00574"
+              ]
+            }
+          },
+          {
+            "text": "Đường Nguyễn Công Hoan",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Nguyễn Công Hoan",
+              "span_range": [
+                1,
+                4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00024",
+        "dau_vao": "Số 1 Lô 2 tập thể Viện Kỹ thuật quân sự, Phường Nghĩa Đô, Quận Cầu Giấy, Hà Nội",
+        "ref_duong": "",
+        "candidates": [
+          {
+            "text": "Quốc lộ 2",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "2"
+            }
+          },
+          {
+            "text": "Phố Viên",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": false,
+            "confidence_tier": 3,
+            "metadata": {
+              "unknown_phrase": "Viện"
+            }
+          },
+          {
+            "text": "Phố Quán Sứ",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": false,
+            "confidence_tier": 3,
+            "metadata": {
+              "unknown_phrase": "quân sự"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00025",
+        "dau_vao": "LK 16-19 Khu đô thị Ngô Thì Nhậm, phường La Khê, quận Hà Đông, Hà Nội",
+        "ref_duong": "Đường Ngô Thì Nhậm",
+        "candidates": [
+          {
+            "text": "Phố Ngô Thì Nhậm",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ngô Thì Nhậm",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_00699"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ngô Thì Nhậm",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Ngô Thì Nhậm",
+              "span_range": [
+                7,
+                10
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00037",
+        "dau_vao": "Số 166 Ái Mộ, phường Bồ Đề, quận Long Biên, Hà Nội",
+        "ref_duong": "Phố Ái Mộ",
+        "candidates": [
+          {
+            "text": "Phố Ái Mộ",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ái Mộ",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01351"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ái Mộ",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Ái Mộ",
+              "span_range": [
+                2,
+                4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00039",
+        "dau_vao": "65 Lê Lợi, Bến Nghé, Quận 1, Hồ Chí Minh, Việt Nam",
+        "ref_duong": "Đường Lê Lợi",
+        "candidates": [
+          {
+            "text": "Đường Lê Lợ I",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lê Lợi",
+              "train_ids": [
+                "VNTRAIN_01091"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lê Lợi",
+              "train_ids": [
+                "VNTRAIN_BS_00991",
+                "VNTRAIN_BS_01799",
+                "VNTRAIN_BS_01800",
+                "VNTRAIN_BS_01801",
+                "VNTRAIN_BS_01802",
+                "VNTRAIN_BS_01803",
+                "VNTRAIN_BS_01804",
+                "VNTRAIN_BS_01805",
+                "VNTRAIN_BS_01806",
+                "VNTRAIN_BS_01807",
+                "VNTRAIN_BS_01808",
+                "VNTRAIN_BS_01809",
+                "VNTRAIN_BS_01810",
+                "VNTRAIN_BS_01811",
+                "VNTRAIN_BS_01812",
+                "VNTRAIN_BS_01813",
+                "VNTRAIN_BS_01814",
+                "VNTRAIN_BS_01815",
+                "VNTRAIN_BS_01816",
+                "VNTRAIN_BS_01817",
+                "VNTRAIN_BS_01818",
+                "VNTRAIN_BS_01819",
+                "VNTRAIN_BS_01820",
+                "def_tphcm",
+                "CAND_STR_00437",
+                "VNTRAIN_00103",
+                "VNTRAIN_00288"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00042",
+        "dau_vao": "32 Hùng Vương, Phú Nhuận, Tp. Huế, Thừa Thiên Huế, Việt Nam",
+        "ref_duong": "Đường Hùng Vương",
+        "candidates": [
+          {
+            "text": "Đường Hùng Vương",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Hùng Vương",
+              "train_ids": [
+                "VNTRAIN_00182",
+                "VNTRAIN_04494",
+                "VNTRAIN_04495",
+                "VNTRAIN_04496",
+                "VNTRAIN_04497",
+                "VNTRAIN_04498",
+                "def_hue",
+                "CAND_STR_00316",
+                "VNTRAIN_00459",
+                "VNTRAIN_04493"
+              ]
+            }
+          },
+          {
+            "text": "Đường Hung Vuong",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": false,
+            "confidence_tier": 2,
+            "metadata": {
+              "query": "Đường Hùng Vương",
+              "train_ids": [
+                "VNTRAIN_00525"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00059",
+        "dau_vao": "51 CMT8, An Hòa, Ninh Kiều, Cần Thơ",
+        "ref_duong": "",
+        "candidates": [
+          {
+            "text": "Đường Cách Mạng Tháng 8",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "CMT8"
+            }
+          },
+          {
+            "text": "Đường Cách Mạng Tháng Tám",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "CMT8"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00060",
+        "dau_vao": "110A CMT8, Ninh Kiều, Cần Thơ",
+        "ref_duong": "",
+        "candidates": [
+          {
+            "text": "Đường Cách Mạng Tháng 8",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường CMT8",
+              "train_ids": [
+                "VNTRAIN_00211"
+              ]
+            }
+          },
+          {
+            "text": "Đường Cách Mạng Tháng Tám",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường CMT8",
+              "train_ids": [
+                "def_cantho",
+                "CAND_STR_00137"
+              ]
+            }
+          },
+          {
+            "text": "Đường CMT8",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "CMT8",
+              "span_range": [
+                1,
+                2
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00068",
+        "dau_vao": "Trần Hưng Đạo, Thành phố Châu Đốc, An Giang",
+        "ref_duong": "Đường Trần Hưng Đạo",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "boundary_expansion_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "direction": "right",
+              "expanded_tokens": [
+                "Đạo"
+              ]
+            }
+          },
+          {
+            "text": "Đường Trần Hưng",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Trần Hưng",
+              "span_range": [
+                0,
+                2
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00069",
+        "dau_vao": "145, Trần Đăng Ninh, Dịch Vọng, Cầu Giấy, Hà Nội",
+        "ref_duong": "Đường Trần Đăng Ninh",
+        "candidates": [
+          {
+            "text": "Phố Trần Đăng Ninh",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Trần Đăng Ninh",
+              "train_ids": [
+                "VNTRAIN_00586",
+                "def_hanoi",
+                "CAND_STR_01211"
+              ]
+            }
+          },
+          {
+            "text": "Đường Trần Đăng Ninh",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Trần Đăng Ninh",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00144",
+        "dau_vao": "49, Bát Đàn, Phường Hoàn Kiếm, Hà Nội, Thành phố Hà Nội",
+        "ref_duong": "Đường Bát Đàn",
+        "candidates": [
+          {
+            "text": "Phố Bát Đàn",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Bát Đàn",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_00047",
+                "VNTRAIN_01489"
+              ]
+            }
+          },
+          {
+            "text": "Đường Bát Đàn",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Bát Đàn",
+              "span_range": [
+                2,
+                4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00178",
+        "dau_vao": "12, Đặng Xuân Bảng, Đại Kim, Hoàng Mai, Hà Nội",
+        "ref_duong": "Đường Đặng Xuân Bảng",
+        "candidates": [
+          {
+            "text": "Phố Đặng Xuân Bảng",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Đặng Xuân Bảng",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01431"
+              ]
+            }
+          },
+          {
+            "text": "Đường Đặng Xuân Bảng",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đặng Xuân Bảng",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_00212",
+        "dau_vao": "18-LK1, Lý Thành Long, Hải Phòng",
+        "ref_duong": "Đường Lý Thành Long",
+        "candidates": [
+          {
+            "text": "Đường Lý Thành Long",
+            "provenance": "unknown_cluster_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 2,
+            "metadata": {
+              "unknown_phrase": "Lý Thành Long"
+            }
+          },
+          {
+            "text": "",
+            "provenance": "empty_fallback",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 5,
+            "metadata": {
+              "reason": "no_duong_span_or_candidates"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dev_kho": {
+    "gained_cases": [
+      {
+        "id": "VNDEV_KHO_00054",
+        "dau_vao": "Số 32/4/1 Đường 99/18/5/36 Đ. Thạnh Xuân 21, Thạnh Xuân, Quận 12, Thành Phố Hồ Chí Minh 71514, Việt Nam, Phường Thạnh Xuân, Quận 12, Thành phố Hồ Chí Minh",
+        "ref_duong": "Đường 99/18/5/36 Đ. Thạnh Xuân 21, Thạnh Xuân, Quận 12, Thành Phố Hồ Chí Minh 71514, Việt Nam",
+        "base_duong": "Đường 99/18/5/36, Đường Thạnh Xuân 21, Đường 71514, Đường Việt Nam",
+        "candidates": [
+          {
+            "text": "Đường 99/18/5/36 Đ. Thạnh Xuân 21, Thạnh Xuân, Quận 12, Thành Phố Hồ Chí Minh 71514, Việt Nam",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường 99/18/5/36 Đ . Thạnh Xuân 21 , Thạnh Xuân , Quận 12 , Thành Phố Hồ Chí Minh 71514 , Việt Nam",
+              "span_range": [
+                2,
+                25
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00086",
+        "dau_vao": "Số 559/1/9A Đường Le Hong Phong, Phường Trà An, Quận Bình Thủy, Thành phố Cần Thơ",
+        "ref_duong": "Đường Le Hong Phong",
+        "base_duong": "Đường Lê Hồng Phong",
+        "candidates": [
+          {
+            "text": "Đường Lê Hồng Phong",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Hong Phong",
+              "train_ids": [
+                "def_cantho",
+                "def_tinh_thanh",
+                "CAND_STR_00425",
+                "CAND_STR_00426"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Hong Phong",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Le Hong Phong",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00228",
+        "dau_vao": "Số 289A, Đường Lý Thường Kiệt, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+        "ref_duong": "Đường Lý Thường Kiệt",
+        "base_duong": "Phố Lý Thường Kiệt",
+        "candidates": [
+          {
+            "text": "Phố Lý Thường Kiệt",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lý Thường Kiệt",
+              "train_ids": [
+                "VNTRAIN_00699",
+                "VNTRAIN_00959",
+                "def_hanoi",
+                "CAND_STR_00489"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lý Thường Kiệt",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Lý Thường Kiệt",
+              "span_range": [
+                3,
+                7
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00349",
+        "dau_vao": "540B dduowngf Lê Lợi, xax Xuân Lai, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+        "ref_duong": "Đường Lê Lợi",
+        "base_duong": "Đại lộ Lê Lợi",
+        "candidates": [
+          {
+            "text": "Đại lộ Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lê Lợi",
+              "train_ids": [
+                "def_tinh_thanh",
+                "CAND_STR_00434"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "dduowngf Lê Lợi",
+              "span_range": [
+                1,
+                4
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00351",
+        "dau_vao": "Số 80A Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+        "ref_duong": "Đường Tô Hiệu",
+        "base_duong": "Phố Tô Hiệu",
+        "candidates": [
+          {
+            "text": "Phố Tô Hiệu",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tô Hiệu",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01244"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tô Hiệu",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tô Hiệu",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00352",
+        "dau_vao": "Số 43 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+        "ref_duong": "Đường Tô Hiệu",
+        "base_duong": "Phố Tô Hiệu",
+        "candidates": [
+          {
+            "text": "Phố Tô Hiệu",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tô Hiệu",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01244"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tô Hiệu",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tô Hiệu",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00353",
+        "dau_vao": "Số 139B Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+        "ref_duong": "Đường Tô Hiệu",
+        "base_duong": "Phố Tô Hiệu",
+        "candidates": [
+          {
+            "text": "Phố Tô Hiệu",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tô Hiệu",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01244"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tô Hiệu",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tô Hiệu",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00354",
+        "dau_vao": "Số 79 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+        "ref_duong": "Đường Tô Hiệu",
+        "base_duong": "Phố Tô Hiệu",
+        "candidates": [
+          {
+            "text": "Phố Tô Hiệu",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tô Hiệu",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01244"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tô Hiệu",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tô Hiệu",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00355",
+        "dau_vao": "Số 170 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+        "ref_duong": "Đường Tô Hiệu",
+        "base_duong": "Phố Tô Hiệu",
+        "candidates": [
+          {
+            "text": "Phố Tô Hiệu",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tô Hiệu",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01244"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tô Hiệu",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tô Hiệu",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      },
+      {
+        "id": "VNDEV_KHO_00356",
+        "dau_vao": "Số 189 Đường Tô Hiệu, Phường Nghĩa Tân, Quận Cầu Giấy, Thành phố Hà Nội",
+        "ref_duong": "Đường Tô Hiệu",
+        "base_duong": "Phố Tô Hiệu",
+        "candidates": [
+          {
+            "text": "Phố Tô Hiệu",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tô Hiệu",
+              "train_ids": [
+                "def_hanoi",
+                "CAND_STR_01244"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tô Hiệu",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Tô Hiệu",
+              "span_range": [
+                2,
+                5
+              ]
+            }
+          }
+        ],
+        "in_dict_v5": false
+      }
+    ],
+    "lost_cases": [],
+    "ambiguous_sample_count": 46,
+    "ambiguous_samples_preview": [
+      {
+        "id": "VNDEV_KHO_00001",
+        "dau_vao": "so 30 d. le loi, phuong xuan khanh, quan ninh kieu, thanh pho can tho",
+        "ref_duong": "Đường Lê Lợi",
+        "candidates": [
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Loi",
+              "train_ids": [
+                "VNTRAIN_BS_00001",
+                "VNTRAIN_01972",
+                "VNTRAIN_BS_00791",
+                "VNTRAIN_01973",
+                "VNTRAIN_BS_00792",
+                "VNTRAIN_01969",
+                "VNTRAIN_01970",
+                "VNTRAIN_01971",
+                "VNTRAIN_01974",
+                "VNTRAIN_01976"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Loi",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . le loi",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00008",
+        "dau_vao": "thanh pho ho chi minh, so 122/1B d. ton dan, phuong 13",
+        "ref_duong": "Đường Tôn Đản",
+        "candidates": [
+          {
+            "text": "Đường Tôn Đản",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ton Dan",
+              "train_ids": [
+                "def_tphcm",
+                "CAND_STR_01256"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ton Dan",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . ton dan",
+              "span_range": [
+                8,
+                12
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00086",
+        "dau_vao": "Số 559/1/9A Đường Le Hong Phong, Phường Trà An, Quận Bình Thủy, Thành phố Cần Thơ",
+        "ref_duong": "Đường Le Hong Phong",
+        "candidates": [
+          {
+            "text": "Đường Lê Hồng Phong",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Hong Phong",
+              "train_ids": [
+                "def_cantho",
+                "def_tinh_thanh",
+                "CAND_STR_00425",
+                "CAND_STR_00426"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Hong Phong",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Le Hong Phong",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00105",
+        "dau_vao": "so 885B d. nguyen hue, xa nga lien, huyen nga son, tinh thanh hoa",
+        "ref_duong": "Đường Nguyễn Huệ",
+        "candidates": [
+          {
+            "text": "Đường Nguyễn Huệ",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Nguyen Hue",
+              "train_ids": [
+                "VNTRAIN_02042",
+                "VNTRAIN_BS_00841",
+                "VNTRAIN_02043",
+                "VNTRAIN_BS_00897",
+                "VNTRAIN_02757",
+                "VNTRAIN_BS_01376",
+                "VNTRAIN_02758",
+                "VNTRAIN_BS_01377",
+                "VNTRAIN_02760",
+                "VNTRAIN_BS_01379",
+                "VNTRAIN_02041",
+                "VNTRAIN_02044",
+                "VNTRAIN_02045",
+                "VNTRAIN_02046",
+                "VNTRAIN_02048",
+                "VNTRAIN_02753",
+                "VNTRAIN_02754",
+                "VNTRAIN_02755",
+                "VNTRAIN_02756"
+              ]
+            }
+          },
+          {
+            "text": "Đường Nguyen Hue",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . nguyen hue",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00177",
+        "dau_vao": "so 341Bis d. nguyen hue, xa tam dan, huyen phu ninh, tinh quang nam",
+        "ref_duong": "Đường Nguyễn Huệ",
+        "candidates": [
+          {
+            "text": "Đường Nguyễn Huệ",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Nguyen Hue",
+              "train_ids": [
+                "VNTRAIN_BS_00063",
+                "VNTRAIN_BS_01227",
+                "VNTRAIN_03371",
+                "VNTRAIN_03372",
+                "VNTRAIN_03373",
+                "VNTRAIN_03374",
+                "VNTRAIN_03376",
+                "VNTRAIN_03369",
+                "VNTRAIN_03370"
+              ]
+            }
+          },
+          {
+            "text": "Đường Nguyen Hue",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . nguyen hue",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00185",
+        "dau_vao": "so 499Bis d. hung vuong, xa dong thanh, huyen can giuoc, tinh long an",
+        "ref_duong": "Đường Hùng Vương",
+        "candidates": [
+          {
+            "text": "Đường Hùng Vương",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Hung Vuong",
+              "train_ids": [
+                "VNTRAIN_BS_00563",
+                "def_tinh_thanh",
+                "CAND_STR_00324"
+              ]
+            }
+          },
+          {
+            "text": "Đường Hung Vuong",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . hung vuong",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00209",
+        "dau_vao": "so 856 d. hung vuong, phuong hoa loi, thanh pho ben cat, tinh binh duong",
+        "ref_duong": "Đường Hùng Vương",
+        "candidates": [
+          {
+            "text": "Đường Hùng Vương",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Hung Vuong",
+              "train_ids": [
+                "VNTRAIN_00432",
+                "VNTRAIN_BS_00137",
+                "VNTRAIN_BS_00779",
+                "VNTRAIN_BS_01355",
+                "VNTRAIN_04168",
+                "def_tphcm",
+                "CAND_STR_00323",
+                "VNTRAIN_04169",
+                "VNTRAIN_04170",
+                "VNTRAIN_04171"
+              ]
+            }
+          },
+          {
+            "text": "Đường Hung Vuong",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . hung vuong",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00216",
+        "dau_vao": "tinh ha tinh, so 112/5B d. ly thuong kiet, xa cam son",
+        "ref_duong": "Đường Lý Thường Kiệt",
+        "candidates": [
+          {
+            "text": "Đường Lý Thường Kiệt",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ly Thuong Kiet",
+              "train_ids": [
+                "VNTRAIN_03569",
+                "VNTRAIN_03570",
+                "VNTRAIN_03571",
+                "VNTRAIN_03572",
+                "VNTRAIN_03573",
+                "VNTRAIN_03574",
+                "VNTRAIN_03576"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ly Thuong Kiet",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . ly thuong kiet",
+              "span_range": [
+                6,
+                11
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00228",
+        "dau_vao": "Số 289A, Đường Lý Thường Kiệt, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+        "ref_duong": "Đường Lý Thường Kiệt",
+        "candidates": [
+          {
+            "text": "Phố Lý Thường Kiệt",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Lý Thường Kiệt",
+              "train_ids": [
+                "VNTRAIN_00699",
+                "VNTRAIN_00959",
+                "def_hanoi",
+                "CAND_STR_00489"
+              ]
+            }
+          },
+          {
+            "text": "Đường Lý Thường Kiệt",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "Đường Lý Thường Kiệt",
+              "span_range": [
+                3,
+                7
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00241",
+        "dau_vao": "so 513 d. le loi, xa gia phong, huyen gia vien, tinh ninh binh",
+        "ref_duong": "Đường Lê Lợi",
+        "candidates": [
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Loi",
+              "train_ids": [
+                "VNTRAIN_BS_00619",
+                "VNTRAIN_BS_01483",
+                "VNTRAIN_BS_00859"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Loi",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . le loi",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00248",
+        "dau_vao": "tinh ninh binh, so 649/9A d. tran hung dao, xa ninh an",
+        "ref_duong": "Đường Trần Hưng Đạo",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tran Hung Dao",
+              "train_ids": [
+                "VNTRAIN_BS_00818",
+                "VNTRAIN_BS_01028",
+                "def_tinh_thanh",
+                "CAND_STR_01148",
+                "CAND_STR_01149"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tran Hung Dao",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . tran hung dao",
+              "span_range": [
+                6,
+                11
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00266",
+        "dau_vao": "Số 99 Đường Trần Hưng Đạo Phường 12 Quận Bình Thạnh Thành phố Hồ Chí Minh",
+        "ref_duong": "Đường Trần Hưng Đạo",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Trần Hưng Đạo",
+              "train_ids": [
+                "VNTRAIN_BS_01370",
+                "VNTRAIN_BS_01448",
+                "def_tphcm",
+                "CAND_STR_01157",
+                "VNTRAIN_00130"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tran Hung Dao",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": false,
+            "confidence_tier": 2,
+            "metadata": {
+              "query": "Đường Trần Hưng Đạo",
+              "train_ids": [
+                "VNTRAIN_00239"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00273",
+        "dau_vao": "so 220B d. nguyen hue, phuong 8, thanh pho tra vinh, tinh tra vinh",
+        "ref_duong": "Đường Nguyễn Huệ",
+        "candidates": [
+          {
+            "text": "Đường Nguyễn Huệ",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Nguyen Hue",
+              "train_ids": [
+                "VNTRAIN_01697",
+                "VNTRAIN_01698",
+                "VNTRAIN_01699",
+                "VNTRAIN_01700",
+                "VNTRAIN_01704",
+                "VNTRAIN_BS_00593",
+                "VNTRAIN_BS_00594",
+                "VNTRAIN_BS_00595",
+                "VNTRAIN_BS_00599",
+                "VNTRAIN_01702",
+                "VNTRAIN_02145",
+                "VNTRAIN_02146",
+                "VNTRAIN_BS_00913",
+                "VNTRAIN_BS_00914",
+                "VNTRAIN_02147",
+                "VNTRAIN_02148",
+                "VNTRAIN_02152",
+                "VNTRAIN_BS_00915",
+                "VNTRAIN_BS_00919",
+                "VNTRAIN_02149",
+                "VNTRAIN_BS_00916",
+                "VNTRAIN_01701",
+                "VNTRAIN_02150"
+              ]
+            }
+          },
+          {
+            "text": "Đường Nguyen Hue",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . nguyen hue",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00296",
+        "dau_vao": "tinh yen bai, so 517/7 d. tran hung dao, xa dong quan",
+        "ref_duong": "Đường Trần Hưng Đạo",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tran Hung Dao",
+              "train_ids": [
+                "VNTRAIN_02049",
+                "VNTRAIN_02053",
+                "VNTRAIN_BS_00847",
+                "VNTRAIN_BS_00850",
+                "VNTRAIN_02051",
+                "VNTRAIN_02054",
+                "VNTRAIN_02056",
+                "VNTRAIN_BS_00851",
+                "VNTRAIN_03297",
+                "VNTRAIN_03298",
+                "VNTRAIN_03300",
+                "VNTRAIN_03301",
+                "VNTRAIN_03302",
+                "VNTRAIN_03304",
+                "VNTRAIN_02050",
+                "VNTRAIN_02052",
+                "VNTRAIN_03299"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tran Hung Dao",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . tran hung dao",
+              "span_range": [
+                6,
+                11
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00312",
+        "dau_vao": "thanh pho can tho, so 878/6 d. ly thuong kiet, xa dong binh",
+        "ref_duong": "Đường Lý Thường Kiệt",
+        "candidates": [
+          {
+            "text": "Đường Lý Thường Kiệt",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ly Thuong Kiet",
+              "train_ids": [
+                "VNTRAIN_01098"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ly Thuong Kiet",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . ly thuong kiet",
+              "span_range": [
+                7,
+                12
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00313",
+        "dau_vao": "so 877A d. le loi, xa tan hoi, huyen mo cay nam, tinh ben tre",
+        "ref_duong": "Đường Lê Lợi",
+        "candidates": [
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Loi",
+              "train_ids": [
+                "VNTRAIN_02569",
+                "VNTRAIN_02572",
+                "VNTRAIN_02576",
+                "VNTRAIN_BS_01236",
+                "VNTRAIN_BS_01238",
+                "VNTRAIN_BS_01242",
+                "VNTRAIN_02570",
+                "VNTRAIN_02571",
+                "VNTRAIN_02573",
+                "VNTRAIN_BS_01239",
+                "VNTRAIN_02574"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Loi",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . le loi",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00320",
+        "dau_vao": "tinh son la, so 116/3 d. tran hung dao, xa chieng den",
+        "ref_duong": "Đường Trần Hưng Đạo",
+        "candidates": [
+          {
+            "text": "Đường Trần Hưng Đạo",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Tran Hung Dao",
+              "train_ids": [
+                "VNTRAIN_BS_00728",
+                "VNTRAIN_02227",
+                "VNTRAIN_02228",
+                "VNTRAIN_BS_00967",
+                "VNTRAIN_02229",
+                "VNTRAIN_BS_00968",
+                "VNTRAIN_02230",
+                "VNTRAIN_BS_00969",
+                "VNTRAIN_02232",
+                "VNTRAIN_BS_00971",
+                "VNTRAIN_02426",
+                "VNTRAIN_02427",
+                "VNTRAIN_02429",
+                "VNTRAIN_BS_01119",
+                "VNTRAIN_02430",
+                "VNTRAIN_BS_01120",
+                "VNTRAIN_02225",
+                "VNTRAIN_02226",
+                "VNTRAIN_02425",
+                "VNTRAIN_02428",
+                "VNTRAIN_02432"
+              ]
+            }
+          },
+          {
+            "text": "Đường Tran Hung Dao",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . tran hung dao",
+              "span_range": [
+                6,
+                11
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00329",
+        "dau_vao": "so 217 d. hung vuong, xa tan hung, thanh pho ba ria, tinh ba ria - vung tau",
+        "ref_duong": "Đường Hùng Vương",
+        "candidates": [
+          {
+            "text": "Đường Hùng Vương",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Hung Vuong",
+              "train_ids": [
+                "VNTRAIN_00432",
+                "VNTRAIN_BS_00137",
+                "VNTRAIN_BS_00779",
+                "VNTRAIN_BS_01355",
+                "VNTRAIN_04168",
+                "def_tphcm",
+                "CAND_STR_00323",
+                "VNTRAIN_04169",
+                "VNTRAIN_04170",
+                "VNTRAIN_04171"
+              ]
+            }
+          },
+          {
+            "text": "Đường Hung Vuong",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . hung vuong",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00336",
+        "dau_vao": "tinh binh dinh, so 352/2B d. ly thuong kiet, xa canh hien",
+        "ref_duong": "Đường Lý Thường Kiệt",
+        "candidates": [
+          {
+            "text": "Đường Lý Thường Kiệt",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Ly Thuong Kiet",
+              "train_ids": [
+                "VNTRAIN_BS_01476"
+              ]
+            }
+          },
+          {
+            "text": "Đường Ly Thuong Kiet",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . ly thuong kiet",
+              "span_range": [
+                6,
+                11
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "VNDEV_KHO_00337",
+        "dau_vao": "so 337Bis d. le loi, xa canh hien, huyen van canh, tinh binh dinh",
+        "ref_duong": "Đường Lê Lợi",
+        "candidates": [
+          {
+            "text": "Đường Lê Lợi",
+            "provenance": "admin_context_canonical",
+            "is_canonical": true,
+            "tuong_thich_dau": true,
+            "confidence_tier": 1,
+            "metadata": {
+              "query": "Đường Le Loi",
+              "train_ids": [
+                "VNTRAIN_BS_01105"
+              ]
+            }
+          },
+          {
+            "text": "Đường Le Loi",
+            "provenance": "surface_exact",
+            "is_canonical": false,
+            "tuong_thich_dau": true,
+            "confidence_tier": 4,
+            "metadata": {
+              "raw_span": "d . le loi",
+              "span_range": [
+                2,
+                6
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

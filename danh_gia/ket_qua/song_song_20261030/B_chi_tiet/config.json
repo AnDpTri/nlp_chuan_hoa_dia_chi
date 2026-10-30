@@ -1,0 +1,32 @@
+{
+  "task": "NHIỆM VỤ B: TÁCH SAI SPAN / FORMAT / TÊN CHUẨN / NHÃN NGHI VẤN",
+  "timestamp": "2026-10-30T08:46:31",
+  "device": "cpu",
+  "num_threads": 1,
+  "models": {
+    "cnn_v2": "mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt",
+    "ranker_v2": "mo_hinh/thu_nghiem/char_v2_01/ranker.txt",
+    "dictionary_v5": "danh_gia/ket_qua/tu_dien_duong_v5.json",
+    "catalog": "data/clean"
+  },
+  "datasets": {
+    "dev_goc_csv": {
+      "path": "data/train_dev/dev.csv",
+      "total_rows": 1136
+    },
+    "dev_goc_spans": {
+      "path": "mo_hinh/thu_nghiem/char_v1_01/data/dev_goc.jsonl",
+      "annotated_rows": 1026,
+      "coverage": 90.32
+    },
+    "dev_kho_csv": {
+      "path": "mo_hinh/thu_nghiem/char_v1_01/snapshot/dev_kho.csv",
+      "total_rows": 464
+    },
+    "dev_kho_spans": {
+      "path": "mo_hinh/thu_nghiem/char_v1_01/data/dev_kho.jsonl",
+      "annotated_rows": 464,
+      "coverage": 100.0
+    }
+  }
+}

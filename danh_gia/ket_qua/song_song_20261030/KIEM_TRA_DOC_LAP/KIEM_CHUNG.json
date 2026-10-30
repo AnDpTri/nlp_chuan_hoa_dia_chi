@@ -1,0 +1,28 @@
+{
+  "dev_goc": {
+    "replay_parity": {
+      "passed": 1117,
+      "total": 1136,
+      "pct": 98.33
+    }
+  },
+  "dev_kho": {
+    "replay_parity": {
+      "passed": 456,
+      "total": 464,
+      "pct": 98.28
+    }
+  },
+  "dev_goc_1136": {
+    "road_baseline_top1": 999,
+    "road_candidate_top1": 989,
+    "road_candidate_oracle8": 1014,
+    "net_top1_change": -10
+  },
+  "dev_kho_frozen_464": {
+    "road_baseline_top1": 345,
+    "road_candidate_top1": 346,
+    "road_candidate_oracle8": 355,
+    "net_top1_change": 1
+  }
+}

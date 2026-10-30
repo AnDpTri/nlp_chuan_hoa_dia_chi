@@ -1,0 +1,37 @@
+{
+  "format_version": 1,
+  "created_at_utc": "2026-10-30T02:01:38.622125+00:00",
+  "base_url": "https://127.0.0.1:63280",
+  "conversation_id": "f2fe9c81-aa94-41f7-a1c7-cbdfb9de557b",
+  "prompt_file": "D:\\nlp_chuan_hoa_dia_chi\\docs\\antigravity_rpc\\yeu_cau_ui_address_may_cry_A_20261030.txt",
+  "prompt_sha256": "45ac85a060292eb7063816ab8e19064b53b73b1b98dddfbbded9d9462aa7f302",
+  "prompt_characters": 5622,
+  "rpc": "SendUserCascadeMessage",
+  "steps_before": 4847,
+  "state": "confirmed_in_conversation",
+  "accepted_at_utc": "2026-10-30T02:01:38.649682+00:00",
+  "response_keys": [],
+  "verification": {
+    "conversation_id": "f2fe9c81-aa94-41f7-a1c7-cbdfb9de557b",
+    "status": "CASCADE_RUN_STATUS_RUNNING",
+    "num_total_steps": 4848,
+    "loaded_steps": 4848,
+    "last_step_types": [
+      "CORTEX_STEP_TYPE_RUN_COMMAND",
+      "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+      "CORTEX_STEP_TYPE_CODE_ACTION",
+      "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+      "CORTEX_STEP_TYPE_USER_INPUT"
+    ],
+    "last_model_name": "gemini-3.8-flash-high",
+    "prompt_present": true,
+    "matching_user_steps": [
+      {
+        "loaded_step_index": 4847,
+        "step_status": "CORTEX_STEP_STATUS_DONE"
+      }
+    ],
+    "checked_at_utc": "2026-10-30T02:01:41.677587+00:00",
+    "checked_base_url": "https://127.0.0.1:63280"
+  }
+}

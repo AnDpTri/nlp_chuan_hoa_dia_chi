@@ -1,0 +1,35 @@
+{
+  "status": {
+    "conversation_id": "f2fe9c81-aa94-41f7-a1c7-cbdfb9de557b",
+    "status": "CASCADE_RUN_STATUS_IDLE",
+    "num_total_steps": 4553,
+    "loaded_steps": 4553,
+    "last_step_types": [
+      "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+      "CORTEX_STEP_TYPE_RUN_COMMAND",
+      "CORTEX_STEP_TYPE_PLANNER_RESPONSE",
+      "CORTEX_STEP_TYPE_CODE_ACTION",
+      "CORTEX_STEP_TYPE_PLANNER_RESPONSE"
+    ],
+    "last_model_name": "gemini-3.8-flash-high"
+  },
+  "train_dev_logs": [
+    {
+      "step": 4512,
+      "command": "powershell -Command \"cd D:\\nlp_chuan_hoa_dia_chi; .venv-neural\\Scripts\\python.exe -X utf8 C:\\Users\\andan\\.gemini\\antigravity\\brain\\f2fe9c81-aa94-41f7-a1c7-cbdfb9de557b\\scratch\\eval_hybrid_twoway.py\"",
+      "output": "Command exited with code 0.\n\nCommand output:\nD:\\nlp_chuan_hoa_dia_chi\\.venv-neural\\Lib\\site-packages\\torch\\jit\\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.\r\n  warnings.warn(\r\n\r\n=======================================================\r\nFile: D:\\nlp_chuan_hoa_dia_chi\\data\\train_dev\\duyet_v2_01\\train_da_loc.csv (1183 samples, tien_to_mac_dinh=True)\r\nBaseline CharCNN: 1131/1183 (95.60%)\r\nHybrid Cascade:   1135/1183 (95.94%)\r\nDelta:            +4 gained, -0 regressed\r\nLatency Hybrid:   Mean=30.16ms, P95=57.63ms\r\n\r\nGained cases (4):\r\n  [+] #179: 37/21ĐườngPhạmVănThuận, Phường Tam Hiệp, Tỉnh Đồng Nai\r\n      base: so_nha='Số 37/21', duong='Đường Đườngphạmvănthuận'\r\n      hyb : so_nha='Số 37/21', duong='Đường Phạm Văn Thuận'\r\n      gold: so_nha='Số 37/21', duong='Đường Phạm Văn Thuận'\r\n  [+] #387: 47/9ĐườngTrầnHưngĐạo, Đặc khu Phú Quốc, Tỉnh An Giang\r\n      base: so_nha='Số 47/9', duong='Đường Đườngtrầnhưngđạo'\r\n      hyb : so_nha='Số 47/9', duong='Đường Trần Hưng Đạo'\r\n      gold: so_nha='Số 47/9', duong='Đường Trần Hưng Đạo'\r\n  [+] #599: 35/6ĐườngChuVănAn, Phường Thuận Hóa, Thành phố Huế\r\n      base: so_nha='Số 35/6', duong='Đường Đườngchuvănan'\r\n      hyb : so_nha='Số 35/6', duong='Đường Chu Văn An'\r\n      gold: so_nha='Số 35/6', duong='Đường Chu Văn An'\r\n  [+] #868: 68/5AĐườngTrầnQuangKhải, Phường Tân Định, Thành phố Hồ Chí Minh\r\n      base: so_nha='Số 68/5A', duong='Đường Đườngtrầnquangkhải'\r\n      hyb : so_nha='Số 68/5A', duong='Đường Trần Quang Khải'\r\n      gold: so_nha='Số 68/5A', duong='Đường Trần Quang Khải'\r\n"
+    },
+    {
+      "step": 4516,
+      "command": "powershell -Command \"cd D:\\nlp_chuan_hoa_dia_chi; .venv-neural\\Scripts\\python.exe -X utf8 C:\\Users\\andan\\.gemini\\antigravity\\brain\\f2fe9c81-aa94-41f7-a1c7-cbdfb9de557b\\scratch\\eval_hybrid_twoway.py data/train_dev/dev.csv\"",
+      "output": "Command exited with code 0.\n\nCommand output:\nD:\\nlp_chuan_hoa_dia_chi\\.venv-neural\\Lib\\site-packages\\torch\\jit\\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.\r\n  warnings.warn(\r\n\r\n=======================================================\r\nFile: data/train_dev/dev.csv (1136 samples, tien_to_mac_dinh=True)\r\nBaseline CharCNN: 912/1136 (80.28%)\r\nHybrid Cascade:   912/1136 (80.28%)\r\nDelta:            +0 gained, -0 regressed\r\nLatency Hybrid:   Mean=45.39ms, P95=82.40ms\r\n"
+    }
+  ],
+  "test_aggregate_from_existing_log": {
+    "baseline_correct": 281,
+    "hybrid_correct": 281,
+    "total": 400,
+    "accuracy_pct": 70.25,
+    "note": "Sum of two disjoint subset exact counts 220 + 61 at steps 4524/4539; no new test execution."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "project": "Address May Cry",
+  "component": "Backend API Server (Phiên C)",
+  "api_ready_at": "2026-10-30 09:09:30",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8080,
+    "base_url": "http://127.0.0.1:8080",
+    "api_prefix": "/api/v1",
+    "pid": 6616,
+    "pid_file": "web/address-may-cry/api/server.pid",
+    "stop_command": "python web/address-may-cry/api/stop.py"
+  },
+  "endpoints": {
+    "health": {
+      "method": "GET",
+      "path": "/api/v1/health",
+      "url": "http://127.0.0.1:8080/api/v1/health"
+    },
+    "normalize": {
+      "method": "POST",
+      "path": "/api/v1/normalize",
+      "url": "http://127.0.0.1:8080/api/v1/normalize"
+    },
+    "batch": {
+      "method": "POST",
+      "path": "/api/v1/batch",
+      "url": "http://127.0.0.1:8080/api/v1/batch"
+    }
+  },
+  "engine_profile": {
+    "engine": "CNN v2 (char_v2_01) + Ranker v2 + Dict v5 (CPU 1 thread)",
+    "target_date": "2025-07-01",
+    "mode": "thread_safe_singleton_with_lock",
+    "limits": {
+      "max_chars": 2048,
+      "max_batch": 100,
+      "max_body_bytes": 1048576
+    }
+  },
+  "health_sample": {
+    "status": "ok",
+    "engine": "CNN v2 (char_v2_01) + Ranker v2 + Dict v5 (CPU 1 thread)",
+    "target_date": "2025-07-01",
+    "limits": {
+      "max_chars": 2048,
+      "max_batch": 100
+    },
+    "message": "Sẵn sàng chuẩn hóa địa chỉ Việt Nam theo mốc 01/07/2025."
+  },
+  "status_rules": {
+    "processed": "Chuẩn hóa hoàn tất, đầy đủ mã tỉnh/xã, không có cảnh báo/mơ hồ (lưu ý: processed không tương đương verified 100%).",
+    "needs_review": "Có cảnh báo phân tách, nhiều hơn 1 xã mới khả dĩ (chia tách hành chính), có phần chưa phân loại, hoặc thiếu mã hành chính.",
+    "error": "Lỗi cú pháp JSON, chuỗi rỗng, quá 2048 ký tự, hoặc lỗi xử lý nội bộ."
+  }
+}

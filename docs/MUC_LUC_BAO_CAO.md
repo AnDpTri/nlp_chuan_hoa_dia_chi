@@ -6,6 +6,23 @@ gồm **194 file gốc, 46.394.613 byte**, đã đối chiếu SHA-256 từng fi
 nguồn trước và sau sao chép. Chi tiết trong
 [manifest lưu trữ](../bao_cao/2026-10-29/MANIFEST_LUU_TRU.json).
 
+## Cập nhật ngày 30/10/2026
+
+- [Address May Cry — thiết kế, phân công UI/API và hồ sơ triển khai](ui-address-may-cry/README.md)
+
+
+Đọc bản kiểm tra độc lập cùng báo cáo của agy: một số chỉ số oracle và phân loại nguyên nhân trong bản chẩn đoán chưa hợp lệ, chưa dùng để quyết định train mô hình mới.
+
+| Nội dung | Tài liệu trong dự án |
+|---|---|
+| Tổng hợp nghiệm thu ba nhiệm vụ agy A/B/C: phần dùng được, lỗi phép đo và hướng tiếp theo | [Kiểm tra độc lập](../danh_gia/ket_qua/song_song_20261030/KIEM_TRA_DOC_LAP/BAO_CAO.md), [số đếm đối chiếu](../danh_gia/ket_qua/song_song_20261030/KIEM_TRA_DOC_LAP/KIEM_CHUNG.json) |
+| Ba nhiệm vụ agy chạy song song: oracle, lỗi chi tiết và ứng viên tên đường | [Phân công và baseline](../danh_gia/ket_qua/song_song_20261030/README.md) |
+| Kiểm tra độc lập chẩn đoán ứng viên, lỗi oracle và giới hạn kết luận | [Phân tích mới nhất](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/PHAN_TICH_CHAN_DOAN_UNG_VIEN.md), [số đếm đối chiếu](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/AUDIT_CHAN_DOAN.json) |
+| Chẩn đoán do agy bàn giao — cần đọc kèm kiểm tra độc lập | [Báo cáo agy](../danh_gia/ket_qua/chan_doan_ung_vien_20261030/BAO_CAO.md), [số liệu](../danh_gia/ket_qua/chan_doan_ung_vien_20261030/thong_ke.json), [lỗi dev](../danh_gia/ket_qua/chan_doan_ung_vien_20261030/loi_tung_ca_dev.jsonl) |
+| Kiểm tra Hybrid CNN + ViDeBERTa, tách tác dụng mô hình và tra từ điển | [Phân tích](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/PHAN_TICH_HYBRID_MOI_NHAT.md), [kiểm chứng 4 ca](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/HYBRID_4_CA.json), [log](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/HYBRID_LOG.json) |
+| Kiểm tra ban đầu nhánh nghiên cứu agy | [Nhận xét](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/NHAN_XET.md), [bằng chứng](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/BANG_CHUNG.json) |
+| Kiểm tra cấu trúc nhãn bổ sung v2.1 — chưa nghiệm thu ngữ nghĩa toàn bộ | [Kết quả](../bao_cao/2026-10-30/kiem_tra_nhanh_agy/KIEM_TRA_NHAN_BO_SUNG_V2_1.json) |
+
 ## Các bản nên đọc trước
 
 | Nội dung | Báo cáo/kết quả trong dự án |

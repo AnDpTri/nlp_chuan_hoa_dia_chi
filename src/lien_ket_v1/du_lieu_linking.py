@@ -5,6 +5,7 @@ Phân biệt mốc nguồn/đích và giữ các ca mơ hồ đúng chuẩn.
 
 import json
 import random
+import re
 import unicodedata
 from collections import defaultdict
 from pathlib import Path
@@ -73,7 +74,11 @@ class LinkingSampleBuilder:
     def __init__(self, danh_muc, doi_chieu_rows=None):
         self.dm = danh_muc
         self.old_to_new_targets = defaultdict(set)
-        if doi_chieu_rows:
+        if doi_chieu_rows is None:
+            # Không bỏ mất quan hệ tương đương khi caller chỉ truyền DanhMuc.
+            for ma_cu, edges in danh_muc.doi_chieu.items():
+                self.old_to_new_targets[ma_cu].update(ma_moi for ma_moi, _ in edges)
+        else:
             for r in doi_chieu_rows:
                 if r.get("ma_xa_cu") and r.get("ma_xa_moi"):
                     self.old_to_new_targets[r["ma_xa_cu"]].add(r["ma_xa_moi"])
@@ -88,11 +93,15 @@ class LinkingSampleBuilder:
         """Kiểm tra hai ứng viên có cùng trỏ về một đích hợp lệ không."""
         if cand1.cay == cand2.cay and cand1.ma == cand2.ma:
             return True
-        # Nếu 1 cũ 1 mới, kiểm tra đồ thị chuyển đổi mốc 2025
-        if cand1.cay == "cu" and cand2.cay == "moi":
-            return cand2.ma in self.old_to_new_targets.get(cand1.ma, set())
-        if cand1.cay == "moi" and cand2.cay == "cu":
-            return cand1.ma in self.old_to_new_targets.get(cand2.ma, set())
+        if cand1.cap != cand2.cap:
+            return False
+        # Quan hệ cũ-mới chỉ được so khi cùng cấp; cấp huyện không tồn tại ở mốc mới.
+        if cand1.cay != cand2.cay:
+            cu, moi = (cand1, cand2) if cand1.cay == "cu" else (cand2, cand1)
+            if cu.cap == "xa":
+                return moi.ma in self.old_to_new_targets.get(cu.ma, set())
+            if cu.cap == "tinh":
+                return moi.ma in self.dm.dich_tinh("cu", cu.ma)
         return False
 
     def mine_negatives(self, pos_cand, span_text, num_hard=3, num_random=2):
@@ -114,7 +123,10 @@ class LinkingSampleBuilder:
         all_same_cap = [dv for dv in self.dm.don_vi.values() if dv.cap == cap and not self.is_equivalent_target(pos_cand, dv)]
         if len(negatives) < num_hard + num_random and all_same_cap:
             needed = (num_hard + num_random) - len(negatives)
-            # Ưu tiên các đơn vị có tương đồng chuỗi từ vựng cao
+            # Tránh lặp cùng mã ứng viên giữa hard negatives và random negatives.
+            selected = {(dv.cay, dv.ma) for dv in negatives}
+            all_same_cap = [dv for dv in all_same_cap if (dv.cay, dv.ma) not in selected]
+            # Ưu tiên các đơn vị có tương đồng chuỗi từ vựng cao.
             scored = [(compute_string_similarity(span_text, dv.ten), dv) for dv in all_same_cap]
             scored.sort(key=lambda x: x[0], reverse=True)
             top_similar = [dv for _, dv in scored[:needed * 3]]
@@ -122,14 +134,40 @@ class LinkingSampleBuilder:
 
         return negatives
 
+    @staticmethod
+    def observable_features(span_text, cand):
+        """Feature chỉ từ mention/candidate; tuyệt đối không từ is_positive.
+
+        parent_support luôn False cho đến khi có căn cứ parent từ input
+        được tính giống nhau ở train và inference. Tránh gán True cho
+        positive và False cho negative như dữ liệu thử nghiệm cũ.
+        """
+        observed = unicodedata.normalize("NFC", str(span_text).strip()).casefold()
+        official = unicodedata.normalize("NFC", cand.ten.strip()).casefold()
+        if observed == official:
+            kind = "chinh_xac"
+        elif plain_text(observed) == plain_text(official):
+            kind = "khong_dau"
+        else:
+            kind = "sai_chinh_ta"
+        # Chỉ nhìn chữ thực tế trong span, không dựa vào nhãn đúng/sai.
+        has_prefix = bool(re.match(
+            r"^(?:phường|xã|quận|huyện|tỉnh|thành phố|thị xã|thị trấn|đặc khu|"
+            r"phuong|xa|quan|huyen|tinh|thanh pho|thi xa|thi tran|dac khu)\s+", observed
+        ))
+        return extract_geo_features(
+            span_text, cand, kieu_khop=kind,
+            co_tien_to=has_prefix, parent_support=False
+        )
+
     def create_linking_instance(self, input_text, span_info, pos_cand, all_retrieved_cands=None):
         """Tạo một instance huấn luyện hoàn chỉnh gồm 1 positive và K negatives."""
         span_text, span_start, span_end = span_info
 
         neg_dvs = self.mine_negatives(pos_cand, span_text, num_hard=3, num_random=2)
 
-        # Vector đặc trưng cho positive
-        pos_geo = extract_geo_features(span_text, pos_cand, kieu_khop="chinh_xac", co_tien_to=True, parent_support=True)
+        # Không dùng nhãn (positive/negative) để sinh đặc trưng quan sát.
+        pos_geo = self.observable_features(span_text, pos_cand)
 
         candidates_data = [{
             "cay": pos_cand.cay,
@@ -141,7 +179,7 @@ class LinkingSampleBuilder:
         }]
 
         for neg in neg_dvs:
-            neg_geo = extract_geo_features(span_text, neg, kieu_khop="khac_dia_ban", co_tien_to=False, parent_support=False)
+            neg_geo = self.observable_features(span_text, neg)
             candidates_data.append({
                 "cay": neg.cay,
                 "ma": neg.ma,
@@ -158,6 +196,27 @@ class LinkingSampleBuilder:
             "span_text": span_text,
             "candidates": candidates_data
         }
+
+
+def choose_gold_linking_candidate(span_text, cap, ref, name_lookup):
+    """Chọn positive theo mã nhãn tham chiếu, không lấy ứng viên trùng tên đầu tiên.
+
+    Không có mã tham chiếu hoặc có nhiều mã/mốc hợp lệ thì bỏ mẫu; tuyệt đối
+    không dùng thứ tự nạp danh mục làm nhãn Entity Linking.
+    """
+    if not isinstance(ref, dict):
+        return None
+    fields = {
+        "xa": (("cu", "ma_xa_cu"), ("moi", "ma_xa")),
+        "huyen": (("cu", "ma_huyen_cu"),),
+        "tinh": (("cu", "ma_tinh_cu"), ("moi", "ma_tinh")),
+    }.get(cap, ())
+    allowed = {(era, ref[field]) for era, field in fields if ref.get(field)}
+    if not allowed:
+        return None
+    eligible = [dv for dv in name_lookup.get(span_text.casefold().strip(), [])
+                if dv.cap == cap and (dv.cay, dv.ma) in allowed]
+    return eligible[0] if len(eligible) == 1 else None
 
 
 def split_dataset_by_family(rows, val_ratio=0.15, seed=42):
