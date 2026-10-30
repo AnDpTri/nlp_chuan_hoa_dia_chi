@@ -23,12 +23,15 @@ def loc_tien_to_phong_tang(detail):
 
 
 def mo_rong_duong_tu_unknown(curr_duong, current_new_duong, duong_spans, tokens, unknown, ma_tinh,
-                             tu_dien_duong, tien_to_mac_dinh=True, tien_to_duong=None):
+                             tu_dien_duong, tien_to_mac_dinh=True, tien_to_duong=None, cam=frozenset()):
+    """Nới span đường sang token chưa phân loại liền kề; không lấy token trong `cam` (đơn vị hành chính khả thi).
+    Trả thêm khoảng token mới của đường (None nếu không nới)."""
     new_duong = current_new_duong
     name_evidence = None
+    pham_vi = None
     end_idx = duong_spans[-1]['ket_thuc']
     cand = curr_duong
-    while end_idx < len(tokens) and end_idx in unknown and tokens[end_idx] not in {',', ';', '.', '-'}:
+    while end_idx < len(tokens) and end_idx in unknown and end_idx not in cam and tokens[end_idx] not in {',', ';', '.', '-'}:
         cand = cand + ' ' + tokens[end_idx]
         cand_new, cand_ev = thu_ung_vien_duong(
             tu_dien_duong, cand, ma_tinh,
@@ -38,13 +41,15 @@ def mo_rong_duong_tu_unknown(curr_duong, current_new_duong, duong_spans, tokens,
         if cand_new is not None:
             new_duong = cand_new
             name_evidence = cand_ev
-            unknown = [u for u in unknown if u != end_idx]
+            unknown = [u for u in unknown if u not in range(duong_spans[-1]['ket_thuc'], end_idx + 1)]
+            pham_vi = (duong_spans[0]['bat_dau'], end_idx + 1)
             break
         end_idx += 1
     if not name_evidence:
         start_idx = duong_spans[0]['bat_dau']
         cand = curr_duong
-        while start_idx - 1 >= 0 and (start_idx - 1) in unknown and tokens[start_idx - 1] not in {',', ';', '.', '-'}:
+        while (start_idx - 1 >= 0 and (start_idx - 1) in unknown and (start_idx - 1) not in cam
+               and tokens[start_idx - 1] not in {',', ';', '.', '-'}):
             cand = tokens[start_idx - 1] + ' ' + cand
             cand_new, cand_ev = thu_ung_vien_duong(
                 tu_dien_duong, cand, ma_tinh,
@@ -54,10 +59,11 @@ def mo_rong_duong_tu_unknown(curr_duong, current_new_duong, duong_spans, tokens,
             if cand_new is not None:
                 new_duong = cand_new
                 name_evidence = cand_ev
-                unknown = [u for u in unknown if u != start_idx - 1]
+                unknown = [u for u in unknown if u not in range(start_idx - 1, duong_spans[0]['bat_dau'])]
+                pham_vi = (start_idx - 1, duong_spans[-1]['ket_thuc'])
                 break
             start_idx -= 1
-    return new_duong, name_evidence, unknown
+    return new_duong, name_evidence, unknown, pham_vi
 
 
 def khoi_phuc_tu_so_nha(duong_spans, spans, tokens, detail, ma_tinh, tu_dien_duong,
@@ -98,10 +104,10 @@ def dung_lai_tu_span_cnn(duong_spans, tokens, ma_tinh, tu_dien_duong, tien_to_ma
 
 
 def khoi_phuc_tu_spans(curr_duong, new_duong, duong_spans, spans, tokens, unknown, detail, ma_tinh,
-                       tu_dien_duong, tien_to_mac_dinh=True, tien_to_duong=None, tien_to_so_nha=None):
-    new_duong, name_evidence, unknown = mo_rong_duong_tu_unknown(
+                       tu_dien_duong, tien_to_mac_dinh=True, tien_to_duong=None, tien_to_so_nha=None, cam=frozenset()):
+    new_duong, name_evidence, unknown, pham_vi = mo_rong_duong_tu_unknown(
         curr_duong, new_duong, duong_spans, tokens, unknown, ma_tinh, tu_dien_duong,
-        tien_to_mac_dinh, tien_to_duong
+        tien_to_mac_dinh, tien_to_duong, cam
     )
     verified = bool(name_evidence)
     if not verified and curr_duong and ma_tinh:
@@ -126,17 +132,20 @@ def khoi_phuc_tu_spans(curr_duong, new_duong, duong_spans, spans, tokens, unknow
             new_duong = cand_new
             name_evidence = cand_ev
             verified = True
-    return new_duong, name_evidence, unknown
+    return new_duong, name_evidence, unknown, pham_vi
 
 
-def quet_token_chua_phan_loai(tokens, unknown, ma_tinh, tu_dien_duong, tien_to_mac_dinh=True, tien_to_duong=None):
-    if not (ma_tinh and unknown):
-        return None, None, unknown
-    u_sorted = sorted(unknown)
+def quet_token_chua_phan_loai(tokens, unknown, ma_tinh, tu_dien_duong, tien_to_mac_dinh=True, tien_to_duong=None,
+                              cam=frozenset()):
+    """Tìm tên đường trong các nhóm token chưa phân loại; token trong `cam` không được dùng.
+    Trả thêm khoảng token của tên đường tìm được."""
+    u_sorted = sorted(u for u in unknown if u not in cam)
+    if not (ma_tinh and u_sorted):
+        return None, None, unknown, None
     groups = []
     curr_g = [u_sorted[0]]
     for idx in u_sorted[1:]:
-        if idx == curr_g[-1] + 1 and tokens[idx] not in {',', ';', '.', '-'}:
+        if idx == curr_g[-1] + 1 and tokens[idx] not in {',', ';', '.', '-'}:  # token cấm đã bị loại nên tự cắt nhóm
             curr_g.append(idx)
         else:
             groups.append(curr_g)
@@ -145,7 +154,7 @@ def quet_token_chua_phan_loai(tokens, unknown, ma_tinh, tu_dien_duong, tien_to_m
 
     # Giữ nguyên ngữ nghĩa bản gốc: KHÔNG dừng sau nhóm đầu tiên. Nhóm sau khớp thì ghi đè
     # kết quả và loại thêm token khỏi unknown; sau mỗi nhóm, vòng start dừng khi đã có tên.
-    new_duong, name_evidence = None, None
+    new_duong, name_evidence, pham_vi = None, None, None
     for g in groups:
         for start in range(len(g)):
             for end in range(start + 1, min(start + 7, len(g) + 1)):
@@ -159,10 +168,11 @@ def quet_token_chua_phan_loai(tokens, unknown, ma_tinh, tu_dien_duong, tien_to_m
                     new_duong = cand_new
                     name_evidence = cand_ev
                     unknown = [u for u in unknown if u not in g[start:end]]
+                    pham_vi = (g[start], g[end - 1] + 1)
                     break
             if new_duong:
                 break
-    return new_duong, name_evidence, unknown
+    return new_duong, name_evidence, unknown, pham_vi
 
 
 TIEN_TO_DUONG_RUT_GON = {'d', 'duong', 'pho', 'p'}
@@ -188,8 +198,11 @@ def bo_duong_viet_tat_chua_giai(detail, spans, tokens, chuoi):
 
 
 def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong, hop_dong,
-                       tien_to_mac_dinh=True, tien_to_duong=None, tien_to_so_nha=None):
+                       tien_to_mac_dinh=True, tien_to_duong=None, tien_to_so_nha=None, cam=frozenset()):
+    """Khôi phục tên đường bằng từ điển. `cam`: token là đơn vị hành chính khả thi, không bao giờ thành tên đường.
+    Token lấy thêm được ghi vào span 'duong' (dấu vết khớp kết quả) và phần chưa phân loại được tính lại."""
     name_evidence = None
+    unknown_goc = list(unknown)
     detail = loc_tien_to_phong_tang(detail)
     if tu_dien_duong is None or hop_dong:
         return detail, spans, unknown, name_evidence
@@ -204,20 +217,27 @@ def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong, h
     if not name_evidence and curr_duong and ma_tinh:
         duong_spans = [s for s in spans if s.get('truong') == 'duong']
         if duong_spans:
-            new_duong, name_evidence, unknown = khoi_phuc_tu_spans(
+            new_duong, name_evidence, unknown, pham_vi = khoi_phuc_tu_spans(
                 curr_duong, new_duong, duong_spans, spans, tokens, unknown, detail,
-                ma_tinh, tu_dien_duong, tien_to_mac_dinh, tien_to_duong, tien_to_so_nha
+                ma_tinh, tu_dien_duong, tien_to_mac_dinh, tien_to_duong, tien_to_so_nha, cam
             )
+            if pham_vi:
+                spans = [x for x in spans if x.get('truong') != 'duong']
+                spans.append({'truong': 'duong', 'bat_dau': pham_vi[0], 'ket_thuc': pham_vi[1], 'gia_tri': new_duong})
 
     if not new_duong and ma_tinh and unknown:
-        cand_new, cand_ev, unknown = quet_token_chua_phan_loai(
+        cand_new, cand_ev, unknown, pham_vi = quet_token_chua_phan_loai(
             tokens, unknown, ma_tinh, tu_dien_duong,
             tien_to_mac_dinh=tien_to_mac_dinh,
-            tien_to_duong=tien_to_duong
+            tien_to_duong=tien_to_duong,
+            cam=cam
         )
         if cand_new is not None:
             new_duong = cand_new
             name_evidence = cand_ev
+            spans = spans + [{'truong': 'duong', 'bat_dau': pham_vi[0], 'ket_thuc': pham_vi[1], 'gia_tri': cand_new}]
 
     detail['duong'] = new_duong
+    if unknown != unknown_goc:
+        detail['phan_chua_phan_loai'] = ' '.join(tokens[i] for i in unknown)
     return detail, spans, unknown, name_evidence

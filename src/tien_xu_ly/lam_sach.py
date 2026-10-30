@@ -25,6 +25,45 @@ def _don_vi_nhan(duong_di):
     return [DonViNhan(cap=u.cap, ma=u.ma, cay=u.cay) for u in duong_di.ung_vien]
 
 
+def token_hanh_chinh_kha_thi(records, candidates, crf_context, ma_tinh, dm):
+    """Token mà CRF gán là đơn vị hành chính VÀ có ứng viên hành chính khả thi phủ nó
+    (cùng tỉnh mới đã chọn; chưa chọn tỉnh thì cần khớp chính xác). Các token này không được dùng làm tên đường.
+    Ví dụ 'Hà Nội' gán tỉnh, khớp đúng tỉnh 01 -> cấm; 'Hoàng Văn Thụ' gán xã nhưng không có xã đó trong tỉnh -> không cấm."""
+    char_spans = getattr(crf_context, 'char_spans', None)
+    if not char_spans:
+        return frozenset()
+    crf_hc = {i for i, t in enumerate(records)
+              for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
+    cam = set()
+    for u in candidates:
+        # Khớp gần đúng (sai chính tả) là bằng chứng yếu: 'Trần' ~ 'Trà An' không đủ để cấm đoạn làm tên đường.
+        if u.kieu_khop == 'sai_chinh_ta' or not crf_hc.intersection(range(u.bat_dau, u.ket_thuc)):
+            continue
+        kha_thi = ma_tinh in dm.dich_tinh(u.cay, u.ma) if ma_tinh else u.kieu_khop == 'chinh_xac'
+        if kha_thi:
+            cam.update(i for i in range(u.bat_dau, u.ket_thuc) if i in crf_hc)
+    return frozenset(cam)
+
+
+def dau_vet_hanh_chinh_khong_khop(records, chuoi, crf_context, candidates, unknown):
+    """Đoạn CRF gán là xã/huyện/tỉnh mà vẫn nằm trong phần chưa phân loại: ghi dấu vết với ma rỗng và lý do,
+    để đầu ra không coi nó là chữ thừa. 'khong_co_trong_danh_muc' khi không có ứng viên nào trên đoạn,
+    'khong_khop_dia_ban' khi có đơn vị cùng tên nhưng không hợp với các đơn vị còn lại."""
+    out = []
+    con_lai = set(unknown)
+    for r, a, b in getattr(crf_context, 'char_spans', None) or ():
+        if r not in ('xa', 'huyen', 'tinh'):
+            continue
+        idx = [i for i, t in enumerate(records) if a <= t.bat_dau and t.ket_thuc <= b and i in con_lai]
+        if not idx:
+            continue
+        lo, hi = idx[0], idx[-1] + 1
+        co_ung_vien = any(u.bat_dau < hi and lo < u.ket_thuc for u in candidates)
+        out.append(_tao_dau_vet(records, chuoi, lo, hi, truong=r, ma='', moc='',
+                                kieu_khop='khong_khop_dia_ban' if co_ung_vien else 'khong_co_trong_danh_muc'))
+    return out
+
+
 def _tinh_cua_duong_di(duong_di, dm):
     provinces = None
     for u in duong_di.ung_vien:
@@ -136,12 +175,13 @@ class BoLamSach:
         ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""
         return score, best, detail, spans, unknown, inferred, close, ranked, ma_tinh
 
-    def _xu_ly_duong_va_canh_bao(self, detail, spans, unknown, tokens, ma_tinh, chuoi):
+    def _xu_ly_duong_va_canh_bao(self, detail, spans, unknown, tokens, ma_tinh, chuoi, cam=frozenset()):
         detail, spans, unknown, name_evidence = phuc_hoi_ten_duong(
             detail, spans, unknown, tokens, ma_tinh, self.tu_dien_duong, self.hop_dong,
             tien_to_mac_dinh=self.tien_to_mac_dinh,
             tien_to_duong=self.tien_to_duong,
-            tien_to_so_nha=self.tien_to_so_nha
+            tien_to_so_nha=self.tien_to_so_nha,
+            cam=cam
         )
         road_warnings = []
         if name_evidence:
@@ -222,13 +262,17 @@ class BoLamSach:
         )
         mid_warnings = self._thu_thap_canh_bao_giua(best, candidates, unknown, crf_context, inferred, detail)
         detail_truoc_duong = dict(detail)
+        cam = token_hanh_chinh_kha_thi(records, candidates, crf_context, ma_tinh, self.danh_muc)
         detail, spans, unknown, name_evidence, road_warnings = self._xu_ly_duong_va_canh_bao(
-            detail, spans, unknown, tokens, ma_tinh, chuoi
+            detail, spans, unknown, tokens, ma_tinh, chuoi, cam
         )
+        if not unknown:  # bước khôi phục đường đã xếp hết phần chưa phân loại
+            mid_warnings = [w for w in mid_warnings if w != "phan_chua_phan_loai"]
         post_warnings = (["dau_vao_rong"] if not chuoi.strip() else []) + road_warnings
         dau_vet, thong_ke = self._tao_dau_vet_va_thong_ke(
             records, chuoi, best, spans, crf_context, name_evidence, tokens, candidates, ranked, close, score
         )
+        dau_vet += dau_vet_hanh_chinh_khong_khop(records, chuoi, crf_context, candidates, unknown)
         don_vi_xa = next((u for u in best.ung_vien if u.cap == "xa"), None)
         don_vi_huyen = next((u for u in best.ung_vien if u.cap == "huyen"), None)
         don_vi_tinh = next((u for u in best.ung_vien if u.cap == "tinh"), None)

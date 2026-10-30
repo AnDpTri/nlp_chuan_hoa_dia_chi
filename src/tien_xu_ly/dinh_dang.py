@@ -22,14 +22,32 @@ def tien_to_hien_thi(tokens, field):
     return None
 
 
-# Viết tắt chỉ đọc được khi đã biết span thuộc trường nào: "h"/"k" ở đầu câu
-# có thể là Huyện, nên không đưa vào bảng tiền tố chung CHI_TIET.
-VIET_TAT_TRONG_SPAN = {
-    'so_nha': {'sn': 'Số', 'so': 'Số', 's': 'Số', 'nha': 'Số'},
-    'ngo_ngach_hem': {'h': 'Hẻm', 'hem': 'Hẻm', 'k': 'Kiệt', 'kiet': 'Kiệt', 'ng': 'Ngõ', 'ngo': 'Ngõ',
-                      'ngach': 'Ngách'},
-    'thon_xom': {'kp': 'Khu phố', 'tdp': 'Tổ dân phố', 'to': 'Tổ', 'thon': 'Thôn', 'xom': 'Xóm', 'ap': 'Ấp'},
-}
+# Viết tắt chỉ đọc được khi đã biết span thuộc trường nào: "h"/"k"/"x" ở đầu câu
+# có thể là Huyện/Xã, nên không đưa vào bảng tiền tố chung CHI_TIET.
+def _sinh_viet_tat_trong_span():
+    """Sinh từ CHI_TIET cho từng trường chi tiết: dạng viết liền (khupho), chữ đầu của cụm nhiều từ (kp, tdp)
+    và một chữ cái đầu nếu chỉ một tiền tố của trường đó bắt đầu bằng chữ ấy (x -> Xóm; t thì vừa Thôn vừa Tổ nên bỏ)."""
+    bang = {}
+    for khoa, truong, chuan in CHI_TIET:
+        if truong == 'duong':
+            continue
+        b = bang.setdefault(truong, {})
+        tu = khoa.split()
+        b.setdefault(''.join(tu), chuan)
+        if len(tu) > 1:
+            b.setdefault(''.join(w[0] for w in tu), chuan)
+    for truong, b in bang.items():
+        dau = {}
+        for khoa, chuan in b.items():
+            dau.setdefault(khoa[0], set()).add(chuan)
+        for chu, chuans in dau.items():
+            if len(chuans) == 1:
+                b.setdefault(chu, next(iter(chuans)))
+    bang['so_nha']['nha'] = 'Số'  # "Nhà 12": nhà đứng một mình trước số chính là số nhà
+    return bang
+
+
+VIET_TAT_TRONG_SPAN = _sinh_viet_tat_trong_span()
 
 
 def tach_viet_tat(tokens, field):

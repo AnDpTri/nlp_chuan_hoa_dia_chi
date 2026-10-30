@@ -25,6 +25,10 @@ class VietTatChiTietTests(unittest.TestCase):
 
     def test_thon_xom(self):
         self.assertEqual(dd('kp14', 'thon_xom'), 'Khu phố 14')
+        self.assertEqual(dd('x5', 'thon_xom'), 'Xóm 5')
+        self.assertEqual(dd('tdp 3', 'thon_xom'), 'Tổ dân phố 3')
+        # "t" vừa là Thôn vừa là Tổ: không đoán
+        self.assertEqual(dd('t5', 'thon_xom'), 't5')
 
     def test_khong_doi_khi_khong_phai_viet_tat(self):
         self.assertEqual(dd('Số 12', 'so_nha'), 'Số 12')
