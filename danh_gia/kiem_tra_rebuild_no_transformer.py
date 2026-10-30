@@ -17,8 +17,8 @@ CASES = (
 
 def main():
     dm = DanhMuc()
-    cnn = BoTachCharCNN("mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt", threads=1)
-    ranker = BoXepHang("mo_hinh/thu_nghiem/char_v2_01/ranker.txt", cnn.ma_bam, dm.ma_bam)
+    cnn = BoTachCharCNN("mo_hinh/thu_nghiem/char_v3_tc/char_cnn.pt", threads=1)
+    ranker = BoXepHang("mo_hinh/thu_nghiem/char_v3_tc/ranker.txt", cnn.ma_bam, dm.ma_bam)
     names = TuDienDuong("danh_gia/ket_qua/tu_dien_duong_v5.json")
     pipeline = BoChuanHoa(danh_muc=dm, bo_tach=cnn,
                           bo_xep_hang=ranker, tu_dien_duong=names,

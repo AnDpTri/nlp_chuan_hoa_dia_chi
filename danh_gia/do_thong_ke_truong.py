@@ -8,9 +8,9 @@ from src.chuan_hoa import BoChuanHoa
 from pathlib import Path
 
 dm = DanhMuc()
-m = BoTachCharCNN("mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt")
+m = BoTachCharCNN("mo_hinh/thu_nghiem/char_v3_tc/char_cnn.pt")
 td = TuDienDuong("danh_gia/ket_qua/tu_dien_duong_v5.json")
-rk = BoXepHang("mo_hinh/thu_nghiem/char_v2_01/ranker.txt", m.ma_bam, dm.ma_bam)
+rk = BoXepHang("mo_hinh/thu_nghiem/char_v3_tc/ranker.txt", m.ma_bam, dm.ma_bam)
 
 pipeline = BoChuanHoa(
     danh_muc=dm,

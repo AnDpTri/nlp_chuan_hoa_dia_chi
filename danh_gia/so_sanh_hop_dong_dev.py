@@ -23,8 +23,8 @@ SPLITS = {
     "dev_goc": ROOT / "data/train_dev/dev.csv",
     "dev_kho": ROOT / "mo_hinh/thu_nghiem/char_v1_01/snapshot/dev_kho.csv",
 }
-MODEL = ROOT / "mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt"
-RANKER = ROOT / "mo_hinh/thu_nghiem/char_v2_01/ranker.txt"
+MODEL = ROOT / "mo_hinh/thu_nghiem/char_v3_tc/char_cnn.pt"
+RANKER = ROOT / "mo_hinh/thu_nghiem/char_v3_tc/ranker.txt"
 NAMES = ROOT / "danh_gia/ket_qua/tu_dien_duong_v5.json"
 
 
