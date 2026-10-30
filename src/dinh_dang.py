@@ -71,6 +71,12 @@ def dinh_dang_span(tokens, field, tien_to_mac_dinh=True, tien_to_so_nha=None, ti
             end = inner[0]
             if end < len(body) and re.fullmatch(r'\d+[A-Za-z]{0,2}', body[end]):
                 label, body = inner[1][1], body[end:]
+        elif len(body) == 1:
+            # QL3, TL298 viết dính: cùng nghĩa với 'QL 3', 'TL 298' ở nhánh trên.
+            dinh_lien = re.fullmatch(r'(QL|TL)(\d+[A-Za-z]{0,2})', body[0], re.I)
+            if dinh_lien:
+                label = 'Quốc lộ' if dinh_lien.group(1).upper() == 'QL' else 'Tỉnh lộ'
+                body = [dinh_lien.group(2)]
     if field == 'so_nha':
         # Không loại token 5–6 chữ số: đây có thể chính là số nhà hợp lệ.
         # Phân biệt mã bưu chính phải dựa vào ngữ cảnh, không dựa độ dài.
