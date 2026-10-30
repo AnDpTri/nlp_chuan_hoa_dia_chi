@@ -81,6 +81,27 @@ def tuong_thich_dau(actual, canonical):
     return len(actual) == len(canonical) and all(a == b or a == bo_dau(b) for a, b in zip(actual, canonical))
 
 
+def _khong_dau(words):
+    text = ' '.join(words)
+    return bo_dau(text) == text.casefold() and any(c.isalpha() for c in text)
+
+
+def muc_bi_loi(entry, dang_theo_khoa):
+    """Mục từ điển hỏng do nhãn train nhiễu: chữ bị chẻ/hoa lẫn ('Nguyễ N Khuyế N') hoặc tên KHÔNG DẤU
+    trong khi cùng khóa đã có dạng có dấu (nó làm mọi tỉnh khác từ chối vì 'nhiều dạng')."""
+    parsed = tach_ten(entry['canonical'])
+    if not parsed:
+        return False
+    words = parsed[1]
+    if any(len(w) == 1 and w.isalpha() and w.isupper() and i > 0 and words[i - 1][-1].islower() for i, w in enumerate(words)):
+        return True
+    if any(any(c.isupper() for c in w[1:]) and any(c.islower() for c in w) for w in words):
+        return True
+    if _khong_dau(words):
+        return any(not _khong_dau(other) for other in dang_theo_khoa[khoa(words)])
+    return False
+
+
 class TuDienDuong:
     def __init__(self, path):
         path = Path(path)
@@ -92,7 +113,16 @@ class TuDienDuong:
         self.index_bare = defaultdict(dict)
         self.index_qg = defaultdict(dict)
         self.index_bare_qg = defaultdict(dict)
+        dang_theo_khoa = defaultdict(list)
         for item in payload['entries']:
+            parsed = tach_ten(item['canonical'])
+            if parsed:
+                dang_theo_khoa[khoa(parsed[1])].append(parsed[1])
+        self.so_muc_bi_loi = 0
+        for item in payload['entries']:
+            if muc_bi_loi(item, dang_theo_khoa):
+                self.so_muc_bi_loi += 1
+                continue
             parsed = tach_ten(item['canonical'])
             if not parsed or not item['province']:
                 raise ValueError('Tên/tỉnh từ điển không hợp lệ')
