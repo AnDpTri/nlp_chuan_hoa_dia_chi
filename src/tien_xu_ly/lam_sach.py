@@ -1,6 +1,6 @@
 """Module Tiền xử lý: biến chuỗi bẩn thành DiaChiSach có cấu trúc.
 
-Bao gồm tách token, nhận diện (CRF, CNN, Trie, ViDeBERTa), sinh và xếp hạng giả thuyết,
+Bao gồm tách token, nhận diện (CRF, CNN, Trie), sinh và xếp hạng giả thuyết,
 định dạng chi tiết và khôi phục tên đường. KHÔNG chuyển đổi mã hành chính mới.
 """
 
@@ -161,7 +161,7 @@ class BoLamSach:
     PHIEN_BAN = "baseline_luat_v3"
 
     def __init__(self, danh_muc: DanhMuc | None = None, beam: int = 40, bo_tach=None, bo_xep_hang=None,
-                 tu_dien_duong=None, bao_ve_duong=False, hop_dong=False, tien_to_mac_dinh: bool = True,
+                 tu_dien_duong=None, bao_ve_duong=False, tien_to_mac_dinh: bool = True,
                  tien_to_so_nha: bool | None = None, tien_to_duong: bool | None = None):
         if bo_xep_hang is not None and not hasattr(bo_tach, 'chuan_bi_chuoi'):
             raise ValueError('Ranker thử nghiệm cần bộ nhận diện có đầu ra ký tự')
@@ -173,7 +173,6 @@ class BoLamSach:
         self.bo_xep_hang = bo_xep_hang
         self.tu_dien_duong = tu_dien_duong
         self.bao_ve_duong = bao_ve_duong
-        self.hop_dong = hop_dong
         self.tien_to_mac_dinh = tien_to_mac_dinh
         self.tien_to_so_nha = tien_to_mac_dinh if tien_to_so_nha is None else tien_to_so_nha
         self.tien_to_duong = tien_to_mac_dinh if tien_to_duong is None else tien_to_duong
@@ -185,8 +184,6 @@ class BoLamSach:
             self.PHIEN_BAN += '_bao_ve_duong'
         if tu_dien_duong is not None:
             self.PHIEN_BAN += '_ten_train'
-        if hop_dong:
-            self.PHIEN_BAN += '_hop_dong_v1'
         self.trie = dung_trie(self.danh_muc)
         self.tra_cuu_neural = None
         if hasattr(bo_tach, 'chuan_bi_chuoi'):
@@ -204,7 +201,7 @@ class BoLamSach:
                 crf_context.lookup_stats['lexical_added'] = lexical_added
         if crf_context is None and self.bo_tach is not None:
             crf_context = self.bo_tach.chuan_bi(tokens)
-        if self.bao_ve_duong and not self.hop_dong and crf_context is not None:
+        if self.bao_ve_duong and crf_context is not None:
             from .crf_chi_tiet import bio_spans
             protected = []
             for field, a, b in bio_spans(crf_context.labels)[0]:
@@ -272,7 +269,7 @@ class BoLamSach:
 
     def _xu_ly_duong_va_canh_bao(self, detail, spans, unknown, tokens, ma_tinh, chuoi, cam=frozenset()):
         detail, spans, unknown, name_evidence = phuc_hoi_ten_duong(
-            detail, spans, unknown, tokens, ma_tinh, self.tu_dien_duong, self.hop_dong,
+            detail, spans, unknown, tokens, ma_tinh, self.tu_dien_duong,
             tien_to_mac_dinh=self.tien_to_mac_dinh,
             tien_to_duong=self.tien_to_duong,
             tien_to_so_nha=self.tien_to_so_nha,

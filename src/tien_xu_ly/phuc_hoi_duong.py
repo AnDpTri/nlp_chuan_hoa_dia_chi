@@ -197,14 +197,14 @@ def bo_duong_viet_tat_chua_giai(detail, spans, tokens, chuoi):
     return detail, spans, False
 
 
-def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong, hop_dong,
+def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong,
                        tien_to_mac_dinh=True, tien_to_duong=None, tien_to_so_nha=None, cam=frozenset()):
     """Khôi phục tên đường bằng từ điển. `cam`: token là đơn vị hành chính khả thi, không bao giờ thành tên đường.
     Token lấy thêm được ghi vào span 'duong' (dấu vết khớp kết quả) và phần chưa phân loại được tính lại."""
     name_evidence = None
     unknown_goc = list(unknown)
     detail = loc_tien_to_phong_tang(detail)
-    if tu_dien_duong is None or hop_dong:
+    if tu_dien_duong is None:
         return detail, spans, unknown, name_evidence
 
     detail = dict(detail)

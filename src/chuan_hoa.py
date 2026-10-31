@@ -25,11 +25,11 @@ def _tao_dau_vet(records, chuoi, a, b, **extra):
 
 class BoChuanHoa:
     def __init__(self, danh_muc: DanhMuc | None = None, beam: int = 40, bo_tach=None, bo_xep_hang=None,
-                 tu_dien_duong=None, bao_ve_duong=False, hop_dong=False, tien_to_mac_dinh: bool = True,
+                 tu_dien_duong=None, bao_ve_duong=False, tien_to_mac_dinh: bool = True,
                  tien_to_so_nha: bool | None = None, tien_to_duong: bool | None = None):
         self.bo_lam_sach = BoLamSach(
             danh_muc=danh_muc, beam=beam, bo_tach=bo_tach, bo_xep_hang=bo_xep_hang,
-            tu_dien_duong=tu_dien_duong, bao_ve_duong=bao_ve_duong, hop_dong=hop_dong,
+            tu_dien_duong=tu_dien_duong, bao_ve_duong=bao_ve_duong,
             tien_to_mac_dinh=tien_to_mac_dinh, tien_to_so_nha=tien_to_so_nha,
             tien_to_duong=tien_to_duong
         )
@@ -39,7 +39,6 @@ class BoChuanHoa:
         self.bo_xep_hang = self.bo_lam_sach.bo_xep_hang
         self.tu_dien_duong = self.bo_lam_sach.tu_dien_duong
         self.bao_ve_duong = self.bo_lam_sach.bao_ve_duong
-        self.hop_dong = self.bo_lam_sach.hop_dong
         self.tien_to_mac_dinh = self.bo_lam_sach.tien_to_mac_dinh
         self.tien_to_so_nha = self.bo_lam_sach.tien_to_so_nha
         self.tien_to_duong = self.bo_lam_sach.tien_to_duong
@@ -64,12 +63,4 @@ class BoChuanHoa:
     def _chay(self, chuoi: str):
         dia_chi_sach, noi_bo = self.bo_lam_sach.lam_sach_chi_tiet(chuoi)
         result = chuyen_doi(dia_chi_sach, self.danh_muc)
-        if self.hop_dong:
-            from .tien_xu_ly.hop_dong import bang_chung
-            result.thong_ke['hop_dong'] = bang_chung(
-                result, noi_bo.ranked, noi_bo.close, noi_bo.records,
-                noi_bo.crf_context, self.danh_muc, self.tu_dien_duong, chuoi
-            )
-            if result.thong_ke['hop_dong']['truong']['duong']['ung_vien_ten']:
-                result.canh_bao.append('ten_duong_chi_la_goi_y_chua_xac_minh')
         return result, dia_chi_sach, noi_bo

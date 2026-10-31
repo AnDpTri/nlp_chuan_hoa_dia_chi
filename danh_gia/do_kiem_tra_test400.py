@@ -125,7 +125,6 @@ def danh_gia_test_set(bo_chuan_hoa, test_csv_path=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Đánh giá pipeline trên tập test 400 mẫu")
     parser.add_argument("--char-model", type=Path, default=ROOT / "mo_hinh/thu_nghiem/char_v1_01/char_cnn.pt")
-    parser.add_argument("--videberta-model", type=Path, default=None)
     parser.add_argument("--ranker", type=Path, default=ROOT / "mo_hinh/thu_nghiem/char_v1_01/ranker.txt")
     parser.add_argument("--tu-dien-duong", type=Path, default=ROOT / "danh_gia/ket_qua/sua_pipeline_cnn_v1_01/tu_dien_duong_train.json")
     # Các cột so_nha/duong của test lưu giá trị thô, không tự thêm Số/Đường.
@@ -152,10 +151,7 @@ if __name__ == "__main__":
     from src.chuan_hoa import BoChuanHoa
 
     dm = DanhMuc()
-    if args.videberta_model and args.videberta_model.exists():
-        from src.tien_xu_ly.videberta import BoTachViDeberta
-        bo_tach = BoTachViDeberta(args.videberta_model, threads=4)
-    elif args.char_model and args.char_model.exists():
+    if args.char_model and args.char_model.exists():
         bo_tach = BoTachCharCNN(args.char_model)
     else:
         bo_tach = None

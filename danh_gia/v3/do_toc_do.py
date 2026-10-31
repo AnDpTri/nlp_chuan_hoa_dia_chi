@@ -1,19 +1,18 @@
 """Đo thời gian chuẩn hóa mỗi câu (ms), CPU 1 luồng, cùng 300 câu dev cho mọi mô hình.
-Dùng: do_toc_do.py <char_cnn.pt | thu_muc_model_videberta> <ranker.txt> [ten]"""
+Dùng: do_toc_do.py <char_cnn.pt> <ranker.txt> [ten]"""
 import csv, sys, time
 from pathlib import Path
 
 import duong_dan as dd  # gốc repo, CODE_ROOT vào sys.path
 from src.danh_muc import DanhMuc  # noqa: E402
 from src.tien_xu_ly.char_cnn import BoTachCharCNN  # noqa: E402
-from src.tien_xu_ly.videberta import BoTachViDeberta  # noqa: E402
 from src.tien_xu_ly.xep_hang import BoXepHang  # noqa: E402
 from src.tien_xu_ly.chuan_ten_duong import TuDienDuong  # noqa: E402
 from src.chuan_hoa import BoChuanHoa  # noqa: E402
 
 mo_hinh, ranker = Path(sys.argv[1]), Path(sys.argv[2])
 dm = DanhMuc()
-ext = BoTachViDeberta(mo_hinh, threads=1) if mo_hinh.is_dir() else BoTachCharCNN(mo_hinh, threads=1)
+ext = BoTachCharCNN(mo_hinh, threads=1)
 pipe = BoChuanHoa(danh_muc=dm, bo_tach=ext, bo_xep_hang=BoXepHang(ranker, ext.ma_bam, dm.ma_bam),
                   tu_dien_duong=TuDienDuong(dd.TU_DIEN_TRAIN),
                   bao_ve_duong=True, tien_to_mac_dinh=True)
