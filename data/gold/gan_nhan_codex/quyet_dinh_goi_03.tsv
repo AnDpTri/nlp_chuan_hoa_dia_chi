@@ -1,0 +1,50 @@
+UNGVIEN_0101	so_nha~86~1;duong~Đường Phùng Hưng~1;xa~Phúc La~1;huyen~Hà Đông~1;tinh~Hà Nội~1	
+UNGVIEN_0102	so_nha~01~1;duong~Trương Văn Bang~1	
+UNGVIEN_0103	so_nha~30-31~1;duong~đường số 7~1	địa_danh_KCN_long_thanhf_không_chắc_số_nhà_khoảng
+UNGVIEN_0104	so_nha~169/1~1;duong~Đường D2~1;xa~Binh An~1;huyen~Quan 2~1;huyen~Thành phố Thủ Đức~1;tinh~Hồ Chí Minh~1	số_nhà_gạch_chéo_chưa_chốt;quận_2_và_Thủ_Đức
+UNGVIEN_0105	xa~Lại Yên~1;huyen~Hoài Đức~1;tinh~Hà Nội~1	Khu_đô_thị_tòa_nhà_ngoài_schema
+UNGVIEN_0106	so_nha~số 6~1;duong~Đỗ Trọng Vanw~1	sai_chính_tả
+UNGVIEN_0107	-	Khu_du_lịch_chùa_cổ_thạch_không_phải_địa_chỉ_rõ
+UNGVIEN_0108	so_nha~21~1;duong~Biệt Thự~1	Biệt_Thự_có_thể_là_loại_nhà_không_phải_đường
+UNGVIEN_0109	so_nha~55~1;duong~Đường Huỳnh Mẫn Đạt~1;xa~5~3;huyen~Quận 5~1;tinh~TP. Hồ Chí Minh~1;tinh~Hồ Chí Minh~2	5_không_rõ_phường;tỉnh_lặp
+UNGVIEN_0110	ngo_ngach_hem~Ngõ 193~1;duong~Cầu Cốc~1	
+UNGVIEN_0111	so_nha~28d~1;duong~Đường Đống Đa~1;xa~Phường Thuận Phước~1;huyen~Quận Hải Châu~1;tinh~Đà Nẵng~1	
+UNGVIEN_0112	duong~Phố Tú Mỡ~1;xa~Trung Hòa~1;huyen~Cầu Giấy~1;tinh~Hà Nội~1	
+UNGVIEN_0113	duong~Quốc lộ 1A~1;xa~Cấm Vĩnh~1	Cấm_Vĩnh_địa_danh_chưa_chắc_cấp
+UNGVIEN_0114	so_nha~39~1;duong~Phố Đặng Vũ Hỷ~1;xa~Phường Thượng Thanh~1;huyen~Quận Long Biên~1;tinh~Thành phố Hà Nội~1;tinh~Ha Noi~1	tỉnh_lặp
+UNGVIEN_0115	so_nha~5~1;ngo_ngach_hem~Hẻm 555~1;duong~Nguyễn Huệ~1	
+UNGVIEN_0116	so_nha~1/63/17B~1;duong~đinh tiên hoàng~1;xa~p Thới Bình~1	dạng_số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0117	so_nha~482/43G/11~1;duong~Nơ Trang Long~1;xa~Phường 13~1;huyen~Quận Bình Thạnh~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0118	so_nha~Số 1~1;duong~TRà Khúc~1;xa~Duyên Hải~1;huyen~Thanh Trì~1;tinh~Hà Nội~1	
+UNGVIEN_0119	so_nha~24~1;duong~Đường Tuệ Tĩnh~1;xa~Nam Thành~1;huyen~Thành phố Ninh Bình~1;tinh~Ninh Bình~2	
+UNGVIEN_0120	so_nha~22~1;duong~An Đà~1;tinh~Hải Phòng~1	An_Đà_có_thể_là_địa_danh
+UNGVIEN_0121	so_nha~2~1;duong~Phố Đặng Trần Đức~1;tinh~Hà Nội~1	
+UNGVIEN_0122	so_nha~162C/6~1;duong~Trần Ngọc Quế~1;tinh~Cần Thơ~1	
+UNGVIEN_0123	so_nha~257~1;duong~Giảng Võ~1;xa~Chợ Dừa~1;huyen~Đống Đa~1;tinh~Hà Nội~1;tinh~Hanoi~1	tỉnh_lặp
+UNGVIEN_0124	-	Trung_tâm_anh_ngữ_không_phải_địa_chỉ
+UNGVIEN_0125	duong~Đường nội bộ~1	không_có_tên_đường_riêng
+UNGVIEN_0126	so_nha~708~1;duong~Đường Lê Trọng Tấn~1	
+UNGVIEN_0127	so_nha~1234~1;duong~Đường Láng~1	
+UNGVIEN_0128	duong~Đường 2~1	Gamuda_Garden_có_thể_là_tòa_khu_nhà
+UNGVIEN_0129	thon_xom~thôn 3~1;xa~Tân Hoaf~1	xã_Tân_Hoaf_sai_chính_tả_và_thiếu_từ_chỉ_cấp
+UNGVIEN_0130	duong~Đường Nguyễn Duy Trinh~1;xa~Phường Phố Mới~1;huyen~Thị xã Quế Võ~1;tinh~Bắc Ninh~1;tinh~Bac Ninh~1	tỉnh_lặp
+UNGVIEN_0131	so_nha~15~1;duong~Can Trường~1;xa~Xã Củ Chi~1;tinh~Thành phố Hồ Chí Minh~1	Can_Trường_có_thể_là_đường_hoặc_địa_danh
+UNGVIEN_0132	so_nha~316 - 318~1;duong~Hải Phòng~1	Hải_Phòng_có_thể_là_đường_hoặc_tỉnh;số_nhà_khoảng
+UNGVIEN_0133	so_nha~39~1;duong~Yet Kieu~1	
+UNGVIEN_0134	so_nha~20~1;duong~Tống Văn Sương~1	
+UNGVIEN_0135	so_nha~366~1;duong~Lê Quý Đôn~1;xa~Tân Thiện~1;huyen~Đồng Xoài~1;tinh~Bình Phước~1	
+UNGVIEN_0136	ngo_ngach_hem~ngõ 38~1;duong~Phố Hoàng Cầu~1	
+UNGVIEN_0137	-	địa_chỉ_không_phải_tiếng_Việt_và_ngoài_phạm_vi
+UNGVIEN_0138	so_nha~17/1~1;duong~Triệu Việt Vương~1	dạng_số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0139	thon_xom~thôn 14~1;xa~xã ea Lê~1	
+UNGVIEN_0140	so_nha~111~1;duong~Đại Lộ Hùng Vương~1	
+UNGVIEN_0141	so_nha~48~1;duong~Phố Trạm~1;huyen~Quận Long Biên~1;tinh~Thành phố Hà Nội~1	
+UNGVIEN_0142	so_nha~38~1;duong~Yết Kiêu~1	
+UNGVIEN_0143	so_nha~262~1;duong~Hai Bà Trưng~1;xa~Tân Định~1;huyen~Quận 1~1;tinh~Hồ Chí Minh~1	
+UNGVIEN_0144	so_nha~12~1;duong~Thuận Lý~1	Thuận_Lý_có_thể_là_địa_danh
+UNGVIEN_0145	so_nha~58~1;duong~Phố Vo Trung~1	tên_đường_không_dấu_hoặc_sai_chính_tả
+UNGVIEN_0146	so_nha~10~1;ngo_ngach_hem~ngõ 40~1;duong~Võ Thị Sáu~1	
+UNGVIEN_0147	ngo_ngach_hem~Ngõ 217~1;duong~Trần Phú~1;xa~phường Văn Quán~1;huyen~quận Hà Đông~1;tinh~thành phố Hà Nội~1	
+UNGVIEN_0148	duong~Đường Hòa An 19~1	
+UNGVIEN_0149	so_nha~3 Bis~1;duong~Đống Đa~1;xa~Phường 3~1;huyen~Thành phố Đà Lạt~1;tinh~Lâm Đồng~1	
+UNGVIEN_0150	so_nha~90~1;ngo_ngach_hem~Ngõ 24~1;duong~Kim Đồng~1;huyen~quận Hoàng Mai~1;tinh~thành phố Hà Nội~1	

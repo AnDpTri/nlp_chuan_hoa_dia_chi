@@ -1,0 +1,539 @@
+{
+  "rows": 1136,
+  "cases": {
+    "ngo_hem_ngach_kiet": {
+      "count": 170,
+      "examples": [
+        {
+          "id": "VNDEV_00012",
+          "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 16",
+          "ngo_ngach_hem": "Ngõ 12",
+          "thon_xom": "",
+          "duong": "Đường Ngõ 12 Trần Quý Kiên"
+        },
+        {
+          "id": "VNDEV_00028",
+          "dau_vao": "Số 3 ngõ 55 Đỗ Quang, phường Trung Hòa, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 3",
+          "ngo_ngach_hem": "Ngõ 55",
+          "thon_xom": "",
+          "duong": "Đường Đỗ Quang"
+        },
+        {
+          "id": "VNDEV_00091",
+          "dau_vao": "Ngõ 78 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 78",
+          "thon_xom": "",
+          "duong": "Đường Ngõ 78 Phố Yên Lã"
+        },
+        {
+          "id": "VNDEV_00093",
+          "dau_vao": "Ngõ 156 Phố Cổ Pháp, Phường Từ Sơn, Thành phố Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 156",
+          "thon_xom": "",
+          "duong": "Đường Ngõ 156 Phố Cổ Pháp"
+        }
+      ]
+    },
+    "nha_khoang": {
+      "count": 13,
+      "examples": [
+        {
+          "id": "VNDEV_00022",
+          "dau_vao": "A3-01-05 chung cư Hoàng Anh, An Tiến số 187 Lê Văn Lương, Nhà Bè, TPHCM",
+          "so_nha": "Số 187",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00025",
+          "dau_vao": "LK 16-19 Khu đô thị Ngô Thì Nhậm, phường La Khê, quận Hà Đông, Hà Nội",
+          "so_nha": "Số 16-19",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Ngô Thì Nhậm"
+        },
+        {
+          "id": "VNDEV_00031",
+          "dau_vao": "154-156, Phan Thanh, P. Thạc Gián, Q. Thanh Khê, TP. Đà Nẵng",
+          "so_nha": "Số 154-156",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Phan Thanh"
+        },
+        {
+          "id": "VNDEV_00045",
+          "dau_vao": "169-171 Phan Đình Phùng, Hồ Chí Minh, quận Phú Nhuận, Việt Nam",
+          "so_nha": "Số 169-171",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Phan Đình Phùng"
+        }
+      ]
+    },
+    "nha_gach_cheo": {
+      "count": 42,
+      "examples": [
+        {
+          "id": "VNDEV_00005",
+          "dau_vao": "268/10 NGUYỄN VĂN LINH, PHƯỜNG XUÂN KHÁNH QUẬN NINH KIỀU, TP CẦN THƠ",
+          "so_nha": "Số 268/10",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00014",
+          "dau_vao": "TM28-CC.8X-Plus 22/1422/14A/22/1422/14Cvà 22/14D Đường Trường Chinh, Phường Tân Thới Nhât.Quận 12,Tp HCM",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Trường Chinh"
+        },
+        {
+          "id": "VNDEV_00044",
+          "dau_vao": "185 Đường 3/2, phường 11, Quận 10, Hồ Chí Minh, Việt Nam",
+          "so_nha": "Số 185",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường 3/2"
+        },
+        {
+          "id": "VNDEV_00065",
+          "dau_vao": "65, Đường 30/4, Phường 1, Mỹ Tho, Tiền Giang",
+          "so_nha": "Số 65",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường 30/4"
+        }
+      ]
+    },
+    "tien_to_so": {
+      "count": 419,
+      "examples": [
+        {
+          "id": "VNDEV_00012",
+          "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 16",
+          "ngo_ngach_hem": "Ngõ 12",
+          "thon_xom": "",
+          "duong": "Đường Ngõ 12 Trần Quý Kiên"
+        },
+        {
+          "id": "VNDEV_00015",
+          "dau_vao": "Số 86 Lạc Trung, phường Vĩnh Tuy, quận Hai Bà Trưng, Hà Nội",
+          "so_nha": "Số 86",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Phố Lạc Trung"
+        },
+        {
+          "id": "VNDEV_00022",
+          "dau_vao": "A3-01-05 chung cư Hoàng Anh, An Tiến số 187 Lê Văn Lương, Nhà Bè, TPHCM",
+          "so_nha": "Số 187",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00023",
+          "dau_vao": "Số 123 phố Trịnh Công Sơn, phường Nhật Tân, quận Tây Hồ, Hà Nội",
+          "so_nha": "Số 123",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Phố Trịnh Công Sơn"
+        }
+      ]
+    },
+    "tien_to_duong": {
+      "count": 756,
+      "examples": [
+        {
+          "id": "VNDEV_00004",
+          "dau_vao": "313, NGUYỄN VĂN LINH, PHƯỜNG AN KHÁNH, QUẬN NINH KIỀU, THÀNH PHỐ CẦN THƠ",
+          "so_nha": "Số 313",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Phố Cần Thơ"
+        },
+        {
+          "id": "VNDEV_00011",
+          "dau_vao": "Số nhà 3, phố Tô Vĩnh Diện, phường Khương Trung, quận Thanh Xuân, Hà Nội",
+          "so_nha": "Số 3",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Phố Tô Vĩnh Diện"
+        },
+        {
+          "id": "VNDEV_00014",
+          "dau_vao": "TM28-CC.8X-Plus 22/1422/14A/22/1422/14Cvà 22/14D Đường Trường Chinh, Phường Tân Thới Nhât.Quận 12,Tp HCM",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Trường Chinh"
+        },
+        {
+          "id": "VNDEV_00017",
+          "dau_vao": "59 Tô Ngọc Vân, Khu phố 4, Phường Linh Tây, Quận Thủ Đức, Tp. HCM",
+          "so_nha": "Số 59",
+          "ngo_ngach_hem": "",
+          "thon_xom": "Khu phố 4",
+          "duong": "Đường Tô Ngọc Vân"
+        }
+      ]
+    },
+    "thon_to_kp_ap": {
+      "count": 43,
+      "examples": [
+        {
+          "id": "VNDEV_00012",
+          "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 16",
+          "ngo_ngach_hem": "Ngõ 12",
+          "thon_xom": "",
+          "duong": "Đường Ngõ 12 Trần Quý Kiên"
+        },
+        {
+          "id": "VNDEV_00017",
+          "dau_vao": "59 Tô Ngọc Vân, Khu phố 4, Phường Linh Tây, Quận Thủ Đức, Tp. HCM",
+          "so_nha": "Số 59",
+          "ngo_ngach_hem": "",
+          "thon_xom": "Khu phố 4",
+          "duong": "Đường Tô Ngọc Vân"
+        },
+        {
+          "id": "VNDEV_00034",
+          "dau_vao": "Số 194 phố Minh Khai, tổ 14, phường Minh Khai, quận Hai Bà Trưng, Hà Nội",
+          "so_nha": "Số 194",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Phố Minh Khai"
+        },
+        {
+          "id": "VNDEV_00051",
+          "dau_vao": "Thôn Dương Lâm 1, Xã Hoà Phong,Hoà Vang,TP Đà Nẵng",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "Thôn Dương Lâm 1",
+          "duong": ""
+        }
+      ]
+    },
+    "viet_tat_cmt_ql": {
+      "count": 10,
+      "examples": [
+        {
+          "id": "VNDEV_00007",
+          "dau_vao": "87 CMT8, An Hòa, Ninh Kiều, Cần Thơ",
+          "so_nha": "Số 87",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00057",
+          "dau_vao": "Quốc lộ 14B, Thôn Phú Sơn 1, Xã Hòa Tiến, TP Đà Nẵng",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "Thôn Phú Sơn 1",
+          "duong": "Quốc lộ 14B"
+        },
+        {
+          "id": "VNDEV_00059",
+          "dau_vao": "51 CMT8, An Hòa, Ninh Kiều, Cần Thơ",
+          "so_nha": "Số 51",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00060",
+          "dau_vao": "110A CMT8, Ninh Kiều, Cần Thơ",
+          "so_nha": "Số 110A",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        }
+      ]
+    },
+    "ma_buu_chinh_cuoi": {
+      "count": 1,
+      "examples": [
+        {
+          "id": "VNDEV_00150",
+          "dau_vao": "11 Đ. Nguyễn Đình Chiểu, Vĩnh Phước, Nha Trang, Khánh Hòa 650000",
+          "so_nha": "Số 11",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường 11 Đ. Nguyễn Đình Chiểu, Vĩnh Phước, Nha Trang, Khánh Hòa 650000"
+        }
+      ]
+    },
+    "toa_nha_tang_phong": {
+      "count": 63,
+      "examples": [
+        {
+          "id": "VNDEV_00009",
+          "dau_vao": "Phòng 801 , tầng 8, PVC MeKong, 131, Trần Hưng Đạo, Q. Ninh Kiều, Tp. Cần Thơ",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00022",
+          "dau_vao": "A3-01-05 chung cư Hoàng Anh, An Tiến số 187 Lê Văn Lương, Nhà Bè, TPHCM",
+          "so_nha": "Số 187",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00051",
+          "dau_vao": "Thôn Dương Lâm 1, Xã Hoà Phong,Hoà Vang,TP Đà Nẵng",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "thon_xom": "Thôn Dương Lâm 1",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00115",
+          "dau_vao": "13, Đường Đặng Đức Thuật, Phường Tân Phong, Quận 7, Hồ Chí Minh",
+          "so_nha": "Số 13",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Đặng Đức Thuật"
+        }
+      ]
+    },
+    "tieng_anh": {
+      "count": 26,
+      "examples": [
+        {
+          "id": "VNDEV_00001",
+          "dau_vao": "843M+RH3 Hòa Thành District, Tây Ninh",
+          "so_nha": "Số 843M",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00048",
+          "dau_vao": "46-48-50-52 B4 Street, Sala Urban Area, An Loi Dong Ward, District 2, Ho Chi Minh City",
+          "so_nha": "Số 46-48-50-52",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00050",
+          "dau_vao": "843M+GJR Hòa Thành District, Tây Ninh",
+          "so_nha": "Số 843M",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": ""
+        },
+        {
+          "id": "VNDEV_00085",
+          "dau_vao": "19/10, Đường Bình Thới, 11, Ho Chi Minh City, Thành Phố Hồ Chí Minh",
+          "so_nha": "Số 19/10",
+          "ngo_ngach_hem": "",
+          "thon_xom": "",
+          "duong": "Đường Bình Thới"
+        }
+      ]
+    },
+    "ngo_text_and_road_contains_ngo": {
+      "count": 59,
+      "examples": [
+        {
+          "id": "VNDEV_00012",
+          "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 16",
+          "ngo_ngach_hem": "Ngõ 12",
+          "duong": "Đường Ngõ 12 Trần Quý Kiên"
+        },
+        {
+          "id": "VNDEV_00091",
+          "dau_vao": "Ngõ 78 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 78",
+          "duong": "Đường Ngõ 78 Phố Yên Lã"
+        },
+        {
+          "id": "VNDEV_00093",
+          "dau_vao": "Ngõ 156 Phố Cổ Pháp, Phường Từ Sơn, Thành phố Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 156",
+          "duong": "Đường Ngõ 156 Phố Cổ Pháp"
+        },
+        {
+          "id": "VNDEV_00099",
+          "dau_vao": "Ngõ Hòa Bình 5, Quận Hai Bà Trưng, Thành phố Hà Nội",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "duong": "Đường Ngõ Hòa Bình 5"
+        },
+        {
+          "id": "VNDEV_00106",
+          "dau_vao": "21, Hẻm 182 Lê Văn Sỹ, Phường 10, Phú Nhuận, Ho Chi Minh City",
+          "so_nha": "Số 21",
+          "ngo_ngach_hem": "Hẻm 182",
+          "duong": "Đường Hẻm 182 Lê Văn Sỹ"
+        },
+        {
+          "id": "VNDEV_00112",
+          "dau_vao": "Lk12-No12, Ngõ 107 Nguyễn Viết Xuân, Quang Trung, Hà Đông, Hà Nội",
+          "so_nha": "Số LK12-NO12",
+          "ngo_ngach_hem": "Ngõ 107",
+          "duong": "Đường Ngõ 107 Nguyễn Viết Xuân"
+        }
+      ]
+    },
+    "ngo_text_and_separate_field": {
+      "count": 129,
+      "examples": [
+        {
+          "id": "VNDEV_00012",
+          "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 16",
+          "ngo_ngach_hem": "Ngõ 12",
+          "duong": "Đường Ngõ 12 Trần Quý Kiên"
+        },
+        {
+          "id": "VNDEV_00028",
+          "dau_vao": "Số 3 ngõ 55 Đỗ Quang, phường Trung Hòa, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 3",
+          "ngo_ngach_hem": "Ngõ 55",
+          "duong": "Đường Đỗ Quang"
+        },
+        {
+          "id": "VNDEV_00091",
+          "dau_vao": "Ngõ 78 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 78",
+          "duong": "Đường Ngõ 78 Phố Yên Lã"
+        },
+        {
+          "id": "VNDEV_00093",
+          "dau_vao": "Ngõ 156 Phố Cổ Pháp, Phường Từ Sơn, Thành phố Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 156",
+          "duong": "Đường Ngõ 156 Phố Cổ Pháp"
+        },
+        {
+          "id": "VNDEV_00106",
+          "dau_vao": "21, Hẻm 182 Lê Văn Sỹ, Phường 10, Phú Nhuận, Ho Chi Minh City",
+          "so_nha": "Số 21",
+          "ngo_ngach_hem": "Hẻm 182",
+          "duong": "Đường Hẻm 182 Lê Văn Sỹ"
+        },
+        {
+          "id": "VNDEV_00112",
+          "dau_vao": "Lk12-No12, Ngõ 107 Nguyễn Viết Xuân, Quang Trung, Hà Đông, Hà Nội",
+          "so_nha": "Số LK12-NO12",
+          "ngo_ngach_hem": "Ngõ 107",
+          "duong": "Đường Ngõ 107 Nguyễn Viết Xuân"
+        }
+      ]
+    },
+    "ngo_text_both_fields": {
+      "count": 31,
+      "examples": [
+        {
+          "id": "VNDEV_00012",
+          "dau_vao": "Số 16 ngõ 12 Trần Quý Kiên tổ 58A, phường Dịch Vọng, quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 16",
+          "ngo_ngach_hem": "Ngõ 12",
+          "duong": "Đường Ngõ 12 Trần Quý Kiên"
+        },
+        {
+          "id": "VNDEV_00091",
+          "dau_vao": "Ngõ 78 Phố Yên Lã, Phường Tân Hồng, Thành phố Từ Sơn, Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 78",
+          "duong": "Đường Ngõ 78 Phố Yên Lã"
+        },
+        {
+          "id": "VNDEV_00093",
+          "dau_vao": "Ngõ 156 Phố Cổ Pháp, Phường Từ Sơn, Thành phố Bắc Ninh, Bac Ninh",
+          "so_nha": "",
+          "ngo_ngach_hem": "Ngõ 156",
+          "duong": "Đường Ngõ 156 Phố Cổ Pháp"
+        },
+        {
+          "id": "VNDEV_00106",
+          "dau_vao": "21, Hẻm 182 Lê Văn Sỹ, Phường 10, Phú Nhuận, Ho Chi Minh City",
+          "so_nha": "Số 21",
+          "ngo_ngach_hem": "Hẻm 182",
+          "duong": "Đường Hẻm 182 Lê Văn Sỹ"
+        },
+        {
+          "id": "VNDEV_00112",
+          "dau_vao": "Lk12-No12, Ngõ 107 Nguyễn Viết Xuân, Quang Trung, Hà Đông, Hà Nội",
+          "so_nha": "Số LK12-NO12",
+          "ngo_ngach_hem": "Ngõ 107",
+          "duong": "Đường Ngõ 107 Nguyễn Viết Xuân"
+        },
+        {
+          "id": "VNDEV_00116",
+          "dau_vao": "53, Ngõ 3 Phạm Tuấn Tài, Phường Dịch Vọng Hậu, Quận Cầu Giấy, Hà Nội",
+          "so_nha": "Số 53",
+          "ngo_ngach_hem": "Ngõ 3",
+          "duong": "Đường Ngõ 3 Phạm Tuấn Tài"
+        }
+      ]
+    },
+    "ngo_text_but_no_ngo_field": {
+      "count": 41,
+      "examples": [
+        {
+          "id": "VNDEV_00099",
+          "dau_vao": "Ngõ Hòa Bình 5, Quận Hai Bà Trưng, Thành phố Hà Nội",
+          "so_nha": "",
+          "ngo_ngach_hem": "",
+          "duong": "Đường Ngõ Hòa Bình 5"
+        },
+        {
+          "id": "VNDEV_00123",
+          "dau_vao": "P401 Lo 20A, Lê Hồng Phong, Đằng Giang, Ngo Quyen, Hải Phòng, Việt Nam",
+          "so_nha": "Số P401 LO 20A",
+          "ngo_ngach_hem": "",
+          "duong": "Đường Lê Hồng Phong"
+        },
+        {
+          "id": "VNDEV_00128",
+          "dau_vao": "268, Lý Thường Kiệt, 14, 10, Ho Chi Minh City",
+          "so_nha": "Số 268",
+          "ngo_ngach_hem": "",
+          "duong": "Đường Lý Thường Kiệt"
+        },
+        {
+          "id": "VNDEV_00157",
+          "dau_vao": "Số 1, Ngõ Trạm Y Tế, Kiến Hưng, Hà Đông, Hà Nội, Thành phố Hà Nội",
+          "so_nha": "Số 1",
+          "ngo_ngach_hem": "",
+          "duong": "Đường Ngõ Trạm Y Tế"
+        },
+        {
+          "id": "VNDEV_00166",
+          "dau_vao": "210, Ngõ Xã Đàn 2, Nam Đồng, Đống Đa, Hà Nội",
+          "so_nha": "Số 210",
+          "ngo_ngach_hem": "",
+          "duong": "Đường Ngõ Xã Đàn 2"
+        },
+        {
+          "id": "VNDEV_00171",
+          "dau_vao": "5, Phố Lý Thường Kiệt, Phan Chu Trinh, Hoàn Kiếm, Hà Nội",
+          "so_nha": "Số 5",
+          "ngo_ngach_hem": "",
+          "duong": "Phố Lý Thường Kiệt"
+        }
+      ]
+    }
+  }
+}

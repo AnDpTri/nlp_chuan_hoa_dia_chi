@@ -1,0 +1,1755 @@
+{
+  "bo_gan": "codex_gpt",
+  "nhan": [
+    {
+      "id": "UNGVIEN_0860",
+      "dau_vao": "x4, Xã Tây Thuận, Huyện Tây Sơn, Tỉnh Bình Định",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x4"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 16,
+          "van_ban": "Xã Tây Thuận"
+        },
+        {
+          "truong": "huyen",
+          "start": 18,
+          "end": 31,
+          "van_ban": "Huyện Tây Sơn"
+        },
+        {
+          "truong": "tinh",
+          "start": 33,
+          "end": 47,
+          "van_ban": "Tỉnh Bình Định"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1173",
+      "dau_vao": "Số 2049, Ngõ 41, Tổ 3, Đường Lý Thường Kiệt, Xã Tam Kim, Tỉnh Cao Bằng",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 2049"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 41"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 3"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 43,
+          "van_ban": "Đường Lý Thường Kiệt"
+        },
+        {
+          "truong": "xa",
+          "start": 45,
+          "end": 55,
+          "van_ban": "Xã Tam Kim"
+        },
+        {
+          "truong": "tinh",
+          "start": 57,
+          "end": 70,
+          "van_ban": "Tỉnh Cao Bằng"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1085",
+      "dau_vao": "Số 1081, Ngõ 8, Tổ 5, Đường Phạm Văn Đồng, Xã Tân Hưng, Tỉnh Hưng Yên",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1081"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 14,
+          "van_ban": "Ngõ 8"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 16,
+          "end": 20,
+          "van_ban": "Tổ 5"
+        },
+        {
+          "truong": "duong",
+          "start": 22,
+          "end": 41,
+          "van_ban": "Đường Phạm Văn Đồng"
+        },
+        {
+          "truong": "xa",
+          "start": 43,
+          "end": 54,
+          "van_ban": "Xã Tân Hưng"
+        },
+        {
+          "truong": "tinh",
+          "start": 56,
+          "end": 69,
+          "van_ban": "Tỉnh Hưng Yên"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1009",
+      "dau_vao": "1748 - Duong Nguyen Van Cu - Thanh pho Hue - Tòa nhà Sen Việt, tầng 8",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1748"
+        },
+        {
+          "truong": "duong",
+          "start": 7,
+          "end": 26,
+          "van_ban": "Duong Nguyen Van Cu"
+        },
+        {
+          "truong": "tinh",
+          "start": 29,
+          "end": 42,
+          "van_ban": "Thanh pho Hue"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0899",
+      "dau_vao": "x3 - tl - Huyện Mỹ Đức - Thành phố Hà Nội",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x3"
+        },
+        {
+          "truong": "xa",
+          "start": 5,
+          "end": 7,
+          "van_ban": "tl"
+        },
+        {
+          "truong": "huyen",
+          "start": 10,
+          "end": 22,
+          "van_ban": "Huyện Mỹ Đức"
+        },
+        {
+          "truong": "tinh",
+          "start": 25,
+          "end": 41,
+          "van_ban": "Thành phố Hà Nội"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "viết_tắt_xã_tl_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_0885",
+      "dau_vao": "x5, Xã Mỹ Thành, Huyện Lạc Sơn, Tỉnh Hòa Bình",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x5"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 15,
+          "van_ban": "Xã Mỹ Thành"
+        },
+        {
+          "truong": "huyen",
+          "start": 17,
+          "end": 30,
+          "van_ban": "Huyện Lạc Sơn"
+        },
+        {
+          "truong": "tinh",
+          "start": 32,
+          "end": 45,
+          "van_ban": "Tỉnh Hòa Bình"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1179",
+      "dau_vao": "Số 2115, Ngõ 47, Tổ 9, Đường Nguyễn Trãi, Xã Văn Phú, Tỉnh Thanh Hóa",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 2115"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 47"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 9"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 40,
+          "van_ban": "Đường Nguyễn Trãi"
+        },
+        {
+          "truong": "xa",
+          "start": 42,
+          "end": 52,
+          "van_ban": "Xã Văn Phú"
+        },
+        {
+          "truong": "tinh",
+          "start": 54,
+          "end": 68,
+          "van_ban": "Tỉnh Thanh Hóa"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0997",
+      "dau_vao": "1616 - Thành phố Đà Nẵng - Xã Thượng Đức - Đường Trần Hưng Đạo - Tòa nhà Sen Việt, tầng 8",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1616"
+        },
+        {
+          "truong": "tinh",
+          "start": 7,
+          "end": 24,
+          "van_ban": "Thành phố Đà Nẵng"
+        },
+        {
+          "truong": "xa",
+          "start": 27,
+          "end": 40,
+          "van_ban": "Xã Thượng Đức"
+        },
+        {
+          "truong": "duong",
+          "start": 43,
+          "end": 62,
+          "van_ban": "Đường Trần Hưng Đạo"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0955",
+      "dau_vao": "Tỉnh Cao Bằng, 1154, Xã Đình Phong, Đường Trần Phú, 700000",
+      "spans": [
+        {
+          "truong": "tinh",
+          "start": 0,
+          "end": 13,
+          "van_ban": "Tỉnh Cao Bằng"
+        },
+        {
+          "truong": "so_nha",
+          "start": 15,
+          "end": 19,
+          "van_ban": "1154"
+        },
+        {
+          "truong": "xa",
+          "start": 21,
+          "end": 34,
+          "van_ban": "Xã Đình Phong"
+        },
+        {
+          "truong": "duong",
+          "start": 36,
+          "end": 50,
+          "van_ban": "Đường Trần Phú"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1110",
+      "dau_vao": "Số 1356, Ngõ 33, Tổ 10, Đường Hoàng Quốc Việt, Xã Hữu Lũng, Tỉnh Lạng Sơn",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1356"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 33"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 22,
+          "van_ban": "Tổ 10"
+        },
+        {
+          "truong": "duong",
+          "start": 24,
+          "end": 45,
+          "van_ban": "Đường Hoàng Quốc Việt"
+        },
+        {
+          "truong": "xa",
+          "start": 47,
+          "end": 58,
+          "van_ban": "Xã Hữu Lũng"
+        },
+        {
+          "truong": "tinh",
+          "start": 60,
+          "end": 73,
+          "van_ban": "Tỉnh Lạng Sơn"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0953",
+      "dau_vao": "1132, Đường Nguyễn Huệ, Xã Mỹ Lộc",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1132"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 22,
+          "van_ban": "Đường Nguyễn Huệ"
+        },
+        {
+          "truong": "xa",
+          "start": 24,
+          "end": 33,
+          "van_ban": "Xã Mỹ Lộc"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1028",
+      "dau_vao": "1957, Đường Lê Lợi, Xã Hồ Thầu",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1957"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 18,
+          "van_ban": "Đường Lê Lợi"
+        },
+        {
+          "truong": "xa",
+          "start": 20,
+          "end": 30,
+          "van_ban": "Xã Hồ Thầu"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0996",
+      "dau_vao": "1605, Duong Le Loi, Xa Tay Tra, Tinh Quang Ngai, 700000",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1605"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 18,
+          "van_ban": "Duong Le Loi"
+        },
+        {
+          "truong": "xa",
+          "start": 20,
+          "end": 30,
+          "van_ban": "Xa Tay Tra"
+        },
+        {
+          "truong": "tinh",
+          "start": 32,
+          "end": 47,
+          "van_ban": "Tinh Quang Ngai"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0864",
+      "dau_vao": "x8 - ks - Thành phố Hòa Bình - Tỉnh Hòa Bình",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x8"
+        },
+        {
+          "truong": "xa",
+          "start": 5,
+          "end": 7,
+          "van_ban": "ks"
+        },
+        {
+          "truong": "huyen",
+          "start": 10,
+          "end": 28,
+          "van_ban": "Thành phố Hòa Bình"
+        },
+        {
+          "truong": "tinh",
+          "start": 31,
+          "end": 44,
+          "van_ban": "Tỉnh Hòa Bình"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "xa_ks_chỉ_viết_tắt_không_chắc"
+    },
+    {
+      "id": "UNGVIEN_0945",
+      "dau_vao": "1044, Đường Nguyễn Văn Cừ, Thành phố Hải Phòng, Xã Trường Tân, 700000",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1044"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 25,
+          "van_ban": "Đường Nguyễn Văn Cừ"
+        },
+        {
+          "truong": "tinh",
+          "start": 27,
+          "end": 46,
+          "van_ban": "Thành phố Hải Phòng"
+        },
+        {
+          "truong": "xa",
+          "start": 48,
+          "end": 61,
+          "van_ban": "Xã Trường Tân"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0830",
+      "dau_vao": "x6, Phường Nhân Hòa, Thị xã Quế Võ, Tỉnh Bắc Ninh",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x6"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 19,
+          "van_ban": "Phường Nhân Hòa"
+        },
+        {
+          "truong": "huyen",
+          "start": 21,
+          "end": 34,
+          "van_ban": "Thị xã Quế Võ"
+        },
+        {
+          "truong": "tinh",
+          "start": 36,
+          "end": 49,
+          "van_ban": "Tỉnh Bắc Ninh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0924",
+      "dau_vao": "x4 - ro - Quận 8 - Thành phố Hồ Chí Minh",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x4"
+        },
+        {
+          "truong": "xa",
+          "start": 5,
+          "end": 7,
+          "van_ban": "ro"
+        },
+        {
+          "truong": "huyen",
+          "start": 10,
+          "end": 16,
+          "van_ban": "Quận 8"
+        },
+        {
+          "truong": "tinh",
+          "start": 19,
+          "end": 40,
+          "van_ban": "Thành phố Hồ Chí Minh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "xã_ro_viết_tắt_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_0974",
+      "dau_vao": "1363 - Duong Nguyen Thi Minh Khai - Tinh Dien Bien - Tòa nhà Sen Việt, tầng 8",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1363"
+        },
+        {
+          "truong": "duong",
+          "start": 7,
+          "end": 33,
+          "van_ban": "Duong Nguyen Thi Minh Khai"
+        },
+        {
+          "truong": "tinh",
+          "start": 36,
+          "end": 50,
+          "van_ban": "Tinh Dien Bien"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1101",
+      "dau_vao": "Số 1257, Ngõ 24, Tổ 1, Đường Phạm Văn Đồng, Xã Ba Sơn, Tỉnh Lạng Sơn",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1257"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 24"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 1"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 42,
+          "van_ban": "Đường Phạm Văn Đồng"
+        },
+        {
+          "truong": "xa",
+          "start": 44,
+          "end": 53,
+          "van_ban": "Xã Ba Sơn"
+        },
+        {
+          "truong": "tinh",
+          "start": 55,
+          "end": 68,
+          "van_ban": "Tỉnh Lạng Sơn"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1105",
+      "dau_vao": "Số 1301, Ngõ 28, Tổ 5, Đường Lê Duẩn, Xã Thọ Xuân, Tỉnh Thanh Hóa",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1301"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 28"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 5"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 36,
+          "van_ban": "Đường Lê Duẩn"
+        },
+        {
+          "truong": "xa",
+          "start": 38,
+          "end": 49,
+          "van_ban": "Xã Thọ Xuân"
+        },
+        {
+          "truong": "tinh",
+          "start": 51,
+          "end": 65,
+          "van_ban": "Tỉnh Thanh Hóa"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0934",
+      "dau_vao": "x6 - pt - Huyện Tuy Phước - Tỉnh Bình Định",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x6"
+        },
+        {
+          "truong": "xa",
+          "start": 5,
+          "end": 7,
+          "van_ban": "pt"
+        },
+        {
+          "truong": "huyen",
+          "start": 10,
+          "end": 25,
+          "van_ban": "Huyện Tuy Phước"
+        },
+        {
+          "truong": "tinh",
+          "start": 28,
+          "end": 42,
+          "van_ban": "Tỉnh Bình Định"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "xã_pt_viết_tắt_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_1035",
+      "dau_vao": "Tỉnh Tuyên Quang, Xã Tiên Yên, 2034, Đường Trần Phú, 700000",
+      "spans": [
+        {
+          "truong": "tinh",
+          "start": 0,
+          "end": 16,
+          "van_ban": "Tỉnh Tuyên Quang"
+        },
+        {
+          "truong": "xa",
+          "start": 18,
+          "end": 29,
+          "van_ban": "Xã Tiên Yên"
+        },
+        {
+          "truong": "so_nha",
+          "start": 31,
+          "end": 35,
+          "van_ban": "2034"
+        },
+        {
+          "truong": "duong",
+          "start": 37,
+          "end": 51,
+          "van_ban": "Đường Trần Phú"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1165",
+      "dau_vao": "Số 1961, Ngõ 33, Tổ 5, Đường Phạm Văn Đồng, Phường Phú Thủy, Tỉnh Lâm Đồng",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1961"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 33"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 5"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 42,
+          "van_ban": "Đường Phạm Văn Đồng"
+        },
+        {
+          "truong": "xa",
+          "start": 44,
+          "end": 59,
+          "van_ban": "Phường Phú Thủy"
+        },
+        {
+          "truong": "tinh",
+          "start": 61,
+          "end": 74,
+          "van_ban": "Tỉnh Lâm Đồng"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0848",
+      "dau_vao": "x8, tg, bb, Tỉnh Bắc Kạn",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x8"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 6,
+          "van_ban": "tg"
+        },
+        {
+          "truong": "huyen",
+          "start": 8,
+          "end": 10,
+          "van_ban": "bb"
+        },
+        {
+          "truong": "tinh",
+          "start": 12,
+          "end": 24,
+          "van_ban": "Tỉnh Bắc Kạn"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "xã_huyện_viết_tắt_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_0845",
+      "dau_vao": "x5, Xã Chiềng Khoong, Huyện Sông Mã, Tỉnh Sơn La",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x5"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 20,
+          "van_ban": "Xã Chiềng Khoong"
+        },
+        {
+          "truong": "huyen",
+          "start": 22,
+          "end": 35,
+          "van_ban": "Huyện Sông Mã"
+        },
+        {
+          "truong": "tinh",
+          "start": 37,
+          "end": 48,
+          "van_ban": "Tỉnh Sơn La"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1011",
+      "dau_vao": "1770, Duong Le Duan, Xa Tan Minh, Tinh Ninh Binh, 700000",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1770"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 19,
+          "van_ban": "Duong Le Duan"
+        },
+        {
+          "truong": "xa",
+          "start": 21,
+          "end": 32,
+          "van_ban": "Xa Tan Minh"
+        },
+        {
+          "truong": "tinh",
+          "start": 34,
+          "end": 48,
+          "van_ban": "Tinh Ninh Binh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1034",
+      "dau_vao": "2023 - Duong Dien Bien Phu - Tinh Dong Nai - Tòa nhà Sen Việt, tầng 8",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "2023"
+        },
+        {
+          "truong": "duong",
+          "start": 7,
+          "end": 26,
+          "van_ban": "Duong Dien Bien Phu"
+        },
+        {
+          "truong": "tinh",
+          "start": 29,
+          "end": 42,
+          "van_ban": "Tinh Dong Nai"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0862",
+      "dau_vao": "x6 - gb - tb - tn",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x6"
+        },
+        {
+          "truong": "xa",
+          "start": 5,
+          "end": 7,
+          "van_ban": "gb"
+        },
+        {
+          "truong": "huyen",
+          "start": 10,
+          "end": 12,
+          "van_ban": "tb"
+        },
+        {
+          "truong": "tinh",
+          "start": 15,
+          "end": 17,
+          "van_ban": "tn"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "các_viết_tắt_hành_chính_rất_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_1022",
+      "dau_vao": "Đường Nguyễn Thị Minh Khai - Tỉnh Phú Thọ - Xã Vĩnh Phú - 1891 - Tòa nhà Sen Việt, tầng 8",
+      "spans": [
+        {
+          "truong": "duong",
+          "start": 0,
+          "end": 26,
+          "van_ban": "Đường Nguyễn Thị Minh Khai"
+        },
+        {
+          "truong": "tinh",
+          "start": 29,
+          "end": 41,
+          "van_ban": "Tỉnh Phú Thọ"
+        },
+        {
+          "truong": "xa",
+          "start": 44,
+          "end": 55,
+          "van_ban": "Xã Vĩnh Phú"
+        },
+        {
+          "truong": "so_nha",
+          "start": 58,
+          "end": 62,
+          "van_ban": "1891"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0820",
+      "dau_vao": "x4, Xã Ia Dom, Huyện Ia H' Drai, Tỉnh Kon Tum",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x4"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 13,
+          "van_ban": "Xã Ia Dom"
+        },
+        {
+          "truong": "huyen",
+          "start": 15,
+          "end": 31,
+          "van_ban": "Huyện Ia H' Drai"
+        },
+        {
+          "truong": "tinh",
+          "start": 33,
+          "end": 45,
+          "van_ban": "Tỉnh Kon Tum"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0987",
+      "dau_vao": "Xã Xuân Lộc - Đường Trần Phú - 1506 - Tỉnh Đắk Lắk - Tòa nhà Sen Việt, tầng 8",
+      "spans": [
+        {
+          "truong": "xa",
+          "start": 0,
+          "end": 11,
+          "van_ban": "Xã Xuân Lộc"
+        },
+        {
+          "truong": "duong",
+          "start": 14,
+          "end": 28,
+          "van_ban": "Đường Trần Phú"
+        },
+        {
+          "truong": "so_nha",
+          "start": 31,
+          "end": 35,
+          "van_ban": "1506"
+        },
+        {
+          "truong": "tinh",
+          "start": 38,
+          "end": 50,
+          "van_ban": "Tỉnh Đắk Lắk"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0801",
+      "dau_vao": "x1, ep, kp, dl",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x1"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 6,
+          "van_ban": "ep"
+        },
+        {
+          "truong": "huyen",
+          "start": 8,
+          "end": 10,
+          "van_ban": "kp"
+        },
+        {
+          "truong": "tinh",
+          "start": 12,
+          "end": 14,
+          "van_ban": "dl"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "viết_tắt_hành_chính_không_đủ_chắc"
+    },
+    {
+      "id": "UNGVIEN_0960",
+      "dau_vao": "Đường Hoàng Diệu, 1209, Xã Ea Na, Tỉnh Đắk Lắk, 700000",
+      "spans": [
+        {
+          "truong": "duong",
+          "start": 0,
+          "end": 16,
+          "van_ban": "Đường Hoàng Diệu"
+        },
+        {
+          "truong": "so_nha",
+          "start": 18,
+          "end": 22,
+          "van_ban": "1209"
+        },
+        {
+          "truong": "xa",
+          "start": 24,
+          "end": 32,
+          "van_ban": "Xã Ea Na"
+        },
+        {
+          "truong": "tinh",
+          "start": 34,
+          "end": 46,
+          "van_ban": "Tỉnh Đắk Lắk"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1161",
+      "dau_vao": "Số 1917, Ngõ 29, Tổ 1, Đường Trần Phú, Xã Diên Điền, Tỉnh Khánh Hòa",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1917"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 29"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 1"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 37,
+          "van_ban": "Đường Trần Phú"
+        },
+        {
+          "truong": "xa",
+          "start": 39,
+          "end": 51,
+          "van_ban": "Xã Diên Điền"
+        },
+        {
+          "truong": "tinh",
+          "start": 53,
+          "end": 67,
+          "van_ban": "Tỉnh Khánh Hòa"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1200",
+      "dau_vao": "Số 2346, Ngõ 13, Tổ 10, Đường Phan Đình Phùng, Xã Tân Dương, Tỉnh Đồng Tháp",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 2346"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 13"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 22,
+          "van_ban": "Tổ 10"
+        },
+        {
+          "truong": "duong",
+          "start": 24,
+          "end": 45,
+          "van_ban": "Đường Phan Đình Phùng"
+        },
+        {
+          "truong": "xa",
+          "start": 47,
+          "end": 59,
+          "van_ban": "Xã Tân Dương"
+        },
+        {
+          "truong": "tinh",
+          "start": 61,
+          "end": 75,
+          "van_ban": "Tỉnh Đồng Tháp"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0884",
+      "dau_vao": "x4 - an - Huyện Quỳnh Phụ - Tỉnh Thái Bình",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x4"
+        },
+        {
+          "truong": "xa",
+          "start": 5,
+          "end": 7,
+          "van_ban": "an"
+        },
+        {
+          "truong": "huyen",
+          "start": 10,
+          "end": 25,
+          "van_ban": "Huyện Quỳnh Phụ"
+        },
+        {
+          "truong": "tinh",
+          "start": 28,
+          "end": 42,
+          "van_ban": "Tỉnh Thái Bình"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "xã_an_viết_tắt_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_0995",
+      "dau_vao": "1594, Tỉnh Quảng Ninh, Đường Lê Duẩn, Xã Quảng Hà, 700000",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "1594"
+        },
+        {
+          "truong": "tinh",
+          "start": 6,
+          "end": 21,
+          "van_ban": "Tỉnh Quảng Ninh"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 36,
+          "van_ban": "Đường Lê Duẩn"
+        },
+        {
+          "truong": "xa",
+          "start": 38,
+          "end": 49,
+          "van_ban": "Xã Quảng Hà"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1060",
+      "dau_vao": "Tỉnh Quảng Ngãi, Đường Lê Lợi, 2309, Phường Cẩm Thành, 700000",
+      "spans": [
+        {
+          "truong": "tinh",
+          "start": 0,
+          "end": 15,
+          "van_ban": "Tỉnh Quảng Ngãi"
+        },
+        {
+          "truong": "duong",
+          "start": 17,
+          "end": 29,
+          "van_ban": "Đường Lê Lợi"
+        },
+        {
+          "truong": "so_nha",
+          "start": 31,
+          "end": 35,
+          "van_ban": "2309"
+        },
+        {
+          "truong": "xa",
+          "start": 37,
+          "end": 53,
+          "van_ban": "Phường Cẩm Thành"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1146",
+      "dau_vao": "Số 1752, Ngõ 14, Tổ 6, Đường Đinh Tiên Hoàng, Xã Bó Sinh, Tỉnh Sơn La",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1752"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 14"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 6"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 44,
+          "van_ban": "Đường Đinh Tiên Hoàng"
+        },
+        {
+          "truong": "xa",
+          "start": 46,
+          "end": 56,
+          "van_ban": "Xã Bó Sinh"
+        },
+        {
+          "truong": "tinh",
+          "start": 58,
+          "end": 69,
+          "van_ban": "Tỉnh Sơn La"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1199",
+      "dau_vao": "Số 2335, Ngõ 12, Tổ 9, Đường Nguyễn Văn Cừ, Xã Hồ Vương, Tỉnh Thanh Hóa",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 2335"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 12"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 9"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 42,
+          "van_ban": "Đường Nguyễn Văn Cừ"
+        },
+        {
+          "truong": "xa",
+          "start": 44,
+          "end": 55,
+          "van_ban": "Xã Hồ Vương"
+        },
+        {
+          "truong": "tinh",
+          "start": 57,
+          "end": 71,
+          "van_ban": "Tỉnh Thanh Hóa"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0851",
+      "dau_vao": "x3, ky, kc, gl",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x3"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 6,
+          "van_ban": "ky"
+        },
+        {
+          "truong": "huyen",
+          "start": 8,
+          "end": 10,
+          "van_ban": "kc"
+        },
+        {
+          "truong": "tinh",
+          "start": 12,
+          "end": 14,
+          "van_ban": "gl"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "viết_tắt_hành_chính_không_đủ_chắc"
+    },
+    {
+      "id": "UNGVIEN_0813",
+      "dau_vao": "x5, ty, sd, Tỉnh Tuyên Quang",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x5"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 6,
+          "van_ban": "ty"
+        },
+        {
+          "truong": "huyen",
+          "start": 8,
+          "end": 10,
+          "van_ban": "sd"
+        },
+        {
+          "truong": "tinh",
+          "start": 12,
+          "end": 28,
+          "van_ban": "Tỉnh Tuyên Quang"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "xã_huyện_viết_tắt_không_đủ_chắc"
+    },
+    {
+      "id": "UNGVIEN_1152",
+      "dau_vao": "Số 1818, Ngõ 20, Tổ 2, Đường Phan Đình Phùng, Xã Tân Văn, Tỉnh Lạng Sơn",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1818"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 20"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 2"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 44,
+          "van_ban": "Đường Phan Đình Phùng"
+        },
+        {
+          "truong": "xa",
+          "start": 46,
+          "end": 56,
+          "van_ban": "Xã Tân Văn"
+        },
+        {
+          "truong": "tinh",
+          "start": 58,
+          "end": 71,
+          "van_ban": "Tỉnh Lạng Sơn"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0808",
+      "dau_vao": "x8, md, tl, Tỉnh Hòa Bình",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x8"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 6,
+          "van_ban": "md"
+        },
+        {
+          "truong": "huyen",
+          "start": 8,
+          "end": 10,
+          "van_ban": "tl"
+        },
+        {
+          "truong": "tinh",
+          "start": 12,
+          "end": 25,
+          "van_ban": "Tỉnh Hòa Bình"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "viết_tắt_xã_huyện_mơ_hồ"
+    },
+    {
+      "id": "UNGVIEN_0970",
+      "dau_vao": "Đường Điện Biên Phủ, 1319, Phường Kon Tum, Tỉnh Quảng Ngãi, 700000",
+      "spans": [
+        {
+          "truong": "duong",
+          "start": 0,
+          "end": 19,
+          "van_ban": "Đường Điện Biên Phủ"
+        },
+        {
+          "truong": "so_nha",
+          "start": 21,
+          "end": 25,
+          "van_ban": "1319"
+        },
+        {
+          "truong": "xa",
+          "start": 27,
+          "end": 41,
+          "van_ban": "Phường Kon Tum"
+        },
+        {
+          "truong": "tinh",
+          "start": 43,
+          "end": 58,
+          "van_ban": "Tỉnh Quảng Ngãi"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1117",
+      "dau_vao": "Số 1433, Ngõ 40, Tổ 7, Đường Phạm Văn Đồng, Xã Trà Đốc, Thành phố Đà Nẵng",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1433"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 40"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 7"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 42,
+          "van_ban": "Đường Phạm Văn Đồng"
+        },
+        {
+          "truong": "xa",
+          "start": 44,
+          "end": 54,
+          "van_ban": "Xã Trà Đốc"
+        },
+        {
+          "truong": "tinh",
+          "start": 56,
+          "end": 73,
+          "van_ban": "Thành phố Đà Nẵng"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1055",
+      "dau_vao": "Tỉnh Đồng Tháp, Phường Thới Sơn, Đường Phạm Văn Đồng, 2254, 700000",
+      "spans": [
+        {
+          "truong": "tinh",
+          "start": 0,
+          "end": 14,
+          "van_ban": "Tỉnh Đồng Tháp"
+        },
+        {
+          "truong": "xa",
+          "start": 16,
+          "end": 31,
+          "van_ban": "Phường Thới Sơn"
+        },
+        {
+          "truong": "duong",
+          "start": 33,
+          "end": 52,
+          "van_ban": "Đường Phạm Văn Đồng"
+        },
+        {
+          "truong": "so_nha",
+          "start": 54,
+          "end": 58,
+          "van_ban": "2254"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0900",
+      "dau_vao": "x4, Xã Chiềng Sàng, Huyện Yên Châu, Tỉnh Sơn La",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 2,
+          "van_ban": "x4"
+        },
+        {
+          "truong": "xa",
+          "start": 4,
+          "end": 18,
+          "van_ban": "Xã Chiềng Sàng"
+        },
+        {
+          "truong": "huyen",
+          "start": 20,
+          "end": 34,
+          "van_ban": "Huyện Yên Châu"
+        },
+        {
+          "truong": "tinh",
+          "start": 36,
+          "end": 47,
+          "van_ban": "Tỉnh Sơn La"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1154",
+      "dau_vao": "Số 1840, Ngõ 22, Tổ 4, Đường Lê Lợi, Xã Đức Lập, Tỉnh Lâm Đồng",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 1840"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 22"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 4"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 35,
+          "van_ban": "Đường Lê Lợi"
+        },
+        {
+          "truong": "xa",
+          "start": 37,
+          "end": 47,
+          "van_ban": "Xã Đức Lập"
+        },
+        {
+          "truong": "tinh",
+          "start": 49,
+          "end": 62,
+          "van_ban": "Tỉnh Lâm Đồng"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_1181",
+      "dau_vao": "Số 2137, Ngõ 49, Tổ 1, Đường Phạm Văn Đồng, Xã Vĩnh Hoàng, Tỉnh Quảng Trị",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "Số 2137"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 9,
+          "end": 15,
+          "van_ban": "Ngõ 49"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 17,
+          "end": 21,
+          "van_ban": "Tổ 1"
+        },
+        {
+          "truong": "duong",
+          "start": 23,
+          "end": 42,
+          "van_ban": "Đường Phạm Văn Đồng"
+        },
+        {
+          "truong": "xa",
+          "start": 44,
+          "end": 57,
+          "van_ban": "Xã Vĩnh Hoàng"
+        },
+        {
+          "truong": "tinh",
+          "start": 59,
+          "end": 73,
+          "van_ban": "Tỉnh Quảng Trị"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    }
+  ]
+}

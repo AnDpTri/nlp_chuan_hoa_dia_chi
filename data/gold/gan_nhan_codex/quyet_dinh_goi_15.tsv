@@ -1,0 +1,50 @@
+UNGVIEN_0701	so_nha~8~1;duong~Nguyễn Trãi~1	
+UNGVIEN_0702	duong~Đường Phạm Hùng~1;xa~Mỹ Đình 1~1;huyen~Nam Từ Liêm~1;tinh~Hà Nội~1	
+UNGVIEN_0703	so_nha~04~1;duong~Đường An Nhơn 1~1;xa~An Hải Bắc~1;huyen~Sơn Trà~1;tinh~Đà Nẵng~1	
+UNGVIEN_0704	so_nha~20~1;duong~Phố Hàng Ngang~1;xa~Phường Hoàn Kiếm~1;tinh~Hà Nội~1;tinh~Thành phố Hà Nội~1	tỉnh_lặp
+UNGVIEN_0705	duong~Phan Chu Trinh~1;xa~Thắng Lợi~1;tinh~Kon Tum~1	Kon_Tum_có_thể_thành_phố_và_tỉnh
+UNGVIEN_0706	duong~Đường Nguyễn Văn Trị~1;xa~Phường Hòa Bình~1;huyen~Thành phố Biên Hòa~1;tinh~Tỉnh Đồng Nai~1	
+UNGVIEN_0707	so_nha~12~1;duong~Mai Chí Thọ~1;xa~An Lợi Đông~1;huyen~Quận 2~1	
+UNGVIEN_0708	so_nha~392~1;duong~ĐƯỜNG Cây Trâm~1;xa~PHƯỜNG 9~1;huyen~QUẬN GÒ VẤP~1	
+UNGVIEN_0709	so_nha~84~1;duong~Bến Nôm~1;xa~Rạch Dừa~1	Bến_Nôm_có_thể_là_địa_danh_hoặc_đường
+UNGVIEN_0710	so_nha~1729~1;duong~QL 20~1	thọ_lâm_3_có_thể_là_thôn_hoặc_đường
+UNGVIEN_0711	thon_xom~thôn 6~1;xa~xã Nam Dong~1;huyen~huyện Cư Jut~1	
+UNGVIEN_0712	so_nha~41/19~1;duong~Nguyễn Oanh~1;xa~Phường 10~1;huyen~Gò Vấp~1;tinh~Ho Chi Minh City~1;tinh~Hồ Chí Minh~1	số_nhà_gạch_chéo;tỉnh_lặp
+UNGVIEN_0713	so_nha~393~1;duong~Thống nhất mới~1;xa~Phường 8~1;huyen~Thành phố Vũng Tàu~1	
+UNGVIEN_0714	so_nha~53~1;duong~Trưng Trắc~1;xa~Phường 1~1;huyen~Mỹ Tho~1;tinh~Tiền Giang~1	
+UNGVIEN_0715	so_nha~số 6~1;duong~đường số 23~1	
+UNGVIEN_0716	so_nha~55A~1;duong~Cao Thắng~1	
+UNGVIEN_0717	so_nha~104~1;duong~Đường Ngọc Thụy~1;xa~Ngọc Thụy~2;huyen~quận Long Biên~1;tinh~thành phố Hà Nội~1	tên_đường_trùng_phường
+UNGVIEN_0718	so_nha~4S~1;duong~Đường số 17~1	
+UNGVIEN_0719	so_nha~158~1;duong~Lê Duẩn~1	đối_diện_BV_là_mô_tả_chỉ_đường
+UNGVIEN_0720	so_nha~3~1;duong~Huỳnh Ngọc Hay~1	
+UNGVIEN_0721	duong~Trưng Nữ Vương~1	
+UNGVIEN_0722	so_nha~13/18~1;ngo_ngach_hem~Hẻm 13~1;duong~Tân Hòa Đông~1;xa~Phường 13~1;huyen~Quận 6~1;tinh~Thành phố Hồ Chí Minh~1	số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0723	duong~Đường An Trai~1	
+UNGVIEN_0724	so_nha~40~1;ngo_ngach_hem~Ngõ Huyện~1	tên_Ngõ_Huyện_có_thể_là_tên_phố
+UNGVIEN_0725	so_nha~125~1;duong~Lương Định Của~1;xa~Tân Hoà~1;huyen~Thành phố Dĩ An~1;huyen~Dĩ An~2;tinh~Bình Dương~1	huyện_lặp
+UNGVIEN_0726	so_nha~242~1;duong~Minh Phụng~1;huyen~6~1;tinh~Ho Chi Minh City~1	6_không_rõ_cấp
+UNGVIEN_0727	so_nha~121~1;duong~Tỉnh Lộ 60~1	
+UNGVIEN_0728	so_nha~47~1;duong~Đường NB8~1	
+UNGVIEN_0729	so_nha~17~1;duong~Trần Tống~1	
+UNGVIEN_0730	duong~D13~1	my_phuoc_1_có_thể_khu_đô_thị_không_rõ_cấp
+UNGVIEN_0731	duong~QL 37B~1;xa~TT Gôi~1;thon_xom~thôn Văn Côi~1	viết_tắt_QL_TT_chưa_chốt
+UNGVIEN_0732	duong~đường Nguyễn Hữu Thọ~1;xa~xã Phước Kiểng~1;huyen~huyện Nhà Bè~1;tinh~TP HCM~1	căn_hộ_tầng_mã_tòa_ngoài_schema
+UNGVIEN_0733	so_nha~09~1;duong~Phan Xi Pang Str.~1	địa_chỉ_tiếng_Anh
+UNGVIEN_0734	thon_xom~Thôn 5~1;xa~Bom Bo~1;huyen~Bù Đăng~1;tinh~Bình Phước~1	
+UNGVIEN_0735	duong~Đường Nguyễn Trường Tộ~1	
+UNGVIEN_0736	so_nha~A2-05~1;duong~Đường B~1;xa~An Binh~1;huyen~Dĩ An~1;tinh~Bình Dương~1	A2_05_có_thể_mã_lô_căn_hộ
+UNGVIEN_0737	so_nha~207~1;duong~Đường Nguyễn Trãi~1;xa~Phường Võ Cường~1;huyen~Thành phố Bắc Ninh~1;tinh~Bắc Ninh~2	
+UNGVIEN_0738	so_nha~170~1;duong~Đường La Thành~1;xa~Ô Chợ Dừa~1;huyen~Đống Đa~1;tinh~Hà Nội~1	
+UNGVIEN_0739	so_nha~85~1;duong~Đường Chiến Lược~1	
+UNGVIEN_0740	so_nha~14E~1;duong~Đường Quốc Hương~1;xa~Phường An Khánh~1;tinh~Ho Chi Minh CIty~1	
+UNGVIEN_0741	so_nha~35~1;duong~Đường Hoàng Hoa Thám~1;xa~Phường Võ Cường~1;huyen~Thành phố Bắc Ninh~1;tinh~Bắc Ninh~2;tinh~Bac Ninh~1	tỉnh_lặp
+UNGVIEN_0742	so_nha~27B~1;duong~Nguyễn Ðình Chiểu~1;xa~Đa kao~1;huyen~1~1;tinh~Ho Chi Minh City~1	tầng_trệt_ngoài_schema;1_không_rõ_quận
+UNGVIEN_0743	ngo_ngach_hem~Ngõ 323~1;duong~Xuân Đỉnh~1;huyen~Quận Bắc Từ Liêm~1;tinh~Thành phố Hà Nội~1	
+UNGVIEN_0744	so_nha~136~1;duong~Cầu Rạch Lăng~1;huyen~tân uyên~1	đầu_vào_dính_và_cầu_địa_điểm_không_rõ
+UNGVIEN_0745	so_nha~60~1;duong~Đường số 9~1;xa~Linh Tay~1;huyen~Thành phố Thủ Đức~1	
+UNGVIEN_0746	so_nha~149~1;duong~Phố Hồ Đắc Di~1	
+UNGVIEN_0747	so_nha~170~1;duong~Đường Nguyễn Văn Hưởng~1;xa~Thảo Điền~1;huyen~Thủ Đức~1;tinh~Hồ Chí Minh~1	
+UNGVIEN_0748	so_nha~347~1;duong~Hoàng Sa~1;xa~Tân Định~1;huyen~Quận 1~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0749	so_nha~1~1;duong~Đường D1~1;xa~Phước Long B~1;huyen~Thành phố Thủ Đức~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0750	so_nha~15C~1;ngo_ngach_hem~Ngõ Bà Triệu~1;xa~Lê Đại Hành~1;huyen~Hai Bà Trưng~1;tinh~Hà Nội~1	ngõ_có_tên_riêng

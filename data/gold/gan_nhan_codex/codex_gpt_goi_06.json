@@ -1,0 +1,1442 @@
+{
+  "bo_gan": "codex_gpt",
+  "nhan": [
+    {
+      "id": "UNGVIEN_0251",
+      "dau_vao": "63, Đường Chu Văn An, Phường 1, Quận 6, Hồ Chí Minh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "63"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 20,
+          "van_ban": "Đường Chu Văn An"
+        },
+        {
+          "truong": "xa",
+          "start": 22,
+          "end": 30,
+          "van_ban": "Phường 1"
+        },
+        {
+          "truong": "huyen",
+          "start": 32,
+          "end": 38,
+          "van_ban": "Quận 6"
+        },
+        {
+          "truong": "tinh",
+          "start": 40,
+          "end": 51,
+          "van_ban": "Hồ Chí Minh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0252",
+      "dau_vao": "Đường Lê Quang Đạo, Phú Đô, Nam Từ Liêm, Hà Nội",
+      "spans": [
+        {
+          "truong": "duong",
+          "start": 0,
+          "end": 18,
+          "van_ban": "Đường Lê Quang Đạo"
+        },
+        {
+          "truong": "xa",
+          "start": 20,
+          "end": 26,
+          "van_ban": "Phú Đô"
+        },
+        {
+          "truong": "huyen",
+          "start": 28,
+          "end": 39,
+          "van_ban": "Nam Từ Liêm"
+        },
+        {
+          "truong": "tinh",
+          "start": 41,
+          "end": 47,
+          "van_ban": "Hà Nội"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0253",
+      "dau_vao": "Phú Thái, Tân Thịnh, Thái Nguyên",
+      "spans": [
+        {
+          "truong": "xa",
+          "start": 0,
+          "end": 8,
+          "van_ban": "Phú Thái"
+        },
+        {
+          "truong": "xa",
+          "start": 10,
+          "end": 19,
+          "van_ban": "Tân Thịnh"
+        },
+        {
+          "truong": "tinh",
+          "start": 21,
+          "end": 32,
+          "van_ban": "Thái Nguyên"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "hai_địa_danh_không_rõ_vai_trò_xã_huyện"
+    },
+    {
+      "id": "UNGVIEN_0254",
+      "dau_vao": "431, Đường Kênh Tân Hóa, Phú Trung, Tân Phú, Ho Chi Minh City, Hồ Chí Minh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "431"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 23,
+          "van_ban": "Đường Kênh Tân Hóa"
+        },
+        {
+          "truong": "xa",
+          "start": 25,
+          "end": 34,
+          "van_ban": "Phú Trung"
+        },
+        {
+          "truong": "huyen",
+          "start": 36,
+          "end": 43,
+          "van_ban": "Tân Phú"
+        },
+        {
+          "truong": "tinh",
+          "start": 45,
+          "end": 61,
+          "van_ban": "Ho Chi Minh City"
+        },
+        {
+          "truong": "tinh",
+          "start": 63,
+          "end": 74,
+          "van_ban": "Hồ Chí Minh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "tỉnh_lặp"
+    },
+    {
+      "id": "UNGVIEN_0255",
+      "dau_vao": "3a, Thac Bac",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "3a"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 12,
+          "van_ban": "Thac Bac"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "Thac_Bac_có_thể_tên_thác_không_phải_đường"
+    },
+    {
+      "id": "UNGVIEN_0256",
+      "dau_vao": "69, Đường số 15",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "69"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 15,
+          "van_ban": "Đường số 15"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0257",
+      "dau_vao": "DT851, Tân Lộc, Thốt Nốt, Can Tho",
+      "spans": [
+        {
+          "truong": "duong",
+          "start": 0,
+          "end": 5,
+          "van_ban": "DT851"
+        },
+        {
+          "truong": "xa",
+          "start": 7,
+          "end": 14,
+          "van_ban": "Tân Lộc"
+        },
+        {
+          "truong": "huyen",
+          "start": 16,
+          "end": 24,
+          "van_ban": "Thốt Nốt"
+        },
+        {
+          "truong": "tinh",
+          "start": 26,
+          "end": 33,
+          "van_ban": "Can Tho"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "ĐT_viết_tắt_chưa_chốt"
+    },
+    {
+      "id": "UNGVIEN_0258",
+      "dau_vao": "b8/8, Tỉnh lộ 746",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "b8/8"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 17,
+          "van_ban": "Tỉnh lộ 746"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_nhà_gạch_chéo_chưa_chốt"
+    },
+    {
+      "id": "UNGVIEN_0259",
+      "dau_vao": "123 Nguyễn Văn Trỗi, phường 12, Hồ Chí Minh, quận Phú Nhuận, Việt Nam",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "123"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 19,
+          "van_ban": "Nguyễn Văn Trỗi"
+        },
+        {
+          "truong": "xa",
+          "start": 21,
+          "end": 30,
+          "van_ban": "phường 12"
+        },
+        {
+          "truong": "tinh",
+          "start": 32,
+          "end": 43,
+          "van_ban": "Hồ Chí Minh"
+        },
+        {
+          "truong": "huyen",
+          "start": 45,
+          "end": 59,
+          "van_ban": "quận Phú Nhuận"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0260",
+      "dau_vao": "92/7, Thi Sách",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "92/7"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 14,
+          "van_ban": "Thi Sách"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_nhà_gạch_chéo_chưa_chốt"
+    },
+    {
+      "id": "UNGVIEN_0261",
+      "dau_vao": "thôn hiệp tiến xã quảng hiệp",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 0,
+          "end": 14,
+          "van_ban": "thôn hiệp tiến"
+        },
+        {
+          "truong": "xa",
+          "start": 15,
+          "end": 28,
+          "van_ban": "xã quảng hiệp"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0262",
+      "dau_vao": "9, Phố Đào Duy Anh, Phương Mai, Đống Đa, Hà Nội",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 1,
+          "van_ban": "9"
+        },
+        {
+          "truong": "duong",
+          "start": 3,
+          "end": 18,
+          "van_ban": "Phố Đào Duy Anh"
+        },
+        {
+          "truong": "xa",
+          "start": 20,
+          "end": 30,
+          "van_ban": "Phương Mai"
+        },
+        {
+          "truong": "huyen",
+          "start": 32,
+          "end": 39,
+          "van_ban": "Đống Đa"
+        },
+        {
+          "truong": "tinh",
+          "start": 41,
+          "end": 47,
+          "van_ban": "Hà Nội"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0263",
+      "dau_vao": "14/15B, Hiệp Thành 43",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 6,
+          "van_ban": "14/15B"
+        },
+        {
+          "truong": "duong",
+          "start": 8,
+          "end": 21,
+          "van_ban": "Hiệp Thành 43"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_nhà_gạch_chéo_và_đường_số_chưa_chốt"
+    },
+    {
+      "id": "UNGVIEN_0264",
+      "dau_vao": "001, Phố Na Cồ",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "001"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 14,
+          "van_ban": "Phố Na Cồ"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0265",
+      "dau_vao": "17, Bạch Mai, Cầu Dền, Hai Bà Trưng, Hà Nội",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "17"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 12,
+          "van_ban": "Bạch Mai"
+        },
+        {
+          "truong": "xa",
+          "start": 14,
+          "end": 21,
+          "van_ban": "Cầu Dền"
+        },
+        {
+          "truong": "huyen",
+          "start": 23,
+          "end": 35,
+          "van_ban": "Hai Bà Trưng"
+        },
+        {
+          "truong": "tinh",
+          "start": 37,
+          "end": 43,
+          "van_ban": "Hà Nội"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0266",
+      "dau_vao": "526/15A, Đường số 34",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 7,
+          "van_ban": "526/15A"
+        },
+        {
+          "truong": "duong",
+          "start": 9,
+          "end": 20,
+          "van_ban": "Đường số 34"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_nhà_gạch_chéo_chưa_chốt"
+    },
+    {
+      "id": "UNGVIEN_0267",
+      "dau_vao": "10, Phố Chùa Hà",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "10"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 15,
+          "van_ban": "Phố Chùa Hà"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0268",
+      "dau_vao": "17, Phố Nguyễn Đình Trạch, Phường Phượng Mao, Thị xã Quế Võ, Bắc Ninh, Bac Ninh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "17"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 25,
+          "van_ban": "Phố Nguyễn Đình Trạch"
+        },
+        {
+          "truong": "xa",
+          "start": 27,
+          "end": 44,
+          "van_ban": "Phường Phượng Mao"
+        },
+        {
+          "truong": "huyen",
+          "start": 46,
+          "end": 59,
+          "van_ban": "Thị xã Quế Võ"
+        },
+        {
+          "truong": "tinh",
+          "start": 61,
+          "end": 69,
+          "van_ban": "Bắc Ninh"
+        },
+        {
+          "truong": "tinh",
+          "start": 71,
+          "end": 79,
+          "van_ban": "Bac Ninh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "tỉnh_lặp"
+    },
+    {
+      "id": "UNGVIEN_0269",
+      "dau_vao": "133, Nguyễn Thái Bình, 4, Tân Bình, Thành phố Hồ Chí Minh, Ho chi minh city",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "133"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 21,
+          "van_ban": "Nguyễn Thái Bình"
+        },
+        {
+          "truong": "xa",
+          "start": 23,
+          "end": 24,
+          "van_ban": "4"
+        },
+        {
+          "truong": "huyen",
+          "start": 26,
+          "end": 34,
+          "van_ban": "Tân Bình"
+        },
+        {
+          "truong": "tinh",
+          "start": 36,
+          "end": 57,
+          "van_ban": "Thành phố Hồ Chí Minh"
+        },
+        {
+          "truong": "tinh",
+          "start": 59,
+          "end": 75,
+          "van_ban": "Ho chi minh city"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_4_thiếu_từ_phường;tỉnh_lặp"
+    },
+    {
+      "id": "UNGVIEN_0270",
+      "dau_vao": "Nguyễn Văn Linh, Phong Phú, Bình Chánh, Hồ Chí Minh",
+      "spans": [
+        {
+          "truong": "duong",
+          "start": 0,
+          "end": 15,
+          "van_ban": "Nguyễn Văn Linh"
+        },
+        {
+          "truong": "xa",
+          "start": 17,
+          "end": 26,
+          "van_ban": "Phong Phú"
+        },
+        {
+          "truong": "huyen",
+          "start": 28,
+          "end": 38,
+          "van_ban": "Bình Chánh"
+        },
+        {
+          "truong": "tinh",
+          "start": 40,
+          "end": 51,
+          "van_ban": "Hồ Chí Minh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0271",
+      "dau_vao": "258, Lê Thánh Tôn, Tân Định, Ho Chi Minh City",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "258"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 17,
+          "van_ban": "Lê Thánh Tôn"
+        },
+        {
+          "truong": "xa",
+          "start": 19,
+          "end": 27,
+          "van_ban": "Tân Định"
+        },
+        {
+          "truong": "tinh",
+          "start": 29,
+          "end": 45,
+          "van_ban": "Ho Chi Minh City"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0272",
+      "dau_vao": "11, Đường Fan Si Pan",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "11"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 20,
+          "van_ban": "Đường Fan Si Pan"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0273",
+      "dau_vao": "36, Đường Âu Cơ, Phường Kinh Bắc, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "36"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 15,
+          "van_ban": "Đường Âu Cơ"
+        },
+        {
+          "truong": "xa",
+          "start": 17,
+          "end": 32,
+          "van_ban": "Phường Kinh Bắc"
+        },
+        {
+          "truong": "huyen",
+          "start": 34,
+          "end": 52,
+          "van_ban": "Thành phố Bắc Ninh"
+        },
+        {
+          "truong": "tinh",
+          "start": 54,
+          "end": 62,
+          "van_ban": "Bắc Ninh"
+        },
+        {
+          "truong": "tinh",
+          "start": 64,
+          "end": 72,
+          "van_ban": "Bac Ninh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "tỉnh_lặp"
+    },
+    {
+      "id": "UNGVIEN_0274",
+      "dau_vao": "501, Nguyễn Trãi, Xã Hàm Thuận Nam, Tỉnh Lâm Đồng",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "501"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 16,
+          "van_ban": "Nguyễn Trãi"
+        },
+        {
+          "truong": "xa",
+          "start": 18,
+          "end": 34,
+          "van_ban": "Xã Hàm Thuận Nam"
+        },
+        {
+          "truong": "tinh",
+          "start": 36,
+          "end": 49,
+          "van_ban": "Tỉnh Lâm Đồng"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0275",
+      "dau_vao": "721, Đường Yên Ninh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "721"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 19,
+          "van_ban": "Đường Yên Ninh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0276",
+      "dau_vao": "32, Phố Hoàng Ngân, Phường Tiền Ninh Vệ, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "32"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 18,
+          "van_ban": "Phố Hoàng Ngân"
+        },
+        {
+          "truong": "xa",
+          "start": 20,
+          "end": 39,
+          "van_ban": "Phường Tiền Ninh Vệ"
+        },
+        {
+          "truong": "huyen",
+          "start": 41,
+          "end": 59,
+          "van_ban": "Thành phố Bắc Ninh"
+        },
+        {
+          "truong": "tinh",
+          "start": 61,
+          "end": 69,
+          "van_ban": "Bắc Ninh"
+        },
+        {
+          "truong": "tinh",
+          "start": 71,
+          "end": 79,
+          "van_ban": "Bac Ninh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "tỉnh_lặp"
+    },
+    {
+      "id": "UNGVIEN_0277",
+      "dau_vao": "132A, Nguyễn Thái Học, District 1, Ho Chi Minh City",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 4,
+          "van_ban": "132A"
+        },
+        {
+          "truong": "duong",
+          "start": 6,
+          "end": 21,
+          "van_ban": "Nguyễn Thái Học"
+        },
+        {
+          "truong": "huyen",
+          "start": 23,
+          "end": 33,
+          "van_ban": "District 1"
+        },
+        {
+          "truong": "tinh",
+          "start": 35,
+          "end": 51,
+          "van_ban": "Ho Chi Minh City"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0278",
+      "dau_vao": "227, Bắc Sơn",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "227"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 12,
+          "van_ban": "Bắc Sơn"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0279",
+      "dau_vao": "387, Lê Văn Sỹ, Phường 2, Tân Bình, Hồ Chí Minh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "387"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 14,
+          "van_ban": "Lê Văn Sỹ"
+        },
+        {
+          "truong": "xa",
+          "start": 16,
+          "end": 24,
+          "van_ban": "Phường 2"
+        },
+        {
+          "truong": "huyen",
+          "start": 26,
+          "end": 34,
+          "van_ban": "Tân Bình"
+        },
+        {
+          "truong": "tinh",
+          "start": 36,
+          "end": 47,
+          "van_ban": "Hồ Chí Minh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0280",
+      "dau_vao": "100, Phố Văn Hội, Đức Thắng, Bắc Từ Liêm, Phường Đông Ngạc, Hà Nội",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "100"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 16,
+          "van_ban": "Phố Văn Hội"
+        },
+        {
+          "truong": "xa",
+          "start": 18,
+          "end": 27,
+          "van_ban": "Đức Thắng"
+        },
+        {
+          "truong": "huyen",
+          "start": 29,
+          "end": 40,
+          "van_ban": "Bắc Từ Liêm"
+        },
+        {
+          "truong": "xa",
+          "start": 42,
+          "end": 58,
+          "van_ban": "Phường Đông Ngạc"
+        },
+        {
+          "truong": "tinh",
+          "start": 60,
+          "end": 66,
+          "van_ban": "Hà Nội"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "hai_phường_khác_tên_mâu_thuẫn"
+    },
+    {
+      "id": "UNGVIEN_0281",
+      "dau_vao": "112 -112A, Đường Đinh Tiên Hoàng, Phường 8, Thành phố Vĩnh Long, Vĩnh Long",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 9,
+          "van_ban": "112 -112A"
+        },
+        {
+          "truong": "duong",
+          "start": 11,
+          "end": 32,
+          "van_ban": "Đường Đinh Tiên Hoàng"
+        },
+        {
+          "truong": "xa",
+          "start": 34,
+          "end": 42,
+          "van_ban": "Phường 8"
+        },
+        {
+          "truong": "huyen",
+          "start": 44,
+          "end": 63,
+          "van_ban": "Thành phố Vĩnh Long"
+        },
+        {
+          "truong": "tinh",
+          "start": 65,
+          "end": 74,
+          "van_ban": "Vĩnh Long"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_nhà_dạng_khoảng"
+    },
+    {
+      "id": "UNGVIEN_0282",
+      "dau_vao": "35, Phố Tân Ấp",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "35"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 14,
+          "van_ban": "Phố Tân Ấp"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0283",
+      "dau_vao": "36, Nơ Trang Long",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "36"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 17,
+          "van_ban": "Nơ Trang Long"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0284",
+      "dau_vao": "Lô ĐMKT 1, Khu Ngoại giao đoàn",
+      "spans": [],
+      "abstain": true,
+      "ly_do_abstain": "Lô_ĐMKT_1_và_khu_ngoại_giao_đoàn_không_có_trường_phù_hợp"
+    },
+    {
+      "id": "UNGVIEN_0285",
+      "dau_vao": "85, 30 Tháng 4, Xuân Khánh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "85"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 14,
+          "van_ban": "30 Tháng 4"
+        },
+        {
+          "truong": "xa",
+          "start": 16,
+          "end": 26,
+          "van_ban": "Xuân Khánh"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0286",
+      "dau_vao": "125, Đường Đông Mỹ, huyện Thanh Trì, thành phố Hà Nội",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "125"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 18,
+          "van_ban": "Đường Đông Mỹ"
+        },
+        {
+          "truong": "huyen",
+          "start": 20,
+          "end": 35,
+          "van_ban": "huyện Thanh Trì"
+        },
+        {
+          "truong": "tinh",
+          "start": 37,
+          "end": 53,
+          "van_ban": "thành phố Hà Nội"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0287",
+      "dau_vao": "9A, Trương Tùng Quân, KP5, Phường 3, Thành phố Tây Ninh, Tây Ninh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "9A"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 20,
+          "van_ban": "Trương Tùng Quân"
+        },
+        {
+          "truong": "thon_xom",
+          "start": 22,
+          "end": 25,
+          "van_ban": "KP5"
+        },
+        {
+          "truong": "xa",
+          "start": 27,
+          "end": 35,
+          "van_ban": "Phường 3"
+        },
+        {
+          "truong": "huyen",
+          "start": 37,
+          "end": 55,
+          "van_ban": "Thành phố Tây Ninh"
+        },
+        {
+          "truong": "tinh",
+          "start": 57,
+          "end": 65,
+          "van_ban": "Tây Ninh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "khu_phố_viết_tắt"
+    },
+    {
+      "id": "UNGVIEN_0288",
+      "dau_vao": "168, Đường Cách Mạng Tháng Tám, Phường 5, Tân Bình, Ho Chi Minh City",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "168"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 30,
+          "van_ban": "Đường Cách Mạng Tháng Tám"
+        },
+        {
+          "truong": "xa",
+          "start": 32,
+          "end": 40,
+          "van_ban": "Phường 5"
+        },
+        {
+          "truong": "huyen",
+          "start": 42,
+          "end": 50,
+          "van_ban": "Tân Bình"
+        },
+        {
+          "truong": "tinh",
+          "start": 52,
+          "end": 68,
+          "van_ban": "Ho Chi Minh City"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0289",
+      "dau_vao": "257, 27 Tháng 4",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "257"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 15,
+          "van_ban": "27 Tháng 4"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0290",
+      "dau_vao": "360, Đường Võ Nguyên Giáp, Ngũ Hành Sơn, Da Nang",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "360"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 25,
+          "van_ban": "Đường Võ Nguyên Giáp"
+        },
+        {
+          "truong": "huyen",
+          "start": 27,
+          "end": 39,
+          "van_ban": "Ngũ Hành Sơn"
+        },
+        {
+          "truong": "tinh",
+          "start": 41,
+          "end": 48,
+          "van_ban": "Da Nang"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0291",
+      "dau_vao": "58/45, Hẻm 58 Nguyễn Minh Hoàng, Phường 12, Tân Bình, Ho Chi Minh City, Hồ Chí Minh",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 5,
+          "van_ban": "58/45"
+        },
+        {
+          "truong": "ngo_ngach_hem",
+          "start": 7,
+          "end": 13,
+          "van_ban": "Hẻm 58"
+        },
+        {
+          "truong": "duong",
+          "start": 14,
+          "end": 31,
+          "van_ban": "Nguyễn Minh Hoàng"
+        },
+        {
+          "truong": "xa",
+          "start": 33,
+          "end": 42,
+          "van_ban": "Phường 12"
+        },
+        {
+          "truong": "huyen",
+          "start": 44,
+          "end": 52,
+          "van_ban": "Tân Bình"
+        },
+        {
+          "truong": "tinh",
+          "start": 54,
+          "end": 70,
+          "van_ban": "Ho Chi Minh City"
+        },
+        {
+          "truong": "tinh",
+          "start": 72,
+          "end": 83,
+          "van_ban": "Hồ Chí Minh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "số_nhà_gạch_chéo_chưa_chốt;tỉnh_lặp"
+    },
+    {
+      "id": "UNGVIEN_0292",
+      "dau_vao": "57, Bến Nghé",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "57"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 12,
+          "van_ban": "Bến Nghé"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "Bến_Nghé_có_thể_là_phường"
+    },
+    {
+      "id": "UNGVIEN_0293",
+      "dau_vao": "Phong Nha, Boat Station, Thon Ha Loi, Son Trach, Bo Trach, Quang Binh",
+      "spans": [
+        {
+          "truong": "thon_xom",
+          "start": 25,
+          "end": 36,
+          "van_ban": "Thon Ha Loi"
+        },
+        {
+          "truong": "xa",
+          "start": 38,
+          "end": 47,
+          "van_ban": "Son Trach"
+        },
+        {
+          "truong": "huyen",
+          "start": 49,
+          "end": 57,
+          "van_ban": "Bo Trach"
+        },
+        {
+          "truong": "tinh",
+          "start": 59,
+          "end": 69,
+          "van_ban": "Quang Binh"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "Boat_Station_POI_không_thuộc_schema;Phong_Nha_có_thể_tên_đường_hoặc_khu"
+    },
+    {
+      "id": "UNGVIEN_0294",
+      "dau_vao": "27, Đường Hoàng Phan Thái",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "27"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 25,
+          "van_ban": "Đường Hoàng Phan Thái"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0295",
+      "dau_vao": "36, 21°03′26.89″N 105°49′56.29″E",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "36"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "tọa_độ_không_phải_trường_địa_chỉ"
+    },
+    {
+      "id": "UNGVIEN_0296",
+      "dau_vao": "90Bis, Tôn Thất Thuyết",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 5,
+          "van_ban": "90Bis"
+        },
+        {
+          "truong": "duong",
+          "start": 7,
+          "end": 22,
+          "van_ban": "Tôn Thất Thuyết"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0297",
+      "dau_vao": "23, Phan Chu Trinh St., Hoan Kiem, Hanoi",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "23"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 22,
+          "van_ban": "Phan Chu Trinh St."
+        },
+        {
+          "truong": "huyen",
+          "start": 24,
+          "end": 33,
+          "van_ban": "Hoan Kiem"
+        },
+        {
+          "truong": "tinh",
+          "start": 35,
+          "end": 40,
+          "van_ban": "Hanoi"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0298",
+      "dau_vao": "16, Lý Văn Tố",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "16"
+        },
+        {
+          "truong": "duong",
+          "start": 4,
+          "end": 13,
+          "van_ban": "Lý Văn Tố"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    },
+    {
+      "id": "UNGVIEN_0299",
+      "dau_vao": "2, BS Yersin",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 1,
+          "van_ban": "2"
+        },
+        {
+          "truong": "duong",
+          "start": 3,
+          "end": 12,
+          "van_ban": "BS Yersin"
+        }
+      ],
+      "abstain": true,
+      "ly_do_abstain": "BS_viết_tắt_chưa_chốt"
+    },
+    {
+      "id": "UNGVIEN_0300",
+      "dau_vao": "127, Trần Phú",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 3,
+          "van_ban": "127"
+        },
+        {
+          "truong": "duong",
+          "start": 5,
+          "end": 13,
+          "van_ban": "Trần Phú"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    }
+  ]
+}

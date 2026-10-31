@@ -1,0 +1,2402 @@
+{
+  "UNGVIEN_0860": {
+    "origin_ward": "21814",
+    "origin_province": "52",
+    "origin_full": "Xóm 4, Xã Tây Thuận, Huyện Tây Sơn, Tỉnh Bình Định",
+    "group": "a"
+  },
+  "UNGVIEN_1173": {
+    "origin_ward": "01774",
+    "origin_province": "04",
+    "origin_full": "Số 2049, Ngõ 41, Tổ 3, Đường Lý Thường Kiệt, Xã Tam Kim, Tỉnh Cao Bằng",
+    "group": "c"
+  },
+  "UNGVIEN_1085": {
+    "origin_ward": "11977",
+    "origin_province": "33",
+    "origin_full": "Số 1081, Ngõ 8, Tổ 5, Đường Phạm Văn Đồng, Xã Tân Hưng, Tỉnh Hưng Yên",
+    "group": "c"
+  },
+  "UNGVIEN_1009": {
+    "origin_ward": "20179",
+    "origin_province": "46",
+    "origin_full": "1748, Đường Nguyễn Văn Cừ, Xã Nam Đông, Thành phố Huế",
+    "group": "b"
+  },
+  "UNGVIEN_0899": {
+    "origin_ward": "10450",
+    "origin_province": "01",
+    "origin_full": "Xóm 3, Xã Tuy Lai, Huyện Mỹ Đức, Thành phố Hà Nội",
+    "group": "a"
+  },
+  "UNGVIEN_0885": {
+    "origin_ward": "05275",
+    "origin_province": "17",
+    "origin_full": "Xóm 5, Xã Mỹ Thành, Huyện Lạc Sơn, Tỉnh Hòa Bình",
+    "group": "a"
+  },
+  "UNGVIEN_1179": {
+    "origin_ward": "15049",
+    "origin_province": "38",
+    "origin_full": "Số 2115, Ngõ 47, Tổ 9, Đường Nguyễn Trãi, Xã Văn Phú, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_0997": {
+    "origin_ward": "20506",
+    "origin_province": "48",
+    "origin_full": "1616, Đường Trần Hưng Đạo, Xã Thượng Đức, Thành phố Đà Nẵng",
+    "group": "b"
+  },
+  "UNGVIEN_0955": {
+    "origin_ward": "01489",
+    "origin_province": "04",
+    "origin_full": "1154, Đường Trần Phú, Xã Đình Phong, Tỉnh Cao Bằng",
+    "group": "b"
+  },
+  "UNGVIEN_1110": {
+    "origin_ward": "06385",
+    "origin_province": "20",
+    "origin_full": "Số 1356, Ngõ 33, Tổ 10, Đường Hoàng Quốc Việt, Xã Hữu Lũng, Tỉnh Lạng Sơn",
+    "group": "c"
+  },
+  "UNGVIEN_0953": {
+    "origin_ward": "28177",
+    "origin_province": "80",
+    "origin_full": "1132, Đường Nguyễn Huệ, Xã Mỹ Lộc, Tỉnh Tây Ninh",
+    "group": "b"
+  },
+  "UNGVIEN_1028": {
+    "origin_ward": "01084",
+    "origin_province": "08",
+    "origin_full": "1957, Đường Lê Lợi, Xã Hồ Thầu, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_0996": {
+    "origin_ward": "21154",
+    "origin_province": "51",
+    "origin_full": "1605, Đường Lê Lợi, Xã Tây Trà, Tỉnh Quảng Ngãi",
+    "group": "b"
+  },
+  "UNGVIEN_0864": {
+    "origin_ward": "04894",
+    "origin_province": "17",
+    "origin_full": "Xóm 8, Phường Kỳ Sơn, Thành phố Hòa Bình, Tỉnh Hòa Bình",
+    "group": "a"
+  },
+  "UNGVIEN_0945": {
+    "origin_ward": "11065",
+    "origin_province": "31",
+    "origin_full": "1044, Đường Nguyễn Văn Cừ, Xã Trường Tân, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_0830": {
+    "origin_ward": "09259",
+    "origin_province": "27",
+    "origin_full": "Xóm 6, Phường Nhân Hòa, Thị xã Quế Võ, Tỉnh Bắc Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_0924": {
+    "origin_ward": "27397",
+    "origin_province": "79",
+    "origin_full": "Xóm 4, Phường Rạch Ông, Quận 8, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_0974": {
+    "origin_ward": "03295",
+    "origin_province": "11",
+    "origin_full": "1363, Đường Nguyễn Thị Minh Khai, Xã Quài Tở, Tỉnh Điện Biên",
+    "group": "b"
+  },
+  "UNGVIEN_1101": {
+    "origin_ward": "06196",
+    "origin_province": "20",
+    "origin_full": "Số 1257, Ngõ 24, Tổ 1, Đường Phạm Văn Đồng, Xã Ba Sơn, Tỉnh Lạng Sơn",
+    "group": "c"
+  },
+  "UNGVIEN_1105": {
+    "origin_ward": "15499",
+    "origin_province": "38",
+    "origin_full": "Số 1301, Ngõ 28, Tổ 5, Đường Lê Duẩn, Xã Thọ Xuân, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_0934": {
+    "origin_ward": "21958",
+    "origin_province": "52",
+    "origin_full": "Xóm 6, Xã Phước Thắng, Huyện Tuy Phước, Tỉnh Bình Định",
+    "group": "a"
+  },
+  "UNGVIEN_1035": {
+    "origin_ward": "01261",
+    "origin_province": "08",
+    "origin_full": "2034, Đường Trần Phú, Xã Tiên Yên, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_1165": {
+    "origin_ward": "22924",
+    "origin_province": "68",
+    "origin_full": "Số 1961, Ngõ 33, Tổ 5, Đường Phạm Văn Đồng, Phường Phú Thủy, Tỉnh Lâm Đồng",
+    "group": "c"
+  },
+  "UNGVIEN_0848": {
+    "origin_ward": "01912",
+    "origin_province": "06",
+    "origin_full": "Xóm 8, Xã Thượng Giáo, Huyện Ba Bể, Tỉnh Bắc Kạn",
+    "group": "a"
+  },
+  "UNGVIEN_0845": {
+    "origin_ward": "04204",
+    "origin_province": "14",
+    "origin_full": "Xóm 5, Xã Chiềng Khoong, Huyện Sông Mã, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_1011": {
+    "origin_ward": "13807",
+    "origin_province": "37",
+    "origin_full": "1770, Đường Lê Duẩn, Xã Tân Minh, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1034": {
+    "origin_ward": "25405",
+    "origin_province": "75",
+    "origin_full": "2023, Đường Điện Biên Phủ, Xã Bom Bo, Tỉnh Đồng Nai",
+    "group": "b"
+  },
+  "UNGVIEN_0862": {
+    "origin_ward": "25723",
+    "origin_province": "72",
+    "origin_full": "Xóm 6, Phường Gia Bình, Thị xã Trảng Bàng, Tỉnh Tây Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1022": {
+    "origin_ward": "09154",
+    "origin_province": "25",
+    "origin_full": "1891, Đường Nguyễn Thị Minh Khai, Xã Vĩnh Phú, Tỉnh Phú Thọ",
+    "group": "b"
+  },
+  "UNGVIEN_0820": {
+    "origin_ward": "23537",
+    "origin_province": "62",
+    "origin_full": "Xóm 4, Xã Ia Dom, Huyện Ia H' Drai, Tỉnh Kon Tum",
+    "group": "a"
+  },
+  "UNGVIEN_0987": {
+    "origin_ward": "22057",
+    "origin_province": "66",
+    "origin_full": "1506, Đường Trần Phú, Xã Xuân Lộc, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_0801": {
+    "origin_ward": "24502",
+    "origin_province": "66",
+    "origin_full": "Xóm 1, Xã Ea Phê, Huyện Krông Pắc, Tỉnh Đắk Lắk",
+    "group": "a"
+  },
+  "UNGVIEN_0960": {
+    "origin_ward": "24559",
+    "origin_province": "66",
+    "origin_full": "1209, Đường Hoàng Diệu, Xã Ea Na, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_1161": {
+    "origin_ward": "22657",
+    "origin_province": "56",
+    "origin_full": "Số 1917, Ngõ 29, Tổ 1, Đường Trần Phú, Xã Diên Điền, Tỉnh Khánh Hòa",
+    "group": "c"
+  },
+  "UNGVIEN_1200": {
+    "origin_ward": "30214",
+    "origin_province": "82",
+    "origin_full": "Số 2346, Ngõ 13, Tổ 10, Đường Phan Đình Phùng, Xã Tân Dương, Tỉnh Đồng Tháp",
+    "group": "c"
+  },
+  "UNGVIEN_0884": {
+    "origin_ward": "12514",
+    "origin_province": "34",
+    "origin_full": "Xóm 4, Xã An Ninh, Huyện Quỳnh Phụ, Tỉnh Thái Bình",
+    "group": "a"
+  },
+  "UNGVIEN_0995": {
+    "origin_ward": "06922",
+    "origin_province": "22",
+    "origin_full": "1594, Đường Lê Duẩn, Xã Quảng Hà, Tỉnh Quảng Ninh",
+    "group": "b"
+  },
+  "UNGVIEN_1060": {
+    "origin_ward": "21025",
+    "origin_province": "51",
+    "origin_full": "2309, Đường Lê Lợi, Phường Cẩm Thành, Tỉnh Quảng Ngãi",
+    "group": "b"
+  },
+  "UNGVIEN_1146": {
+    "origin_ward": "04171",
+    "origin_province": "14",
+    "origin_full": "Số 1752, Ngõ 14, Tổ 6, Đường Đinh Tiên Hoàng, Xã Bó Sinh, Tỉnh Sơn La",
+    "group": "c"
+  },
+  "UNGVIEN_1199": {
+    "origin_ward": "16138",
+    "origin_province": "38",
+    "origin_full": "Số 2335, Ngõ 12, Tổ 9, Đường Nguyễn Văn Cừ, Xã Hồ Vương, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_0851": {
+    "origin_ward": "23833",
+    "origin_province": "64",
+    "origin_full": "Xóm 3, Xã Kông Yang, Huyện Kông Chro, Tỉnh Gia Lai",
+    "group": "a"
+  },
+  "UNGVIEN_0813": {
+    "origin_ward": "02539",
+    "origin_province": "08",
+    "origin_full": "Xóm 5, Xã Trung Yên, Huyện Sơn Dương, Tỉnh Tuyên Quang",
+    "group": "a"
+  },
+  "UNGVIEN_1152": {
+    "origin_ward": "06115",
+    "origin_province": "20",
+    "origin_full": "Số 1818, Ngõ 20, Tổ 2, Đường Phan Đình Phùng, Xã Tân Văn, Tỉnh Lạng Sơn",
+    "group": "c"
+  },
+  "UNGVIEN_0808": {
+    "origin_ward": "05128",
+    "origin_province": "17",
+    "origin_full": "Xóm 8, Thị trấn Mãn Đức, Huyện Tân Lạc, Tỉnh Hòa Bình",
+    "group": "a"
+  },
+  "UNGVIEN_0970": {
+    "origin_ward": "23293",
+    "origin_province": "51",
+    "origin_full": "1319, Đường Điện Biên Phủ, Phường Kon Tum, Tỉnh Quảng Ngãi",
+    "group": "b"
+  },
+  "UNGVIEN_1117": {
+    "origin_ward": "20920",
+    "origin_province": "48",
+    "origin_full": "Số 1433, Ngõ 40, Tổ 7, Đường Phạm Văn Đồng, Xã Trà Đốc, Thành phố Đà Nẵng",
+    "group": "c"
+  },
+  "UNGVIEN_1055": {
+    "origin_ward": "28270",
+    "origin_province": "82",
+    "origin_full": "2254, Đường Phạm Văn Đồng, Phường Thới Sơn, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_0900": {
+    "origin_ward": "04069",
+    "origin_province": "14",
+    "origin_full": "Xóm 4, Xã Chiềng Sàng, Huyện Yên Châu, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_1154": {
+    "origin_ward": "24664",
+    "origin_province": "68",
+    "origin_full": "Số 1840, Ngõ 22, Tổ 4, Đường Lê Lợi, Xã Đức Lập, Tỉnh Lâm Đồng",
+    "group": "c"
+  },
+  "UNGVIEN_1181": {
+    "origin_ward": "19372",
+    "origin_province": "44",
+    "origin_full": "Số 2137, Ngõ 49, Tổ 1, Đường Phạm Văn Đồng, Xã Vĩnh Hoàng, Tỉnh Quảng Trị",
+    "group": "c"
+  },
+  "UNGVIEN_0909": {
+    "origin_ward": "02827",
+    "origin_province": "10",
+    "origin_full": "Xóm 5, Xã Quan Hồ Thẩn, Huyện Si Ma Cai, Tỉnh Lào Cai",
+    "group": "a"
+  },
+  "UNGVIEN_1081": {
+    "origin_ward": "24454",
+    "origin_province": "66",
+    "origin_full": "Số 1037, Ngõ 4, Tổ 1, Đường Trần Phú, Xã Dang Kang, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_0941": {
+    "origin_ward": "25909",
+    "origin_province": "79",
+    "origin_full": "1000, Đường Nguyễn Trãi, Xã Thường Tân, Thành phố Hồ Chí Minh",
+    "group": "b"
+  },
+  "UNGVIEN_1115": {
+    "origin_ward": "23584",
+    "origin_province": "52",
+    "origin_full": "Số 1411, Ngõ 38, Tổ 5, Đường Nguyễn Trãi, Phường Thống Nhất, Tỉnh Gia Lai",
+    "group": "c"
+  },
+  "UNGVIEN_0928": {
+    "origin_ward": "31900",
+    "origin_province": "95",
+    "origin_full": "Xóm 8, Thị trấn Châu Hưng, Huyện Vĩnh Lợi, Tỉnh Bạc Liêu",
+    "group": "a"
+  },
+  "UNGVIEN_0868": {
+    "origin_ward": "25612",
+    "origin_province": "72",
+    "origin_full": "Xóm 4, Xã Hòa Hội, Huyện Châu Thành, Tỉnh Tây Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1019": {
+    "origin_ward": "16222",
+    "origin_province": "38",
+    "origin_full": "1858, Đường Trần Phú, Xã Thanh Quân, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_0803": {
+    "origin_ward": "07477",
+    "origin_province": "24",
+    "origin_full": "Xóm 3, Thị trấn Phương Sơn, Huyện Lục Nam, Tỉnh Bắc Giang",
+    "group": "a"
+  },
+  "UNGVIEN_1180": {
+    "origin_ward": "30709",
+    "origin_province": "91",
+    "origin_full": "Số 2126, Ngõ 48, Tổ 10, Đường Nguyễn Thị Minh Khai, Xã Định Mỹ, Tỉnh An Giang",
+    "group": "c"
+  },
+  "UNGVIEN_1177": {
+    "origin_ward": "23317",
+    "origin_province": "51",
+    "origin_full": "Số 2093, Ngõ 45, Tổ 7, Đường Trần Phú, Xã Ngọk Bay, Tỉnh Quảng Ngãi",
+    "group": "c"
+  },
+  "UNGVIEN_0977": {
+    "origin_ward": "13822",
+    "origin_province": "37",
+    "origin_full": "1396, Đường Nguyễn Văn Cừ, Xã Phong Doanh, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0876": {
+    "origin_ward": "29716",
+    "origin_province": "86",
+    "origin_full": "Xóm 4, Xã Hiếu Nghĩa, Huyện Vũng Liêm, Tỉnh Vĩnh Long",
+    "group": "a"
+  },
+  "UNGVIEN_1185": {
+    "origin_ward": "11407",
+    "origin_province": "31",
+    "origin_full": "Số 2181, Ngõ 53, Tổ 5, Đường Lê Duẩn, Phường An Biên, Thành phố Hải Phòng",
+    "group": "c"
+  },
+  "UNGVIEN_1033": {
+    "origin_ward": "23851",
+    "origin_province": "52",
+    "origin_full": "2012, Đường Nguyễn Huệ, Xã Chơ Long, Tỉnh Gia Lai",
+    "group": "b"
+  },
+  "UNGVIEN_1006": {
+    "origin_ward": "28537",
+    "origin_province": "82",
+    "origin_full": "1715, Đường Nguyễn Thị Minh Khai, Xã Long Hưng, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_1153": {
+    "origin_ward": "21775",
+    "origin_province": "52",
+    "origin_full": "Số 1829, Ngõ 21, Tổ 3, Đường Lê Duẩn, Xã Phù Mỹ Nam, Tỉnh Gia Lai",
+    "group": "c"
+  },
+  "UNGVIEN_1121": {
+    "origin_ward": "07795",
+    "origin_province": "24",
+    "origin_full": "Số 1477, Ngõ 44, Tổ 1, Đường Lê Duẩn, Phường Nếnh, Tỉnh Bắc Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_0879": {
+    "origin_ward": "03253",
+    "origin_province": "11",
+    "origin_full": "Xóm 7, Thị trấn Tuần Giáo, Huyện Tuần Giáo, Tỉnh Điện Biên",
+    "group": "a"
+  },
+  "UNGVIEN_1089": {
+    "origin_ward": "22525",
+    "origin_province": "56",
+    "origin_full": "Số 1125, Ngõ 12, Tổ 9, Đường Lê Duẩn, Xã Vạn Hưng, Tỉnh Khánh Hòa",
+    "group": "c"
+  },
+  "UNGVIEN_1149": {
+    "origin_ward": "30184",
+    "origin_province": "82",
+    "origin_full": "Số 1785, Ngõ 17, Tổ 9, Đường Phạm Văn Đồng, Xã Tân Khánh Trung, Tỉnh Đồng Tháp",
+    "group": "c"
+  },
+  "UNGVIEN_1070": {
+    "origin_ward": "11533",
+    "origin_province": "31",
+    "origin_full": "2419, Đường Nguyễn Thị Minh Khai, Phường Hòa Bình, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_1047": {
+    "origin_ward": "24646",
+    "origin_province": "68",
+    "origin_full": "2166, Đường Lý Thường Kiệt, Xã Đắk Wil, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_0837": {
+    "origin_ward": "00517",
+    "origin_province": "01",
+    "origin_full": "Xóm 5, Xã Tàm Xá, Huyện Đông Anh, Thành phố Hà Nội",
+    "group": "a"
+  },
+  "UNGVIEN_0896": {
+    "origin_ward": "26977",
+    "origin_province": "79",
+    "origin_full": "Xóm 8, Phường 1, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_1018": {
+    "origin_ward": "30856",
+    "origin_province": "91",
+    "origin_full": "1847, Đường Điện Biên Phủ, Xã Tân Hội, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_1043": {
+    "origin_ward": "00982",
+    "origin_province": "08",
+    "origin_full": "2122, Đường Lê Duẩn, Xã Minh Sơn, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_1007": {
+    "origin_ward": "15664",
+    "origin_province": "38",
+    "origin_full": "1726, Đường Phạm Văn Đồng, Xã Triệu Sơn, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_1010": {
+    "origin_ward": "14638",
+    "origin_province": "37",
+    "origin_full": "1759, Đường Phan Đình Phùng, Xã Kim Sơn, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0877": {
+    "origin_ward": "24274",
+    "origin_province": "66",
+    "origin_full": "Xóm 5, Xã Ea H'đing, Huyện Cư M'gar, Tỉnh Đắk Lắk",
+    "group": "a"
+  },
+  "UNGVIEN_1188": {
+    "origin_ward": "30436",
+    "origin_province": "91",
+    "origin_full": "Số 2214, Ngõ 56, Tổ 8, Đường Cách Mạng Tháng Tám, Xã Phú An, Tỉnh An Giang",
+    "group": "c"
+  },
+  "UNGVIEN_1123": {
+    "origin_ward": "25840",
+    "origin_province": "79",
+    "origin_full": "Số 1499, Ngõ 46, Tổ 3, Đường Trần Hưng Đạo, Phường Long Nguyên, Thành phố Hồ Chí Minh",
+    "group": "c"
+  },
+  "UNGVIEN_1151": {
+    "origin_ward": "01807",
+    "origin_province": "04",
+    "origin_full": "Số 1807, Ngõ 19, Tổ 1, Đường Nguyễn Văn Cừ, Xã Thạch An, Tỉnh Cao Bằng",
+    "group": "c"
+  },
+  "UNGVIEN_0842": {
+    "origin_ward": "31183",
+    "origin_province": "92",
+    "origin_full": "Xóm 2, Phường Long Tuyền, Quận Bình Thủy, Thành phố Cần Thơ",
+    "group": "a"
+  },
+  "UNGVIEN_1167": {
+    "origin_ward": "06187",
+    "origin_province": "20",
+    "origin_full": "Số 1983, Ngõ 35, Tổ 7, Đường Nguyễn Văn Cừ, Phường Kỳ Lừa, Tỉnh Lạng Sơn",
+    "group": "c"
+  },
+  "UNGVIEN_1039": {
+    "origin_ward": "01879",
+    "origin_province": "19",
+    "origin_full": "2078, Đường Phạm Văn Đồng, Xã Cao Minh, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_1062": {
+    "origin_ward": "22153",
+    "origin_province": "66",
+    "origin_full": "2331, Đường Cách Mạng Tháng Tám, Xã Tuy An Nam, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_1186": {
+    "origin_ward": "13246",
+    "origin_province": "33",
+    "origin_full": "Số 2192, Ngõ 54, Tổ 6, Đường Lê Lợi, Xã Tân Thuận, Tỉnh Hưng Yên",
+    "group": "c"
+  },
+  "UNGVIEN_1106": {
+    "origin_ward": "15274",
+    "origin_province": "38",
+    "origin_full": "Số 1312, Ngõ 29, Tổ 6, Đường Lê Lợi, Xã Hà Long, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_0838": {
+    "origin_ward": "31957",
+    "origin_province": "95",
+    "origin_full": "Xóm 6, Xã Tân Phong, Thị xã Giá Rai, Tỉnh Bạc Liêu",
+    "group": "a"
+  },
+  "UNGVIEN_1053": {
+    "origin_ward": "30604",
+    "origin_province": "91",
+    "origin_full": "2232, Đường Nguyễn Trãi, Xã Vĩnh An, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_1164": {
+    "origin_ward": "23053",
+    "origin_province": "68",
+    "origin_full": "Số 1950, Ngõ 32, Tổ 4, Đường Nguyễn Thị Minh Khai, Xã Hòa Thắng, Tỉnh Lâm Đồng",
+    "group": "c"
+  },
+  "UNGVIEN_0913": {
+    "origin_ward": "16186",
+    "origin_province": "38",
+    "origin_full": "Xóm 1, Xã Hóa Quỳ, Huyện Như Xuân, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_1097": {
+    "origin_ward": "23341",
+    "origin_province": "51",
+    "origin_full": "Số 1213, Ngõ 20, Tổ 7, Đường Trần Phú, Xã Đăk Pék, Tỉnh Quảng Ngãi",
+    "group": "c"
+  },
+  "UNGVIEN_0825": {
+    "origin_ward": "29353",
+    "origin_province": "84",
+    "origin_full": "Xóm 1, Xã Hiếu Trung, Huyện Tiểu Cần, Tỉnh Trà Vinh",
+    "group": "a"
+  },
+  "UNGVIEN_1049": {
+    "origin_ward": "04273",
+    "origin_province": "15",
+    "origin_full": "2188, Đường Nguyễn Huệ, Phường Nam Cường, Tỉnh Lào Cai",
+    "group": "b"
+  },
+  "UNGVIEN_1072": {
+    "origin_ward": "23614",
+    "origin_province": "52",
+    "origin_full": "2441, Đường Hoàng Diệu, Phường An Bình, Tỉnh Gia Lai",
+    "group": "b"
+  },
+  "UNGVIEN_1172": {
+    "origin_ward": "25750",
+    "origin_province": "79",
+    "origin_full": "Số 2038, Ngõ 40, Tổ 2, Đường Cách Mạng Tháng Tám, Phường Phú Lợi, Thành phố Hồ Chí Minh",
+    "group": "c"
+  },
+  "UNGVIEN_1114": {
+    "origin_ward": "03408",
+    "origin_province": "12",
+    "origin_full": "Số 1400, Ngõ 37, Tổ 4, Đường Đinh Tiên Hoàng, Phường Tân Phong, Tỉnh Lai Châu",
+    "group": "c"
+  },
+  "UNGVIEN_1096": {
+    "origin_ward": "27841",
+    "origin_province": "80",
+    "origin_full": "Số 1202, Ngõ 19, Tổ 6, Đường Điện Biên Phủ, Xã Hậu Thạnh, Tỉnh Tây Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_1069": {
+    "origin_ward": "05641",
+    "origin_province": "19",
+    "origin_full": "2408, Đường Nguyễn Trãi, Xã Vô Tranh, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_0867": {
+    "origin_ward": "24115",
+    "origin_province": "64",
+    "origin_full": "Xóm 3, Xã Krông Năng, Huyện Krông Pa, Tỉnh Gia Lai",
+    "group": "a"
+  },
+  "UNGVIEN_0915": {
+    "origin_ward": "11146",
+    "origin_province": "30",
+    "origin_full": "Xóm 3, Xã Nguyên Giáp, Huyện Tứ Kỳ, Tỉnh Hải Dương",
+    "group": "a"
+  },
+  "UNGVIEN_1111": {
+    "origin_ward": "04474",
+    "origin_province": "15",
+    "origin_full": "Số 1367, Ngõ 34, Tổ 1, Đường Nguyễn Huệ, Xã Lao Chải, Tỉnh Lào Cai",
+    "group": "c"
+  },
+  "UNGVIEN_1103": {
+    "origin_ward": "15085",
+    "origin_province": "38",
+    "origin_full": "Số 1279, Ngõ 26, Tổ 3, Đường Nguyễn Văn Cừ, Xã Thạch Lập, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_0907": {
+    "origin_ward": "25519",
+    "origin_province": "72",
+    "origin_full": "Xóm 3, Xã Tân Hà, Huyện Tân Châu, Tỉnh Tây Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1027": {
+    "origin_ward": "14287",
+    "origin_province": "37",
+    "origin_full": "1946, Đường Lê Duẩn, Xã Hải Quang, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1196": {
+    "origin_ward": "22171",
+    "origin_province": "66",
+    "origin_full": "Số 2302, Ngõ 9, Tổ 6, Đường Nguyễn Thị Minh Khai, Xã Tây Sơn, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_1135": {
+    "origin_ward": "06004",
+    "origin_province": "20",
+    "origin_full": "Số 1631, Ngõ 58, Tổ 5, Đường Nguyễn Văn Cừ, Xã Quốc Khánh, Tỉnh Lạng Sơn",
+    "group": "c"
+  },
+  "UNGVIEN_1150": {
+    "origin_ward": "24214",
+    "origin_province": "66",
+    "origin_full": "Số 1796, Ngõ 18, Tổ 10, Đường Hoàng Diệu, Xã Ia Lốp, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_0963": {
+    "origin_ward": "10678",
+    "origin_province": "31",
+    "origin_full": "1242, Đường Lê Duẩn, Phường Bắc An Phụ, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_0863": {
+    "origin_ward": "07000",
+    "origin_province": "22",
+    "origin_full": "Xóm 7, Xã Bình Dân, Huyện Vân Đồn, Tỉnh Quảng Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_0951": {
+    "origin_ward": "17827",
+    "origin_province": "40",
+    "origin_full": "1110, Đường Lý Thường Kiệt, Xã Nghi Lộc, Tỉnh Nghệ An",
+    "group": "b"
+  },
+  "UNGVIEN_1142": {
+    "origin_ward": "31261",
+    "origin_province": "92",
+    "origin_full": "Số 1708, Ngõ 10, Tổ 2, Đường Hoàng Quốc Việt, Xã Cờ Đỏ, Thành phố Cần Thơ",
+    "group": "c"
+  },
+  "UNGVIEN_1054": {
+    "origin_ward": "13879",
+    "origin_province": "37",
+    "origin_full": "2243, Đường Nguyễn Thị Minh Khai, Xã Yên Đồng, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1139": {
+    "origin_ward": "10837",
+    "origin_province": "31",
+    "origin_full": "Số 1675, Ngõ 7, Tổ 9, Đường Trần Hưng Đạo, Phường Nam Đồng, Thành phố Hải Phòng",
+    "group": "c"
+  },
+  "UNGVIEN_1008": {
+    "origin_ward": "04960",
+    "origin_province": "25",
+    "origin_full": "1737, Đường Hoàng Diệu, Xã Liên Sơn, Tỉnh Phú Thọ",
+    "group": "b"
+  },
+  "UNGVIEN_0823": {
+    "origin_ward": "27418",
+    "origin_province": "79",
+    "origin_full": "Xóm 7, Phường 5, Quận 8, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_0973": {
+    "origin_ward": "22081",
+    "origin_province": "66",
+    "origin_full": "1352, Đường Nguyễn Trãi, Xã Đồng Xuân, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_0981": {
+    "origin_ward": "03006",
+    "origin_province": "15",
+    "origin_full": "1440, Đường Trần Hưng Đạo, Phường Sa Pa, Tỉnh Lào Cai",
+    "group": "b"
+  },
+  "UNGVIEN_1148": {
+    "origin_ward": "11242",
+    "origin_province": "31",
+    "origin_full": "Số 1774, Ngõ 16, Tổ 8, Đường Nguyễn Thị Minh Khai, Xã Nguyễn Lương Bằng, Thành phố Hải Phòng",
+    "group": "c"
+  },
+  "UNGVIEN_1159": {
+    "origin_ward": "00991",
+    "origin_province": "08",
+    "origin_full": "Số 1895, Ngõ 27, Tổ 9, Đường Nguyễn Huệ, Xã Bắc Mê, Tỉnh Tuyên Quang",
+    "group": "c"
+  },
+  "UNGVIEN_0858": {
+    "origin_ward": "31324",
+    "origin_province": "93",
+    "origin_full": "Xóm 2, Phường IV, Thành phố Vị Thanh, Tỉnh Hậu Giang",
+    "group": "a"
+  },
+  "UNGVIEN_1100": {
+    "origin_ward": "29992",
+    "origin_province": "82",
+    "origin_full": "Số 1246, Ngõ 23, Tổ 10, Đường Nguyễn Thị Minh Khai, Xã Long Phú Thuận, Tỉnh Đồng Tháp",
+    "group": "c"
+  },
+  "UNGVIEN_0990": {
+    "origin_ward": "02176",
+    "origin_province": "19",
+    "origin_full": "1539, Đường Nguyễn Thị Minh Khai, Xã Trần Phú, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_0980": {
+    "origin_ward": "26725",
+    "origin_province": "79",
+    "origin_full": "1429, Đường Lê Lợi, Phường Tân Thành, Thành phố Hồ Chí Minh",
+    "group": "b"
+  },
+  "UNGVIEN_0866": {
+    "origin_ward": "27934",
+    "origin_province": "80",
+    "origin_full": "Xóm 2, Thị trấn Hiệp Hòa, Huyện Đức Hòa, Tỉnh Long An",
+    "group": "a"
+  },
+  "UNGVIEN_1195": {
+    "origin_ward": "16012",
+    "origin_province": "38",
+    "origin_full": "Số 2291, Ngõ 8, Tổ 5, Đường Nguyễn Trãi, Xã Hậu Lộc, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_1044": {
+    "origin_ward": "13870",
+    "origin_province": "37",
+    "origin_full": "2133, Đường Lê Lợi, Xã Yên Cường, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1129": {
+    "origin_ward": "05662",
+    "origin_province": "19",
+    "origin_full": "Số 1565, Ngõ 52, Tổ 9, Đường Trần Phú, Xã Trại Cau, Tỉnh Thái Nguyên",
+    "group": "c"
+  },
+  "UNGVIEN_0925": {
+    "origin_ward": "24207",
+    "origin_province": "66",
+    "origin_full": "Xóm 5, Xã Ea Tir, Huyện Ea H'leo, Tỉnh Đắk Lắk",
+    "group": "a"
+  },
+  "UNGVIEN_0891": {
+    "origin_ward": "28522",
+    "origin_province": "82",
+    "origin_full": "Xóm 3, Xã Tân Hội Đông, Huyện Châu Thành, Tỉnh Tiền Giang",
+    "group": "a"
+  },
+  "UNGVIEN_1048": {
+    "origin_ward": "09253",
+    "origin_province": "24",
+    "origin_full": "2177, Đường Hoàng Quốc Việt, Phường Nhân Hòa, Tỉnh Bắc Ninh",
+    "group": "b"
+  },
+  "UNGVIEN_1130": {
+    "origin_ward": "30988",
+    "origin_province": "91",
+    "origin_full": "Số 1576, Ngõ 53, Tổ 10, Đường Đinh Tiên Hoàng, Xã Tây Yên, Tỉnh An Giang",
+    "group": "c"
+  },
+  "UNGVIEN_1024": {
+    "origin_ward": "30463",
+    "origin_province": "91",
+    "origin_full": "1913, Đường Hoàng Diệu, Xã Châu Phú, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_0811": {
+    "origin_ward": "06706",
+    "origin_province": "22",
+    "origin_full": "Xóm 3, Phường Đại Yên, Thành phố Hạ Long, Tỉnh Quảng Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_0969": {
+    "origin_ward": "10705",
+    "origin_province": "31",
+    "origin_full": "1308, Đường Nguyễn Huệ, Xã Nam An Phụ, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_0923": {
+    "origin_ward": "26587",
+    "origin_province": "77",
+    "origin_full": "Xóm 3, Xã Sơn Bình, Huyện Châu Đức, Tỉnh Bà Rịa - Vũng Tàu",
+    "group": "a"
+  },
+  "UNGVIEN_0833": {
+    "origin_ward": "11770",
+    "origin_province": "31",
+    "origin_full": "Xóm 1, Xã Quyết Tiến, Huyện Tiên Lãng, Thành phố Hải Phòng",
+    "group": "a"
+  },
+  "UNGVIEN_1051": {
+    "origin_ward": "17230",
+    "origin_province": "40",
+    "origin_full": "2210, Đường Trần Phú, Xã Bình Chuẩn, Tỉnh Nghệ An",
+    "group": "b"
+  },
+  "UNGVIEN_0971": {
+    "origin_ward": "00706",
+    "origin_province": "08",
+    "origin_full": "1330, Đường Trần Phú, Xã Phú Linh, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_1078": {
+    "origin_ward": "26179",
+    "origin_province": "75",
+    "origin_full": "2507, Đường Cách Mạng Tháng Tám, Xã Tân An, Tỉnh Đồng Nai",
+    "group": "b"
+  },
+  "UNGVIEN_1000": {
+    "origin_ward": "24181",
+    "origin_province": "66",
+    "origin_full": "1649, Đường Hoàng Quốc Việt, Xã Ea Drăng, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_1131": {
+    "origin_ward": "28894",
+    "origin_province": "86",
+    "origin_full": "Số 1587, Ngõ 54, Tổ 1, Đường Nguyễn Trãi, Xã Vĩnh Thành, Tỉnh Vĩnh Long",
+    "group": "c"
+  },
+  "UNGVIEN_0992": {
+    "origin_ward": "13939",
+    "origin_province": "37",
+    "origin_full": "1561, Đường Hoàng Diệu, Xã Quỹ Nhất, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0893": {
+    "origin_ward": "14434",
+    "origin_province": "37",
+    "origin_full": "Xóm 5, Xã Thanh Sơn, Huyện Nho Quan, Tỉnh Ninh Bình",
+    "group": "a"
+  },
+  "UNGVIEN_1169": {
+    "origin_ward": "19255",
+    "origin_province": "44",
+    "origin_full": "Số 2005, Ngõ 37, Tổ 9, Đường Lê Duẩn, Xã Cam Hồng, Tỉnh Quảng Trị",
+    "group": "c"
+  },
+  "UNGVIEN_0994": {
+    "origin_ward": "03037",
+    "origin_province": "15",
+    "origin_full": "1583, Đường Phan Đình Phùng, Xã Tả Van, Tỉnh Lào Cai",
+    "group": "b"
+  },
+  "UNGVIEN_1118": {
+    "origin_ward": "19009",
+    "origin_province": "44",
+    "origin_full": "Số 1444, Ngõ 41, Tổ 8, Đường Hoàng Diệu, Phường Ba Đồn, Tỉnh Quảng Trị",
+    "group": "c"
+  },
+  "UNGVIEN_1077": {
+    "origin_ward": "13891",
+    "origin_province": "37",
+    "origin_full": "2496, Đường Trần Hưng Đạo, Xã Nghĩa Hưng, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0983": {
+    "origin_ward": "20794",
+    "origin_province": "48",
+    "origin_full": "1462, Đường Lý Thường Kiệt, Xã Thăng An, Thành phố Đà Nẵng",
+    "group": "b"
+  },
+  "UNGVIEN_0961": {
+    "origin_ward": "26608",
+    "origin_province": "79",
+    "origin_full": "1220, Đường Nguyễn Văn Cừ, Xã Kim Long, Thành phố Hồ Chí Minh",
+    "group": "b"
+  },
+  "UNGVIEN_1056": {
+    "origin_ward": "20611",
+    "origin_province": "48",
+    "origin_full": "2265, Đường Hoàng Diệu, Xã Thu Bồn, Thành phố Đà Nẵng",
+    "group": "b"
+  },
+  "UNGVIEN_1045": {
+    "origin_ward": "00829",
+    "origin_province": "08",
+    "origin_full": "2144, Đường Trần Hưng Đạo, Xã Thắng Mố, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_0993": {
+    "origin_ward": "16540",
+    "origin_province": "38",
+    "origin_full": "1572, Đường Nguyễn Văn Cừ, Xã Quảng Ninh, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_1119": {
+    "origin_ward": "14563",
+    "origin_province": "37",
+    "origin_full": "Số 1455, Ngõ 42, Tổ 9, Đường Nguyễn Văn Cừ, Xã Khánh Thiện, Tỉnh Ninh Bình",
+    "group": "c"
+  },
+  "UNGVIEN_0836": {
+    "origin_ward": "01481",
+    "origin_province": "04",
+    "origin_full": "Xóm 4, Xã Ngọc Côn, Huyện Trùng Khánh, Tỉnh Cao Bằng",
+    "group": "a"
+  },
+  "UNGVIEN_1038": {
+    "origin_ward": "11755",
+    "origin_province": "31",
+    "origin_full": "2067, Đường Nguyễn Thị Minh Khai, Xã Tiên Lãng, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_0930": {
+    "origin_ward": "26860",
+    "origin_province": "79",
+    "origin_full": "Xóm 2, Phường Long Trường, Thành phố Thủ Đức, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_1065": {
+    "origin_ward": "01108",
+    "origin_province": "08",
+    "origin_full": "2364, Đường Nguyễn Huệ, Xã Xín Mần, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_1087": {
+    "origin_ward": "20257",
+    "origin_province": "48",
+    "origin_full": "Số 1103, Ngõ 10, Tổ 7, Đường Nguyễn Văn Cừ, Phường Hòa Cường, Thành phố Đà Nẵng",
+    "group": "c"
+  },
+  "UNGVIEN_0824": {
+    "origin_ward": "02683",
+    "origin_province": "10",
+    "origin_full": "Xóm 8, Thị trấn Bát Xát, Huyện Bát Xát, Tỉnh Lào Cai",
+    "group": "a"
+  },
+  "UNGVIEN_1136": {
+    "origin_ward": "21637",
+    "origin_province": "52",
+    "origin_full": "Số 1642, Ngõ 4, Tổ 6, Đường Phan Đình Phùng, Phường Tam Quan, Tỉnh Gia Lai",
+    "group": "c"
+  },
+  "UNGVIEN_0946": {
+    "origin_ward": "17569",
+    "origin_province": "40",
+    "origin_full": "1055, Đường Phan Đình Phùng, Xã Quan Thành, Tỉnh Nghệ An",
+    "group": "b"
+  },
+  "UNGVIEN_1071": {
+    "origin_ward": "14179",
+    "origin_province": "37",
+    "origin_full": "2430, Đường Phạm Văn Đồng, Xã Giao Hưng, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1156": {
+    "origin_ward": "09043",
+    "origin_province": "25",
+    "origin_full": "Số 1862, Ngõ 24, Tổ 6, Đường Cách Mạng Tháng Tám, Xã Tam Hồng, Tỉnh Phú Thọ",
+    "group": "c"
+  },
+  "UNGVIEN_0976": {
+    "origin_ward": "22147",
+    "origin_province": "66",
+    "origin_full": "1385, Đường Hoàng Diệu, Xã Ô Loan, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_1025": {
+    "origin_ward": "24955",
+    "origin_province": "68",
+    "origin_full": "1924, Đường Nguyễn Văn Cừ, Xã Quảng Lập, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_0964": {
+    "origin_ward": "25978",
+    "origin_province": "79",
+    "origin_full": "1253, Đường Lê Lợi, Phường Thuận An, Thành phố Hồ Chí Minh",
+    "group": "b"
+  },
+  "UNGVIEN_0908": {
+    "origin_ward": "25234",
+    "origin_province": "70",
+    "origin_full": "Xóm 4, Xã Bình Thắng, Huyện Bù Gia Mập, Tỉnh Bình Phước",
+    "group": "a"
+  },
+  "UNGVIEN_1004": {
+    "origin_ward": "31972",
+    "origin_province": "96",
+    "origin_full": "1693, Đường Đinh Tiên Hoàng, Xã Gành Hào, Tỉnh Cà Mau",
+    "group": "b"
+  },
+  "UNGVIEN_0939": {
+    "origin_ward": "27958",
+    "origin_province": "80",
+    "origin_full": "Xóm 3, Xã Đức Lập Hạ, Huyện Đức Hòa, Tỉnh Long An",
+    "group": "a"
+  },
+  "UNGVIEN_1016": {
+    "origin_ward": "01180",
+    "origin_province": "08",
+    "origin_full": "1825, Đường Hoàng Quốc Việt, Xã Bằng Hành, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_0942": {
+    "origin_ward": "16609",
+    "origin_province": "38",
+    "origin_full": "1011, Đường Nguyễn Thị Minh Khai, Phường Đào Duy Từ, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_0809": {
+    "origin_ward": "29350",
+    "origin_province": "84",
+    "origin_full": "Xóm 1, Xã Hiếu Tử, Huyện Tiểu Cần, Tỉnh Trà Vinh",
+    "group": "a"
+  },
+  "UNGVIEN_1155": {
+    "origin_ward": "04603",
+    "origin_province": "15",
+    "origin_full": "Số 1851, Ngõ 23, Tổ 5, Đường Trần Hưng Đạo, Xã Tà Xi Láng, Tỉnh Lào Cai",
+    "group": "c"
+  },
+  "UNGVIEN_1046": {
+    "origin_ward": "19588",
+    "origin_province": "44",
+    "origin_full": "2155, Đường Cách Mạng Tháng Tám, Xã Tà Rụt, Tỉnh Quảng Trị",
+    "group": "b"
+  },
+  "UNGVIEN_0816": {
+    "origin_ward": "27835",
+    "origin_province": "80",
+    "origin_full": "Xóm 8, Xã Nhơn Hòa Lập, Huyện Tân Thạnh, Tỉnh Long An",
+    "group": "a"
+  },
+  "UNGVIEN_0835": {
+    "origin_ward": "02173",
+    "origin_province": "06",
+    "origin_full": "Xóm 3, Xã Côn Minh, Huyện Na Rì, Tỉnh Bắc Kạn",
+    "group": "a"
+  },
+  "UNGVIEN_1029": {
+    "origin_ward": "28336",
+    "origin_province": "82",
+    "origin_full": "1968, Đường Trần Hưng Đạo, Xã Hưng Thạnh, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_0972": {
+    "origin_ward": "28327",
+    "origin_province": "82",
+    "origin_full": "1341, Đường Đinh Tiên Hoàng, Xã Tân Phước 2, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_1102": {
+    "origin_ward": "10573",
+    "origin_province": "31",
+    "origin_full": "Số 1268, Ngõ 25, Tổ 2, Đường Hoàng Diệu, Phường Trần Nhân Tông, Thành phố Hải Phòng",
+    "group": "c"
+  },
+  "UNGVIEN_1021": {
+    "origin_ward": "03202",
+    "origin_province": "11",
+    "origin_full": "1880, Đường Nguyễn Trãi, Xã Mường Pồn, Tỉnh Điện Biên",
+    "group": "b"
+  },
+  "UNGVIEN_0929": {
+    "origin_ward": "24247",
+    "origin_province": "66",
+    "origin_full": "Xóm 1, Xã Cuôr Knia, Huyện Buôn Đôn, Tỉnh Đắk Lắk",
+    "group": "a"
+  },
+  "UNGVIEN_1073": {
+    "origin_ward": "10675",
+    "origin_province": "31",
+    "origin_full": "2452, Đường Nguyễn Văn Cừ, Phường Kinh Môn, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_0932": {
+    "origin_ward": "14653",
+    "origin_province": "37",
+    "origin_full": "Xóm 4, Xã Chất Bình, Huyện Kim Sơn, Tỉnh Ninh Bình",
+    "group": "a"
+  },
+  "UNGVIEN_1126": {
+    "origin_ward": "03583",
+    "origin_province": "12",
+    "origin_full": "Số 1532, Ngõ 49, Tổ 6, Đường Hoàng Quốc Việt, Xã Khổng Lào, Tỉnh Lai Châu",
+    "group": "c"
+  },
+  "UNGVIEN_0839": {
+    "origin_ward": "23491",
+    "origin_province": "62",
+    "origin_full": "Xóm 7, Xã Đăk Pne, Huyện Kon Rẫy, Tỉnh Kon Tum",
+    "group": "a"
+  },
+  "UNGVIEN_1178": {
+    "origin_ward": "18685",
+    "origin_province": "42",
+    "origin_full": "Số 2104, Ngõ 46, Tổ 8, Đường Đinh Tiên Hoàng, Xã Cẩm Bình, Tỉnh Hà Tĩnh",
+    "group": "c"
+  },
+  "UNGVIEN_0846": {
+    "origin_ward": "20023",
+    "origin_province": "46",
+    "origin_full": "Xóm 6, Phường Hương An, Quận Phú Xuân, Tỉnh Huế",
+    "group": "a"
+  },
+  "UNGVIEN_0807": {
+    "origin_ward": "07165",
+    "origin_province": "22",
+    "origin_full": "Xóm 7, Phường Nam Hòa, Thị xã Quảng Yên, Tỉnh Quảng Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1005": {
+    "origin_ward": "16363",
+    "origin_province": "38",
+    "origin_full": "1704, Đường Nguyễn Trãi, Xã Tượng Lĩnh, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_0841": {
+    "origin_ward": "04603",
+    "origin_province": "15",
+    "origin_full": "Xóm 1, Xã Tà Xi Láng, Huyện Trạm Tấu, Tỉnh Yên Bái",
+    "group": "a"
+  },
+  "UNGVIEN_1162": {
+    "origin_ward": "19945",
+    "origin_province": "46",
+    "origin_full": "Số 1928, Ngõ 30, Tổ 2, Đường Đinh Tiên Hoàng, Xã Phú Vinh, Thành phố Huế",
+    "group": "c"
+  },
+  "UNGVIEN_0959": {
+    "origin_ward": "30088",
+    "origin_province": "82",
+    "origin_full": "1198, Đường Phạm Văn Đồng, Xã Phong Mỹ, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_1187": {
+    "origin_ward": "08071",
+    "origin_province": "25",
+    "origin_full": "Số 2203, Ngõ 55, Tổ 7, Đường Trần Hưng Đạo, Xã Đan Thượng, Tỉnh Phú Thọ",
+    "group": "c"
+  },
+  "UNGVIEN_1086": {
+    "origin_ward": "29800",
+    "origin_province": "86",
+    "origin_full": "Số 1092, Ngõ 9, Tổ 6, Đường Hoàng Diệu, Xã Tân Quới, Tỉnh Vĩnh Long",
+    "group": "c"
+  },
+  "UNGVIEN_0966": {
+    "origin_ward": "01153",
+    "origin_province": "08",
+    "origin_full": "1275, Đường Cách Mạng Tháng Tám, Xã Bắc Quang, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_1160": {
+    "origin_ward": "15865",
+    "origin_province": "38",
+    "origin_full": "Số 1906, Ngõ 28, Tổ 10, Đường Điện Biên Phủ, Xã Hoằng Hóa, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_1124": {
+    "origin_ward": "25621",
+    "origin_province": "80",
+    "origin_full": "Số 1510, Ngõ 47, Tổ 4, Đường Cách Mạng Tháng Tám, Xã Ninh Điền, Tỉnh Tây Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_0852": {
+    "origin_ward": "16033",
+    "origin_province": "38",
+    "origin_full": "Xóm 4, Xã Cầu Lộc, Huyện Hậu Lộc, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_0947": {
+    "origin_ward": "30631",
+    "origin_province": "91",
+    "origin_full": "1066, Đường Lê Duẩn, Xã Long Điền, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_1158": {
+    "origin_ward": "24823",
+    "origin_province": "68",
+    "origin_full": "Số 1884, Ngõ 26, Tổ 8, Đường Hoàng Quốc Việt, Phường 1 Bảo Lộc, Tỉnh Lâm Đồng",
+    "group": "c"
+  },
+  "UNGVIEN_0806": {
+    "origin_ward": "02407",
+    "origin_province": "08",
+    "origin_full": "Xóm 6, Xã Thái Sơn, Huyện Hàm Yên, Tỉnh Tuyên Quang",
+    "group": "a"
+  },
+  "UNGVIEN_0998": {
+    "origin_ward": "20818",
+    "origin_province": "48",
+    "origin_full": "1627, Đường Cách Mạng Tháng Tám, Xã Đồng Dương, Thành phố Đà Nẵng",
+    "group": "b"
+  },
+  "UNGVIEN_0905": {
+    "origin_ward": "12508",
+    "origin_province": "34",
+    "origin_full": "Xóm 1, Xã Quỳnh Khê, Huyện Quỳnh Phụ, Tỉnh Thái Bình",
+    "group": "a"
+  },
+  "UNGVIEN_1157": {
+    "origin_ward": "02317",
+    "origin_province": "08",
+    "origin_full": "Số 1873, Ngõ 25, Tổ 7, Đường Lý Thường Kiệt, Xã Yên Lập, Tỉnh Tuyên Quang",
+    "group": "c"
+  },
+  "UNGVIEN_1074": {
+    "origin_ward": "23401",
+    "origin_province": "51",
+    "origin_full": "2463, Đường Phan Đình Phùng, Xã Đăk Tô, Tỉnh Quảng Ngãi",
+    "group": "b"
+  },
+  "UNGVIEN_0847": {
+    "origin_ward": "02569",
+    "origin_province": "08",
+    "origin_full": "Xóm 7, Xã Phúc Ứng, Huyện Sơn Dương, Tỉnh Tuyên Quang",
+    "group": "a"
+  },
+  "UNGVIEN_0952": {
+    "origin_ward": "28693",
+    "origin_province": "82",
+    "origin_full": "1121, Đường Hoàng Quốc Việt, Xã Tân Thới, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_1145": {
+    "origin_ward": "24916",
+    "origin_province": "68",
+    "origin_full": "Số 1741, Ngõ 13, Tổ 5, Đường Trần Phú, Xã Tân Hà Lâm Hà, Tỉnh Lâm Đồng",
+    "group": "c"
+  },
+  "UNGVIEN_1014": {
+    "origin_ward": "12763",
+    "origin_province": "33",
+    "origin_full": "1803, Đường Cách Mạng Tháng Tám, Xã Nam Tiên Hưng, Tỉnh Hưng Yên",
+    "group": "b"
+  },
+  "UNGVIEN_0826": {
+    "origin_ward": "30712",
+    "origin_province": "89",
+    "origin_full": "Xóm 2, Xã Mỹ Phú Đông, Huyện Thoại Sơn, Tỉnh An Giang",
+    "group": "a"
+  },
+  "UNGVIEN_0920": {
+    "origin_ward": "22324",
+    "origin_province": "54",
+    "origin_full": "Xóm 8, Xã Hòa Thắng, Huyện Phú Hòa, Tỉnh Phú Yên",
+    "group": "a"
+  },
+  "UNGVIEN_0967": {
+    "origin_ward": "23194",
+    "origin_province": "68",
+    "origin_full": "1286, Đường Lý Thường Kiệt, Xã Hoài Đức, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_0854": {
+    "origin_ward": "24517",
+    "origin_province": "66",
+    "origin_full": "Xóm 6, Xã Hòa Đông, Huyện Krông Pắc, Tỉnh Đắk Lắk",
+    "group": "a"
+  },
+  "UNGVIEN_1067": {
+    "origin_ward": "05482",
+    "origin_province": "19",
+    "origin_full": "2386, Đường Trần Phú, Phường Quan Triều, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_0897": {
+    "origin_ward": "29029",
+    "origin_province": "83",
+    "origin_full": "Xóm 1, Xã Tân Hào, Huyện Giồng Trôm, Tỉnh Bến Tre",
+    "group": "a"
+  },
+  "UNGVIEN_1066": {
+    "origin_ward": "14614",
+    "origin_province": "37",
+    "origin_full": "2375, Đường Điện Biên Phủ, Xã Khánh Hội, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0802": {
+    "origin_ward": "03070",
+    "origin_province": "10",
+    "origin_full": "Xóm 2, Xã Tân Thượng, Huyện Văn Bàn, Tỉnh Lào Cai",
+    "group": "a"
+  },
+  "UNGVIEN_0832": {
+    "origin_ward": "11758",
+    "origin_province": "31",
+    "origin_full": "Xóm 8, Xã Đại Thắng, Huyện Tiên Lãng, Thành phố Hải Phòng",
+    "group": "a"
+  },
+  "UNGVIEN_1079": {
+    "origin_ward": "04726",
+    "origin_province": "15",
+    "origin_full": "2518, Đường Lý Thường Kiệt, Xã Cảm Nhân, Tỉnh Lào Cai",
+    "group": "b"
+  },
+  "UNGVIEN_0834": {
+    "origin_ward": "28798",
+    "origin_province": "83",
+    "origin_full": "Xóm 2, Xã Phú Nhuận, Thành phố Bến Tre, Tỉnh Bến Tre",
+    "group": "a"
+  },
+  "UNGVIEN_0936": {
+    "origin_ward": "02911",
+    "origin_province": "10",
+    "origin_full": "Xóm 8, Xã Bản Phiệt, Huyện Bảo Thắng, Tỉnh Lào Cai",
+    "group": "a"
+  },
+  "UNGVIEN_1057": {
+    "origin_ward": "32248",
+    "origin_province": "96",
+    "origin_full": "2276, Đường Nguyễn Văn Cừ, Xã Đất Mũi, Tỉnh Cà Mau",
+    "group": "b"
+  },
+  "UNGVIEN_0859": {
+    "origin_ward": "13540",
+    "origin_province": "35",
+    "origin_full": "Xóm 3, Xã Bình An, Huyện Bình Lục, Tỉnh Hà Nam",
+    "group": "a"
+  },
+  "UNGVIEN_0865": {
+    "origin_ward": "24997",
+    "origin_province": "68",
+    "origin_full": "Xóm 1, Xã Ninh Loan, Huyện Đức Trọng, Tỉnh Lâm Đồng",
+    "group": "a"
+  },
+  "UNGVIEN_1190": {
+    "origin_ward": "15880",
+    "origin_province": "38",
+    "origin_full": "Số 2236, Ngõ 58, Tổ 10, Đường Hoàng Quốc Việt, Xã Hoằng Giang, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_0873": {
+    "origin_ward": "25492",
+    "origin_province": "72",
+    "origin_full": "Xóm 1, Xã Thạnh Bắc, Huyện Tân Biên, Tỉnh Tây Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1147": {
+    "origin_ward": "27937",
+    "origin_province": "80",
+    "origin_full": "Số 1763, Ngõ 15, Tổ 7, Đường Nguyễn Trãi, Xã Đức Hòa, Tỉnh Tây Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_0888": {
+    "origin_ward": "14065",
+    "origin_province": "36",
+    "origin_full": "Xóm 8, Xã Trực Thuận, Huyện Trực Ninh, Tỉnh Nam Định",
+    "group": "a"
+  },
+  "UNGVIEN_0982": {
+    "origin_ward": "12091",
+    "origin_province": "33",
+    "origin_full": "1451, Đường Cách Mạng Tháng Tám, Xã Việt Yên, Tỉnh Hưng Yên",
+    "group": "b"
+  },
+  "UNGVIEN_1083": {
+    "origin_ward": "04450",
+    "origin_province": "15",
+    "origin_full": "Số 1059, Ngõ 6, Tổ 3, Đường Nguyễn Trãi, Xã Mỏ Vàng, Tỉnh Lào Cai",
+    "group": "c"
+  },
+  "UNGVIEN_1175": {
+    "origin_ward": "24340",
+    "origin_province": "66",
+    "origin_full": "Số 2071, Ngõ 43, Tổ 5, Đường Nguyễn Huệ, Phường Cư Bao, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_1174": {
+    "origin_ward": "28285",
+    "origin_province": "82",
+    "origin_full": "Số 2060, Ngõ 42, Tổ 4, Đường Hoàng Quốc Việt, Phường Trung An, Tỉnh Đồng Tháp",
+    "group": "c"
+  },
+  "UNGVIEN_1138": {
+    "origin_ward": "00691",
+    "origin_province": "08",
+    "origin_full": "Số 1664, Ngõ 6, Tổ 8, Đường Lê Lợi, Phường Hà Giang 2, Tỉnh Tuyên Quang",
+    "group": "c"
+  },
+  "UNGVIEN_0919": {
+    "origin_ward": "03466",
+    "origin_province": "12",
+    "origin_full": "Xóm 7, Xã Bum Nưa, Huyện Mường Tè, Tỉnh Lai Châu",
+    "group": "a"
+  },
+  "UNGVIEN_0912": {
+    "origin_ward": "20875",
+    "origin_province": "49",
+    "origin_full": "Xóm 8, Xã Tiên Hiệp, Huyện Tiên Phước, Tỉnh Quảng Nam",
+    "group": "a"
+  },
+  "UNGVIEN_0948": {
+    "origin_ward": "11020",
+    "origin_province": "31",
+    "origin_full": "1077, Đường Lê Lợi, Xã Yết Kiêu, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_1194": {
+    "origin_ward": "05941",
+    "origin_province": "19",
+    "origin_full": "Số 2280, Ngõ 7, Tổ 4, Đường Đinh Tiên Hoàng, Xã Điềm Thụy, Tỉnh Thái Nguyên",
+    "group": "c"
+  },
+  "UNGVIEN_1036": {
+    "origin_ward": "12511",
+    "origin_province": "33",
+    "origin_full": "2045, Đường Đinh Tiên Hoàng, Xã Minh Thọ, Tỉnh Hưng Yên",
+    "group": "b"
+  },
+  "UNGVIEN_0911": {
+    "origin_ward": "28399",
+    "origin_province": "82",
+    "origin_full": "Xóm 7, Xã Hòa Khánh, Huyện Cái Bè, Tỉnh Tiền Giang",
+    "group": "a"
+  },
+  "UNGVIEN_0886": {
+    "origin_ward": "30341",
+    "origin_province": "89",
+    "origin_full": "Xóm 6, Thị trấn Long Bình, Huyện An Phú, Tỉnh An Giang",
+    "group": "a"
+  },
+  "UNGVIEN_1143": {
+    "origin_ward": "31201",
+    "origin_province": "92",
+    "origin_full": "Số 1719, Ngõ 11, Tổ 3, Đường Nguyễn Huệ, Phường Hưng Phú, Thành phố Cần Thơ",
+    "group": "c"
+  },
+  "UNGVIEN_0814": {
+    "origin_ward": "14296",
+    "origin_province": "36",
+    "origin_full": "Xóm 6, Xã Hải Giang, Huyện Hải Hậu, Tỉnh Nam Định",
+    "group": "a"
+  },
+  "UNGVIEN_1076": {
+    "origin_ward": "30814",
+    "origin_province": "91",
+    "origin_full": "2485, Đường Lê Lợi, Xã Hòn Nghệ, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_0954": {
+    "origin_ward": "21997",
+    "origin_province": "52",
+    "origin_full": "1143, Đường Điện Biên Phủ, Xã Canh Liên, Tỉnh Gia Lai",
+    "group": "b"
+  },
+  "UNGVIEN_0849": {
+    "origin_ward": "16414",
+    "origin_province": "38",
+    "origin_full": "Xóm 1, Phường Đông Thịnh, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_1041": {
+    "origin_ward": "23812",
+    "origin_province": "52",
+    "origin_full": "2100, Đường Nguyễn Văn Cừ, Xã Lơ Pang, Tỉnh Gia Lai",
+    "group": "b"
+  },
+  "UNGVIEN_0949": {
+    "origin_ward": "24343",
+    "origin_province": "66",
+    "origin_full": "1088, Đường Trần Hưng Đạo, Xã Krông Năng, Tỉnh Đắk Lắk",
+    "group": "b"
+  },
+  "UNGVIEN_0933": {
+    "origin_ward": "05101",
+    "origin_province": "17",
+    "origin_full": "Xóm 5, Xã Thu Phong, Huyện Cao Phong, Tỉnh Hòa Bình",
+    "group": "a"
+  },
+  "UNGVIEN_1137": {
+    "origin_ward": "30934",
+    "origin_province": "91",
+    "origin_full": "Số 1653, Ngõ 5, Tổ 7, Đường Lê Duẩn, Xã Hòa Hưng, Tỉnh An Giang",
+    "group": "c"
+  },
+  "UNGVIEN_1026": {
+    "origin_ward": "23500",
+    "origin_province": "51",
+    "origin_full": "1935, Đường Phan Đình Phùng, Xã Đăk Hà, Tỉnh Quảng Ngãi",
+    "group": "b"
+  },
+  "UNGVIEN_1193": {
+    "origin_ward": "27301",
+    "origin_province": "79",
+    "origin_full": "Số 2269, Ngõ 6, Tổ 3, Đường Trần Phú, Phường Chợ Quán, Thành phố Hồ Chí Minh",
+    "group": "c"
+  },
+  "UNGVIEN_0878": {
+    "origin_ward": "27049",
+    "origin_province": "79",
+    "origin_full": "Xóm 6, Phường 9, Quận Phú Nhuận, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_0892": {
+    "origin_ward": "16552",
+    "origin_province": "38",
+    "origin_full": "Xóm 4, Xã Quảng Nham, Huyện Quảng Xương, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_0887": {
+    "origin_ward": "23945",
+    "origin_province": "64",
+    "origin_full": "Xóm 7, Xã Chư Pơng, Huyện Chư Sê, Tỉnh Gia Lai",
+    "group": "a"
+  },
+  "UNGVIEN_1170": {
+    "origin_ward": "03388",
+    "origin_province": "12",
+    "origin_full": "Số 2016, Ngõ 38, Tổ 10, Đường Lê Lợi, Phường Đoàn Kết, Tỉnh Lai Châu",
+    "group": "c"
+  },
+  "UNGVIEN_1084": {
+    "origin_ward": "29593",
+    "origin_province": "86",
+    "origin_full": "Số 1070, Ngõ 7, Tổ 4, Đường Nguyễn Thị Minh Khai, Phường Tân Hạnh, Tỉnh Vĩnh Long",
+    "group": "c"
+  },
+  "UNGVIEN_0810": {
+    "origin_ward": "04042",
+    "origin_province": "14",
+    "origin_full": "Xóm 2, Xã Quang Minh, Huyện Vân Hồ, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_1144": {
+    "origin_ward": "18481",
+    "origin_province": "42",
+    "origin_full": "Số 1730, Ngõ 12, Tổ 4, Đường Điện Biên Phủ, Xã Xuân Lộc, Tỉnh Hà Tĩnh",
+    "group": "c"
+  },
+  "UNGVIEN_1163": {
+    "origin_ward": "31804",
+    "origin_province": "92",
+    "origin_full": "Số 1939, Ngõ 31, Tổ 3, Đường Nguyễn Trãi, Phường Vĩnh Phước, Thành phố Cần Thơ",
+    "group": "c"
+  },
+  "UNGVIEN_0901": {
+    "origin_ward": "17464",
+    "origin_province": "40",
+    "origin_full": "Xóm 5, Thị trấn Diễn Thành, Huyện Diễn Châu, Tỉnh Nghệ An",
+    "group": "a"
+  },
+  "UNGVIEN_1109": {
+    "origin_ward": "26311",
+    "origin_province": "75",
+    "origin_full": "Số 1345, Ngõ 32, Tổ 9, Đường Lý Thường Kiệt, Xã Gia Kiệm, Tỉnh Đồng Nai",
+    "group": "c"
+  },
+  "UNGVIEN_0984": {
+    "origin_ward": "11224",
+    "origin_province": "31",
+    "origin_full": "1473, Đường Hoàng Quốc Việt, Xã Khúc Thừa Dụ, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_1063": {
+    "origin_ward": "15658",
+    "origin_province": "38",
+    "origin_full": "2342, Đường Lý Thường Kiệt, Xã Xuân Chinh, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_1061": {
+    "origin_ward": "31246",
+    "origin_province": "92",
+    "origin_full": "2320, Đường Trần Hưng Đạo, Xã Thạnh Quới, Thành phố Cần Thơ",
+    "group": "b"
+  },
+  "UNGVIEN_0861": {
+    "origin_ward": "00616",
+    "origin_province": "01",
+    "origin_full": "Xóm 5, Phường Cổ Nhuế 1, Quận Bắc Từ Liêm, Thành phố Hà Nội",
+    "group": "a"
+  },
+  "UNGVIEN_1122": {
+    "origin_ward": "01912",
+    "origin_province": "19",
+    "origin_full": "Số 1488, Ngõ 45, Tổ 2, Đường Lê Lợi, Xã Chợ Rã, Tỉnh Thái Nguyên",
+    "group": "c"
+  },
+  "UNGVIEN_1082": {
+    "origin_ward": "20941",
+    "origin_province": "48",
+    "origin_full": "Số 1048, Ngõ 5, Tổ 2, Đường Đinh Tiên Hoàng, Xã Trà Tập, Thành phố Đà Nẵng",
+    "group": "c"
+  },
+  "UNGVIEN_0850": {
+    "origin_ward": "22051",
+    "origin_province": "54",
+    "origin_full": "Xóm 2, Phường Xuân Phú, Thị xã Sông Cầu, Tỉnh Phú Yên",
+    "group": "a"
+  },
+  "UNGVIEN_1140": {
+    "origin_ward": "16801",
+    "origin_province": "40",
+    "origin_full": "Số 1686, Ngõ 8, Tổ 10, Đường Cách Mạng Tháng Tám, Xã Hùng Chân, Tỉnh Nghệ An",
+    "group": "c"
+  },
+  "UNGVIEN_1058": {
+    "origin_ward": "15667",
+    "origin_province": "38",
+    "origin_full": "2287, Đường Phan Đình Phùng, Xã Thọ Bình, Tỉnh Thanh Hóa",
+    "group": "b"
+  },
+  "UNGVIEN_1184": {
+    "origin_ward": "07954",
+    "origin_province": "25",
+    "origin_full": "Số 2170, Ngõ 52, Tổ 4, Đường Phan Đình Phùng, Phường Phong Châu, Tỉnh Phú Thọ",
+    "group": "c"
+  },
+  "UNGVIEN_1040": {
+    "origin_ward": "23764",
+    "origin_province": "52",
+    "origin_full": "2089, Đường Hoàng Diệu, Xã Ia Grai, Tỉnh Gia Lai",
+    "group": "b"
+  },
+  "UNGVIEN_1080": {
+    "origin_ward": "22981",
+    "origin_province": "68",
+    "origin_full": "2529, Đường Hoàng Quốc Việt, Xã Vĩnh Hảo, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_1088": {
+    "origin_ward": "01225",
+    "origin_province": "08",
+    "origin_full": "Số 1114, Ngõ 11, Tổ 8, Đường Phan Đình Phùng, Xã Tiên Nguyên, Tỉnh Tuyên Quang",
+    "group": "c"
+  },
+  "UNGVIEN_0898": {
+    "origin_ward": "03859",
+    "origin_province": "14",
+    "origin_full": "Xóm 2, Xã Phiêng Ban, Huyện Bắc Yên, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_1093": {
+    "origin_ward": "24313",
+    "origin_province": "66",
+    "origin_full": "Số 1169, Ngõ 16, Tổ 3, Đường Lý Thường Kiệt, Xã Cư Pơng, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_0828": {
+    "origin_ward": "26518",
+    "origin_province": "77",
+    "origin_full": "Xóm 4, Phường 5, Thành phố Vũng Tàu, Tỉnh Bà Rịa - Vũng Tàu",
+    "group": "a"
+  },
+  "UNGVIEN_0853": {
+    "origin_ward": "15136",
+    "origin_province": "38",
+    "origin_full": "Xóm 5, Xã Cẩm Quý, Huyện Cẩm Thủy, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_1020": {
+    "origin_ward": "13132",
+    "origin_province": "33",
+    "origin_full": "1869, Đường Đinh Tiên Hoàng, Xã Quang Lịch, Tỉnh Hưng Yên",
+    "group": "b"
+  },
+  "UNGVIEN_0815": {
+    "origin_ward": "02728",
+    "origin_province": "10",
+    "origin_full": "Xóm 7, Xã Mường Hum, Huyện Bát Xát, Tỉnh Lào Cai",
+    "group": "a"
+  },
+  "UNGVIEN_0844": {
+    "origin_ward": "04045",
+    "origin_province": "14",
+    "origin_full": "Xóm 4, Xã Lóng Sập, Thị xã Mộc Châu, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_0829": {
+    "origin_ward": "21655",
+    "origin_province": "52",
+    "origin_full": "Xóm 5, Phường Tam Quan Bắc, Thị xã Hoài Nhơn, Tỉnh Bình Định",
+    "group": "a"
+  },
+  "UNGVIEN_0910": {
+    "origin_ward": "02767",
+    "origin_province": "10",
+    "origin_full": "Xóm 6, Xã Tả Gia Khâu, Huyện Mường Khương, Tỉnh Lào Cai",
+    "group": "a"
+  },
+  "UNGVIEN_1134": {
+    "origin_ward": "22963",
+    "origin_province": "68",
+    "origin_full": "Số 1620, Ngõ 57, Tổ 4, Đường Hoàng Diệu, Xã Tuyên Quang, Tỉnh Lâm Đồng",
+    "group": "c"
+  },
+  "UNGVIEN_0822": {
+    "origin_ward": "22594",
+    "origin_province": "56",
+    "origin_full": "Xóm 6, Phường Ninh Hà, Thị xã Ninh Hòa, Tỉnh Khánh Hòa",
+    "group": "a"
+  },
+  "UNGVIEN_0935": {
+    "origin_ward": "25993",
+    "origin_province": "75",
+    "origin_full": "Xóm 7, Phường Trảng Dài, Thành phố Biên Hòa, Tỉnh Đồng Nai",
+    "group": "a"
+  },
+  "UNGVIEN_0817": {
+    "origin_ward": "26680",
+    "origin_province": "77",
+    "origin_full": "Xóm 1, Thị trấn Đất Đỏ, Huyện Long Đất, Tỉnh Bà Rịa - Vũng Tàu",
+    "group": "a"
+  },
+  "UNGVIEN_0917": {
+    "origin_ward": "09364",
+    "origin_province": "27",
+    "origin_full": "Xóm 5, Xã Cảnh Hưng, Huyện Tiên Du, Tỉnh Bắc Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1013": {
+    "origin_ward": "23272",
+    "origin_province": "68",
+    "origin_full": "1792, Đường Trần Hưng Đạo, Đặc khu Phú Quý, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_0831": {
+    "origin_ward": "21049",
+    "origin_province": "51",
+    "origin_full": "Xóm 7, Xã Bình Đông, Huyện Bình Sơn, Tỉnh Quảng Ngãi",
+    "group": "a"
+  },
+  "UNGVIEN_1075": {
+    "origin_ward": "01936",
+    "origin_province": "19",
+    "origin_full": "2474, Đường Lê Duẩn, Xã Nà Phặc, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_1132": {
+    "origin_ward": "21340",
+    "origin_province": "51",
+    "origin_full": "Số 1598, Ngõ 55, Tổ 2, Đường Nguyễn Thị Minh Khai, Xã Sơn Tây, Tỉnh Quảng Ngãi",
+    "group": "c"
+  },
+  "UNGVIEN_1052": {
+    "origin_ward": "18352",
+    "origin_province": "42",
+    "origin_full": "2221, Đường Đinh Tiên Hoàng, Xã Nghi Xuân, Tỉnh Hà Tĩnh",
+    "group": "b"
+  },
+  "UNGVIEN_1003": {
+    "origin_ward": "31567",
+    "origin_province": "92",
+    "origin_full": "1682, Đường Trần Phú, Xã Mỹ Tú, Thành phố Cần Thơ",
+    "group": "b"
+  },
+  "UNGVIEN_0931": {
+    "origin_ward": "17029",
+    "origin_province": "40",
+    "origin_full": "Xóm 3, Xã Nghĩa Lộc, Huyện Nghĩa Đàn, Tỉnh Nghệ An",
+    "group": "a"
+  },
+  "UNGVIEN_1017": {
+    "origin_ward": "21124",
+    "origin_province": "51",
+    "origin_full": "1836, Đường Nguyễn Huệ, Xã Thanh Bồng, Tỉnh Quảng Ngãi",
+    "group": "b"
+  },
+  "UNGVIEN_0882": {
+    "origin_ward": "11083",
+    "origin_province": "30",
+    "origin_full": "Xóm 2, Xã Đại Sơn, Huyện Tứ Kỳ, Tỉnh Hải Dương",
+    "group": "a"
+  },
+  "UNGVIEN_1090": {
+    "origin_ward": "19681",
+    "origin_province": "44",
+    "origin_full": "Số 1136, Ngõ 13, Tổ 10, Đường Lê Lợi, Xã Diên Sanh, Tỉnh Quảng Trị",
+    "group": "c"
+  },
+  "UNGVIEN_1166": {
+    "origin_ward": "24265",
+    "origin_province": "66",
+    "origin_full": "Số 1972, Ngõ 34, Tổ 6, Đường Hoàng Diệu, Xã Ea Kiết, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_0921": {
+    "origin_ward": "15352",
+    "origin_province": "38",
+    "origin_full": "Xóm 1, Xã Vĩnh Quang, Huyện Vĩnh Lộc, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_0962": {
+    "origin_ward": "13120",
+    "origin_province": "33",
+    "origin_full": "1231, Đường Phan Đình Phùng, Xã Lê Lợi, Tỉnh Hưng Yên",
+    "group": "b"
+  },
+  "UNGVIEN_1113": {
+    "origin_ward": "20587",
+    "origin_province": "48",
+    "origin_full": "Số 1389, Ngõ 36, Tổ 3, Đường Trần Phú, Xã Gò Nổi, Thành phố Đà Nẵng",
+    "group": "c"
+  },
+  "UNGVIEN_0991": {
+    "origin_ward": "10804",
+    "origin_province": "31",
+    "origin_full": "1550, Đường Phạm Văn Đồng, Xã Kim Thành, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_1031": {
+    "origin_ward": "28603",
+    "origin_province": "82",
+    "origin_full": "1990, Đường Lý Thường Kiệt, Xã Mỹ Tịnh An, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_1191": {
+    "origin_ward": "15421",
+    "origin_province": "38",
+    "origin_full": "Số 2247, Ngõ 4, Tổ 1, Đường Nguyễn Huệ, Xã Yên Trường, Tỉnh Thanh Hóa",
+    "group": "c"
+  },
+  "UNGVIEN_1030": {
+    "origin_ward": "28504",
+    "origin_province": "82",
+    "origin_full": "1979, Đường Cách Mạng Tháng Tám, Xã Long Tiên, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_0894": {
+    "origin_ward": "22040",
+    "origin_province": "54",
+    "origin_full": "Xóm 6, Phường Phú Thạnh, Thành phố Tuy Hòa, Tỉnh Phú Yên",
+    "group": "a"
+  },
+  "UNGVIEN_1125": {
+    "origin_ward": "19813",
+    "origin_province": "46",
+    "origin_full": "Số 1521, Ngõ 48, Tổ 5, Đường Lý Thường Kiệt, Phường Thủy Xuân, Thành phố Huế",
+    "group": "c"
+  },
+  "UNGVIEN_1002": {
+    "origin_ward": "24895",
+    "origin_province": "68",
+    "origin_full": "1671, Đường Điện Biên Phủ, Xã Phú Sơn Lâm Hà, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_0989": {
+    "origin_ward": "27994",
+    "origin_province": "80",
+    "origin_full": "1528, Đường Nguyễn Trãi, Xã Thạnh Lợi, Tỉnh Tây Ninh",
+    "group": "b"
+  },
+  "UNGVIEN_0988": {
+    "origin_ward": "02215",
+    "origin_province": "08",
+    "origin_full": "1517, Đường Đinh Tiên Hoàng, Phường Minh Xuân, Tỉnh Tuyên Quang",
+    "group": "b"
+  },
+  "UNGVIEN_0856": {
+    "origin_ward": "18886",
+    "origin_province": "44",
+    "origin_full": "Xóm 8, Xã Lộc Ninh, Thành phố Đồng Hới, Tỉnh Quảng Bình",
+    "group": "a"
+  },
+  "UNGVIEN_1176": {
+    "origin_ward": "06001",
+    "origin_province": "20",
+    "origin_full": "Số 2082, Ngõ 44, Tổ 6, Đường Điện Biên Phủ, Xã Đoàn Kết, Tỉnh Lạng Sơn",
+    "group": "c"
+  },
+  "UNGVIEN_0843": {
+    "origin_ward": "29860",
+    "origin_province": "86",
+    "origin_full": "Xóm 3, Xã Tích Thiện, Huyện Trà Ôn, Tỉnh Vĩnh Long",
+    "group": "a"
+  },
+  "UNGVIEN_1192": {
+    "origin_ward": "24154",
+    "origin_province": "66",
+    "origin_full": "Số 2258, Ngõ 5, Tổ 2, Đường Điện Biên Phủ, Phường Thành Nhất, Tỉnh Đắk Lắk",
+    "group": "c"
+  },
+  "UNGVIEN_1015": {
+    "origin_ward": "30760",
+    "origin_province": "91",
+    "origin_full": "1814, Đường Lý Thường Kiệt, Phường Vĩnh Thông, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_1012": {
+    "origin_ward": "23767",
+    "origin_province": "52",
+    "origin_full": "1781, Đường Lê Lợi, Xã Ia Hrung, Tỉnh Gia Lai",
+    "group": "b"
+  },
+  "UNGVIEN_1197": {
+    "origin_ward": "13063",
+    "origin_province": "33",
+    "origin_full": "Số 2313, Ngõ 10, Tổ 7, Đường Phạm Văn Đồng, Xã Nam Tiền Hải, Tỉnh Hưng Yên",
+    "group": "c"
+  },
+  "UNGVIEN_0870": {
+    "origin_ward": "14821",
+    "origin_province": "38",
+    "origin_full": "Xóm 6, Phường Đông Sơn, Thị xã Bỉm Sơn, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_1198": {
+    "origin_ward": "20017",
+    "origin_province": "46",
+    "origin_full": "Số 2324, Ngõ 11, Tổ 8, Đường Hoàng Diệu, Phường Kim Trà, Thành phố Huế",
+    "group": "c"
+  },
+  "UNGVIEN_1068": {
+    "origin_ward": "30823",
+    "origin_province": "91",
+    "origin_full": "2397, Đường Đinh Tiên Hoàng, Xã Bình Sơn, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_1128": {
+    "origin_ward": "10552",
+    "origin_province": "31",
+    "origin_full": "Số 1554, Ngõ 51, Tổ 8, Đường Điện Biên Phủ, Phường Nguyễn Trãi, Thành phố Hải Phòng",
+    "group": "c"
+  },
+  "UNGVIEN_0895": {
+    "origin_ward": "29335",
+    "origin_province": "84",
+    "origin_full": "Xóm 7, Xã Thông Hòa, Huyện Cầu Kè, Tỉnh Trà Vinh",
+    "group": "a"
+  },
+  "UNGVIEN_1001": {
+    "origin_ward": "17284",
+    "origin_province": "40",
+    "origin_full": "1660, Đường Nguyễn Huệ, Xã Nghĩa Đồng, Tỉnh Nghệ An",
+    "group": "b"
+  },
+  "UNGVIEN_1133": {
+    "origin_ward": "31591",
+    "origin_province": "92",
+    "origin_full": "Số 1609, Ngõ 56, Tổ 3, Đường Phạm Văn Đồng, Xã Mỹ Hương, Thành phố Cần Thơ",
+    "group": "c"
+  },
+  "UNGVIEN_0927": {
+    "origin_ward": "07405",
+    "origin_province": "24",
+    "origin_full": "Xóm 7, Xã Hương Lạc, Huyện Lạng Giang, Tỉnh Bắc Giang",
+    "group": "a"
+  },
+  "UNGVIEN_0872": {
+    "origin_ward": "25326",
+    "origin_province": "70",
+    "origin_full": "Xóm 8, Phường Phú Đức, Thị xã Bình Long, Tỉnh Bình Phước",
+    "group": "a"
+  },
+  "UNGVIEN_1112": {
+    "origin_ward": "00475",
+    "origin_province": "01",
+    "origin_full": "Số 1378, Ngõ 35, Tổ 2, Đường Điện Biên Phủ, Xã Thư Lâm, Thành phố Hà Nội",
+    "group": "c"
+  },
+  "UNGVIEN_1023": {
+    "origin_ward": "12685",
+    "origin_province": "33",
+    "origin_full": "1902, Đường Phạm Văn Đồng, Xã Hồng Minh, Tỉnh Hưng Yên",
+    "group": "b"
+  },
+  "UNGVIEN_1171": {
+    "origin_ward": "18949",
+    "origin_province": "44",
+    "origin_full": "Số 2027, Ngõ 39, Tổ 1, Đường Trần Hưng Đạo, Xã Đồng Lê, Tỉnh Quảng Trị",
+    "group": "c"
+  },
+  "UNGVIEN_0855": {
+    "origin_ward": "02293",
+    "origin_province": "08",
+    "origin_full": "Xóm 7, Xã Hồng Quang, Huyện Lâm Bình, Tỉnh Tuyên Quang",
+    "group": "a"
+  },
+  "UNGVIEN_0883": {
+    "origin_ward": "22252",
+    "origin_province": "54",
+    "origin_full": "Xóm 3, Xã Hòa Bình 1, Huyện Tây Hòa, Tỉnh Phú Yên",
+    "group": "a"
+  },
+  "UNGVIEN_0881": {
+    "origin_ward": "31723",
+    "origin_province": "94",
+    "origin_full": "Xóm 1, Xã Ngọc Tố, Huyện Mỹ Xuyên, Tỉnh Sóc Trăng",
+    "group": "a"
+  },
+  "UNGVIEN_1116": {
+    "origin_ward": "09208",
+    "origin_province": "24",
+    "origin_full": "Số 1422, Ngõ 39, Tổ 6, Đường Nguyễn Thị Minh Khai, Xã Tam Đa, Tỉnh Bắc Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_0821": {
+    "origin_ward": "31633",
+    "origin_province": "94",
+    "origin_full": "Xóm 5, Xã An Thạnh 3, Huyện Cù Lao Dung, Tỉnh Sóc Trăng",
+    "group": "a"
+  },
+  "UNGVIEN_0968": {
+    "origin_ward": "03508",
+    "origin_province": "12",
+    "origin_full": "1297, Đường Hoàng Quốc Việt, Xã Hồng Thu, Tỉnh Lai Châu",
+    "group": "b"
+  },
+  "UNGVIEN_0904": {
+    "origin_ward": "00988",
+    "origin_province": "02",
+    "origin_full": "Xóm 8, Xã Yên Định, Huyện Bắc Mê, Tỉnh Hà Giang",
+    "group": "a"
+  },
+  "UNGVIEN_0889": {
+    "origin_ward": "25657",
+    "origin_province": "72",
+    "origin_full": "Xóm 1, Xã Thạnh Đức, Huyện Gò Dầu, Tỉnh Tây Ninh",
+    "group": "a"
+  },
+  "UNGVIEN_1095": {
+    "origin_ward": "05287",
+    "origin_province": "25",
+    "origin_full": "Số 1191, Ngõ 18, Tổ 5, Đường Nguyễn Huệ, Xã Mường Vang, Tỉnh Phú Thọ",
+    "group": "c"
+  },
+  "UNGVIEN_0819": {
+    "origin_ward": "29980",
+    "origin_province": "87",
+    "origin_full": "Xóm 3, Xã Long Khánh A, Huyện Hồng Ngự, Tỉnh Đồng Tháp",
+    "group": "a"
+  },
+  "UNGVIEN_0903": {
+    "origin_ward": "28492",
+    "origin_province": "82",
+    "origin_full": "Xóm 7, Xã Phú An, Huyện Cai Lậy, Tỉnh Tiền Giang",
+    "group": "a"
+  },
+  "UNGVIEN_1183": {
+    "origin_ward": "30325",
+    "origin_province": "91",
+    "origin_full": "Số 2159, Ngõ 51, Tổ 3, Đường Nguyễn Văn Cừ, Phường Vĩnh Tế, Tỉnh An Giang",
+    "group": "c"
+  },
+  "UNGVIEN_0943": {
+    "origin_ward": "11761",
+    "origin_province": "31",
+    "origin_full": "1022, Đường Phạm Văn Đồng, Xã Quyết Thắng, Thành phố Hải Phòng",
+    "group": "b"
+  },
+  "UNGVIEN_0875": {
+    "origin_ward": "00073",
+    "origin_province": "01",
+    "origin_full": "Xóm 3, Phường Cửa Nam, Quận Hoàn Kiếm, Thành phố Hà Nội",
+    "group": "a"
+  },
+  "UNGVIEN_0985": {
+    "origin_ward": "29329",
+    "origin_province": "86",
+    "origin_full": "1484, Đường Nguyễn Huệ, Xã Phong Thạnh, Tỉnh Vĩnh Long",
+    "group": "b"
+  },
+  "UNGVIEN_1091": {
+    "origin_ward": "09856",
+    "origin_province": "01",
+    "origin_full": "Số 1147, Ngõ 14, Tổ 1, Đường Trần Hưng Đạo, Xã Dương Hòa, Thành phố Hà Nội",
+    "group": "c"
+  },
+  "UNGVIEN_1104": {
+    "origin_ward": "03160",
+    "origin_province": "11",
+    "origin_full": "Số 1290, Ngõ 27, Tổ 4, Đường Phan Đình Phùng, Xã Mường Nhé, Tỉnh Điện Biên",
+    "group": "c"
+  },
+  "UNGVIEN_0902": {
+    "origin_ward": "16510",
+    "origin_province": "38",
+    "origin_full": "Xóm 6, Xã Quảng Phúc, Huyện Quảng Xương, Tỉnh Thanh Hóa",
+    "group": "a"
+  },
+  "UNGVIEN_1042": {
+    "origin_ward": "03434",
+    "origin_province": "12",
+    "origin_full": "2111, Đường Phan Đình Phùng, Xã Nậm Hàng, Tỉnh Lai Châu",
+    "group": "b"
+  },
+  "UNGVIEN_1092": {
+    "origin_ward": "26732",
+    "origin_province": "79",
+    "origin_full": "Số 1158, Ngõ 15, Tổ 2, Đường Cách Mạng Tháng Tám, Đặc khu Côn Đảo, Thành phố Hồ Chí Minh",
+    "group": "c"
+  },
+  "UNGVIEN_0979": {
+    "origin_ward": "25105",
+    "origin_province": "68",
+    "origin_full": "1418, Đường Lê Duẩn, Xã Đạ Huoai 2, Tỉnh Lâm Đồng",
+    "group": "b"
+  },
+  "UNGVIEN_1094": {
+    "origin_ward": "22615",
+    "origin_province": "56",
+    "origin_full": "Số 1180, Ngõ 17, Tổ 4, Đường Hoàng Quốc Việt, Xã Bắc Khánh Vĩnh, Tỉnh Khánh Hòa",
+    "group": "c"
+  },
+  "UNGVIEN_0906": {
+    "origin_ward": "27970",
+    "origin_province": "80",
+    "origin_full": "Xóm 2, Xã Hòa Khánh Tây, Huyện Đức Hòa, Tỉnh Long An",
+    "group": "a"
+  },
+  "UNGVIEN_0805": {
+    "origin_ward": "02197",
+    "origin_province": "06",
+    "origin_full": "Xóm 5, Xã Liêm Thủy, Huyện Na Rì, Tỉnh Bắc Kạn",
+    "group": "a"
+  },
+  "UNGVIEN_0812": {
+    "origin_ward": "31540",
+    "origin_province": "94",
+    "origin_full": "Xóm 4, Xã An Lạc Tây, Huyện Kế Sách, Tỉnh Sóc Trăng",
+    "group": "a"
+  },
+  "UNGVIEN_0922": {
+    "origin_ward": "17284",
+    "origin_province": "40",
+    "origin_full": "Xóm 2, Xã Nghĩa Đồng, Huyện Tân Kỳ, Tỉnh Nghệ An",
+    "group": "a"
+  },
+  "UNGVIEN_0914": {
+    "origin_ward": "32155",
+    "origin_province": "96",
+    "origin_full": "Xóm 2, Xã Tạ An Khương, Huyện Đầm Dơi, Tỉnh Cà Mau",
+    "group": "a"
+  },
+  "UNGVIEN_0940": {
+    "origin_ward": "26995",
+    "origin_province": "79",
+    "origin_full": "Xóm 4, Phường 6, Quận Tân Bình, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_0869": {
+    "origin_ward": "17902",
+    "origin_province": "40",
+    "origin_full": "Xóm 5, Xã Nghi Phong, Thành phố Vinh, Tỉnh Nghệ An",
+    "group": "a"
+  },
+  "UNGVIEN_0918": {
+    "origin_ward": "16747",
+    "origin_province": "40",
+    "origin_full": "Xóm 6, Xã Hạnh Dịch, Huyện Quế Phong, Tỉnh Nghệ An",
+    "group": "a"
+  },
+  "UNGVIEN_1050": {
+    "origin_ward": "05692",
+    "origin_province": "19",
+    "origin_full": "2199, Đường Điện Biên Phủ, Xã Đồng Hỷ, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_1107": {
+    "origin_ward": "14104",
+    "origin_province": "37",
+    "origin_full": "Số 1323, Ngõ 30, Tổ 7, Đường Trần Hưng Đạo, Xã Xuân Giang, Tỉnh Ninh Bình",
+    "group": "c"
+  },
+  "UNGVIEN_1037": {
+    "origin_ward": "30478",
+    "origin_province": "91",
+    "origin_full": "2056, Đường Nguyễn Trãi, Xã Vĩnh Thạnh Trung, Tỉnh An Giang",
+    "group": "b"
+  },
+  "UNGVIEN_0938": {
+    "origin_ward": "02437",
+    "origin_province": "08",
+    "origin_full": "Xóm 2, Xã Kiến Thiết, Huyện Yên Sơn, Tỉnh Tuyên Quang",
+    "group": "a"
+  },
+  "UNGVIEN_0804": {
+    "origin_ward": "00217",
+    "origin_province": "01",
+    "origin_full": "Xóm 4, Phường Trung Liệt, Quận Đống Đa, Thành phố Hà Nội",
+    "group": "a"
+  },
+  "UNGVIEN_0986": {
+    "origin_ward": "13291",
+    "origin_province": "37",
+    "origin_full": "1495, Đường Điện Biên Phủ, Phường Phù Vân, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0890": {
+    "origin_ward": "27130",
+    "origin_province": "79",
+    "origin_full": "Xóm 2, Phường 12, Quận 3, Thành phố Hồ Chí Minh",
+    "group": "a"
+  },
+  "UNGVIEN_0818": {
+    "origin_ward": "23539",
+    "origin_province": "62",
+    "origin_full": "Xóm 2, Xã Sa Sơn, Huyện Sa Thầy, Tỉnh Kon Tum",
+    "group": "a"
+  },
+  "UNGVIEN_1032": {
+    "origin_ward": "26584",
+    "origin_province": "79",
+    "origin_full": "2001, Đường Hoàng Quốc Việt, Xã Xuân Sơn, Thành phố Hồ Chí Minh",
+    "group": "b"
+  },
+  "UNGVIEN_1182": {
+    "origin_ward": "28525",
+    "origin_province": "82",
+    "origin_full": "Số 2148, Ngõ 50, Tổ 2, Đường Hoàng Diệu, Xã Tân Hương, Tỉnh Đồng Tháp",
+    "group": "c"
+  },
+  "UNGVIEN_0840": {
+    "origin_ward": "29800",
+    "origin_province": "86",
+    "origin_full": "Xóm 8, Thị trấn Tân Quới, Huyện Bình Tân, Tỉnh Vĩnh Long",
+    "group": "a"
+  },
+  "UNGVIEN_0978": {
+    "origin_ward": "18781",
+    "origin_province": "42",
+    "origin_full": "1407, Đường Phan Đình Phùng, Phường Hải Ninh, Tỉnh Hà Tĩnh",
+    "group": "b"
+  },
+  "UNGVIEN_0975": {
+    "origin_ward": "00235",
+    "origin_province": "01",
+    "origin_full": "1374, Đường Phạm Văn Đồng, Phường Đống Đa, Thành phố Hà Nội",
+    "group": "b"
+  },
+  "UNGVIEN_0871": {
+    "origin_ward": "03940",
+    "origin_province": "14",
+    "origin_full": "Xóm 7, Xã Huy Tường, Huyện Phù Yên, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_0965": {
+    "origin_ward": "14524",
+    "origin_province": "37",
+    "origin_full": "1264, Đường Trần Hưng Đạo, Xã Gia Phong, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_0958": {
+    "origin_ward": "03871",
+    "origin_province": "14",
+    "origin_full": "1187, Đường Nguyễn Thị Minh Khai, Xã Pắc Ngà, Tỉnh Sơn La",
+    "group": "b"
+  },
+  "UNGVIEN_0956": {
+    "origin_ward": "14089",
+    "origin_province": "37",
+    "origin_full": "1165, Đường Đinh Tiên Hoàng, Xã Xuân Trường, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1064": {
+    "origin_ward": "08110",
+    "origin_province": "25",
+    "origin_full": "2353, Đường Hoàng Quốc Việt, Xã Hiền Lương, Tỉnh Phú Thọ",
+    "group": "b"
+  },
+  "UNGVIEN_0916": {
+    "origin_ward": "25372",
+    "origin_province": "70",
+    "origin_full": "Xóm 4, Xã Tân Phước, Huyện Đồng Phú, Tỉnh Bình Phước",
+    "group": "a"
+  },
+  "UNGVIEN_0950": {
+    "origin_ward": "07381",
+    "origin_province": "24",
+    "origin_full": "1099, Đường Cách Mạng Tháng Tám, Xã Tiên Lục, Tỉnh Bắc Ninh",
+    "group": "b"
+  },
+  "UNGVIEN_0827": {
+    "origin_ward": "26098",
+    "origin_province": "75",
+    "origin_full": "Xóm 3, Phường Bảo Vinh, Thành phố Long Khánh, Tỉnh Đồng Nai",
+    "group": "a"
+  },
+  "UNGVIEN_0926": {
+    "origin_ward": "03805",
+    "origin_province": "14",
+    "origin_full": "Xóm 6, Xã Bản Lầm, Huyện Thuận Châu, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_0944": {
+    "origin_ward": "30076",
+    "origin_province": "82",
+    "origin_full": "1033, Đường Hoàng Diệu, Xã Mỹ Thọ, Tỉnh Đồng Tháp",
+    "group": "b"
+  },
+  "UNGVIEN_0874": {
+    "origin_ward": "04135",
+    "origin_province": "14",
+    "origin_full": "Xóm 2, Xã Hát Lót, Huyện Mai Sơn, Tỉnh Sơn La",
+    "group": "a"
+  },
+  "UNGVIEN_1127": {
+    "origin_ward": "07642",
+    "origin_province": "24",
+    "origin_full": "Số 1543, Ngõ 50, Tổ 7, Đường Nguyễn Huệ, Xã Yên Định, Tỉnh Bắc Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_0857": {
+    "origin_ward": "02047",
+    "origin_province": "06",
+    "origin_full": "Xóm 1, Xã Yên Thượng, Huyện Chợ Đồn, Tỉnh Bắc Kạn",
+    "group": "a"
+  },
+  "UNGVIEN_0937": {
+    "origin_ward": "28651",
+    "origin_province": "82",
+    "origin_full": "Xóm 1, Thị trấn Vĩnh Bình, Huyện Gò Công Tây, Tỉnh Tiền Giang",
+    "group": "a"
+  },
+  "UNGVIEN_0999": {
+    "origin_ward": "14359",
+    "origin_province": "37",
+    "origin_full": "1638, Đường Lý Thường Kiệt, Phường Nam Hoa Lư, Tỉnh Ninh Bình",
+    "group": "b"
+  },
+  "UNGVIEN_1099": {
+    "origin_ward": "09469",
+    "origin_province": "24",
+    "origin_full": "Số 1235, Ngõ 22, Tổ 9, Đường Nguyễn Trãi, Xã Đại Lai, Tỉnh Bắc Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_1168": {
+    "origin_ward": "27457",
+    "origin_province": "79",
+    "origin_full": "Số 1994, Ngõ 36, Tổ 8, Đường Phan Đình Phùng, Phường Tân Tạo, Thành phố Hồ Chí Minh",
+    "group": "c"
+  },
+  "UNGVIEN_1141": {
+    "origin_ward": "09205",
+    "origin_province": "24",
+    "origin_full": "Số 1697, Ngõ 9, Tổ 1, Đường Lý Thường Kiệt, Xã Yên Trung, Tỉnh Bắc Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_1189": {
+    "origin_ward": "12142",
+    "origin_province": "33",
+    "origin_full": "Số 2225, Ngõ 57, Tổ 9, Đường Lý Thường Kiệt, Xã Ân Thi, Tỉnh Hưng Yên",
+    "group": "c"
+  },
+  "UNGVIEN_1098": {
+    "origin_ward": "25645",
+    "origin_province": "80",
+    "origin_full": "Số 1224, Ngõ 21, Tổ 8, Đường Đinh Tiên Hoàng, Phường Hòa Thành, Tỉnh Tây Ninh",
+    "group": "c"
+  },
+  "UNGVIEN_0880": {
+    "origin_ward": "07456",
+    "origin_province": "24",
+    "origin_full": "Xóm 8, Xã Tam Dị, Huyện Lục Nam, Tỉnh Bắc Giang",
+    "group": "a"
+  },
+  "UNGVIEN_1108": {
+    "origin_ward": "04006",
+    "origin_province": "14",
+    "origin_full": "Số 1334, Ngõ 31, Tổ 8, Đường Cách Mạng Tháng Tám, Xã Song Khủa, Tỉnh Sơn La",
+    "group": "c"
+  },
+  "UNGVIEN_1120": {
+    "origin_ward": "04897",
+    "origin_province": "25",
+    "origin_full": "Số 1466, Ngõ 43, Tổ 10, Đường Phan Đình Phùng, Xã Thịnh Minh, Tỉnh Phú Thọ",
+    "group": "c"
+  },
+  "UNGVIEN_1059": {
+    "origin_ward": "02086",
+    "origin_province": "19",
+    "origin_full": "2298, Đường Lê Duẩn, Xã Chợ Mới, Tỉnh Thái Nguyên",
+    "group": "b"
+  },
+  "UNGVIEN_0957": {
+    "origin_ward": "06685",
+    "origin_province": "22",
+    "origin_full": "1176, Đường Nguyễn Trãi, Phường Hồng Gai, Tỉnh Quảng Ninh",
+    "group": "b"
+  }
+}

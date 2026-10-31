@@ -1,0 +1,3025 @@
+{
+  "seed": 20261030,
+  "requested": 800,
+  "osm_rows_scanned": 31374,
+  "excluded_counts": {
+    "independent_masked": 5991,
+    "excluded_any_cross_source": 6007,
+    "precedence_masked": 3277,
+    "independent_text": 2730,
+    "independent_osm": 2400,
+    "precedence_text": 2730,
+    "internal_pool_masked": 12066,
+    "internal_pool_text": 2186,
+    "invalid_source_or_text": 1
+  },
+  "eligible_after_all_gates": 13162,
+  "internal_pool_duplicate_records": 12204,
+  "exclusion_sources": {
+    "train": {
+      "source_rows_with_address": 4564,
+      "fingerprints": {
+        "text": 4429,
+        "osm": 1600,
+        "masked": 4151
+      },
+      "paths": [
+        "D:\\nlp_gold\\data\\train_dev\\train.csv"
+      ]
+    },
+    "dev": {
+      "source_rows_with_address": 1136,
+      "fingerprints": {
+        "text": 1099,
+        "osm": 400,
+        "masked": 1071
+      },
+      "paths": [
+        "D:\\nlp_gold\\data\\train_dev\\dev.csv"
+      ]
+    },
+    "bo_sung_v1": {
+      "source_rows_with_address": 10821,
+      "fingerprints": {
+        "text": 5482,
+        "osm": 0,
+        "masked": 4051
+      },
+      "paths": [
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\dev_kho.csv",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\doi_chieu_snapshot_v1_v2.csv",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\id_disposition.csv",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\train_bo_sung.csv",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\dev_spans.jsonl",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\token_spans.jsonl",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\train_spans.jsonl",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v1\\unaligned_spans.jsonl"
+      ]
+    },
+    "bo_sung_v2": {
+      "source_rows_with_address": 9000,
+      "fingerprints": {
+        "text": 1861,
+        "osm": 0,
+        "masked": 1804
+      },
+      "paths": [
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v2\\train_bo_sung_v2.csv",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v2\\token_spans_v2.jsonl",
+        "D:\\nlp_gold\\data\\train_dev\\bo_sung_v2\\train_spans_v2.jsonl"
+      ]
+    },
+    "bo_sung_v3": {
+      "source_rows_with_address": 397,
+      "fingerprints": {
+        "text": 395,
+        "osm": 0,
+        "masked": 388
+      },
+      "paths": [
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\train_dev\\bo_sung_v3_viet_tat_sieu_kho\\contrast_abstain.csv",
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\train_dev\\bo_sung_v3_viet_tat_sieu_kho\\train_abbreviation_extreme.csv",
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\train_dev\\bo_sung_v3_viet_tat_sieu_kho\\source_spans_and_family.jsonl"
+      ]
+    },
+    "release_ai": {
+      "source_rows_with_address": 6204,
+      "fingerprints": {
+        "text": 1781,
+        "osm": 0,
+        "masked": 1726
+      },
+      "paths": [
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\audit\\release_ai_20261030\\train_v2_anti_overlap.csv",
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\audit\\release_ai_20261030\\train_v2_canonical_eligible.csv",
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\audit\\release_ai_20261030\\train_v2_spans_eligible.jsonl",
+        "D:\\nlp_chuan_hoa_dia_chi\\data\\audit\\release_ai_20261030\\train_v2_tokens_eligible.jsonl"
+      ]
+    },
+    "test_exclusion_ONLY_id_dau_vao_nguon": {
+      "source_rows_with_address": 400,
+      "fingerprints": {
+        "text": 400,
+        "osm": 400,
+        "masked": 390
+      },
+      "paths": [
+        "D:\\nlp_gold\\data\\test\\dia_chi_test.csv"
+      ]
+    }
+  },
+  "excluded_by_source_and_key": {
+    "train": {
+      "masked": 4879,
+      "text": 1806,
+      "osm": 1600
+    },
+    "dev": {
+      "masked": 2331,
+      "text": 467,
+      "osm": 400
+    },
+    "bo_sung_v1": {
+      "masked": 10
+    },
+    "bo_sung_v2": {
+      "masked": 8
+    },
+    "bo_sung_v3": {},
+    "release_ai": {
+      "masked": 8
+    },
+    "test_exclusion_ONLY_id_dau_vao_nguon": {
+      "text": 457,
+      "osm": 400,
+      "masked": 692
+    }
+  },
+  "distribution": [
+    {
+      "nhom_tinh": "05113628339",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "10000",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "12",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "abc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "an giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 41,
+      "selected": 3,
+      "sample_pct": 0.375
+    },
+    {
+      "nhom_tinh": "an giang",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "an khanh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "an thoi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ap 3 phuoc kien nha",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "apollotechnology",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ba ria",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ba ria",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ba ria vung tau",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 52,
+      "selected": 3,
+      "sample_pct": 0.375
+    },
+    {
+      "nhom_tinh": "ba ria vung tau",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ba ria vung tau",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ba ria vung tau",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "bac giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "bac ninh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 579,
+      "selected": 35,
+      "sample_pct": 4.375
+    },
+    {
+      "nhom_tinh": "bac ninh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "bac ninh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "bavet",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "bavet",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ben",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ben tre",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 52,
+      "selected": 3,
+      "sample_pct": 0.375
+    },
+    {
+      "nhom_tinh": "ben tre",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "binh chanh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "binh dinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 31,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "binh duong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 64,
+      "selected": 4,
+      "sample_pct": 0.5
+    },
+    {
+      "nhom_tinh": "binh duong",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "binh duong",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "binh phuoc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 7,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "binh thuan",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 34,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "br vt",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "buon ma thuot",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ca mau",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "cai rong van don",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "can tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "addr:full",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "can tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 169,
+      "selected": 10,
+      "sample_pct": 1.25
+    },
+    {
+      "nhom_tinh": "can tho",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "can tho",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "can tho",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "cao bang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "cat ba town",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da lat",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da lat",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da nanag",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da nang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 201,
+      "selected": 12,
+      "sample_pct": 1.5
+    },
+    {
+      "nhom_tinh": "da nang",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da nang",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da nang",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "da nang city",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dac khu cat hai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dac lak",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dak lak",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 24,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "dak nong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "daklak",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dalat",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "dalat",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "danang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 19,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "danang",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "danang",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dawsk lak",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "di an binh duong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "di linh",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dien bien",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "district 1",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dong anh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dong ha",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dong hoi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dong hoi",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dong nai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 56,
+      "selected": 4,
+      "sample_pct": 0.5
+    },
+    {
+      "nhom_tinh": "dong nai",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "dong thap",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 34,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "dong van",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "duong dong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "duong dong",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ea drang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "gia lai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 33,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "gia lai",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ha giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ha giang",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ha long",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ha nam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ha noi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1139,
+      "selected": 69,
+      "sample_pct": 8.625
+    },
+    {
+      "nhom_tinh": "ha noi",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ha noi",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 13,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ha noi",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 15,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ha noi viet nam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ha tinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 12,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ha tinh vietnam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hai duong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 8,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "hai phong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 51,
+      "selected": 3,
+      "sample_pct": 0.375
+    },
+    {
+      "nhom_tinh": "hai phong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hai phong",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hai phong city",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "haiphong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "haiphong",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ham thuan nam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ham tien mui ne",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hanoi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 42,
+      "selected": 3,
+      "sample_pct": 0.375
+    },
+    {
+      "nhom_tinh": "hanoi",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 9,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "hanoi",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hau giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hcm",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hcmc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 8,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "hcmc",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hn",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ho chi minh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 558,
+      "selected": 34,
+      "sample_pct": 4.25
+    },
+    {
+      "nhom_tinh": "ho chi minh",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ho chi minh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ho chi minh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 11,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ho chi minh ciry",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ho chi minh city",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 325,
+      "selected": 20,
+      "sample_pct": 2.5
+    },
+    {
+      "nhom_tinh": "ho chi minh city",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 10,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ho chi minh city",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ho chi minh city",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "ho chinh minh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hoa binh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "hoa binh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hoa binh province",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hoang hoa",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hoc mon",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hochiminh cit",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hochiminh city",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hoi an",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 33,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "hoi an",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "hoi an",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hon dat",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hue",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 32,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "hue thua thien hue",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hung yen",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 62,
+      "selected": 4,
+      "sample_pct": 0.5
+    },
+    {
+      "nhom_tinh": "hung yen",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "hung yen province",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "khanh hoa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 72,
+      "selected": 5,
+      "sample_pct": 0.625
+    },
+    {
+      "nhom_tinh": "khanh hoa",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "khanh hoa",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "khanh khoa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "addr:full",
+      "pool": 71,
+      "selected": 5,
+      "sample_pct": 0.625
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 742,
+      "selected": 45,
+      "sample_pct": 5.625
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "addr:full",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 349,
+      "selected": 21,
+      "sample_pct": 2.625
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "addr:full",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 5585,
+      "selected": 340,
+      "sample_pct": 42.5
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "addr:full",
+      "pool": 27,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "khong_co_the_tinh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 83,
+      "selected": 5,
+      "sample_pct": 0.625
+    },
+    {
+      "nhom_tinh": "kien giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 27,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "kien giang",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "kien giang vietnam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "kieng gian",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "kon tum",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 9,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "lai vung",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "lam dong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 165,
+      "selected": 10,
+      "sample_pct": 1.25
+    },
+    {
+      "nhom_tinh": "lam dong",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "lam dong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "lam dong",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "lao cai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 20,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "lao cai",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "laocai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "laocai",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "long an",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 42,
+      "selected": 3,
+      "sample_pct": 0.375
+    },
+    {
+      "nhom_tinh": "mai chau",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "mui ne",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "mui ne",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "mui ne ham tien",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "mui ne phan thiet",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "my tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "my tho",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 22,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "nam dinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "nam dinh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "nghe an",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 25,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "nghe an",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "nha be",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "nha trang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 12,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "nha trang",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "nha trang",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ninh binh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 29,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "ninh hoa",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ninh kieu can tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "ninh thuan",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 11,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "phan dinh phung thai nguyen",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phan rang thap cham",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phan rang thap cham",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phan thiet",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "phan thiet",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "pho ha noi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "pho to vinh dien",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phong nha",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phu hoi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phu ly",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phu nhuan",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phu quoc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phu quoc island",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phu tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "phu yen",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 13,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "phuong 1",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 17",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 2",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 25",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 3",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 6",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 7",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 7 quan phu nhuan",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 8",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong 8",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong an lac",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong bien giang",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong co nhue 1",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong dai mo",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong duc thang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong giang bien",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong hoa xuan",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong long thanh my",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong pham ngu lao q1",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong phu thuong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong quang an",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong rach soi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong sa dec",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong tan chanh hiep",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong tan khanh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong tan quy",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong tan quy",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong tan thoi hiep",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong tan thoi nhat",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong thao dien",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong vinh hung",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "phuong xuan phuong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quan 1",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quan 3",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quang binh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 11,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "quang binh",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "quang nam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 70,
+      "selected": 4,
+      "sample_pct": 0.5
+    },
+    {
+      "nhom_tinh": "quang nam",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "quang nam",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quang nam province",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quang ngai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "quang ngai",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quang ninh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 17,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "quang ninh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quang tri",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quang tri",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "quy nhon",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "rach gia",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "sa pa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "sa pa",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "sai gon",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "saigon",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "soc trang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "t lam dong",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "t p hcm",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "t son la",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "t vinh long",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tan thanh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tay ninh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 58,
+      "selected": 4,
+      "sample_pct": 0.5
+    },
+    {
+      "nhom_tinh": "tay ninh",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tay ninh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tay ninh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tay ninh provine",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tay ninh provine",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thai binh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thai nguyen",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 19,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "thai ngyen",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh hoa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 9,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "thanh pho ba ria",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho bac ninh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho can tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho da nang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 21,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "thanh pho ha noi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "addr:full",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho ha noi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 529,
+      "selected": 32,
+      "sample_pct": 4.0
+    },
+    {
+      "nhom_tinh": "thanh pho ha noi",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho ha noi",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "addr:full",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho ha noi",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho hai phong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 10,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "thanh pho hai phong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho ho chi minh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 615,
+      "selected": 38,
+      "sample_pct": 4.75
+    },
+    {
+      "nhom_tinh": "thanh pho ho chi minh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho ho chi minh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho ho chi minhminh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho hue",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho phu quoc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thanh pho thu duc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 12,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "thanh pho vung tau",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thao dien",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thi tran di linh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thi tran hau nghia",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thi tran lac duong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thot not",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thu dau mot",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thu duc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thu duc",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thu duc ho chi minh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "thua thien hue",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 23,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "tien giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 24,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "tien yen",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh an giang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh ba ria vung tau",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh bac ninh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh ben tre",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh binh dinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh binh duong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "tinh binh duong",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh ca mau",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh dak lak",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh dong nai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 61,
+      "selected": 4,
+      "sample_pct": 0.5
+    },
+    {
+      "nhom_tinh": "tinh gia lai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh hung yen",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh khanh hoa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 13,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "tinh kon tum",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh lam dong",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 9,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "tinh lao cai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh long an",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 9,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "tinh phu tho",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh quang ngai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh tay ninh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 6,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "tinh thai binh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh thanh hoa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh thua thien hue",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh tra vinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh vinh long",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tinh vinh long",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp ben tre",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp buon ma thuot",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp can tho",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp cao lanh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp da nang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp dong nai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp ha noi",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp ha noi",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp ha tinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp ha tinh",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp hcm",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 15,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "tp ho chi minh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 30,
+      "selected": 2,
+      "sample_pct": 0.25
+    },
+    {
+      "nhom_tinh": "tp ho chi minh",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tp ho chinh minh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tphcm",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 5,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tra vinh",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 4,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "trang bom",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tuy hoa",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "tuyen quang",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vie",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "viet nam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 19,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "vietnam",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 14,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "vietnam",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 3,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vietnam",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vinh long",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 13,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "vinh phuc",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vn",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vung tau",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 11,
+      "selected": 1,
+      "sample_pct": 0.125
+    },
+    {
+      "nhom_tinh": "vung tau",
+      "nhom_dac_diem": "khong_dau",
+      "input_mode": "structured_tags_joined",
+      "pool": 2,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vung tau",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "vung tau baria",
+      "nhom_dac_diem": "viet_tat",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa go cong dong",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa hoa long",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa hoang quy",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa lai vung",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa lai vung",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa tan xa",
+      "nhom_dac_diem": "thieu_thanh_phan",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "xa xuan thoi son",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    },
+    {
+      "nhom_tinh": "yen bai",
+      "nhom_dac_diem": "co_dau_khac",
+      "input_mode": "structured_tags_joined",
+      "pool": 1,
+      "selected": 0,
+      "sample_pct": 0.0
+    }
+  ],
+  "sample_feature_counts": {
+    "thieu_thanh_phan": 345,
+    "co_dau_khac": 418,
+    "khong_dau": 26,
+    "viet_tat": 11
+  },
+  "sample_input_modes": {
+    "structured_tags_joined": 792,
+    "addr:full": 8
+  },
+  "independent_leakage_verification": "PASS: each selected item checked against each source on text, OSM identity, masked family; blank keys ignored",
+  "test_labels_accessed": false,
+  "sample_csv_sha256": "2d0284b46f6a082efd8fcf020d72bfa1e0b31e0e11b3f7cf5cf5c63ca9c3006b"
+}

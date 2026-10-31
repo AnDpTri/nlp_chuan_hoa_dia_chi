@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nhãn ứng viên từ một bộ gán độc lập — CHƯA PHẢI GOLD",
+  "description": "Mỗi bộ gán tạo một JSON đầy đủ. Bộ gán chỉ đánh dấu ký tự có trong input, KHÔNG ghi mã xã/tỉnh.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bo_gan",
+    "nhan"
+  ],
+  "properties": {
+    "bo_gan": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nhan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "dau_vao",
+          "spans",
+          "abstain",
+          "ly_do_abstain"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dau_vao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "truong",
+                "start",
+                "end",
+                "van_ban"
+              ],
+              "properties": {
+                "truong": {
+                  "type": "string",
+                  "enum": [
+                    "so_nha",
+                    "ngo_ngach_hem",
+                    "thon_xom",
+                    "duong",
+                    "xa",
+                    "huyen",
+                    "tinh"
+                  ]
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "van_ban": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "abstain": {
+            "type": "boolean"
+          },
+          "ly_do_abstain": {
+            "type": "string",
+            "description": "Không chắc: nêu rõ vì sao; chắc chắn: chuỗi rỗng"
+          }
+        }
+      }
+    }
+  }
+}

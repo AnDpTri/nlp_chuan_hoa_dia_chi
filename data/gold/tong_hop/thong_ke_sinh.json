@@ -1,0 +1,12 @@
+{
+  "seed": 20261030,
+  "groups": {
+    "a": 140,
+    "b": 140,
+    "c": 120
+  },
+  "rejected": {},
+  "sample_count": 400,
+  "test_labels_accessed": false,
+  "sha256_input": "91ad0115eed9c82448ba2949c526754335e66dcb8b107b845ced8bd3c01064a5"
+}

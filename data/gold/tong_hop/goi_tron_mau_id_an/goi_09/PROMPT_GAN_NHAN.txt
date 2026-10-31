@@ -1,0 +1,385 @@
+# HƯỚNG DẪN GÁN NHÃN ĐỘC LẬP — NHÃN ỨNG VIÊN, KHÔNG PHẢI GOLD
+
+Bạn là bộ gán nhãn chỉ nhận văn bản địa chỉ. Không có quyền xem hoặc dùng nhãn của bộ gán khác. Gán nhãn TỪNG ĐỊA CHỈ đúng theo thứ tự JSON cung cấp. Chỉ căn cứ chuỗi đầu vào; không suy diễn từ POI/tên cơ sở, tọa độ, URL, OSM tags hay danh sách mã. Thiếu thông tin để trống; không chắc thì abstain=true và nêu lý do; không chép đáp án mẫu khi không có bằng chứng. Không ghi mã xã, mã tỉnh, tên chính thức suy diễn hoặc danh mục hành chính trong đầu ra. Span phải chứa đúng văn bản nguyên gốc, dùng offset zero-based [start,end) theo ký tự Python; mọi span không chồng lấn. Nhãn hành chính xa/huyen/tinh đúng như xuất hiện trong chuỗi, không phải đơn vị đích. Một trường có thể có nhiều span nếu văn bản có nhiều đề cập. Nếu gặp xã cũ bị chia không có căn cứ theo thôn/số nhà, đánh dấu span tên xã nếu rõ và abstain với lý do. Quy ước dưới đây là NHÁP, những điểm chưa quyết phải abstain thay vì tự chọn. Trả ra một JSON duy nhất có hai khóa bo_gan và nhan. bo_gan phải là ID của hệ thống gán riêng.
+
+## QUY ƯỚC NHÁP (CHƯA ĐƯỢC CON NGƯỜI CHỐT)
+
+# QUY ƯỚC GÁN NHÃN ỨNG VIÊN — BẢN NHÁP CHỜ NGƯỜI CHỐT (30/10/2026)
+
+**Không phải gold.** Căn cứ `bai_toan.md` §§3–4 và 6: chỉ nhận diện phần **có mặt trong chuỗi**, thiếu để trống; huyện chỉ dùng phân giải hành chính, không xuất ra chuẩn cuối; xã bị chia nhiều đích mà không đủ bằng chứng phải abstain. Các quy ước chưa được duyệt; bộ gán bên ngoài phải nêu bất định, không tự biến đề xuất thành chuẩn đã chốt.
+
+## Hai lớp tách biệt
+
+1. **Bộ gán AI:** một lần gán nhãn cho văn bản nguyên gốc bằng `[start,end)` (chỉ số ký tự Python, không phải byte/token). Các span `so_nha, ngo_ngach_hem, thon_xom, duong, xa, huyen, tinh` mang đúng văn bản gốc; không ghi mã hành chính, không mở rộng tên, không dùng POI, tọa độ, URL, OSM tags.
+2. **Bộ mã hóa độc lập:** sau kiểm schema mới tra `data/clean` và bảng cũ→mới, chốt mã chỉ nếu duy nhất. Nhiều đích hoặc không có bằng chứng: mã xã trống, giữ danh sách ứng viên và cờ abstain. Bộ gán AI không được chốt tỉnh/xã bằng tri thức suy đoán.
+3. **Kiểm soát chất lượng:** ít nhất hai họ AI độc lập, không thấy nhau; đồng thuận theo từng trường, khác biệt đưa người quyết; lấy mẫu ngẫu nhiên phần đồng thuận cho người đối chiếu, tính Clopper–Pearson cận trên 95%. AI không tự xác nhận chất lượng AI.
+
+## Bằng chứng dev đóng vai trò chẩn đoán, KHÔNG coi là nhãn chuẩn
+
+Nguồn: `data/train_dev/dev.csv`, **1.136 dòng**. Bộ đếm regex trên văn bản/nhãn hiện có, chi tiết cùng ID trong `thong_ke_quy_uoc_dev.json`. Các nhóm có thể giao nhau; regex không xác nhận ngữ nghĩa. Đặc biệt `ngo` không dấu có thể là họ “Ngô”; số đo là chỉ báo để duyệt chứ không phải tần suất lỗi đúng tuyệt đối.
+
+| Điểm chưa chốt | Bằng chứng thực tế và không nhất quán | Phương án **đề xuất, chưa thông qua** |
+|---|---|---|
+| **Ngõ/hẻm/ngách/kiệt vs đường & số nhà** | 170 dòng chứa regex ngõ/ngách/hẻm/kiệt; **59** dòng có cùng từ loại ngõ trong nhãn `duong`, **129** dòng có `ngo_ngach_hem` không rỗng, **31** dòng vừa nhãn đường chứa “ngõ” vừa ghi trường ngõ (chồng ngữ nghĩa); **41** dòng chứa dạng ngõ nhưng không có trường ngõ. Ví dụ `VNDEV_00012`: “Số 16 ngõ 12 Trần Quý Kiên ...” có `ngo_ngach_hem="Ngõ 12"` **và** `duong="Đường Ngõ 12 Trần Quý Kiên"`; `VNDEV_00028`: “Số 3 ngõ 55 Đỗ Quang ...” gán `Ngõ 55` riêng và đường `Đỗ Quang`. | Ngõ/ngách/hẻm được tách ra khỏi tên đường, **không chồng span**. Nếu “Ngõ Hòa Bình 5” là tên phố chính thức, không chắc loại thì abstain. Ngõ số ở trước tên đường là đơn vị `ngo_ngach_hem` (chỉ phần được nói rõ). |
+| **Khoảng số nhà `37-39` và dạng `12/5`** | **13** dòng có khoảng số kiểu số-gạch-số, ví dụ `VNDEV_00025` “LK 16-19 Khu đô thị ...”; **42** dòng có dấu `/` giữa các nhóm số, ví dụ `VNDEV_00005` “268/10 NGUYỄN VĂN LINH...”, nhãn máy `so_nha="Số 268/10"`. | Span `so_nha` giữ toàn bộ ký hiệu gốc `37-39` / `12/5`; **không tự suy** rằng “/5” là ngõ, trừ khi có từ chỉ ngõ. Tranh chấp với §4.6 đặc tả (ví dụ `12/5` → Số 12, Ngõ 5) **cần người chốt** trước khi gán thật. |
+| **Tiền tố “Số/Đường/Phố” khi đầu vào thiếu** | **419** dòng chứa dạng “Số [chữ số]”; **756** dòng chứa từ dạng đường/phố. Ví dụ `VNDEV_00004`: đầu vào bắt đầu “313, NGUYỄN VĂN LINH,...”, nhưng nhãn đường máy là “Phố Cần Thơ” (không bám nội dung đường thật). `VNDEV_00011` có “phố Tô Vĩnh Diện” rõ ràng. | Span chỉ chứa văn bản thực có; tuyệt đối **không thêm** “Số”, “Đường”, “Phố” vào văn bản span. Tiền tố chuẩn ở tầng xuất chuỗi, không phải tầng nhãn; giữ dấu vết đầu vào. |
+| **Tổ dân phố/Khu phố/Ấp/Thôn/Xóm/Bản** | **43** dòng có regex loại này, ví dụ `VNDEV_00017` “Khu phố 4, Phường Linh Tây...” hiện nhãn `thon_xom` rỗng; `VNDEV_00012` có “tổ 58A” nhưng `thon_xom` rỗng. | Gộp các loại cụm dân cư này vào `thon_xom` **khi có văn bản rõ**, giữ tiền tố như một phần span, không coi là xã/phường và không tự bổ sung mã. |
+| **CMT8/QL và tên đường dạng viết tắt** | **10** dòng có regex viết tắt “CMT8”, “QL số” hoặc “Quốc lộ”; `VNDEV_00007` “87 CMT8, An Hòa...” có nhãn đường trống; `VNDEV_00057` “Quốc lộ 14B, Thôn Phú Sơn 1...” gán nhãn đường có tên đầy đủ. | Gán chính các ký tự “CMT8”, “QL14B” nếu có chứng cứ ngữ cảnh là đường. Không mở rộng “CMT8” thành “Cách Mạng Tháng Tám” bên trong span. Khi không chắc nhãn thì abstain. |
+| **Mã bưu chính cuối chuỗi** | **1** dòng có 5–6 chữ số ở cuối, `VNDEV_00150`: “… Khánh Hòa 650000”; nhãn đường máy vô tình nuốt cả “650000”. | Không đưa ZIP/postcode vào các trường địa chỉ được phép; bỏ khỏi span, có thể ghi ghi chú lý do abstain khi không phân biệt được số nhà. |
+| **Tòa nhà/chung cư/phòng/tầng** | **63** dòng có từ khóa nhóm này; `VNDEV_00009` “Phòng 801, tầng 8, PVC MeKong, 131...” được gán phần chi tiết trống; `VNDEV_00022` “A3-01-05 chung cư Hoàng Anh ...”. | Vì schema 7 vai trò không có tòa nhà, phòng, tầng, **không ép** chúng vào `so_nha/duong`. Chỉ lấy số nhà bên ngoài nếu rõ, phần không có vai trò để ngoài span; abstain nếu không phân biệt. Cần người quyết có mở rộng schema không. |
+| **Địa chỉ tiếng Anh / trộn Việt–Anh** | **26** dòng có từ khóa District/Ward/Street/Road/City/Province; `VNDEV_00001` “843M+RH3 Hòa Thành District, Tây Ninh”; `VNDEV_00048` “46-48-50-52 B4 Street, ... An Loi Dong Ward...”. | Gán `Street` vào `duong`, `Ward` vào `xa`, `District` vào `huyen` theo chính chuỗi; không dịch hoặc chuẩn hóa quốc gia trong span; Plus Code không tự coi là số nhà. |
+| **Xã cũ bị chia nhiều xã mới** | `bai_toan.md` §4.5 yêu cầu cờ `xa_bi_chia`. Nhiều trường hợp số nhà/đường không đủ ánh xạ địa giới ở độ phân giải số nhà; nhãn train/dev do máy không có giá trị adjudication. | Bộ gán chỉ đánh dấu span xã cũ có trong chuỗi; `anh_xa_hanh_chinh.py` phát hiện nhiều mã đích, trả `ma_xa=""`, `xa_bi_chia=true`, các ứng viên. **Không lấy tọa độ/POI để chọn hộ**; đưa người xác minh với văn bản pháp lý chi tiết (nếu có), còn không phải giữ abstain. |
+| **Thiếu cấp tỉnh/huyện, tên trùng nhau, mốc cũ/mới** | `bai_toan.md` §§4.1–4.5 yêu cầu không đoán. Dev có xã/tỉnh nhiều bậc, người gán máy không phân biệt chắc mốc. | Mã chỉ được gán khi bộ lập mã suy ra **duy nhất** từ chuỗi đã ghi; tên xã trùng tỉnh không rõ => rỗng, abstain. Huyện có trong chuỗi là bằng chứng phân giải, không xuất trong sáu trường cuối. |
+
+## Quy tắc span chung đề nghị
+
+- Dùng offset Unicode ký tự Python `[start,end)`, `van_ban = dau_vao[start:end]` nguyên văn. Mọi span trong cùng địa chỉ **không chồng nhau**. Không tạo giá trị khi không tìm thấy trong đầu vào.
+- Dấu câu ngăn cách bên ngoài span. Nếu một tổ hợp không thể tách rõ mà không chồng (ví dụ `12/5`), giữ nguyên một đoạn tạm trong `so_nha` và abstain khi diễn giải ngõ khác đi; không nhân đôi một ký tự ở hai trường.
+- Nhắc đến cấp xã/huyện/tỉnh là span **tên được nhập** `xa/huyen/tinh`, không phải mã/đích sau 2025. Tầng mã hóa tra bảng riêng mới quyết định.
+- Nếu có bằng chứng mâu thuẫn, không tự sáng tác nhãn. `abstain=true` với `ly_do_abstain` cụ thể. Nhãn đồng thuận của nhiều AI vẫn là ứng viên, không phải gold.
+
+## QUYẾT ĐỊNH CẦN NGƯỜI DUYỆT
+
+1. **Ngõ/hẻm/ngách:** chọn *tách khỏi đường, không trùng ký tự* (đề xuất) hay chấp nhận tên đường có chữ “Ngõ” như danh xưng riêng theo danh mục? Cần danh sách ngoại lệ.
+2. **Dấu gạch/nối trong số nhà:** chọn *giữ 37-39, 12/5 nguyên văn ở so_nha* (đề xuất) hay tách `12/5` như §4.6? Đây là mâu thuẫn bắt buộc chốt.
+3. **Tiền tố tự sinh:** chọn *span thô, chỉ chuẩn hóa ở đầu ra* (đề xuất) hay cho phép span không bám input? Schema hiện **không cho** cách hai.
+4. **Tổ/khu phố/ấp/thôn:** chọn *toàn bộ thuộc thon_xom* (đề xuất) và có chấp nhận “tổ 58A” không?
+5. **CMT8/QL:** chọn *giữ viết tắt thô* (đề xuất) hay thêm bảng alias sau gán? Không mở rộng ngay trong span.
+6. **Mã bưu chính:** chọn *không gán span* (đề xuất) hay mở thêm trường ngoài schema?
+7. **Tòa nhà/phòng/tầng:** chọn *bỏ ngoài schema và abstain khi nhập nhằng* (đề xuất) hay mở rộng schema có trường riêng?
+8. **Địa chỉ tiếng Anh:** chọn *gán vai trò tương đương, giữ nguyên chuỗi* (đề xuất) hay loại khỏi tập?
+9. **Xã bị chia:** chọn *abstain + mã xã trống + ứng viên* (đề xuất) cho ca thiếu bằng chứng pháp lý, không ép mã.
+10. **Tên trùng/thiếu tỉnh:** chọn *mã rỗng khi không phân giải độc nhất* (đề xuất); trường hợp mã tỉnh suy ra duy nhất từ xã/huyện đã ghi có cho phép không?
+11. **Điều kiện công nhận gold:** người chốt toàn bộ quy ước, quyết từng bất đồng, và thực sự kiểm mẫu ngẫu nhiên; thống nhất ngưỡng cận trên 95% cho từng trường và toàn địa chỉ trước khi “đạt”. Hiện chưa có bước đó.
+
+Không điểm nào ở trên đã được chấp thuận; ví dụ dev là **nội dung nhãn máy có lỗi**, chỉ dùng để tìm mâu thuẫn.
+
+
+## SCHEMA OUTPUT
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Nhãn ứng viên từ một bộ gán độc lập — CHƯA PHẢI GOLD",
+  "description": "Mỗi bộ gán tạo một JSON đầy đủ. Bộ gán chỉ đánh dấu ký tự có trong input, KHÔNG ghi mã xã/tỉnh.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bo_gan",
+    "nhan"
+  ],
+  "properties": {
+    "bo_gan": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nhan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "dau_vao",
+          "spans",
+          "abstain",
+          "ly_do_abstain"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dau_vao": {
+            "type": "string",
+            "minLength": 1
+          },
+          "spans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "truong",
+                "start",
+                "end",
+                "van_ban"
+              ],
+              "properties": {
+                "truong": {
+                  "type": "string",
+                  "enum": [
+                    "so_nha",
+                    "ngo_ngach_hem",
+                    "thon_xom",
+                    "duong",
+                    "xa",
+                    "huyen",
+                    "tinh"
+                  ]
+                },
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "van_ban": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          },
+          "abstain": {
+            "type": "boolean"
+          },
+          "ly_do_abstain": {
+            "type": "string",
+            "description": "Không chắc: nêu rõ vì sao; chắc chắn: chuỗi rỗng"
+          }
+        }
+      }
+    }
+  }
+}
+
+## VÍ DỤ CÚ PHÁP (không phải dữ liệu khảo sát)
+
+{
+  "bo_gan": "TEN_BO_GAN_RIENG",
+  "nhan": [
+    {
+      "id": "VI_DU_KHONG_CO_TRONG_MAU",
+      "dau_vao": "12 Trần Phú, Hà Nội",
+      "spans": [
+        {
+          "truong": "so_nha",
+          "start": 0,
+          "end": 2,
+          "van_ban": "12"
+        },
+        {
+          "truong": "duong",
+          "start": 3,
+          "end": 11,
+          "van_ban": "Trần Phú"
+        },
+        {
+          "truong": "tinh",
+          "start": 13,
+          "end": 19,
+          "van_ban": "Hà Nội"
+        }
+      ],
+      "abstain": false,
+      "ly_do_abstain": ""
+    }
+  ]
+}
+
+## CÁC ĐỊA CHỈ CẦN GÁN NHÃN
+
+[
+  {
+    "id": "UNGVIEN_9178",
+    "dau_vao": "2, Phố Núi Trúc, Giảng Võ, Ba Dinh District, Ba Đình, Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_2904",
+    "dau_vao": "A10/26A, Đường số 10"
+  },
+  {
+    "id": "UNGVIEN_8429",
+    "dau_vao": "Số 1202, Ngõ 19, Tổ 6, Đường Điện Biên Phủ, Xã Hậu Thạnh, Tỉnh Tây Ninh"
+  },
+  {
+    "id": "UNGVIEN_4298",
+    "dau_vao": "58/1A, Hẻm 58 Âu Cơ, 9, Tân Bình, Ho Chi Minh City, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "UNGVIEN_6722",
+    "dau_vao": "2133 - Duong Le Loi - Tinh Ninh Binh - Tòa nhà Sen Việt, tầng 8"
+  },
+  {
+    "id": "UNGVIEN_4248",
+    "dau_vao": "1440, Duong Tran Hung Dao, Phuong Sa Pa, Tinh Lao Cai, 700000"
+  },
+  {
+    "id": "UNGVIEN_7827",
+    "dau_vao": "Bàu Trắng - Phan Rí"
+  },
+  {
+    "id": "UNGVIEN_9196",
+    "dau_vao": "Số 1092, Ngõ 9, Tổ 6, Đường Hoàng Diệu, Xã Tân Quới, Tỉnh Vĩnh Long"
+  },
+  {
+    "id": "UNGVIEN_5739",
+    "dau_vao": "TL 176, Du Gia, Yên Minh, Hà Giang"
+  },
+  {
+    "id": "UNGVIEN_5989",
+    "dau_vao": "316 - 318, Hải Phòng"
+  },
+  {
+    "id": "UNGVIEN_7233",
+    "dau_vao": "55, Đường tỉnh 743A, Phường Bình Thắng, Thành phố Dĩ An, Tỉnh Bình Dương"
+  },
+  {
+    "id": "UNGVIEN_3200",
+    "dau_vao": "227, Đường Ngọc Lâm, Quận Long Biên, Thành phố Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_4343",
+    "dau_vao": "130, Nguyễn Văn Hưởng"
+  },
+  {
+    "id": "UNGVIEN_3163",
+    "dau_vao": "NA, Đường T, Thị trấn Trâu Quỳ, Gia Lâm, Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_3063",
+    "dau_vao": "x4 - qn - qx - th"
+  },
+  {
+    "id": "UNGVIEN_4868",
+    "dau_vao": "Đường Cầu Rồng, Phường Phong Khê, Thành phố Bắc Ninh, Bắc Ninh, Bac Ninh"
+  },
+  {
+    "id": "UNGVIEN_3193",
+    "dau_vao": "x6 - nh - nh - kh"
+  },
+  {
+    "id": "UNGVIEN_7010",
+    "dau_vao": "26, Phố Phan Bội Châu, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_2607",
+    "dau_vao": "2122, Đường Lê Duẩn, Xã Minh Sơn"
+  },
+  {
+    "id": "UNGVIEN_6010",
+    "dau_vao": "1913 - Duong Hoang Dieu - Tinh An Giang - Tòa nhà Sen Việt, tầng 8"
+  },
+  {
+    "id": "UNGVIEN_8320",
+    "dau_vao": "Đường Lê Lợi, Phường Tân Thành, Thành phố Hồ Chí Minh, 1429, 700000"
+  },
+  {
+    "id": "UNGVIEN_9276",
+    "dau_vao": "x7 - hl - lg - bg"
+  },
+  {
+    "id": "UNGVIEN_8861",
+    "dau_vao": "35, Ngõ 381 Nguyễn Khang, Quận Cầu Giấy, Thành phố Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_5640",
+    "dau_vao": "1374, Phường Đống Đa, Thành phố Hà Nội, Đường Phạm Văn Đồng, 700000"
+  },
+  {
+    "id": "UNGVIEN_5485",
+    "dau_vao": "94, Trần Bá Giao, Phường An Nhờn (Phường 5, Quận Gò Vấp Cũ), Hồ Chí Minh"
+  },
+  {
+    "id": "UNGVIEN_5229",
+    "dau_vao": "Số 1433, Ngõ 40, Tổ 7, Đường Phạm Văn Đồng, Xã Trà Đốc, Thành phố Đà Nẵng"
+  },
+  {
+    "id": "UNGVIEN_2952",
+    "dau_vao": "Số 1114, Ngõ 11, Tổ 8, Đường Phan Đình Phùng, Xã Tiên Nguyên, Tỉnh Tuyên Quang"
+  },
+  {
+    "id": "UNGVIEN_8526",
+    "dau_vao": "14, Chu Van An, Hué"
+  },
+  {
+    "id": "UNGVIEN_4294",
+    "dau_vao": "x5, Xã Liêm Thủy, Huyện Na Rì, Tỉnh Bắc Kạn"
+  },
+  {
+    "id": "UNGVIEN_4289",
+    "dau_vao": "720, Đỗ Mười, Khu phố 43, Phường An Phú Đông, Thành phố Hồ Chí Minh"
+  },
+  {
+    "id": "UNGVIEN_4581",
+    "dau_vao": "x1 - dt - Thành phố Thanh Hóa - Tỉnh Thanh Hóa"
+  },
+  {
+    "id": "UNGVIEN_4645",
+    "dau_vao": "Số 1422, Ngõ 39, Tổ 6, Đường Nguyễn Thị Minh Khai, Xã Tam Đa, Tỉnh Bắc Ninh"
+  },
+  {
+    "id": "UNGVIEN_7931",
+    "dau_vao": "7, Phố Phan Đình Phùng"
+  },
+  {
+    "id": "UNGVIEN_4924",
+    "dau_vao": "38, Yết Kiêu"
+  },
+  {
+    "id": "UNGVIEN_8753",
+    "dau_vao": "36, Đại lộ Lê Lợi, Thanh Hóa"
+  },
+  {
+    "id": "UNGVIEN_5716",
+    "dau_vao": "x1, tb, tb, Tỉnh Tây Ninh"
+  },
+  {
+    "id": "UNGVIEN_2016",
+    "dau_vao": "Đường Chu Văn An"
+  },
+  {
+    "id": "UNGVIEN_7192",
+    "dau_vao": "x4, bt, bgm, Tỉnh Bình Phước"
+  },
+  {
+    "id": "UNGVIEN_9903",
+    "dau_vao": "ផ្លូវ 334, ត្រពាំងកំពឹស, ខ្សែត្រ, កំពង់រោទិ៍"
+  },
+  {
+    "id": "UNGVIEN_5807",
+    "dau_vao": "Lô 9B, Nguyễn Công Thái, Đại Kim, Hoàng Mai, Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_3465",
+    "dau_vao": "Tân phước khánh 43"
+  },
+  {
+    "id": "UNGVIEN_7611",
+    "dau_vao": "Ấp Thới Bình, Cờ Đỏ, Can Tho"
+  },
+  {
+    "id": "UNGVIEN_9041",
+    "dau_vao": "Lạc Long Quân"
+  },
+  {
+    "id": "UNGVIEN_6058",
+    "dau_vao": "51, Hẻm 158 Phan Anh, phường Tân Thới Hoà, Quận Tân Phú, Ho Chi Minh City"
+  },
+  {
+    "id": "UNGVIEN_3872",
+    "dau_vao": "20, Phố Cầu Bây, Quận Long Biên, Thành phố Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_3519",
+    "dau_vao": "Trung tâm anh ngữ quốc tế Gogo"
+  },
+  {
+    "id": "UNGVIEN_2797",
+    "dau_vao": "17, Bạch Mai, Cầu Dền, Hai Bà Trưng, Hà Nội"
+  },
+  {
+    "id": "UNGVIEN_5780",
+    "dau_vao": "x8, tg, bb, Tỉnh Bắc Kạn"
+  },
+  {
+    "id": "UNGVIEN_5360",
+    "dau_vao": "Số 2291, Ngõ 8, Tổ 5, Đường Nguyễn Trãi, Xã Hậu Lộc, Tỉnh Thanh Hóa"
+  },
+  {
+    "id": "UNGVIEN_6958",
+    "dau_vao": "38D, Đường 18B, Bình Hưng Hoà A, Bình Tân, Phường Bình Hưng Hòa A, TP. Hồ Chí Minh"
+  }
+]

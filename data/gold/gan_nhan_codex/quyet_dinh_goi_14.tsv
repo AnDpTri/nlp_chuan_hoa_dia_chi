@@ -1,0 +1,50 @@
+UNGVIEN_0651	so_nha~32~1;duong~Phù Nghĩa~1	Phù_Nghĩa_có_thể_địa_danh
+UNGVIEN_0652	so_nha~332~1;duong~Thủ Khoa Huân~1;huyen~Phan Thiết~1	
+UNGVIEN_0653	so_nha~9B~1;ngo_ngach_hem~Ngõ Bảo Khánh~1	ngõ_có_tên_riêng
+UNGVIEN_0654	so_nha~1~1;duong~Đường Phước Mỹ 1~1	
+UNGVIEN_0655	so_nha~54~1;duong~Hải Thượng~1;huyen~Dalat~1	
+UNGVIEN_0656	ngo_ngach_hem~Ngõ Quảng Khánh~1;xa~Phường Đông Ngàn~1;huyen~Thành phố Từ Sơn~1;tinh~Bắc Ninh~1;tinh~Bac Ninh~1	ngõ_có_tên_riêng;tỉnh_lặp
+UNGVIEN_0657	duong~Hàn Thuyên~1;duong~Trần Tế Xương~1;tinh~Nam Định~1	hai_tên_đường_liên_tiếp_không_rõ
+UNGVIEN_0658	so_nha~25~1;duong~Phố Nguyễn Khiêm Ích~1	
+UNGVIEN_0659	xa~Mỹ Long~1;huyen~Cao Lãnh~1;tinh~Đồng Tháp~1	
+UNGVIEN_0660	so_nha~B112/34~1;ngo_ngach_hem~Hẻm B112~1;duong~Bạch Đằng~1	số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0661	duong~Đường số 9~1;thon_xom~Ấp Tân Bình~1;huyen~Lai Vung~1;tinh~Đồng Tháp~1	
+UNGVIEN_0662	thon_xom~Ấp Thới Bình~1;huyen~Cờ Đỏ~1;tinh~Can Tho~1	
+UNGVIEN_0663	so_nha~1~1	Bãi_Đá_7_Màu_là_địa_danh_không_phải_tên_đường
+UNGVIEN_0664	so_nha~5~1;duong~Hồ Văn Tư~1	
+UNGVIEN_0665	ngo_ngach_hem~ngõ An Lạc 2~1;huyen~Quận Hồng Bàng~1;xa~Phường Sở Dầu~1;tinh~Hải Phòng~1	VM93+349_là_plus_code_không_thuộc_schema
+UNGVIEN_0666	duong~Dương Quảng Hàm~1	
+UNGVIEN_0667	thon_xom~khoi 2~1	Cầu_Mường_Xén_là_địa_điểm
+UNGVIEN_0668	ngo_ngach_hem~Hẻm 11~1;duong~Khe Sanh~1;xa~Phường 10~1;huyen~Thành phố Đà Lạt~1;tinh~Lâm Đồng~1	
+UNGVIEN_0669	so_nha~29~1;duong~Phố Cao Bá Quát~1;xa~Phường Võ Cường~1;huyen~Thành phố Bắc Ninh~1;tinh~Bac Ninh~1	
+UNGVIEN_0670	duong~ĐT.281~1;duong~Dốc Nghĩa~1;thon_xom~Thôn Nghĩa Lộ~1;xa~Xã Lạc Đạo~1;tinh~Hưng Yên~1	ĐT_viết_tắt;Dốc_Nghĩa_có_thể_tên_đường_hay_địa_điểm
+UNGVIEN_0671	so_nha~106A1~1;duong~Phố Phạm Ngọc Thạch~1;xa~Phương Liên – Trung Tự~1;huyen~Đống Đa~1;tinh~Hà Nội~1	hai_phường_ghép_chưa_chốt
+UNGVIEN_0672	so_nha~898~1;duong~Nguyễn Văn Nguyễn~1;xa~Mỹ Thạnh An~1;tinh~Bến Tre~1	
+UNGVIEN_0673	so_nha~103~1;duong~Cao Thắng~1;xa~Phường 3~1;huyen~Quận 3~1	
+UNGVIEN_0674	so_nha~194~1;duong~Đường Trần Quang Khải~1;tinh~Hanoi~1	
+UNGVIEN_0675	so_nha~215~1;duong~Điện Biên Phủ~1;xa~Phường 15~1;huyen~Bình Thạnh~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0676	thon_xom~Khu 10~1;duong~Đường Trường Chinh~1;xa~Vân Phú~1;huyen~Việt Trì~1;tinh~Phú Thọ~1	
+UNGVIEN_0677	-	CN14_KCN_Sống_Thần_3_là_mã_lô_khu_công_nghiệp
+UNGVIEN_0678	so_nha~1~1;duong~Đất Thánh~1;xa~Phường 6~1;huyen~Tân Bình~1;tinh~Ho Chi Minh City~1	
+UNGVIEN_0679	so_nha~9~1;duong~Phố Tân Phong~1	
+UNGVIEN_0680	so_nha~30~1;duong~Trương Văn Ly~1	
+UNGVIEN_0681	so_nha~34~1;duong~Mê Linh~1;xa~Phường 19~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0682	so_nha~70~1;duong~Đường Hùng Vương~1;xa~Phường Hải Châu  I~1;huyen~Quận Hải Châu~1;tinh~Đà Nẵng~1;tinh~Thành phố Đà Nẵng~1	tỉnh_lặp
+UNGVIEN_0683	so_nha~112~1;duong~Hạ Long~1	
+UNGVIEN_0684	so_nha~136~1;duong~Đường Phú Thịnh~1	
+UNGVIEN_0685	so_nha~245~1;duong~Nguyễn Thị Nhỏ~1;xa~9~1;huyen~Tân Bình~1;tinh~Ho Chi Minh City~1	9_không_có_từ_chỉ_phường
+UNGVIEN_0686	so_nha~36~1;duong~Thái Ly~1;xa~Thảo Điền~1;huyen~Thủ Đức~1;tinh~Ho Chi Minh~1;tinh~Thành phố Hồ Chí Minh~1	tỉnh_lặp
+UNGVIEN_0687	so_nha~94~1;duong~Trần Bá Giao~1;xa~Phường An Nhờn~1;xa~Phường 5~1;huyen~Quận Gò Vấp~1;tinh~Hồ Chí Minh~1	hai_mốc_phường_trong_ngoặc
+UNGVIEN_0688	ngo_ngach_hem~Ngõ 38~1;duong~Hoàng Cầu~1;xa~Ô Chợ Dừa~1;huyen~Đống Đa~1;tinh~Hà Nội~1	
+UNGVIEN_0689	duong~Đường tỉnh 487~1	
+UNGVIEN_0690	so_nha~3~1;duong~Đường Lê Ngô Cát~1;xa~Phường 7~1;huyen~Quận 3~1;tinh~Ho Chi Minh City~1	Vietnam_quốc_gia_ngoài_schema
+UNGVIEN_0691	so_nha~29~1;duong~Phố Cát Linh~1	
+UNGVIEN_0692	so_nha~242~1;duong~2 Tháng 9~1	
+UNGVIEN_0693	so_nha~244/37~1;ngo_ngach_hem~Hẻm 224~1;duong~Lý Thường Kiệt~1	số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0694	duong~Tết Mậu Thân~1;huyen~Mỹ Tho~1	
+UNGVIEN_0695	so_nha~1~1;duong~Đường Trần Khánh Dư~1;xa~Bạch Đằng~1;huyen~Hai Ba Trung~1;tinh~Hà Nội~1	
+UNGVIEN_0696	so_nha~292~1;duong~Ngô Quyền~1;xa~Phường Long Hưng~1;huyen~Thành phố Biên Hòa~1;tinh~Đồng Nai~1	
+UNGVIEN_0697	so_nha~7~1;ngo_ngach_hem~Hem 14~1;duong~Ly Tu Trong~1;tinh~Cần Thơ~1	
+UNGVIEN_0698	so_nha~1~1;duong~Phố Đỗ Nguyên Thụy~1;xa~Phường Tiên Du~1;huyen~Thành phố Bắc Ninh~1;tinh~Bac Ninh~1	
+UNGVIEN_0699	so_nha~24~1;duong~Phố Hàng Cá~1	
+UNGVIEN_0700	so_nha~107~1;duong~Bà Triệu~1	

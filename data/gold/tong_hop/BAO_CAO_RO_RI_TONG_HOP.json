@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "public_rows": 400,
+  "origin_rows": 400,
+  "sha256_public": "91ad0115eed9c82448ba2949c526754335e66dcb8b107b845ced8bd3c01064a5",
+  "all_sources_readonly": true,
+  "test_only_id_dau_vao_nguon": true,
+  "external_test_labels_read": false,
+  "per_source": {
+    "train": {
+      "read_rows": 4564,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    },
+    "dev": {
+      "read_rows": 1136,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    },
+    "bo_sung_v1": {
+      "read_rows": 24265,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    },
+    "bo_sung_v2": {
+      "read_rows": 9000,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    },
+    "bo_sung_v3": {
+      "read_rows": 397,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    },
+    "test_three_columns_only": {
+      "read_rows": 400,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    },
+    "mau_ung_vien": {
+      "read_rows": 800,
+      "overlap_public": 0,
+      "overlap_origin": 0
+    }
+  }
+}

@@ -1,0 +1,50 @@
+UNGVIEN_0601	duong~Quốc lộ 38~1;xa~Phường Hạp Lĩnh~1;huyen~Thành phố Bắc Ninh~1;tinh~Bac Ninh~1	
+UNGVIEN_0602	so_nha~128~1;duong~Bắc Sơn~1	
+UNGVIEN_0603	so_nha~86~1;ngo_ngach_hem~Ngõ 31~1;duong~Đường Xuân Diệu~1	
+UNGVIEN_0604	so_nha~a13/1~1;thon_xom~ấp 1~1;duong~Cầu Ông Thìn~1	số_nhà_gạch_chéo_cầu_Ông_Thìn_có_thể_địa_điểm
+UNGVIEN_0605	duong~Đường Xuân Thủy~1	
+UNGVIEN_0606	so_nha~1~1;duong~ĐT. 835~1;xa~Mỹ Yên~1;tinh~Tây Ninh~1	ĐT_viết_tắt_chưa_chốt
+UNGVIEN_0607	duong~Quốc lộ 13 cũ~1	
+UNGVIEN_0608	so_nha~20~1;duong~Lý Thái Tổ~1;xa~Son Phong Ward~1;huyen~Hoi An~1	Vietnam_quốc_gia_ngoài_schema
+UNGVIEN_0609	duong~Trường Thi 6~1	Trường_Thi_6_có_thể_tên_đường_hoặc_tổ
+UNGVIEN_0610	so_nha~120~1;duong~Phố Hồng Mai~1;huyen~Hai Bà Trưng~1;tinh~Hà Nội~1	
+UNGVIEN_0611	so_nha~15-17~1;duong~Đường số 19~1;thon_xom~ấp 5~1;xa~Phong Phú~1;huyen~Bình Chánh~1;tinh~Ho Chi Minh City~1	số_nhà_khoảng
+UNGVIEN_0612	so_nha~73~1;duong~Đường Lô Tư~1;xa~Bình Hưng Hòa B~1;huyen~Bình Tân~1;tinh~Hồ Chí Minh~1	
+UNGVIEN_0613	so_nha~39~1;ngo_ngach_hem~Ngõ 45~1;duong~Đường Tô Ngọc Vân~1	
+UNGVIEN_0614	ngo_ngach_hem~Ngõ 251~1;duong~Nguyễn Khang~1	
+UNGVIEN_0615	so_nha~213~1;duong~Đường Hùng Vương~1;xa~Xã Bảo Lâm 1~1;tinh~Lâm Đồng~1	
+UNGVIEN_0616	so_nha~20/1~1;duong~Đường Võ Thị Sáu~1;xa~Phường Quyết Thắng~1;huyen~Thành phố Biên Hòa~1;tinh~Tỉnh Đồng Nai~1	số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0617	duong~Phố Đào Hinh~1	
+UNGVIEN_0618	ngo_ngach_hem~Hẻm 1~1;duong~Trần Quang Diệu~1;xa~Phường 10~1;huyen~Thành phố Đà Lạt~1;tinh~Lâm Đồng~1	
+UNGVIEN_0619	duong~Đường tỉnh 934~1	
+UNGVIEN_0620	so_nha~321~1;duong~Đường Đoàn Văn Bơ~1	
+UNGVIEN_0621	so_nha~13B~1;duong~Phố Phan Huy Chú~1	
+UNGVIEN_0622	duong~Điện Biên Phủ~1;xa~Xã Nam Ban Lâm Hà~1;tinh~Lâm Đồng~1	xã_và_tên_huyện_Lâm_Hà_ghép_trong_một_span
+UNGVIEN_0623	so_nha~720~1;duong~Đỗ Mười~1;thon_xom~Khu phố 43~1;xa~Phường An Phú Đông~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0624	so_nha~4B29~1;duong~Đường Thanh Niên~1;xa~Phạm Văn Hai~1;huyen~Huyện Bình Chánh~1;xa~Xã Phạm Văn Hai~1;tinh~Thành Phố Hồ Chí Minh~1	xã_nhắc_lặp
+UNGVIEN_0625	so_nha~583~1;duong~Đường 3 Tháng 2~1;xa~Phường 8~1;huyen~Quận 10~1;tinh~Thành phố Hồ Chí Minh~1	
+UNGVIEN_0626	duong~Phố Vĩnh Lại~1;xa~Phường Phù Khê~1;huyen~Thành phố Từ Sơn~1;tinh~Bắc Ninh~1;tinh~Bac Ninh~1	tỉnh_lặp
+UNGVIEN_0627	so_nha~101/5C~1;ngo_ngach_hem~Hẻm 101~1;duong~Phạm Đình Hổ~1;xa~Phường 6~1;huyen~Quận 6~1;tinh~Hồ Chí Minh~1	số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0628	ngo_ngach_hem~Ngõ 52~1;duong~Đường Hoàng Quốc Việt~1;xa~Phường Thị Cầu~1;huyen~Thành phố Bắc Ninh~1;tinh~Bắc Ninh~2;tinh~Bac Ninh~1	tỉnh_lặp
+UNGVIEN_0629	so_nha~Lô B6~1;xa~Đại Kim~1;huyen~Hoàng Mai~1;tinh~Hà Nội~1	B6_lặp;thiếu_tên_đường
+UNGVIEN_0630	thon_xom~Khu 5~1;duong~Lương Thế Trân~1;huyen~Côn Đảo~1;tinh~Bà Rịa Vũng Tàu~1	
+UNGVIEN_0631	so_nha~523~1;duong~Đường Kênh Tân Hoá~1	
+UNGVIEN_0632	so_nha~14~1;duong~Phố Trần Bình Trọng~1;xa~Trần Hưng Đạo~1;huyen~Hoàn Kiếm~1;tinh~Hà Nội~1	
+UNGVIEN_0633	so_nha~282B~1;duong~Đường Võ Thị Sáu~1;thon_xom~Khu phố 2~1;xa~Phường Thống Nhất~1;huyen~Thành phố Biên Hòa~1;tinh~Tỉnh Đồng Nai~1	
+UNGVIEN_0634	so_nha~46A~1;duong~Nguyễn Thông~1	
+UNGVIEN_0635	so_nha~4~1;duong~Hai Bà Trưng~1	
+UNGVIEN_0636	ngo_ngach_hem~Ngõ 113~1;duong~Phố Văn Hội~1;huyen~Bắc Từ Liêm~1;xa~Phường Đức Thắng~1;tinh~Hà Nội~1	
+UNGVIEN_0637	so_nha~Số 36~1;duong~Phan Kế Bính~1;huyen~Ba Đình~1	
+UNGVIEN_0638	so_nha~1359~1;duong~Đường Nguyễn Ái Quốc~1	
+UNGVIEN_0639	so_nha~21~1;duong~Trương Minh Hùng~1	
+UNGVIEN_0640	so_nha~441~1;duong~Cửa Đại~1	
+UNGVIEN_0641	duong~Đường Phú Hà~1	
+UNGVIEN_0642	so_nha~127~1;duong~Phố Quy Hóa~1	
+UNGVIEN_0643	so_nha~C4~1;duong~Đường Số 3~1	C4_có_thể_mã_lô
+UNGVIEN_0644	so_nha~320~1;duong~số 3~1	hát_không_rõ_địa_danh;số_3_có_thể_không_là_đường
+UNGVIEN_0645	so_nha~104/8~1;duong~Bùi Viện~1	số_nhà_gạch_chéo_chưa_chốt
+UNGVIEN_0646	so_nha~86~1;duong~Đường Nguyễn Đăng Đạo~1;xa~Phường Tiên Du~1;huyen~Thành phố Bắc Ninh~1;tinh~Bac Ninh~1	
+UNGVIEN_0647	so_nha~HH1B~1;duong~Nguyễn Phan Chánh~1;xa~Hoàng Liệt~1;huyen~Hoàng Mai~1;tinh~Hà Nội~1	HH1B_có_thể_là_tòa_nhà
+UNGVIEN_0648	so_nha~2~1;duong~Phố Núi Trúc~1;xa~Giảng Võ~1;huyen~Ba Dinh District~1;huyen~Ba Đình~1;tinh~Hà Nội~1	huyện_nhắc_lặp_hai_ngôn_ngữ
+UNGVIEN_0649	so_nha~18~1;duong~Phạm Xuân Huân~1	
+UNGVIEN_0650	so_nha~157~1;duong~Phố Bùi Xương Trạch~1	

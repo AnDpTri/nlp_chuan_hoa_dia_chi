@@ -1,0 +1,111 @@
+{
+  "annotator": "codex_gpt",
+  "all_count": 800,
+  "abstain_count": 315,
+  "abstain_pct": 39.375,
+  "common_reasons": [
+    [
+      "tỉnh_lặp",
+      39
+    ],
+    [
+      "số_nhà_gạch_chéo_chưa_chốt",
+      26
+    ],
+    [
+      "dạng_số_nhà_gạch_chéo_chưa_chốt",
+      3
+    ],
+    [
+      "hẻm_gạch_chéo_chưa_chốt",
+      3
+    ],
+    [
+      "số_nhà_khoảng_chưa_chốt",
+      3
+    ],
+    [
+      "ĐT_viết_tắt_chưa_chốt",
+      3
+    ],
+    [
+      "phường_lặp",
+      3
+    ],
+    [
+      "Vietnam_quốc_gia_ngoài_schema",
+      3
+    ],
+    [
+      "ngõ_có_tên_riêng",
+      3
+    ],
+    [
+      "số_nhà_dạng_khoảng",
+      2
+    ],
+    [
+      "phường_nhắc_lặp",
+      2
+    ],
+    [
+      "số_nhà_khoảng",
+      2
+    ],
+    [
+      "QL_viết_tắt_chưa_chốt",
+      2
+    ],
+    [
+      "số_nhà_dạng_khoảng_chưa_chốt",
+      2
+    ],
+    [
+      "địa_chỉ_tiếng_Anh",
+      2
+    ],
+    [
+      "ngõ_có_tên_riêng_chưa_rõ_phố",
+      2
+    ],
+    [
+      "TL_viết_tắt_chưa_chốt",
+      2
+    ],
+    [
+      "chinh_ta_duong_bat_thuong",
+      1
+    ],
+    [
+      "Tựu_Liệt_có_thể_là_địa_danh_không_phải_đường",
+      1
+    ],
+    [
+      "Long_Bình_trùng_địa_danh_không_rõ_cấp",
+      1
+    ],
+    [
+      "Bến_Đò_có_thể_là_tên_cơ_sở_hoặc_đường",
+      1
+    ],
+    [
+      "12/5_chưa_chốt_cách_tách_số_nhà_ngõ",
+      1
+    ],
+    [
+      "Danang_lặp_tỉnh",
+      1
+    ],
+    [
+      "so_nha_dạng_khoảng_chưa_chốt",
+      1
+    ],
+    [
+      "Hué_là_thành_phố_hay_tỉnh_thiếu_ngữ_cảnh",
+      1
+    ]
+  ],
+  "annotation_method": "One model; manually authored (field, literal substring, ordinal occurrence) per item; converter only finds offsets",
+  "manual_ground_truth": false,
+  "not_human_gold": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "sample_count": 800,
+  "independent_rglob_scan": true,
+  "test_labels_accessed": false,
+  "sources": {
+    "train": {
+      "read": 4564
+    },
+    "dev": {
+      "read": 1136
+    },
+    "bo_sung_v1": {
+      "read": 24265
+    },
+    "bo_sung_v2": {
+      "read": 9000
+    },
+    "bo_sung_v3": {
+      "read": 397
+    },
+    "release_ai_train_only": {
+      "read": 6204
+    },
+    "test_only_allowed_three_columns": {
+      "read": 400
+    }
+  }
+}

@@ -1,0 +1,4806 @@
+{
+  "type": "PRIVATE_DO_NOT_SEND_TO_ANNOTATORS",
+  "seed": 20261030,
+  "source_by_pseudo_id": {
+    "UNGVIEN_8866": {
+      "id_goc": "UNGVIEN_0738",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3122": {
+      "id_goc": "UNGVIEN_0001",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2968": {
+      "id_goc": "UNGVIEN_0536",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9727": {
+      "id_goc": "UNGVIEN_0717",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3052": {
+      "id_goc": "UNGVIEN_0365",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9770": {
+      "id_goc": "UNGVIEN_0984",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8322": {
+      "id_goc": "UNGVIEN_0865",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4429": {
+      "id_goc": "UNGVIEN_0262",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3214": {
+      "id_goc": "UNGVIEN_0513",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6884": {
+      "id_goc": "UNGVIEN_0276",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5753": {
+      "id_goc": "UNGVIEN_0511",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9036": {
+      "id_goc": "UNGVIEN_0076",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2625": {
+      "id_goc": "UNGVIEN_0335",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3566": {
+      "id_goc": "UNGVIEN_0120",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5077": {
+      "id_goc": "UNGVIEN_0386",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9387": {
+      "id_goc": "UNGVIEN_1154",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5982": {
+      "id_goc": "UNGVIEN_0696",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4662": {
+      "id_goc": "UNGVIEN_0616",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2366": {
+      "id_goc": "UNGVIEN_0457",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6826": {
+      "id_goc": "UNGVIEN_0432",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3948": {
+      "id_goc": "UNGVIEN_0947",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8675": {
+      "id_goc": "UNGVIEN_1077",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7397": {
+      "id_goc": "UNGVIEN_0244",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2966": {
+      "id_goc": "UNGVIEN_0325",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9090": {
+      "id_goc": "UNGVIEN_1015",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3598": {
+      "id_goc": "UNGVIEN_0243",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9104": {
+      "id_goc": "UNGVIEN_0215",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8779": {
+      "id_goc": "UNGVIEN_0660",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3194": {
+      "id_goc": "UNGVIEN_0178",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4089": {
+      "id_goc": "UNGVIEN_0034",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8292": {
+      "id_goc": "UNGVIEN_1159",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2013": {
+      "id_goc": "UNGVIEN_0252",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7088": {
+      "id_goc": "UNGVIEN_0942",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2642": {
+      "id_goc": "UNGVIEN_1135",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2839": {
+      "id_goc": "UNGVIEN_0143",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3839": {
+      "id_goc": "UNGVIEN_0786",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5907": {
+      "id_goc": "UNGVIEN_0707",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8949": {
+      "id_goc": "UNGVIEN_0545",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3832": {
+      "id_goc": "UNGVIEN_0328",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3950": {
+      "id_goc": "UNGVIEN_0186",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7121": {
+      "id_goc": "UNGVIEN_1087",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4756": {
+      "id_goc": "UNGVIEN_0038",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9614": {
+      "id_goc": "UNGVIEN_0612",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2264": {
+      "id_goc": "UNGVIEN_0787",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3495": {
+      "id_goc": "UNGVIEN_0739",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4439": {
+      "id_goc": "UNGVIEN_0022",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3894": {
+      "id_goc": "UNGVIEN_0826",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2664": {
+      "id_goc": "UNGVIEN_0351",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7070": {
+      "id_goc": "UNGVIEN_0657",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6085": {
+      "id_goc": "UNGVIEN_0171",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2997": {
+      "id_goc": "UNGVIEN_0450",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9674": {
+      "id_goc": "UNGVIEN_0582",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3982": {
+      "id_goc": "UNGVIEN_0856",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5515": {
+      "id_goc": "UNGVIEN_1053",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7516": {
+      "id_goc": "UNGVIEN_0271",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7087": {
+      "id_goc": "UNGVIEN_0269",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3792": {
+      "id_goc": "UNGVIEN_0523",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8496": {
+      "id_goc": "UNGVIEN_1126",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8747": {
+      "id_goc": "UNGVIEN_0281",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7263": {
+      "id_goc": "UNGVIEN_0256",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9410": {
+      "id_goc": "UNGVIEN_0128",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5576": {
+      "id_goc": "UNGVIEN_0069",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2460": {
+      "id_goc": "UNGVIEN_0525",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7964": {
+      "id_goc": "UNGVIEN_0319",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7082": {
+      "id_goc": "UNGVIEN_0341",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5221": {
+      "id_goc": "UNGVIEN_1142",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7626": {
+      "id_goc": "UNGVIEN_1139",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2184": {
+      "id_goc": "UNGVIEN_0944",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7942": {
+      "id_goc": "UNGVIEN_0433",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6180": {
+      "id_goc": "UNGVIEN_0166",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9590": {
+      "id_goc": "UNGVIEN_0057",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3548": {
+      "id_goc": "UNGVIEN_1108",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2553": {
+      "id_goc": "UNGVIEN_1049",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9397": {
+      "id_goc": "UNGVIEN_0620",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6381": {
+      "id_goc": "UNGVIEN_0775",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4378": {
+      "id_goc": "UNGVIEN_0049",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4917": {
+      "id_goc": "UNGVIEN_0163",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5523": {
+      "id_goc": "UNGVIEN_0345",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7078": {
+      "id_goc": "UNGVIEN_0600",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5519": {
+      "id_goc": "UNGVIEN_1118",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4461": {
+      "id_goc": "UNGVIEN_1196",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7409": {
+      "id_goc": "UNGVIEN_0030",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6105": {
+      "id_goc": "UNGVIEN_0781",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4411": {
+      "id_goc": "UNGVIEN_0974",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9088": {
+      "id_goc": "UNGVIEN_0515",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2858": {
+      "id_goc": "UNGVIEN_0087",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4872": {
+      "id_goc": "UNGVIEN_0575",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8447": {
+      "id_goc": "UNGVIEN_1040",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4413": {
+      "id_goc": "UNGVIEN_0210",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6158": {
+      "id_goc": "UNGVIEN_0496",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6610": {
+      "id_goc": "UNGVIEN_0349",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9153": {
+      "id_goc": "UNGVIEN_0714",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8087": {
+      "id_goc": "UNGVIEN_0019",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7830": {
+      "id_goc": "UNGVIEN_1144",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8485": {
+      "id_goc": "UNGVIEN_0851",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2974": {
+      "id_goc": "UNGVIEN_1176",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5086": {
+      "id_goc": "UNGVIEN_0193",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6203": {
+      "id_goc": "UNGVIEN_0311",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5189": {
+      "id_goc": "UNGVIEN_0473",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4932": {
+      "id_goc": "UNGVIEN_0824",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3801": {
+      "id_goc": "UNGVIEN_1107",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5706": {
+      "id_goc": "UNGVIEN_0274",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9572": {
+      "id_goc": "UNGVIEN_0195",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6046": {
+      "id_goc": "UNGVIEN_0636",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7685": {
+      "id_goc": "UNGVIEN_0827",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9589": {
+      "id_goc": "UNGVIEN_0730",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6400": {
+      "id_goc": "UNGVIEN_0900",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7720": {
+      "id_goc": "UNGVIEN_0352",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9256": {
+      "id_goc": "UNGVIEN_0702",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6568": {
+      "id_goc": "UNGVIEN_0254",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3952": {
+      "id_goc": "UNGVIEN_0653",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9027": {
+      "id_goc": "UNGVIEN_0924",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9105": {
+      "id_goc": "UNGVIEN_0744",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8870": {
+      "id_goc": "UNGVIEN_0845",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8326": {
+      "id_goc": "UNGVIEN_0422",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5165": {
+      "id_goc": "UNGVIEN_0416",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7261": {
+      "id_goc": "UNGVIEN_0767",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5963": {
+      "id_goc": "UNGVIEN_0607",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5318": {
+      "id_goc": "UNGVIEN_0884",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2588": {
+      "id_goc": "UNGVIEN_1062",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9872": {
+      "id_goc": "UNGVIEN_1186",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4970": {
+      "id_goc": "UNGVIEN_0964",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7013": {
+      "id_goc": "UNGVIEN_0613",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5379": {
+      "id_goc": "UNGVIEN_1182",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9525": {
+      "id_goc": "UNGVIEN_0486",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8785": {
+      "id_goc": "UNGVIEN_0228",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3218": {
+      "id_goc": "UNGVIEN_0529",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8966": {
+      "id_goc": "UNGVIEN_0182",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5321": {
+      "id_goc": "UNGVIEN_0652",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9833": {
+      "id_goc": "UNGVIEN_1171",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8337": {
+      "id_goc": "UNGVIEN_0440",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2469": {
+      "id_goc": "UNGVIEN_1197",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9949": {
+      "id_goc": "UNGVIEN_1009",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7468": {
+      "id_goc": "UNGVIEN_1121",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7348": {
+      "id_goc": "UNGVIEN_0875",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9471": {
+      "id_goc": "UNGVIEN_0245",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4882": {
+      "id_goc": "UNGVIEN_0129",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8455": {
+      "id_goc": "UNGVIEN_0817",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9345": {
+      "id_goc": "UNGVIEN_1064",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6972": {
+      "id_goc": "UNGVIEN_0760",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8491": {
+      "id_goc": "UNGVIEN_0757",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2352": {
+      "id_goc": "UNGVIEN_0897",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4266": {
+      "id_goc": "UNGVIEN_0966",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2889": {
+      "id_goc": "UNGVIEN_1132",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3386": {
+      "id_goc": "UNGVIEN_0136",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3817": {
+      "id_goc": "UNGVIEN_0632",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3826": {
+      "id_goc": "UNGVIEN_1193",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9113": {
+      "id_goc": "UNGVIEN_0218",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6643": {
+      "id_goc": "UNGVIEN_0404",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8089": {
+      "id_goc": "UNGVIEN_0268",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6667": {
+      "id_goc": "UNGVIEN_0598",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3641": {
+      "id_goc": "UNGVIEN_0462",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3150": {
+      "id_goc": "UNGVIEN_0561",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2697": {
+      "id_goc": "UNGVIEN_0940",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4761": {
+      "id_goc": "UNGVIEN_0916",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9658": {
+      "id_goc": "UNGVIEN_1111",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6189": {
+      "id_goc": "UNGVIEN_0411",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9586": {
+      "id_goc": "UNGVIEN_0610",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8652": {
+      "id_goc": "UNGVIEN_0377",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4604": {
+      "id_goc": "UNGVIEN_0711",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6219": {
+      "id_goc": "UNGVIEN_0814",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6723": {
+      "id_goc": "UNGVIEN_0896",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3862": {
+      "id_goc": "UNGVIEN_0483",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5466": {
+      "id_goc": "UNGVIEN_0570",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7158": {
+      "id_goc": "UNGVIEN_0617",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4552": {
+      "id_goc": "UNGVIEN_0835",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5433": {
+      "id_goc": "UNGVIEN_0116",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5175": {
+      "id_goc": "UNGVIEN_0417",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9440": {
+      "id_goc": "UNGVIEN_0006",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4771": {
+      "id_goc": "UNGVIEN_0501",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2624": {
+      "id_goc": "UNGVIEN_0625",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3468": {
+      "id_goc": "UNGVIEN_0863",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8398": {
+      "id_goc": "UNGVIEN_0703",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6467": {
+      "id_goc": "UNGVIEN_0795",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5373": {
+      "id_goc": "UNGVIEN_0933",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7937": {
+      "id_goc": "UNGVIEN_1016",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4066": {
+      "id_goc": "UNGVIEN_0400",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3315": {
+      "id_goc": "UNGVIEN_0041",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4697": {
+      "id_goc": "UNGVIEN_0442",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8922": {
+      "id_goc": "UNGVIEN_0331",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7031": {
+      "id_goc": "UNGVIEN_0965",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2537": {
+      "id_goc": "UNGVIEN_0112",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7981": {
+      "id_goc": "UNGVIEN_0398",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9372": {
+      "id_goc": "UNGVIEN_0749",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2683": {
+      "id_goc": "UNGVIEN_1039",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5163": {
+      "id_goc": "UNGVIEN_0106",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7728": {
+      "id_goc": "UNGVIEN_0326",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5750": {
+      "id_goc": "UNGVIEN_0233",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6337": {
+      "id_goc": "UNGVIEN_0709",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8301": {
+      "id_goc": "UNGVIEN_0391",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2641": {
+      "id_goc": "UNGVIEN_0843",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3561": {
+      "id_goc": "UNGVIEN_0014",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7686": {
+      "id_goc": "UNGVIEN_0149",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2989": {
+      "id_goc": "UNGVIEN_0067",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9820": {
+      "id_goc": "UNGVIEN_1194",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3683": {
+      "id_goc": "UNGVIEN_0342",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9096": {
+      "id_goc": "UNGVIEN_0159",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9292": {
+      "id_goc": "UNGVIEN_1083",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3858": {
+      "id_goc": "UNGVIEN_1098",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2915": {
+      "id_goc": "UNGVIEN_0692",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6524": {
+      "id_goc": "UNGVIEN_0056",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5867": {
+      "id_goc": "UNGVIEN_0008",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2935": {
+      "id_goc": "UNGVIEN_0446",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6445": {
+      "id_goc": "UNGVIEN_0379",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6431": {
+      "id_goc": "UNGVIEN_0499",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9201": {
+      "id_goc": "UNGVIEN_0353",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8955": {
+      "id_goc": "UNGVIEN_0299",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7344": {
+      "id_goc": "UNGVIEN_0046",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6252": {
+      "id_goc": "UNGVIEN_0220",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4757": {
+      "id_goc": "UNGVIEN_0360",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2561": {
+      "id_goc": "UNGVIEN_0685",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4071": {
+      "id_goc": "UNGVIEN_0719",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2829": {
+      "id_goc": "UNGVIEN_0312",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9106": {
+      "id_goc": "UNGVIEN_0474",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9956": {
+      "id_goc": "UNGVIEN_0735",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8265": {
+      "id_goc": "UNGVIEN_0555",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8998": {
+      "id_goc": "UNGVIEN_0394",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6110": {
+      "id_goc": "UNGVIEN_0813",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4450": {
+      "id_goc": "UNGVIEN_0634",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4506": {
+      "id_goc": "UNGVIEN_0626",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2270": {
+      "id_goc": "UNGVIEN_0444",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7715": {
+      "id_goc": "UNGVIEN_0680",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6483": {
+      "id_goc": "UNGVIEN_0671",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3142": {
+      "id_goc": "UNGVIEN_0439",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8045": {
+      "id_goc": "UNGVIEN_0780",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5324": {
+      "id_goc": "UNGVIEN_0816",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2934": {
+      "id_goc": "UNGVIEN_0270",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5501": {
+      "id_goc": "UNGVIEN_0869",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2635": {
+      "id_goc": "UNGVIEN_0727",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5048": {
+      "id_goc": "UNGVIEN_0602",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6979": {
+      "id_goc": "UNGVIEN_0902",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8832": {
+      "id_goc": "UNGVIEN_0505",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4483": {
+      "id_goc": "UNGVIEN_0388",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7199": {
+      "id_goc": "UNGVIEN_0491",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6411": {
+      "id_goc": "UNGVIEN_0548",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3489": {
+      "id_goc": "UNGVIEN_0489",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4107": {
+      "id_goc": "UNGVIEN_1148",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6362": {
+      "id_goc": "UNGVIEN_0315",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4799": {
+      "id_goc": "UNGVIEN_0910",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6213": {
+      "id_goc": "UNGVIEN_0574",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9592": {
+      "id_goc": "UNGVIEN_0870",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5066": {
+      "id_goc": "UNGVIEN_0007",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6249": {
+      "id_goc": "UNGVIEN_0267",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7978": {
+      "id_goc": "UNGVIEN_0677",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8105": {
+      "id_goc": "UNGVIEN_0894",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2133": {
+      "id_goc": "UNGVIEN_0431",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9778": {
+      "id_goc": "UNGVIEN_0454",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3016": {
+      "id_goc": "UNGVIEN_0145",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6348": {
+      "id_goc": "UNGVIEN_1095",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3329": {
+      "id_goc": "UNGVIEN_0852",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4509": {
+      "id_goc": "UNGVIEN_0392",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2224": {
+      "id_goc": "UNGVIEN_0589",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4244": {
+      "id_goc": "UNGVIEN_0321",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4954": {
+      "id_goc": "UNGVIEN_0694",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7074": {
+      "id_goc": "UNGVIEN_0208",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7707": {
+      "id_goc": "UNGVIEN_0107",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8697": {
+      "id_goc": "UNGVIEN_1198",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4939": {
+      "id_goc": "UNGVIEN_0037",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3905": {
+      "id_goc": "UNGVIEN_0876",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9281": {
+      "id_goc": "UNGVIEN_0804",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7137": {
+      "id_goc": "UNGVIEN_0891",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2602": {
+      "id_goc": "UNGVIEN_1160",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8468": {
+      "id_goc": "UNGVIEN_0564",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4007": {
+      "id_goc": "UNGVIEN_0051",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4140": {
+      "id_goc": "UNGVIEN_0591",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9190": {
+      "id_goc": "UNGVIEN_0893",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8596": {
+      "id_goc": "UNGVIEN_1072",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3224": {
+      "id_goc": "UNGVIEN_0381",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3237": {
+      "id_goc": "UNGVIEN_0538",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5000": {
+      "id_goc": "UNGVIEN_0936",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9912": {
+      "id_goc": "UNGVIEN_0305",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3454": {
+      "id_goc": "UNGVIEN_0169",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9095": {
+      "id_goc": "UNGVIEN_1163",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8969": {
+      "id_goc": "UNGVIEN_1162",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4709": {
+      "id_goc": "UNGVIEN_0162",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8235": {
+      "id_goc": "UNGVIEN_0939",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9339": {
+      "id_goc": "UNGVIEN_0569",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9755": {
+      "id_goc": "UNGVIEN_0960",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5801": {
+      "id_goc": "UNGVIEN_0948",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7928": {
+      "id_goc": "UNGVIEN_0448",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3449": {
+      "id_goc": "UNGVIEN_0806",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8621": {
+      "id_goc": "UNGVIEN_0935",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8027": {
+      "id_goc": "UNGVIEN_1026",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7829": {
+      "id_goc": "UNGVIEN_0508",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7912": {
+      "id_goc": "UNGVIEN_0859",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9880": {
+      "id_goc": "UNGVIEN_0606",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2189": {
+      "id_goc": "UNGVIEN_0812",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8800": {
+      "id_goc": "UNGVIEN_0469",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3879": {
+      "id_goc": "UNGVIEN_0829",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2132": {
+      "id_goc": "UNGVIEN_0630",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6893": {
+      "id_goc": "UNGVIEN_0571",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2339": {
+      "id_goc": "UNGVIEN_0530",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4254": {
+      "id_goc": "UNGVIEN_0953",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9394": {
+      "id_goc": "UNGVIEN_0063",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6339": {
+      "id_goc": "UNGVIEN_1080",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8097": {
+      "id_goc": "UNGVIEN_1011",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2427": {
+      "id_goc": "UNGVIEN_0937",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5894": {
+      "id_goc": "UNGVIEN_0532",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4863": {
+      "id_goc": "UNGVIEN_0066",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4952": {
+      "id_goc": "UNGVIEN_0647",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7097": {
+      "id_goc": "UNGVIEN_0763",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9417": {
+      "id_goc": "UNGVIEN_0956",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9125": {
+      "id_goc": "UNGVIEN_1012",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7904": {
+      "id_goc": "UNGVIEN_0905",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4553": {
+      "id_goc": "UNGVIEN_0065",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5124": {
+      "id_goc": "UNGVIEN_0042",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6351": {
+      "id_goc": "UNGVIEN_0668",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6172": {
+      "id_goc": "UNGVIEN_0679",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3717": {
+      "id_goc": "UNGVIEN_0300",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8035": {
+      "id_goc": "UNGVIEN_0028",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4395": {
+      "id_goc": "UNGVIEN_0060",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4560": {
+      "id_goc": "UNGVIEN_0330",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4471": {
+      "id_goc": "UNGVIEN_0348",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8450": {
+      "id_goc": "UNGVIEN_0990",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5230": {
+      "id_goc": "UNGVIEN_0463",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4687": {
+      "id_goc": "UNGVIEN_0872",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3730": {
+      "id_goc": "UNGVIEN_0725",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7815": {
+      "id_goc": "UNGVIEN_0217",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4897": {
+      "id_goc": "UNGVIEN_0449",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6752": {
+      "id_goc": "UNGVIEN_0976",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8778": {
+      "id_goc": "UNGVIEN_1008",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9351": {
+      "id_goc": "UNGVIEN_0468",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6687": {
+      "id_goc": "UNGVIEN_1174",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3623": {
+      "id_goc": "UNGVIEN_0356",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8816": {
+      "id_goc": "UNGVIEN_0438",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6710": {
+      "id_goc": "UNGVIEN_0811",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8454": {
+      "id_goc": "UNGVIEN_0633",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2320": {
+      "id_goc": "UNGVIEN_0366",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7518": {
+      "id_goc": "UNGVIEN_0546",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8257": {
+      "id_goc": "UNGVIEN_0874",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5187": {
+      "id_goc": "UNGVIEN_0282",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2477": {
+      "id_goc": "UNGVIEN_0472",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9917": {
+      "id_goc": "UNGVIEN_1027",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2945": {
+      "id_goc": "UNGVIEN_1173",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7927": {
+      "id_goc": "UNGVIEN_1155",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6697": {
+      "id_goc": "UNGVIEN_0095",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6112": {
+      "id_goc": "UNGVIEN_1167",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6225": {
+      "id_goc": "UNGVIEN_0963",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3119": {
+      "id_goc": "UNGVIEN_0183",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5432": {
+      "id_goc": "UNGVIEN_0467",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8317": {
+      "id_goc": "UNGVIEN_0688",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7439": {
+      "id_goc": "UNGVIEN_1051",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9807": {
+      "id_goc": "UNGVIEN_0729",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9064": {
+      "id_goc": "UNGVIEN_1025",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6134": {
+      "id_goc": "UNGVIEN_0110",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2404": {
+      "id_goc": "UNGVIEN_0026",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9795": {
+      "id_goc": "UNGVIEN_0044",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3857": {
+      "id_goc": "UNGVIEN_1030",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5072": {
+      "id_goc": "UNGVIEN_1003",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5646": {
+      "id_goc": "UNGVIEN_0878",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7274": {
+      "id_goc": "UNGVIEN_1102",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4529": {
+      "id_goc": "UNGVIEN_0114",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8344": {
+      "id_goc": "UNGVIEN_0666",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9043": {
+      "id_goc": "UNGVIEN_0887",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8692": {
+      "id_goc": "UNGVIEN_0790",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9918": {
+      "id_goc": "UNGVIEN_0427",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3622": {
+      "id_goc": "UNGVIEN_0297",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2331": {
+      "id_goc": "UNGVIEN_0753",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6333": {
+      "id_goc": "UNGVIEN_0921",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9542": {
+      "id_goc": "UNGVIEN_1069",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9290": {
+      "id_goc": "UNGVIEN_0055",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8665": {
+      "id_goc": "UNGVIEN_0461",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9412": {
+      "id_goc": "UNGVIEN_1078",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7731": {
+      "id_goc": "UNGVIEN_0656",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2978": {
+      "id_goc": "UNGVIEN_0236",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6006": {
+      "id_goc": "UNGVIEN_0720",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2729": {
+      "id_goc": "UNGVIEN_0310",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4521": {
+      "id_goc": "UNGVIEN_0368",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4262": {
+      "id_goc": "UNGVIEN_0134",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9438": {
+      "id_goc": "UNGVIEN_1059",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8786": {
+      "id_goc": "UNGVIEN_0867",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7725": {
+      "id_goc": "UNGVIEN_0641",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8356": {
+      "id_goc": "UNGVIEN_1114",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2645": {
+      "id_goc": "UNGVIEN_0303",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3295": {
+      "id_goc": "UNGVIEN_0091",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7520": {
+      "id_goc": "UNGVIEN_0194",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3313": {
+      "id_goc": "UNGVIEN_0842",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6067": {
+      "id_goc": "UNGVIEN_0301",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5506": {
+      "id_goc": "UNGVIEN_0595",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4034": {
+      "id_goc": "UNGVIEN_1035",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8050": {
+      "id_goc": "UNGVIEN_1138",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6663": {
+      "id_goc": "UNGVIEN_0125",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4357": {
+      "id_goc": "UNGVIEN_1048",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8465": {
+      "id_goc": "UNGVIEN_0127",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4527": {
+      "id_goc": "UNGVIEN_0117",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3175": {
+      "id_goc": "UNGVIEN_0226",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3596": {
+      "id_goc": "UNGVIEN_1054",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3396": {
+      "id_goc": "UNGVIEN_0488",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9667": {
+      "id_goc": "UNGVIEN_0603",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4132": {
+      "id_goc": "UNGVIEN_1153",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9085": {
+      "id_goc": "UNGVIEN_0426",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2159": {
+      "id_goc": "UNGVIEN_0772",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6297": {
+      "id_goc": "UNGVIEN_0235",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7885": {
+      "id_goc": "UNGVIEN_0261",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2823": {
+      "id_goc": "UNGVIEN_0180",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9736": {
+      "id_goc": "UNGVIEN_0860",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3891": {
+      "id_goc": "UNGVIEN_0957",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7690": {
+      "id_goc": "UNGVIEN_1079",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3606": {
+      "id_goc": "UNGVIEN_0288",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2626": {
+      "id_goc": "UNGVIEN_1076",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9178": {
+      "id_goc": "UNGVIEN_0648",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2904": {
+      "id_goc": "UNGVIEN_0219",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8429": {
+      "id_goc": "UNGVIEN_1096",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4298": {
+      "id_goc": "UNGVIEN_0382",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6722": {
+      "id_goc": "UNGVIEN_1044",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4248": {
+      "id_goc": "UNGVIEN_0981",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7827": {
+      "id_goc": "UNGVIEN_0197",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9196": {
+      "id_goc": "UNGVIEN_1086",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5739": {
+      "id_goc": "UNGVIEN_0788",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5989": {
+      "id_goc": "UNGVIEN_0132",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7233": {
+      "id_goc": "UNGVIEN_0093",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3200": {
+      "id_goc": "UNGVIEN_0445",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4343": {
+      "id_goc": "UNGVIEN_0016",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3163": {
+      "id_goc": "UNGVIEN_0494",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3063": {
+      "id_goc": "UNGVIEN_0892",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4868": {
+      "id_goc": "UNGVIEN_0327",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3193": {
+      "id_goc": "UNGVIEN_0822",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7010": {
+      "id_goc": "UNGVIEN_0778",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2607": {
+      "id_goc": "UNGVIEN_1043",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6010": {
+      "id_goc": "UNGVIEN_1024",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8320": {
+      "id_goc": "UNGVIEN_0980",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9276": {
+      "id_goc": "UNGVIEN_0927",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8861": {
+      "id_goc": "UNGVIEN_0040",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5640": {
+      "id_goc": "UNGVIEN_0975",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5485": {
+      "id_goc": "UNGVIEN_0687",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5229": {
+      "id_goc": "UNGVIEN_1117",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2952": {
+      "id_goc": "UNGVIEN_1088",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8526": {
+      "id_goc": "UNGVIEN_0020",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4294": {
+      "id_goc": "UNGVIEN_0805",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4289": {
+      "id_goc": "UNGVIEN_0623",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4581": {
+      "id_goc": "UNGVIEN_0849",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4645": {
+      "id_goc": "UNGVIEN_1116",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7931": {
+      "id_goc": "UNGVIEN_0518",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4924": {
+      "id_goc": "UNGVIEN_0142",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8753": {
+      "id_goc": "UNGVIEN_0083",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5716": {
+      "id_goc": "UNGVIEN_0873",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2016": {
+      "id_goc": "UNGVIEN_0364",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7192": {
+      "id_goc": "UNGVIEN_0908",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9903": {
+      "id_goc": "UNGVIEN_0137",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5807": {
+      "id_goc": "UNGVIEN_0567",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3465": {
+      "id_goc": "UNGVIEN_0053",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7611": {
+      "id_goc": "UNGVIEN_0662",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9041": {
+      "id_goc": "UNGVIEN_0576",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6058": {
+      "id_goc": "UNGVIEN_0085",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3872": {
+      "id_goc": "UNGVIEN_0766",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3519": {
+      "id_goc": "UNGVIEN_0124",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2797": {
+      "id_goc": "UNGVIEN_0265",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5780": {
+      "id_goc": "UNGVIEN_0848",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5360": {
+      "id_goc": "UNGVIEN_1195",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6958": {
+      "id_goc": "UNGVIEN_0222",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4029": {
+      "id_goc": "UNGVIEN_1085",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3265": {
+      "id_goc": "UNGVIEN_0578",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7836": {
+      "id_goc": "UNGVIEN_0211",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5020": {
+      "id_goc": "UNGVIEN_0520",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3617": {
+      "id_goc": "UNGVIEN_0079",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4699": {
+      "id_goc": "UNGVIEN_0485",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6802": {
+      "id_goc": "UNGVIEN_0415",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8286": {
+      "id_goc": "UNGVIEN_0447",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6296": {
+      "id_goc": "UNGVIEN_0802",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7271": {
+      "id_goc": "UNGVIEN_0539",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4803": {
+      "id_goc": "UNGVIEN_0517",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7149": {
+      "id_goc": "UNGVIEN_0369",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7301": {
+      "id_goc": "UNGVIEN_0419",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5383": {
+      "id_goc": "UNGVIEN_0058",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2527": {
+      "id_goc": "UNGVIEN_0993",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9994": {
+      "id_goc": "UNGVIEN_0287",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6661": {
+      "id_goc": "UNGVIEN_1047",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2306": {
+      "id_goc": "UNGVIEN_0090",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9038": {
+      "id_goc": "UNGVIEN_0994",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2417": {
+      "id_goc": "UNGVIEN_0917",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5149": {
+      "id_goc": "UNGVIEN_1158",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3323": {
+      "id_goc": "UNGVIEN_0322",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6129": {
+      "id_goc": "UNGVIEN_1180",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4410": {
+      "id_goc": "UNGVIEN_0635",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2704": {
+      "id_goc": "UNGVIEN_1177",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5813": {
+      "id_goc": "UNGVIEN_0792",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3796": {
+      "id_goc": "UNGVIEN_0721",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2278": {
+      "id_goc": "UNGVIEN_0230",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3628": {
+      "id_goc": "UNGVIEN_1033",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4133": {
+      "id_goc": "UNGVIEN_0619",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6699": {
+      "id_goc": "UNGVIEN_0464",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7784": {
+      "id_goc": "UNGVIEN_0285",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4905": {
+      "id_goc": "UNGVIEN_0885",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7449": {
+      "id_goc": "UNGVIEN_0798",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9710": {
+      "id_goc": "UNGVIEN_0898",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4563": {
+      "id_goc": "UNGVIEN_0568",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8218": {
+      "id_goc": "UNGVIEN_0704",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6956": {
+      "id_goc": "UNGVIEN_0126",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7972": {
+      "id_goc": "UNGVIEN_0978",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2373": {
+      "id_goc": "UNGVIEN_0234",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9447": {
+      "id_goc": "UNGVIEN_0286",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5793": {
+      "id_goc": "UNGVIEN_0882",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4323": {
+      "id_goc": "UNGVIEN_0765",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8989": {
+      "id_goc": "UNGVIEN_0577",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2703": {
+      "id_goc": "UNGVIEN_0650",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6262": {
+      "id_goc": "UNGVIEN_1014",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5829": {
+      "id_goc": "UNGVIEN_0712",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2881": {
+      "id_goc": "UNGVIEN_1006",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6208": {
+      "id_goc": "UNGVIEN_0667",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5875": {
+      "id_goc": "UNGVIEN_0722",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2601": {
+      "id_goc": "UNGVIEN_0018",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6572": {
+      "id_goc": "UNGVIEN_0081",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6119": {
+      "id_goc": "UNGVIEN_0608",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7632": {
+      "id_goc": "UNGVIEN_0075",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9843": {
+      "id_goc": "UNGVIEN_1150",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6307": {
+      "id_goc": "UNGVIEN_0819",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8604": {
+      "id_goc": "UNGVIEN_0455",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3225": {
+      "id_goc": "UNGVIEN_0216",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9826": {
+      "id_goc": "UNGVIEN_0551",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3713": {
+      "id_goc": "UNGVIEN_0344",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6744": {
+      "id_goc": "UNGVIEN_0907",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9533": {
+      "id_goc": "UNGVIEN_0393",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5880": {
+      "id_goc": "UNGVIEN_1005",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7869": {
+      "id_goc": "UNGVIEN_1136",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7229": {
+      "id_goc": "UNGVIEN_1147",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3483": {
+      "id_goc": "UNGVIEN_0913",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2122": {
+      "id_goc": "UNGVIEN_1017",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9161": {
+      "id_goc": "UNGVIEN_0716",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5757": {
+      "id_goc": "UNGVIEN_0879",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8887": {
+      "id_goc": "UNGVIEN_0890",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7424": {
+      "id_goc": "UNGVIEN_0279",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5341": {
+      "id_goc": "UNGVIEN_0715",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2795": {
+      "id_goc": "UNGVIEN_1123",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5956": {
+      "id_goc": "UNGVIEN_0318",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3553": {
+      "id_goc": "UNGVIEN_0746",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5153": {
+      "id_goc": "UNGVIEN_1046",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6457": {
+      "id_goc": "UNGVIEN_0540",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7427": {
+      "id_goc": "UNGVIEN_0409",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4350": {
+      "id_goc": "UNGVIEN_0202",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9413": {
+      "id_goc": "UNGVIEN_0862",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8729": {
+      "id_goc": "UNGVIEN_0774",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8418": {
+      "id_goc": "UNGVIEN_1131",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4632": {
+      "id_goc": "UNGVIEN_0255",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4195": {
+      "id_goc": "UNGVIEN_0374",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2258": {
+      "id_goc": "UNGVIEN_0390",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6414": {
+      "id_goc": "UNGVIEN_0700",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5924": {
+      "id_goc": "UNGVIEN_1175",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7226": {
+      "id_goc": "UNGVIEN_0403",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5694": {
+      "id_goc": "UNGVIEN_1122",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2936": {
+      "id_goc": "UNGVIEN_0638",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8067": {
+      "id_goc": "UNGVIEN_0881",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7939": {
+      "id_goc": "UNGVIEN_0232",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7302": {
+      "id_goc": "UNGVIEN_1081",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8999": {
+      "id_goc": "UNGVIEN_0283",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4059": {
+      "id_goc": "UNGVIEN_0154",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8110": {
+      "id_goc": "UNGVIEN_0249",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2792": {
+      "id_goc": "UNGVIEN_0731",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8669": {
+      "id_goc": "UNGVIEN_0389",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4879": {
+      "id_goc": "UNGVIEN_0367",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8506": {
+      "id_goc": "UNGVIEN_0434",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3269": {
+      "id_goc": "UNGVIEN_0133",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2033": {
+      "id_goc": "UNGVIEN_0645",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3420": {
+      "id_goc": "UNGVIEN_0526",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2750": {
+      "id_goc": "UNGVIEN_0759",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4719": {
+      "id_goc": "UNGVIEN_0914",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9923": {
+      "id_goc": "UNGVIEN_0686",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3065": {
+      "id_goc": "UNGVIEN_0952",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9571": {
+      "id_goc": "UNGVIEN_0553",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7752": {
+      "id_goc": "UNGVIEN_1110",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2717": {
+      "id_goc": "UNGVIEN_1133",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5347": {
+      "id_goc": "UNGVIEN_0495",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5033": {
+      "id_goc": "UNGVIEN_1200",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7076": {
+      "id_goc": "UNGVIEN_0231",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5686": {
+      "id_goc": "UNGVIEN_0383",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7868": {
+      "id_goc": "UNGVIEN_0196",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8662": {
+      "id_goc": "UNGVIEN_0618",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4590": {
+      "id_goc": "UNGVIEN_0855",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4778": {
+      "id_goc": "UNGVIEN_0097",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5698": {
+      "id_goc": "UNGVIEN_0919",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4458": {
+      "id_goc": "UNGVIEN_0991",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3187": {
+      "id_goc": "UNGVIEN_1183",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7212": {
+      "id_goc": "UNGVIEN_0045",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9717": {
+      "id_goc": "UNGVIEN_0502",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2178": {
+      "id_goc": "UNGVIEN_0224",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9544": {
+      "id_goc": "UNGVIEN_0615",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4346": {
+      "id_goc": "UNGVIEN_0596",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9233": {
+      "id_goc": "UNGVIEN_0754",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6743": {
+      "id_goc": "UNGVIEN_0594",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6911": {
+      "id_goc": "UNGVIEN_0601",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6895": {
+      "id_goc": "UNGVIEN_0853",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7669": {
+      "id_goc": "UNGVIEN_0559",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7428": {
+      "id_goc": "UNGVIEN_0480",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4176": {
+      "id_goc": "UNGVIEN_0031",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7162": {
+      "id_goc": "UNGVIEN_0209",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8992": {
+      "id_goc": "UNGVIEN_0950",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9979": {
+      "id_goc": "UNGVIEN_1067",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4764": {
+      "id_goc": "UNGVIEN_1089",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7898": {
+      "id_goc": "UNGVIEN_0609",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8980": {
+      "id_goc": "UNGVIEN_0280",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3166": {
+      "id_goc": "UNGVIEN_0250",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2749": {
+      "id_goc": "UNGVIEN_0922",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9646": {
+      "id_goc": "UNGVIEN_0418",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6684": {
+      "id_goc": "UNGVIEN_0187",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6736": {
+      "id_goc": "UNGVIEN_0078",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9653": {
+      "id_goc": "UNGVIEN_0487",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4864": {
+      "id_goc": "UNGVIEN_0929",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9458": {
+      "id_goc": "UNGVIEN_0528",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9662": {
+      "id_goc": "UNGVIEN_0708",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5887": {
+      "id_goc": "UNGVIEN_0410",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2186": {
+      "id_goc": "UNGVIEN_0122",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7676": {
+      "id_goc": "UNGVIEN_0888",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3884": {
+      "id_goc": "UNGVIEN_1146",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2581": {
+      "id_goc": "UNGVIEN_0102",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4508": {
+      "id_goc": "UNGVIEN_1134",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4231": {
+      "id_goc": "UNGVIEN_0584",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6177": {
+      "id_goc": "UNGVIEN_0292",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3672": {
+      "id_goc": "UNGVIEN_0755",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3974": {
+      "id_goc": "UNGVIEN_1021",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3499": {
+      "id_goc": "UNGVIEN_0424",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8225": {
+      "id_goc": "UNGVIEN_0640",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5120": {
+      "id_goc": "UNGVIEN_0161",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7995": {
+      "id_goc": "UNGVIEN_0151",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2766": {
+      "id_goc": "UNGVIEN_0238",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2767": {
+      "id_goc": "UNGVIEN_1141",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3719": {
+      "id_goc": "UNGVIEN_1074",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4510": {
+      "id_goc": "UNGVIEN_0674",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6104": {
+      "id_goc": "UNGVIEN_0828",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5129": {
+      "id_goc": "UNGVIEN_1000",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5247": {
+      "id_goc": "UNGVIEN_1099",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9599": {
+      "id_goc": "UNGVIEN_1032",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5190": {
+      "id_goc": "UNGVIEN_0425",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4431": {
+      "id_goc": "UNGVIEN_1115",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3985": {
+      "id_goc": "UNGVIEN_0225",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4971": {
+      "id_goc": "UNGVIEN_0785",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3170": {
+      "id_goc": "UNGVIEN_0672",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4837": {
+      "id_goc": "UNGVIEN_0823",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3157": {
+      "id_goc": "UNGVIEN_0119",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4075": {
+      "id_goc": "UNGVIEN_0871",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4385": {
+      "id_goc": "UNGVIEN_0064",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5758": {
+      "id_goc": "UNGVIEN_0421",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3305": {
+      "id_goc": "UNGVIEN_0153",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7487": {
+      "id_goc": "UNGVIEN_0205",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6505": {
+      "id_goc": "UNGVIEN_0693",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2003": {
+      "id_goc": "UNGVIEN_0174",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3222": {
+      "id_goc": "UNGVIEN_1187",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2297": {
+      "id_goc": "UNGVIEN_0973",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4847": {
+      "id_goc": "UNGVIEN_1097",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3300": {
+      "id_goc": "UNGVIEN_0223",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7896": {
+      "id_goc": "UNGVIEN_0868",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3362": {
+      "id_goc": "UNGVIEN_0533",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7110": {
+      "id_goc": "UNGVIEN_0681",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3279": {
+      "id_goc": "UNGVIEN_0071",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7120": {
+      "id_goc": "UNGVIEN_0773",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9554": {
+      "id_goc": "UNGVIEN_0258",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8822": {
+      "id_goc": "UNGVIEN_0988",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3889": {
+      "id_goc": "UNGVIEN_1100",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4681": {
+      "id_goc": "UNGVIEN_0807",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2751": {
+      "id_goc": "UNGVIEN_0147",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2379": {
+      "id_goc": "UNGVIEN_0627",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8974": {
+      "id_goc": "UNGVIEN_0155",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2164": {
+      "id_goc": "UNGVIEN_0371",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5116": {
+      "id_goc": "UNGVIEN_0158",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8917": {
+      "id_goc": "UNGVIEN_0247",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9754": {
+      "id_goc": "UNGVIEN_0642",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9342": {
+      "id_goc": "UNGVIEN_0481",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4083": {
+      "id_goc": "UNGVIEN_0308",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9045": {
+      "id_goc": "UNGVIEN_1094",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6593": {
+      "id_goc": "UNGVIEN_0724",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8442": {
+      "id_goc": "UNGVIEN_0761",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7127": {
+      "id_goc": "UNGVIEN_1022",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7452": {
+      "id_goc": "UNGVIEN_0961",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5079": {
+      "id_goc": "UNGVIEN_0179",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4305": {
+      "id_goc": "UNGVIEN_0514",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4322": {
+      "id_goc": "UNGVIEN_0043",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5628": {
+      "id_goc": "UNGVIEN_1029",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4002": {
+      "id_goc": "UNGVIEN_0339",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5804": {
+      "id_goc": "UNGVIEN_0516",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8051": {
+      "id_goc": "UNGVIEN_0949",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4591": {
+      "id_goc": "UNGVIEN_0399",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9010": {
+      "id_goc": "UNGVIEN_0459",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3451": {
+      "id_goc": "UNGVIEN_1061",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7027": {
+      "id_goc": "UNGVIEN_1020",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6131": {
+      "id_goc": "UNGVIEN_0035",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9779": {
+      "id_goc": "UNGVIEN_0742",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2419": {
+      "id_goc": "UNGVIEN_1113",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8638": {
+      "id_goc": "UNGVIEN_1001",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3172": {
+      "id_goc": "UNGVIEN_0624",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8287": {
+      "id_goc": "UNGVIEN_1189",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4420": {
+      "id_goc": "UNGVIEN_0277",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3603": {
+      "id_goc": "UNGVIEN_0190",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3285": {
+      "id_goc": "UNGVIEN_1002",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6964": {
+      "id_goc": "UNGVIEN_0928",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9424": {
+      "id_goc": "UNGVIEN_1129",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2308": {
+      "id_goc": "UNGVIEN_0320",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8676": {
+      "id_goc": "UNGVIEN_0317",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7294": {
+      "id_goc": "UNGVIEN_0192",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8498": {
+      "id_goc": "UNGVIEN_0047",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9745": {
+      "id_goc": "UNGVIEN_0350",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9225": {
+      "id_goc": "UNGVIEN_0146",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3322": {
+      "id_goc": "UNGVIEN_0587",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6652": {
+      "id_goc": "UNGVIEN_0769",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7710": {
+      "id_goc": "UNGVIEN_0750",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7264": {
+      "id_goc": "UNGVIEN_1019",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8154": {
+      "id_goc": "UNGVIEN_1018",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8932": {
+      "id_goc": "UNGVIEN_0346",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3825": {
+      "id_goc": "UNGVIEN_0840",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4063": {
+      "id_goc": "UNGVIEN_0293",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3998": {
+      "id_goc": "UNGVIEN_0135",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2609": {
+      "id_goc": "UNGVIEN_1151",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5308": {
+      "id_goc": "UNGVIEN_0541",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2021": {
+      "id_goc": "UNGVIEN_0844",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7612": {
+      "id_goc": "UNGVIEN_0108",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8394": {
+      "id_goc": "UNGVIEN_0837",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9116": {
+      "id_goc": "UNGVIEN_0002",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3946": {
+      "id_goc": "UNGVIEN_0675",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5196": {
+      "id_goc": "UNGVIEN_0500",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7130": {
+      "id_goc": "UNGVIEN_0955",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9964": {
+      "id_goc": "UNGVIEN_1178",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4041": {
+      "id_goc": "UNGVIEN_1060",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6427": {
+      "id_goc": "UNGVIEN_0658",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3908": {
+      "id_goc": "UNGVIEN_0930",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4496": {
+      "id_goc": "UNGVIEN_0396",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6345": {
+      "id_goc": "UNGVIEN_1184",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9772": {
+      "id_goc": "UNGVIEN_0484",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3983": {
+      "id_goc": "UNGVIEN_1045",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5692": {
+      "id_goc": "UNGVIEN_0706",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4036": {
+      "id_goc": "UNGVIEN_0834",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9061": {
+      "id_goc": "UNGVIEN_0815",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8937": {
+      "id_goc": "UNGVIEN_0959",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8362": {
+      "id_goc": "UNGVIEN_0118",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9076": {
+      "id_goc": "UNGVIEN_0918",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3143": {
+      "id_goc": "UNGVIEN_0985",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9366": {
+      "id_goc": "UNGVIEN_0801",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5786": {
+      "id_goc": "UNGVIEN_0886",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6145": {
+      "id_goc": "UNGVIEN_0799",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5340": {
+      "id_goc": "UNGVIEN_0441",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8797": {
+      "id_goc": "UNGVIEN_0470",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2370": {
+      "id_goc": "UNGVIEN_0689",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9210": {
+      "id_goc": "UNGVIEN_0240",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6195": {
+      "id_goc": "UNGVIEN_1127",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6405": {
+      "id_goc": "UNGVIEN_0203",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7857": {
+      "id_goc": "UNGVIEN_0670",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3087": {
+      "id_goc": "UNGVIEN_0101",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3915": {
+      "id_goc": "UNGVIEN_0160",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3472": {
+      "id_goc": "UNGVIEN_1093",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3399": {
+      "id_goc": "UNGVIEN_0380",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3370": {
+      "id_goc": "UNGVIEN_0889",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2559": {
+      "id_goc": "UNGVIEN_0986",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7479": {
+      "id_goc": "UNGVIEN_0015",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8945": {
+      "id_goc": "UNGVIEN_1056",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2585": {
+      "id_goc": "UNGVIEN_0302",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4264": {
+      "id_goc": "UNGVIEN_0791",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5421": {
+      "id_goc": "UNGVIEN_0385",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5586": {
+      "id_goc": "UNGVIEN_0089",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2709": {
+      "id_goc": "UNGVIEN_0995",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9409": {
+      "id_goc": "UNGVIEN_0736",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5349": {
+      "id_goc": "UNGVIEN_0557",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7327": {
+      "id_goc": "UNGVIEN_0437",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4955": {
+      "id_goc": "UNGVIEN_0903",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8542": {
+      "id_goc": "UNGVIEN_0372",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8759": {
+      "id_goc": "UNGVIEN_0144",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6891": {
+      "id_goc": "UNGVIEN_0476",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2303": {
+      "id_goc": "UNGVIEN_0777",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6630": {
+      "id_goc": "UNGVIEN_0573",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5884": {
+      "id_goc": "UNGVIEN_0604",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3393": {
+      "id_goc": "UNGVIEN_0669",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4409": {
+      "id_goc": "UNGVIEN_0027",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2844": {
+      "id_goc": "UNGVIEN_0387",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9520": {
+      "id_goc": "UNGVIEN_0237",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3675": {
+      "id_goc": "UNGVIEN_0296",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8494": {
+      "id_goc": "UNGVIEN_0654",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4698": {
+      "id_goc": "UNGVIEN_0402",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8790": {
+      "id_goc": "UNGVIEN_0103",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6967": {
+      "id_goc": "UNGVIEN_1169",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2961": {
+      "id_goc": "UNGVIEN_0880",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9696": {
+      "id_goc": "UNGVIEN_0363",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5080": {
+      "id_goc": "UNGVIEN_0198",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9077": {
+      "id_goc": "UNGVIEN_1190",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6581": {
+      "id_goc": "UNGVIEN_0701",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4086": {
+      "id_goc": "UNGVIEN_0123",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6677": {
+      "id_goc": "UNGVIEN_0915",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4670": {
+      "id_goc": "UNGVIEN_0741",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9459": {
+      "id_goc": "UNGVIEN_0354",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4722": {
+      "id_goc": "UNGVIEN_1104",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7376": {
+      "id_goc": "UNGVIEN_0324",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7279": {
+      "id_goc": "UNGVIEN_0167",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2432": {
+      "id_goc": "UNGVIEN_0909",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5864": {
+      "id_goc": "UNGVIEN_1036",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5111": {
+      "id_goc": "UNGVIEN_0362",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2834": {
+      "id_goc": "UNGVIEN_0649",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9338": {
+      "id_goc": "UNGVIEN_0157",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6882": {
+      "id_goc": "UNGVIEN_0458",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3699": {
+      "id_goc": "UNGVIEN_0141",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5795": {
+      "id_goc": "UNGVIEN_0284",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2778": {
+      "id_goc": "UNGVIEN_0951",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8169": {
+      "id_goc": "UNGVIEN_0565",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8650": {
+      "id_goc": "UNGVIEN_0423",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4812": {
+      "id_goc": "UNGVIEN_0938",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6070": {
+      "id_goc": "UNGVIEN_0534",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5362": {
+      "id_goc": "UNGVIEN_0521",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7092": {
+      "id_goc": "UNGVIEN_0572",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2237": {
+      "id_goc": "UNGVIEN_1185",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5012": {
+      "id_goc": "UNGVIEN_1179",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8593": {
+      "id_goc": "UNGVIEN_0084",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6681": {
+      "id_goc": "UNGVIEN_1165",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4094": {
+      "id_goc": "UNGVIEN_0531",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7001": {
+      "id_goc": "UNGVIEN_0945",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8605": {
+      "id_goc": "UNGVIEN_0784",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5394": {
+      "id_goc": "UNGVIEN_0678",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5217": {
+      "id_goc": "UNGVIEN_0847",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2383": {
+      "id_goc": "UNGVIEN_0901",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9012": {
+      "id_goc": "UNGVIEN_0059",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6369": {
+      "id_goc": "UNGVIEN_0752",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6841": {
+      "id_goc": "UNGVIEN_0185",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2798": {
+      "id_goc": "UNGVIEN_0745",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7666": {
+      "id_goc": "UNGVIEN_0643",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7615": {
+      "id_goc": "UNGVIEN_0563",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8580": {
+      "id_goc": "UNGVIEN_0562",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9230": {
+      "id_goc": "UNGVIEN_0866",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3129": {
+      "id_goc": "UNGVIEN_0832",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5275": {
+      "id_goc": "UNGVIEN_0958",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6962": {
+      "id_goc": "UNGVIEN_0412",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7749": {
+      "id_goc": "UNGVIEN_0173",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5462": {
+      "id_goc": "UNGVIEN_0336",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2261": {
+      "id_goc": "UNGVIEN_0818",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3545": {
+      "id_goc": "UNGVIEN_0628",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4801": {
+      "id_goc": "UNGVIEN_0005",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9611": {
+      "id_goc": "UNGVIEN_0036",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2594": {
+      "id_goc": "UNGVIEN_0025",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7065": {
+      "id_goc": "UNGVIEN_1092",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8180": {
+      "id_goc": "UNGVIEN_0543",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8744": {
+      "id_goc": "UNGVIEN_1037",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9881": {
+      "id_goc": "UNGVIEN_0333",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5834": {
+      "id_goc": "UNGVIEN_0033",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2368": {
+      "id_goc": "UNGVIEN_1042",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3177": {
+      "id_goc": "UNGVIEN_0009",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8412": {
+      "id_goc": "UNGVIEN_0800",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2631": {
+      "id_goc": "UNGVIEN_0864",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7975": {
+      "id_goc": "UNGVIEN_1101",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6338": {
+      "id_goc": "UNGVIEN_0705",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9506": {
+      "id_goc": "UNGVIEN_0338",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4452": {
+      "id_goc": "UNGVIEN_1106",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2481": {
+      "id_goc": "UNGVIEN_0585",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8892": {
+      "id_goc": "UNGVIEN_0797",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7433": {
+      "id_goc": "UNGVIEN_0156",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9788": {
+      "id_goc": "UNGVIEN_0522",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6327": {
+      "id_goc": "UNGVIEN_0343",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2910": {
+      "id_goc": "UNGVIEN_0906",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3125": {
+      "id_goc": "UNGVIEN_0111",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5028": {
+      "id_goc": "UNGVIEN_0073",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4218": {
+      "id_goc": "UNGVIEN_0213",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4312": {
+      "id_goc": "UNGVIEN_0549",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9551": {
+      "id_goc": "UNGVIEN_0676",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8986": {
+      "id_goc": "UNGVIEN_0946",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7796": {
+      "id_goc": "UNGVIEN_1105",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9271": {
+      "id_goc": "UNGVIEN_0558",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2431": {
+      "id_goc": "UNGVIEN_0130",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7754": {
+      "id_goc": "UNGVIEN_0177",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3734": {
+      "id_goc": "UNGVIEN_0465",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2948": {
+      "id_goc": "UNGVIEN_0248",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7529": {
+      "id_goc": "UNGVIEN_1137",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6215": {
+      "id_goc": "UNGVIEN_0954",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2410": {
+      "id_goc": "UNGVIEN_0629",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6148": {
+      "id_goc": "UNGVIEN_0420",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9648": {
+      "id_goc": "UNGVIEN_0850",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2017": {
+      "id_goc": "UNGVIEN_0631",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2927": {
+      "id_goc": "UNGVIEN_0734",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5705": {
+      "id_goc": "UNGVIEN_0023",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3167": {
+      "id_goc": "UNGVIEN_0471",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4324": {
+      "id_goc": "UNGVIEN_1172",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7534": {
+      "id_goc": "UNGVIEN_0796",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5768": {
+      "id_goc": "UNGVIEN_1112",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2926": {
+      "id_goc": "UNGVIEN_0200",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7320": {
+      "id_goc": "UNGVIEN_0699",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6393": {
+      "id_goc": "UNGVIEN_0478",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7573": {
+      "id_goc": "UNGVIEN_1170",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9402": {
+      "id_goc": "UNGVIEN_0289",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5088": {
+      "id_goc": "UNGVIEN_0003",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6657": {
+      "id_goc": "UNGVIEN_0361",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7093": {
+      "id_goc": "UNGVIEN_0347",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2679": {
+      "id_goc": "UNGVIEN_1070",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6993": {
+      "id_goc": "UNGVIEN_0184",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6040": {
+      "id_goc": "UNGVIEN_0861",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4829": {
+      "id_goc": "UNGVIEN_0895",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2311": {
+      "id_goc": "UNGVIEN_0926",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4234": {
+      "id_goc": "UNGVIEN_0239",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9264": {
+      "id_goc": "UNGVIEN_0251",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5179": {
+      "id_goc": "UNGVIEN_0911",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5659": {
+      "id_goc": "UNGVIEN_0782",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9858": {
+      "id_goc": "UNGVIEN_0070",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8704": {
+      "id_goc": "UNGVIEN_0397",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7789": {
+      "id_goc": "UNGVIEN_0507",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2076": {
+      "id_goc": "UNGVIEN_0466",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8931": {
+      "id_goc": "UNGVIEN_1055",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9781": {
+      "id_goc": "UNGVIEN_0332",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7856": {
+      "id_goc": "UNGVIEN_0839",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5263": {
+      "id_goc": "UNGVIEN_0477",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9655": {
+      "id_goc": "UNGVIEN_0498",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7310": {
+      "id_goc": "UNGVIEN_0550",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4960": {
+      "id_goc": "UNGVIEN_1071",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3201": {
+      "id_goc": "UNGVIEN_1130",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9324": {
+      "id_goc": "UNGVIEN_0140",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3625": {
+      "id_goc": "UNGVIEN_0590",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2875": {
+      "id_goc": "UNGVIEN_0794",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2573": {
+      "id_goc": "UNGVIEN_0580",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7222": {
+      "id_goc": "UNGVIEN_0221",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7330": {
+      "id_goc": "UNGVIEN_0943",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2856": {
+      "id_goc": "UNGVIEN_0969",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3258": {
+      "id_goc": "UNGVIEN_0820",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2606": {
+      "id_goc": "UNGVIEN_0925",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3705": {
+      "id_goc": "UNGVIEN_1109",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2814": {
+      "id_goc": "UNGVIEN_0229",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8173": {
+      "id_goc": "UNGVIEN_1084",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2693": {
+      "id_goc": "UNGVIEN_0021",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9398": {
+      "id_goc": "UNGVIEN_0201",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6793": {
+      "id_goc": "UNGVIEN_0408",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5832": {
+      "id_goc": "UNGVIEN_0697",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8964": {
+      "id_goc": "UNGVIEN_1004",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5560": {
+      "id_goc": "UNGVIEN_0793",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6056": {
+      "id_goc": "UNGVIEN_0100",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2360": {
+      "id_goc": "UNGVIEN_0453",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6591": {
+      "id_goc": "UNGVIEN_0105",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2656": {
+      "id_goc": "UNGVIEN_0661",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2061": {
+      "id_goc": "UNGVIEN_0821",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9868": {
+      "id_goc": "UNGVIEN_0024",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3003": {
+      "id_goc": "UNGVIEN_0061",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5898": {
+      "id_goc": "UNGVIEN_0032",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4745": {
+      "id_goc": "UNGVIEN_0435",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8095": {
+      "id_goc": "UNGVIEN_0646",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2827": {
+      "id_goc": "UNGVIEN_0789",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7366": {
+      "id_goc": "UNGVIEN_1120",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3213": {
+      "id_goc": "UNGVIEN_0375",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5395": {
+      "id_goc": "UNGVIEN_0260",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7767": {
+      "id_goc": "UNGVIEN_0017",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5682": {
+      "id_goc": "UNGVIEN_0748",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6951": {
+      "id_goc": "UNGVIEN_0165",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7141": {
+      "id_goc": "UNGVIEN_0246",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4894": {
+      "id_goc": "UNGVIEN_0825",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8997": {
+      "id_goc": "UNGVIEN_0430",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9296": {
+      "id_goc": "UNGVIEN_1023",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6870": {
+      "id_goc": "UNGVIEN_0068",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3890": {
+      "id_goc": "UNGVIEN_0088",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7652": {
+      "id_goc": "UNGVIEN_0690",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3037": {
+      "id_goc": "UNGVIEN_0637",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9145": {
+      "id_goc": "UNGVIEN_0934",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3238": {
+      "id_goc": "UNGVIEN_1166",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3809": {
+      "id_goc": "UNGVIEN_0452",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5856": {
+      "id_goc": "UNGVIEN_0713",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5955": {
+      "id_goc": "UNGVIEN_0436",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3041": {
+      "id_goc": "UNGVIEN_0460",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6642": {
+      "id_goc": "UNGVIEN_0566",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6236": {
+      "id_goc": "UNGVIEN_0809",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7281": {
+      "id_goc": "UNGVIEN_0535",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7823": {
+      "id_goc": "UNGVIEN_0710",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8694": {
+      "id_goc": "UNGVIEN_0479",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2746": {
+      "id_goc": "UNGVIEN_1119",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9140": {
+      "id_goc": "UNGVIEN_0665",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6496": {
+      "id_goc": "UNGVIEN_0756",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3443": {
+      "id_goc": "UNGVIEN_0004",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7111": {
+      "id_goc": "UNGVIEN_0586",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4993": {
+      "id_goc": "UNGVIEN_0306",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7062": {
+      "id_goc": "UNGVIEN_1145",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8898": {
+      "id_goc": "UNGVIEN_1140",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3060": {
+      "id_goc": "UNGVIEN_0992",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8954": {
+      "id_goc": "UNGVIEN_0039",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7351": {
+      "id_goc": "UNGVIEN_0768",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7284": {
+      "id_goc": "UNGVIEN_1199",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3538": {
+      "id_goc": "UNGVIEN_0212",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6780": {
+      "id_goc": "UNGVIEN_1034",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3070": {
+      "id_goc": "UNGVIEN_0121",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4463": {
+      "id_goc": "UNGVIEN_1052",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7170": {
+      "id_goc": "UNGVIEN_0599",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8386": {
+      "id_goc": "UNGVIEN_0732",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5555": {
+      "id_goc": "UNGVIEN_0242",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4876": {
+      "id_goc": "UNGVIEN_0115",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6844": {
+      "id_goc": "UNGVIEN_0639",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5589": {
+      "id_goc": "UNGVIEN_1073",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8828": {
+      "id_goc": "UNGVIEN_0682",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9628": {
+      "id_goc": "UNGVIEN_0109",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8673": {
+      "id_goc": "UNGVIEN_0295",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9660": {
+      "id_goc": "UNGVIEN_0663",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2967": {
+      "id_goc": "UNGVIEN_0912",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8361": {
+      "id_goc": "UNGVIEN_0401",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5007": {
+      "id_goc": "UNGVIEN_0164",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5445": {
+      "id_goc": "UNGVIEN_1188",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8451": {
+      "id_goc": "UNGVIEN_1143",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3906": {
+      "id_goc": "UNGVIEN_1164",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4638": {
+      "id_goc": "UNGVIEN_0510",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9226": {
+      "id_goc": "UNGVIEN_1152",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9385": {
+      "id_goc": "UNGVIEN_0614",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6760": {
+      "id_goc": "UNGVIEN_0803",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4490": {
+      "id_goc": "UNGVIEN_1063",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6654": {
+      "id_goc": "UNGVIEN_0358",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7280": {
+      "id_goc": "UNGVIEN_0298",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2944": {
+      "id_goc": "UNGVIEN_0904",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6641": {
+      "id_goc": "UNGVIEN_1010",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3333": {
+      "id_goc": "UNGVIEN_0998",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9706": {
+      "id_goc": "UNGVIEN_0783",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6712": {
+      "id_goc": "UNGVIEN_0726",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7008": {
+      "id_goc": "UNGVIEN_1161",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5527": {
+      "id_goc": "UNGVIEN_0373",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3949": {
+      "id_goc": "UNGVIEN_0971",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9277": {
+      "id_goc": "UNGVIEN_0987",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4983": {
+      "id_goc": "UNGVIEN_0751",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4790": {
+      "id_goc": "UNGVIEN_0405",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4869": {
+      "id_goc": "UNGVIEN_1065",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9612": {
+      "id_goc": "UNGVIEN_0259",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9698": {
+      "id_goc": "UNGVIEN_0779",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9015": {
+      "id_goc": "UNGVIEN_0698",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2653": {
+      "id_goc": "UNGVIEN_0527",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2042": {
+      "id_goc": "UNGVIEN_0989",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2708": {
+      "id_goc": "UNGVIEN_0314",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4672": {
+      "id_goc": "UNGVIEN_0996",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9047": {
+      "id_goc": "UNGVIEN_0050",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4855": {
+      "id_goc": "UNGVIEN_0012",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7345": {
+      "id_goc": "UNGVIEN_0048",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4056": {
+      "id_goc": "UNGVIEN_0278",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9480": {
+      "id_goc": "UNGVIEN_0062",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3959": {
+      "id_goc": "UNGVIEN_0204",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7879": {
+      "id_goc": "UNGVIEN_0877",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5561": {
+      "id_goc": "UNGVIEN_0010",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7157": {
+      "id_goc": "UNGVIEN_1090",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8677": {
+      "id_goc": "UNGVIEN_0982",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5191": {
+      "id_goc": "UNGVIEN_0072",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3564": {
+      "id_goc": "UNGVIEN_1124",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5227": {
+      "id_goc": "UNGVIEN_0013",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3341": {
+      "id_goc": "UNGVIEN_0359",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2796": {
+      "id_goc": "UNGVIEN_0977",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9860": {
+      "id_goc": "UNGVIEN_0490",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6759": {
+      "id_goc": "UNGVIEN_0733",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4635": {
+      "id_goc": "UNGVIEN_0728",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8093": {
+      "id_goc": "UNGVIEN_1157",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2086": {
+      "id_goc": "UNGVIEN_0428",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9557": {
+      "id_goc": "UNGVIEN_0323",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7657": {
+      "id_goc": "UNGVIEN_0683",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7058": {
+      "id_goc": "UNGVIEN_1007",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6936": {
+      "id_goc": "UNGVIEN_0337",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3854": {
+      "id_goc": "UNGVIEN_0504",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6538": {
+      "id_goc": "UNGVIEN_0737",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3739": {
+      "id_goc": "UNGVIEN_0831",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9766": {
+      "id_goc": "UNGVIEN_0836",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8507": {
+      "id_goc": "UNGVIEN_0983",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8008": {
+      "id_goc": "UNGVIEN_0846",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_6354": {
+      "id_goc": "UNGVIEN_1128",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5457": {
+      "id_goc": "UNGVIEN_0475",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3615": {
+      "id_goc": "UNGVIEN_1075",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3664": {
+      "id_goc": "UNGVIEN_1013",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9240": {
+      "id_goc": "UNGVIEN_0588",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6386": {
+      "id_goc": "UNGVIEN_0547",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8039": {
+      "id_goc": "UNGVIEN_0139",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6052": {
+      "id_goc": "UNGVIEN_0189",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7461": {
+      "id_goc": "UNGVIEN_0263",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4713": {
+      "id_goc": "UNGVIEN_0509",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6713": {
+      "id_goc": "UNGVIEN_0334",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9199": {
+      "id_goc": "UNGVIEN_0104",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5014": {
+      "id_goc": "UNGVIEN_0054",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3161": {
+      "id_goc": "UNGVIEN_0094",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2131": {
+      "id_goc": "UNGVIEN_1168",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8927": {
+      "id_goc": "UNGVIEN_0443",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5514": {
+      "id_goc": "UNGVIEN_0407",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5678": {
+      "id_goc": "UNGVIEN_0621",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4935": {
+      "id_goc": "UNGVIEN_1038",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5803": {
+      "id_goc": "UNGVIEN_0830",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5746": {
+      "id_goc": "UNGVIEN_0883",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5866": {
+      "id_goc": "UNGVIEN_1057",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3219": {
+      "id_goc": "UNGVIEN_0273",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7388": {
+      "id_goc": "UNGVIEN_0340",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9999": {
+      "id_goc": "UNGVIEN_0227",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4849": {
+      "id_goc": "UNGVIEN_0131",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8407": {
+      "id_goc": "UNGVIEN_0979",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5873": {
+      "id_goc": "UNGVIEN_0275",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7950": {
+      "id_goc": "UNGVIEN_0503",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7414": {
+      "id_goc": "UNGVIEN_0206",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5681": {
+      "id_goc": "UNGVIEN_0512",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2094": {
+      "id_goc": "UNGVIEN_0605",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9695": {
+      "id_goc": "UNGVIEN_0762",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5313": {
+      "id_goc": "UNGVIEN_0096",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4875": {
+      "id_goc": "UNGVIEN_0074",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7910": {
+      "id_goc": "UNGVIEN_1028",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7462": {
+      "id_goc": "UNGVIEN_0099",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7255": {
+      "id_goc": "UNGVIEN_1191",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2871": {
+      "id_goc": "UNGVIEN_0357",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3217": {
+      "id_goc": "UNGVIEN_0519",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7507": {
+      "id_goc": "UNGVIEN_0307",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8510": {
+      "id_goc": "UNGVIEN_0659",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6096": {
+      "id_goc": "UNGVIEN_0264",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2187": {
+      "id_goc": "UNGVIEN_0858",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9051": {
+      "id_goc": "UNGVIEN_0257",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8296": {
+      "id_goc": "UNGVIEN_0581",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6718": {
+      "id_goc": "UNGVIEN_0651",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4795": {
+      "id_goc": "UNGVIEN_1041",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8818": {
+      "id_goc": "UNGVIEN_0080",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3436": {
+      "id_goc": "UNGVIEN_0999",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8164": {
+      "id_goc": "UNGVIEN_0506",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5264": {
+      "id_goc": "UNGVIEN_0376",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5095": {
+      "id_goc": "UNGVIEN_0241",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5538": {
+      "id_goc": "UNGVIEN_1068",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2329": {
+      "id_goc": "UNGVIEN_0931",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5819": {
+      "id_goc": "UNGVIEN_0579",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6226": {
+      "id_goc": "UNGVIEN_0920",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7186": {
+      "id_goc": "UNGVIEN_0492",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8963": {
+      "id_goc": "UNGVIEN_0747",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3494": {
+      "id_goc": "UNGVIEN_1125",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7629": {
+      "id_goc": "UNGVIEN_0355",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7188": {
+      "id_goc": "UNGVIEN_0857",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9687": {
+      "id_goc": "UNGVIEN_0611",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6998": {
+      "id_goc": "UNGVIEN_0593",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9692": {
+      "id_goc": "UNGVIEN_0172",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4341": {
+      "id_goc": "UNGVIEN_0406",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2850": {
+      "id_goc": "UNGVIEN_0138",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9138": {
+      "id_goc": "UNGVIEN_1050",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8869": {
+      "id_goc": "UNGVIEN_0776",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5463": {
+      "id_goc": "UNGVIEN_0395",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9634": {
+      "id_goc": "UNGVIEN_0272",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2457": {
+      "id_goc": "UNGVIEN_0655",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6969": {
+      "id_goc": "UNGVIEN_0740",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3038": {
+      "id_goc": "UNGVIEN_0181",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8752": {
+      "id_goc": "UNGVIEN_1149",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5268": {
+      "id_goc": "UNGVIEN_0743",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8100": {
+      "id_goc": "UNGVIEN_0597",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2116": {
+      "id_goc": "UNGVIEN_0770",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8995": {
+      "id_goc": "UNGVIEN_0086",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6290": {
+      "id_goc": "UNGVIEN_0029",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8886": {
+      "id_goc": "UNGVIEN_0673",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4482": {
+      "id_goc": "UNGVIEN_0309",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6520": {
+      "id_goc": "UNGVIEN_0833",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7083": {
+      "id_goc": "UNGVIEN_1156",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9726": {
+      "id_goc": "UNGVIEN_0758",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4631": {
+      "id_goc": "UNGVIEN_0082",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6317": {
+      "id_goc": "UNGVIEN_0168",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3151": {
+      "id_goc": "UNGVIEN_0294",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5301": {
+      "id_goc": "UNGVIEN_0723",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4773": {
+      "id_goc": "UNGVIEN_0544",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8295": {
+      "id_goc": "UNGVIEN_0092",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9598": {
+      "id_goc": "UNGVIEN_0962",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4915": {
+      "id_goc": "UNGVIEN_1058",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7793": {
+      "id_goc": "UNGVIEN_0413",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3045": {
+      "id_goc": "UNGVIEN_0556",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9392": {
+      "id_goc": "UNGVIEN_1082",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9501": {
+      "id_goc": "UNGVIEN_0524",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5823": {
+      "id_goc": "UNGVIEN_0560",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8699": {
+      "id_goc": "UNGVIEN_0199",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4822": {
+      "id_goc": "UNGVIEN_0644",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5839": {
+      "id_goc": "UNGVIEN_0456",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4958": {
+      "id_goc": "UNGVIEN_0552",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8754": {
+      "id_goc": "UNGVIEN_0838",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9878": {
+      "id_goc": "UNGVIEN_0429",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5161": {
+      "id_goc": "UNGVIEN_0214",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7946": {
+      "id_goc": "UNGVIEN_0148",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6567": {
+      "id_goc": "UNGVIEN_0764",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8642": {
+      "id_goc": "UNGVIEN_1181",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3188": {
+      "id_goc": "UNGVIEN_0176",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9473": {
+      "id_goc": "UNGVIEN_0191",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2249": {
+      "id_goc": "UNGVIEN_0482",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7954": {
+      "id_goc": "UNGVIEN_0313",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9287": {
+      "id_goc": "UNGVIEN_0098",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4883": {
+      "id_goc": "UNGVIEN_0854",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_3365": {
+      "id_goc": "UNGVIEN_0997",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9621": {
+      "id_goc": "UNGVIEN_1066",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_5639": {
+      "id_goc": "UNGVIEN_0150",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4468": {
+      "id_goc": "UNGVIEN_0497",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8636": {
+      "id_goc": "UNGVIEN_0932",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8599": {
+      "id_goc": "UNGVIEN_0207",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8155": {
+      "id_goc": "UNGVIEN_0175",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7929": {
+      "id_goc": "UNGVIEN_0266",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5608": {
+      "id_goc": "UNGVIEN_0414",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6897": {
+      "id_goc": "UNGVIEN_0972",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9941": {
+      "id_goc": "UNGVIEN_0542",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3608": {
+      "id_goc": "UNGVIEN_0370",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6425": {
+      "id_goc": "UNGVIEN_0152",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4523": {
+      "id_goc": "UNGVIEN_0923",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4288": {
+      "id_goc": "UNGVIEN_0011",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8710": {
+      "id_goc": "UNGVIEN_0384",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5454": {
+      "id_goc": "UNGVIEN_0316",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2720": {
+      "id_goc": "UNGVIEN_0968",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8553": {
+      "id_goc": "UNGVIEN_0771",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4221": {
+      "id_goc": "UNGVIEN_0622",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4936": {
+      "id_goc": "UNGVIEN_0493",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5419": {
+      "id_goc": "UNGVIEN_0378",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9641": {
+      "id_goc": "UNGVIEN_0967",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2450": {
+      "id_goc": "UNGVIEN_0899",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2727": {
+      "id_goc": "UNGVIEN_0691",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3743": {
+      "id_goc": "UNGVIEN_0841",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4731": {
+      "id_goc": "UNGVIEN_0113",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7895": {
+      "id_goc": "UNGVIEN_0188",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_5734": {
+      "id_goc": "UNGVIEN_0664",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8193": {
+      "id_goc": "UNGVIEN_0941",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_7945": {
+      "id_goc": "UNGVIEN_1031",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_9272": {
+      "id_goc": "UNGVIEN_1103",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_8764": {
+      "id_goc": "UNGVIEN_0718",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7956": {
+      "id_goc": "UNGVIEN_0290",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_7276": {
+      "id_goc": "UNGVIEN_0583",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4207": {
+      "id_goc": "UNGVIEN_0052",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8057": {
+      "id_goc": "UNGVIEN_0170",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_8934": {
+      "id_goc": "UNGVIEN_0329",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4192": {
+      "id_goc": "UNGVIEN_0304",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3431": {
+      "id_goc": "UNGVIEN_0291",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3539": {
+      "id_goc": "UNGVIEN_0970",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4673": {
+      "id_goc": "UNGVIEN_0592",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9818": {
+      "id_goc": "UNGVIEN_0695",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6877": {
+      "id_goc": "UNGVIEN_0253",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_2411": {
+      "id_goc": "UNGVIEN_0554",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_9284": {
+      "id_goc": "UNGVIEN_0537",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_4873": {
+      "id_goc": "UNGVIEN_0810",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_4354": {
+      "id_goc": "UNGVIEN_0077",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3700": {
+      "id_goc": "UNGVIEN_0808",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2451": {
+      "id_goc": "UNGVIEN_0684",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_6399": {
+      "id_goc": "UNGVIEN_1091",
+      "loai_RIENG": "synthetic"
+    },
+    "UNGVIEN_2661": {
+      "id_goc": "UNGVIEN_0451",
+      "loai_RIENG": "real"
+    },
+    "UNGVIEN_3185": {
+      "id_goc": "UNGVIEN_1192",
+      "loai_RIENG": "synthetic"
+    }
+  }
+}

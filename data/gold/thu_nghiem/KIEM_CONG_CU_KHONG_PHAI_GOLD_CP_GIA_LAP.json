@@ -1,0 +1,59 @@
+{
+  "num_addresses": 30,
+  "confidence_one_sided": 0.95,
+  "human_verified": false,
+  "fields": {
+    "so_nha": {
+      "errors": 1,
+      "n": 30,
+      "error_rate_pct": 3.3333,
+      "cp_upper_95_pct": 14.8596
+    },
+    "ngo_ngach_hem": {
+      "errors": 0,
+      "n": 30,
+      "error_rate_pct": 0.0,
+      "cp_upper_95_pct": 9.5034
+    },
+    "thon_xom": {
+      "errors": 0,
+      "n": 30,
+      "error_rate_pct": 0.0,
+      "cp_upper_95_pct": 9.5034
+    },
+    "duong": {
+      "errors": 0,
+      "n": 30,
+      "error_rate_pct": 0.0,
+      "cp_upper_95_pct": 9.5034
+    },
+    "xa": {
+      "errors": 0,
+      "n": 30,
+      "error_rate_pct": 0.0,
+      "cp_upper_95_pct": 9.5034
+    },
+    "huyen": {
+      "errors": 0,
+      "n": 30,
+      "error_rate_pct": 0.0,
+      "cp_upper_95_pct": 9.5034
+    },
+    "tinh": {
+      "errors": 0,
+      "n": 30,
+      "error_rate_pct": 0.0,
+      "cp_upper_95_pct": 9.5034
+    }
+  },
+  "all_fields": {
+    "errors": 1,
+    "n": 30,
+    "error_rate_pct": 3.3333,
+    "cp_upper_95_pct": 14.8596
+  },
+  "synthetic_fixture_only": true,
+  "warning": "CHỈ KIỂM CODE. KHÔNG CÓ NGƯỜI DUYỆT, KHÔNG PHẢI GOLD",
+  "cp_zero_150": 0.01977343816450844,
+  "cp_three_150": 0.05087706797852393
+}

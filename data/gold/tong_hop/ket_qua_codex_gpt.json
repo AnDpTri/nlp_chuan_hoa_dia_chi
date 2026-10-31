@@ -1,0 +1,382 @@
+{
+  "kind": "synthetic_constructed_answers_NOT_HUMAN_GOLD",
+  "annotator": "codex_gpt",
+  "public_sha256": "91ad0115eed9c82448ba2949c526754335e66dcb8b107b845ced8bd3c01064a5",
+  "true_answers_only_used_during_scoring": true,
+  "metrics": {
+    "all": {
+      "n": 400,
+      "abstain": 114,
+      "ambiguous": 82,
+      "abstain_correct_ambiguous": 45,
+      "sure_wrong": 130,
+      "sure_correct": 156,
+      "full_span_correct": 400,
+      "all_six_correct": 214,
+      "wrong_examples": [
+        {
+          "id": "UNGVIEN_1009",
+          "group": "b",
+          "incorrect_fields": [],
+          "expected_abstain": true
+        },
+        {
+          "id": "UNGVIEN_1179",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_0997",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_0953",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa",
+            "ma_tinh"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1028",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa",
+            "ma_tinh"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_0996",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        }
+      ],
+      "abstain_pct": 28.5,
+      "ambiguous_pct": 20.5,
+      "abstain_on_ambiguous_pct": 54.878,
+      "sure_wrong_pct": 32.5,
+      "all_six_correct_pct": 53.5,
+      "full_span_correct_pct": 100.0,
+      "field": {
+        "so_nha": {
+          "correct": 400,
+          "wrong": 0,
+          "total": 400,
+          "correct_pct": 100.0
+        },
+        "ngo_ngach_hem": {
+          "correct": 400,
+          "wrong": 0,
+          "total": 400,
+          "correct_pct": 100.0
+        },
+        "thon_xom": {
+          "correct": 400,
+          "wrong": 0,
+          "total": 400,
+          "correct_pct": 100.0
+        },
+        "duong": {
+          "correct": 400,
+          "wrong": 0,
+          "total": 400,
+          "correct_pct": 100.0
+        },
+        "ma_xa": {
+          "correct": 234,
+          "wrong": 166,
+          "total": 400,
+          "correct_pct": 58.5
+        },
+        "ma_tinh": {
+          "correct": 339,
+          "wrong": 61,
+          "total": 400,
+          "correct_pct": 84.75
+        }
+      }
+    },
+    "a": {
+      "n": 140,
+      "abstain": 112,
+      "ambiguous": 46,
+      "abstain_correct_ambiguous": 45,
+      "sure_wrong": 1,
+      "sure_correct": 27,
+      "full_span_correct": 140,
+      "all_six_correct": 49,
+      "wrong_examples": [
+        {
+          "id": "UNGVIEN_0875",
+          "group": "a",
+          "incorrect_fields": [],
+          "expected_abstain": true
+        }
+      ],
+      "abstain_pct": 80.0,
+      "ambiguous_pct": 32.857,
+      "abstain_on_ambiguous_pct": 97.826,
+      "sure_wrong_pct": 0.714,
+      "all_six_correct_pct": 35.0,
+      "full_span_correct_pct": 100.0,
+      "field": {
+        "so_nha": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "ngo_ngach_hem": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "thon_xom": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "duong": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "ma_xa": {
+          "correct": 62,
+          "wrong": 78,
+          "total": 140,
+          "correct_pct": 44.286
+        },
+        "ma_tinh": {
+          "correct": 99,
+          "wrong": 41,
+          "total": 140,
+          "correct_pct": 70.714
+        }
+      }
+    },
+    "b": {
+      "n": 140,
+      "abstain": 1,
+      "ambiguous": 36,
+      "abstain_correct_ambiguous": 0,
+      "sure_wrong": 88,
+      "sure_correct": 51,
+      "full_span_correct": 140,
+      "all_six_correct": 87,
+      "wrong_examples": [
+        {
+          "id": "UNGVIEN_1009",
+          "group": "b",
+          "incorrect_fields": [],
+          "expected_abstain": true
+        },
+        {
+          "id": "UNGVIEN_0997",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_0953",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa",
+            "ma_tinh"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1028",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa",
+            "ma_tinh"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_0996",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_0945",
+          "group": "b",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        }
+      ],
+      "abstain_pct": 0.714,
+      "ambiguous_pct": 25.714,
+      "abstain_on_ambiguous_pct": 0.0,
+      "sure_wrong_pct": 62.857,
+      "all_six_correct_pct": 62.143,
+      "full_span_correct_pct": 100.0,
+      "field": {
+        "so_nha": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "ngo_ngach_hem": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "thon_xom": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "duong": {
+          "correct": 140,
+          "wrong": 0,
+          "total": 140,
+          "correct_pct": 100.0
+        },
+        "ma_xa": {
+          "correct": 94,
+          "wrong": 46,
+          "total": 140,
+          "correct_pct": 67.143
+        },
+        "ma_tinh": {
+          "correct": 120,
+          "wrong": 20,
+          "total": 140,
+          "correct_pct": 85.714
+        }
+      }
+    },
+    "c": {
+      "n": 120,
+      "abstain": 1,
+      "ambiguous": 0,
+      "abstain_correct_ambiguous": 0,
+      "sure_wrong": 41,
+      "sure_correct": 78,
+      "full_span_correct": 120,
+      "all_six_correct": 78,
+      "wrong_examples": [
+        {
+          "id": "UNGVIEN_1179",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1101",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1199",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1154",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1181",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        },
+        {
+          "id": "UNGVIEN_1185",
+          "group": "c",
+          "incorrect_fields": [
+            "ma_xa"
+          ],
+          "expected_abstain": false
+        }
+      ],
+      "abstain_pct": 0.833,
+      "ambiguous_pct": 0.0,
+      "abstain_on_ambiguous_pct": null,
+      "sure_wrong_pct": 34.167,
+      "all_six_correct_pct": 65.0,
+      "full_span_correct_pct": 100.0,
+      "field": {
+        "so_nha": {
+          "correct": 120,
+          "wrong": 0,
+          "total": 120,
+          "correct_pct": 100.0
+        },
+        "ngo_ngach_hem": {
+          "correct": 120,
+          "wrong": 0,
+          "total": 120,
+          "correct_pct": 100.0
+        },
+        "thon_xom": {
+          "correct": 120,
+          "wrong": 0,
+          "total": 120,
+          "correct_pct": 100.0
+        },
+        "duong": {
+          "correct": 120,
+          "wrong": 0,
+          "total": 120,
+          "correct_pct": 100.0
+        },
+        "ma_xa": {
+          "correct": 78,
+          "wrong": 42,
+          "total": 120,
+          "correct_pct": 65.0
+        },
+        "ma_tinh": {
+          "correct": 120,
+          "wrong": 0,
+          "total": 120,
+          "correct_pct": 100.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "TOOLING_ONLY_PASS",
+  "sample_size": 60,
+  "dummy_consensus_count": 59,
+  "dummy_queue_rows": 1,
+  "dummy_check_rows": 210,
+  "human_label_rows": 0,
+  "true_independent_AI_annotators": 0,
+  "not_gold": true
+}
