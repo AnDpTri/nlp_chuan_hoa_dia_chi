@@ -71,6 +71,27 @@ def _token_crf_hanh_chinh(crf_context):
             for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
 
 
+def don_vi_ghi_khong_khop(best, candidates, crf_context, dm, chi_tiet=frozenset()):
+    """Đoạn CRF gán hành chính mà giả thuyết đã chọn bỏ qua, có ứng viên khớp đúng tên, nhưng KHÔNG ứng viên nào
+    hợp (cha-con, cùng địa bàn) với các đơn vị đã chọn: người dùng ghi một đơn vị không khớp, ví dụ xã không thuộc
+    huyện đã ghi. Kết quả vẫn giữ theo các đơn vị còn lại, kèm cảnh báo. Trả danh sách khoảng token bị mâu thuẫn.
+    Chỉ xét đoạn có tiền tố hành chính (người dùng chủ ý ghi là đơn vị) và không nằm trong chi tiết đã tách
+    (đường/thôn): mảnh vụn CRF ('Thành', 'Thừa') hay tên đường bị CRF tưởng là xã ('Lê Lai') không phải lỗi người nhập."""
+    crf_hc = _token_crf_hanh_chinh(crf_context)
+    dung = {i for u in best.ung_vien for i in range(u.bat_dau, u.ket_thuc)}
+    chon = [dm.lay(u.cay, u.ma) for u in best.ung_vien]
+    if not chon:
+        return []
+    theo_doan = {}
+    for u in candidates:
+        doan = set(range(u.bat_dau, u.ket_thuc))
+        if u.kieu_khop == 'sai_chinh_ta' or not u.co_tien_to or doan & dung or doan & chi_tiet or not doan <= crf_hc:
+            continue
+        hop = all(dm.tuong_thich(dm.lay(u.cay, u.ma), c) for c in chon)
+        theo_doan.setdefault((u.bat_dau, u.ket_thuc), []).append(hop)
+    return [k for k, ds in sorted(theo_doan.items()) if not any(ds)]
+
+
 def gia_thuyet_tuong_duong(best, ranked, crf_context):
     """Các giả thuyết có bằng chứng NGANG giả thuyết đã chọn: cùng tập chữ ký đơn vị (cấp, kiểu khớp, có tiền tố,
     tên cũ, CRF có gán hành chính hay không), chỉ khác mã hoặc khác đoạn. Ranker không có căn cứ trong câu để
@@ -342,6 +363,9 @@ class BoLamSach:
         )
         if not unknown:  # bước khôi phục đường đã xếp hết phần chưa phân loại
             mid_warnings = [w for w in mid_warnings if w != "phan_chua_phan_loai"]
+        chi_tiet = {i for s in spans for i in range(s['bat_dau'], s['ket_thuc'])}
+        if don_vi_ghi_khong_khop(best, candidates, crf_context, self.danh_muc, chi_tiet):
+            mid_warnings.append("don_vi_ghi_khong_khop")
         post_warnings = (["dau_vao_rong"] if not chuoi.strip() else []) + road_warnings
         dau_vet, thong_ke = self._tao_dau_vet_va_thong_ke(
             records, chuoi, best, spans, crf_context, name_evidence, tokens, candidates, ranked, close, score
