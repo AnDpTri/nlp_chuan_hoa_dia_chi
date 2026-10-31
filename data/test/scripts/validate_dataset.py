@@ -428,6 +428,25 @@ def main(csv_file=None):
               'confirmed_old_split_rows': stats['confirmed_old_split_rows'],
               'limitations': limitations,
               'csv_sha256': hashlib.sha256(target_csv.read_bytes()).hexdigest()}
+    # Phiên bản AI-only được đo riêng; không nâng nhãn AI thành human gold.
+    ai_release = ROOT.parent / 'audit' / 'release_ai_20261030' / 'report.json'
+    if ai_release.is_file():
+        ai_meta = json.loads(ai_release.read_text(encoding='utf-8'))
+        if ai_meta.get('input_hashes', {}).get('test') == report['csv_sha256']:
+            tiers = ai_meta.get('test', {}).get('tiers', {})
+            if sum(tiers.values()) == len(rows):
+                report['ai_only_evaluation'] = {
+                    'reviewed_in_existing_ai_log': len(rows),
+                    'strict_provisional': tiers.get('AI_STRICT_PROVISIONAL', 0),
+                    'accepted_with_risk': tiers.get('AI_ACCEPTED_WITH_RISK', 0),
+                    'abstained': tiers.get('AI_ABSTAIN', 0),
+                    'ready_for_ai_only_diagnostic': True,
+                    'ready_for_human_gold': is_ready_for_gold,
+                    'source': 'data/audit/release_ai_20261030/report.json',
+                    'disclaimer': 'AI-only diagnostic, not human-verified Gold Test'
+                }
+        else:
+            limitations.append('AI-only release hash differs from current test snapshot; re-run audit.')
     if csv_file is None:
         (ROOT / 'validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8', newline='\n')
     print(json.dumps(report, ensure_ascii=True, indent=2))

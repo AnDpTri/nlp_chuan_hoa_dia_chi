@@ -1,0 +1,35 @@
+{
+  "scope": "offline street-source coverage, NOT semantic ground truth",
+  "confirmed_dictionary_records": 53,
+  "unverified_candidates": 1484,
+  "datasets": {
+    "train": {
+      "unverified_candidate_name": 3289,
+      "missing_road_label": 450,
+      "no_matching_independent_evidence_in_v1": 529,
+      "confirmed_name_other_or_unspecified_province": 283,
+      "confirmed_name_and_province": 13
+    },
+    "dev": {
+      "missing_road_label": 105,
+      "no_matching_independent_evidence_in_v1": 158,
+      "unverified_candidate_name": 825,
+      "confirmed_name_other_or_unspecified_province": 48
+    },
+    "train_v2_safe": {
+      "unverified_candidate_name": 994,
+      "missing_road_label": 185,
+      "no_matching_independent_evidence_in_v1": 453,
+      "confirmed_name_other_or_unspecified_province": 133,
+      "confirmed_name_and_province": 16
+    },
+    "test": {
+      "unverified_candidate_name": 202,
+      "no_matching_independent_evidence_in_v1": 136,
+      "missing_road_label": 32,
+      "confirmed_name_and_province": 3,
+      "confirmed_name_other_or_unspecified_province": 27
+    }
+  },
+  "policy": "Unverified or unknown street names require source review; do not auto correct to nearest confirmed street."
+}

@@ -1,0 +1,33 @@
+Nhiệm vụ: dùng bộ công cụ đã dựng trong D:/nlp_gold (nhánh data/gold-20261030) để (A) tự gán nhãn ứng viên cho mẫu 800 địa chỉ với vai trò MỘT bộ gán AI, và (B) dựng một tập kiểm tổng hợp có đáp án biết trước từ cách sinh, dùng để ĐO độ chính xác của các bộ gán AI. Chỉ làm việc trong worktree này.
+
+BỐI CẢNH
+Dự án chuẩn hóa địa chỉ tiếng Việt offline theo đơn vị hành chính sau 01/07/2025 (đặc tả bai_toan.md). Không có người gán nhãn, nên nhãn chỉ có thể do AI gán. Vì AI có thể sai giống nhau, độ tin cậy được đo bằng hai cách: (1) đồng thuận giữa nhiều AI khác họ mô hình; (2) chạy chính các bộ gán đó trên câu tổng hợp có đáp án biết trước và đếm sai. Bạn chỉ là MỘT họ mô hình; các bộ gán họ khác sẽ do bên khác chạy trên cùng 16 gói. Kết quả không được gọi là "gold": chỉ gọi "nhãn ứng viên", "đồng thuận", "tổng hợp".
+
+CÔNG CỤ SẴN CÓ (đọc, không sửa): data/gold/{QUY_UOC_NHAN.md, SCHEMA_NHAN.json, kiem_nhan.py, dong_thuan.py, anh_xa_hanh_chinh.py, lay_mau_kiem.py, uoc_luong_sai_so.py, goi_gan_nhan/goi_01..goi_16/, mau_ung_vien.csv}, tests/test_gold_tooling.py. Môi trường Python: D:\nlp_chuan_hoa_dia_chi\.venv-neural\Scripts\python.exe -X utf8 -B.
+
+PHẦN A. GÁN NHÃN 800 ĐỊA CHỈ (bộ gán id: "codex_gpt")
+1. Với mỗi gói goi_01..goi_16: đọc PROMPT_GAN_NHAN.txt và dau_vao.csv, tự gán nhãn từng địa chỉ đúng như prompt yêu cầu. Bạn chính là bộ gán; không được gọi API hay mô hình nào khác từ mã.
+2. Cách tránh sai offset: KHÔNG tự đếm vị trí ký tự bằng tay. Với mỗi địa chỉ, viết ra từng span dưới dạng (truong, van_ban, thu_tu_xuat_hien) rồi dùng một script nhỏ của bạn để tính start/end bằng tìm chuỗi con trong dau_vao (theo thứ tự xuất hiện, trên chuỗi NFC đúng như schema), sau đó ghi JSON theo SCHEMA_NHAN.json. Script này đặt trong data/gold/gan_nhan_codex/ và chỉ là bộ chuyển định dạng, không được chứa luật suy ra nhãn từ địa chỉ; nhãn phải do bạn đọc và quyết từng dòng.
+3. Điểm quy ước chưa chốt (ngõ so với đường, số nhà dạng 12/5, tiền tố, CMT8/QL, tòa nhà, xã bị chia...): làm đúng QUY_UOC_NHAN.md và prompt: chưa quyết thì abstain=true kèm lý do, không tự chọn. Không dùng POI, tọa độ, URL, OSM tags; không ghi mã xã/tỉnh.
+4. Ghi mỗi gói ra data/gold/gan_nhan_codex/codex_gpt_goi_XX.json, gộp thành codex_gpt_800.json. Chạy kiem_nhan.py trên từng file với --sample data/gold/mau_ung_vien.csv hoặc CSV gói tương ứng; sửa đến khi không lỗi. Không "sửa cho qua" bằng cách bỏ mục khó: mục nào không chắc thì abstain, không xóa.
+5. Báo số mục abstain và lý do thường gặp. Không tự nhận nhãn của mình là đúng.
+
+PHẦN B. TẬP KIỂM TỔNG HỢP CÓ ĐÁP ÁN (data/gold/tong_hop/)
+Mục đích: đo xem một bộ gán AI sai bao nhiêu trên loại câu khó mà đáp án đã biết từ lúc sinh. Không dùng làm dữ liệu train, không trộn vào dev/test.
+1. Sinh khoảng 400 câu bằng mã (seed cố định), từ danh mục hành chính data/clean (đọc) và địa chỉ đầy đủ đã biết, theo ba nhóm: (a) viết tắt dần như "x5,mh,ml,nd" (xóm 5, xã Mỹ Hưng, huyện Mỹ Lộc, tỉnh Nam Định) với nhiều mức viết tắt; (b) bỏ dấu, thiếu thành phần, đảo thứ tự, dính mã bưu chính, thêm tòa nhà/tầng; (c) câu rõ ràng làm nhóm đối chứng dễ. Mỗi câu lưu: dau_vao, các span nguồn có offset (số nhà, ngõ, thôn xóm, đường, xã, huyện, tỉnh đúng như xuất hiện trong dau_vao) và đáp án cuối do MÃ tính từ địa chỉ gốc qua bảng chuyển đổi (ma_xa, ma_tinh mới), cùng cờ mơ hồ nếu chuỗi viết tắt khớp nhiều hơn một địa chỉ trong danh mục (khi đó đáp án là "không xác định", không chọn đại một).
+2. Phải LOẠI TRỪ khỏi tập này mọi câu và mọi địa chỉ gốc đã nằm trong data/train_dev (kể cả bo_sung_v1/v2/v3), data/test/dia_chi_test.csv (chỉ cột id, dau_vao, nguon) và mau_ung_vien.csv; chứng minh bằng test rò rỉ theo chuỗi chuẩn hóa. Chỉ ghi nhãn đáp án; không in ra đáp án trong tệp đưa cho AI gán.
+3. Xuất hai tệp: tong_hop_dau_vao.csv (chỉ id, dau_vao; để đưa cho các bộ gán) và tong_hop_dap_an.json (đáp án, không đưa cho bộ gán). Dựng 8 gói 50 câu cùng định dạng goi_gan_nhan (dùng tao_goi_gan_nhan.py hoặc bản sao đặt trong thư mục mới, không sửa bản gốc) và trộn thứ tự để bộ gán không biết câu nào tổng hợp, câu nào thuộc mẫu thật. Đặt id cùng dạng UNGVIEN_xxxx với mẫu thật (tiền tố id khác sẽ làm lộ câu tổng hợp) và ghi bảng ánh xạ id ra tệp riêng không đưa cho bộ gán; chọn dải số không trùng id của mau_ung_vien.csv.
+4. Viết score_tong_hop.py: nhận file nhãn của một bộ gán trên các gói tổng hợp (đã qua kiem_nhan.py), chạy anh_xa_hanh_chinh.py để tính mã, so với đáp án và in: tỷ lệ đúng từng trường (so_nha, ngo_ngach_hem, thon_xom, duong, ma_xa, ma_tinh), tỷ lệ abstain, tỷ lệ abstain khi đáp án là mơ hồ (đúng), tỷ lệ gán chắc nhưng sai (lỗi nguy hiểm nhất), tách theo nhóm a/b/c. Có test với bộ gán giả đúng toàn bộ, bộ gán giả sai toàn bộ, bộ gán giả abstain toàn bộ.
+5. Bạn cũng chạy bộ gán của chính mình ("codex_gpt") trên 8 gói tổng hợp theo cách ở Phần A bước 1–2 chỉ SAU khi tong_hop_dau_vao.csv đã cố định, rồi chấm bằng score_tong_hop.py. Không được xem đáp án khi gán. Báo kết quả nguyên văn, kể cả khi thấp.
+
+PHẠM VI GHI (tuyệt đối)
+Chỉ tạo trong D:/nlp_gold: data/gold/gan_nhan_codex/, data/gold/tong_hop/, tests/test_tong_hop*.py, docs/GOLD_*.md. Không sửa hay xóa file đã có, kể cả công cụ bạn dựng ở đợt trước. Không ghi vào D:/nlp_chuan_hoa_dia_chi hoặc worktree khác. Không đọc nhãn hoặc kết quả của data/test. Không git commit, push, checkout, reset, stash. Không cài thư viện, không gọi API hay mô hình bên ngoài từ mã. Không dùng chữ "gold" để đặt tên cho bất kỳ thứ gì chưa qua người kiểm.
+
+NGHIỆM THU
+- python -X utf8 -B -m unittest tests.test_gold_tooling tests.test_tong_hop: tất cả đạt, báo nguyên văn.
+- kiem_nhan.py không báo lỗi trên codex_gpt_800.json và trên nhãn của 8 gói tổng hợp.
+- Chạy lại sinh tập tổng hợp với cùng seed cho đúng cùng tong_hop_dau_vao.csv; báo hash.
+- Test rò rỉ độc lập của tập tổng hợp PASS.
+
+KHI XONG
+Trả lời ngắn: danh sách file; số mục abstain ở Phần A; kết quả score_tong_hop.py của codex_gpt (đúng/sai/abstain từng trường, từng nhóm, tỷ lệ gán chắc nhưng sai); các điểm chưa chắc. Không tự nhận độ chính xác của nhãn trên mẫu thật; số đó chỉ có nghĩa nếu các bộ gán khác họ nhất trí. Báo trung thực mọi lỗi, không báo "xong" nếu test chưa đạt.

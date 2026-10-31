@@ -1,0 +1,17 @@
+Làm việc tự chủ tối đa 4 giờ rồi dừng, để nâng độ chính xác THẬT của pipeline chuẩn hóa địa chỉ. Người dùng đang ngủ: không hỏi lại; điểm cần người quyết thì ghi vào báo cáo và bỏ qua.
+
+BƯỚC ĐẦU TIÊN, BẮT BUỘC: đọc toàn bộ D:\nlp_chuan_hoa_dia_chi\docs\antigravity_rpc\muc_tieu_ca_dem_20261030.txt. Đó là đặc tả đầy đủ (mục tiêu, trạng thái đã đo, vòng lặp, luồng dữ liệu D1-D4, ràng buộc, báo cáo). Làm đúng theo file đó; nếu prompt này và file mâu thuẫn thì theo điều khoản chặt hơn.
+
+TÓM TẮT
+- Mục tiêu: nâng exact-6 (so_nha, ngo_ngach_hem, thon_xom, duong, ma_xa, ma_tinh) hướng tới 95%, từ dev_goc 941/1136 và dev_kho 330/464. Số cuối có thể thấp hơn 95%: báo đúng số đó.
+- Điểm nghẽn đã đo: trường duong (dấu tên đường, ngõ/ngách, tiền tố Đường/Phố), rồi ma_xa, so_nha; nhãn dev có sai. Bộ nhận diện (CNN/PhoBERT) không phải điểm nghẽn.
+- Mỗi vòng: tìm nhóm lỗi lớn nhất có căn cứ -> một giả thuyết -> thử trên worktree và nhánh experiment/<tên>-20261030 tách từ b917c26 -> đo per-case dev_goc + dev_kho, báo cả ca được và ca mất -> giữ chỉ khi được hơn mất >=10, không hồi quy ở cổng D:\nlp_rf_gate\gate.py, không thêm ngoại lệ, trễ tăng <=20 ms, và giải thích được bằng lý do ngôn ngữ sau khi đọc >=10 ca được và >=10 ca mất. Ghi nhật ký mỗi vòng vào D:\nlp_rf_gate\reports\dem_20261030\NHAT_KY.md.
+- Dùng agy thoải mái để tiết kiệm quota của bạn (agy_app_rpc.py, agy_create.py): giao việc lặp lại kiểm được bằng máy (phân loại lỗi, dò mẫu, ablation, test, nhãn độc lập). Không tin báo cáo của agy: chạy lại cổng và đo của bạn trước khi dùng.
+- Luồng dữ liệu bằng agy: (D1) kiểm nhãn dev trên ca sai bằng >=3 luồng agy độc lập chỉ thấy chuỗi đầu vào; (D2) gán 16 gói mẫu 800 bằng >=2 luồng rồi dong_thuan.py; (D3) đo sai số của agy trên tập tổng hợp có đáp án; (D4) nhãn agy không bao giờ gọi là gold, không dùng để train.
+
+RÀNG BUỘC TUYỆT ĐỐI
+- Không đọc, chạy hay đo data/test hay dia_chi_test.csv. Không dùng dev để train hay chọn siêu tham số. Không hard-code theo câu dev. Không dùng từ điển v5 để kết luận.
+- Không commit, push, merge, checkout, stash, sửa D:\nlp_chuan_hoa_dia_chi (nhánh feature/reach-95-accuracy) hay D:\nlp_gold. Chỉ commit trên nhánh experiment/* trong worktree bạn tạo. Không xóa file ngoài worktree của bạn. Không sửa gate.py, snapshot, baseline.
+- Giữ abstain cho ca mơ hồ. Không báo thắng sớm; báo thất bại và hồi quy. Không mở rộng phạm vi (không làm lại PhoBERT, không refactor).
+
+KẾT THÚC: viết D:\nlp_rf_gate\reports\dem_20261030\BAO_CAO.md (kết quả luồng dữ liệu, bảng kiểu lỗi, nhánh giữ và bỏ kèm số được/mất, điểm trước/sau từng tập, điểm cần người chốt, điều chưa chắc, việc đã giao agy và số kết quả agy báo mà bạn kiểm lại thấy sai). Rồi trả lời ngắn: nhánh giữ lại, điểm trước/sau, quyết định cần người.

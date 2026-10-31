@@ -1,0 +1,33 @@
+Nhiệm vụ: SINH ĐỊA CHỈ CŨ SẠCH (trước sáp nhập 2025) làm đầu vào kiểm thử cho bộ chuẩn hóa địa chỉ. Bạn không cần chuẩn hóa hay đổi sang địa chỉ mới; chỉ viết địa chỉ cũ.
+
+ĐẦU VÀO (chỉ đọc), 8 file, mỗi file 500 dòng:
+D:\nlp_rf_gate\reports\ten_cu\sinh_sach\goi\goi_1.csv ... goi_8.csv
+Cột: id, loai_xa, ten_xa, loai_huyen, ten_huyen, loai_tinh, ten_tinh. Tên đã đúng, có dấu.
+
+VIỆC PHẢI LÀM
+Với MỖI dòng viết 3 địa chỉ khác nhau (cùng một đơn vị), gồm xã/phường/thị trấn, quận/huyện/thị xã/thành phố, tỉnh/thành phố của dòng đó, giữ nguyên tên có dấu như đã cho. Ba địa chỉ phải dùng 3 kiểu viết khác nhau, và toàn bộ 12.000 địa chỉ phải phân bố đều trên các kiểu sau (có thể kết hợp):
+ 1. Đầy đủ có loại: "Xã A, Huyện B, Tỉnh C"
+ 2. Có số nhà và tên đường (tự đặt hợp lý, đa dạng, không lặp mãi một tên): "12 Đường Lê Lợi, Phường A, Quận B, Thành phố C"; có kiểu "Số 45/7 Phố X", "Km 12 Quốc lộ 1A", "Lô B3 Khu công nghiệp ..."
+ 3. Có thôn/xóm/ấp/bản/tổ dân phố/khu phố hoặc ngõ/ngách/hẻm phía trước
+ 4. Viết tắt loại thông dụng: "X. A, H. B, T. C", "P. A, Q. B, TP. C", "TT. A", "Tx. B"
+ 5. Bỏ chữ loại ở một số cấp: "A, B, C"
+ 6. Đảo thứ tự từ lớn đến nhỏ: "Tỉnh C, Huyện B, Xã A"
+ 7. Khác biệt dấu ngăn cách: dấu phẩy, gạch ngang, chấm phẩy, xuống dòng đổi thành dấu phẩy; có khoảng trắng thừa hoặc thiếu sau dấu phẩy
+ 8. Viết hoa toàn bộ hoặc viết thường toàn bộ nhưng VẪN CÓ DẤU
+Địa chỉ phải SẠCH: không lỗi chính tả, không bỏ dấu, không viết tắt tên riêng.
+Dòng loại "Thành phố/Thị xã/Quận" cho cấp huyện: giữ đúng loại đã cho (ví dụ "Thị xã", "Thành phố", "Quận").
+
+CẤM
+- Đổi, bỏ, thêm hay "sửa" tên đơn vị; thêm đơn vị hành chính không có trong dòng; viết địa chỉ MỚI (sau 2025); suy đoán tên mới.
+- Đọc hay tìm file nào trong D:\nlp_rf_gate\reports\ten_cu\sinh_sach ngoài thư mục goi (đặc biệt không đọc dap_an_giu_kin.csv hay thư mục ra của người khác) và không đọc data/test.
+- Dùng web hay API ngoài.
+
+KIỂM TỰ ĐỘNG (bạn phải chạy trước khi báo xong)
+Viết script kiểm: với mọi dòng, ten_xa, ten_huyen, ten_tinh của dòng gốc phải xuất hiện nguyên văn (không phân biệt hoa thường, sau khi chuẩn hóa NFC) trong cả 3 địa chỉ; không có cặp (id, dia_chi) trùng; đúng 3 địa chỉ cho mỗi id; thống kê số địa chỉ theo từng kiểu viết. Sửa đến khi sạch.
+
+ĐẦU RA
+Ghi 8 file, UTF-8, kết thúc dòng LF, header "id,dia_chi,kieu", mỗi dòng một địa chỉ (id lặp lại 3 lần cho 3 địa chỉ), bao dấu nháy kép khi có dấu phẩy:
+D:\nlp_rf_gate\reports\ten_cu\sinh_sach\ra\ra_1.csv ... ra_8.csv
+Cột kieu: số của kiểu (1-8), nối bằng dấu cộng nếu kết hợp, ví dụ "2+4".
+
+KHI XONG: báo ngắn tổng số dòng, phân bố kiểu và kết quả script kiểm. Không viết báo cáo dài.

@@ -20,5 +20,15 @@
     "Không sử dụng tọa độ hay tên tổ chức để điền đơn vị hành chính thiếu trong đầu vào.",
     "Các xã bị chia giữ nhiều ứng viên; cần đối chiếu chi tiết địa phương nếu muốn chốt đáp án."
   ],
-  "csv_sha256": "eec94298e599589a0778b4009fbeae621bb98fa27f2cb0d27a53fdb6e130b7e9"
+  "csv_sha256": "eec94298e599589a0778b4009fbeae621bb98fa27f2cb0d27a53fdb6e130b7e9",
+  "ai_only_evaluation": {
+    "reviewed_in_existing_ai_log": 400,
+    "strict_provisional": 234,
+    "accepted_with_risk": 55,
+    "abstained": 111,
+    "ready_for_ai_only_diagnostic": true,
+    "ready_for_human_gold": false,
+    "source": "data/audit/release_ai_20261030/report.json",
+    "disclaimer": "AI-only diagnostic, not human-verified Gold Test"
+  }
 }

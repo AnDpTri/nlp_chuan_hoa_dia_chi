@@ -1,0 +1,17 @@
+{
+  "combined_rows": 5768,
+  "total_unique_normalized_texts": 5636,
+  "duplicate_normalized_text_keys": 132,
+  "conflicting_labels_on_duplicate_text_keys": 0,
+  "normalized_input_overlap_dev": 0,
+  "normalized_input_overlap_test": 0,
+  "record_sources": {
+    "base_or_other": 4841,
+    "v2_source": 927
+  },
+  "repeated_source_row_ids": 0,
+  "original_v2_sha256_in_combined_meta": "b61ace0964f7a3131539a1fa7ce4409576524bc88279c7cfe1d4c3948dd376a3",
+  "current_v2_sha256": "e334ea617d958c818b3a8be989b0311fb4a79b51677eb5def0cb9cdae1746375",
+  "derived_from_current_v2": false,
+  "safe_reuse_policy": "Old combined source hash does not match current V2: do not silently merge current release with old 5768-row artifact."
+}

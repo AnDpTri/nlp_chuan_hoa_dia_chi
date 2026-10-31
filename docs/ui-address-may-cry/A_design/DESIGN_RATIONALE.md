@@ -27,7 +27,7 @@ Theo hướng dẫn chuyên sâu của `taste-skill` (`references/app-screens.md
   - Màu nền chính (`--ground`): `#ffffff` (Light) / `#121312` (Dark).
   - Bề mặt làm việc (`--surface`): `#f9f9f9` (Light) / `#1a1b1a` (Dark).
   - Khối nổi tương tác (`--raised`): `#ffffff` (Light) / `#222422` (Dark).
-  - Màu chủ đạo (`--accent`): Xanh rêu địa chính `#156259` (Light) / `#1e877c` (Dark) — gợi nhắc màu mực dấu hành chính truyền thống của cơ quan quản lý đất đai Việt Nam, tương phản cao trên nền sáng (> 6.5:1) và nền tối (> 8:1).
+  - Màu chủ đạo (`--accent`): Xanh rêu địa chính `#156259` (Light) / `#157368` (Dark) — gợi nhắc màu mực dấu hành chính truyền thống của cơ quan quản lý đất đai Việt Nam, tương phản cao trên nền sáng (> 6.5:1) và nền tối (> 5.7:1).
   - Màu trạng thái: Xanh lá mạ kiểm định (`--positive`: `#2e7d32`), Vàng hổ phách cảnh báo phân tách (`--warning`: `#92400e`), Đỏ gạch lỗi hệ thống (`--negative`: `#b42318`).
 - **Typography Kỹ Thuật Số**:
   - Phông chữ giao diện chính: **Instrument Sans** — phông chữ không chân hiện đại với tỷ lệ ký tự cân đối, hỗ trợ tiếng Việt có dấu hoàn hảo.

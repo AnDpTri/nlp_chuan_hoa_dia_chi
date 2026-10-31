@@ -61,8 +61,6 @@
     "dev_test: possible shared family (heuristic only)",
     "v2_train: possible shared family (heuristic only)",
     "v2_train: repeated inputs; deduplicate before combining",
-    "test: statistics.json AI count is stale",
-    "test: statistics.json pending count is stale",
     "test: provisional only, not gold"
   ],
   "status": "WARN",

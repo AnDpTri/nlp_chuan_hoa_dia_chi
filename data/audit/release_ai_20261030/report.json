@@ -1,0 +1,69 @@
+{
+  "protocol": "ai_only_with_abstention_v1",
+  "note": "Historical AI reviewers were not re-run. Secondary audit is rule-based; no human review occurred.",
+  "anti_test_contamination": "No model scoring, training, thresholds, or development tuning based on test labels.",
+  "v2": {
+    "input_rows": 3000,
+    "safe_unique_rows": 1781,
+    "canonical_eligible": 1261,
+    "span_eligible": 1581,
+    "quarantine": 1219,
+    "quarantine_reasons": {
+      "intra_v2_repeated_text": 993,
+      "intra_v2_conflicting_labels": 4,
+      "same_text_as_base_train": 222
+    },
+    "intra_v2_duplicate_text_keys": 507,
+    "intra_v2_conflicting_label_keys": 2
+  },
+  "test": {
+    "total": 400,
+    "tiers": {
+      "AI_STRICT_PROVISIONAL": 234,
+      "AI_ABSTAIN": 111,
+      "AI_ACCEPTED_WITH_RISK": 55
+    },
+    "risk_reasons": {
+      "historical_ai_abstained_no_factual_basis": 111,
+      "xa_bi_chia": 36,
+      "mau_thuan_the_osm": 14,
+      "phan_chua_phan_loai": 50,
+      "chua_xac_dinh_xa": 39,
+      "phan_du_khong_dau_can_duyet": 30,
+      "khong_khop_huyen": 15,
+      "khong_khop_tinh": 4,
+      "thieu_tinh": 10,
+      "thieu_xa": 39,
+      "unobserved_so_nha": 2,
+      "so_nha_can_duyet": 11,
+      "mo_ho_moc_cu_moi": 4,
+      "unobserved_duong": 1
+    },
+    "historical_ai_verdicts": {
+      "du_can_cu_tham_chieu": 263,
+      "chua_du_can_cu": 111,
+      "nhan_can_sua": 26
+    },
+    "human_reviewed": 0,
+    "gold": false,
+    "strict_subset": "AI-only provisional, not Gold, no generalization guarantee"
+  },
+  "input_hashes": {
+    "train": "b6908b887034742f040fef272498b037b8c5e8fc37ea0302adc281740f73042d",
+    "dev": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe",
+    "v2": "e334ea617d958c818b3a8be989b0311fb4a79b51677eb5def0cb9cdae1746375",
+    "test": "eec94298e599589a0778b4009fbeae621bb98fa27f2cb0d27a53fdb6e130b7e9",
+    "audit_log": "075a8c0922da17dfc61e13989e8bce9003e8f25e710b164dc5567d6fa347f3e4"
+  },
+  "output_hashes": {
+    "combined_cnn_provenance_audit.json": "37a2e4aa275a3f4c55fb645391fb6fd873ed0ac57b4f59c82387e5a96f13769c",
+    "street_evidence_coverage.json": "50e2cc072774c359036af5ac252a1d7ac91ba6a95043f8aa215e7f8068456aa5",
+    "test_ai_strict_PROVISIONAL_NOT_GOLD.csv": "0c0ce71a761578f7af942ce14b1507860ba64ed68563fc684531586d26075a55",
+    "test_ai_tiers_400.csv": "8148d8e12c1e89ced826d66764aec39c413fe36834efa34bb1ad25fc884f26f9",
+    "train_v2_anti_overlap.csv": "0591323e41eb87ee051ed084d09e0d62dfa3eec5bfb138b49e632e920a98eacc",
+    "train_v2_canonical_eligible.csv": "06b8100add7bc8717a801a4596a5a3cf31997e403633240245d518a1792a44d5",
+    "train_v2_spans_eligible.jsonl": "15bc1b5e023b0a2490f635c2764464aead2eb11d1e71980cbd8b5f06e88cf4a8",
+    "train_v2_tokens_eligible.jsonl": "f2735058cd6c7b6b8700459db4dafcd794f130880174eea8e557821f8cd5cf7b",
+    "v2_quarantine_ids.csv": "078780aea08e2c8421867728097338ccd2f169c6d8e694e7bf05af69e32b336a"
+  }
+}

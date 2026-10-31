@@ -5,18 +5,18 @@
     "can_duyet": 232
   },
   "status_ai_review": {
-    "da_duyet_ai": 292,
-    "can_duyet": 108
+    "da_duyet_ai": 289,
+    "can_duyet": 111
   },
   "ai_review_breakdown": {
     "du_can_cu_tham_chieu": 263,
-    "nhan_can_sua": 29,
-    "chua_du_can_cu": 108,
+    "nhan_can_sua": 26,
+    "chua_du_can_cu": 111,
     "tra_cuu_web_nghi_quyet": 37,
-    "xa_bi_chia_thu_hoi_bao_luu": 33,
+    "xa_bi_chia_thu_hoi_bao_luu": 36,
     "vntest0040_mo_ho_bao_luu": 1,
     "thieu_xa_chua_xac_dinh_bao_luu": 74,
-    "nhan_thuc_te_diff": 29
+    "nhan_thuc_te_diff": 28
   },
   "eras": {
     "cu": 361,
@@ -94,5 +94,14 @@
   "input_modes": {
     "addr:full": 150,
     "structured_tags_joined": 250
-  }
+  },
+  "ai_only_quality_tiers": {
+    "AI_STRICT_PROVISIONAL": 234,
+    "AI_ABSTAIN": 111,
+    "AI_ACCEPTED_WITH_RISK": 55
+  },
+  "ai_audited_all_rows": 400,
+  "ai_only_is_gold": false,
+  "ai_only_release": "data/audit/release_ai_20261030/report.json",
+  "derived_metadata_note": "AI-reviewed is not human Gold. 111 rows abstained; do not force ward labels."
 }

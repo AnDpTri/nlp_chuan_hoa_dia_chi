@@ -1,0 +1,21 @@
+id,dau_vao,decision,ma_xa,ma_tinh,reason,family_id,training_partition
+VNTRAIN_HARD3_ABSTAIN_001,"x5,mh,ml",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_002,"x5,mh,nd",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_003,"x5,ml,nd",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_004,"mh,ml,nd",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_005,"xóm 5,mh",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_006,"x5,mh",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_007,"x5,ml",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_008,"x5,nd",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_009,"mh,ml",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_010,"mỹ hưng,ml",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_011,"xóm 5, mỹ hưng",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_012,"xóm 5, mỹ lộc",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_013,x5 mh ml,ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_014,"x5, MH",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_015,"xom 5,ml",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_016,"x.5, nđ",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_017,"xóm 5, Mỹ Hưng, Mỹ Lộc",ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_018,Mỹ Hưng,ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_019,ML,ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training
+VNTRAIN_HARD3_ABSTAIN_020,MH,ABSTAIN,,,"Thieu it nhat mot ngu canh cua vi du user (xom, MH, ML, ND); khong gan ma duoc.",FAM_USER_MH_ML_ND_01,contrast_only_not_canonical_training

@@ -1,0 +1,51 @@
+/goal Làm việc tự chủ tối đa 4 giờ kể từ lúc nhận prompt này, để nâng độ chính xác THẬT của pipeline chuẩn hóa địa chỉ, rồi dừng và viết báo cáo. Không hỏi lại người dùng (họ đang ngủ); gặp điểm cần người quyết thì ghi vào báo cáo và bỏ qua điểm đó, không tự quyết.
+
+MỤC TIÊU
+Nâng exact 6 trường (so_nha, ngo_ngach_hem, thon_xom, duong, ma_xa, ma_tinh) của pipeline hiện tại (cấu hình CNN v2 + ranker + tu_dien_train, baseline đóng băng tại D:\nlp_rf_gate\baselines) hướng tới 95%, bằng thay đổi có căn cứ ngôn ngữ/đặc tả. Điểm xuất phát đo được: dev_goc 941/1136, dev_kho 330/464. Con số cuối có thể thấp hơn 95%; báo đúng số đó, không nâng điểm bằng cách khác.
+
+TRẠNG THÁI ĐẦU VÀO (đã đo, không cần đo lại)
+- PhoBERT (3 bản agy P/P2/P3, cổng PASS) chỉ hơn CNN 2 ca trên dev_goc, 4 ca trên dev_kho, chậm gấp 15-30 lần: bộ nhận diện KHÔNG phải điểm nghẽn.
+- Lỗi tập trung ở trường duong (dev_goc 136 lượt, dev_kho 116), rồi ma_xa (51/20), so_nha (31). Ca PhoBERT sai thì CNN cũng sai (184/193, 130/130). Kiểu lỗi đã thấy: không phục hồi dấu tên đường ("Hoang Hoa Tham" -> "Hoàng Hoa Thám"), ngõ/ngách gộp hay tách khác quy ước, tiền tố Đường/Phố, nhãn dev sai (ví dụ "Đường số 27" nhãn số nhà "Số 27"), ma_xa trống (xã bị chia).
+- Dữ liệu per-case: D:\nlp_rf_gate\reports\verify\e2e_P\cases.jsonl (split, id, input, ok, cnn_ok, pred, gold).
+
+CÔNG CỤ SẴN
+- Cổng và đo: D:\nlp_rf_gate (gate.py, run_snapshot.py, eval_phobert_e2e.py làm mẫu, baselines/, snapshots/). Mọi cổng chỉ đọc worktree được kiểm. Không sửa gate.py, snapshot, baselines.
+- Repo: D:\nlp_chuan_hoa_dia_chi (nhánh feature/reach-95-accuracy có thay đổi chưa commit của người dùng: không đụng vào). Nhánh nền cho công việc này: refactor/combined-20261030 (b917c26; đã qua cổng refactor).
+- Môi trường Python: D:\nlp_chuan_hoa_dia_chi\.venv-neural\Scripts\python.exe -X utf8 -B.
+- agy qua RPC: docs/antigravity_rpc/agy_app_rpc.py (list/status/send/verify) và D:\nlp_rf_gate\agy_create.py (tạo cuộc hội thoại mới). Quota agy KHÔNG phải mối lo; quota của chính bạn mới quý. Vì vậy:
+  * GIAO CHO AGY việc lặp lại, kiểm được bằng máy: phân loại hàng trăm ca sai theo bảng kiểu lỗi cho trước, dò từ điển/danh mục tìm mẫu, sinh và chạy ablation, viết test, dọn dẹp, đối chiếu cổng. Mỗi luồng một worktree riêng sparse, một bài nhỏ, có tiêu chí PASS bằng lệnh. Mỗi luồng ghi vào thư mục riêng, không hai luồng sửa cùng file.
+  * KHÔNG tin báo cáo của agy: agy hay ẩu và ảo tưởng. Mọi kết quả agy báo phải được bạn chạy lại bằng cổng và đo của riêng bạn trước khi dùng (tiền lệ: một luồng agy từng làm sai ngữ nghĩa mà chỉ test vi sai mới bắt được).
+  * BẠN giữ: chọn giả thuyết, đọc diff, quyết giữ hay bỏ, viết báo cáo.
+
+VÒNG LẶP (lặp đến khi hết giờ hoặc hết giả thuyết có căn cứ)
+1. Phân loại lỗi (giao agy, bạn kiểm mẫu): lập bảng kiểu lỗi x số ca trên dev_goc và dev_kho, kèm ví dụ id. Đánh dấu ca nghi nhãn dev sai và loại khỏi mục tiêu tối ưu (liệt kê riêng, không sửa file dev).
+2. Chọn kiểu lỗi lớn nhất có căn cứ ngôn ngữ/đặc tả (bai_toan.md). Nêu giả thuyết bằng một câu trước khi thử.
+3. Thử trên worktree riêng (git worktree add, nhánh mới experiment/<tên>-20261030 tách từ b917c26). Một thay đổi một nhánh.
+4. Đo: chạy cổng hồi quy hiện có và đo exact-6 per-case trên dev_goc + dev_kho so baseline, báo CẢ số ca được VÀ ca mất. Giữ thay đổi chỉ khi: ca được > ca mất ít nhất 10 (nhiễu dev khoảng ±10), không có hồi quy trên các cấu hình snapshot không liên quan, không thêm ngoại lệ, độ trễ không tăng quá 20 ms trung bình, và có lý do ngôn ngữ giải thích được CÁC ca được (đọc ít nhất 10 ca được và 10 ca mất). Nếu chỉ được trong các ca có nhãn nghi sai thì bỏ.
+5. Thay đổi giữ lại: commit riêng trên nhánh experiment đó (một commit một ý, kèm test). Thay đổi bị bỏ: ghi lý do vào nhật ký, xóa worktree của nó.
+6. Ghi nhật ký từng vòng vào D:\nlp_rf_gate\reports\dem_20261030\NHAT_KY.md ngay sau mỗi vòng (giả thuyết, số đo, quyết định).
+
+LUỒNG DỮ LIỆU (song song với vòng lặp, giao cho agy; bạn chỉ kiểm)
+Điểm nghẽn thứ hai là dữ liệu: nhãn dev có sai, chưa có gold, quy ước chưa chốt. Không có người gán nhãn, nên nhãn chỉ có thể do AI; độ tin cậy phải đo, không được tuyên bố. Làm:
+D1. Kiểm nhãn dev bằng đồng thuận agy. Với các ca sai (323 ca trong e2e_P/cases.jsonl), mở ít nhất 3 cuộc hội thoại agy độc lập (agy_create.py; mỗi luồng không thấy kết quả luồng khác), chỉ đưa chuỗi đầu vào (KHÔNG đưa nhãn dev, không đưa kết quả pipeline), yêu cầu gán các trường theo quy ước data/gold/QUY_UOC_NHAN.md (bản nháp: điểm chưa quyết thì abstain). Ca nào cả 3 luồng nhất trí với pipeline và khác nhãn dev: xếp "nghi nhãn dev sai" (chưa phải kết luận); ca cả 3 nhất trí với dev: pipeline sai thật, đưa vào nhóm lỗi để sửa. Không sửa file dev. Danh sách nghi sai là đầu ra, kèm chú thích là đồng thuận agy chứ không phải xác nhận.
+D2. Gán nhãn mẫu 800 (data/gold, đọc công cụ trong D:\nlp_gold, KHÔNG sửa và KHÔNG ghi vào đó): chạy 16 gói goi_gan_nhan/goi_01..16 qua ít nhất 2 cuộc hội thoại agy độc lập (bo_gan khác nhau), ghi file nhãn vào D:\nlp_rf_gate\reports\dem_20261030\du_lieu\; kiểm bằng kiem_nhan.py; rồi dong_thuan.py (--output-dir trong thư mục trên) để ra nhãn đồng thuận và hàng đợi bất đồng. Ghi tỷ lệ đồng thuận từng trường. agy sai offset ký tự nhiều: chấp nhận phải gán lại gói lỗi, hoặc yêu cầu agy viết văn bản span rồi dùng script tính offset bằng tìm chuỗi con (script chỉ chuyển định dạng, không chứa luật nhãn).
+D3. Đo độ tin cậy của agy làm bộ gán: nếu D:\nlp_gold\data\gold\tong_hop\ đã có (do Codex dựng, có đáp án cố định), chấm file nhãn agy bằng score_tong_hop.py. Nếu chưa có, tự sinh 150-300 câu tổng hợp có đáp án do mã tính (viết tắt dần kiểu "x5,mh,ml,nd", bỏ dấu, thiếu thành phần) trong thư mục du_lieu của bạn, loại trừ mọi câu thuộc train_dev/test/mau_ung_vien, và chấm agy trên đó; báo tỷ lệ đúng và tỷ lệ gán chắc nhưng sai. Không dùng câu tổng hợp này để huấn luyện.
+D4. Nhãn đồng thuận của agy KHÔNG bao giờ gọi là gold, không dùng để train, không dùng làm điều kiện duy nhất để giữ một thay đổi pipeline. Chỉ dùng để (a) xếp loại ca nghi nhãn dev sai, (b) ước lượng sai số của chính agy, (c) lập hàng đợi bất đồng cho người quyết khi họ dậy.
+
+HƯỚNG ĐÁNG THỬ (gợi ý, bạn có thể bỏ; không bắt buộc)
+- Phục hồi dấu tên đường từ TuDienDuong/danh mục khi đầu vào không dấu (đo: bản train-only trước; bản v5 chỉ để so, vì có nguồn chưa kiểm chứng và không dùng làm kết luận).
+- Chuẩn hóa tiền tố Đường/Phố theo bai_toan.md khi đầu vào không có.
+- ma_xa trống: tìm ca xã bị chia có đủ căn cứ (thôn, số nhà) chưa dùng; ca không đủ căn cứ thì giữ abstain.
+- Các quy tắc ở ngõ/ngách/hẻm CHỈ khi bai_toan.md đã quy định; chỗ chưa quy định thì ghi vào danh sách "cần người chốt".
+
+RÀNG BUỘC TUYỆT ĐỐI
+- Không đọc, chạy hay đo bất cứ thứ gì trong data/test hoặc dia_chi_test.csv; không chọn thay đổi theo test. Không dùng dev_goc/dev_kho làm dữ liệu train hay để chọn siêu tham số; dev chỉ để đo và chọn giữ/bỏ một thay đổi quy tắc.
+- Không hard-code theo từng câu dev, không thêm từ điển lấy từ nhãn dev/test.
+- Không commit, push, merge, checkout, stash hay sửa D:\nlp_chuan_hoa_dia_chi (nhánh feature/reach-95-accuracy) và D:\nlp_gold. Chỉ commit trên các nhánh experiment/* của bạn trong các worktree bạn tạo.
+- Không xóa file ngoài worktree bạn tạo. Không xóa dữ liệu. Không cài thư viện. Không dùng v5 dictionary (nguồn chưa kiểm) để kết luận.
+- Giữ chiều abstain/cảnh báo cho ca mơ hồ; không đoán bừa để tăng điểm. Không báo thắng sớm; báo thất bại và hồi quy như kết quả.
+- Không tự mở rộng phạm vi: không làm lại PhoBERT, không refactor. Phần dữ liệu chỉ làm đúng D1-D4; D:\nlp_gold chỉ để đọc công cụ, mọi đầu ra dữ liệu ghi vào D:\nlp_rf_gate\reports\dem_20261030\du_lieu\ (Codex có thể đang làm việc trong D:\nlp_gold).
+- Không đưa nhãn dev, nhãn test hay đáp án vào prompt của agy khi nhờ gán nhãn độc lập.
+
+KẾT THÚC (lúc hết 4 giờ hoặc hết giả thuyết)
+Viết D:\nlp_rf_gate\reports\dem_20261030\BAO_CAO.md gồm: kết quả luồng dữ liệu (số ca nghi nhãn dev sai, tỷ lệ đồng thuận giữa các luồng agy, sai số của agy trên tập tổng hợp, số mục còn bất đồng cho người); bảng kiểu lỗi (số ca); từng nhánh experiment đã giữ (commit, giả thuyết, ca được/mất trên dev_goc và dev_kho, ví dụ); từng thử nghiệm bị bỏ và lý do; điểm exact-6 cuối so với baseline cho từng tập; các điểm cần người chốt (quy ước nhãn, ca nghi nhãn dev sai); những gì chưa chắc; số lần và việc đã giao agy, số kết quả agy báo mà bạn kiểm lại thấy sai. Sau đó chỉ trả lời ngắn: các nhánh giữ lại, điểm trước/sau, và các quyết định cần người.

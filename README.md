@@ -71,3 +71,8 @@ Sinh lại dữ liệu sạch khi cần trong quy trình dữ liệu:
 ```
 py -3.12 data/clean/scripts/clean_and_validate.py
 ```
+
+
+## Dữ liệu đối chiếu địa chỉ cũ → mới
+
+Bộ cặp địa chỉ chi tiết có bằng chứng nguồn được lưu riêng tại data/doi_chieu_dia_chi_cu_moi/README.md. Tệp chính là cap_nha_duong_dia_chi_cu_moi.csv, hiện có 20 cặp, trong đó 19 cặp có số nhà/chi tiết đường. Đây là dữ liệu tham chiếu được trích từ các văn bản công khai; chưa phải Gold và không được trộn với bộ 4.398 địa chỉ độc lập ở data/tham_chieu_so_nha_toan_quoc.

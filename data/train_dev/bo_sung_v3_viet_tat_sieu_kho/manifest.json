@@ -1,0 +1,31 @@
+{
+  "version": "v3.0",
+  "scope": "train_only_synthetic_abbreviations",
+  "authoritative_claim": "Only user example is user-asserted; other mappings derived from clean snapshot, not independently proven current geographic address.",
+  "input_user_example": "x5,mh,ml,nd",
+  "user_target": "Xóm 5, Phường Mỹ Lộc, Tỉnh Ninh Bình",
+  "user_target_codes": {
+    "ma_xa": "13708",
+    "ma_tinh": "37"
+  },
+  "historical_old_province": "36",
+  "historical_old_ward_code": "UNAVAILABLE_IN_FROZEN_OLD_CATALOGUE",
+  "positive_rows": 377,
+  "user_example_variants": 17,
+  "catalogue_derived_variants": 360,
+  "catalogue_derived_families": 120,
+  "abstain_contrast": 20,
+  "overlap_by_normalized_input": {},
+  "family_policy": "All variants of one administrative chain in TRAIN only; no dev/test injection.",
+  "usage_policy": "Provisional synthetic train data; not gold, not independent accuracy evaluation. Abstain file excluded from canonical training.",
+  "src_sha256": {
+    "old_wards": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014",
+    "mapping": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218",
+    "new_wards": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb"
+  },
+  "output_sha256": {
+    "train_abbreviation_extreme.csv": "da1375ee46843885df22ad35583b2baf6a766cc9b6a11ca28e56f9f9eddb3303",
+    "source_spans_and_family.jsonl": "50aa6e5501c10474f9eb4fd6e4a18f5291a778fe631d6d3c38db6e7298d9ac5b",
+    "contrast_abstain.csv": "f5400398f0769612592ca17274d2fede5146817b6eca7a1af95f1e1fd28cf73b"
+  }
+}

@@ -65,3 +65,12 @@ Chạy từ gốc dự án:
 
 Lưu ý: một số validator cũ ghi lại JSON report mỗi lần chạy; audit mới
 chỉ ghi report nếu yêu cầu rõ bằng --output.
+
+## Bộ dữ liệu siêu khó V3 theo yêu cầu người dùng (30/10/2026)
+
+Bộ train-only ở data/train_dev/bo_sung_v3_viet_tat_sieu_kho/ gồm 377
+biến thể viết tắt, 20 mẫu cần từ chối kết luận và manifest chứng cứ.
+Mốc người dùng cung cấp: x5,mh,ml,nd -> Xóm 5, Phường Mỹ Lộc,
+Tỉnh Ninh Bình; mã xã 13708, tỉnh 37. MH chỉ có hiệu lực trong đúng
+ngữ cảnh ví dụ, không sinh mã hành chính cũ không có trong catalogue.
+Chi tiết và giới hạn dùng ở README.md trong thư mục V3.
