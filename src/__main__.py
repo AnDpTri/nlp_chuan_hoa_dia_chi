@@ -14,6 +14,7 @@ def main():
     p.add_argument('--crf-protected', action='store_true', help='Đối chứng giữ bộ lọc ứng viên v3')
     p.add_argument('--char-model', help='Checkpoint Char-CNN + CRF chạy CPU')
     p.add_argument('--videberta-model', help='Thư mục ViDeBERTa đã fine-tune từ Colab, chạy CPU')
+    p.add_argument('--phobert-model', help='Thư mục PhoBERT-base-v2 đã fine-tune từ Colab, chạy CPU')
     p.add_argument('--ranker', help='LightGBM ranker đã train cùng checkpoint bộ nhận diện')
     p.add_argument('--tu-dien-duong', help='JSON tra tên đường từ train, tùy chọn thử nghiệm')
     p.add_argument('--bao-ve-duong', action='store_true', help='Thử bảo vệ span đường có tiền tố khỏi ứng viên admin không tiền tố')
@@ -21,10 +22,10 @@ def main():
     p.add_argument('--threads', type=int, default=1, help='Số luồng CPU cho Char-CNN')
     args = p.parse_args()
     backend = None
-    if sum(bool(x) for x in (args.char_model, args.crf_model, args.videberta_model)) > 1:
-        p.error('Chỉ chọn một bộ nhận diện: --char-model / --crf-model / --videberta-model')
-    if args.ranker and not (args.char_model or args.videberta_model):
-        p.error('--ranker cần --char-model hoặc --videberta-model')
+    if sum(bool(x) for x in (args.char_model, args.crf_model, args.videberta_model, args.phobert_model)) > 1:
+        p.error('Chỉ chọn một bộ nhận diện: --char-model / --crf-model / --videberta-model / --phobert-model')
+    if args.ranker and not (args.char_model or args.videberta_model or args.phobert_model):
+        p.error('--ranker cần --char-model, --videberta-model hoặc --phobert-model')
     if args.crf_model:
         from .crf_chi_tiet import BoTachCRF
         backend = BoTachCRF(args.crf_model, bao_ve_chi_tiet=args.crf_protected)
@@ -34,6 +35,9 @@ def main():
     if args.videberta_model:
         from .videberta import BoTachViDeberta
         backend = BoTachViDeberta(args.videberta_model, threads=args.threads)
+    if args.phobert_model:
+        from .phobert import BoTachPhoBERT
+        backend = BoTachPhoBERT(args.phobert_model, threads=args.threads)
     dm, ranker = None, None
     if args.ranker:
         from .danh_muc import DanhMuc
