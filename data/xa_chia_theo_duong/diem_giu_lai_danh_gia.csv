@@ -1,0 +1,389 @@
+osm_id,ma_xa_cu,khoa_duong,ma_xa_moi,so_nha,duong,xa_cu,huyen_cu,tinh_cu
+node/2810708201,00079,dinhtienhoang,00070,75B,Phố Đinh Tiên Hoàng,Tràng Tiền,Hoàn Kiếm,Hà Nội
+node/3316120061,00034,thanhcong,00025,111,Phó Thành Công,Thành Công,Ba Đình,Hà Nội
+node/3671278938,00079,tongdan,00070,24b,Phố Tông Đản,Tràng Tiền,Hoàn Kiếm,Hà Nội
+node/3711330943,00631,metri,00592,"số 24 BT1 khu đô thị mới Mễ Trì hạ, nam Từ Liêm, Hà Nội",Mễ Trì,Mễ Trì,Nam Từ Liêm,Hà Nội
+node/3747365124,00199,yenlang,00235,36,Phố Yên Lãng,Láng Hạ,Đống Đa,Hà Nội
+node/3775336747,00364,buixuongtrach,00364,198,Phố Bùi Xương Trạch,Khương Đình,Thanh Xuân,Hà Nội
+node/4091994843,09541,tranphu,09556,110,Trần Phú,Mộ Lao,Hà Đông,Hà Nội
+node/4258046065,00565,ngo72duong2cuuviet,00565,2C,Ngõ 72 Đường 2 Cửu Việt,Trâu Quỳ,Gia Lâm,Hà Nội
+node/4277492653,00172,trankimxuyen,00175,5,Trần Kim Xuyến,Yên Hòa,Cầu Giấy,Hà Nội
+node/4281489900,00166,tranquykien,00166,N11A,Trần Quý Kiên,Dịch Vọng,Cầu Giấy,Hà Nội
+node/4285828706,00373,nguyenxien,00643,21b-250,Nguyễn Xiển,Hạ Đình,Thanh Xuân,Hà Nội
+node/4353999536,00217,ngo11thaiha,00235,18,Ngõ 11 Thái Hà,Trung Liệt,Đống Đa,Hà Nội
+node/4402341592,00355,hadinh,00364,88,Phố Hạ Đình,Thanh Xuân Trung,Thanh Xuân,Hà Nội
+node/4551057513,00100,tuhoa,00103,Hẻm 1/5,Từ Hoa,Quảng An,Tây Hồ,Hà Nội
+node/4582296797,27040,lythanhtong,27028,149/23,Lý Thánh Tông,Tân Thới Hòa,Tân Phú,Hồ Chí Minh
+node/5004266348,00070,hanggai,00070,11,Phố Hàng Gai,Hàng Trống,Hoàn Kiếm,Hà Nội
+node/5384962122,00241,tohienthanh,00256,66,Phố Tô Hiến Thành,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/5485653889,00199,nguyenchithanh,00199,145,Phố Nguyễn Chí Thanh,Láng Hạ,Đống Đa,Hà Nội
+node/5485666060,00025,nguyenchithanh,00025,18,Nguyễn Chí Thanh,Ngọc Khánh,Ba Đình,Hà Nội
+node/5485670666,00565,s,00565,NA,Đường S,Trâu Quỳ,Gia Lâm,Hà Nội
+node/5485672010,00565,t,00565,NA,Đường T,Trâu Quỳ,Gia Lâm,Hà Nội
+node/5485796271,00025,phamhuythong,00025,12,Phạm Huy Thông,Ngọc Khánh,Ba Đình,Hà Nội
+node/5485825576,00166,nguyenphongsac,00166,120,Nguyễn Phong Sắc,Dịch Vọng,Cầu Giấy,Hà Nội
+node/5485850796,00172,vuphamham,00175,1,Phố Vũ Phạm Hàm,Yên Hòa,Cầu Giấy,Hà Nội
+node/5485852966,00172,vuphamham,00175,17,Phố Vũ Phạm Hàm,Yên Hòa,Cầu Giấy,Hà Nội
+node/5648126669,27616,votranchi,27595,15,Đường Võ Trần Chí,Tân Kiên,Bình Chánh,Hồ Chí Minh
+node/5694009524,00478,caolo,00454,371,Đường Cao Lỗ,Uy Nỗ,Đông Anh,Hà Nội
+node/6149039485,00241,buithixuan,00256,122,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/6307912000,00217,chuaboc,00229,269,Phố Chùa Bộc,Trung Liệt,Đống Đa,Hà Nội
+node/6345382287,26737,caydiep,26737,161/4,Cây Điệp,Đa Kao,1,Hồ Chí Minh
+node/6347766285,26737,truonghansieu,26737,12,Đường Trương Hán Siêu,Đa Kao,1,Hồ Chí Minh
+node/6373396052,09541,thanhbinh,09556,171,Thanh Bình,Mộ Lao,Hà Đông,Hà Nội
+node/6639129715,00190,ngo16hoangcau,00190,55,Ngõ 16 Hoàng Cầu,Ô Chợ Dừa,Đống Đa,Hà Nội
+node/6661539812,00232,phuongmai,00229,75,Phố Phương Mai,Phương Mai,Đống Đa,Hà Nội
+node/6684447087,00634,daimo,00634,299,Đường Đại Mỗ,Đại Mỗ,Nam Từ Liêm,Hà Nội
+node/6846162967,00337,khudothitaynamlinhdam,00337,G1,Khu đô thị Tây Nam Linh Đàm,Hoàng Liệt,Hoàng Mai,Hà Nội
+node/6897424553,00337,linhduong,00337,HH2A,Phố Linh Đường,Hoàng Liệt,Hoàng Mai,Hà Nội
+node/6911056132,00178,antrach,00190,48,Phố An Trạch,Cát Linh,Đống Đa,Hà Nội
+node/6986697627,00199,thaithinh,00235,186,Phố Thái Thịnh,Láng Hạ,Đống Đa,Hà Nội
+node/6986697628,00199,ngothaiha,00235,63,Ngõ Thái Hà,Láng Hạ,Đống Đa,Hà Nội
+node/7055983231,00355,ngo342khuongdinh,00364,342/61/71,Ngõ 342 Khương Đình,Thanh Xuân Trung,Thanh Xuân,Hà Nội
+node/7056038734,00355,nguyentrai,00367,22,Nguyễn Trãi,Thanh Xuân Trung,Thanh Xuân,Hà Nội
+node/7056055214,00166,caugiay,00166,302,Cầu Giấy,Dịch Vọng,Cầu Giấy,Hà Nội
+node/7056059365,00157,hoangquocviet,00160,2,Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/7056059370,00007,daotan,00025,38,Đào Tấn,Cống Vị,Ba Đình,Hà Nội
+node/7168561626,00073,lythuongkiet,00082,87,Phố Lý Thường Kiệt,Cửa Nam,Hoàn Kiếm,Hà Nội
+node/7472889610,00025,daotan,00025,57,Phố Đào Tấn,Ngọc Khánh,Ba Đình,Hà Nội
+node/8111972850,00100,xuandieu,00103,51,Đường Xuân Diệu,Quảng An,Tây Hồ,Hà Nội
+node/8337471101,00601,nonglam,00602,Ngõ 3,Nông Lâm,Đông Ngạc,Bắc Từ Liêm,Hà Nội
+node/8361081242,00610,hoangtangbi,00602,29,Hoàng Tăng Bí,Xuân Đỉnh,Bắc Từ Liêm,Hà Nội
+node/8446491624,00617,conhue,00602,209,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/8446491625,00617,conhue,00602,219,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/8446491626,00617,conhue,00602,223,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/8447601996,00617,conhue,00602,241,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/8447602003,00617,conhue,00602,277,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/8447602006,00617,conhue,00602,297,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/8656339976,00157,hoangquocviet,00160,Số 36C,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/8943684244,00190,lathanh,00190,170,Đường La Thành,Ô Chợ Dừa,Đống Đa,Hà Nội
+node/9019760483,00343,hoangngan,00367,35,Hoàng Ngân,Nhân Chính,Thanh Xuân,Hà Nội
+node/9586984260,00112,thuykhue,00103,69B,Đường Thụy Khuê,Thụy Khuê,Tây Hồ,Hà Nội
+node/9734201864,27022,nguyenxuankhoat,27022,98,Đường Nguyễn Xuân Khoát,Tân Thành,Tân Phú,Hồ Chí Minh
+node/9761192381,27169,hem666duong3thang2,27169,666/46,Hẻm 666 Đường 3 Tháng 2,14,10,Hồ Chí Minh
+node/9873493337,00167,ngo82phodichvonghau,00166,Số 4,Ngõ 82 Phố Dịch Vọng Hậu,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/9918294653,00337,nguyenphanchanh,00337,HH1B,Nguyễn Phan Chánh,Hoàng Liệt,Hoàng Mai,Hà Nội
+node/10008253792,00511,truongsa,00508,Thôn Đông,Đường Trường Sa,Xuân Canh,Đông Anh,Hà Nội
+node/10008397011,00343,nguyenthithap,00175,28N7A,Phố Nguyễn Thị Thập,Nhân Chính,Thanh Xuân,Hà Nội
+node/10069861776,27022,thongnhat,27022,80,Thống Nhất,Tân Thành,Tân Phú,Hồ Chí Minh
+node/10087100112,00364,vutongphan,00364,583,Phố Vũ Tông Phan,Khương Đình,Thanh Xuân,Hà Nội
+node/10097190597,00316,kimgiang,00316,80,Đường Kim Giang,Đại Kim,Hoàng Mai,Hà Nội
+node/10115692257,00172,vuphamham,00175,17,Phố Vũ Phạm Hàm,Yên Hòa,Cầu Giấy,Hà Nội
+node/10129864868,00025,kimma,00025,647,Phố Kim Mã,Ngọc Khánh,Ba Đình,Hà Nội
+node/10202538308,00167,xuanthuy,00166,241,Đường Xuân Thủy,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/10248628306,00616,dangthuytram,00160,34,Đường Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/10248628308,00616,dangthuytram,00160,16,Phố Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/10261572491,00167,ngo31phanvantruong,00166,10,Ngõ 31 Phan Văn Trường,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/10839117352,00091,ngo464auco,00097,139,Ngõ 464 Âu Cơ,Phú Thượng,Tây Hồ,Hà Nội
+node/10889558181,00100,xuandieu,00103,32,Đường Xuân Diệu,Quảng An,Tây Hồ,Hà Nội
+node/10907563524,00139,ngo21927bode,00118,39A1,Ngõ 219/27 Bồ Đề,Bồ Đề,Long Biên,Hà Nội
+node/10973303033,00139,ngo21927bode,00118,45A,Ngõ 219/27 Bồ Đề,Bồ Đề,Long Biên,Hà Nội
+node/10982036637,00616,ngo61phamtuantai,00160,43,Ngõ 61 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11054429258,27418,phamhung,27418,306,Phạm Hùng,5,8,Hồ Chí Minh
+node/11079144812,00100,ngo6dangthaimai,00103,1,Ngõ 6 Đặng Thai Mai,Quảng An,Tây Hồ,Hà Nội
+node/11104487739,00214,ngach31167tayson,00229,29,Ngách 31/167 Tây Sơn,Quang Trung,Đống Đa,Hà Nội
+node/11158192627,00172,nguyennhuuyen,00175,17-19,Phố Nguyễn Như Uyên,Yên Hòa,Cầu Giấy,Hà Nội
+node/11168751400,00157,hoangquocviet,00160,9,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11168751402,00157,hoangquocviet,00160,19,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11168751404,00157,hoangquocviet,00160,23,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11168751408,00157,hoangquocviet,00160,33,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11168751417,00157,hoangquocviet,00160,47,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11168751432,00157,hoangquocviet,00160,77-79,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11168859051,00157,hoangquocviet,00160,1,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11170913032,00157,hoangquocviet,00160,91,Đường Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11180649006,00157,phungchikien,00160,1A,Phố Phùng Chí Kiên,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11181140601,00157,ngach54hoangquocviet,00160,34,Ngách 5/4 Hoàng Quốc Việt,Nghĩa Đô,Cầu Giấy,Hà Nội
+node/11184772688,27016,tanthang,27019,30,Đường Tân Thắng,Sơn Kỳ,Tân Phú,Hồ Chí Minh
+node/11184905134,27016,hem939tanthang,27019,93/9/31,Hẻm 93/9 Tân Thắng,Sơn Kỳ,Tân Phú,Hồ Chí Minh
+node/11207463925,09562,quangtrung,09562,948,Đường Quang Trung,Yên Nghĩa,Hà Đông,Hà Nội
+node/11211915135,00208,ngoxadan2,00235,192,Ngõ Xã Đàn 2,Nam Đồng,Đống Đa,Hà Nội
+node/11211935137,00208,ngoxadan2,00235,176,Ngõ Xã Đàn 2,Nam Đồng,Đống Đa,Hà Nội
+node/11212195529,00226,phamngocthach,00229,107A1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212195530,00226,phamngocthach,00229,108A1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212216787,00226,phamngocthach,00229,109B1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212216789,00226,phamngocthach,00229,108B1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212216791,00226,phamngocthach,00229,105A B1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212216795,00226,phamngocthach,00229,102A B1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212242441,00226,phamngocthach,00229,103A2,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212500519,00226,phamngocthach,00229,116B6,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212500523,00226,phamngocthach,00229,113B6,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212500525,00226,phamngocthach,00229,111B6,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212500533,00226,phamngocthach,00229,102B6,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544439,00226,phamngocthach,00229,115C2,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544444,00226,phamngocthach,00229,110C2,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544448,00226,phamngocthach,00229,106C2,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544455,00226,phamngocthach,00229,113C C1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544456,00226,phamngocthach,00229,112A C1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544457,00226,phamngocthach,00229,112C1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544458,00226,phamngocthach,00229,111C1,Phố Phạm Ngọc Thạch,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11212544467,00226,dangvanngu,00229,2,Phố Đặng Văn Ngữ,Phương Liên - Trung Tự,Đống Đa,Hà Nội
+node/11226865498,00616,ngo238hoangquocviet,00160,15,Ngõ 238 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11226865499,00616,ngo238hoangquocviet,00160,9,Ngõ 238 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11226875743,00616,ngo238hoangquocviet,00160,27,Ngõ 238 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11226875744,00616,ngo238hoangquocviet,00160,29,Ngõ 238 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11226938807,00616,ngach2382hoangquocviet,00160,1,Ngách 238/2 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11247434400,00167,nguyenphongsac,00160,133,Đường Nguyễn Phong Sắc,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11277792303,00208,ngoxadan2,00235,137,Ngõ Xã Đàn 2,Nam Đồng,Đống Đa,Hà Nội
+node/11281683476,00208,ngoxadan2,00235,125,Ngõ Xã Đàn 2,Nam Đồng,Đống Đa,Hà Nội
+node/11286510032,00208,delathanh,00226,149,Đường Đê La Thành,Nam Đồng,Đống Đa,Hà Nội
+node/11295778637,00208,delathanh,00226,135,Đường Đê La Thành,Nam Đồng,Đống Đa,Hà Nội
+node/11295778638,00208,delathanh,00226,133,Đường Đê La Thành,Nam Đồng,Đống Đa,Hà Nội
+node/11295778640,00208,delathanh,00226,127,Đường Đê La Thành,Nam Đồng,Đống Đa,Hà Nội
+node/11298138782,00208,xadan,00226,446,Phố Xã Đàn,Nam Đồng,Đống Đa,Hà Nội
+node/11299136724,00208,delathanh,00226,145,Đường Đê La Thành,Nam Đồng,Đống Đa,Hà Nội
+node/11328890468,26833,d4,26833,Tòa S10.02,Đường D4,Long Thạnh Mỹ,Thủ Đức,Hồ Chí Minh
+node/11332619850,27091,dkdtlakeviewcity,27097,176,"D, KĐT Lakeview City",An Phú,Thủ Đức,Hồ Chí Minh
+node/11343699081,27091,m,27097,7,Đường M,An Phú,Thủ Đức,Hồ Chí Minh
+node/11350814184,00577,ngoctrai18,00565,NT18-05,Ngọc Trai 18,Đa Tốn,Gia Lâm,Hà Nội
+node/11350814187,00577,ngoctrai18,00565,NT18-15,Ngọc Trai 18,Đa Tốn,Gia Lâm,Hà Nội
+node/11350814193,00577,ngoctrai17,00565,NT17-24,Ngọc Trai 17,Đa Tốn,Gia Lâm,Hà Nội
+node/11350814204,00577,ngoctrai17,00565,NT17-07,Ngọc Trai 17,Đa Tốn,Gia Lâm,Hà Nội
+node/11350814208,00577,ngoctrai17,00565,NT17-17,Ngọc Trai 17,Đa Tốn,Gia Lâm,Hà Nội
+node/11350814210,00577,ngoctrai17,00565,NT17-21,Ngọc Trai 17,Đa Tốn,Gia Lâm,Hà Nội
+node/11350814212,00577,ngoctrai16,00565,NT16-26,Ngọc Trai 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081379,00577,ngoctrai16,00565,NT16-23,Ngọc Trai 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081381,00577,ngoctrai16,00565,NT16-19,Ngọc Trai 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081386,00577,ngoctrai16,00565,NT16-07,Ngọc Trai 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081390,00577,ngoctrai20,00565,NT20-08,Ngọc Trai 20,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081394,00577,ngoctrai19,00565,NT19-05,Ngọc Trai 19,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081396,00577,ngoctrai19,00565,NT19-09,Ngọc Trai 19,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081407,00577,ngoctrai15,00565,NT15-19,Ngọc Trai 15,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081410,00577,ngoctrai12,00565,NT12-23,Ngọc Trai 12,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081413,00577,ngoctrai12,00565,NT12-17,Ngọc Trai 12,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081416,00577,ngoctrai12,00565,NT12-09,Ngọc Trai 12,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081421,00577,ngoctrai21,00565,NT21-05,Ngọc Trai 21,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081424,00577,ngoctrai21,00565,NT21-15,Ngọc Trai 21,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081427,00577,ngoctrai21,00565,NT21-17,Ngọc Trai 21,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081441,00577,ngoctrai10,00565,NT10-23,Ngọc Trai 10,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081445,00577,ngoctrai10,00565,NT10-15,Ngọc Trai 10,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081451,00577,ngoctrai9,00565,NT09-23,Ngọc Trai 9,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081456,00577,ngoctrai9,00565,NT09-11,Ngọc Trai 9,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081457,00577,ngoctrai9,00565,NT09-09,Ngọc Trai 9,Đa Tốn,Gia Lâm,Hà Nội
+node/11351081460,00577,ngoctrai9,00565,NT09-03,Ngọc Trai 9,Đa Tốn,Gia Lâm,Hà Nội
+node/11351098174,00577,ngoctrai9,00565,NT09-33,Ngọc Trai 9,Đa Tốn,Gia Lâm,Hà Nội
+node/11351098184,00577,ngoctrai9,00565,NT09-59,Ngọc Trai 9,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528090,00577,ngoctrai6,00565,NT06-09,Ngọc Trai 6,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528099,00577,ngoctrai5,00565,NT05-12,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528105,00577,ngoctrai5,00565,NT05-26,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528109,00577,ngoctrai5,00565,NT05-34,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528112,00577,ngoctrai5,00565,NT05-36,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528113,00577,ngoctrai5,00565,NT05-37,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528115,00577,ngoctrai5,00565,NT05-33,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528123,00577,ngoctrai5,00565,NT05-17,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528128,00577,ngoctrai5,00565,NT05-05,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528129,00577,ngoctrai5,00565,NT05-03,Ngọc Trai 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528133,00577,ngoctrai3,00565,NT03-10,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528144,00577,ngoctrai3,00565,NT03-34,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528145,00577,ngoctrai3,00565,NT03-36,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528160,00577,ngoctrai3,00565,NT03-29,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528165,00577,ngoctrai2,00565,NT02-02,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353528167,00577,ngoctrai2,00565,NT02-10,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539579,00577,ngoctrai2,00565,NT02-36,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539584,00577,ngoctrai3,00565,NT03-75,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539585,00577,ngoctrai3,00565,NT03-73,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539588,00577,ngoctrai3,00565,NT03-67,Ngọc Trai 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539605,00577,ngoctrai2,00565,NT02-52,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539606,00577,ngoctrai2,00565,NT02-54,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539608,00577,ngoctrai2,00565,NT02-58,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539609,00577,ngoctrai2,00565,NT02-60,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539615,00577,ngoctrai2,00565,NT02-72,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539616,00577,ngoctrai2,00565,NT02-74,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539620,00577,ngoctrai2,00565,NT02-84,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539630,00577,ngoctrai2,00565,NT02-21,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539631,00577,ngoctrai2,00565,NT02-23,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539633,00577,ngoctrai2,00565,NT02-27,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539634,00577,ngoctrai2,00565,NT02-29,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539641,00577,ngoctrai2,00565,NT02-43,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11353539645,00577,ngoctrai2,00565,NT02-53,Ngọc Trai 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11372720520,00577,sanho16,00565,SH16-07,San Hô 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11372720522,00577,sanho16,00565,SH16-11,San Hô 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11372720525,00577,sanho16,00565,SH16-19,San Hô 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11372720527,00577,sanho16,00565,SH16-23,San Hô 16,Đa Tốn,Gia Lâm,Hà Nội
+node/11372720528,00577,sanho15,00565,SH15-08,San Hô 15,Đa Tốn,Gia Lâm,Hà Nội
+node/11372796992,00577,sanho15,00565,SH15-09,San Hô 15,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797009,00577,sanho12,00565,SH12-03,San Hô 12,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797010,00577,sanho12,00565,SH12-05,San Hô 12,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797013,00577,sanho12,00565,SH12-11,San Hô 12,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797021,00577,sanho11,00565,SH11-12,San Hô 11,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797022,00577,sanho11,00565,SH11-16,San Hô 11,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797029,00577,sanho11,00565,SH11-03,San Hô 11,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797039,00577,sanho10,00565,SH10-03,San Hô 10,Đa Tốn,Gia Lâm,Hà Nội
+node/11372797041,00577,sanho10,00565,SH10-07,San Hô 10,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798689,00577,sanho8,00565,SH08-10,San Hô 8,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798717,00577,sanho7,00565,SH07-17,San Hô 7,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798721,00577,sanho5,00565,SH05-06,San Hô 5,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798734,00577,sanho3,00565,SH03-09,San Hô 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798737,00577,sanho3,00565,SH03-17,San Hô 3,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798746,00577,sanho2,00565,SH02-09,San Hô 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798748,00577,sanho2,00565,SH02-15,San Hô 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798751,00577,sanho2,00565,SH02-21,San Hô 2,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798755,00577,sanho1,00565,SH01-10,San Hô 1,Đa Tốn,Gia Lâm,Hà Nội
+node/11372798757,00577,sanho1,00565,SH01-16,San Hô 1,Đa Tốn,Gia Lâm,Hà Nội
+node/11449677581,00079,lephunghieu,00070,18,Phố Lê Phụng Hiểu,Tràng Tiền,Hoàn Kiếm,Hà Nội
+node/11449677587,00079,lephunghieu,00070,12,Phố Lê Phụng Hiểu,Tràng Tiền,Hoàn Kiếm,Hà Nội
+node/11451595757,00079,lydaothanh,00070,12,Phố Lý Đạo Thành,Tràng Tiền,Hoàn Kiếm,Hà Nội
+node/11462471439,00241,doantrannghiep,00256,18,Phố Đoàn Trần Nghiệp,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11462471440,00241,doantrannghiep,00256,16,Phố Đoàn Trần Nghiệp,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11462471452,00241,trieuvietvuong,00256,172,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11462471456,00241,buithixuan,00256,179C,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11463191459,00241,trieuvietvuong,00256,164,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11468643063,00241,doantrannghiep,00256,10,Phố Đoàn Trần Nghiệp,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11468643065,00241,maihacde,00256,112C,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11468718373,00241,maihacde,00256,106,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11472455478,00241,tohienthanh,00256,17,Phố Tô Hiến Thành,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11476192646,00241,buithixuan,00256,148,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11482387879,00256,batrieu,00256,171,Phố Bà Triệu,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11482387942,00241,buithixuan,00256,140,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11491092584,00241,trieuvietvuong,00256,110A,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11491092589,00241,trieuvietvuong,00256,114,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11491305590,00241,trieuvietvuong,00256,152E,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11491305591,00241,trieuvietvuong,00256,152E,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11500070696,00241,trieuvietvuong,00256,85,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11500070698,00241,trieuvietvuong,00256,91A,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11500070699,00241,trieuvietvuong,00256,91B,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11500070701,00241,tuetinh,00256,25,Phố Tuệ Tĩnh,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11505669846,00241,trieuvietvuong,00256,121,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11505968806,00241,tohienthanh,00256,12,Phố Tô Hiến Thành,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11505968811,00241,trieuvietvuong,00256,127B,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11510364562,00241,tuetinh,00256,63,Phố Tuệ Tĩnh,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11534643036,00256,batrieu,00256,157,Phố Bà Triệu,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11534643043,00241,tohienthanh,00256,62,Phố Tô Hiến Thành,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11548847121,27091,nguyenthidinh,27097,24,Nguyễn Thị Định,An Phú,Thủ Đức,Hồ Chí Minh
+node/11548995343,00163,dangthuytram,00160,49,Phố Đặng Thùy Trâm,Mai Dịch,Cầu Giấy,Hà Nội
+node/11556689533,00167,phamtuantai,00160,12,Phố Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11563334808,00616,hoangquocviet,00160,467,Đường Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563334812,00616,hoangquocviet,00160,459,Đường Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563334813,00616,hoangquocviet,00160,457,Đường Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563334819,00616,hoangquocviet,00160,447,Đường Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563368957,00616,hoangquocviet,00160,441,Đường Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563394781,00616,phamtuantai,00160,71,Phố Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563454576,00616,ngach616phamtuantai,00160,7,Ngách 61/6 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563454584,00616,ngo445hoangquocviet,00160,11,Ngõ 445 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563520039,00616,ngo61phamtuantai,00160,29,Ngõ 61 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563520042,00616,ngo61phamtuantai,00160,3,Ngõ 61 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563562480,00616,phamtuantai,00160,53,Phố Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11563562483,00167,phamtuantai,00160,39,Phố Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11563562484,00167,phamtuantai,00160,35,Phố Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11563562488,00167,phamtuantai,00160,25,Phố Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11564316618,00616,dangthuytram,00160,23,Phố Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11564331891,00616,ngach6133phamtuantai,00160,16,Ngách 61/33 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11564660315,00616,phamtuantai,00160,53,Phố Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11564724761,00167,ngo39phamtuantai,00160,9,Ngõ 39 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11568539979,00616,ngo6dangthuytram,00160,5,Ngõ 6 Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11568544194,00616,ngo26dangthuytram,00160,6,Ngõ 26 Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11568829087,00616,ngo3phamtuantai,00160,26,Ngõ 3 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11568871424,00616,ngach386dangthuytram,00160,6,Ngách 38/6 Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11568902931,00167,phamtuantai,00160,9,Phố Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11568907803,00167,dangthuytram,00160,44,Phố Đặng Thùy Trâm,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11568907804,00167,dangthuytram,00160,46,Phố Đặng Thùy Trâm,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11568928306,00167,ngo50dangthuytram,00160,3,Ngõ 50 Đặng Thùy Trâm,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11569613666,00167,ngo1phamtuantai,00160,40,Ngõ 1 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11571526606,00167,ngach196phamtuantai,00160,2,Ngách 1/96 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11571556927,00167,ngo3phamtuantai,00160,39,Ngõ 3 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11571556937,00167,ngo3phamtuantai,00160,11,Ngõ 3 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11571856503,00167,ngach329phamtuantai,00160,2,Ngách 3/29 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11572060366,00167,ngach188phamtuantai,00160,15,Ngách 1/88 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11572100004,00167,ngach138phamtuantai,00160,5,Ngách 1/38 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11572113161,00167,ngo2phamtuantai,00160,21,Ngõ 2 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11572171971,00167,phamtuantai,00160,10,Phố Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11573034199,00167,ngach416tranquochoan,00160,4,Ngách 41/6 Trần Quốc Hoàn,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11573034200,00167,ngo6tranquochoan,00160,43,Ngõ 6 Trần Quốc Hoàn,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11573034203,00167,ngo33phamtuantai,00160,6,Ngõ 33 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11578133330,00616,hoangquocviet,00160,497,Đường Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11584418374,00616,ngo2dangthuytram,00160,1,Ngõ 2 Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11586017163,00167,phamvandong,00160,28,Đường Phạm Văn Đồng,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11586645353,00616,dangthuytram,00160,2,Phố Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11586911193,00167,ngach31phamtuantai,00160,12,Ngách 3/1 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11586915424,00616,ngo445hoangquocviet,00160,10,Ngõ 445 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11586915427,00616,ngo53phamtuantai,00160,9,Ngõ 53 Phạm Tuấn Tài,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11586915431,00616,ngach4214hoangquocviet,00160,5,Ngách 421/4 Hoàng Quốc Việt,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11586961131,00167,ngo12phamtuantai,00160,1,Ngõ 12 Phạm Tuấn Tài,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/11586987539,00616,ngach221dangthuytram,00160,5,Ngách 2/21 Đặng Thùy Trâm,Cổ Nhuế 1,Bắc Từ Liêm,Hà Nội
+node/11591201347,00256,tohienthanh,00256,65B,Phố Tô Hiến Thành,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11591201349,00256,tohienthanh,00256,63,Phố Tô Hiến Thành,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11591201351,00256,ngobatrieu,00256,15C,Ngõ Bà Triệu,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11591740414,00241,tuetinh,00256,64,Phố Tuệ Tĩnh,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11591740419,00241,tuetinh,00256,48,Phố Tuệ Tĩnh,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11597585748,00241,buithixuan,00256,62,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11598930306,00241,batrieu,00256,117,Phố Bà Triệu,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11598930310,00241,batrieu,00256,111,Phố Bà Triệu,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11598930314,00241,batrieu,00256,107,Phố Bà Triệu,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11601353638,00241,trannhantong,00256,45,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11601645095,00241,buithixuan,00256,26,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11613547705,00241,tuetinh,00256,38A,Phố Tuệ Tĩnh,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11613547711,00241,trieuvietvuong,00256,108A,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11613547719,00241,trieuvietvuong,00256,98,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11615961393,00241,trannhantong,00256,37B,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11615961394,00241,trannhantong,00256,39,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11615961402,00241,buithixuan,00256,71,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11625397930,00241,buithixuan,00256,104,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11625397932,00241,buithixuan,00256,133,Phố Bùi Thị Xuân,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11625397938,00241,trieuvietvuong,00256,140,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11625397940,00241,tohienthanh,00256,26,Phố Tô Hiến Thành,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11649543058,00241,tuetinh,00256,20,Phố Tuệ Tĩnh,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11649543060,00241,maihacde,00256,36,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11649693284,00241,maihacde,00256,20,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11649693305,00241,trieuvietvuong,00256,75,Phố Triệu Việt Vương,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11653040772,00241,maihacde,00256,2,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11653040773,00241,maihacde,00256,2,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11653040775,00241,trannhantong,00256,11,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11653040780,00241,trannhantong,00256,17,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11653040781,00241,trannhantong,00256,19,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11653040782,00241,trannhantong,00256,21A,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/11659995710,00256,ledaihanh,00256,34,Phố Lê Đại Hành,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11659995717,00256,thaiphien,00256,29,Phố Thái Phiên,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11662204172,00256,thaiphien,00256,35,Phố Thái Phiên,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11672849009,00256,maihacde,00256,124,Phố Mai Hắc Đế,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11672849015,00256,maihacde,00256,116,Phố Mai Hắc Đế,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11680976226,00256,maihacde,00256,171,Phố Mai Hắc Đế,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11685045539,00256,maihacde,00256,169A,Phố Mai Hắc Đế,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/11745319464,00208,nguyenluongbang,00235,64,Phố Nguyễn Lương Bằng,Nam Đồng,Đống Đa,Hà Nội
+node/11766351208,26752,hem212bd69nguyentrai,26758,212B/D69/5,Hẻm 212B/D69 Nguyễn Trãi,Cầu Ông Lãnh,1,Hồ Chí Minh
+node/11768421870,26752,hem212bnguyentrai,26758,212B/D69,Hẻm 212B Nguyễn Trãi,Cầu Ông Lãnh,1,Hồ Chí Minh
+node/11774776608,26737,hem54nguyenbinhkhiem,26737,54/3,Hẻm 54 Nguyễn Bỉnh Khiêm,Đa Kao,1,Hồ Chí Minh
+node/11782091020,00343,quannhan,00367,7B Ngõ 275,Quan Nhân,Nhân Chính,Thanh Xuân,Hà Nội
+node/11927555540,26746,nguyenthaibinh,26743,38,Nguyễn Thái Bình,Nguyễn Thái Bình,1,Hồ Chí Minh
+node/11927555935,26746,nguyenthaibinh,26743,38-40,Nguyễn Thái Bình,Nguyễn Thái Bình,1,Hồ Chí Minh
+node/11968191380,26752,hem214nguyentrai,26758,c51d,Hẻm 214 Nguyễn Trãi,Cầu Ông Lãnh,1,Hồ Chí Minh
+node/11969073931,26752,cogiang,26758,105,Cô Giang,Cầu Ông Lãnh,1,Hồ Chí Minh
+node/12000107441,00617,conhue,00602,309,Đường Cổ Nhuế,Cổ Nhuế 2,Bắc Từ Liêm,Hà Nội
+node/12014363265,00577,saobien25,00565,SB25-18,Sao Biển 25,Đa Tốn,Gia Lâm,Hà Nội
+node/12055569015,00634,daimo,00634,446,Đường Đại Mỗ,Đại Mỗ,Nam Từ Liêm,Hà Nội
+node/12055571236,00628,taymo,00634,44,Đường Tây Mỗ,Tây Mỗ,Nam Từ Liêm,Hà Nội
+node/12068262576,09542,tranphu,09556,181,Đường Trần Phú,Văn Quán,Hà Đông,Hà Nội
+node/12098955284,00256,batrieu,00256,191,Phố Bà Triệu,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/12098955404,00241,maihacde,00256,31B,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12098955409,00241,hue,00256,130,Phố Huế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12104684990,00241,hue,00256,114,Phố Huế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12106408169,00241,trannhantong,00256,5B,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12106408172,00241,trannhantong,00256,5C,Phố Trần Nhân Tông,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12116601425,00241,batrieu,00256,79,Phố Bà Triệu,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12117241050,00256,ngobatrieu,00256,1,Ngõ Bà Triệu,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/12117241051,00256,ngobatrieu,00256,3A,Ngõ Bà Triệu,Lê Đại Hành,Hai Bà Trưng,Hà Nội
+node/12188494494,27598,anha,27601,66,An Hạ,Phạm Văn Hai,Bình Chánh,Hồ Chí Minh
+node/12218545669,26746,hamnghi,26743,139,Hàm Nghi,Nguyễn Thái Bình,1,Hồ Chí Minh
+node/12495717721,00190,hoangcau,00190,Ngõ 38,Hoàng Cầu,Ô Chợ Dừa,Đống Đa,Hà Nội
+node/12564657540,27040,luongminhnguyet,27028,33A,Đường Lương Minh Nguyệt,Tân Thới Hòa,Tân Phú,Hồ Chí Minh
+node/12564700135,27040,luongminhnguyet,27028,40,Đường Lương Minh Nguyệt,Tân Thới Hòa,Tân Phú,Hồ Chí Minh
+node/12570838515,27040,luongminhnguyet,27028,52,Đường Lương Minh Nguyệt,Tân Thới Hòa,Tân Phú,Hồ Chí Minh
+node/12573519063,27040,luongthevinh,27028,137,Lương Thế Vinh,Tân Thới Hòa,Tân Phú,Hồ Chí Minh
+node/12573551596,27040,luongminhnguyet,27028,46,Đường Lương Minh Nguyệt,Tân Thới Hòa,Tân Phú,Hồ Chí Minh
+node/12578701751,27418,phamhung,27418,340,Đ. Phạm Hùng,5,8,Hồ Chí Minh
+node/12589868465,00167,xuanthuy,00166,122-124,Đường Xuân Thủy,Dịch Vọng Hậu,Cầu Giấy,Hà Nội
+node/12614290467,00079,ngotrangtien,00082,15,Ngõ Tràng Tiền,Tràng Tiền,Hoàn Kiếm,Hà Nội
+node/12810842388,27091,so18,27097,36,Đường Số 18,An Phú,Thủ Đức,Hồ Chí Minh
+node/12841614502,00175,nguyenthidinh,00175,16,Phố Nguyễn Thị Định,Trung Hòa,Cầu Giấy,Hà Nội
+node/12870690982,00241,maihacde,00256,81B,Phố Mai Hắc Đế,Nguyễn Du,Hai Bà Trưng,Hà Nội
+node/12880304063,00628,ngo45phocaucoc,00634,86,Ngõ 45 Phố Cầu Cốc,Tây Mỗ,Nam Từ Liêm,Hà Nội
+node/13001102155,27091,songhanh,27097,88,Đường Song Hành,An Phú,Thủ Đức,Hồ Chí Minh
+node/13136131207,26752,nguyentrai,26758,369B,Nguyễn Trãi,Cầu Ông Lãnh,1,Hồ Chí Minh
+node/13207249033,00166,truongconggiai,00166,Số 9,Phố Trương Công Giai,Dịch Vọng,Cầu Giấy,Hà Nội
+node/13276792979,26746,pasteur,26740,Số 28-34,Pasteur,Nguyễn Thái Bình,1,Hồ Chí Minh
+node/13286568330,27493,phamhuulau,27487,190,Phạm Hữu Lầu,Phú Mỹ,7,Hồ Chí Minh
+node/13302166700,00100,xuandieu,00103,182,Đường Xuân Diệu,Quảng An,Tây Hồ,Hà Nội
+node/13328276406,09542,ngo146duong19thang5,09556,"Số 4 , ngách 76 , Ngõ 146 Đường 19 Tháng 5",Ngõ 146 Đường 19 Tháng 5,Văn Quán,Hà Đông,Hà Nội
+node/13616249867,00307,kdtdaikimdinhcong,00316,No2,KĐT Đại Kim - Định Công,Định Công,Hoàng Mai,Hà Nội
+node/14019217524,11344,nguyenkhuyen,11359,25,Phố Nguyễn Khuyến,Cầu Đất,Ngô Quyền,Hải Phòng
+node/14041166737,00172,trankimxuyenyenhoacaugiayhanoi,00175,"21,Ngõ 20","Trần Kim Xuyến, Yên Hòa, Cầu Giấy, Hà Nội",Yên Hòa,Cầu Giấy,Hà Nội
+node/14169592242,00100,tongocvan,00103,1,Tô Ngọc Vân,Quảng An,Tây Hồ,Hà Nội
+node/14225544590,00166,thanhthai,00166,N09B1,Phố Thành Thái,Dịch Vọng,Cầu Giấy,Hà Nội

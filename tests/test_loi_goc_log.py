@@ -79,6 +79,14 @@ class LoiGocLogTests(unittest.TestCase):
             self.assertEqual((r.ma_xa, r.ma_tinh), (ma_xa, ma_tinh), cau)
         self.assertEqual(self.bo.chuan_hoa('20, Yên Bái, Đà Nẵng').ma_tinh, '48')
 
+    def test_thon_xom_khong_nuot_hanh_chinh_khi_khong_dau_phay(self):
+        # Luật nới tên thôn nhiều chữ phải dừng ở đơn vị hành chính / tiền tố hành chính.
+        for cau, thon in [('xóm 5 xã mỹ hưng huyện mỹ lộc tỉnh nam định', 'Xóm 5'),
+                          ('thôn 3 xã hoằng lộc huyện hoằng hóa tỉnh thanh hóa', 'Thôn 3'),
+                          ('thôn đông xã nam hồng huyện tiền hải thái bình', 'Thôn Đông'),
+                          ('Xóm Khe Cát, Xã Lam Điền, Chương Mỹ, Hà Nội', 'Xóm Khe Cát')]:
+            self.assertEqual(self.bo.chuan_hoa(cau).thon_xom, thon, cau)
+
     def test_viet_tat_xom_trong_span(self):
         r = self.bo.chuan_hoa('x5, Mỹ Hưng, Mỹ Lộc, Nam Định')
         self.assertEqual(r.thon_xom, 'Xóm 5')
