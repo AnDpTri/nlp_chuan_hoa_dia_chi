@@ -1,7 +1,6 @@
 """Kiểm thử cấu trúc và tính đúng đắn của refactor hai module: tien_xu_ly và chuyen_doi."""
 
 import ast
-import importlib
 from pathlib import Path
 import unittest
 
@@ -70,35 +69,6 @@ class TestHaiModule(unittest.TestCase):
         sach = self.bo_chuan_hoa.bo_lam_sach.lam_sach(self.dia_chi_mau)
         kq_ghep_tay = chuyen_doi(sach, self.bo_chuan_hoa.danh_muc)
         self.assertEqual(kq_chuan_hoa, kq_ghep_tay)
-
-    def test_6_shim_bi_danh(self):
-        """(6) Mỗi shim bí danh: module cũ is module mới."""
-        shims = [
-            ("src.char_cnn", "src.tien_xu_ly.char_cnn"),
-            ("src.chuan_ten_duong", "src.tien_xu_ly.chuan_ten_duong"),
-            ("src.crf_chi_tiet", "src.tien_xu_ly.crf_chi_tiet"),
-            ("src.dinh_dang", "src.tien_xu_ly.dinh_dang"),
-            ("src.duong_dan", "src.tien_xu_ly.duong_dan"),
-            ("src.giai_ma", "src.tien_xu_ly.giai_ma"),
-            ("src.hop_dong", "src.tien_xu_ly.hop_dong"),
-            ("src.ngu_canh_neural", "src.tien_xu_ly.ngu_canh_neural"),
-            ("src.nhan", "src.tien_xu_ly.nhan"),
-            ("src.phuc_hoi_duong", "src.tien_xu_ly.phuc_hoi_duong"),
-            ("src.quy_tac", "src.tien_xu_ly.quy_tac"),
-            ("src.tach_phan_con", "src.tien_xu_ly.tach_phan_con"),
-            ("src.tim_kiem", "src.tien_xu_ly.tim_kiem"),
-            ("src.tra_cuu_neural", "src.tien_xu_ly.tra_cuu_neural"),
-            ("src.videberta", "src.tien_xu_ly.videberta"),
-            ("src.xep_hang", "src.tien_xu_ly.xep_hang"),
-            ("src.lien_ket_v1.adapter_linking", "src.tien_xu_ly.lien_ket_v1.adapter_linking"),
-            ("src.lien_ket_v1.cache_ung_vien", "src.tien_xu_ly.lien_ket_v1.cache_ung_vien"),
-            ("src.lien_ket_v1.du_lieu_linking", "src.tien_xu_ly.lien_ket_v1.du_lieu_linking"),
-            ("src.lien_ket_v1.mo_hinh_linking", "src.tien_xu_ly.lien_ket_v1.mo_hinh_linking"),
-        ]
-        for old_name, new_name in shims:
-            old_mod = importlib.import_module(old_name)
-            new_mod = importlib.import_module(new_name)
-            self.assertIs(old_mod, new_mod, f"Module {old_name} is not {new_mod}")
 
 
 if __name__ == "__main__":

@@ -11,13 +11,13 @@ import unittest
 HAS_NEURAL = all(importlib.util.find_spec(m) is not None for m in ('torch', 'numpy', 'lightgbm'))
 if HAS_NEURAL:
     import torch
-    from src.char_cnn import CharCNNCRF, LinearCRF, TAGS, TAG_ID, NguCanhChar, nfc_offsets, BoTachCharCNN
+    from src.tien_xu_ly.char_cnn import CharCNNCRF, LinearCRF, TAGS, TAG_ID, NguCanhChar, nfc_offsets, BoTachCharCNN
     from src.chuan_hoa import BoChuanHoa
     from danh_gia.du_lieu_char import char_record
     from src.danh_muc import DanhMuc
-    from src.tra_cuu_neural import TraCuuNeural
-    from src.tim_kiem import dung_trie, sinh_ung_vien
-    from src.xep_hang import BoXepHang, FEATURES
+    from src.tien_xu_ly.tra_cuu_neural import TraCuuNeural
+    from src.tien_xu_ly.tim_kiem import dung_trie, sinh_ung_vien
+    from src.tien_xu_ly.xep_hang import BoXepHang, FEATURES
 
 
 @unittest.skipUnless(HAS_NEURAL, 'Cần requirements-neural.txt trong .venv-neural')

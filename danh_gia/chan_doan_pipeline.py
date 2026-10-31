@@ -16,11 +16,11 @@ from pathlib import Path
 from danh_gia.chay_ban_thu import ROOT, CORE, DETAIL, norm, pct, digest, align_detail, write_csv
 from src.chuan_hoa import BoChuanHoa
 from src.chuyen_doi import tap_dich, sang_cay_moi
-from src.giai_ma import tim_duong_di
-from src.quy_tac import cac_tien_to
-from src.tach_phan_con import tach_co_dau_vet
+from src.tien_xu_ly.giai_ma import tim_duong_di
+from src.tien_xu_ly.quy_tac import cac_tien_to
+from src.tien_xu_ly.tach_phan_con import tach_co_dau_vet
 from src.tien_xu_ly import token_co_vi_tri, bo_dau
-from src.tim_kiem import sinh_ung_vien
+from src.tien_xu_ly.tim_kiem import sinh_ung_vien
 
 
 def same_core(a, b):

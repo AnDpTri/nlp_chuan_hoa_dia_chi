@@ -10,14 +10,14 @@ from collections import Counter, defaultdict
 from dataclasses import asdict
 from pathlib import Path
 
-from src.char_cnn import BoTachCharCNN, ROLES
+from src.tien_xu_ly.char_cnn import BoTachCharCNN, ROLES
 from src.chuan_hoa import BoChuanHoa
 from src.chuyen_doi import sang_cay_moi, tap_dich
-from src.crf_chi_tiet import BoTachCRF
+from src.tien_xu_ly.crf_chi_tiet import BoTachCRF
 from src.danh_muc import DanhMuc
-from src.tach_phan_con import FIELDS
-from src.xep_hang import BoXepHang
-from src.duong_dan import tu_manifest
+from src.tien_xu_ly.tach_phan_con import FIELDS
+from src.tien_xu_ly.xep_hang import BoXepHang
+from src.tien_xu_ly.duong_dan import tu_manifest
 from .chay_ban_thu import ROOT, CORE, aggregate, digest, memory, norm, pct, write_csv
 from .du_lieu_crf import doc_csv, doc_jsonl, ghi_jsonl
 from .huan_luyen_char import save_json
@@ -56,7 +56,7 @@ def span_metrics(extractor, rows):
             counts[field].update({'tp': len(g & p), 'reference': len(g), 'predicted': len(p)})
         # Admin chỉ có nhãn căn chỉnh một phần: đo recall trên phần đã gán,
         # không coi mọi dự đoán ngoài đó là false positive.
-        from src.char_cnn import nfc_offsets
+        from src.tien_xu_ly.char_cnn import nfc_offsets
         _, offsets = nfc_offsets(rec['text'])
         for role, a, b in rec['spans']:
             if role in ('xa', 'huyen', 'tinh'):

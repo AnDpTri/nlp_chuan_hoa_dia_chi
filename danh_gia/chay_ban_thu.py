@@ -21,8 +21,8 @@ from pathlib import Path
 
 from src.chuan_hoa import BoChuanHoa
 from src.tien_xu_ly import bo_dau, tach_token
-from src.tim_kiem import sinh_ung_vien
-from src.quy_tac import CHI_TIET, khop_tien_to
+from src.tien_xu_ly.tim_kiem import sinh_ung_vien
+from src.tien_xu_ly.quy_tac import CHI_TIET, khop_tien_to
 
 ROOT = Path(__file__).resolve().parents[1]
 DETAIL = ("so_nha", "ngo_ngach_hem", "thon_xom", "duong")

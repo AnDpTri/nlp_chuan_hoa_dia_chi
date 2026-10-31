@@ -26,23 +26,23 @@ def main():
     if args.ranker and not (args.char_model or args.videberta_model):
         p.error('--ranker cần --char-model hoặc --videberta-model')
     if args.crf_model:
-        from .crf_chi_tiet import BoTachCRF
+        from .tien_xu_ly.crf_chi_tiet import BoTachCRF
         backend = BoTachCRF(args.crf_model, bao_ve_chi_tiet=args.crf_protected)
     if args.char_model:
-        from .char_cnn import BoTachCharCNN
+        from .tien_xu_ly.char_cnn import BoTachCharCNN
         backend = BoTachCharCNN(args.char_model, threads=args.threads)
     if args.videberta_model:
-        from .videberta import BoTachViDeberta
+        from .tien_xu_ly.videberta import BoTachViDeberta
         backend = BoTachViDeberta(args.videberta_model, threads=args.threads)
     dm, ranker = None, None
     if args.ranker:
         from .danh_muc import DanhMuc
-        from .xep_hang import BoXepHang
+        from .tien_xu_ly.xep_hang import BoXepHang
         dm = DanhMuc()
         ranker = BoXepHang(args.ranker, backend.ma_bam, dm.ma_bam)
     names = None
     if args.tu_dien_duong:
-        from .chuan_ten_duong import TuDienDuong
+        from .tien_xu_ly.chuan_ten_duong import TuDienDuong
         names = TuDienDuong(args.tu_dien_duong)
     model = BoChuanHoa(danh_muc=dm, beam=args.beam, bo_tach=backend, bo_xep_hang=ranker,
                       tu_dien_duong=names, bao_ve_duong=args.bao_ve_duong, hop_dong=args.hop_dong)

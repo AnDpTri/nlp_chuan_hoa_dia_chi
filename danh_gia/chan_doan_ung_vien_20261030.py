@@ -22,13 +22,13 @@ from dataclasses import asdict
 import torch
 
 from src.danh_muc import DanhMuc
-from src.char_cnn import BoTachCharCNN
-from src.videberta import BoTachViDeberta
-from src.xep_hang import BoXepHang, dac_trung_gia_thuyet
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.videberta import BoTachViDeberta
+from src.tien_xu_ly.xep_hang import BoXepHang, dac_trung_gia_thuyet
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.chuan_hoa import BoChuanHoa
 from src.chuyen_doi import tap_dich, sang_cay_moi
-from src.crf_chi_tiet import bio_spans, dinh_dang_span
+from src.tien_xu_ly.crf_chi_tiet import bio_spans, dinh_dang_span
 
 def norm(s):
     if s is None:
@@ -417,14 +417,14 @@ def main():
     # Files to hash
     files_to_hash = [
         "src/chuan_hoa.py",
-        "src/char_cnn.py",
-        "src/crf_chi_tiet.py",
-        "src/chuan_ten_duong.py",
+        "src/tien_xu_ly/char_cnn.py",
+        "src/tien_xu_ly/crf_chi_tiet.py",
+        "src/tien_xu_ly/chuan_ten_duong.py",
         "src/chuyen_doi.py",
         "src/danh_muc.py",
-        "src/giai_ma.py",
-        "src/tim_kiem.py",
-        "src/xep_hang.py",
+        "src/tien_xu_ly/giai_ma.py",
+        "src/tien_xu_ly/tim_kiem.py",
+        "src/tien_xu_ly/xep_hang.py",
         "src/videberta.py",
         "mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt",
         "mo_hinh/thu_nghiem/char_v2_01/ranker.txt",

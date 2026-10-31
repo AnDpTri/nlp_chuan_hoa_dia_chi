@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from src.crf_chi_tiet import bio_spans, tao_nhan, NguCanhCRF, dinh_dang_span, dac_trung, BoTachCRF
+from src.tien_xu_ly.crf_chi_tiet import bio_spans, tao_nhan, NguCanhCRF, dinh_dang_span, dac_trung, BoTachCRF
 from src.chuan_hoa import BoChuanHoa
 from src.tien_xu_ly import tach_token
 from danh_gia.do_crf import sequence_metrics

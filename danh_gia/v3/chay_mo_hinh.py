@@ -6,11 +6,11 @@ from pathlib import Path
 
 import os
 import duong_dan as dd  # gốc repo, CODE_ROOT vào sys.path
-from src.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
 from src.chuan_hoa import BoChuanHoa
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.danh_muc import DanhMuc
-from src.xep_hang import BoXepHang
+from src.tien_xu_ly.xep_hang import BoXepHang
 
 INP = dd.DEV
 KHO = dd.BO_KHO

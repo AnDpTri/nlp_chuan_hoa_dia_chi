@@ -11,11 +11,11 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from src.char_cnn import TAGS, TAG_ID, ROLES, nfc_offsets
-from src.crf_chi_tiet import tao_nhan
+from src.tien_xu_ly.char_cnn import TAGS, TAG_ID, ROLES, nfc_offsets
+from src.tien_xu_ly.crf_chi_tiet import tao_nhan
 from src.danh_muc import DanhMuc
-from src.quy_tac import cac_tien_to
-from src.tach_phan_con import FIELDS
+from src.tien_xu_ly.quy_tac import cac_tien_to
+from src.tien_xu_ly.tach_phan_con import FIELDS
 from src.tien_xu_ly import bo_dau, token_co_vi_tri
 from .du_lieu_crf import doc_csv, doc_jsonl, family_csv, ghi_jsonl
 

@@ -12,9 +12,9 @@ from pathlib import Path
 from .chay_ban_thu import CORE, DETAIL, aggregate, norm, memory, write_csv
 from .du_lieu_crf import doc_csv, doc_jsonl, ghi_jsonl
 from src.chuan_hoa import BoChuanHoa
-from src.crf_chi_tiet import BoTachCRF, bio_spans, tao_nhan
+from src.tien_xu_ly.crf_chi_tiet import BoTachCRF, bio_spans, tao_nhan
 from src.tien_xu_ly import bo_dau, token_co_vi_tri
-from src.tim_kiem import sinh_ung_vien
+from src.tien_xu_ly.tim_kiem import sinh_ung_vien
 
 
 def prf(tp, fp, fn):

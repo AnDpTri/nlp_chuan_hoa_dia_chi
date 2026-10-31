@@ -2,7 +2,7 @@
 
 import unittest
 
-from src.phuc_hoi_duong import bo_duong_viet_tat_chua_giai
+from src.tien_xu_ly.phuc_hoi_duong import bo_duong_viet_tat_chua_giai
 
 
 def span(tokens, a, b):

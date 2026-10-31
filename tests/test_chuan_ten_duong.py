@@ -6,9 +6,9 @@ import tempfile
 import unicodedata
 import unittest
 
-from src.chuan_ten_duong import TuDienDuong, tao_tu_dien
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong, tao_tu_dien
 from src.chuan_hoa import BoChuanHoa
-from src.crf_chi_tiet import NguCanhCRF
+from src.tien_xu_ly.crf_chi_tiet import NguCanhCRF
 
 
 class TenDuongTests(unittest.TestCase):

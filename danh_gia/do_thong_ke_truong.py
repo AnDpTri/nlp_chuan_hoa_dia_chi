@@ -1,9 +1,9 @@
 import sys
 from danh_gia.do_kiem_tra_test400 import danh_gia_test_set
 from src.danh_muc import DanhMuc
-from src.char_cnn import BoTachCharCNN
-from src.xep_hang import BoXepHang
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.xep_hang import BoXepHang
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.chuan_hoa import BoChuanHoa
 from pathlib import Path
 

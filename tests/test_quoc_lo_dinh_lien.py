@@ -2,7 +2,7 @@
 
 import unittest
 
-from src.dinh_dang import dinh_dang_span
+from src.tien_xu_ly.dinh_dang import dinh_dang_span
 
 
 def duong(tokens):

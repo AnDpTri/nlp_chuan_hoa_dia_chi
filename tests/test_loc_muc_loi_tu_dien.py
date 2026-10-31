@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 
 
 def nap(entries):

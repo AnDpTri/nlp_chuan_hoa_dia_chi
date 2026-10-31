@@ -14,10 +14,10 @@ def main():
     args = p.parse_args()
     before = memory()
     start = time.perf_counter()
-    from src.char_cnn import BoTachCharCNN
+    from src.tien_xu_ly.char_cnn import BoTachCharCNN
     from src.chuan_hoa import BoChuanHoa
     from src.danh_muc import DanhMuc
-    from src.xep_hang import BoXepHang
+    from src.tien_xu_ly.xep_hang import BoXepHang
     from .huan_luyen_char import save_json
     dm = DanhMuc(args.run_dir / 'snapshot/clean')
     extractor = BoTachCharCNN(args.run_dir / 'char_cnn.pt')

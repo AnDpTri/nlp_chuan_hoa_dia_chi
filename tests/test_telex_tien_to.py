@@ -1,10 +1,10 @@
 """Kiểm từ vựng tiền tố/role, không lấy ID hoặc địa danh lỗi dev làm luật."""
 import unittest
-from src.quy_tac import dang_go_telex, cac_tien_to, khop_chu_tien_to
+from src.tien_xu_ly.quy_tac import dang_go_telex, cac_tien_to, khop_chu_tien_to
 from src.tien_xu_ly import token_co_vi_tri
 from src.danh_muc import DanhMuc
-from src.tim_kiem import dung_trie, sinh_ung_vien
-from src.tim_kiem import bo_sung_tu_luoi_goc
+from src.tien_xu_ly.tim_kiem import dung_trie, sinh_ung_vien
+from src.tien_xu_ly.tim_kiem import bo_sung_tu_luoi_goc
 from src.tien_xu_ly import Token
 import unicodedata
 

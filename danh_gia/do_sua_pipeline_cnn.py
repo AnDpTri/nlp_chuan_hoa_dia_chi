@@ -9,12 +9,12 @@ from collections import Counter
 from dataclasses import asdict
 from pathlib import Path
 
-from src.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
 from src.chuan_hoa import BoChuanHoa
-from src.chuan_ten_duong import TuDienDuong, tao_tu_dien
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong, tao_tu_dien
 from src.danh_muc import DanhMuc
-from src.duong_dan import tu_manifest
-from src.xep_hang import BoXepHang
+from src.tien_xu_ly.duong_dan import tu_manifest
+from src.tien_xu_ly.xep_hang import BoXepHang
 from .chay_ban_thu import ROOT, CORE, aggregate, digest, norm, write_csv
 from .do_char import latency
 from .du_lieu_crf import doc_csv, doc_jsonl, ghi_jsonl

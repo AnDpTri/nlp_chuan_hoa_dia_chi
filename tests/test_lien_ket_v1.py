@@ -17,15 +17,15 @@ import torch
 import torch.nn as nn
 from pathlib import Path
 
-from src.lien_ket_v1.mo_hinh_linking import NeuralLinkingHead, ViDeBERTaLinkingModel
-from src.lien_ket_v1.cache_ung_vien import CandidateCacheManager, compute_cache_validation_hash
-from src.lien_ket_v1.du_lieu_linking import (
+from src.tien_xu_ly.lien_ket_v1.mo_hinh_linking import NeuralLinkingHead, ViDeBERTaLinkingModel
+from src.tien_xu_ly.lien_ket_v1.cache_ung_vien import CandidateCacheManager, compute_cache_validation_hash
+from src.tien_xu_ly.lien_ket_v1.du_lieu_linking import (
     extract_geo_features,
     compute_string_similarity,
     split_dataset_by_family,
     LinkingSampleBuilder
 )
-from src.lien_ket_v1.adapter_linking import NeuralLinkingAdapter
+from src.tien_xu_ly.lien_ket_v1.adapter_linking import NeuralLinkingAdapter
 from src.danh_muc import DanhMuc
 
 

@@ -5,13 +5,13 @@ from collections import Counter
 from dataclasses import asdict
 from pathlib import Path
 
-from src.char_cnn import BoTachCharCNN
-from src.videberta import BoTachViDeberta
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.videberta import BoTachViDeberta
 from src.chuan_hoa import BoChuanHoa
-from src.chuan_ten_duong import TuDienDuong, tach_ten, cac_dang, khoa
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong, tach_ten, cac_dang, khoa
 from src.chuyen_doi import sang_cay_moi
 from src.danh_muc import DanhMuc
-from src.xep_hang import BoXepHang
+from src.tien_xu_ly.xep_hang import BoXepHang
 from src.tien_xu_ly import bo_dau
 from .chay_ban_thu import ROOT, CORE, norm, digest
 from .du_lieu_crf import doc_jsonl, ghi_jsonl

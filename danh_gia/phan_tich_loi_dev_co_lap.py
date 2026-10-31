@@ -11,11 +11,11 @@ from pathlib import Path
 
 from danh_gia.chay_ban_thu import CORE, aggregate, norm
 from danh_gia.so_sanh_hop_dong_dev import SPLITS, MODEL, RANKER, NAMES, ROOT, digest
-from src.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
 from src.chuan_hoa import BoChuanHoa
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.danh_muc import DanhMuc
-from src.xep_hang import BoXepHang
+from src.tien_xu_ly.xep_hang import BoXepHang
 from src.tien_xu_ly import bo_dau
 
 DETAIL = ("so_nha", "ngo_ngach_hem", "thon_xom", "duong")

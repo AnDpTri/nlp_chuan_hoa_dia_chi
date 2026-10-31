@@ -3,7 +3,7 @@ import unittest
 from types import SimpleNamespace
 
 from src.chuan_hoa import _token_trong_span_ky_tu
-from src.dinh_dang import dinh_dang_span
+from src.tien_xu_ly.dinh_dang import dinh_dang_span
 from src.tien_xu_ly import token_co_vi_tri
 
 

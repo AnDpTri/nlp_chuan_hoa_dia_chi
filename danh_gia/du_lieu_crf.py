@@ -6,8 +6,8 @@ from collections import Counter
 
 from .chay_ban_thu import DETAIL, align_detail, norm
 from src.tien_xu_ly import token_co_vi_tri, bo_dau
-from src.quy_tac import cac_tien_to
-from src.crf_chi_tiet import tao_nhan
+from src.tien_xu_ly.quy_tac import cac_tien_to
+from src.tien_xu_ly.crf_chi_tiet import tao_nhan
 
 
 def doc_csv(path):
@@ -62,7 +62,7 @@ def tu_span(row, ref):
         if text[t['start']:t['end']] != t['token']:
             raise ValueError('token_offset_ban_giao_sai')
         old_tags.append(t['bio_tag'])
-    from src.crf_chi_tiet import bio_spans
+    from src.tien_xu_ly.crf_chi_tiet import bio_spans
     if bio_spans(old_tags)[1]:
         raise ValueError('bio_ban_giao_sai')
     records = token_co_vi_tri(text)

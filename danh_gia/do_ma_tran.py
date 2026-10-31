@@ -7,14 +7,14 @@ from dataclasses import asdict
 from pathlib import Path
 
 from src.chuan_hoa import BoChuanHoa
-from src.char_cnn import BoTachCharCNN
-from src.videberta import BoTachViDeberta
-from src.crf_chi_tiet import BoTachCRF, bio_spans
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.videberta import BoTachViDeberta
+from src.tien_xu_ly.crf_chi_tiet import BoTachCRF, bio_spans
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.chuyen_doi import sang_cay_moi
 from src.danh_muc import DanhMuc
 from src.tien_xu_ly import token_co_vi_tri
-from src.xep_hang import BoXepHang
+from src.tien_xu_ly.xep_hang import BoXepHang
 from .chay_ban_thu import ROOT, CORE, aggregate, norm, digest
 from .do_char import latency
 from .du_lieu_crf import doc_csv, doc_jsonl, ghi_jsonl

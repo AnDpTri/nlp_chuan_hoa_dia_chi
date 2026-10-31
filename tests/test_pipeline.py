@@ -3,7 +3,7 @@
 import unittest
 import unicodedata
 from src.chuan_hoa import BoChuanHoa
-from src.tim_kiem import Trie
+from src.tien_xu_ly.tim_kiem import Trie
 from src.tien_xu_ly import token_co_vi_tri
 from src.kieu_du_lieu import DonViNhan
 from src.chuyen_doi import sang_cay_moi
@@ -227,7 +227,7 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(r.duong, expected)
             self.assertEqual(r.ma_xa, "")
             self.assertEqual(r.ma_tinh, "")
-        from src.quy_tac import CHI_TIET, khop_tien_to
+        from src.tien_xu_ly.quy_tac import CHI_TIET, khop_tien_to
         self.assertIsNone(khop_tien_to(["Xã", "Lộ", "25"], 0, CHI_TIET))
 
 

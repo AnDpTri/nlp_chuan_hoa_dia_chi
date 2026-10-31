@@ -3,9 +3,9 @@ import json
 from collections import Counter
 from pathlib import Path
 from src.danh_muc import DanhMuc
-from src.char_cnn import BoTachCharCNN
-from src.xep_hang import BoXepHang
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.xep_hang import BoXepHang
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.chuan_hoa import BoChuanHoa
 from danh_gia.chay_ban_thu import CORE, norm
 

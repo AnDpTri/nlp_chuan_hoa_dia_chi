@@ -12,7 +12,7 @@ from pathlib import Path
 
 from .du_lieu_crf import prepare, doc_jsonl
 from .chay_ban_thu import memory
-from src.crf_chi_tiet import dac_trung
+from src.tien_xu_ly.crf_chi_tiet import dac_trung
 
 PARAMS = {'c1': 0.1, 'c2': 0.1, 'max_iterations': 100, 'feature.possible_transitions': True}
 

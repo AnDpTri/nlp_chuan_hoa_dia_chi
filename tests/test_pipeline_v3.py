@@ -8,7 +8,7 @@ import unicodedata
 
 from src.chuan_hoa import BoChuanHoa
 from src.tien_xu_ly import token_co_vi_tri, tach_token
-from src.tim_kiem import sinh_ung_vien, so_dau_mau_thuan
+from src.tien_xu_ly.tim_kiem import sinh_ung_vien, so_dau_mau_thuan
 
 
 class PipelineV3Tests(unittest.TestCase):

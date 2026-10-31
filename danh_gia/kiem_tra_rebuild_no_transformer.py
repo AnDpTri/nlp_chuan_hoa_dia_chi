@@ -1,11 +1,11 @@
 """Kiểm chứng 4 fixture train từng được quy sai lợi ích cho Transformer.
 Chỉ dùng ví dụ đã lưu trong báo cáo train; không đọc tập test cuối.
 """
-from src.char_cnn import BoTachCharCNN
+from src.tien_xu_ly.char_cnn import BoTachCharCNN
 from src.chuan_hoa import BoChuanHoa
-from src.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
 from src.danh_muc import DanhMuc
-from src.xep_hang import BoXepHang
+from src.tien_xu_ly.xep_hang import BoXepHang
 
 CASES = (
     ("37/21ĐườngPhạmVănThuận, Phường Tam Hiệp, Tỉnh Đồng Nai", "Đường Phạm Văn Thuận"),

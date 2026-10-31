@@ -1,6 +1,6 @@
 import unittest
 import unicodedata
-from src.crf_chi_tiet import dinh_dang_span
+from src.tien_xu_ly.crf_chi_tiet import dinh_dang_span
 from src.tien_xu_ly import token_co_vi_tri
 
 

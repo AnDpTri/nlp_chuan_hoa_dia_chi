@@ -7,7 +7,7 @@ from dataclasses import fields
 from pathlib import Path
 
 from src.kieu_du_lieu import KetQua
-from src.duong_dan import tu_manifest
+from src.tien_xu_ly.duong_dan import tu_manifest
 from .chay_ban_thu import ROOT, CORE, digest, norm
 from .du_lieu_char import family_char
 from .du_lieu_crf import doc_jsonl

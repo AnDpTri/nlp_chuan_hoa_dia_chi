@@ -4,7 +4,7 @@ import json, shutil, sys
 from pathlib import Path
 
 import duong_dan as dd  # gốc repo, CODE_ROOT vào sys.path
-from src.char_cnn import TAG_ID, nfc_offsets
+from src.tien_xu_ly.char_cnn import TAG_ID, nfc_offsets
 
 V2 = dd.MO_HINH / 'char_v2_01'
 DAT = dd.BO_TRAIN_DAT

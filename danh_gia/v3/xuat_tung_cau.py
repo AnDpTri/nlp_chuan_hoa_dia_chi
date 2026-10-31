@@ -6,9 +6,9 @@ from pathlib import Path
 
 import duong_dan as dd  # gốc repo, CODE_ROOT vào sys.path
 from src.danh_muc import DanhMuc  # noqa: E402
-from src.char_cnn import BoTachCharCNN  # noqa: E402
-from src.xep_hang import BoXepHang  # noqa: E402
-from src.chuan_ten_duong import TuDienDuong  # noqa: E402
+from src.tien_xu_ly.char_cnn import BoTachCharCNN  # noqa: E402
+from src.tien_xu_ly.xep_hang import BoXepHang  # noqa: E402
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong  # noqa: E402
 from src.chuan_hoa import BoChuanHoa  # noqa: E402
 
 cnn, ranker, out = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])

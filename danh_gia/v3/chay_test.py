@@ -6,9 +6,9 @@ from pathlib import Path
 import duong_dan as dd  # gốc repo, CODE_ROOT vào sys.path
 CODE = str(dd.CODE_ROOT)
 from src.danh_muc import DanhMuc  # noqa: E402
-from src.char_cnn import BoTachCharCNN  # noqa: E402
-from src.xep_hang import BoXepHang  # noqa: E402
-from src.chuan_ten_duong import TuDienDuong  # noqa: E402
+from src.tien_xu_ly.char_cnn import BoTachCharCNN  # noqa: E402
+from src.tien_xu_ly.xep_hang import BoXepHang  # noqa: E402
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong  # noqa: E402
 from src.chuan_hoa import BoChuanHoa  # noqa: E402
 
 spec = importlib.util.spec_from_file_location('cham', dd.CODE_ROOT / 'danh_gia' / 'do_kiem_tra_test400.py')

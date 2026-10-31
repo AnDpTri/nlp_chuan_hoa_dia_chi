@@ -15,11 +15,11 @@ from pathlib import Path
 import torch
 from torch.nn import functional as F
 
-from src.char_cnn import BoTachCharCNN, CharCNNCRF, TAGS
+from src.tien_xu_ly.char_cnn import BoTachCharCNN, CharCNNCRF, TAGS
 from src.chuan_hoa import BoChuanHoa
 from src.chuyen_doi import sang_cay_moi
 from src.danh_muc import DanhMuc
-from src.xep_hang import FEATURES, dac_trung_gia_thuyet
+from src.tien_xu_ly.xep_hang import FEATURES, dac_trung_gia_thuyet
 from .chay_ban_thu import ROOT, CORE, digest, memory, norm
 from .du_lieu_char import prepare
 from .du_lieu_crf import doc_jsonl, ghi_jsonl
@@ -180,7 +180,7 @@ def main():
         summary = prepare(snap, snap / 'prepared_crf', run_dir / 'data')
         print(json.dumps(summary, ensure_ascii=False), flush=True)
         save_json(run_dir / 'code_sha256_prepare.json', {str(p.relative_to(ROOT)): digest(p) for p in
-                  [ROOT / 'src/char_cnn.py', ROOT / 'danh_gia/du_lieu_char.py', Path(__file__)]})
+                  [ROOT / 'src/tien_xu_ly/char_cnn.py', ROOT / 'danh_gia/du_lieu_char.py', Path(__file__)]})
     if args.stage in ('all', 'cnn'):
         train_cnn(run_dir, args.epochs, args.threads, args.batch_size)
     if args.stage in ('all', 'ranker'):

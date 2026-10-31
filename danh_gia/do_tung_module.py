@@ -10,7 +10,7 @@ from collections import Counter
 from pathlib import Path
 
 from src.tien_xu_ly import token_co_vi_tri, nfc_offsets, bo_dau
-from src.dinh_dang import dinh_dang_span
+from src.tien_xu_ly.dinh_dang import dinh_dang_span
 
 ROOT=Path(__file__).resolve().parents[1]
 FIELDS=('so_nha','ngo_ngach_hem','thon_xom','duong')

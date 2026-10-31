@@ -8,8 +8,8 @@ from dataclasses import asdict
 from pathlib import Path
 
 from src.chuan_hoa import BoChuanHoa
-from src.chuan_ten_duong import TuDienDuong
-from src.crf_chi_tiet import NguCanhCRF
+from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
+from src.tien_xu_ly.crf_chi_tiet import NguCanhCRF
 
 
 class ContractTests(unittest.TestCase):

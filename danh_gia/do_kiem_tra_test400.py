@@ -146,14 +146,14 @@ if __name__ == "__main__":
     opt_duong = parse_opt_bool(args.tien_to_duong)
 
     from src.danh_muc import DanhMuc
-    from src.char_cnn import BoTachCharCNN
-    from src.xep_hang import BoXepHang
-    from src.chuan_ten_duong import TuDienDuong
+    from src.tien_xu_ly.char_cnn import BoTachCharCNN
+    from src.tien_xu_ly.xep_hang import BoXepHang
+    from src.tien_xu_ly.chuan_ten_duong import TuDienDuong
     from src.chuan_hoa import BoChuanHoa
 
     dm = DanhMuc()
     if args.videberta_model and args.videberta_model.exists():
-        from src.videberta import BoTachViDeberta
+        from src.tien_xu_ly.videberta import BoTachViDeberta
         bo_tach = BoTachViDeberta(args.videberta_model, threads=4)
     elif args.char_model and args.char_model.exists():
         bo_tach = BoTachCharCNN(args.char_model)
