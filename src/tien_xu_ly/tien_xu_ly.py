@@ -15,6 +15,9 @@ class Token:
     ket_thuc: int
 
 
+HAU_TO_SO_NHA = {"bis", "ter"}  # 252Bis, 14Ter: hậu tố số nhà, không phải chữ dính liền
+
+
 def token_co_vi_tri(chuoi: str) -> list[Token]:
     """Khoảng ký tự luôn trỏ vào chuỗi gốc, kể cả Unicode phân rã."""
     out = []
@@ -30,6 +33,12 @@ def token_co_vi_tri(chuoi: str) -> list[Token]:
                 prev -= 1
             if prev >= 0 and raw[prev].islower() and raw[i].isupper() and "/" not in raw:
                 cuts.append(i)
+            # 5mỹ -> 5, mỹ (gõ thiếu cách): số liền trước một chữ từ hai ký tự có chữ thường.
+            # Không tách số nhà 18B, 843M, 252Bis hay mã viết hoa 12AB.
+            if prev >= 0 and raw[prev].isdigit() and raw[i].isalpha() and "/" not in raw:
+                chu = re.match(r"[^\W\d_]+", unicodedata.normalize("NFC", raw[i:])).group()
+                if len(chu) >= 2 and any(c.islower() for c in chu) and chu.casefold() not in HAU_TO_SO_NHA:
+                    cuts.append(i)
         # P7, Q10, ngõ5: tách tiền tố và số, giữ nguyên offset và số nhà 18B.
         glued = re.fullmatch(r"(p|q|h|x|ngõ|ngách|hẻm|kiệt|ngo|ngach|hem|kiet|ng)(\d+[A-Za-z]?(?:/\d+[A-Za-z]?)*)", unicodedata.normalize("NFC", raw), re.I)
         if glued:

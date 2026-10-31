@@ -30,6 +30,8 @@ BIEN_DOI = {
     'phay_thanh_gach': lambda s: re.sub(r',\s*', ' - ', s),
     'viet_hoa_het': lambda s: s.upper(),
     'cach_doi': lambda s: re.sub(r'\s+', '  ', s),
+    # Thêm chi tiết dưới xã ở đầu câu: thêm thông tin nhưng không được đổi xã/tỉnh.
+    'them_xom_dau': lambda s: f'xóm 5 {s}',
 }
 
 
@@ -70,6 +72,7 @@ def main(cnn, ranker, ten, n_goc):
     kq = {'so_cau_goc': len(goc), 'tong_cap': tong, 'ty_le_doi_ma_pct': round(100 * doi / tong, 2),
           'ty_le_khang_dinh_khac_pct': round(100 * sum(d['khang_dinh_khac'] for d in dem.values()) / tong, 2),
           'theo_bien_doi': dem, 'vi_du': vi_du, 'giay': round(time.time() - t0)}
+    D.mkdir(parents=True, exist_ok=True)
     (D / f'{ten}.json').write_text(json.dumps(kq, ensure_ascii=False, indent=2), encoding='utf-8')
     print(ten, '| cặp', tong, '| đổi mã', kq['ty_le_doi_ma_pct'], '% | khẳng định khác nhau', kq['ty_le_khang_dinh_khac_pct'], '%')
     for k, d in dem.items():

@@ -162,9 +162,13 @@ def _tinh_cua_duong_di(duong_di, dm):
 
 def _uu_tien_ten_hien_hanh(close):
     """Bước 1. Tên hiện hành thắng tên cũ khi điểm gần bằng: tên cũ chỉ dùng khi không còn cách hiểu nào
-    bằng tên hiện hành."""
+    bằng tên hiện hành. Chỉ so các cách hiểu giải thích được ngang nhau: cách hiểu tên cũ để lại ít phần chưa
+    phân loại hơn mọi cách hiểu tên hiện hành thì được giữ (không đánh đổi phần câu đã giải thích lấy tên mới)."""
     hien_hanh = [x for x in close if not any(u.ten_cu for u in x[1].ung_vien)]
-    return hien_hanh if hien_hanh and len(hien_hanh) < len(close) else close
+    if not hien_hanh or len(hien_hanh) == len(close):
+        return close
+    it_sot_nhat = min(len(x[4]) for x in hien_hanh)
+    return [x for x in close if any(x is h for h in hien_hanh) or len(x[4]) < it_sot_nhat]
 
 
 def _thay_bang_mo_rong_nhat_quan(close, ranked, dm, crf_context):
@@ -172,6 +176,19 @@ def _thay_bang_mo_rong_nhat_quan(close, ranked, dm, crf_context):
     thêm đúng phần đó mà không đổi mã kết quả thì dùng nó làm giả thuyết được chọn."""
     mo_rong = gia_thuyet_mo_rong_nhat_quan(close[0], ranked, dm, crf_context)
     return close if mo_rong is None else [mo_rong] + close[1:]
+
+
+def _bo_cach_hieu_giai_thich_it_hon(close, ranked):
+    """Cách hiểu gần điểm để lại chưa phân loại nhiều hơn hẳn giả thuyết được chọn, và không giả thuyết nào
+    chứa nó mà giải thích được ngang giả thuyết được chọn, thì nó không khớp được với phần còn lại của câu:
+    không tính nó khi xét câu còn mơ hồ."""
+    goc = set(close[0][4])
+    def khoa(p):
+        return {(u.bat_dau, u.ket_thuc, u.ma, u.cay) for u in p.ung_vien}
+    def mo_rong_duoc(x):
+        k = khoa(x[1])
+        return any(khoa(y[1]) >= k and set(y[4]) <= goc for y in ranked)
+    return [close[0]] + [x for x in close[1:] if not set(x[4]) > goc or mo_rong_duoc(x)]
 
 
 def _them_gia_thuyet_tuong_duong(close, ranked, crf_context):
@@ -285,6 +302,7 @@ class BoLamSach:
         close = _uu_tien_ten_hien_hanh(close)
         close = _thay_bang_mo_rong_nhat_quan(close, ranked, self.danh_muc, crf_context)
         score, best, detail, spans, unknown, inferred = close[0]
+        close = _bo_cach_hieu_giai_thich_it_hon(close, ranked)
         close = _them_gia_thuyet_tuong_duong(close, ranked, crf_context)
         ma_tinh = _chon_tinh(close, self.danh_muc)
         return score, best, detail, spans, unknown, inferred, close, ranked, ma_tinh

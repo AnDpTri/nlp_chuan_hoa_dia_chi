@@ -1,5 +1,6 @@
 """Khôi phục tên đường bằng từ điển và span chi tiết."""
 
+from .quy_tac import CHI_TIET, khop_tien_to
 from .tien_xu_ly import bo_dau
 
 
@@ -197,6 +198,25 @@ def bo_duong_viet_tat_chua_giai(detail, spans, tokens, chuoi):
     return detail, spans, False
 
 
+def thon_khong_tien_to_la_duong(detail, spans, tokens, ma_tinh, tu_dien_duong, tien_to_mac_dinh, tien_to_duong):
+    """Đoạn gán thôn/xóm mà câu không ghi chữ loại (thôn, xóm, tổ...) và từ điển khớp đúng một tên đường
+    của tỉnh: là tên đường (ví dụ '110A CMT8, ...'). Có chữ loại thì giữ là thôn."""
+    thon = [s for s in spans if s.get('truong') == 'thon_xom']
+    if len(thon) != 1:
+        return detail, spans, '', None
+    s = thon[0]
+    phan = tokens[s['bat_dau']:s['ket_thuc']]
+    if khop_tien_to(phan, 0, CHI_TIET):
+        return detail, spans, '', None
+    new, ev = thu_ung_vien_duong(tu_dien_duong, ' '.join(phan), ma_tinh,
+                                 tien_to_mac_dinh=tien_to_mac_dinh, tien_to_duong=tien_to_duong)
+    if new is None:
+        return detail, spans, '', None
+    detail = dict(detail, thon_xom='')
+    spans = [x for x in spans if x is not s] + [{**s, 'truong': 'duong', 'gia_tri': new}]
+    return detail, spans, new, ev
+
+
 def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong,
                        tien_to_mac_dinh=True, tien_to_duong=None, tien_to_so_nha=None, cam=frozenset()):
     """Khôi phục tên đường bằng từ điển. `cam`: token là đơn vị hành chính khả thi, không bao giờ thành tên đường.
@@ -224,6 +244,10 @@ def phuc_hoi_ten_duong(detail, spans, unknown, tokens, ma_tinh, tu_dien_duong,
             if pham_vi:
                 spans = [x for x in spans if x.get('truong') != 'duong']
                 spans.append({'truong': 'duong', 'bat_dau': pham_vi[0], 'ket_thuc': pham_vi[1], 'gia_tri': new_duong})
+
+    if not new_duong and ma_tinh and detail.get('thon_xom'):
+        detail, spans, new_duong, name_evidence = thon_khong_tien_to_la_duong(
+            detail, spans, tokens, ma_tinh, tu_dien_duong, tien_to_mac_dinh, tien_to_duong)
 
     if not new_duong and ma_tinh and unknown:
         cand_new, cand_ev, unknown, pham_vi = quet_token_chua_phan_loai(

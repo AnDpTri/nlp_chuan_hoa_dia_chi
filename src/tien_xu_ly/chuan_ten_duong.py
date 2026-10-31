@@ -52,6 +52,28 @@ SO_CHU = {
 }
 
 
+SO_CO_DAU = {'một': '1', 'hai': '2', 'ba': '3', 'bốn': '4', 'tư': '4', 'năm': '5', 'sáu': '6', 'bảy': '7',
+             'bẩy': '7', 'tám': '8', 'chín': '9', 'mười': '10'}
+
+
+def khoa_so(words):
+    """Khóa coi số viết bằng chữ và bằng chữ số là một: Tháng Tám = Tháng 8. Giữ dấu (Tám khác Tâm)."""
+    words = [unicodedata.normalize('NFC', w).casefold() for w in words]
+    return tuple(SO_CO_DAU.get(w, w) for w in words)
+
+
+def gop_cung_ten(out):
+    """Các mục chỉ khác nhau ở cách viết số (Cách Mạng Tháng 8 / Tháng Tám) là một đường: giữ dạng viết bằng chữ."""
+    nhom = {}
+    for item in out:
+        kind, words, _ = tach_ten(item['gia_tri'])
+        k = (kind, khoa_so(words))
+        cu = nhom.get(k)
+        if cu is None or (any(c.isdigit() for c in cu['gia_tri']) and not any(c.isdigit() for c in item['gia_tri'])):
+            nhom[k] = item
+    return list(nhom.values())
+
+
 def cac_dang(words):
     """Dạng đầy đủ và tổ hợp nguyên từ/chữ đầu, không sinh biến thể địa chỉ."""
     folded = [bo_dau(w) for w in words]
@@ -160,7 +182,7 @@ class TuDienDuong:
                         'nguon': nguon, 'ma_tinh': ma_tinh,
                         'train_ids': list(item['train_ids']), 'tu_dien_sha256': self.ma_bam,
                         'xac_minh_doc_lap': False})
-        return out
+        return gop_cung_ten(out)
 
     def _toan_quoc_duy_nhat(self, kind, words, co_tien_to):
         """Tỉnh không có tên này trong train: chỉ nhận khi toàn từ điển có đúng MỘT dạng có dấu cho khóa."""
@@ -192,7 +214,7 @@ class TuDienDuong:
             if new.startswith(c_kind + ' '):
                 new = new[len(c_kind) + 1:]
         if new.casefold() == value.casefold():
-            return value, None
+            return new, None  # chỉ khác hoa/thường: lấy cách viết của từ điển, không tính là sửa tên
         return new, {'nguon': item['nguon'], 'ma_tinh': ma_tinh,
                      'gia_tri_truoc': value, 'gia_tri_sau': new,
                      'train_ids': item['train_ids'], 'tu_dien_sha256': self.ma_bam}
