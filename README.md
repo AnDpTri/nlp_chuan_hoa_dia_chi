@@ -15,7 +15,7 @@ Nhận địa chỉ nhập tự do (không dấu, viết tắt, sai chính tả,
 ## Cấu trúc
 
 ```
-src/            code chạy (tien_xu_ly, chuyen_doi; các file src/*.py là lối vào tương thích)
+src/            code chạy: tien_xu_ly/ (phần 1), chuyen_doi/ (phần 2), chuan_hoa.py (ghép hai phần), danh_muc.py, kieu_du_lieu.py, __main__.py (CLI)
 mo_hinh/        char_v3_tc (đang dùng), char_v2_01 và crf_v1_01 (nguồn snapshot cho train)
 data/
   clean/        danh mục hành chính cũ, mới, bảng đối chiếu (mốc 1/7/2025)
@@ -25,12 +25,14 @@ data/
   dev/          dev_goc, dev_kho; nhan_sua/ là nhãn đã sửa dùng để chấm
   train/        dữ liệu train (train.csv, bo_train/dat, tu_dien_train.json)
   test/         400 địa chỉ OSM, nhãn sơ bộ, chưa duyệt tay
-danh_gia/       script đo; danh_gia/v3/ là bộ train/đo hiện hành
+danh_gia/       danh_gia/v3/ là bộ train/đo hiện hành; ngoài ra chỉ còn script mà v3 và test gọi (huan_luyen_char, du_lieu_char, chay_ban_thu, do_kiem_tra_test400...)
 web/            Address May Cry (giao diện + API)
 tests/
 rieng/          (không lên git) đáp án kín, bộ khó, thư mục train, mô hình lớn
 luu_tru/        (không lên git) mọi thứ cũ, nguyên vẹn
 ```
+
+Import dùng đường dẫn thật, ví dụ `from src.tien_xu_ly.char_cnn import BoTachCharCNN`. Chế độ không mô hình (`bo_tach=None`) vẫn chạy luật thuần.
 
 Mọi nhánh cũ có tag `luu-tru/*` trên GitHub. Hook `danh_gia/v3/hooks/pre-commit` chặn commit file trong `rieng/` và `luu_tru/`; cài bằng `cp danh_gia/v3/hooks/pre-commit .git/hooks/`.
 

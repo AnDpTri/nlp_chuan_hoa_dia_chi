@@ -13,6 +13,8 @@ Bài toán chỉ có **hai phần**, đo riêng từng phần:
 
 **Mô hình đang dùng:** `mo_hinh/thu_nghiem/char_v3_tc` (CNN 1,4 MB + ranker), train trên dữ liệu thật ×2 + 9.992 địa chỉ bẩn do agy sinh (kiểm bằng máy) + 4.000 dòng tăng cường số nhà.
 
+**Mã nguồn (dọn 31/10, không đổi kết quả: 3.100/3.100 câu giống hệt):** `src/` giảm từ 4.075 còn 3.060 dòng. Bỏ 17 file lối vào tương thích `src/*.py` và thư mục alias `src/lien_ket_v1` (import thẳng `src.tien_xu_ly.<module>`); gỡ đường thử nghiệm đã bỏ (ViDeBERTa, liên kết v1, hợp đồng và tùy chọn `--videberta-model`, `--hop-dong`) sang `luu_tru/tu_repo_20261031/`; 19 script đo cũ trong `danh_gia/` cũng ở đó. Bốn bước sửa sau ranker trong `BoLamSach` là bốn hàm có tên. Test: 156.
+
 **Nguyên tắc đã chốt:**
 - Không khẳng định khi không đủ bằng chứng: để trống và gắn cảnh báo, không chọn bừa.
 - Số nhà, ngõ, thôn, đường không có dữ liệu đối chiếu: chỉ chuẩn hóa hình thức, chấm theo "tách đúng, giữ đúng chữ người gõ".
