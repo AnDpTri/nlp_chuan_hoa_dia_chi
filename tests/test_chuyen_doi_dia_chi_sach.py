@@ -30,6 +30,20 @@ class ChuyenDoiDiaChiSachTests(unittest.TestCase):
         self.assertIn("xa_bi_chia", kq.canh_bao)
         self.assertEqual({x["ma_xa"] for x in kq.xa_moi_ung_vien}, {"00004", "00008"})
 
+    def test_xa_cu_bi_chia_phan_giai_theo_duong(self):
+        # Bảng xã chia theo đường (dữ liệu tham chiếu OSM + GIS): chỉ dùng khi đường có trong bảng của đúng xã cũ đó.
+        dm = DanhMuc()
+        dm.xa_chia_theo_duong = {("00007", "daotan"): "00025"}
+        bang = chuyen_doi(DiaChiSach(don_vi=[DonViNhan("xa", "00007", "cu"), HN_CU],
+                                     cach_hieu_gan=[[DonViNhan("xa", "00007", "cu"), HN_CU]], duong="Phố Đào Tấn"), dm)
+        self.assertEqual(bang.ma_xa, "00025")
+        self.assertIn("xa_chia_suy_tu_duong", bang.canh_bao)
+        self.assertNotIn("xa_bi_chia", bang.canh_bao)
+        khac = chuyen_doi(DiaChiSach(don_vi=[DonViNhan("xa", "00007", "cu"), HN_CU],
+                                     cach_hieu_gan=[[DonViNhan("xa", "00007", "cu"), HN_CU]], duong="Đường Lê Lợi"), dm)
+        self.assertEqual(khac.ma_xa, "")
+        self.assertIn("xa_bi_chia", khac.canh_bao)
+
     def test_don_vi_moc_moi(self):
         kq = self.doi([DonViNhan("xa", "00004", "moi"), DonViNhan("tinh", "01", "moi")])
         self.assertEqual((kq.ma_xa, kq.ma_tinh), ("00004", "01"))

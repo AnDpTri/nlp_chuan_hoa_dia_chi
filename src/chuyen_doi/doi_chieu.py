@@ -3,8 +3,18 @@
 Chỉ tra bảng DanhMuc, không có logic nhận diện hay xếp hạng.
 """
 
-from ..danh_muc import DanhMuc
+from ..danh_muc import DanhMuc, khoa_duong
 from ..kieu_du_lieu import DiaChiSach, DonViNhan, KetQua
+
+
+def xa_chia_theo_duong(don_vi: list[DonViNhan], duong: str, wards: set[str], danh_muc: DanhMuc) -> str:
+    """Xã cũ bị chia: tra bảng (xã cũ, tên đường) -> xã mới. Chỉ khi giả thuyết có đúng một xã cũ
+    và xã mới tra được nằm trong tập đích. Không có thì trả rỗng (giữ nguyên để trống)."""
+    xa_cu = {u.ma for u in don_vi if u.cap == "xa" and u.cay == "cu"}
+    if len(xa_cu) != 1 or not duong:
+        return ""
+    moi = danh_muc.xa_chia_theo_duong.get((next(iter(xa_cu)), khoa_duong(duong)), "")
+    return moi if moi in wards else ""
 
 
 def tap_dich(don_vi: list[DonViNhan], danh_muc: DanhMuc):
@@ -87,7 +97,12 @@ def chuyen_doi(dia_chi_sach: DiaChiSach, danh_muc: DanhMuc | None = None) -> Ket
         positive_provinces = set().union(*(p for _, p in target_sets))
         ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""
     if len(wards) > 1:
-        warnings.append("xa_bi_chia")
+        theo_duong = xa_chia_theo_duong(best, dia_chi_sach.duong, wards, danh_muc) if len(outcomes) <= 1 else ""
+        if theo_duong:
+            ma_xa = theo_duong
+            warnings = [w for w in warnings if w != "xa_bi_chia"] + ["xa_chia_suy_tu_duong"]
+        else:
+            warnings.append("xa_bi_chia")
     warnings.extend(dia_chi_sach.canh_bao_giua)
     if not ma_xa:
         warnings.append("thieu_xa")

@@ -6,18 +6,33 @@ Nạp một lần lúc khởi động. Mọi liên kết dùng mã, không dùng
 from pathlib import Path
 import csv
 import hashlib
+import unicodedata
 from collections import defaultdict
 
 from .kieu_du_lieu import DonVi
 
 THU_MUC_DU_LIEU = Path(__file__).resolve().parent.parent / "data" / "clean"
 TEP_TEN_CU = Path(__file__).resolve().parent.parent / "data" / "ten_cu" / "ten_cu_alias.csv"
+TEP_XA_CHIA_THEO_DUONG = Path(__file__).resolve().parent.parent / "data" / "xa_chia_theo_duong" / "bang_xa_chia_theo_duong.csv"
+
+
+def khoa_duong(ten: str) -> str:
+    """Khóa tên đường để tra bảng xã chia: bỏ dấu, bỏ tiền tố Đường/Phố, chỉ giữ chữ số.
+    Phải giống hệt khoa_duong trong data/xa_chia_theo_duong/tao_bang.py."""
+    s = unicodedata.normalize("NFD", (ten or "").replace("đ", "d").replace("Đ", "D"))
+    s = "".join(c for c in s if unicodedata.category(c) != "Mn").casefold().strip()
+    for p in ("duong ", "pho ", "d. ", "d."):
+        if s.startswith(p):
+            s = s[len(p):]
+            break
+    return "".join(c for c in s if c.isalnum())
 
 
 class DanhMuc:
     """Hai cây hành chính và cạnh đối chiếu từ xã cũ sang xã mới."""
 
-    def __init__(self, thu_muc: Path = THU_MUC_DU_LIEU, tep_ten_cu: Path | None = TEP_TEN_CU):
+    def __init__(self, thu_muc: Path = THU_MUC_DU_LIEU, tep_ten_cu: Path | None = TEP_TEN_CU,
+                 tep_xa_chia: Path | None = TEP_XA_CHIA_THEO_DUONG):
         self.don_vi: dict[tuple[str, str], DonVi] = {}  # (cay, ma) -> DonVi
         self.con: dict[tuple[str, str], list[str]] = {}  # (cay, ma cha) -> mã con
         self.doi_chieu: dict[str, list[tuple[str, str]]] = {}  # mã xã cũ -> [(mã xã mới, kiểu)]
@@ -29,9 +44,17 @@ class DanhMuc:
         # Tên/bí danh cũ của huyện, xã (đã nhập, đổi tên trước khi danh mục cũ được chụp).
         # Không nằm trong ma_bam: không đổi cây, chỉ thêm khóa tra cứu vào đơn vị đã có.
         self.ten_cu: list[tuple[str, str, str]] = []  # (cấp, mã cũ, khóa không dấu)
+        # Xã cũ bị chia: (mã xã cũ, khóa tên đường) -> mã xã mới, dựng từ điểm số nhà OSM + ranh giới GIS
+        # (data/xa_chia_theo_duong). Dữ liệu tham chiếu, không nằm trong ma_bam.
+        self.xa_chia_theo_duong: dict[tuple[str, str], str] = {}
         self._nap(thu_muc)
         if tep_ten_cu and Path(tep_ten_cu).exists():
             self._nap_ten_cu(Path(tep_ten_cu))
+        if tep_xa_chia and Path(tep_xa_chia).exists():
+            with Path(tep_xa_chia).open(encoding="utf-8-sig", newline="") as f:
+                for r in csv.DictReader(f):
+                    if r["ma_xa_moi"] in {m for m, _ in self.doi_chieu.get(r["ma_xa_cu"], [])}:
+                        self.xa_chia_theo_duong[(r["ma_xa_cu"], r["khoa_duong"])] = r["ma_xa_moi"]
 
     def _nap_ten_cu(self, tep: Path) -> None:
         with tep.open(encoding="utf-8-sig", newline="") as f:
