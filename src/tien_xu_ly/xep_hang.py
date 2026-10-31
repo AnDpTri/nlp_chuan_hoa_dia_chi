@@ -7,7 +7,7 @@ from pathlib import Path
 from .tach_phan_con import FIELDS
 
 
-def _tap_dich(duong_di, danh_muc):
+def tap_dich(duong_di, danh_muc):
     wards, provinces = None, None
     for u in duong_di.ung_vien:
         ps = set(danh_muc.dich_tinh(u.cay, u.ma))
@@ -31,7 +31,7 @@ FEATURES = ['diem_tay', 'so_token', 'so_admin', 'bao_phu_admin', 'chua_hieu',
 def dac_trung_gia_thuyet(item, tokens, candidates, dm, context):
     score, path, detail, spans, unknown, inferred = item
     used = {i for u in path.ung_vien for i in range(u.bat_dau, u.ket_thuc)}
-    wards, provinces = _tap_dich(path, dm)
+    wards, provinces = tap_dich(path, dm)
     selected = path.ung_vien
     roles = sum(context.diem_ung_vien(u) for u in selected) if hasattr(context, 'diem_ung_vien') else 0.
     return [score, len(tokens), len(selected), len(used), len(unknown), len(spans),

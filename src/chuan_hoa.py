@@ -17,10 +17,10 @@ def _chuan_chuoi_dia_chi(res: KetQua) -> str:
     return _fn(res)
 
 
-def _tao_dau_vet(records, chuoi, a, b, **extra):
-    return {"token_bat_dau": a, "token_ket_thuc": b, "ky_tu_bat_dau": records[a].bat_dau,
-            "ky_tu_ket_thuc": records[b-1].ket_thuc,
-            "doan_goc": chuoi[records[a].bat_dau:records[b-1].ket_thuc], **extra}
+_THUOC_TINH_UY_QUYEN = frozenset((
+    "danh_muc", "beam", "bo_tach", "bo_xep_hang", "tu_dien_duong", "bao_ve_duong",
+    "tien_to_mac_dinh", "tien_to_so_nha", "tien_to_duong", "PHIEN_BAN", "trie", "tra_cuu_neural",
+))
 
 
 class BoChuanHoa:
@@ -33,18 +33,12 @@ class BoChuanHoa:
             tien_to_mac_dinh=tien_to_mac_dinh, tien_to_so_nha=tien_to_so_nha,
             tien_to_duong=tien_to_duong
         )
-        self.danh_muc = self.bo_lam_sach.danh_muc
-        self.beam = self.bo_lam_sach.beam
-        self.bo_tach = self.bo_lam_sach.bo_tach
-        self.bo_xep_hang = self.bo_lam_sach.bo_xep_hang
-        self.tu_dien_duong = self.bo_lam_sach.tu_dien_duong
-        self.bao_ve_duong = self.bo_lam_sach.bao_ve_duong
-        self.tien_to_mac_dinh = self.bo_lam_sach.tien_to_mac_dinh
-        self.tien_to_so_nha = self.bo_lam_sach.tien_to_so_nha
-        self.tien_to_duong = self.bo_lam_sach.tien_to_duong
-        self.PHIEN_BAN = self.bo_lam_sach.PHIEN_BAN
-        self.trie = self.bo_lam_sach.trie
-        self.tra_cuu_neural = self.bo_lam_sach.tra_cuu_neural
+
+    def __getattr__(self, ten):
+        """Các thuộc tính cấu hình đọc thẳng từ bo_lam_sach (danh_muc, beam, trie, PHIEN_BAN...)."""
+        if ten in _THUOC_TINH_UY_QUYEN:
+            return getattr(self.bo_lam_sach, ten)
+        raise AttributeError(ten)
 
     def tao_gia_thuyet(self, chuoi):
         return self.bo_lam_sach.tao_gia_thuyet(chuoi)

@@ -25,6 +25,15 @@ def _don_vi_nhan(duong_di):
     return [DonViNhan(cap=u.cap, ma=u.ma, cay=u.cay) for u in duong_di.ung_vien]
 
 
+def _token_crf_hanh_chinh(crf_context, records=None):
+    """Chỉ số token nằm trong đoạn CRF gán xã/huyện/tỉnh. `records` mặc định lấy từ crf_context."""
+    char_spans = getattr(crf_context, 'char_spans', None) or ()
+    if records is None:
+        records = getattr(crf_context, 'records', None) or ()
+    return {i for i, t in enumerate(records)
+            for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
+
+
 def token_hanh_chinh_kha_thi(records, candidates, crf_context, ma_tinh, dm):
     """Token mà CRF gán là đơn vị hành chính VÀ có ứng viên hành chính khả thi phủ nó
     (cùng tỉnh mới đã chọn; chưa chọn tỉnh thì cần khớp chính xác). Các token này không được dùng làm tên đường.
@@ -32,8 +41,7 @@ def token_hanh_chinh_kha_thi(records, candidates, crf_context, ma_tinh, dm):
     char_spans = getattr(crf_context, 'char_spans', None)
     if not char_spans:
         return frozenset()
-    crf_hc = {i for i, t in enumerate(records)
-              for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
+    crf_hc = _token_crf_hanh_chinh(crf_context, records)
     cam = set()
     for u in candidates:
         # Khớp gần đúng (sai chính tả) là bằng chứng yếu: 'Trần' ~ 'Trà An' không đủ để cấm đoạn làm tên đường.
@@ -62,13 +70,6 @@ def dau_vet_hanh_chinh_khong_khop(records, chuoi, crf_context, candidates, unkno
         out.append(_tao_dau_vet(records, chuoi, lo, hi, truong=r, ma='', moc='',
                                 kieu_khop='khong_khop_dia_ban' if co_ung_vien else 'khong_co_trong_danh_muc'))
     return out
-
-
-def _token_crf_hanh_chinh(crf_context):
-    char_spans = getattr(crf_context, 'char_spans', None) or ()
-    records = getattr(crf_context, 'records', None) or ()
-    return {i for i, t in enumerate(records)
-            for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
 
 
 def don_vi_ghi_khong_khop(best, candidates, crf_context, dm, chi_tiet=frozenset()):
@@ -123,17 +124,16 @@ def gia_thuyet_mo_rong_nhat_quan(chon, ranked, dm, crf_context):
     nằm trên đoạn CRF gán là hành chính, và đổi ra đúng cùng tập xã mới / tỉnh mới. Chọn nó không đổi mã kết quả,
     chỉ giải thích thêm phần của câu mà ranker bỏ qua vì cả hai cách đều cho cùng đáp án lúc train
     (ví dụ bỏ 'Hà Nội' trước số điện thoại)."""
-    from .xep_hang import _tap_dich
+    from .xep_hang import tap_dich
     char_spans = getattr(crf_context, 'char_spans', None)
     records = getattr(crf_context, 'records', None)
     if not char_spans or not records:
         return None
-    crf_hc = {i for i, t in enumerate(records)
-              for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
+    crf_hc = _token_crf_hanh_chinh(crf_context)
     def khoa(p):
         return {(u.bat_dau, u.ket_thuc, u.ma, u.cay) for u in p.ung_vien}
     goc = khoa(chon[1])
-    dich = _tap_dich(chon[1], dm)
+    dich = tap_dich(chon[1], dm)
     if not dich[1]:
         return None
     for item in ranked:
@@ -144,7 +144,7 @@ def gia_thuyet_mo_rong_nhat_quan(chon, ranked, dm, crf_context):
         if any(u.kieu_khop == 'sai_chinh_ta' or u.ten_cu or not set(range(u.bat_dau, u.ket_thuc)) <= crf_hc
                for u in them):
             continue
-        if _tap_dich(item[1], dm) == dich:
+        if tap_dich(item[1], dm) == dich:
             return item
     return None
 
