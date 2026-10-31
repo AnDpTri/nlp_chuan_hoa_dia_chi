@@ -1,0 +1,13 @@
+#!/bin/sh
+# Chặn commit file trong rieng/ hoặc luu_tru/ (repo public), và file > 50 MB.
+bad=$(git diff --cached --name-only --diff-filter=ACMR | grep -E '^(rieng|luu_tru)/')
+if [ -n "$bad" ]; then
+  echo "pre-commit: KHÔNG được commit file trong rieng/ hoặc luu_tru/:" >&2
+  echo "$bad" | head -20 >&2
+  exit 1
+fi
+git diff --cached --name-only --diff-filter=ACMR -z | while IFS= read -r -d '' f; do
+  s=$(git cat-file -s ":$f" 2>/dev/null || echo 0)
+  if [ "$s" -gt 52428800 ]; then echo "pre-commit: file quá lớn (>50 MB): $f" >&2; exit 1; fi
+done || exit 1
+exit 0

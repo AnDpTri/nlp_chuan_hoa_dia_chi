@@ -14,8 +14,8 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, Any, Tuple, Optional, List
 
-# Xác định root mã NLP theo biến môi trường AMC_CODE_ROOT (mặc định D:\nlp_rf_E)
-AMC_CODE_ROOT = os.environ.get("AMC_CODE_ROOT", r"D:\nlp_rf_E")
+# Xác định root mã NLP theo biến môi trường AMC_CODE_ROOT (mặc định gốc repo)
+AMC_CODE_ROOT = os.environ.get("AMC_CODE_ROOT", str(Path(__file__).resolve().parents[3]))
 CODE_ROOT_PATH = Path(AMC_CODE_ROOT).resolve()
 if str(CODE_ROOT_PATH) not in sys.path:
     sys.path.insert(0, str(CODE_ROOT_PATH))
@@ -65,7 +65,7 @@ class NlpEngineAdapter:
         self._load_models()
 
     def _load_reference_data(self) -> None:
-        """Nạp các bảng đối chiếu từ D:\\nlp_rf_E\\data\\clean."""
+        """Nạp các bảng đối chiếu từ data/clean của CODE_ROOT."""
         try:
             clean_dir = CODE_ROOT_PATH / "data" / "clean"
             dc_path = clean_dir / "doi_chieu_xa_cu_moi.csv"

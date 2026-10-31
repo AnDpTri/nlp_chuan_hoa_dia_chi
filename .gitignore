@@ -34,3 +34,10 @@ desktop.ini
 
 # Nhật ký chạy thử Address May Cry (chứa địa chỉ người dùng nhập)
 web/address-may-cry/api/logs/
+
+# Dữ liệu không public và đồ lưu trữ: KHÔNG BAO GIỜ lên git (có hook chặn)
+/rieng/
+/luu_tru/
+
+# Cấu hình cục bộ của Claude Code
+/.claude/

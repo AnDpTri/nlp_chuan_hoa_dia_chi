@@ -1,0 +1,155 @@
+{
+  "_ghi_chu": "Claude sửa tay nhãn dev có căn cứ từ danh mục/lịch sử hành chính. Khóa: tap.id.truong.",
+  "dev_goc.VNDEV_00040.ma_xa": {
+    "gia_tri": "26842",
+    "ly_do": "Quận 9 nhập TP Thủ Đức (2021); doi_chieu_xa_cu_moi: Phường Hiệp Phú (26839) nhập toàn bộ vào Phường Tăng Nhơn Phú 26842. Nhãn máy trống vì không tra được Quận 9."
+  },
+  "dev_goc.VNDEV_00098.ma_xa": {
+    "gia_tri": "25630",
+    "ly_do": "Thị trấn Hòa Thành thành phường Long Hoa năm 2020 (NQ 865/NQ-UBTVQH14; vietnamadminunits: tthoathanh -> 25630); Long Hoa nhập toàn bộ vào Phường Long Hoa mới 25630. Nhãn cũ đoán theo tên sang Phường Hòa Thành 25645."
+  },
+  "dev_goc.VNDEV_00012.ma_xa": {
+    "gia_tri": "00166",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/5609998324) có tọa độ gốc nằm gọn trong Phường Cầu Giấy (00166) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00061.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11578133308) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00071.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11662204175) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00076.ma_xa": {
+    "gia_tri": "00229",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11212216794) có tọa độ gốc nằm gọn trong Phường Kim Liên (00229) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00105.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11601645094) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00116.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11571556923) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00117.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11782452949) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00147.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11563562489) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00151.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11578133333) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00160.ma_xa": {
+    "gia_tri": "00229",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11212544453) có tọa độ gốc nằm gọn trong Phường Kim Liên (00229) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00175.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11649543061) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00177.ma_xa": {
+    "gia_tri": "00070",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11461525804) có tọa độ gốc nằm gọn trong Phường Hoàn Kiếm (00070) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00192.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11168751434) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00196.ma_xa": {
+    "gia_tri": "27028",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/12573947607) có tọa độ gốc nằm gọn trong Phường Phú Thạnh (27028) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00202.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11491305592) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00228.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11586911182) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00238.ma_xa": {
+    "gia_tri": "00175",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/5485653890) có tọa độ gốc nằm gọn trong Phường Yên Hoà (00175) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00254.ma_xa": {
+    "gia_tri": "27427",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/12187388979) có tọa độ gốc nằm gọn trong Phường Phú Định (27427) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00262.ma_xa": {
+    "gia_tri": "00229",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11212216785) có tọa độ gốc nằm gọn trong Phường Kim Liên (00229) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00265.ma_xa": {
+    "gia_tri": "27028",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/12563261157) có tọa độ gốc nằm gọn trong Phường Phú Thạnh (27028) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00278.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11568871423) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00283.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11568902935) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00290.ma_xa": {
+    "gia_tri": "00166",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/5485664251) có tọa độ gốc nằm gọn trong Phường Cầu Giấy (00166) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00291.ma_xa": {
+    "gia_tri": "00025",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/7845507953) có tọa độ gốc nằm gọn trong Phường Giảng Võ (00025) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00292.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11662204177) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00298.ma_xa": {
+    "gia_tri": "00229",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11212216790) có tọa độ gốc nằm gọn trong Phường Kim Liên (00229) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00308.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11168751433) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00312.ma_xa": {
+    "gia_tri": "00364",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/6616850170) có tọa độ gốc nằm gọn trong Phường Khương Đình (00364) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00314.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11625397936) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00322.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11168751425) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00326.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11586961128) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00348.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11563368960) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00353.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11572079075) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00370.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11468718378) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00379.ma_xa": {
+    "gia_tri": "00160",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11571556926) có tọa độ gốc nằm gọn trong Phường Nghĩa Đô (00160) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  },
+  "dev_goc.VNDEV_00396.ma_xa": {
+    "gia_tri": "00256",
+    "ly_do": "Xã cũ bị chia; chính đối tượng OSM nguồn (https://www.openstreetmap.org/node/11601353634) có tọa độ gốc nằm gọn trong Phường Hai Bà Trưng (00256) theo ranh giới GIS v4.1.0. Nhãn cũ để trống theo quy ước xã chia."
+  }
+}

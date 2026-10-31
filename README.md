@@ -2,72 +2,59 @@
 
 Đề tài môn Xử lý ngôn ngữ tự nhiên, lớp KHMT K22A.
 
-Hệ thống nhận địa chỉ nhập tự do (không dấu, viết tắt, sai chính tả, ghi theo địa giới cũ) và trả về địa chỉ chuẩn theo đơn vị hành chính sau ngày 1/7/2025. Chạy offline, không dùng LLM hay API bên ngoài.
+Nhận địa chỉ nhập tự do (không dấu, viết tắt, sai chính tả, lộn thứ tự, ghi theo địa giới cũ) và trả về địa chỉ chuẩn theo đơn vị hành chính sau ngày 1/7/2025. Chạy offline trên CPU, không dùng LLM hay API.
 
-## Tài liệu
-
-- [Sửa lõi với CNN giữ nguyên](docs/SUA_PIPELINE_CNN_V1.md): tra tên từ train và bảo vệ ranh giới đường; dev gốc 82,835%, dev khó 63,793%, có output đối chứng từng câu.
-- [Kết quả ViDeBERTa trên Colab](danh_gia/ket_qua/videberta_v1_01_colab/TONG_KET.md): đã train 5 epoch trên T4, kiểm checksum và đối chiếu output; chưa vượt CRF/CNN đồng đều. [Hướng dẫn chạy lại](colab/README.md).
-- [Mục lục toàn bộ báo cáo và kết quả kiểm chứng](docs/MUC_LUC_BAO_CAO.md): báo cáo thuật toán, train, số đo, output và audit dữ liệu; toàn bộ gói bàn giao đã lưu trong dự án.
-- [docs/THU_NGHIEM_CHAR_CNN_V1.md](docs/THU_NGHIEM_CHAR_CNN_V1.md): Char-CNN + CRF bảy vai trò và LightGBM Ranker chạy CPU, checkpoint, cách train/chạy/đo và giới hạn.
-- [docs/THU_NGHIEM_CRF_V1.md](docs/THU_NGHIEM_CRF_V1.md): đã train hai CRF CPU, thống kê từ token/span đến end-to-end, ca thoái lui và giới hạn nhãn. Mặc định vẫn giữ luật v3.
-- [docs/SUA_LOI_PIPELINE_V3.md](docs/SUA_LOI_PIPELINE_V3.md): sửa lỗi theo chẩn đoán, kết quả v2 → v3 và ca mất khớp cần lưu ý.
-- [docs/HOP_DONG_NHAN_CHUAN_HOA.md](docs/HOP_DONG_NHAN_CHUAN_HOA.md): phân biệt span quan sát, tên chuẩn và các kết quả chưa đủ căn cứ.
-- [docs/HUONG_DAN_BAN_THU.md](docs/HUONG_DAN_BAN_THU.md): chạy pipeline dùng luật, đo trên dev và đọc thống kê trước khi huấn luyện mô hình.
-- [docs/THIET_KE_LOI.md](docs/THIET_KE_LOI.md): pipeline lõi, mô hình dự kiến và thứ tự triển khai.
+- **[TONG_KET.md](TONG_KET.md)**: hệ thống hiện tại, số đo, nhật ký các hướng đã thử, lỗi đã biết. Đọc file này trước.
 - [bai_toan.md](bai_toan.md): đặc tả bài toán.
-- [bao_cao_tuan_3.md](bao_cao_tuan_3.md): báo cáo tiến độ tuần 3.
-- [Hướng dẫn gửi yêu cầu vào Antigravity và kiểm chứng](docs/antigravity_rpc/HUONG_DAN_AGY_APP_RPC.md): lệnh dùng lại, script và biên nhận đối chiếu.
-- [data/raw/NGUON.md](data/raw/NGUON.md): nguồn dữ liệu.
-- [data/clean/BAO_CAO_CHUAN_HOA.md](data/clean/BAO_CAO_CHUAN_HOA.md): báo cáo làm sạch dữ liệu.
+
+## Hệ thống: hai phần
+
+1. **Tiền xử lý** (`src/tien_xu_ly/`): chuỗi bẩn → địa chỉ sạch có cấu trúc (theo mốc cũ hoặc mới, tùy đầu vào). Char-CNN + CRF gán vai trò ký tự, trie sinh ứng viên hành chính, beam ghép đường đi hợp lệ trên cây hành chính, LightGBM ranker chọn giả thuyết, từ điển đường chuẩn tên đường.
+2. **Chuyển đổi** (`src/chuyen_doi/`): địa chỉ cũ sạch → địa chỉ mới, chỉ tra bảng đối chiếu. Xã cũ bị chia: phân giải theo tên đường nếu có bằng chứng, không thì để trống và liệt kê ứng viên.
 
 ## Cấu trúc
 
 ```
+src/            code chạy (tien_xu_ly, chuyen_doi; các file src/*.py là lối vào tương thích)
+mo_hinh/        char_v3_tc (đang dùng), char_v2_01 và crf_v1_01 (nguồn snapshot cho train)
 data/
-  raw/        dữ liệu hành chính gốc (chỉ đọc)
-  clean/      dữ liệu đã làm sạch, sinh bởi data/clean/scripts/clean_and_validate.py
-src/
-  kieu_du_lieu.py   kiểu dữ liệu dùng chung giữa các bước
-  danh_muc.py       nạp danh mục, dựng cây hành chính cũ và mới
-  tien_xu_ly.py     bước 1: chuẩn hóa chuỗi, tách token
-  tim_kiem.py       bước 2: trie, sinh ứng viên
-  giai_ma.py        bước 3: ghép đường đi hợp lệ trên cây
-  tach_phan_con.py  bước 4: số nhà, ngõ, thôn/xóm, đường
-  chuyen_doi.py     bước 5: chuyển cũ sang mới
-  chuan_hoa.py      ghép cả pipeline
-danh_gia/     chấm điểm và chạy các thư viện mốc
-tests/        ca mẫu kiểm tra nhanh
+  clean/        danh mục hành chính cũ, mới, bảng đối chiếu (mốc 1/7/2025)
+  ten_cu/       tên cũ/bí danh huyện, xã
+  xa_chia_theo_duong/  bảng phân giải xã bị chia theo tên đường
+  duong/        danh mục đường
+  dev/          dev_goc, dev_kho; nhan_sua/ là nhãn đã sửa dùng để chấm
+  train/        dữ liệu train (train.csv, bo_train/dat, tu_dien_train.json)
+  test/         400 địa chỉ OSM, nhãn sơ bộ, chưa duyệt tay
+danh_gia/       script đo; danh_gia/v3/ là bộ train/đo hiện hành
+web/            Address May Cry (giao diện + API)
+tests/
+rieng/          (không lên git) đáp án kín, bộ khó, thư mục train, mô hình lớn
+luu_tru/        (không lên git) mọi thứ cũ, nguyên vẹn
 ```
 
-## Nguyên tắc thiết kế
-1. Mỗi bước có đầu vào/đầu ra cố định (`src/kieu_du_lieu.py`), thay cách làm một bước không ảnh hưởng bước khác.
-2. Mọi liên kết dùng mã đơn vị hành chính, không dùng tên.
-3. Không sinh tên ngoài danh mục; không chắc thì gắn cờ.
-4. Giữ dấu vết từng quyết định (đoạn chữ nào khớp đơn vị nào, khớp kiểu gì, bao nhiêu điểm).
-5. Dữ liệu tách khỏi code.
-6. Đo được từ ngày đầu: có tập test và script chấm điểm.
+Mọi nhánh cũ có tag `luu-tru/*` trên GitHub. Hook `danh_gia/v3/hooks/pre-commit` chặn commit file trong `rieng/` và `luu_tru/`; cài bằng `cp danh_gia/v3/hooks/pre-commit .git/hooks/`.
 
 ## Chạy
-Python 3.12. Bản thử dùng thư viện chuẩn, chạy từ thư mục gốc dự án:
+
+Môi trường: Python 3.12, `.venv-neural` (PyTorch, LightGBM, NumPy), xem `requirements-neural.txt`.
 
 ```powershell
-py -3.12 -X utf8 -B -m src 'Số 12, Phường Trúc Bạch, Quận Ba Đình, Hà Nội'
-py -3.12 -X utf8 -B -m danh_gia.chay_ban_thu --output-dir danh_gia/ket_qua/lan_do_moi
+$py = '.\.venv-neural\Scripts\python.exe'
+$m = 'mo_hinh/thu_nghiem/char_v3_tc'
+& $py -X utf8 -B -m src 'so 12 ngo 5 tran thai tong cau giay hn' --char-model $m/char_cnn.pt --ranker $m/ranker.txt --tu-dien-duong data/train/tu_dien_train.json --bao-ve-duong
 ```
 
-Thư mục kết quả phải chưa tồn tại. Bản mặc định: [báo cáo v3](danh_gia/ket_qua/ban_thu_v3_cuoi/BAO_CAO.md), [so sánh v2 → v3](danh_gia/ket_qua/ban_thu_v3_cuoi/SO_SANH.md). Đã có [thử nghiệm CRF CPU](danh_gia/ket_qua/crf_v1_01/BAO_CAO.md) qua `--crf-model` và [Char-CNN + CRF cùng LightGBM Ranker](docs/THU_NGHIEM_CHAR_CNN_V1.md) qua `--char-model`/`--ranker`. Chỉ đo dev, không dùng tập test cuối đang được rà soát.
+Web: `web/address-may-cry/` (xem README trong đó). Đặt `AMC_LOG=1` để ghi log các bước trung gian.
 
-Chạy mô hình CRF đã train (thư viện tùy chọn, cài trong môi trường riêng):
+## Đo
 
 ```powershell
-.\.venv-crf\Scripts\python.exe -X utf8 -B -m src 'Số 12, Đường Lê Lợi, Phường Trúc Bạch, Quận Ba Đình, Hà Nội' --crf-model mo_hinh/thu_nghiem/crf_v1_01/train_goc.crfsuite
+# chạy dev + bộ khó (bộ khó cần rieng/bo_kho)
+& $py -X utf8 -B danh_gia/v3/chay_mo_hinh.py $m/char_cnn.pt $m/ranker.txt rieng/train_v3/ket_<ten>
+# chấm đầu cuối trên nhãn dev đã sửa
+& $py -X utf8 -B danh_gia/v3/do_dau_cuoi_sua.py data/dev/nhan_sua rieng/train_v3/ket_<ten>/ket_qua.jsonl
+# kiểm tra
+& $py -X utf8 -B -m unittest discover -s tests -p 'test_*.py'
 ```
 
-Xem hướng dẫn tạo môi trường và giới hạn ở tài liệu thử nghiệm CRF; không tự thay v3 chỉ theo mức khớp nhãn máy.
-
-Sinh lại dữ liệu sạch khi cần trong quy trình dữ liệu:
-
-```
-py -3.12 data/clean/scripts/clean_and_validate.py
-```
+Đặt `CODE_ROOT` để đo code ở thư mục khác. Train lại: `bash danh_gia/v3/train_va_do.sh <ten_run>`.

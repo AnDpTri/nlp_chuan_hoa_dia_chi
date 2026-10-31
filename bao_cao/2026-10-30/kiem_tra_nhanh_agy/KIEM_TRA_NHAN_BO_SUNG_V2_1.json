@@ -1,6 +1,0 @@
-{
-  "rows": 3000,
-  "nonempty_label_without_span": 0,
-  "invalid_char_slice": 0,
-  "note": "Structural checks only; no independent semantic certification."
-}
