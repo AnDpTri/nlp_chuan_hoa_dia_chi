@@ -1,0 +1,26 @@
+Bạn giúp tạo dữ liệu kiểm thử cho hệ thống chuẩn hóa địa chỉ tiếng Việt. Chỉ trả về JSON, không giải thích.
+
+ĐỊA CHỈ GỐC: {DIA_CHI}
+Thành phần: {THANH_PHAN}
+
+Hãy viết {SO} cách khác nhau mà NGƯỜI THẬT có thể gõ địa chỉ này (tin nhắn điện thoại, đơn hàng online, form điền vội). Phải khó và đa dạng nhưng VẪN ĐỦ NGỮ CẢNH: một người địa phương đọc vẫn hiểu đúng là địa chỉ nào. Mỗi câu chồng 3-5 kiểu lỗi sau, lượt này ƯU TIÊN: {NHAN_MANH}
+- viết tắt tên kiểu người Việt hay dùng (chữ cái đầu: mh, ml, nđ; hoặc cắt chữ: M.Hưng, N.Định)
+- gõ telex/VNI khi bộ gõ không bật hoặc gõ dở (ddinhj, hungw, d9inh5, Nam Ddinh)
+- trượt phím sang phím bên cạnh, gõ thừa/thiếu chữ, gõ lặp chữ
+- dính chữ hoặc thừa dấu cách (5mỹ, mỹhưng, m ỹ)
+- sai dấu thanh, thiếu dấu một vài chữ, lẫn âm địa phương (l/n, s/x, tr/ch, d/gi/r, hỏi/ngã)
+- viết tắt hoặc bỏ chữ loại (xóm, xã, huyện, tỉnh -> x, X., H., t, tinh...), viết sai loại (ghi xã thành phường)
+- đảo thứ tự, bỏ dấu phẩy, xuống dòng, ký tự lạ, emoji, viết hoa lộn xộn
+- số viết bằng chữ (xóm năm), hoặc kiểu "x5", "xom5"
+- thêm nhiễu: tên người nhận, số điện thoại, ghi chú giao hàng, "gần chợ", "Việt Nam"
+- bỏ huyện hoặc bỏ tỉnh (không bỏ cả hai, không bỏ xã)
+
+QUY TẮC
+- KHÔNG được thêm hoặc đổi sang địa danh khác (không thêm tên xã/huyện/tỉnh/thôn nào không có trong địa chỉ gốc, không dùng tên đơn vị hành chính mới sau sáp nhập).
+- KHÔNG đổi số thôn/xóm/số nhà sang số khác.
+- Tên xã phải còn đủ chữ (được sai chính tả, thiếu dấu, dính chữ), không viết tắt thành chữ cái đầu.
+- Mỗi câu phải khác các câu còn lại.
+
+ĐẦU RA: một mảng JSON, mỗi phần tử:
+{"dau_vao": "<câu>", "phep": ["<kiểu lỗi ngắn gọn>", ...], "cap": {"xa": "<doc_duoc|chu_dau|bo>", "huyen": "<doc_duoc|chu_dau|bo>", "tinh": "<doc_duoc|chu_dau|bo>"}}
+Trong "cap": doc_duoc = tên cấp đó vẫn còn đủ chữ (dù sai chính tả, thiếu dấu, dính chữ); chu_dau = chỉ còn chữ cái đầu hoặc viết tắt kiểu mh, nđ; bo = không còn trong câu.
