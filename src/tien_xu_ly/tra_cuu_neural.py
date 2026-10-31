@@ -9,7 +9,7 @@ from collections import defaultdict
 from ..kieu_du_lieu import UngVien
 from .quy_tac import HANH_CHINH, khop_tien_to
 from .tim_kiem import khoa_ten, chu_ten, so_dau_mau_thuan, gan_mot_ky_tu
-from .tien_xu_ly import bo_dau
+from .tien_xu_ly import bo_dau, go_telex
 
 
 class TraCuuNeural:
@@ -55,8 +55,10 @@ class TraCuuNeural:
                          (not parents or any(self.dm.tuong_thich(self.dm.lay(era, code), self.dm.lay(p.cay, p.ma)) for p in parents))]
             need_fuzzy = not plausible or all(so_dau_mau_thuan(text, dv.ten) for dv in plausible)
             fuzzy = trie.tim(text, 1) if need_fuzzy and len(key) >= 4 else []
+            text_telex = go_telex(text) if need_fuzzy else text
+            telex = trie.tim(text_telex) if text_telex != text else []
             hits = []
-            for kind, values in [('khong_dau', exact), ('viet_tat', alias), ('sai_chinh_ta', fuzzy)]:
+            for kind, values in [('khong_dau', exact), ('viet_tat', alias), ('sai_chinh_ta', fuzzy), ('telex', telex)]:
                 for code, era, errors in values:
                     dv = self.dm.lay(era, code)
                     if dv.cap != role:
@@ -65,7 +67,10 @@ class TraCuuNeural:
                         continue
                     actual_kind = kind
                     conflicts = so_dau_mau_thuan(text, dv.ten)
-                    if kind == 'khong_dau':
+                    if kind == 'telex':
+                        # Gỡ telex là đọc lại đúng chữ người gõ, không phải đoán gần đúng: coi như khớp không dấu.
+                        actual_kind, conflicts = 'khong_dau', 0
+                    elif kind == 'khong_dau':
                         actual_kind = 'chinh_xac' if chu_ten(text) == chu_ten(dv.ten) else 'khac_dau' if conflicts else 'viet_tat' if key != khoa_ten(dv.ten) else 'khong_dau'
                     elif kind == 'sai_chinh_ta' and errors == 0:
                         actual_kind = 'khac_dau' if conflicts else 'khong_dau'
@@ -78,7 +83,7 @@ class TraCuuNeural:
                     changed_kind = typed and prefix[1][1] and prefix[1][1] != bo_dau(dv.loai) and not la_ten_cu
                     if changed_kind and errors == 0:
                         actual_kind = 'khac_loai'
-                    score = 5. + .35 * min(b - start, 5) + (4. if typed else 0.) - (2.5 if kind == 'sai_chinh_ta' else 1. if kind == 'viet_tat' else 0.)
+                    score = 5. + .35 * min(b - start, 5) + (4. if typed else 0.) - (2.5 if kind == 'sai_chinh_ta' else 1. if kind in ('viet_tat', 'telex') else 0.)
                     score -= conflicts + ((2.5 if role == 'xa' else .75) if changed_kind else 0.)
                     hits.append(UngVien(a, b, code, era, actual_kind, score, role, typed, la_ten_cu))
             unique_hits = {}

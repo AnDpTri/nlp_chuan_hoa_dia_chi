@@ -59,6 +59,23 @@ def bo_dau(chuoi: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", chuoi.casefold().replace("đ", "d")) if unicodedata.category(c) != "Mn")
 
 
+def go_telex(text):
+    """Gỡ phím telex còn sót khi bộ gõ không bật: Huwng -> Hung, ddinhj -> dinh, loojc -> loc.
+
+    Âm tiết tiếng Việt không chứa w, dd, aa/ee/oo (trừ -oong) và không có s/f/r/x/j đứng sau nguyên âm (dấu thanh
+    telex đứng cuối hoặc trước phụ âm cuối: loojc), nên chỉ gỡ ở từ toàn chữ không dấu dài từ 3 ký tự (không đụng
+    tx, tp, ql); trả về chuỗi gốc nếu không có gì để gỡ."""
+    out = []
+    for w in text.split():
+        t = w.casefold()
+        if len(t) >= 3 and t.isascii() and t.isalpha():
+            t = t.replace('dd', 'd').replace('w', '').replace('aa', 'a').replace('ee', 'e')
+            t = t.replace('oong', '\0').replace('oo', 'o').replace('\0', 'oong')
+            t = re.sub(r'(?<=[aeiouy])[sfrxj]|[sfrxj]$', '', t)
+        out.append(t if t != w.casefold() else w)
+    return ' '.join(out)
+
+
 def tach_token(chuoi: str) -> list[str]:
     return [t.chu for t in token_co_vi_tri(chuoi)]
 

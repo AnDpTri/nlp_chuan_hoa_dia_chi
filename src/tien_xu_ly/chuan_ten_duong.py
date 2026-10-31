@@ -12,7 +12,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from .quy_tac import CHI_TIET, khop_tien_to
-from .tien_xu_ly import bo_dau, token_co_vi_tri
+from .tien_xu_ly import bo_dau, go_telex, token_co_vi_tri
 
 
 def tach_ten(value):
@@ -156,7 +156,16 @@ class TuDienDuong:
                 self.index_bare_qg[key][item['canonical'].casefold()] = item
 
     def ung_vien(self, value, ma_tinh):
-        """Trả cả va chạm và xung đột dấu; không chọn tên thay caller."""
+        """Trả cả va chạm và xung đột dấu; không chọn tên thay caller. Không thấy thì thử lại sau khi gỡ phím telex
+        còn sót (Traanf Quý Kiên -> Tran Quý Kiên): đó là đọc lại đúng chữ đã gõ, không phải đoán gần đúng."""
+        out = self._ung_vien(value, ma_tinh)
+        if not out:
+            telex = go_telex(value)
+            if telex != value:
+                out = self._ung_vien(telex, ma_tinh)
+        return out
+
+    def _ung_vien(self, value, ma_tinh):
         parsed = tach_ten(value)
         if not parsed or not ma_tinh:
             return []

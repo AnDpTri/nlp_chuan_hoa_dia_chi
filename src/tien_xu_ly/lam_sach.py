@@ -4,10 +4,12 @@ Bao gồm tách token, nhận diện (CRF, CNN, Trie), sinh và xếp hạng gi�
 định dạng chi tiết và khôi phục tên đường. KHÔNG chuyển đổi mã hành chính mới.
 """
 
+from dataclasses import replace
+
 from ..danh_muc import DanhMuc
 from ..kieu_du_lieu import DiaChiSach, DonViNhan, NoiBoTienXuLy
 from .tim_kiem import dung_trie, sinh_ung_vien, bo_sung_tu_luoi_goc
-from .tien_xu_ly import token_co_vi_tri, bo_dau
+from .tien_xu_ly import token_co_vi_tri, bo_dau, go_telex
 from .giai_ma import tim_duong_di
 from .tach_phan_con import tach_co_dau_vet, FIELDS
 from .quy_tac import cac_tien_to, CHI_TIET, khop_tien_to
@@ -157,6 +159,32 @@ def _tinh_cua_duong_di(duong_di, dm):
     return set() if provinces is None else provinces
 
 
+BAC = {'xa': 1, 'huyen': 2, 'tinh': 3}  # chi tiết (số nhà, ngõ, đường, thôn) là bậc 0
+
+
+def dung_thu_bac(item):
+    """Địa chỉ viết theo một chiều: nhỏ đến lớn hoặc lớn đến nhỏ. Xét các đơn vị hành chính và chi tiết theo vị trí."""
+    _, path, _, spans, _, _ = item
+    moc = sorted([(u.bat_dau, BAC[u.cap]) for u in path.ung_vien] + [(s['bat_dau'], 0) for s in spans])
+    bac = [b for _, b in moc]
+    bac = [b for i, b in enumerate(bac) if i == 0 or b != bac[i - 1]]
+    return all(x < y for x, y in zip(bac, bac[1:])) or all(x > y for x, y in zip(bac, bac[1:]))
+
+
+def _bo_gia_thuyet_dao_thu_bac(ranked):
+    """Bỏ giả thuyết đảo thứ bậc (xóm, huyện, rồi xã) khi có giả thuyết đúng thứ bậc với ít nhất ngần ấy đơn vị hành
+    chính và không để sót thêm phần nào; câu viết xáo trộn thật (không cách hiểu nào đúng thứ bậc) không bị đụng tới."""
+    dung = [x for x in ranked if dung_thu_bac(x)]
+    if not dung or dung[0] is ranked[0]:
+        return ranked
+    def bi_troi(x):
+        if any(x is y for y in dung):
+            return False
+        return any(len(y[1].ung_vien) >= len(x[1].ung_vien) and set(y[4]) <= set(x[4]) for y in dung)
+    giu = [x for x in ranked if not bi_troi(x)]
+    return giu or ranked
+
+
 # Bốn bước sửa sau ranker. Mỗi bước nhận danh sách `close` (các giả thuyết gần điểm nhất, phần tử đầu là
 # giả thuyết được chọn) và trả `close` mới; giả thuyết được chọn luôn là close[0].
 
@@ -239,7 +267,20 @@ class BoLamSach:
 
     def _sinh_ung_vien_va_mo_rong(self, records, lexical_records, tokens, crf_context):
         dm = self.danh_muc
-        candidates = sinh_ung_vien(tokens, self.trie, bao_ve_chi_tiet=self.bo_tach is None or self.bo_tach.bao_ve_chi_tiet)
+        bao_ve = self.bo_tach is None or self.bo_tach.bao_ve_chi_tiet
+        candidates = sinh_ung_vien(tokens, self.trie, bao_ve_chi_tiet=bao_ve)
+        # Gỡ phím telex còn sót từng token (vị trí giữ nguyên) rồi tra thêm: "tinh nam ddinh" -> Nam Định, kể cả khi
+        # mô hình không đánh dấu đoạn đó là hành chính. Ứng viên thêm được tính là khớp không dấu.
+        tokens_telex = [go_telex(t) for t in tokens]
+        if tokens_telex != tokens:
+            # Trùng chỗ với ứng viên gần đúng (sai chính tả) thì ứng viên gỡ telex thay vào: nó đọc đúng chữ đã gõ.
+            co = {(u.bat_dau, u.ket_thuc, u.cay, u.ma): u for u in candidates}
+            for u in sinh_ung_vien(tokens_telex, self.trie, bao_ve_chi_tiet=bao_ve):
+                k = (u.bat_dau, u.ket_thuc, u.cay, u.ma)
+                if u.kieu_khop == 'sai_chinh_ta' or (k in co and co[k].kieu_khop != 'sai_chinh_ta'):
+                    continue
+                co[k] = replace(u, kieu_khop='khong_dau') if u.kieu_khop == 'chinh_xac' else u
+            candidates = sorted(co.values(), key=lambda u: (u.bat_dau, u.ket_thuc, u.cay, u.ma))
         if self.tra_cuu_neural is not None:
             candidates, lexical_added = bo_sung_tu_luoi_goc(lexical_records, records, self.trie, candidates,
                                                           bao_ve_chi_tiet=self.bo_tach.bao_ve_chi_tiet)
@@ -296,6 +337,7 @@ class BoLamSach:
             scores = self.bo_xep_hang.cham_diem(features)
             ranked = [(float(s), *item[1:]) for s, item in zip(scores, ranked)]
         ranked.sort(key=lambda x: -x[0])
+        ranked = _bo_gia_thuyet_dao_thu_bac(ranked)
         score, best, detail, spans, unknown, inferred = ranked[0]
         margin = self.bo_xep_hang.nguong_gan if self.bo_xep_hang is not None else .65
         close = [x for x in ranked if score - x[0] <= margin]

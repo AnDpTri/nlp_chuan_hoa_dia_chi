@@ -13,8 +13,33 @@ def xa_chia_theo_duong(don_vi: list[DonViNhan], duong: str, wards: set[str], dan
     xa_cu = {u.ma for u in don_vi if u.cap == "xa" and u.cay == "cu"}
     if len(xa_cu) != 1 or not duong:
         return ""
-    moi = danh_muc.xa_chia_theo_duong.get((next(iter(xa_cu)), khoa_duong(duong)), "")
+    ma = next(iter(xa_cu))
+    khoa = khoa_duong(duong)
+    moi = danh_muc.xa_chia_theo_duong.get((ma, khoa), "") or _duong_gan_dung(ma, khoa, danh_muc)
     return moi if moi in wards else ""
+
+
+def _khoang_cach(a: str, b: str) -> int:
+    truoc = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        sau = [i]
+        for j, cb in enumerate(b, 1):
+            sau.append(min(truoc[j] + 1, sau[j - 1] + 1, truoc[j - 1] + (ca != cb)))
+        truoc = sau
+    return truoc[-1]
+
+
+def _duong_gan_dung(ma_xa_cu: str, khoa: str, danh_muc: DanhMuc) -> str:
+    """Tên đường gõ sai (Trần Quys Kiên, Ph.Trần Quý Kiên): so với các đường của chính xã cũ này trong bảng.
+    Nhận khi lệch tối đa 2 ký tự (tên từ 10 chữ) hoặc 1 (6-9 chữ) và đường gần nhất hơn hẳn đường kế tiếp."""
+    ds = sorted((_khoang_cach(khoa, k), moi) for (m, k), moi in danh_muc.xa_chia_theo_duong.items() if m == ma_xa_cu)
+    if not ds or len(khoa) < 6:
+        return ""
+    toi_da = 2 if len(khoa) >= 10 else 1
+    gan, moi = ds[0]
+    if gan > toi_da or (len(ds) > 1 and ds[1][0] <= gan + 1 and ds[1][1] != moi):
+        return ""
+    return moi
 
 
 def tap_dich(don_vi: list[DonViNhan], danh_muc: DanhMuc):

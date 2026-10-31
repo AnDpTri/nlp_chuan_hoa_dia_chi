@@ -200,7 +200,9 @@ class NguCanhCRF:
                     f = proper_field
                     if proper_field == 'thon_xom' and marker[1][1] in TIEN_TO_THON_XOM:
                         end_idx = marker[0]
-                        while end_idx < len(self.tokens) and self.tokens[end_idx] not in DAU_NGAT_CHI_TIET:
+                        # Dừng ở token đã là đơn vị hành chính: không dấu phẩy thì "xóm 5 xã mỹ hưng ..." không nuốt xã.
+                        while (end_idx < len(self.tokens) and end_idx not in used
+                               and self.tokens[end_idx] not in DAU_NGAT_CHI_TIET):
                             if khop_tien_to(self.tokens, end_idx, CHI_TIET):
                                 break
                             end_idx += 1
