@@ -58,6 +58,27 @@ class LoiGocLogTests(unittest.TestCase):
         kieu = {d.get('kieu_khop') for d in r.dau_vet if d['truong'] in ('xa', 'huyen', 'tinh') and not d.get('ma')}
         self.assertTrue(kieu <= {'khong_khop_dia_ban', 'khong_co_trong_danh_muc'})
 
+    def test_bang_chung_ngang_nhau_thi_khong_chon_bua(self):
+        # 21 'Phường 5' trùng tên: không có căn cứ chọn một -> không khẳng định tỉnh/xã.
+        r = self.bo.chuan_hoa('x5,mh,ml,nd')
+        self.assertEqual((r.ma_xa, r.ma_tinh), ('', ''))
+        # An Bình (Kiến Xương) mâu thuẫn Vũ Thư: mọi cách viết đều để trống xã, giữ tỉnh nhất quán.
+        for cau in ('20A, An Bình, Vũ Thư, Thái Bình', 'So nhà 20A, An Bình, Vu Thư, Thai Bình',
+                    'So nhà 20A, An Bình, Vũ Thư, Thai Bình', '20A, ngõ 1, An Bình, Vũ Thư, Thai Bình'):
+            r = self.bo.chuan_hoa(cau)
+            self.assertEqual((r.ma_xa, r.ma_tinh), ('', '33'), cau)
+            self.assertIn('nhieu_cach_hieu', r.canh_bao, cau)
+
+    def test_bang_chung_khac_nhau_van_chon(self):
+        # Mốc, độ dài đoạn và vị trí là bằng chứng thật: không được coi là ngang nhau.
+        for cau, ma_xa, ma_tinh in [('Phường 5, Quận 3, TP HCM', '27154', '79'),
+                                    ('Phố Hàng Đậu, Phường Ba Đình, Hà Nội, Thành phố Hà Nội', '00004', '01'),
+                                    ('Xã Cát Tiên 2, Tỉnh Lâm Đồng', '25180', '68'),
+                                    ('tinh long an, so 481/7B d. ba trieu, xa dong thanh', '28207', '80')]:
+            r = self.bo.chuan_hoa(cau)
+            self.assertEqual((r.ma_xa, r.ma_tinh), (ma_xa, ma_tinh), cau)
+        self.assertEqual(self.bo.chuan_hoa('20, Yên Bái, Đà Nẵng').ma_tinh, '48')
+
     def test_viet_tat_xom_trong_span(self):
         r = self.bo.chuan_hoa('x5, Mỹ Hưng, Mỹ Lộc, Nam Định')
         self.assertEqual(r.thon_xom, 'Xóm 5')

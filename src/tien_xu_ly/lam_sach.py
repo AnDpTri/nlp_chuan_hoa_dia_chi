@@ -64,6 +64,39 @@ def dau_vet_hanh_chinh_khong_khop(records, chuoi, crf_context, candidates, unkno
     return out
 
 
+def _token_crf_hanh_chinh(crf_context):
+    char_spans = getattr(crf_context, 'char_spans', None) or ()
+    records = getattr(crf_context, 'records', None) or ()
+    return {i for i, t in enumerate(records)
+            for r, a, b in char_spans if r in ('xa', 'huyen', 'tinh') and a <= t.bat_dau and t.ket_thuc <= b}
+
+
+def gia_thuyet_tuong_duong(best, ranked, crf_context):
+    """Các giả thuyết có bằng chứng NGANG giả thuyết đã chọn: cùng tập chữ ký đơn vị (cấp, kiểu khớp, có tiền tố,
+    tên cũ, CRF có gán hành chính hay không), chỉ khác mã hoặc khác đoạn. Ranker không có căn cứ trong câu để
+    phân xử giữa chúng (vd 21 'Phường 5' trùng tên; 'An Bình' và 'Vũ Thư' mâu thuẫn, mỗi cách bỏ một đơn vị khớp đúng),
+    nên chúng được coi là cách hiểu gần bằng; bước chuyển đổi tự để trống nếu chúng ra kết quả khác nhau."""
+    crf_hc = _token_crf_hanh_chinh(crf_context)
+    # Thiếu dấu không phải bằng chứng yếu hơn: 'Vu Thư' và 'Vũ Thư' cùng là khớp đúng tên.
+    muc = {'chinh_xac': 'dung_ten', 'khong_dau': 'dung_ten'}
+
+    # Độ dài đoạn khớp là bằng chứng: 'Cát Tiên' (bỏ chữ '2') giải thích ít hơn 'Cát Tiên 2'.
+    # Mốc cũng là bằng chứng: giả thuyết cùng một mốc ăn khớp với các tên còn lại trong câu hơn giả thuyết lẫn mốc
+    # ('tinh long an ... xa dong thanh': Đông Thạnh cũ, không phải Đông Thành mới).
+    # Vị trí là bằng chứng: đơn vị đứng cuối câu ('20, Yên Bái, Đà Nẵng': Đà Nẵng là tỉnh, Yên Bái là đường).
+    records = getattr(crf_context, 'records', None) or ()
+    cuoi = max((i for i, t in enumerate(records) if any(c.isalnum() for c in t.chu)), default=-1) + 1
+
+    def chu_ky(path):
+        return (path.cay, sorted((u.cap, u.cay, muc.get(u.kieu_khop, u.kieu_khop), u.co_tien_to, u.ten_cu,
+                                  u.ket_thuc - u.bat_dau, set(range(u.bat_dau, u.ket_thuc)) <= crf_hc,
+                                  u.ket_thuc == cuoi) for u in path.ung_vien))
+    goc = chu_ky(best)
+    if not goc[1]:
+        return []
+    return [x for x in ranked if x[1] is not best and chu_ky(x[1]) == goc]
+
+
 def gia_thuyet_mo_rong_nhat_quan(chon, ranked, dm, crf_context):
     """Giả thuyết gồm mọi đơn vị của giả thuyết đã chọn cộng thêm đơn vị khớp không sai chính tả, không qua tên cũ,
     nằm trên đoạn CRF gán là hành chính, và đổi ra đúng cùng tập xã mới / tỉnh mới. Chọn nó không đổi mã kết quả,
@@ -210,6 +243,7 @@ class BoLamSach:
         if mo_rong is not None:
             close = [mo_rong] + close[1:]
             score, best, detail, spans, unknown, inferred = mo_rong
+        close = close + [x for x in gia_thuyet_tuong_duong(best, ranked, crf_context) if all(x is not c for c in close)]
         provinces_sets = [_tinh_cua_duong_di(x[1], self.danh_muc) for x in close]
         positive_provinces = set().union(*provinces_sets)
         ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""
