@@ -69,7 +69,10 @@ class TraCuuNeural:
                         actual_kind = 'chinh_xac' if chu_ten(text) == chu_ten(dv.ten) else 'khac_dau' if conflicts else 'viet_tat' if key != khoa_ten(dv.ten) else 'khong_dau'
                     elif kind == 'sai_chinh_ta' and errors == 0:
                         actual_kind = 'khac_dau' if conflicts else 'khong_dau'
-                    changed_kind = typed and prefix[1][1] and prefix[1][1] != bo_dau(dv.loai)
+                    la_ten_cu = (key, code) in trie.ten_cu and era == 'cu' and errors == 0
+                    if la_ten_cu:
+                        actual_kind, conflicts = 'viet_tat', 0
+                    changed_kind = typed and prefix[1][1] and prefix[1][1] != bo_dau(dv.loai) and not la_ten_cu
                     if changed_kind and errors == 0:
                         actual_kind = 'khac_loai'
                     score = 5. + .35 * min(b - start, 5) + (4. if typed else 0.) - (2.5 if kind == 'sai_chinh_ta' else 1. if kind == 'viet_tat' else 0.)

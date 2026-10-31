@@ -41,6 +41,7 @@ class Trie:
         self.cache = {}
         self.danh_muc = None
         self.max_tokens = 8
+        self.ten_cu = set()  # {(khóa không dấu, mã cũ)} tra bằng tên cũ
 
     def them(self, khoa: str, ma: str, cay: str) -> None:
         node = self.goc
@@ -96,6 +97,12 @@ def dung_trie(danh_muc: DanhMuc) -> Trie:
             aliases = {"Hà Nội": ["HN"], "Hồ Chí Minh": ["HCM", "TPHCM", "Sài Gòn", "SG"]}
             for alias in aliases.get(dv.ten, []):
                 trie.them(alias, dv.ma, dv.cay)
+    # Tên cũ chỉ thêm khóa tra cứu; khóa trùng chính tên hiện có thì bỏ qua.
+    trie.ten_cu = set()
+    for cap, ma, khoa in danh_muc.ten_cu:
+        if khoa != khoa_ten(danh_muc.lay("cu", ma).ten):
+            trie.them(khoa, ma, "cu")
+            trie.ten_cu.add((khoa, ma))
     return trie
 
 
@@ -187,12 +194,16 @@ def sinh_ung_vien(tokens: list[str], trie: Trie, bao_ve_chi_tiet: bool = True) -
                     elif not spec and not isolated_num and dv.ten.isdigit():
                         continue
 
-                    changed_kind = bool(effective_spec and effective_spec[1] and bo_dau(dv.loai) != effective_spec[1])
+                    la_ten_cu = (khoa_ten(text), ma) in trie.ten_cu and cay == "cu"
+                    changed_kind = bool(effective_spec and effective_spec[1] and bo_dau(dv.loai) != effective_spec[1]) and not la_ten_cu
                     exact = chu_ten(text) == chu_ten(dv.ten)
                     accent_conflicts = so_dau_mau_thuan(text, dv.ten) if not errors else 0
                     kind = "sai_chinh_ta" if errors else "chinh_xac" if exact else "khong_dau"
                     if not errors and (khoa_ten(text) != khoa_ten(dv.ten) or (spec and start-i < len(bo_dau(dv.loai).split()))):
                         kind = "viet_tat"
+                    if la_ten_cu:
+                        kind = "viet_tat"
+                        accent_conflicts = 0
                     if accent_conflicts:
                         kind = "khac_dau"
                     if changed_kind and not errors:
