@@ -8,6 +8,7 @@ from pathlib import Path
 from .tien_xu_ly import bo_dau
 from .quy_tac import (
     CHI_TIET,
+    HANH_CHINH,
     CHU_CAI_LOAI_TRU_SO_NHA,
     DAU_NGAT_CHI_TIET,
     DAU_NGAT_SO_NHA,
@@ -28,7 +29,94 @@ from .quy_tac import (
     khop_tien_to,
 )
 from .tach_phan_con import FIELDS, viet_ten
+
+# Tiền tố hành chính từ 2 chữ cái trở lên (bỏ 't', 'h', 'x', 'p', 'q' để không cắt nhầm tên thôn một chữ cái).
+TIEN_TO_HANH_CHINH_DAI = [r for r in HANH_CHINH if len(r[0].replace(' ', '')) >= 2]
+TIEN_TO_THON_XOM_DAY_DU = frozenset(TIEN_TO_THON_XOM) | {'Khóm'}
+DAU_NGAT_CO_BAN = {',', ';', '-', '–', '—', '−'}
 from .dinh_dang import tien_to_hien_thi, dinh_dang_span
+
+
+def _tim_marker_hanh_chinh(tokens, k):
+    """Xác định marker hành chính tại vị trí k:
+    Trả về (end_k, cấp_hành_chính, là_marker_mạnh) hoặc None.
+    Cấp hành chính: 1 (Tỉnh/TP), 2 (Quận/Huyện/Thị xã), 3 (Xã/Phường/Thị trấn).
+    """
+    tok = tokens[k].casefold()
+    if tok in ('x', 'p', 'q', 'h', 't') and k + 1 < len(tokens) and tokens[k + 1] == '.' and k + 2 < len(tokens) and any(c.isalnum() for c in tokens[k + 2]):
+        lvl = 3 if tok in ('x', 'p') else (2 if tok in ('q', 'h') else 1)
+        return k + 2, lvl, False
+
+    m = khop_tien_to(tokens, k, TIEN_TO_HANH_CHINH_DAI)
+    if m:
+        end_k, attrs = m
+        key = attrs[0]
+        if attrs[1] == 'thanh pho' or 'thanh pho' in key or 'tinh' in key:
+            lvl = 1
+        elif 'huyen' in key:
+            lvl = 2
+        elif 'xa' in key:
+            lvl = 3
+        else:
+            lvl = 2
+
+        raw_first = tokens[k].casefold()
+        words = tokens[k:end_k]
+        if len(words) >= 2 or raw_first in ('tp', 'tx', 'tt', 'city', 'province', 'district', 'ward'):
+            return end_k, lvl, True
+        if raw_first in ('xã', 'phường', 'huyện', 'quận', 'tỉnh', 'thị'):
+            return end_k, lvl, True
+        if raw_first in ('xax', 'phuowngf', 'phuongf', 'huyenj', 'quanj', 'tinhr'):
+            return end_k, lvl, True
+        return end_k, lvl, False
+    return None
+
+
+def _co_bang_chung_ngu_canh(tokens, start_k, cur_lvl, used):
+    """Kiểm tra có bằng chứng xác nhận cấp hành chính tiếp theo hoặc token đã used."""
+    k = start_k
+    while k < len(tokens):
+        if k in used:
+            return True
+        m = _tim_marker_hanh_chinh(tokens, k)
+        if m:
+            next_end, next_lvl, _ = m
+            if next_lvl >= cur_lvl:
+                return False
+            return True
+        k += 1
+    return False
+
+
+def tim_bien_thon_xom(tokens, start, used, other_starts=None):
+    """Helper nội bộ dùng chung xác định biên kết thúc thôn/xóm cho cả CRF và fallback."""
+    valid_other_starts = {idx for idx in other_starts if khop_tien_to(tokens, idx, CHI_TIET)} if other_starts else set()
+    idx = start
+    while idx < len(tokens):
+        if idx in used or idx in valid_other_starts:
+            break
+        tok = tokens[idx]
+        if tok in DAU_NGAT_CO_BAN:
+            break
+        if tok == '.':
+            if idx > start and idx + 1 < len(tokens):
+                prev = tokens[idx - 1]
+                nxt = tokens[idx + 1]
+                if len(prev) <= 2 and prev.isalpha() and any(c.isalnum() for c in nxt):
+                    idx += 1
+                    continue
+            break
+        m = _tim_marker_hanh_chinh(tokens, idx)
+        if m:
+            end_k, lvl, is_strong = m
+            if is_strong:
+                break
+            if any(p in used for p in range(idx, min(end_k + 2, len(tokens)))):
+                break
+            if _co_bang_chung_ngu_canh(tokens, end_k, lvl, used):
+                break
+        idx += 1
+    return idx
 
 
 def dac_trung(tokens):
@@ -181,6 +269,7 @@ class NguCanhCRF:
         values = {f: [] for f in FIELDS}
         output_spans, used = [], set(occupied)
         inferred = False
+        other_starts = {span_a for sf, span_a, _ in spans if sf != 'thon_xom'}
         for f, a, b in spans:
             # Dấu câu ngoài đoạn không thành tên; phần giữa đoạn vẫn giữ.
             while a < b and not any(c.isalnum() for c in self.tokens[a]):
@@ -198,13 +287,11 @@ class NguCanhCRF:
                 proper_field = marker[1][0]
                 if proper_field in FIELDS:
                     f = proper_field
-                    if proper_field == 'thon_xom' and marker[1][1] in TIEN_TO_THON_XOM:
-                        end_idx = marker[0]
-                        while end_idx < len(self.tokens) and self.tokens[end_idx] not in DAU_NGAT_CHI_TIET:
-                            if khop_tien_to(self.tokens, end_idx, CHI_TIET):
-                                break
-                            end_idx += 1
-                        if end_idx > b:
+                    if proper_field == 'thon_xom' and marker[1][1] in TIEN_TO_THON_XOM_DAY_DU:
+                        end_idx = tim_bien_thon_xom(self.tokens, marker[0], used, other_starts)
+                        while end_idx > a and not any(c.isalnum() for c in self.tokens[end_idx - 1]):
+                            end_idx -= 1
+                        if end_idx > a:
                             b = end_idx
             # Áp dụng lại khối luật sau khi tiền tố có thể đổi f hoặc b (lần 2)
             hop_le, b = loc_va_chinh_bien_span(self.tokens, f, a, b)
@@ -234,9 +321,14 @@ class NguCanhCRF:
                 end, (f, label) = marker
                 if f == 'duong' and la_duong_thanh_pho(self.tokens, i):
                     continue
-                j = end
-                while j < len(self.tokens) and j not in used and self.tokens[j] not in DAU_NGAT_CHI_TIET:
-                    j += 1
+                if f == 'thon_xom' and label in TIEN_TO_THON_XOM_DAY_DU:
+                    j = tim_bien_thon_xom(self.tokens, end, used, set())
+                    while j > i and not any(c.isalnum() for c in self.tokens[j - 1]):
+                        j -= 1
+                else:
+                    j = end
+                    while j < len(self.tokens) and j not in used and self.tokens[j] not in DAU_NGAT_CHI_TIET:
+                        j += 1
                 if j > i:
                     val, g = dinh_dang_span(self.tokens[i:j], f, tien_to_mac_dinh=tien_to_mac_dinh,
                                             tien_to_so_nha=tien_to_so_nha, tien_to_duong=tien_to_duong)
