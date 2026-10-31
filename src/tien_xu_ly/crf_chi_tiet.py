@@ -8,6 +8,7 @@ from pathlib import Path
 from .tien_xu_ly import bo_dau
 from .quy_tac import (
     CHI_TIET,
+    HANH_CHINH,
     CHU_CAI_LOAI_TRU_SO_NHA,
     DAU_NGAT_CHI_TIET,
     DAU_NGAT_SO_NHA,
@@ -28,6 +29,9 @@ from .quy_tac import (
     khop_tien_to,
 )
 from .tach_phan_con import FIELDS, viet_ten
+
+# Tiền tố hành chính từ 2 chữ cái trở lên (bỏ 't', 'h', 'x', 'p', 'q' để không cắt nhầm tên thôn một chữ cái).
+TIEN_TO_HANH_CHINH_DAI = [r for r in HANH_CHINH if len(r[0].replace(' ', '')) >= 2]
 from .dinh_dang import tien_to_hien_thi, dinh_dang_span
 
 
@@ -199,9 +203,13 @@ class NguCanhCRF:
                 if proper_field in FIELDS:
                     f = proper_field
                     if proper_field == 'thon_xom' and marker[1][1] in TIEN_TO_THON_XOM:
+                        # Nới tên thôn nhiều chữ ('Xóm Khe Cát') tới dấu ngắt, nhưng dừng ở chữ đã thuộc đơn vị
+                        # hành chính/chi tiết khác và ở tiền tố hành chính: câu không dấu phẩy
+                        # ('xóm 5 xã mỹ hưng huyện mỹ lộc') không được nuốt phần hành chính.
                         end_idx = marker[0]
                         while end_idx < len(self.tokens) and self.tokens[end_idx] not in DAU_NGAT_CHI_TIET:
-                            if khop_tien_to(self.tokens, end_idx, CHI_TIET):
+                            if (end_idx in used or khop_tien_to(self.tokens, end_idx, CHI_TIET)
+                                    or khop_tien_to(self.tokens, end_idx, TIEN_TO_HANH_CHINH_DAI)):
                                 break
                             end_idx += 1
                         if end_idx > b:
