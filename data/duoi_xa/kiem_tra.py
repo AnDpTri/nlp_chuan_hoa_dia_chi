@@ -41,12 +41,13 @@ def doc(p):
     return list(csv.DictReader(open(p, encoding='utf-8-sig')))
 
 
-def main(luong):
+def main(luong, ra):
     dich = defaultdict(set)
     for r in doc(CLEAN / 'doi_chieu_xa_cu_moi.csv'):
         if r['ma_xa_cu']:
             dich[r['ma_xa_cu']].add(r['ma_xa_moi'])
     bi_chia = {k for k, v in dich.items() if len(v) > 1}
+    xa_cu = {r['ma_xa'] for r in doc(CLEAN / 'cu_tinh_huyen_xa.csv')}
     van_ban = {}
 
     nhan, loai_bo = [], []
@@ -64,9 +65,13 @@ def main(luong):
         for i, r in enumerate(rows, start=2):
             r = {k: (v or '').strip() for k, v in r.items()}
             ly_do = []
-            if r['ma_xa_cu'] not in bi_chia:
+            # Xã bị chia (luồng luong_*) phải có xã mới; xã khác thì xã mới để trống được, có ghi thì phải đúng đích.
+            if r['ma_xa_cu'] not in xa_cu:
+                ly_do.append('xa_cu_khong_co_trong_danh_muc')
+            elif ten_luong.startswith('luong_') and r['ma_xa_cu'] not in bi_chia:
                 ly_do.append('xa_cu_khong_thuoc_danh_sach_bi_chia')
-            elif r['ma_xa_moi'] not in dich[r['ma_xa_cu']]:
+            elif (r['ma_xa_moi'] or r['ma_xa_cu'] in bi_chia and ten_luong.startswith('luong_')) \
+                    and r['ma_xa_moi'] not in dich[r['ma_xa_cu']]:
                 ly_do.append('xa_moi_khong_phai_dich_cua_xa_cu')
             if r['loai'] not in LOAI:
                 ly_do.append('loai_khong_hop_le')
@@ -97,17 +102,17 @@ def main(luong):
             (loai_bo if ly_do else nhan).append({**r, 'ly_do': ';'.join(ly_do)} if ly_do else r)
 
     # Trùng và mâu thuẫn: cùng xã cũ + loại + tên (+ dải số nhà) mà khác xã mới thì loại tất cả.
+    # Dòng để trống xã mới không mâu thuẫn với dòng có xã mới; giữ dòng có xã mới.
     nhom = defaultdict(list)
     for r in nhan:
         nhom[(r['ma_xa_cu'], r['loai'], bo_dau(r['ten']), r['so_nha_tu'], r['so_nha_den'])].append(r)
     hop_le = []
     for k, ds in nhom.items():
-        if len({r['ma_xa_moi'] for r in ds}) > 1:
+        if len({r['ma_xa_moi'] for r in ds if r['ma_xa_moi']}) > 1:
             loai_bo += [{**r, 'ly_do': 'mau_thuan_xa_moi'} for r in ds]
         else:
-            hop_le.append(ds[0])
+            hop_le.append(max(ds, key=lambda r: bool(r['ma_xa_moi'])))
 
-    ra = THU_MUC / 'ket_qua'
     ra.mkdir(parents=True, exist_ok=True)
     cot_ra = ['luong', 'dong'] + COT
     with open(ra / 'hop_le.csv', 'w', encoding='utf-8-sig', newline='') as f:
@@ -115,8 +120,10 @@ def main(luong):
     with open(ra / 'bi_loai.csv', 'w', encoding='utf-8-sig', newline='') as f:
         w = csv.DictWriter(f, cot_ra + ['ly_do'], extrasaction='ignore'); w.writeheader(); w.writerows(loai_bo)
     bao_cao = {
+        'thu_muc_ket_qua': str(ra),
         'hop_le': len(hop_le), 'bi_loai': len(loai_bo),
         'xa_cu_co_du_lieu': len({r['ma_xa_cu'] for r in hop_le}), 'xa_cu_bi_chia': len(bi_chia),
+        'xa_bi_chia_co_xa_moi': len({r['ma_xa_cu'] for r in hop_le if r['ma_xa_cu'] in bi_chia and r['ma_xa_moi']}),
         'theo_luong': dict(Counter(r['luong'] for r in hop_le)),
         'theo_loai': dict(Counter(r['loai'] for r in hop_le)),
         'ly_do_loai': dict(Counter(x for r in loai_bo for x in r['ly_do'].split(';'))),
@@ -126,5 +133,10 @@ def main(luong):
 
 
 if __name__ == '__main__':
-    luong = sys.argv[1:] or sorted(p.name for p in THU_MUC.glob('luong_*') if p.is_dir())
-    main(luong)
+    # Không đối số: kiểm mọi luồng, ghi ket_qua/. Có đối số: ghi ket_qua/<tên luồng>/ để các luồng chạy song song
+    # không ghi đè kết quả của nhau.
+    if sys.argv[1:]:
+        main(sys.argv[1:], THU_MUC / 'ket_qua' / '_'.join(sys.argv[1:]))
+    else:
+        main(sorted(p.name for p in THU_MUC.iterdir() if p.is_dir() and p.name.startswith(('luong_', 'mb_'))),
+             THU_MUC / 'ket_qua')
