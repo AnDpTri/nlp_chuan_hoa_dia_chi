@@ -157,6 +157,36 @@ def _tinh_cua_duong_di(duong_di, dm):
     return set() if provinces is None else provinces
 
 
+# Bốn bước sửa sau ranker. Mỗi bước nhận danh sách `close` (các giả thuyết gần điểm nhất, phần tử đầu là
+# giả thuyết được chọn) và trả `close` mới; giả thuyết được chọn luôn là close[0].
+
+def _uu_tien_ten_hien_hanh(close):
+    """Bước 1. Tên hiện hành thắng tên cũ khi điểm gần bằng: tên cũ chỉ dùng khi không còn cách hiểu nào
+    bằng tên hiện hành."""
+    hien_hanh = [x for x in close if not any(u.ten_cu for u in x[1].ung_vien)]
+    return hien_hanh if hien_hanh and len(hien_hanh) < len(close) else close
+
+
+def _thay_bang_mo_rong_nhat_quan(close, ranked, dm, crf_context):
+    """Bước 2. Ranker bỏ qua đơn vị mà bỏ hay giữ đều ra cùng đáp án lúc train; nếu có giả thuyết giải thích
+    thêm đúng phần đó mà không đổi mã kết quả thì dùng nó làm giả thuyết được chọn."""
+    mo_rong = gia_thuyet_mo_rong_nhat_quan(close[0], ranked, dm, crf_context)
+    return close if mo_rong is None else [mo_rong] + close[1:]
+
+
+def _them_gia_thuyet_tuong_duong(close, ranked, crf_context):
+    """Bước 3. Thêm các giả thuyết bằng chứng ngang giả thuyết được chọn để bước chuyển đổi và chọn tỉnh
+    biết câu còn cách hiểu khác (không chọn bừa giữa chúng)."""
+    them = gia_thuyet_tuong_duong(close[0][1], ranked, crf_context)
+    return close + [x for x in them if all(x is not c for c in close)]
+
+
+def _chon_tinh(close, dm):
+    """Bước 4. Mã tỉnh chỉ được chọn khi mọi giả thuyết trong `close` cùng chỉ về đúng một tỉnh mới."""
+    tinh = set().union(*[_tinh_cua_duong_di(x[1], dm) for x in close])
+    return next(iter(tinh)) if len(tinh) == 1 else ""
+
+
 class BoLamSach:
     PHIEN_BAN = "baseline_luat_v3"
 
@@ -252,19 +282,11 @@ class BoLamSach:
         score, best, detail, spans, unknown, inferred = ranked[0]
         margin = self.bo_xep_hang.nguong_gan if self.bo_xep_hang is not None else .65
         close = [x for x in ranked if score - x[0] <= margin]
-        # Tên hiện hành thắng tên cũ khi điểm gần bằng: tên cũ chỉ dùng khi không còn cách hiểu nào bằng tên hiện hành.
-        hien_hanh = [x for x in close if not any(u.ten_cu for u in x[1].ung_vien)]
-        if hien_hanh and len(hien_hanh) < len(close):
-            close = hien_hanh
-            score, best, detail, spans, unknown, inferred = close[0]
-        mo_rong = gia_thuyet_mo_rong_nhat_quan(close[0], ranked, self.danh_muc, crf_context)
-        if mo_rong is not None:
-            close = [mo_rong] + close[1:]
-            score, best, detail, spans, unknown, inferred = mo_rong
-        close = close + [x for x in gia_thuyet_tuong_duong(best, ranked, crf_context) if all(x is not c for c in close)]
-        provinces_sets = [_tinh_cua_duong_di(x[1], self.danh_muc) for x in close]
-        positive_provinces = set().union(*provinces_sets)
-        ma_tinh = next(iter(positive_provinces)) if len(positive_provinces) == 1 else ""
+        close = _uu_tien_ten_hien_hanh(close)
+        close = _thay_bang_mo_rong_nhat_quan(close, ranked, self.danh_muc, crf_context)
+        score, best, detail, spans, unknown, inferred = close[0]
+        close = _them_gia_thuyet_tuong_duong(close, ranked, crf_context)
+        ma_tinh = _chon_tinh(close, self.danh_muc)
         return score, best, detail, spans, unknown, inferred, close, ranked, ma_tinh
 
     def _xu_ly_duong_va_canh_bao(self, detail, spans, unknown, tokens, ma_tinh, chuoi, cam=frozenset()):
