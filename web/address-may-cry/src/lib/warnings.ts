@@ -5,6 +5,10 @@ export interface WarningInfo {
 }
 
 export const WARNING_INFO: Record<string, WarningInfo> = {
+  xa_chia_suy_tu_duong: {
+    label: 'Xã/phường mới suy ra từ tên đường',
+    desc: 'Xã/phường cũ trong địa chỉ đã được chia về nhiều nơi. Hệ thống chọn xã/phường mới theo tên đường, dựa trên vị trí các số nhà đã biết trên đường đó (dữ liệu bản đồ cộng đồng, chưa phải xác nhận chính thức) — nên kiểm tra lại.',
+  },
   thieu_xa: {
     label: 'Chưa nhận ra xã/phường',
     desc: 'Không tìm thấy tên xã/phường trong địa chỉ. Hãy bổ sung hoặc kiểm tra lại cách viết.',
@@ -32,6 +36,10 @@ export const WARNING_INFO: Record<string, WarningInfo> = {
   mau_thuan_hanh_chinh: {
     label: 'Các cấp hành chính không khớp nhau',
     desc: 'Xã/phường, quận/huyện và tỉnh/thành phố trong địa chỉ không thuộc cùng một nơi.',
+  },
+  don_vi_ghi_khong_khop: {
+    label: 'Có đơn vị ghi không khớp',
+    desc: 'Một đơn vị trong địa chỉ (thường là quận/huyện) không chứa xã/phường đã ghi. Kết quả lấy theo xã/phường và tỉnh, bỏ qua đơn vị không khớp — hãy kiểm tra lại.',
   },
   phan_chua_phan_loai: {
     label: 'Còn đoạn chữ chưa phân loại',
