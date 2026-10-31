@@ -1,0 +1,19 @@
+{
+  "dev_rows": 1136,
+  "dev_nonempty_ward_ref": 916,
+  "dev_empty_ward_ref": 220,
+  "error_rows": 220,
+  "errors_with_beam_oracle6": 67,
+  "oracle_errors_by_category": {
+    "CO_TRONG_BEAM_NHUNG_XEP_HANG_SAI": 38,
+    "MO_HO_HOAC_NHAN_NHIEU": 29
+  },
+  "correct_rows_with_oracle6_inferred": 915,
+  "detail_group_flags": {
+    "loi_duong": 95,
+    "loi_so_nha": 24,
+    "loi_thon_xom": 1,
+    "loi_ngo_ngach_hem": 8
+  },
+  "changed_manifest_files": []
+}

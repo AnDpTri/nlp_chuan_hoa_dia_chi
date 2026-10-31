@@ -37,6 +37,7 @@ from src.lien_ket_v1.du_lieu_linking import (
     LinkingSampleBuilder,
     extract_geo_features,
     split_dataset_by_family,
+    choose_gold_linking_candidate,
 )
 from src.lien_ket_v1.adapter_linking import NeuralLinkingAdapter
 from src.danh_muc import DanhMuc
@@ -85,7 +86,7 @@ def prepare_eval_instances(
     device: torch.device,
     max_instances: int = 300,
 ) -> List[Dict[str, Any]]:
-    """Tạo test instances độc lập để đo Top-1, Recall@3, Recall@5, Coverage, Ambiguity."""
+    """Tạo instances chẩn đoán từ train-derived rows, không phải held-out test."""
     instances = []
     tag_to_cap = {"xa": "xa", "xa_phuong": "xa", "huyen": "huyen", "tinh": "tinh", "tinh_thanh": "tinh"}
 
@@ -128,13 +129,11 @@ def prepare_eval_instances(
                 if not span_text:
                     continue
 
-                matching_dvs = name_lookup.get(span_text.casefold(), [])
-                pos_cand = None
-                for dv in matching_dvs:
-                    if dv.cap == cap:
-                        pos_cand = dv
-                        break
-                if not pos_cand:
+                # Nhãn đánh giá không được phụ thuộc thứ tự ứng viên trùng tên.
+                pos_cand = choose_gold_linking_candidate(
+                    span_text, cap, row.get("ref"), name_lookup
+                )
+                if pos_cand is None:
                     continue
 
                 mention_vec = model.extract_span_vector(hidden, piece_for_char, start, end).cpu()
@@ -211,20 +210,20 @@ def evaluate_e2e_dataset(
     dev_rows: List[Dict[str, Any]],
     clean_dir: Optional[Path] = None,
 ) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
-    """Đánh giá End-to-End trên tập dữ liệu và so khớp 6 trường kết quả."""
+    """Đo baseline luật (KHÔNG tích hợp NeuralLinkingAdapter) trên 6 trường."""
     total = len(dev_rows)
     if total == 0:
         return {"total": 0, "exact_match": 0, "accuracy": 0.0}, []
 
-    logger.info(f"Đánh giá End-to-End trên {dataset_name} ({total} dòng)...")
+    logger.info(f"Đánh giá baseline luật, KHÔNG phải Linking, trên {dataset_name} ({total} dòng)...")
     exact_match = 0
-    field_matches = {"so_nha": 0, "ngo_ngach_hem": 0, "duong": 0, "thon_xom": 0, "xa_phuong": 0, "tinh_thanh": 0}
+    field_matches = {"so_nha": 0, "ngo_ngach_hem": 0, "duong": 0, "thon_xom": 0, "xa_phuong": 0, "tinh": 0}
     per_sentence_results = []
 
     pipeline = BoChuanHoa(danh_muc=DanhMuc(thu_muc=clean_dir) if clean_dir else DanhMuc())
 
     for row in dev_rows:
-        raw_input = row.get("dia_chi_goc") or row.get("input") or row.get("raw") or ""
+        raw_input = row.get("dau_vao") or row.get("dia_chi_goc") or row.get("input") or row.get("raw") or ""
         res = pipeline.chuan_hoa(raw_input)
 
         pred_so_nha = (getattr(res, "so_nha", "") or "").strip()
@@ -232,14 +231,14 @@ def evaluate_e2e_dataset(
         pred_duong = (getattr(res, "duong", "") or "").strip()
         pred_thon = (getattr(res, "thon_xom", "") or "").strip()
         pred_xa = (getattr(res, "xa_phuong", "") or "").strip()
-        pred_tinh = (getattr(res, "tinh_thanh", "") or "").strip()
+        pred_tinh = (getattr(res, "tinh", "") or "").strip()
 
         gold_so_nha = (row.get("so_nha") or "").strip()
         gold_ngo = (row.get("ngo_ngach_hem") or "").strip()
         gold_duong = (row.get("duong") or "").strip()
         gold_thon = (row.get("thon_xom") or "").strip()
         gold_xa = (row.get("xa_phuong") or "").strip()
-        gold_tinh = (row.get("tinh_thanh") or "").strip()
+        gold_tinh = (row.get("tinh") or row.get("tinh_thanh") or "").strip()
 
         m_so_nha = (pred_so_nha == gold_so_nha)
         m_ngo = (pred_ngo == gold_ngo)
@@ -253,7 +252,7 @@ def evaluate_e2e_dataset(
         if m_duong: field_matches["duong"] += 1
         if m_thon: field_matches["thon_xom"] += 1
         if m_xa: field_matches["xa_phuong"] += 1
-        if m_tinh: field_matches["tinh_thanh"] += 1
+        if m_tinh: field_matches["tinh"] += 1
 
         is_exact = (m_so_nha and m_ngo and m_duong and m_thon and m_xa and m_tinh)
         if is_exact:
@@ -263,12 +262,13 @@ def evaluate_e2e_dataset(
             "id": row.get("id", ""),
             "input": raw_input,
             "exact_match": is_exact,
-            "pred": {"so_nha": pred_so_nha, "ngo_ngach_hem": pred_ngo, "duong": pred_duong, "thon_xom": pred_thon, "xa_phuong": pred_xa, "tinh_thanh": pred_tinh},
-            "gold": {"so_nha": gold_so_nha, "ngo_ngach_hem": gold_ngo, "duong": gold_duong, "thon_xom": gold_thon, "xa_phuong": gold_xa, "tinh_thanh": gold_tinh},
+            "pred": {"so_nha": pred_so_nha, "ngo_ngach_hem": pred_ngo, "duong": pred_duong, "thon_xom": pred_thon, "xa_phuong": pred_xa, "tinh": pred_tinh},
+            "gold": {"so_nha": gold_so_nha, "ngo_ngach_hem": gold_ngo, "duong": gold_duong, "thon_xom": gold_thon, "xa_phuong": gold_xa, "tinh": gold_tinh},
         })
 
     summary = {
         "dataset": dataset_name,
+        "measurement_scope": "rule_baseline_only_not_linking",
         "total": total,
         "exact_match": exact_match,
         "accuracy": round(exact_match / total * 100, 2),
@@ -345,7 +345,7 @@ def main():
         device=args.device,
     )
 
-    # 6. Đánh giá Linking Độc lập
+    # 6. Chẩn đoán Linking trên train-derived instances; KHÔNG phải held-out evaluation
     standalone_metrics = {}
     latency_metrics = {}
     data_path = Path(args.data_path)
@@ -370,7 +370,7 @@ def main():
             latency_metrics = measure_cpu_latency(adapter, instances, num_queries=100)
             logger.info(f"Độ trễ CPU: {latency_metrics}")
 
-    # 7. Đánh giá End-to-End Dev Gốc & Dev Khó
+    # 7. Đo baseline luật thuần, KHÔNG phải E2E Linking; báo cáo riêng để tránh nhầm lẫn
     dev_goc_path = Path(args.dev_goc_path)
     if not dev_goc_path.exists():
         alt = dev_goc_path.parent / "dev.csv" if dev_goc_path.name == "dev_goc.csv" else dev_goc_path.parent / "dev_goc.csv"
@@ -394,7 +394,7 @@ def main():
             f.write(json.dumps({"dataset": "dev_kho", **item}, ensure_ascii=False) + "\n")
 
     thong_ke = {
-        "standalone_linking_metrics": standalone_metrics,
+        "standalone_linking_metrics": {**standalone_metrics, "scope": "train_derived_diagnostic_not_independent"},
         "cpu_latency_benchmark": latency_metrics,
         "e2e_eval_dev_goc": summary_goc,
         "e2e_eval_dev_kho": summary_kho,
@@ -402,12 +402,12 @@ def main():
             "dev_goc": {
                 "baseline_cnn": "941/1136 (82.83%)",
                 "baseline_videberta_tay": "926/1136 (81.51%)",
-                "neural_linking": f"{summary_goc['exact_match']}/{summary_goc['total']} ({summary_goc['accuracy']}%)",
+                "rule_baseline_only": f"{summary_goc['exact_match']}/{summary_goc['total']} ({summary_goc['accuracy']}%)",
             },
             "dev_kho": {
                 "baseline_cnn": "337/464 (72.63%)",
                 "baseline_videberta_tay": "340/464 (73.28%)",
-                "neural_linking": f"{summary_kho['exact_match']}/{summary_kho['total']} ({summary_kho['accuracy']}%)",
+                "rule_baseline_only": f"{summary_kho['exact_match']}/{summary_kho['total']} ({summary_kho['accuracy']}%)",
             },
         },
     }
@@ -418,9 +418,9 @@ def main():
 
     # 9. Xuất báo cáo Markdown
     report_md = output_dir / "BAO_CAO_DANH_GIA.md"
-    md_content = f"""# Báo cáo Đánh giá Thí nghiệm Liên kết thực thể (Neural Linking v1)
+    md_content = f"""# Chẩn đoán thí nghiệm Linking v1 (chưa có E2E Linking hợp lệ)
 
-## 1. Kết quả Đánh giá Linking Độc lập
+## 1. Chẩn đoán Linking trên mẫu lấy từ tập train (không độc lập)
 - **Tổng số instances đánh giá**: {standalone_metrics.get('total_instances', 0)}
 - **Độ phủ (Coverage)**: {standalone_metrics.get('coverage_pct', 0.0)}% ({standalone_metrics.get('coverage_count', 0)}/{standalone_metrics.get('total_instances', 0)})
 - **Top-1 Accuracy**: **{standalone_metrics.get('top1_accuracy', 0.0)}%**
@@ -433,8 +433,8 @@ def main():
 - **Throughput CPU**: {latency_metrics.get('queries_per_sec', 0.0)} queries / giây
 *(Nhờ Candidate Cache được tính trước và cố định bằng hash validation, việc chấm điểm hàng chục ứng viên chỉ tốn các phép tính ma trận nhẹ trên vector đã cache, không cần gọi lại mô hình Transformer lớn)*.
 
-## 3. So sánh End-to-End Pipeline
-| Tập dữ liệu | Số mẫu | Baseline CNN | Baseline ViDeBERTa (Điểm tay) | Neural Linking Head v1 |
+## 3. Baseline luật không tích hợp Linking Head (không phải điểm của Linking)
+| Tập dữ liệu | Số mẫu | Baseline CNN (lịch sử) | ViDeBERTa (lịch sử) | Luật mặc định (không gắn Linking) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Dev Gốc** | {summary_goc['total']} | 941/1136 (82.83%) | 926/1136 (81.51%) | **{summary_goc['exact_match']}/{summary_goc['total']} ({summary_goc['accuracy']}%)** |
 | **Dev Khó** | {summary_kho['total']} | 337/464 (72.63%) | 340/464 (73.28%) | **{summary_kho['exact_match']}/{summary_kho['total']} ({summary_kho['accuracy']}%)** |

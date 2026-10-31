@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-10-30 08:02:39",
+  "git_branch": "feature/reach-95-accuracy",
+  "git_commit": "2d1ddb5",
+  "runtime": {
+    "python_version": "3.12.10",
+    "torch_version": "2.15.0+cpu",
+    "cuda_available": false,
+    "cpu_threads": 1
+  },
+  "config": {
+    "beam": 40,
+    "bao_ve_duong": true,
+    "tien_to_mac_dinh": true,
+    "hop_dong": false
+  },
+  "sha256": {
+    "src/chuan_hoa.py": "2cf3226b72a805c318a2b58a51111286e20e82d09009e0ef979e6e3e0718384d",
+    "src/char_cnn.py": "e185ba01de7109127b8969f2385094d1374643d8aa15df865f691ad3ef577369",
+    "src/crf_chi_tiet.py": "7c88b04c55902d0234bdea7750331cd9d92d3fd1de90277416476bddc7e4e357",
+    "src/chuan_ten_duong.py": "5e47ba3c962b6e5c72c4dcdb959f47624010e9e33fc15bcca710fdf00f0e4f17",
+    "src/chuyen_doi.py": "f1bf62d42cc4257e686db7362597ed60caae359475d6e66adfbeef8f8a58a827",
+    "src/danh_muc.py": "c4a72733ee810e0ec82cf4ce68b08440b89394b5de1a231eaf53a141216d3371",
+    "src/giai_ma.py": "59b5ff58c4d68723e121022c7270fc9d6f560f9f2e55b3084e9a72ac04c481e4",
+    "src/tim_kiem.py": "b4198c112511b0ee7805a8d7ba9399a4097cc442b078f624c7a884adfbae8933",
+    "src/xep_hang.py": "3050c347bc9336ae79e1adef12ad1eebe2b46a29d2e1e5865c182b947b2ba220",
+    "src/videberta.py": "f5dcb9db9aad9533d92eb534144eee0e0345fd8b2f6bf081b1ae37bf01f02b54",
+    "mo_hinh/thu_nghiem/char_v2_01/char_cnn.pt": "c56e96b037caac510b507916209cb6b93dcaa5815cca360f6f0704d99dbb0081",
+    "mo_hinh/thu_nghiem/char_v2_01/ranker.txt": "be0b386289a78247675850b56df9413505ed9983544b06b34953eb22c668ba5b",
+    "mo_hinh/thu_nghiem/char_v1_01/char_cnn.pt": "e27098f1fdeedd415f05b34632611f5a302526890d1e78ecd6d404bd991b4083",
+    "mo_hinh/thu_nghiem/char_v1_01/ranker.txt": "a2f407c2cefa719fa26d5d88f3ab2a17deb61e275a50a1a709ce93d6fed9ba9d",
+    "mo_hinh/thu_nghiem/videberta_v1_01/model/model.safetensors": "acc3d18b61a94e0659266b5995447d103a3ae3da5c4ff7eab66d3e0c4c421afb",
+    "danh_gia/ket_qua/tu_dien_duong_v5.json": "a2910d7b69fb6bf43a25f4136a26b692939b16c546c26acd6b06a25dc02d8e38",
+    "data/clean/cu_tinh.csv": "32755d21d198951adb6cfb562a74e3d18fddc526548791c5f66f9fc4d7441ead",
+    "data/clean/moi_tinh.csv": "e18687784707867b3b44a70265fc37881dea5b8f41fd4f00d8b3462c6345da96",
+    "data/clean/cu_huyen.csv": "0e7aa37a54ffd0ac4b87dac6f2c21ca122eef97b57e730bb0a44e572d68d0d4d",
+    "data/clean/cu_tinh_huyen_xa.csv": "f001bbaab0ede4148a9ec593f1c2d6a0bd3b76bc4122d9b65c8031fff2b80014",
+    "data/clean/moi_tinh_xa.csv": "c5aac8d75ba5ad0186f789dc5cc625b2194376e871734de2b89f166f1a702ffb",
+    "data/clean/doi_chieu_xa_cu_moi.csv": "42686490e40abcd2b2a38fef2c494ea6637d29e1b985c404aa9b274cff9c2218",
+    "data/train_dev/dev.csv": "dbf4fd536accd05f7fbd716e2c1e7d83e7db20854b60cf0c78c2fc36d2087cfe",
+    "mo_hinh/thu_nghiem/char_v1_01/snapshot/dev_kho.csv": "588767b2f5470d05a45296de24a6167f811296ed099a1b044165e5f0f9201421",
+    "data/train_dev/duyet_v2_01/train_da_loc.csv": "cda3f24da142f0c61b488a999457fe71982b7ae82eee32ebb6b345ed9ae39c0f"
+  }
+}

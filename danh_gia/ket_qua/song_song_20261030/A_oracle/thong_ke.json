@@ -1,0 +1,272 @@
+{
+  "manifest": {
+    "git_head": "2d1ddb5dab91a64e5105d0920a0af902fed4f58b",
+    "timestamp": "2026-10-30 08:38:46",
+    "cpu_threads": 1,
+    "python_version": "3.12.10",
+    "torch_version": "2.15.0+cpu",
+    "sha256_verified": true
+  },
+  "dev_goc": {
+    "so_mau": 1136,
+    "parity_check": {
+      "passed": 1117,
+      "total": 1136,
+      "pct": 98.33
+    },
+    "mau_so_nhan": {
+      "ward_nonempty": 916,
+      "ward_empty": 220,
+      "prov_nonempty": 1136,
+      "prov_empty": 0
+    },
+    "raw_candidate_coverage": {
+      "ward_on_nonempty": {
+        "count": 916,
+        "total": 916,
+        "pct": 100.0
+      },
+      "province_on_nonempty": {
+        "count": 1134,
+        "total": 1136,
+        "pct": 99.82
+      },
+      "both_on_nonempty": {
+        "count": 916,
+        "total": 916,
+        "pct": 100.0
+      }
+    },
+    "beam_admin_recall": {
+      "heuristic": {
+        "1": {
+          "count": 1095,
+          "pct": 96.39
+        },
+        "5": {
+          "count": 1130,
+          "pct": 99.47
+        },
+        "10": {
+          "count": 1133,
+          "pct": 99.74
+        },
+        "40": {
+          "count": 1133,
+          "pct": 99.74
+        }
+      },
+      "lightgbm": {
+        "1": {
+          "count": 1113,
+          "pct": 97.98
+        },
+        "5": {
+          "count": 1131,
+          "pct": 99.56
+        },
+        "10": {
+          "count": 1133,
+          "pct": 99.74
+        },
+        "40": {
+          "count": 1133,
+          "pct": 99.74
+        }
+      },
+      "beam_oracle_admin": {
+        "count": 1133,
+        "pct": 99.74
+      }
+    },
+    "bo_chon_top1_vs_oracle": {
+      "top1_heuristic": {
+        "count": 914,
+        "pct": 80.46
+      },
+      "top1_lightgbm": {
+        "count": 916,
+        "pct": 80.63
+      },
+      "beam_oracle_6": {
+        "count": 980,
+        "pct": 86.27
+      },
+      "ranking_headroom": {
+        "count": 64,
+        "pct_increase_potential": 5.63
+      },
+      "conditional_top1_when_oracle": {
+        "intersection_dung": 916,
+        "tong_oracle": 980,
+        "pct": 93.47
+      }
+    },
+    "delta_hai_chieu_heur_vs_lgb": {
+      "both_correct": 902,
+      "both_wrong": 208,
+      "lgb_gained_over_heur": 14,
+      "lgb_lost_over_heur": 12,
+      "net_diff": 2
+    },
+    "phan_ra_loi_lightgbm": {
+      "tong_so_loi": 220,
+      "nhom_chinh": {
+        "CO_TRONG_BEAM_NHUNG_XEP_HANG_SAI": {
+          "count": 64,
+          "pct_tren_tong_loi": 29.09
+        },
+        "LOI_CHI_TIET_HOAC_POSTPROCESS": {
+          "count": 153,
+          "pct_tren_tong_loi": 69.55
+        },
+        "THIEU_UNG_VIEN_THO": {
+          "count": 2,
+          "pct_tren_tong_loi": 0.91
+        },
+        "BI_LOAI_KHI_BEAM": {
+          "count": 1,
+          "pct_tren_tong_loi": 0.45
+        }
+      },
+      "co_phu_chong_lap": {
+        "nghi_nhan_duong_sai": 23,
+        "khac_duong": 137,
+        "canh_bao_xa_bi_chia": 57,
+        "khac_thon_xom": 7,
+        "khac_so_nha": 30,
+        "khac_ngo_ngach_hem": 17
+      }
+    }
+  },
+  "dev_kho": {
+    "so_mau": 464,
+    "parity_check": {
+      "passed": 456,
+      "total": 464,
+      "pct": 98.28
+    },
+    "mau_so_nhan": {
+      "ward_nonempty": 390,
+      "ward_empty": 74,
+      "prov_nonempty": 464,
+      "prov_empty": 0
+    },
+    "raw_candidate_coverage": {
+      "ward_on_nonempty": {
+        "count": 390,
+        "total": 390,
+        "pct": 100.0
+      },
+      "province_on_nonempty": {
+        "count": 464,
+        "total": 464,
+        "pct": 100.0
+      },
+      "both_on_nonempty": {
+        "count": 390,
+        "total": 390,
+        "pct": 100.0
+      }
+    },
+    "beam_admin_recall": {
+      "heuristic": {
+        "1": {
+          "count": 460,
+          "pct": 99.14
+        },
+        "5": {
+          "count": 464,
+          "pct": 100.0
+        },
+        "10": {
+          "count": 464,
+          "pct": 100.0
+        },
+        "40": {
+          "count": 464,
+          "pct": 100.0
+        }
+      },
+      "lightgbm": {
+        "1": {
+          "count": 460,
+          "pct": 99.14
+        },
+        "5": {
+          "count": 464,
+          "pct": 100.0
+        },
+        "10": {
+          "count": 464,
+          "pct": 100.0
+        },
+        "40": {
+          "count": 464,
+          "pct": 100.0
+        }
+      },
+      "beam_oracle_admin": {
+        "count": 464,
+        "pct": 100.0
+      }
+    },
+    "bo_chon_top1_vs_oracle": {
+      "top1_heuristic": {
+        "count": 332,
+        "pct": 71.55
+      },
+      "top1_lightgbm": {
+        "count": 330,
+        "pct": 71.12
+      },
+      "beam_oracle_6": {
+        "count": 345,
+        "pct": 74.35
+      },
+      "ranking_headroom": {
+        "count": 15,
+        "pct_increase_potential": 3.23
+      },
+      "conditional_top1_when_oracle": {
+        "intersection_dung": 330,
+        "tong_oracle": 345,
+        "pct": 95.65
+      }
+    },
+    "delta_hai_chieu_heur_vs_lgb": {
+      "both_correct": 330,
+      "both_wrong": 132,
+      "lgb_gained_over_heur": 0,
+      "lgb_lost_over_heur": 2,
+      "net_diff": -2
+    },
+    "phan_ra_loi_lightgbm": {
+      "tong_so_loi": 134,
+      "nhom_chinh": {
+        "CO_TRONG_BEAM_NHUNG_XEP_HANG_SAI": {
+          "count": 15,
+          "pct_tren_tong_loi": 11.19
+        },
+        "LOI_CHI_TIET_HOAC_POSTPROCESS": {
+          "count": 119,
+          "pct_tren_tong_loi": 88.81
+        },
+        "THIEU_UNG_VIEN_THO": {
+          "count": 0,
+          "pct_tren_tong_loi": 0.0
+        },
+        "BI_LOAI_KHI_BEAM": {
+          "count": 0,
+          "pct_tren_tong_loi": 0.0
+        }
+      },
+      "co_phu_chong_lap": {
+        "khac_duong": 119,
+        "khac_so_nha": 3,
+        "nghi_nhan_duong_sai": 20,
+        "khac_thon_xom": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "raw": "37/21ĐườngPhạmVănThuận, Phường Tam Hiệp, Tỉnh Đồng Nai",
+    "duong": "Đường Phạm Văn Thuận",
+    "transformer_calls": 0,
+    "same_grid": true,
+    "cnn_tokens": [
+      "37/21",
+      "ĐườngPhạmVănThuận",
+      ",",
+      "Phường",
+      "Tam",
+      "Hiệp",
+      ",",
+      "Tỉnh",
+      "Đồng",
+      "Nai"
+    ],
+    "vb_tokens": [
+      "37/21",
+      "ĐườngPhạmVănThuận",
+      ",",
+      "Phường",
+      "Tam",
+      "Hiệp",
+      ",",
+      "Tỉnh",
+      "Đồng",
+      "Nai"
+    ],
+    "baseline_current_duong": "Đường Đườngphạmvănthuận"
+  },
+  {
+    "raw": "47/9ĐườngTrầnHưngĐạo, Đặc khu Phú Quốc, Tỉnh An Giang",
+    "duong": "Đường Trần Hưng Đạo",
+    "transformer_calls": 0,
+    "same_grid": true,
+    "cnn_tokens": [
+      "47/9",
+      "ĐườngTrầnHưngĐạo",
+      ",",
+      "Đặc",
+      "khu",
+      "Phú",
+      "Quốc",
+      ",",
+      "Tỉnh",
+      "An",
+      "Giang"
+    ],
+    "vb_tokens": [
+      "47/9",
+      "ĐườngTrầnHưngĐạo",
+      ",",
+      "Đặc",
+      "khu",
+      "Phú",
+      "Quốc",
+      ",",
+      "Tỉnh",
+      "An",
+      "Giang"
+    ],
+    "baseline_current_duong": "Đường Đườngtrầnhưngđạo"
+  },
+  {
+    "raw": "35/6ĐườngChuVănAn, Phường Thuận Hóa, Thành phố Huế",
+    "duong": "Đường Chu Văn An",
+    "transformer_calls": 0,
+    "same_grid": true,
+    "cnn_tokens": [
+      "35/6",
+      "ĐườngChuVănAn",
+      ",",
+      "Phường",
+      "Thuận",
+      "Hóa",
+      ",",
+      "Thành",
+      "phố",
+      "Huế"
+    ],
+    "vb_tokens": [
+      "35/6",
+      "ĐườngChuVănAn",
+      ",",
+      "Phường",
+      "Thuận",
+      "Hóa",
+      ",",
+      "Thành",
+      "phố",
+      "Huế"
+    ],
+    "baseline_current_duong": "Đường Đườngchuvănan"
+  },
+  {
+    "raw": "68/5AĐườngTrầnQuangKhải, Phường Tân Định, Thành phố Hồ Chí Minh",
+    "duong": "Đường Trần Quang Khải",
+    "transformer_calls": 0,
+    "same_grid": true,
+    "cnn_tokens": [
+      "68/5A",
+      "ĐườngTrầnQuangKhải",
+      ",",
+      "Phường",
+      "Tân",
+      "Định",
+      ",",
+      "Thành",
+      "phố",
+      "Hồ",
+      "Chí",
+      "Minh"
+    ],
+    "vb_tokens": [
+      "68/5A",
+      "ĐườngTrầnQuangKhải",
+      ",",
+      "Phường",
+      "Tân",
+      "Định",
+      ",",
+      "Thành",
+      "phố",
+      "Hồ",
+      "Chí",
+      "Minh"
+    ],
+    "baseline_current_duong": "Đường Đườngtrầnquangkhải"
+  }
+]

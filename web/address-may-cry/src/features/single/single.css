@@ -1,0 +1,132 @@
+/* ===== Màn một địa chỉ ===== */
+.single-page {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: var(--space-5) max(16px, env(safe-area-inset-right)) var(--space-6) max(16px, env(safe-area-inset-left));
+}
+.page-intro { margin-bottom: var(--space-5); max-width: 46rem; }
+.page-intro h1 { font-size: var(--fs-xl); font-weight: 700; letter-spacing: -0.02em; margin-bottom: var(--space-2); }
+.page-intro p { color: var(--muted); font-size: var(--fs-md); }
+
+.single-grid { display: grid; gap: var(--space-4); align-items: start; grid-template-columns: minmax(0, 1fr); }
+.single-side { display: grid; gap: var(--space-3); min-width: 0; }
+.single-main { min-width: 0; }
+@media (min-width: 1024px) {
+  .single-grid { grid-template-columns: minmax(340px, 400px) minmax(0, 1fr); gap: var(--space-5); }
+ }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: var(--space-4);
+  box-shadow: var(--shadow-card);
+  min-width: 0;
+}
+.card-title { font-size: var(--fs-md); font-weight: 700; margin-bottom: var(--space-3); }
+.sub-title { font-size: var(--fs-sm); font-weight: 600; color: var(--muted); margin-bottom: var(--space-2); }
+.muted-note { font-size: var(--fs-sm); color: var(--muted); }
+
+/* Ô nhập */
+.field-label { display: block; font-size: var(--fs-sm); font-weight: 600; margin-bottom: 6px; }
+.address-textarea {
+  display: block;
+  width: 100%;
+  min-height: 112px;
+  padding: 12px 14px;
+  line-height: 1.6;
+  resize: vertical;
+  transition: border-color var(--duration-fast) var(--ease-standard), box-shadow var(--duration-fast) var(--ease-standard);
+}
+.address-textarea:hover { border-color: var(--muted); }
+.address-textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent); }
+.address-textarea[aria-invalid="true"] { border-color: var(--negative); }
+.field-meta { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; font-size: var(--fs-xs); color: var(--muted); }
+kbd { font-family: var(--font-mono); font-size: 0.85em; padding: 1px 6px; border: 1px solid var(--border-strong); border-bottom-width: 2px; border-radius: 4px; background: var(--raised); }
+.field-error { margin-top: var(--space-2); font-size: var(--fs-sm); color: var(--negative); font-weight: 500; }
+
+.action-row { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-4); }
+.btn-main { flex: 1 1 100%; }
+
+/* Ví dụ mẫu */
+.samples { margin-top: var(--space-5); padding-top: var(--space-4); border-top: 1px solid var(--border); }
+.sample-list { list-style: none; display: grid; gap: var(--space-2); }
+.sample-btn {
+  width: 100%;
+  min-height: 44px;
+  display: grid;
+  gap: 2px;
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--raised);
+  transition: border-color var(--duration-fast) var(--ease-standard), background-color var(--duration-fast) var(--ease-standard);
+}
+.sample-btn:hover { border-color: var(--accent); background: var(--accent-light); }
+.sample-label { font-size: var(--fs-xs); font-weight: 600; color: var(--accent); }
+.sample-value { font-size: var(--fs-sm); color: var(--text); overflow-wrap: anywhere; }
+
+/* Lịch sử */
+.history-card { padding: 0; }
+.history-card > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; min-height: 48px; padding: 0 var(--space-4); font-weight: 600; font-size: var(--fs-sm); }
+.history-card > summary::-webkit-details-marker { display: none; }
+.history-card > summary::after { content: '+'; font-size: 1.25rem; color: var(--muted); }
+.history-card[open] > summary::after { content: '−'; }
+.history-body { padding: 0 var(--space-4) var(--space-4); display: grid; gap: var(--space-2); }
+.history-list { list-style: none; display: grid; gap: 6px; }
+.history-btn { width: 100%; min-height: 44px; text-align: left; display: grid; gap: 2px; padding: 8px 12px; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--raised); }
+.history-btn:hover { border-color: var(--accent); background: var(--accent-light); }
+.history-meta { font-size: var(--fs-xs); color: var(--muted); }
+.history-input { font-size: var(--fs-sm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Vùng kết quả */
+.result-stack { display: grid; gap: var(--space-3); min-width: 0; }
+.result-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.result-head-main { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); }
+.result-head .card-title { margin: 0; font-size: var(--fs-lg); }
+.review-note { padding: 10px 14px; border-radius: var(--radius-control); background: var(--pill-warning-bg); color: var(--pill-warning-ink); font-size: var(--fs-sm); font-weight: 500; border: 1px solid var(--warning); }
+
+.full-line { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.full-line-text { min-width: 0; flex: 1; }
+.full-line-value { font-weight: 600; overflow-wrap: anywhere; }
+
+.unclassified { padding: 2px 8px; border-radius: var(--radius-small); background: var(--raised); border: 1px dashed var(--border-strong); overflow-wrap: anywhere; }
+
+/* Các trường tách riêng */
+.fields { display: grid; gap: var(--space-2); grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
+.field-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px var(--space-2); align-items: center; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--raised); min-width: 0; }
+.field-item dt { grid-column: 1 / -1; font-size: var(--fs-xs); font-weight: 600; color: var(--muted); }
+.field-item dd { min-width: 0; display: grid; gap: 2px; }
+.field-value { font-weight: 600; overflow-wrap: anywhere; }
+.field-code { font-size: var(--fs-xs); color: var(--muted); }
+.field-empty { color: var(--faint); font-style: italic; }
+.field-copy { padding: 0 8px; }
+
+/* Thông báo lỗi, đang tải, trạng thái trống */
+.alert-box { display: flex; gap: var(--space-3); padding: var(--space-4); border-radius: var(--radius-card); background: var(--pill-negative-bg); color: var(--pill-negative-ink); border: 1px solid var(--negative); margin-bottom: var(--space-3); }
+.alert-box > svg { flex: none; margin-top: 2px; }
+.alert-box strong { display: block; margin-bottom: 2px; }
+.alert-box p { margin-bottom: var(--space-3); font-size: var(--fs-sm); }
+
+.skeleton { display: grid; gap: var(--space-3); padding: var(--space-4); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); }
+.skeleton p { font-size: var(--fs-sm); color: var(--muted); }
+.skel-bar { height: 56px; border-radius: var(--radius-control); background: linear-gradient(90deg, var(--raised), var(--active), var(--raised)); background-size: 200% 100%; animation: shimmer 1.4s linear infinite; }
+.skel-bar.short { width: 60%; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) { .skel-bar { animation: none; } }
+
+.empty-state { background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius-card); padding: var(--space-5); display: grid; gap: var(--space-3); }
+.empty-state .card-title { margin: 0; }
+.guide { list-style: none; display: grid; gap: var(--space-4); }
+.guide li { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: var(--space-3); }
+.guide-n { width: 32px; height: 32px; border-radius: 50%; background: var(--accent-light); color: var(--accent); display: grid; place-items: center; font-weight: 700; }
+.guide strong { display: block; }
+.guide p { color: var(--muted); font-size: var(--fs-sm); }
+
+@media (max-width: 479px) {
+  .full-line { flex-direction: column; align-items: stretch; }
+  .full-line .copy-btn { align-self: flex-start; }
+  .empty-state { padding: var(--space-4); }
+}
+#result-title { scroll-margin-top: calc(var(--header-h) + 72px); outline: none; }

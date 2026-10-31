@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "source_rows": {
+    "train": 4564,
+    "dev": 1136,
+    "v2": 3000,
+    "test": 400
+  },
+  "overlaps": {
+    "train_dev": {
+      "text": 0,
+      "osm": 0,
+      "masked": 75
+    },
+    "train_test": {
+      "text": 0,
+      "osm": 0,
+      "masked": 17
+    },
+    "dev_test": {
+      "text": 0,
+      "osm": 0,
+      "masked": 6
+    },
+    "v2_dev": {
+      "text": 0,
+      "osm": 0,
+      "masked": 0
+    },
+    "v2_test": {
+      "text": 0,
+      "osm": 0,
+      "masked": 0
+    },
+    "v2_train": {
+      "text": 78,
+      "osm": 0,
+      "masked": 81
+    }
+  },
+  "v2_manifest_hash_ok": {
+    "train_bo_sung_v2.csv": true,
+    "train_spans_v2.jsonl": true,
+    "token_spans_v2.jsonl": true,
+    "anti_leakage_audit.json": true,
+    "distribution_summary.json": true,
+    "label_fix_diff.json": true
+  },
+  "test_status_from_csv": {
+    "da_duyet_ai": 289,
+    "can_duyet": 111
+  },
+  "test_human_reviewed": 0,
+  "test_gold_ready": false,
+  "test_sha256_valid": true,
+  "clean_structural_pass": true,
+  "errors": [],
+  "warnings": [
+    "train_dev: possible shared family (heuristic only)",
+    "train_test: possible shared family (heuristic only)",
+    "dev_test: possible shared family (heuristic only)",
+    "v2_train: possible shared family (heuristic only)",
+    "v2_train: repeated inputs; deduplicate before combining",
+    "test: statistics.json AI count is stale",
+    "test: statistics.json pending count is stale",
+    "test: provisional only, not gold"
+  ],
+  "status": "WARN",
+  "limitations": [
+    "Masked-family overlap is a warning, not proof of leakage.",
+    "Exact overlap checks cannot rule out semantic duplicates or test exposure.",
+    "Structural validation cannot certify annotation correctness.",
+    "Held-out test must not be used to tune models, rules or dictionaries.",
+    "Audit output excludes raw addresses, OSM links and labels."
+  ]
+}

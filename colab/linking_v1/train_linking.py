@@ -38,6 +38,7 @@ from src.lien_ket_v1.du_lieu_linking import (
     LinkingSampleBuilder,
     extract_geo_features,
     split_dataset_by_family,
+    choose_gold_linking_candidate,
 )
 from src.danh_muc import DanhMuc
 from src.videberta import encode_text, load_tokenizer
@@ -164,14 +165,11 @@ def extract_instances_from_rows(
                 if not span_text:
                     continue
 
-                # Tìm positive candidate
-                matching_dvs = name_lookup.get(span_text.casefold(), [])
-                pos_cand = None
-                for dv in matching_dvs:
-                    if dv.cap == cap:
-                        pos_cand = dv
-                        break
-                if not pos_cand:
+                # Căn cứ mã nhãn nguồn/đích; không lấy ứng viên đầu tiên khi trùng tên.
+                pos_cand = choose_gold_linking_candidate(
+                    span_text, cap, row.get("ref"), name_lookup
+                )
+                if pos_cand is None:
                     continue
 
                 # Trích xuất mention vector
